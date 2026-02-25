@@ -1,0 +1,203 @@
+.container {
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* ---- Profile bar ---- */
+
+.profileBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  padding: 1.25rem 1.5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profileInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--accent-dim);
+}
+
+.profileName {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+}
+
+.profileId {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+}
+
+.statsRow {
+  display: flex;
+  gap: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+}
+
+.statLabel {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+  letter-spacing: 0.12em;
+}
+
+/* ---- Game grid ---- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.gameCard {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.08);
+  overflow: hidden;
+  text-align: left;
+  transition:
+    border-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.gameCard:hover {
+  border-color: var(--accent-dim);
+  transform: translateY(-2px);
+}
+
+.gameSelected {
+  border-color: var(--accent);
+}
+
+.gameHeader {
+  position: relative;
+  aspect-ratio: 460 / 215;
+  overflow: hidden;
+  background: var(--bg-hover);
+}
+
+.gameImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gameOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 50%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0.5rem 0.75rem;
+}
+
+.gameHours {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent-bright);
+  letter-spacing: 0.04em;
+}
+
+.gameInfo {
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gameName {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+/* ---- Achievement bar ---- */
+
+.achievementBar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.achievementTrack {
+  flex: 1;
+  height: 4px;
+  background: var(--bg-hover);
+  overflow: hidden;
+}
+
+.achievementFill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.6s ease-out;
+}
+
+.achievementText {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+/* ---- Hint ---- */
+
+.hint {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  text-align: center;
+  padding: 1rem;
+  opacity: 0.6;
+}
+
+.hint code {
+  background: var(--bg-secondary);
+  padding: 0.15rem 0.4rem;
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .profileBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

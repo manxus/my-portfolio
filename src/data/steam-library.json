@@ -1,0 +1,60 @@
+{
+  "fetchedAt": "2026-02-24T00:00:00.000Z",
+  "profile": {
+    "steamId": "YOUR_STEAM_ID",
+    "personaName": "YourUsername",
+    "avatarUrl": "",
+    "profileUrl": "https://steamcommunity.com/profiles/YOUR_STEAM_ID",
+    "lastLogoff": null
+  },
+  "games": [
+    {
+      "appId": 620,
+      "name": "Portal 2",
+      "playtimeHours": 142.5,
+      "iconUrl": "",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+      "achievements": { "total": 51, "unlocked": 48 }
+    },
+    {
+      "appId": 730,
+      "name": "Counter-Strike 2",
+      "playtimeHours": 1203.2,
+      "iconUrl": "",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
+      "achievements": { "total": 167, "unlocked": 89 }
+    },
+    {
+      "appId": 570,
+      "name": "Dota 2",
+      "playtimeHours": 856.1,
+      "iconUrl": "",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg",
+      "achievements": null
+    },
+    {
+      "appId": 1174180,
+      "name": "Red Dead Redemption 2",
+      "playtimeHours": 210.3,
+      "iconUrl": "",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+      "achievements": { "total": 54, "unlocked": 42 }
+    },
+    {
+      "appId": 1091500,
+      "name": "Cyberpunk 2077",
+      "playtimeHours": 185.7,
+      "iconUrl": "",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+      "achievements": { "total": 44, "unlocked": 38 }
+    },
+    {
+      "appId": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "playtimeHours": 320.4,
+      "iconUrl": "",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+      "achievements": { "total": 78, "unlocked": 65 }
+    }
+  ]
+}

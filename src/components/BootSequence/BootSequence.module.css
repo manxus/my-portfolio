@@ -1,0 +1,102 @@
+.container {
+  position: fixed;
+  inset: 0;
+  background: var(--bg-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.scanlines {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.08) 2px,
+    rgba(0, 0, 0, 0.08) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.screen {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+}
+
+.terminal {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--terminal);
+  flex: 1;
+}
+
+.line {
+  white-space: pre-wrap;
+  word-break: break-all;
+  min-height: 1.7em;
+}
+
+.highlight {
+  color: var(--terminal-bright);
+  font-weight: 400;
+  margin-top: 0.25em;
+}
+
+.cursor {
+  color: var(--terminal-bright);
+  animation: blink 0.7s step-end infinite;
+}
+
+.prompt {
+  margin-top: 1.5rem;
+  color: var(--terminal-bright);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.skipHint {
+  position: absolute;
+  bottom: 1rem;
+  right: 2.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .screen {
+    padding: 1.5rem;
+    min-height: 70vh;
+  }
+
+  .terminal {
+    font-size: 0.75rem;
+  }
+}

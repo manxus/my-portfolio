@@ -1,0 +1,259 @@
+.container {
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* ---- Section ---- */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--accent-dim);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sectionIcon {
+  color: var(--accent-bright);
+  font-family: var(--font-mono);
+}
+
+/* ---- Timeline ---- */
+
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--accent-dim);
+}
+
+.timelineItem {
+  position: relative;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -1.5rem;
+  top: 0.5rem;
+  width: 11px;
+  height: 11px;
+  background: var(--bg-deep);
+  border: 2px solid var(--accent);
+}
+
+/* ---- Card ---- */
+
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  padding: 1.25rem 1.5rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cardTitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+}
+
+.cardPeriod {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  flex-shrink: 0;
+}
+
+.cardCompany {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-top: 0.2rem;
+  letter-spacing: 0.04em;
+}
+
+.cardDesc {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-top: 0.6rem;
+}
+
+.highlights {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.highlights li {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.highlights li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ---- Playtests ---- */
+
+.playtestGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.playtestCard {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  padding: 1rem 1.25rem;
+}
+
+.playtestType {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-dim);
+  padding: 0.15rem 0.5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.playtestTitle {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+}
+
+.playtestMeta {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  margin-top: 0.35rem;
+}
+
+/* ---- Certificates ---- */
+
+.certGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.certCard {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.certName {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+}
+
+.certMeta {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+}
+
+/* ---- Skills ---- */
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.skillGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.skillCategory {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.skillTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.skillTag {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.12);
+  padding: 0.25rem 0.6rem;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 2rem;
+  }
+
+  .playtestGrid,
+  .certGrid,
+  .skillsGrid {
+    grid-template-columns: 1fr;
+  }
+}

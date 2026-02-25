@@ -1,0 +1,32 @@
+:root {
+  --bg-deep: #0a0f12;
+  --bg-primary: #111a20;
+  --bg-secondary: #182028;
+  --bg-hover: #1a2c35;
+  --bg-active: #162229;
+
+  --text-primary: #d0dce3;
+  --text-secondary: #7a9099;
+  --text-dim: #3e555e;
+
+  --accent: #5f8f8f;
+  --accent-bright: #82bfbf;
+  --accent-dim: #3d6363;
+  --accent-glow: rgba(95, 143, 143, 0.12);
+
+  --terminal: #5f8f8f;
+  --terminal-bright: #82bfbf;
+
+  --danger: #c45050;
+  --danger-dim: #8a3535;
+
+  --menu-width: 420px;
+
+  --font-heading: 'Oswald', sans-serif;
+  --font-mono: 'Share Tech Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+}

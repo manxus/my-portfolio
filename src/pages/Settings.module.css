@@ -1,0 +1,231 @@
+.container {
+  max-width: 720px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--accent-dim);
+  opacity: 0.8;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0.4rem 0;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+/* ---- Segmented buttons ---- */
+
+.segmented {
+  display: flex;
+  border: 1px solid var(--accent-dim);
+}
+
+.segmentBtn {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 0.9rem;
+  color: var(--text-dim);
+  border-right: 1px solid var(--accent-dim);
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.segmentBtn:last-child {
+  border-right: none;
+}
+
+.segmentBtn:hover {
+  color: var(--text-secondary);
+  background: var(--bg-hover);
+}
+
+.segmentActive {
+  color: var(--text-primary);
+  background: var(--accent-dim);
+}
+
+/* ---- Color picker ---- */
+
+.colorPicker {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.colorSwatch {
+  width: 28px;
+  height: 28px;
+  background: var(--swatch);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition:
+    border-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.colorSwatch:hover {
+  transform: scale(1.15);
+}
+
+.colorActive {
+  border-color: var(--text-primary);
+}
+
+/* ---- Toggle ---- */
+
+.toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 64px;
+  height: 28px;
+  background: var(--bg-hover);
+  border: 1px solid var(--accent-dim);
+  padding: 2px;
+  flex-shrink: 0;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.toggleOn {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+}
+
+.toggleThumb {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: var(--text-dim);
+  transition:
+    transform var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.toggleOn .toggleThumb {
+  transform: translateX(32px);
+  background: var(--accent-bright);
+}
+
+.toggleLabel {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+
+.toggleOn .toggleLabel {
+  left: 6px;
+  color: var(--text-primary);
+}
+
+.toggle:not(.toggleOn) .toggleLabel {
+  right: 6px;
+}
+
+/* ---- Slider ---- */
+
+.sliderRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.slider {
+  appearance: none;
+  width: 120px;
+  height: 4px;
+  background: var(--bg-hover);
+  border: 1px solid var(--accent-dim);
+  outline: none;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  background: var(--accent);
+  border: none;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: var(--accent-bright);
+}
+
+.slider:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.sliderValue {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  min-width: 3ch;
+  text-align: right;
+}
+
+/* ---- Reset ---- */
+
+.resetButton {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--danger);
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--danger-dim);
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.resetButton:hover {
+  background: var(--danger-dim);
+  color: var(--text-primary);
+  border-color: var(--danger);
+}
+
+@media (max-width: 768px) {
+  .setting {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

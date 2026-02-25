@@ -1,0 +1,53 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  height: calc(100vh - 180px);
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollArea {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+  text-align: center;
+}
+
+.scrollArea::-webkit-scrollbar {
+  display: none;
+}
+
+.spacer {
+  height: 30vh;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.item {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 2;
+  letter-spacing: 0.02em;
+}
+
+.finalText {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.12em;
+  margin-top: 3rem;
+}
