@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import styles from './PageShell.module.css';
 
-export default function PageShell({ title, subtitle, children }) {
+export default function PageShell({ title, subtitle, children, inline }) {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -13,6 +13,36 @@ export default function PageShell({ title, subtitle, children }) {
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
   }, [navigate]);
+
+  if (inline) {
+    return (
+      <motion.div
+        className={styles.containerInline}
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3, ease: 'easeOut' }}
+      >
+        <header className={styles.headerInline}>
+          <div className={styles.titleBlock}>
+            <h1 className={styles.titleInline}>{title}</h1>
+            {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
+          </div>
+          <button
+            className={styles.closeButton}
+            onClick={() => navigate('/')}
+            title="Close (ESC)"
+          >
+            &#10005;
+          </button>
+        </header>
+
+        <div className={styles.divider} />
+
+        <main className={styles.contentInline}>{children}</main>
+      </motion.div>
+    );
+  }
 
   return (
     <motion.div

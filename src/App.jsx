@@ -13,9 +13,23 @@ import Media from './pages/Media';
 import Livestream from './pages/Livestream';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
+import { useMediaQuery } from './hooks/useMediaQuery';
+
+const pageRoutes = [
+  { path: '/qa-portfolio', title: 'QA Portfolio', subtitle: 'STORY // CHAPTER 01', Component: QAPortfolio },
+  { path: '/steam-library', title: 'Steam Library', subtitle: 'STORY // CHAPTER 02', Component: SteamLibrary },
+  { path: '/resume', title: 'Resume', subtitle: 'DLCS // DOWNLOAD 01', Component: Resume },
+  { path: '/references', title: 'References', subtitle: 'DLCS // DOWNLOAD 02', Component: References },
+  { path: '/tech', title: 'Tech', subtitle: 'EXTRA // BONUS CONTENT', Component: Tech },
+  { path: '/media', title: 'Media', subtitle: 'EXTRA // BONUS CONTENT', Component: Media },
+  { path: '/livestream', title: 'Livestream', subtitle: 'EXTRA // BONUS CONTENT', Component: Livestream },
+  { path: '/settings', title: 'Settings', subtitle: 'SYSTEM CONFIGURATION', Component: Settings },
+  { path: '/credits', title: 'Credits', subtitle: 'ACKNOWLEDGMENTS', Component: Credits },
+];
 
 export default function App() {
   const location = useLocation();
+  const isDesktop = useMediaQuery('(min-width: 1200px)');
   const [bootComplete, setBootComplete] = useState(() => {
     if (location.pathname !== '/') return true;
     return sessionStorage.getItem('bv_boot') === 'done';
@@ -26,6 +40,26 @@ export default function App() {
     setBootComplete(true);
   };
 
+  const hasPage = location.pathname !== '/';
+
+  const desktopContent = hasPage ? (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        {pageRoutes.map(({ path, title, subtitle, Component }) => (
+          <Route
+            key={path}
+            path={path}
+            element={
+              <PageShell title={title} subtitle={subtitle} inline>
+                <Component />
+              </PageShell>
+            }
+          />
+        ))}
+      </Routes>
+    </AnimatePresence>
+  ) : null;
+
   return (
     <>
       <AnimatePresence>
@@ -34,82 +68,25 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      {bootComplete && (
+      {bootComplete && isDesktop && (
+        <MainMenu desktopContent={desktopContent} />
+      )}
+
+      {bootComplete && !isDesktop && (
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<MainMenu />} />
-            <Route
-              path="/qa-portfolio"
-              element={
-                <PageShell title="QA Portfolio" subtitle="STORY // CHAPTER 01">
-                  <QAPortfolio />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/steam-library"
-              element={
-                <PageShell title="Steam Library" subtitle="STORY // CHAPTER 02">
-                  <SteamLibrary />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/resume"
-              element={
-                <PageShell title="Resume" subtitle="DLCS // DOWNLOAD 01">
-                  <Resume />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/references"
-              element={
-                <PageShell title="References" subtitle="DLCS // DOWNLOAD 02">
-                  <References />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/tech"
-              element={
-                <PageShell title="Tech" subtitle="EXTRA // BONUS CONTENT">
-                  <Tech />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/media"
-              element={
-                <PageShell title="Media" subtitle="EXTRA // BONUS CONTENT">
-                  <Media />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/livestream"
-              element={
-                <PageShell title="Livestream" subtitle="EXTRA // BONUS CONTENT">
-                  <Livestream />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/settings"
-              element={
-                <PageShell title="Settings" subtitle="SYSTEM CONFIGURATION">
-                  <Settings />
-                </PageShell>
-              }
-            />
-            <Route
-              path="/credits"
-              element={
-                <PageShell title="Credits" subtitle="ACKNOWLEDGMENTS">
-                  <Credits />
-                </PageShell>
-              }
-            />
+            {pageRoutes.map(({ path, title, subtitle, Component }) => (
+              <Route
+                key={path}
+                path={path}
+                element={
+                  <PageShell title={title} subtitle={subtitle}>
+                    <Component />
+                  </PageShell>
+                }
+              />
+            ))}
           </Routes>
         </AnimatePresence>
       )}

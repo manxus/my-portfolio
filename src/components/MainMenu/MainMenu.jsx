@@ -1,5 +1,5 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { menuItems, patchNotes } from '../../data/menu';
 import { useKeyboardNav } from '../../hooks/useKeyboardNav';
@@ -8,13 +8,17 @@ import ExitModal from '../ExitModal/ExitModal';
 import MenuBackground from '../MenuBackground/MenuBackground';
 import styles from './MainMenu.module.css';
 
-export default function MainMenu() {
+export default function MainMenu({ desktopContent }) {
   const navigate = useNavigate();
+  const location = useLocation();
   const { play } = useSound();
   const [expandedItem, setExpandedItem] = useState(null);
   const [hoveredItem, setHoveredItem] = useState(null);
   const [showExit, setShowExit] = useState(false);
   const menuRef = useRef(null);
+  const keyboardActive = useRef(false);
+  const pendingFocusId = useRef(null);
+  const isDesktop = desktopContent !== undefined;
 
   const flatItems = useMemo(() => {
     const items = [];
@@ -37,6 +41,7 @@ export default function MainMenu() {
         return;
       }
       if (item.children) {
+        pendingFocusId.current = item.id;
         setExpandedItem((prev) => {
           const next = prev === item.id ? null : item.id;
           play(next ? 'expand' : 'collapse');
@@ -72,10 +77,33 @@ export default function MainMenu() {
   });
 
   useEffect(() => {
-    if (focusIndex >= 0 && focusIndex < flatItems.length) {
-      setHoveredItem(flatItems[focusIndex].id);
+    const handler = (e) => {
+      if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+        keyboardActive.current = true;
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
+
+  const flatItemsRef = useRef(flatItems);
+  flatItemsRef.current = flatItems;
+
+  useEffect(() => {
+    if (focusIndex >= 0 && focusIndex < flatItemsRef.current.length) {
+      setHoveredItem(flatItemsRef.current[focusIndex].id);
     }
-  }, [focusIndex, flatItems]);
+  }, [focusIndex]);
+
+  useEffect(() => {
+    if (pendingFocusId.current) {
+      const idx = flatItems.findIndex((fi) => fi.id === pendingFocusId.current);
+      if (idx >= 0) {
+        setFocusIndex(idx);
+      }
+      pendingFocusId.current = null;
+    }
+  }, [flatItems, setFocusIndex]);
 
   const getDescription = () => {
     if (!hoveredItem) return null;
@@ -89,17 +117,46 @@ export default function MainMenu() {
     return null;
   };
 
+  const expandedItemRef = useRef(expandedItem);
+  expandedItemRef.current = expandedItem;
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setFocusIndex(-1);
+      keyboardActive.current = false;
+    }
+
+    if (expandedItemRef.current) {
+      const group = menuItems.find((mi) => mi.id === expandedItemRef.current);
+      const isChildRoute = group?.children?.some((c) => c.path === location.pathname);
+      if (!isChildRoute) {
+        setExpandedItem(null);
+      }
+    }
+  }, [location.pathname, setFocusIndex]);
+
+  const isChildActive = (item) => {
+    if (item.path) return location.pathname === item.path;
+    if (item.children) return item.children.some((c) => location.pathname === c.path);
+    return false;
+  };
+
   let flatIndex = 0;
   const getFlatIndex = () => flatIndex++;
 
+  const Container = isDesktop ? 'div' : motion.div;
+  const containerProps = isDesktop
+    ? { className: styles.container }
+    : {
+        className: styles.container,
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        exit: { opacity: 0, x: -30 },
+        transition: { duration: 0.4 },
+      };
+
   return (
-    <motion.div
-      className={styles.container}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0, x: -30 }}
-      transition={{ duration: 0.4 }}
-    >
+    <Container {...containerProps}>
       <div className={styles.bgGradient} />
       <MenuBackground />
 
@@ -117,20 +174,21 @@ export default function MainMenu() {
 
         <nav className={styles.nav}>
           {menuItems.map((item) => {
-            const parentIdx = getFlatIndex();
+            const idx = getFlatIndex();
             const isExpanded = expandedItem === item.id;
-            const isFocused = focusIndex === parentIdx - 1;
-            const isHovered = hoveredItem === item.id;
+            const isFocused = keyboardActive.current && focusIndex >= 0 && focusIndex === idx;
+            const routeActive = isDesktop && isChildActive(item);
 
             return (
               <div key={item.id} className={styles.menuGroup}>
                 <button
-                  className={`${styles.menuItem} ${isExpanded ? styles.active : ''} ${isFocused ? styles.focused : ''}`}
+                  className={`${styles.menuItem} ${isExpanded ? styles.active : ''} ${isFocused ? styles.focused : ''} ${routeActive ? styles.currentRoute : ''}`}
                   onClick={() => handleItemAction(item)}
                   onMouseEnter={() => {
+                    keyboardActive.current = false;
                     play('hover');
                     setHoveredItem(item.id);
-                    setFocusIndex(parentIdx - 1);
+                    setFocusIndex(idx);
                   }}
                   onMouseLeave={() => {
                     if (hoveredItem === item.id) setHoveredItem(null);
@@ -159,20 +217,22 @@ export default function MainMenu() {
                     >
                       {item.children.map((child) => {
                         const childIdx = getFlatIndex();
-                        const childFocused = focusIndex === childIdx - 1;
+                        const childFocused = keyboardActive.current && focusIndex >= 0 && focusIndex === childIdx;
+                        const childRouteActive = isDesktop && location.pathname === child.path;
 
                         return (
                           <button
                             key={child.id}
-                            className={`${styles.submenuItem} ${childFocused ? styles.focused : ''}`}
+                            className={`${styles.submenuItem} ${childFocused ? styles.focused : ''} ${childRouteActive ? styles.currentRoute : ''}`}
                             onClick={() => {
                               play('select');
                               navigate(child.path);
                             }}
                             onMouseEnter={() => {
+                              keyboardActive.current = false;
                               play('hover');
                               setHoveredItem(child.id);
-                              setFocusIndex(childIdx - 1);
+                              setFocusIndex(childIdx);
                             }}
                             onMouseLeave={() => {
                               if (hoveredItem === child.id) setHoveredItem(null);
@@ -205,33 +265,39 @@ export default function MainMenu() {
         </footer>
       </div>
 
-      <div className={styles.contentPanel}>
-        <div className={styles.descriptionArea}>
-          <AnimatePresence mode="wait">
-            {hoveredItem && (
-              <motion.p
-                key={hoveredItem}
-                className={styles.description}
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.15 }}
-              >
-                {getDescription()}
-              </motion.p>
-            )}
-          </AnimatePresence>
+      {desktopContent ? (
+        <div className={`${styles.contentPanel} ${styles.contentPanelPage}`}>
+          {desktopContent}
         </div>
+      ) : (
+        <div className={styles.contentPanel}>
+          <div className={styles.descriptionArea}>
+            <AnimatePresence mode="wait">
+              {hoveredItem && (
+                <motion.p
+                  key={hoveredItem}
+                  className={styles.description}
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.15 }}
+                >
+                  {getDescription()}
+                </motion.p>
+              )}
+            </AnimatePresence>
+          </div>
 
-        <div className={styles.systemStatus}>
-          <span>SYSTEM STATUS: OPTIMAL</span>
-          <span className={styles.statusIcon}>&#8999;</span>
+          <div className={styles.systemStatus}>
+            <span>SYSTEM STATUS: OPTIMAL</span>
+            <span className={styles.statusIcon}>&#8999;</span>
+          </div>
         </div>
-      </div>
+      )}
 
       <AnimatePresence>
         {showExit && <ExitModal onClose={() => setShowExit(false)} />}
       </AnimatePresence>
-    </motion.div>
+    </Container>
   );
 }

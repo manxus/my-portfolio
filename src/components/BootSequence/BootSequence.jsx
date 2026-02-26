@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useSound } from '../../hooks/useSound';
 import styles from './BootSequence.module.css';
 
 const BOOT_LINES = [
