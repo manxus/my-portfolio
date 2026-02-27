@@ -198,6 +198,15 @@
   color: var(--accent-bright);
 }
 
+.copyright {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  margin-top: 0.6rem;
+  opacity: 0.6;
+}
+
 /* ---- Right content panel ---- */
 
 .contentPanel {

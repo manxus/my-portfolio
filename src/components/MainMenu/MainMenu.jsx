@@ -263,6 +263,9 @@ export default function MainMenu({ desktopContent }) {
           >
             &#128187; Patch Notes
           </button>
+          <p className={styles.copyright}>
+            &copy; {new Date().getFullYear()} Build Verified
+          </p>
         </footer>
       </div>
 
