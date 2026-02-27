@@ -1,5 +1,5 @@
-import { useRef, useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { useRef, useLayoutEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import styles from './Credits.module.css';
 
 const CREDITS = [
@@ -45,28 +45,28 @@ const CREDITS = [
       'Coffee — for powering late night sessions',
     ],
   },
-  {
-    heading: '',
-    items: ['THANK YOU FOR PLAYING'],
-  },
 ];
 
 export default function Credits() {
-  const scrollRef = useRef(null);
-  const [autoScroll, setAutoScroll] = useState(true);
+  const viewportRef = useRef(null);
+  const contentRef = useRef(null);
+  const [finished, setFinished] = useState(false);
 
-  useEffect(() => {
-    if (!autoScroll || !scrollRef.current) return;
+  useLayoutEffect(() => {
+    const viewport = viewportRef.current;
+    const content = contentRef.current;
+    if (!viewport || !content) return;
 
-    const el = scrollRef.current;
+    let offset = viewport.clientHeight + 40;
+    content.style.transform = `translateY(${offset}px)`;
     let frame;
-    let start;
 
-    const step = (timestamp) => {
-      if (!start) start = timestamp;
-      el.scrollTop += 0.5;
-      if (el.scrollTop >= el.scrollHeight - el.clientHeight) {
-        setAutoScroll(false);
+    const step = () => {
+      offset -= 0.4;
+      content.style.transform = `translateY(${offset}px)`;
+
+      if (offset + content.scrollHeight <= 0) {
+        setFinished(true);
         return;
       }
       frame = requestAnimationFrame(step);
@@ -80,7 +80,7 @@ export default function Credits() {
       clearTimeout(timeout);
       if (frame) cancelAnimationFrame(frame);
     };
-  }, [autoScroll]);
+  }, []);
 
   return (
     <motion.div
@@ -89,32 +89,35 @@ export default function Credits() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div
-        className={styles.scrollArea}
-        ref={scrollRef}
-        onWheel={() => setAutoScroll(false)}
-        onTouchStart={() => setAutoScroll(false)}
-      >
-        <div className={styles.spacer} />
-        {CREDITS.map((section, i) => (
-          <div key={i} className={styles.section}>
-            {section.heading && (
-              <h3 className={styles.heading}>{section.heading}</h3>
-            )}
-            {section.items.map((item, j) => (
-              <p
-                key={j}
-                className={
-                  !section.heading ? styles.finalText : styles.item
-                }
-              >
-                {item}
-              </p>
-            ))}
-          </div>
-        ))}
-        <div className={styles.spacer} />
+      <div className={styles.viewport} ref={viewportRef}>
+        <div ref={contentRef} style={{ transform: 'translateY(100vh)' }}>
+          {CREDITS.map((section, i) => (
+            <div key={i} className={styles.section}>
+              {section.heading && (
+                <h3 className={styles.heading}>{section.heading}</h3>
+              )}
+              {section.items.map((item, j) => (
+                <p key={j} className={styles.item}>
+                  {item}
+                </p>
+              ))}
+            </div>
+          ))}
+        </div>
       </div>
+
+      <AnimatePresence>
+        {finished && (
+          <motion.div
+            className={styles.thankYou}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1.5 }}
+          >
+            Thank you for playing
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 }

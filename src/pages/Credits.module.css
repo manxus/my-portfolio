@@ -4,21 +4,13 @@
   height: calc(100vh - 180px);
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
-.scrollArea {
+.viewport {
   flex: 1;
-  overflow-y: auto;
-  scrollbar-width: none;
+  overflow: hidden;
   text-align: center;
-}
-
-.scrollArea::-webkit-scrollbar {
-  display: none;
-}
-
-.spacer {
-  height: 30vh;
 }
 
 .section {
@@ -43,11 +35,15 @@
   letter-spacing: 0.02em;
 }
 
-.finalText {
+.thankYou {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-heading);
   font-size: 1.4rem;
   font-weight: 600;
   color: var(--text-primary);
   letter-spacing: 0.12em;
-  margin-top: 3rem;
 }
