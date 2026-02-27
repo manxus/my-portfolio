@@ -39,6 +39,16 @@
   color: var(--text-secondary);
   letter-spacing: 0.04em;
   white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.hint {
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+  font-style: italic;
 }
 
 /* ---- Segmented buttons ---- */
@@ -72,6 +82,12 @@
 .segmentActive {
   color: var(--text-primary);
   background: var(--accent-dim);
+}
+
+.segmentDisabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 /* ---- Color picker ---- */
@@ -154,6 +170,11 @@
 
 .toggle:not(.toggleOn) .toggleLabel {
   right: 6px;
+}
+
+.toggleDisabled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 
 /* ---- Slider ---- */

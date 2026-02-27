@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence, MotionConfig } from 'framer-motion';
+import { useSettingsStore } from './stores/settingsStore';
 import BootSequence from './components/BootSequence/BootSequence';
 import MainMenu from './components/MainMenu/MainMenu';
 import PageShell from './components/PageShell/PageShell';
+import CrtOverlay from './components/CrtOverlay/CrtOverlay';
+import VisionFilters from './components/VisionFilters/VisionFilters';
 import QAPortfolio from './pages/QAPortfolio';
 import SteamLibrary from './pages/SteamLibrary';
 import Resume from './pages/Resume';
@@ -15,6 +18,7 @@ import Settings from './pages/Settings';
 import Credits from './pages/Credits';
 import PatchNotes from './pages/PatchNotes';
 import { useMediaQuery } from './hooks/useMediaQuery';
+import { useSettingsApplier } from './hooks/useSettingsApplier';
 
 const pageRoutes = [
   { path: '/qa-portfolio', title: 'QA Portfolio', subtitle: 'STORY // CHAPTER 01', Component: QAPortfolio },
@@ -30,8 +34,10 @@ const pageRoutes = [
 ];
 
 export default function App() {
+  useSettingsApplier();
   const location = useLocation();
   const isDesktop = useMediaQuery('(min-width: 1200px)');
+  const reduceMotion = useSettingsStore((s) => s.reduceMotion);
   const [bootComplete, setBootComplete] = useState(() => {
     if (location.pathname !== '/') return true;
     return sessionStorage.getItem('bv_boot') === 'done';
@@ -63,7 +69,10 @@ export default function App() {
   ) : null;
 
   return (
-    <>
+    <MotionConfig reducedMotion={reduceMotion ? 'always' : 'user'}>
+      <VisionFilters />
+      <CrtOverlay />
+
       <AnimatePresence>
         {!bootComplete && (
           <BootSequence key="boot" onComplete={handleBootComplete} />
@@ -92,6 +101,6 @@ export default function App() {
           </Routes>
         </AnimatePresence>
       )}
-    </>
+    </MotionConfig>
   );
 }

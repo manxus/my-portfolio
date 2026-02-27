@@ -10,8 +10,8 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 70% 50%, rgba(95, 143, 143, 0.04) 0%, transparent 60%),
-    radial-gradient(ellipse at 30% 80%, rgba(10, 15, 18, 0.8) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 50%, var(--bg-gradient-accent) 0%, transparent 60%),
+    radial-gradient(ellipse at 30% 80%, var(--bg-gradient-shadow) 0%, transparent 50%),
     var(--bg-deep);
   z-index: 0;
 }
