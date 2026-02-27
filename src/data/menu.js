@@ -81,12 +81,3 @@ export const menuItems = [
     description: 'Are you sure you want to quit? Unsaved progress may be lost.',
   },
 ];
-
-export const patchNotes = {
-  version: '2.4.19',
-  notes: [
-    'Stability improvements in neural networks',
-    'Recalibrated portal conduction surfaces',
-    'Cake is still [REDACTED]',
-  ],
-};

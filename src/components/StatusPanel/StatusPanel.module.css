@@ -1,0 +1,227 @@
+.panel {
+  position: relative;
+  z-index: 1;
+  width: 280px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.5rem 1.25rem;
+  justify-content: center;
+}
+
+/* ---- Window containers ---- */
+
+.window {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border: 1px solid rgba(95, 143, 143, 0.12);
+  background: rgba(17, 26, 32, 0.6);
+}
+
+.windowTitle {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 400;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(95, 143, 143, 0.1);
+}
+
+/* ---- Status indicators ---- */
+
+.statusGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.statusRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.statusLabel {
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  color: var(--text-dim);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.statusValue {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+}
+
+.statusDot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-bright);
+  margin-right: 0.5rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* ---- Network bars ---- */
+
+.networkBars {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 12px;
+  margin-left: 0.5rem;
+}
+
+.bar {
+  width: 3px;
+  background: var(--accent);
+  border-radius: 1px 1px 0 0;
+  transition: height 0.5s ease;
+  opacity: 0.7;
+}
+
+/* ---- Latest patch notes ---- */
+
+.patchVersion {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.1rem;
+}
+
+.patchDate {
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.85rem;
+}
+
+.entryList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.entry {
+  display: flex;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.entryTag {
+  flex-shrink: 0;
+  font-size: 0.52rem;
+  letter-spacing: 0.04em;
+  color: var(--accent-bright);
+}
+
+.entryTagFixed {
+  color: var(--accent);
+}
+
+.entryTagChanged {
+  color: var(--text-secondary);
+}
+
+/* ---- Changelog link ---- */
+
+.changelogLink {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(95, 143, 143, 0.08);
+  outline: none;
+  transition: color var(--transition-fast);
+}
+
+.changelogLink:hover {
+  color: var(--accent-bright);
+}
+
+.chevron {
+  font-size: 0.8rem;
+  transition: transform var(--transition-fast);
+}
+
+.changelogLink:hover .chevron {
+  transform: translateX(3px);
+}
+
+/* ---- Quick links ---- */
+
+.linksGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem;
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid transparent;
+  outline: none;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.linkItem:hover {
+  color: var(--accent-bright);
+  border-color: rgba(95, 143, 143, 0.15);
+  background: rgba(95, 143, 143, 0.05);
+}
+
+.linkIcon {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: opacity var(--transition-fast);
+}
+
+.linkItem:hover .linkIcon {
+  opacity: 1;
+}
+
+@media (max-width: 1400px) {
+  .panel {
+    width: 250px;
+    padding: 1.25rem 1rem;
+  }
+}

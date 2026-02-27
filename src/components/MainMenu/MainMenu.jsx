@@ -1,11 +1,12 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { menuItems, patchNotes } from '../../data/menu';
+import { menuItems } from '../../data/menu';
 import { useKeyboardNav } from '../../hooks/useKeyboardNav';
 import { useSound } from '../../hooks/useSound';
 import ExitModal from '../ExitModal/ExitModal';
 import MenuBackground from '../MenuBackground/MenuBackground';
+import StatusPanel from '../StatusPanel/StatusPanel';
 import styles from './MainMenu.module.css';
 
 export default function MainMenu({ desktopContent }) {
@@ -252,16 +253,16 @@ export default function MainMenu({ desktopContent }) {
         </nav>
 
         <footer className={styles.footer}>
-          <div className={styles.patchNotes}>
-            <p className={styles.version}>
-              &#128187; PATCH VERSION {patchNotes.version}
-            </p>
-            {patchNotes.notes.map((note, i) => (
-              <p key={i} className={styles.note}>
-                &raquo; {note}
-              </p>
-            ))}
-          </div>
+          <button
+            className={styles.versionLink}
+            onClick={() => {
+              play('select');
+              navigate('/patch-notes');
+            }}
+            title="View full patch notes"
+          >
+            &#128187; Patch Notes
+          </button>
         </footer>
       </div>
 
@@ -270,29 +271,28 @@ export default function MainMenu({ desktopContent }) {
           {desktopContent}
         </div>
       ) : (
-        <div className={styles.contentPanel}>
-          <div className={styles.descriptionArea}>
-            <AnimatePresence mode="wait">
-              {hoveredItem && (
-                <motion.p
-                  key={hoveredItem}
-                  className={styles.description}
-                  initial={{ opacity: 0, y: 8 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.15 }}
-                >
-                  {getDescription()}
-                </motion.p>
-              )}
-            </AnimatePresence>
+        <>
+          <div className={styles.contentPanel}>
+            <div className={styles.descriptionArea}>
+              <AnimatePresence mode="wait">
+                {hoveredItem && (
+                  <motion.p
+                    key={hoveredItem}
+                    className={styles.description}
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.15 }}
+                  >
+                    {getDescription()}
+                  </motion.p>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
-          <div className={styles.systemStatus}>
-            <span>SYSTEM STATUS: OPTIMAL</span>
-            <span className={styles.statusIcon}>&#8999;</span>
-          </div>
-        </div>
+          {isDesktop && <StatusPanel />}
+        </>
       )}
 
       <AnimatePresence>

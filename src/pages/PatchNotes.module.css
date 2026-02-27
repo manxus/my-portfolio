@@ -1,0 +1,145 @@
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* ---- Known issues ---- */
+
+.knownIssues {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: rgba(196, 80, 80, 0.05);
+  border: 1px solid rgba(196, 80, 80, 0.12);
+}
+
+.sectionHeading {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--danger);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.issue {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  padding-left: 0.25rem;
+}
+
+/* ---- Divider ---- */
+
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, var(--accent-dim), transparent);
+  opacity: 0.3;
+  margin-bottom: 2rem;
+}
+
+/* ---- Version history ---- */
+
+.versions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.versionBlock {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(95, 143, 143, 0.08);
+}
+
+.versionBlock:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.versionHeader {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.versionTag {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+}
+
+.versionDate {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+}
+
+.latestBadge {
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  color: var(--accent-bright);
+  letter-spacing: 0.12em;
+  border: 1px solid var(--accent-dim);
+  padding: 0.15rem 0.5rem;
+}
+
+/* ---- Entries ---- */
+
+.entryList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.entry {
+  display: flex;
+  gap: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.entryTag {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+}
+
+.tag_added {
+  color: var(--accent-bright);
+}
+
+.tag_fixed {
+  color: var(--accent);
+}
+
+.tag_changed {
+  color: var(--text-secondary);
+}
+
+.tag_removed {
+  color: var(--danger);
+}
+
+.entryText {
+  color: var(--text-secondary);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 768px) {
+  .versionHeader {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .versionTag {
+    font-size: 1rem;
+  }
+}

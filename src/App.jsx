@@ -13,6 +13,7 @@ import Media from './pages/Media';
 import Livestream from './pages/Livestream';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
+import PatchNotes from './pages/PatchNotes';
 import { useMediaQuery } from './hooks/useMediaQuery';
 
 const pageRoutes = [
@@ -25,6 +26,7 @@ const pageRoutes = [
   { path: '/livestream', title: 'Livestream', subtitle: 'EXTRA // BONUS CONTENT', Component: Livestream },
   { path: '/settings', title: 'Settings', subtitle: 'SYSTEM CONFIGURATION', Component: Settings },
   { path: '/credits', title: 'Credits', subtitle: 'ACKNOWLEDGMENTS', Component: Credits },
+  { path: '/patch-notes', title: 'Patch Notes', subtitle: 'VERSION HISTORY // CHANGELOG', Component: PatchNotes },
 ];
 
 export default function App() {

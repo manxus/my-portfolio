@@ -185,21 +185,17 @@
   padding-top: 2rem;
 }
 
-.patchNotes {
+.versionLink {
   font-family: var(--font-mono);
   font-size: 0.62rem;
-  line-height: 1.7;
   color: var(--text-dim);
+  letter-spacing: 0.08em;
+  text-align: left;
+  transition: color var(--transition-fast);
 }
 
-.version {
-  color: var(--text-secondary);
-  margin-bottom: 0.2rem;
-  font-size: 0.68rem;
-}
-
-.note {
-  opacity: 0.7;
+.versionLink:hover {
+  color: var(--accent-bright);
 }
 
 /* ---- Right content panel ---- */
@@ -235,22 +231,6 @@
   letter-spacing: 0.02em;
 }
 
-.systemStatus {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.75rem;
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: var(--text-dim);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.statusIcon {
-  font-size: 1rem;
-  opacity: 0.6;
-}
 
 /* ---- Responsive ---- */
 
