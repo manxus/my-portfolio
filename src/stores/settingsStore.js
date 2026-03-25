@@ -26,6 +26,7 @@ const DEFAULTS = {
   particleSpeed: 1,
   colorblindMode: 'none',
   monochrome: false,
+  cursorStyle: 'default',
 };
 
 export const useSettingsStore = create(
@@ -46,6 +47,7 @@ export const useSettingsStore = create(
       setParticleSpeed: (particleSpeed) => set({ particleSpeed }),
       setColorblindMode: (colorblindMode) => set({ colorblindMode }),
       setMonochrome: (monochrome) => set({ monochrome }),
+      setCursorStyle: (cursorStyle) => set({ cursorStyle }),
       resetAll: () => set({ ...DEFAULTS }),
     }),
     {

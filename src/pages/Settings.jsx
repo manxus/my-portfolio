@@ -1,6 +1,12 @@
 import { useSettingsStore } from '../stores/settingsStore';
 import { useSound } from '../hooks/useSound';
+import { CURSOR_STYLES } from '../utils/cursors';
 import styles from './Settings.module.css';
+
+const CURSOR_OPTIONS = Object.entries(CURSOR_STYLES).map(([value, { label }]) => ({
+  value,
+  label,
+}));
 
 const ACCENT_COLORS = [
   { value: '#5f8f8f', label: 'Teal' },
@@ -54,6 +60,7 @@ export default function Settings() {
     particleSpeed,
     colorblindMode,
     monochrome,
+    cursorStyle,
     setTheme,
     setAccentColor,
     setSoundEnabled,
@@ -67,6 +74,7 @@ export default function Settings() {
     setParticleSpeed,
     setColorblindMode,
     setMonochrome,
+    setCursorStyle,
     resetAll,
   } = useSettingsStore();
 
@@ -205,6 +213,23 @@ export default function Settings() {
                   onClick={() => setAccentColor(c.value)}
                   title={c.label}
                 />
+              ))}
+            </div>
+          </div>
+          <div className={styles.setting}>
+            <label className={styles.label}>
+              Cursor Style
+              <span className={styles.hint}>Custom pointer tinted to accent color</span>
+            </label>
+            <div className={styles.segmented}>
+              {CURSOR_OPTIONS.map((cs) => (
+                <button
+                  key={cs.value}
+                  className={`${styles.segmentBtn} ${cursorStyle === cs.value ? styles.segmentActive : ''}`}
+                  onClick={() => setCursorStyle(cs.value)}
+                >
+                  {cs.label.toUpperCase()}
+                </button>
               ))}
             </div>
           </div>

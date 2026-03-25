@@ -64,6 +64,24 @@ async function getOwnedGames() {
     }));
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function getAppDetails(appId) {
+  try {
+    const url = `${STORE_API}/appdetails?appids=${appId}`;
+    const data = await fetchJSON(url);
+    const info = data[String(appId)];
+    if (!info?.success) return { genres: [], categories: [] };
+    const d = info.data;
+    return {
+      genres: (d.genres || []).map((g) => g.description),
+      categories: (d.categories || []).map((c) => c.description),
+    };
+  } catch {
+    return { genres: [], categories: [] };
+  }
+}
+
 async function getAchievements(appId) {
   try {
     const url = `${STEAM_API}/ISteamUserStats/GetPlayerAchievements/v1/?key=${API_KEY}&steamid=${STEAM_ID}&appid=${appId}`;
@@ -85,6 +103,18 @@ async function main() {
   const games = await getOwnedGames();
   console.log(`Found ${games.length} games`);
 
+  console.log('Fetching app details (genres/categories)...');
+  for (const game of games) {
+    const details = await getAppDetails(game.appId);
+    game.genres = details.genres;
+    game.categories = details.categories;
+    if (details.genres.length) {
+      console.log(`  ${game.name}: ${details.genres.join(', ')}`);
+    }
+    await sleep(300);
+  }
+
+  console.log('Fetching achievements for top 10...');
   const top10 = games.slice(0, 10);
   for (const game of top10) {
     const ach = await getAchievements(game.appId);

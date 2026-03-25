@@ -1,0 +1,56 @@
+/**
+ * Manual Steam reviews. Each entry references a game by appId.
+ * The page resolves appId against the game library for name/images.
+ */
+export const reviews = [
+  {
+    appId: 620,
+    rating: 10,
+    title: 'A masterpiece of puzzle design',
+    text: 'Portal 2 builds on everything that made the original great and then some. The writing is razor-sharp, the puzzles are inventive without being obtuse, and the co-op campaign is one of the best cooperative experiences in gaming.',
+    date: '2025-03-15',
+    recommended: true,
+    pros: ['Brilliant writing and humor', 'Perfect co-op campaign', 'Incredible level design'],
+    cons: ['Could be longer'],
+  },
+  {
+    appId: 292030,
+    rating: 9,
+    title: 'The gold standard for open-world RPGs',
+    text: 'The Witcher 3 delivers one of the richest open worlds ever crafted. The side quests alone rival the main storylines of most other RPGs. Hearts of Stone and Blood and Wine are essential.',
+    date: '2025-02-10',
+    recommended: true,
+    pros: ['Deep narrative choices', 'Massive world full of content', 'Outstanding DLC'],
+    cons: ['Combat can feel clunky', 'Inventory management'],
+  },
+  {
+    appId: 1174180,
+    rating: 9,
+    title: 'A slow burn that pays off beautifully',
+    text: 'Red Dead Redemption 2 is a masterclass in world-building and storytelling. Arthur Morgan is one of the best protagonists in gaming history. Take your time with this one.',
+    date: '2025-01-20',
+    recommended: true,
+    pros: ['Incredible story and characters', 'Breathtaking world', 'Attention to detail'],
+    cons: ['Pacing can be slow', 'Clunky controls at times'],
+  },
+  {
+    appId: 1091500,
+    rating: 8,
+    title: 'Redemption arc of the decade',
+    text: 'Cyberpunk 2077 had a rough launch but has transformed into a genuinely great RPG. Night City is one of the most atmospheric settings in gaming. Phantom Liberty is a must-play.',
+    date: '2024-12-05',
+    recommended: true,
+    pros: ['Night City is stunning', 'Great story and side quests', 'Phantom Liberty DLC'],
+    cons: ['Still some bugs', 'AI could be smarter'],
+  },
+  {
+    appId: 730,
+    rating: 7,
+    title: 'Timeless competitive FPS',
+    text: 'Counter-Strike 2 carries the legacy well. The core gameplay loop is as tight as ever. The transition from CSGO was bumpy but the foundation is rock solid.',
+    date: '2024-11-18',
+    recommended: true,
+    pros: ['Perfect gunplay mechanics', 'High skill ceiling', 'Active competitive scene'],
+    cons: ['Cheater problem persists', 'Lost some CSGO features'],
+  },
+];

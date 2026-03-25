@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useSettingsStore, ACCENT_PALETTE } from '../stores/settingsStore';
+import { CURSOR_STYLES } from '../utils/cursors';
 
 export function useSettingsApplier() {
   const theme = useSettingsStore((s) => s.theme);
@@ -8,6 +9,7 @@ export function useSettingsApplier() {
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
   const colorblindMode = useSettingsStore((s) => s.colorblindMode);
   const monochrome = useSettingsStore((s) => s.monochrome);
+  const cursorStyle = useSettingsStore((s) => s.cursorStyle);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -48,4 +50,17 @@ export function useSettingsApplier() {
       document.documentElement.style.filter = '';
     }
   }, [colorblindMode, monochrome]);
+
+  useEffect(() => {
+    const root = document.documentElement.style;
+    const style = CURSOR_STYLES[cursorStyle] ?? CURSOR_STYLES.default;
+    const cursors = style.getCursors(accentColor);
+    if (cursors) {
+      root.setProperty('--cursor-default', cursors.default);
+      root.setProperty('--cursor-pointer', cursors.pointer);
+    } else {
+      root.removeProperty('--cursor-default');
+      root.removeProperty('--cursor-pointer');
+    }
+  }, [cursorStyle, accentColor]);
 }

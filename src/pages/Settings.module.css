@@ -55,6 +55,7 @@
 
 .segmented {
   display: flex;
+  flex-wrap: wrap;
   border: 1px solid var(--accent-dim);
 }
 
@@ -249,4 +250,5 @@
     align-items: flex-start;
     gap: 0.5rem;
   }
+
 }
