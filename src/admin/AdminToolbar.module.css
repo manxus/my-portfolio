@@ -1,0 +1,60 @@
+.toolbar {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 9998;
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--color-surface, #1a1a2e);
+  border: 1px solid var(--accent, #5f8f8f);
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  overflow: hidden;
+}
+
+.indicator {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--accent, #5f8f8f);
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  color: var(--color-text, #e0e0e0);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent, #5f8f8f);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 6px var(--accent, #5f8f8f);
+  transition: transform 0.15s;
+}
+
+.dot:hover {
+  transform: scale(1.3);
+}

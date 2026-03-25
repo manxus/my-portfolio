@@ -6,7 +6,7 @@ const fadeUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.35 } },
 };
 
-export default function SteamStats({ games, profile, compact, className }) {
+export default function SteamStats({ games, profile, wishlistCount, compact, className }) {
   if (!games || games.length === 0) return null;
 
   const totalHours = games.reduce((sum, g) => sum + g.playtimeHours, 0);
@@ -18,22 +18,21 @@ export default function SteamStats({ games, profile, compact, className }) {
     (s, g) => s + g.achievements.unlocked,
     0,
   );
-  const totalAchievements = gamesWithAch.reduce(
-    (s, g) => s + g.achievements.total,
-    0,
-  );
+
+  const engagedGames = gamesWithAch.filter((g) => g.achievements.unlocked > 0);
   const achPct =
-    totalAchievements > 0
-      ? Math.round((totalUnlocked / totalAchievements) * 100)
+    engagedGames.length > 0
+      ? Math.round(
+          engagedGames.reduce(
+            (s, g) => s + (g.achievements.unlocked / g.achievements.total) * 100,
+            0,
+          ) / engagedGames.length,
+        )
       : 0;
 
   const perfectGames = gamesWithAch.filter(
-    (g) => g.achievements.unlocked === g.achievements.total,
+    (g) => g.achievements.total > 0 && g.achievements.unlocked === g.achievements.total,
   ).length;
-
-  const totalDays = Math.round((totalHours / 24) * 10) / 10;
-  const avgHours =
-    games.length > 0 ? Math.round(totalHours / games.length) : 0;
 
   const rootClass = [
     styles.container,
@@ -70,21 +69,33 @@ export default function SteamStats({ games, profile, compact, className }) {
             </div>
           </div>
           <div className={styles.profileStats}>
-            <div className={styles.profileStat}>
-              <span className={styles.profileStatValue}>{games.length}</span>
-              <span className={styles.profileStatLabel}>GAMES</span>
+            <div className={styles.profileStatsRow}>
+              <div className={styles.profileStat}>
+                <span className={styles.profileStatValue}>
+                  {Math.round(totalHours).toLocaleString()}
+                </span>
+                <span className={styles.profileStatLabel}>HOURS</span>
+              </div>
+              <div className={styles.profileStat}>
+                <span className={styles.profileStatValue}>
+                  {totalUnlocked.toLocaleString()}
+                </span>
+                <span className={styles.profileStatLabel}>ACHIEVEMENTS</span>
+              </div>
+              <div className={styles.profileStat}>
+                <span className={styles.profileStatValue}>{perfectGames}</span>
+                <span className={styles.profileStatLabel}>100%</span>
+              </div>
             </div>
-            <div className={styles.profileStat}>
-              <span className={styles.profileStatValue}>
-                {Math.round(totalHours).toLocaleString()}
-              </span>
-              <span className={styles.profileStatLabel}>HOURS</span>
-            </div>
-            <div className={styles.profileStat}>
-              <span className={styles.profileStatValue}>
-                {totalUnlocked.toLocaleString()}
-              </span>
-              <span className={styles.profileStatLabel}>ACHIEVEMENTS</span>
+            <div className={styles.profileStatsRow}>
+              <div className={styles.profileStat}>
+                <span className={styles.profileStatValue}>{games.length}</span>
+                <span className={styles.profileStatLabel}>GAMES</span>
+              </div>
+              <div className={styles.profileStat}>
+                <span className={styles.profileStatValue}>{wishlistCount}</span>
+                <span className={styles.profileStatLabel}>WISHLIST</span>
+              </div>
             </div>
           </div>
         </div>
@@ -127,25 +138,6 @@ export default function SteamStats({ games, profile, compact, className }) {
                   <span className={styles.ringPct}>{achPct}%</span>
                 </div>
               </div>
-              <p className={styles.ringDetail}>
-                {totalUnlocked.toLocaleString()} /{' '}
-                {totalAchievements.toLocaleString()}
-              </p>
-            </div>
-          </div>
-
-          <div className={styles.milestones}>
-            <div className={styles.milestone}>
-              <span className={styles.milestoneValue}>{totalDays}</span>
-              <span className={styles.milestoneLabel}>DAYS PLAYED</span>
-            </div>
-            <div className={styles.milestone}>
-              <span className={styles.milestoneValue}>{perfectGames}</span>
-              <span className={styles.milestoneLabel}>100% COMPLETED</span>
-            </div>
-            <div className={styles.milestone}>
-              <span className={styles.milestoneValue}>{avgHours}</span>
-              <span className={styles.milestoneLabel}>AVG HOURS / GAME</span>
             </div>
           </div>
         </div>

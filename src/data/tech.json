@@ -1,0 +1,42 @@
+{
+  "techCategories": [
+    {
+      "id": "software",
+      "title": "SOFTWARE & TOOLS",
+      "items": [
+        { "name": "Visual Studio Code", "tags": ["IDE", "Daily Driver"], "proficiency": "Daily Use" },
+        { "name": "JIRA / Azure DevOps", "tags": ["Bug Tracking", "Agile"], "proficiency": "Proficient" },
+        { "name": "Git / GitHub", "tags": ["Version Control"], "proficiency": "Proficient" },
+        { "name": "Docker", "tags": ["Containers"], "proficiency": "Familiar" },
+        { "name": "OBS Studio", "tags": ["Streaming", "Recording"], "proficiency": "Proficient" },
+        { "name": "Figma", "tags": ["Design", "Prototyping"], "proficiency": "Familiar" }
+      ]
+    },
+    {
+      "id": "os",
+      "title": "OPERATING SYSTEMS",
+      "items": [
+        { "name": "Windows 10/11", "tags": ["Primary"], "proficiency": "Daily Use" },
+        { "name": "Ubuntu / Debian", "tags": ["Server", "Desktop"], "proficiency": "Proficient" },
+        { "name": "macOS", "tags": ["Secondary"], "proficiency": "Familiar" },
+        { "name": "Android", "tags": ["Mobile"], "proficiency": "Proficient" }
+      ]
+    },
+    {
+      "id": "builds",
+      "title": "COMPUTER BUILDS",
+      "items": [
+        {
+          "name": "Main Rig",
+          "tags": ["Gaming", "Work"],
+          "specs": "CPU / GPU / RAM — add your actual specs"
+        },
+        {
+          "name": "Home Server",
+          "tags": ["NAS", "Docker"],
+          "specs": "Server specs — add your actual setup"
+        }
+      ]
+    }
+  ]
+}

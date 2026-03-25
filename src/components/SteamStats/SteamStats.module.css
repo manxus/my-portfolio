@@ -26,13 +26,12 @@
 
 .profileRow {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   background: var(--bg-secondary);
   border: 1px solid rgba(95, 143, 143, 0.1);
   padding: 1rem 1.5rem;
-  gap: 2rem;
-  flex-wrap: wrap;
+  gap: 1.25rem;
 }
 
 .profileIdentity {
@@ -64,7 +63,15 @@
 
 .profileStats {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.profileStatsRow {
+  display: flex;
   gap: 2rem;
+  justify-content: center;
 }
 
 .profileStat {
@@ -217,46 +224,18 @@
 
 /* ---- Milestones ---- */
 
-.milestones {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.milestone {
-  background: var(--bg-secondary);
-  border: 1px solid rgba(95, 143, 143, 0.1);
-  padding: 0.75rem 1rem;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
-.milestoneValue {
-  font-family: var(--font-heading);
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--accent-bright);
-}
-
-.milestoneLabel {
-  font-family: var(--font-mono);
-  font-size: 0.55rem;
-  color: var(--text-dim);
-  letter-spacing: 0.12em;
-}
-
 /* ---- Compact mode (sidebar / overlay) ---- */
 
 .compact .profileRow {
-  flex-direction: column;
-  align-items: flex-start;
   padding: 0.75rem 1rem;
   gap: 0.75rem;
 }
 
 .compact .profileStats {
+  gap: 0.75rem;
+}
+
+.compact .profileStatsRow {
   gap: 1.25rem;
 }
 
@@ -304,27 +283,87 @@
   font-size: 1.2rem;
 }
 
-.compact .milestone {
-  padding: 0.6rem 0.75rem;
-}
-
-.compact .milestoneValue {
-  font-size: 1.1rem;
-}
-
 /* ---- Responsive ---- */
+
+@media (max-width: 1024px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
 
 @media (max-width: 768px) {
   .profileRow {
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 0.75rem 1rem;
+    gap: 1rem;
+  }
+
+  .profileStatsRow {
+    gap: 1.25rem;
+  }
+
+  .profileStatValue {
+    font-size: 1.1rem;
+  }
+
+  .profileStatLabel {
+    font-size: 0.45rem;
   }
 
   .layout {
     grid-template-columns: 1fr;
   }
 
+  .chartPanel {
+    padding: 1rem;
+  }
+
   .barRow {
-    grid-template-columns: 100px 1fr auto;
+    grid-template-columns: 90px 1fr auto;
+    gap: 0.5rem;
+  }
+
+  .barName {
+    font-size: 0.6rem;
+  }
+
+  .barValue {
+    font-size: 0.58rem;
+    min-width: 40px;
+  }
+
+  .ringSection {
+    padding: 1rem;
+  }
+
+  .ring {
+    width: 90px;
+    height: 90px;
+  }
+
+  .ringInner {
+    width: 70px;
+    height: 70px;
+  }
+
+  .ringPct {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profileStatsRow {
+    gap: 0.75rem;
+  }
+
+  .profileStatValue {
+    font-size: 0.95rem;
+  }
+
+  .barRow {
+    grid-template-columns: 75px 1fr auto;
+  }
+
+  .barName {
+    font-size: 0.55rem;
   }
 }

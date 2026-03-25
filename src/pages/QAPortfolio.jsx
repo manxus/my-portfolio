@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
-import { education, experience, playtests, certificates, skills } from '../data/qaPortfolio';
+import qaPortfolioData from '../data/qaPortfolio.json';
+import EditableSection, { EditableItemControls } from '../admin/EditableSection';
 import styles from './QAPortfolio.module.css';
+
+const { education, experience, playtests, certificates, skills } = qaPortfolioData;
 
 const stagger = {
   hidden: {},
@@ -25,28 +28,33 @@ export default function QAPortfolio() {
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> PROFESSIONAL EXPERIENCE
         </h2>
-        <div className={styles.timeline}>
-          {experience.map((job, i) => (
-            <div key={i} className={styles.timelineItem}>
-              <div className={styles.timelineDot} />
-              <div className={styles.card}>
-                <div className={styles.cardHeader}>
-                  <h3 className={styles.cardTitle}>{job.title}</h3>
-                  <span className={styles.cardPeriod}>{job.period}</span>
+        <EditableSection collection="qaPortfolio" dataKey="experience">
+          <div className={styles.timeline}>
+            {experience.map((job, i) => (
+              <div key={i} className={styles.timelineItem}>
+                <div className={styles.timelineDot} />
+                <div className={styles.card}>
+                  <div className={styles.cardHeader}>
+                    <h3 className={styles.cardTitle}>
+                      {job.title}
+                      <EditableItemControls index={i} />
+                    </h3>
+                    <span className={styles.cardPeriod}>{job.period}</span>
+                  </div>
+                  <p className={styles.cardCompany}>{job.company}</p>
+                  <p className={styles.cardDesc}>{job.description}</p>
+                  {job.highlights && (
+                    <ul className={styles.highlights}>
+                      {job.highlights.map((h, j) => (
+                        <li key={j}>{h}</li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
-                <p className={styles.cardCompany}>{job.company}</p>
-                <p className={styles.cardDesc}>{job.description}</p>
-                {job.highlights && (
-                  <ul className={styles.highlights}>
-                    {job.highlights.map((h, j) => (
-                      <li key={j}>{h}</li>
-                    ))}
-                  </ul>
-                )}
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </EditableSection>
       </motion.section>
 
       {/* --- Education --- */}
@@ -54,16 +62,23 @@ export default function QAPortfolio() {
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> EDUCATION
         </h2>
-        {education.map((edu, i) => (
-          <div key={i} className={styles.card}>
-            <div className={styles.cardHeader}>
-              <h3 className={styles.cardTitle}>{edu.degree}</h3>
-              <span className={styles.cardPeriod}>{edu.period}</span>
-            </div>
-            <p className={styles.cardCompany}>{edu.institution}</p>
-            <p className={styles.cardDesc}>{edu.description}</p>
+        <EditableSection collection="qaPortfolio" dataKey="education">
+          <div>
+            {education.map((edu, i) => (
+              <div key={i} className={styles.card}>
+                <div className={styles.cardHeader}>
+                  <h3 className={styles.cardTitle}>
+                    {edu.degree}
+                    <EditableItemControls index={i} />
+                  </h3>
+                  <span className={styles.cardPeriod}>{edu.period}</span>
+                </div>
+                <p className={styles.cardCompany}>{edu.institution}</p>
+                <p className={styles.cardDesc}>{edu.description}</p>
+              </div>
+            ))}
           </div>
-        ))}
+        </EditableSection>
       </motion.section>
 
       {/* --- Playtests --- */}
@@ -71,17 +86,22 @@ export default function QAPortfolio() {
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> PLAYTEST PARTICIPATIONS
         </h2>
-        <div className={styles.playtestGrid}>
-          {playtests.map((pt, i) => (
-            <div key={i} className={styles.playtestCard}>
-              <span className={styles.playtestType}>{pt.type}</span>
-              <h4 className={styles.playtestTitle}>{pt.title}</h4>
-              <p className={styles.playtestMeta}>
-                {pt.studio} &middot; {pt.year}
-              </p>
-            </div>
-          ))}
-        </div>
+        <EditableSection collection="qaPortfolio" dataKey="playtests">
+          <div className={styles.playtestGrid}>
+            {playtests.map((pt, i) => (
+              <div key={i} className={styles.playtestCard}>
+                <span className={styles.playtestType}>
+                  {pt.type}
+                  <EditableItemControls index={i} />
+                </span>
+                <h4 className={styles.playtestTitle}>{pt.title}</h4>
+                <p className={styles.playtestMeta}>
+                  {pt.studio} &middot; {pt.year}
+                </p>
+              </div>
+            ))}
+          </div>
+        </EditableSection>
       </motion.section>
 
       {/* --- Certificates --- */}
@@ -89,16 +109,21 @@ export default function QAPortfolio() {
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> CERTIFICATES
         </h2>
-        <div className={styles.certGrid}>
-          {certificates.map((cert, i) => (
-            <div key={i} className={styles.certCard}>
-              <h4 className={styles.certName}>{cert.name}</h4>
-              <p className={styles.certMeta}>
-                {cert.issuer} &middot; {cert.year}
-              </p>
-            </div>
-          ))}
-        </div>
+        <EditableSection collection="qaPortfolio" dataKey="certificates">
+          <div className={styles.certGrid}>
+            {certificates.map((cert, i) => (
+              <div key={i} className={styles.certCard}>
+                <h4 className={styles.certName}>
+                  {cert.name}
+                  <EditableItemControls index={i} />
+                </h4>
+                <p className={styles.certMeta}>
+                  {cert.issuer} &middot; {cert.year}
+                </p>
+              </div>
+            ))}
+          </div>
+        </EditableSection>
       </motion.section>
 
       {/* --- Skills & Tools --- */}
@@ -106,20 +131,25 @@ export default function QAPortfolio() {
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> SKILLS &amp; TOOLS
         </h2>
-        <div className={styles.skillsGrid}>
-          {skills.map((group, i) => (
-            <div key={i} className={styles.skillGroup}>
-              <h4 className={styles.skillCategory}>{group.category}</h4>
-              <div className={styles.skillTags}>
-                {group.items.map((item, j) => (
-                  <span key={j} className={styles.skillTag}>
-                    {item}
-                  </span>
-                ))}
+        <EditableSection collection="qaPortfolio" dataKey="skills">
+          <div className={styles.skillsGrid}>
+            {skills.map((group, i) => (
+              <div key={i} className={styles.skillGroup}>
+                <h4 className={styles.skillCategory}>
+                  {group.category}
+                  <EditableItemControls index={i} />
+                </h4>
+                <div className={styles.skillTags}>
+                  {group.items.map((item, j) => (
+                    <span key={j} className={styles.skillTag}>
+                      {item}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </EditableSection>
       </motion.section>
     </motion.div>
   );

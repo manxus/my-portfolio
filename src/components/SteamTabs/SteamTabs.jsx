@@ -2,6 +2,7 @@ import styles from './SteamTabs.module.css';
 
 const TABS = [
   { id: 'library', label: 'LIBRARY' },
+  { id: 'wishlist', label: 'WISHLIST' },
   { id: 'reviews', label: 'REVIEWS' },
   { id: 'tierlist', label: 'TIER LIST' },
 ];

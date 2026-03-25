@@ -1,15 +1,11 @@
 import { motion } from 'framer-motion';
+import livestreamData from '../data/livestream.json';
+import EditableSection, { EditableItemControls } from '../admin/EditableSection';
 import styles from './Livestream.module.css';
 
-const TWITCH_CHANNEL = 'your_twitch_username';
+const TWITCH_CHANNEL = livestreamData.twitchChannel;
 const PARENT_DOMAIN = window.location.hostname;
-
-const SCHEDULE = [
-  { day: 'Monday', time: '20:00 — 23:00', game: 'Variety' },
-  { day: 'Wednesday', time: '20:00 — 23:00', game: 'QA Streams' },
-  { day: 'Friday', time: '21:00 — 00:00', game: 'Community Night' },
-  { day: 'Saturday', time: '15:00 — 18:00', game: 'Retro Games' },
-];
+const SCHEDULE = livestreamData.schedule;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
@@ -48,27 +44,33 @@ export default function Livestream() {
         </div>
       </motion.div>
 
-      <motion.div variants={fadeUp} className={styles.channelInfo}>
-        <p className={styles.channelNote}>
-          Replace <code>your_twitch_username</code> in the source code with your
-          actual Twitch channel name.
-        </p>
-      </motion.div>
+      <EditableSection collection="livestream" dataKey="twitchChannel">
+        <motion.div variants={fadeUp} className={styles.channelInfo}>
+          <p className={styles.channelNote}>
+            Channel: <code>{TWITCH_CHANNEL}</code>
+          </p>
+        </motion.div>
+      </EditableSection>
 
       {/* Schedule */}
       <motion.section variants={fadeUp} className={styles.scheduleSection}>
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> STREAM SCHEDULE
         </h2>
-        <div className={styles.scheduleGrid}>
-          {SCHEDULE.map((slot) => (
-            <div key={slot.day} className={styles.scheduleCard}>
-              <h4 className={styles.scheduleDay}>{slot.day.toUpperCase()}</h4>
-              <p className={styles.scheduleTime}>{slot.time}</p>
-              <p className={styles.scheduleGame}>{slot.game}</p>
-            </div>
-          ))}
-        </div>
+        <EditableSection collection="livestream" dataKey="schedule">
+          <div className={styles.scheduleGrid}>
+            {SCHEDULE.map((slot, i) => (
+              <div key={slot.day} className={styles.scheduleCard}>
+                <h4 className={styles.scheduleDay}>
+                  {slot.day.toUpperCase()}
+                  <EditableItemControls index={i} />
+                </h4>
+                <p className={styles.scheduleTime}>{slot.time}</p>
+                <p className={styles.scheduleGame}>{slot.game}</p>
+              </div>
+            ))}
+          </div>
+        </EditableSection>
       </motion.section>
     </motion.div>
   );

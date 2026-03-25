@@ -1,0 +1,53 @@
+{
+  "categories": ["All", "Photography", "Video", "Creative"],
+  "galleryItems": [
+    {
+      "id": 1,
+      "type": "Photography",
+      "title": "Sample Photo 1",
+      "description": "Replace with your actual photo and description.",
+      "thumbnail": "https://placehold.co/600x400/182028/5f8f8f?text=Photo+1",
+      "fullUrl": null
+    },
+    {
+      "id": 2,
+      "type": "Photography",
+      "title": "Sample Photo 2",
+      "description": "Another placeholder — add your photography here.",
+      "thumbnail": "https://placehold.co/600x400/182028/5f8f8f?text=Photo+2",
+      "fullUrl": null
+    },
+    {
+      "id": 3,
+      "type": "Video",
+      "title": "Sample Video",
+      "description": "A placeholder for your video content.",
+      "thumbnail": "https://placehold.co/600x400/182028/5f8f8f?text=Video",
+      "videoUrl": null
+    },
+    {
+      "id": 4,
+      "type": "Photography",
+      "title": "Sample Photo 3",
+      "description": "Landscape or game screenshot.",
+      "thumbnail": "https://placehold.co/600x400/182028/5f8f8f?text=Photo+3",
+      "fullUrl": null
+    },
+    {
+      "id": 5,
+      "type": "Creative",
+      "title": "Creative Project",
+      "description": "A creative project or artwork.",
+      "thumbnail": "https://placehold.co/600x400/182028/5f8f8f?text=Creative",
+      "fullUrl": null
+    },
+    {
+      "id": 6,
+      "type": "Photography",
+      "title": "Sample Photo 4",
+      "description": "Another placeholder image.",
+      "thumbnail": "https://placehold.co/600x400/182028/5f8f8f?text=Photo+4",
+      "fullUrl": null
+    }
+  ]
+}

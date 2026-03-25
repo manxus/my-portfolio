@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
-import { techCategories } from '../data/tech';
+import techData from '../data/tech.json';
+import EditableSection, { EditableItemControls } from '../admin/EditableSection';
 import styles from './Tech.module.css';
+
+const { techCategories } = techData;
 
 const stagger = {
   hidden: {},
@@ -20,45 +23,34 @@ export default function Tech() {
       initial="hidden"
       animate="show"
     >
-      {techCategories.map((cat) => (
-        <motion.section key={cat.id} variants={fadeUp} className={styles.section}>
-          <h2 className={styles.sectionTitle}>
-            <span className={styles.sectionIcon}>&gt;</span> {cat.title}
-          </h2>
-          <div className={styles.itemList}>
-            {cat.items.map((item, i) => (
-              <div key={i} className={styles.item}>
-                <div className={styles.itemHeader}>
-                  <h4 className={styles.itemName}>{item.name}</h4>
-                  <div className={styles.tags}>
-                    {item.tags.map((tag) => (
-                      <span key={tag} className={styles.tag}>
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                {item.specs && (
-                  <p className={styles.specs}>{item.specs}</p>
-                )}
-                {item.level != null && (
-                  <div className={styles.barRow}>
-                    <div className={styles.barTrack}>
-                      <motion.div
-                        className={styles.barFill}
-                        initial={{ width: 0 }}
-                        animate={{ width: `${item.level}%` }}
-                        transition={{ duration: 0.8, delay: 0.2 }}
-                      />
+      <EditableSection collection="tech" dataKey="techCategories">
+        <div>
+          {techCategories.map((cat, ci) => (
+            <motion.section key={cat.id} variants={fadeUp} className={styles.section}>
+              <h2 className={styles.sectionTitle}>
+                <span className={styles.sectionIcon}>&gt;</span> {cat.title}
+                <EditableItemControls index={ci} />
+              </h2>
+              <div className={styles.itemList}>
+                {cat.items.map((item, i) => (
+                  <div key={i} className={styles.item}>
+                    <h4 className={styles.itemName}>{item.name}</h4>
+                    <div className={styles.tags}>
+                      {item.tags.map((tag) => (
+                        <span key={tag} className={styles.tag}>{tag}</span>
+                      ))}
                     </div>
-                    <span className={styles.barLabel}>{item.level}%</span>
+                    {item.proficiency && (
+                      <span className={styles.proficiency}>{item.proficiency}</span>
+                    )}
+                    {item.specs && <p className={styles.specs}>{item.specs}</p>}
                   </div>
-                )}
+                ))}
               </div>
-            ))}
-          </div>
-        </motion.section>
-      ))}
+            </motion.section>
+          ))}
+        </div>
+      </EditableSection>
     </motion.div>
   );
 }

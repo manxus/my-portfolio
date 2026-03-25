@@ -1,12 +1,11 @@
 import { motion } from 'framer-motion';
-import { changelog } from '../data/changelog';
+import changelogData from '../data/changelog.json';
+import patchNotesData from '../data/patchNotes.json';
+import EditableSection, { EditableItemControls } from '../admin/EditableSection';
 import styles from './PatchNotes.module.css';
 
-const KNOWN_ISSUES = [
-  'Cake delivery system remains offline — investigation ongoing',
-  'Exit button currently leads to recursive existential prompts',
-  'Occasional phantom hover states in the Twitch dimension',
-];
+const { changelog } = changelogData;
+const KNOWN_ISSUES = patchNotesData.knownIssues;
 
 const TAG_LABELS = {
   added: 'ADDED',
@@ -33,43 +32,53 @@ export default function PatchNotes() {
     >
       <section className={styles.knownIssues}>
         <h3 className={styles.sectionHeading}>&#9888; Known Issues</h3>
-        {KNOWN_ISSUES.map((issue, i) => (
-          <p key={i} className={styles.issue}>
-            &bull; {issue}
-          </p>
-        ))}
+        <EditableSection collection="patchNotes" dataKey="knownIssues">
+          <div>
+            {KNOWN_ISSUES.map((issue, i) => (
+              <p key={i} className={styles.issue}>
+                &bull; {issue}
+                <EditableItemControls index={i} />
+              </p>
+            ))}
+          </div>
+        </EditableSection>
       </section>
 
       <div className={styles.divider} />
 
-      <div className={styles.versions}>
-        {changelog.map((version, vi) => (
-          <article key={version.version} className={styles.versionBlock}>
-            <header className={styles.versionHeader}>
-              <h3 className={styles.versionTag}>v{version.version}</h3>
-              <span className={styles.versionDate}>
-                {formatDate(version.date)}
-              </span>
-              {vi === 0 && (
-                <span className={styles.latestBadge}>LATEST</span>
-              )}
-            </header>
+      <EditableSection collection="changelog" dataKey="changelog">
+        <div className={styles.versions}>
+          {changelog.map((version, vi) => (
+            <article key={version.version} className={styles.versionBlock}>
+              <header className={styles.versionHeader}>
+                <h3 className={styles.versionTag}>
+                  v{version.version}
+                  <EditableItemControls index={vi} />
+                </h3>
+                <span className={styles.versionDate}>
+                  {formatDate(version.date)}
+                </span>
+                {vi === 0 && (
+                  <span className={styles.latestBadge}>LATEST</span>
+                )}
+              </header>
 
-            <div className={styles.entryList}>
-              {version.entries.map((entry, i) => (
-                <div key={i} className={styles.entry}>
-                  <span
-                    className={`${styles.entryTag} ${styles[`tag_${entry.type}`] || ''}`}
-                  >
-                    [{TAG_LABELS[entry.type]}]
-                  </span>
-                  <span className={styles.entryText}>{entry.text}</span>
-                </div>
-              ))}
-            </div>
-          </article>
-        ))}
-      </div>
+              <div className={styles.entryList}>
+                {version.entries.map((entry, i) => (
+                  <div key={i} className={styles.entry}>
+                    <span
+                      className={`${styles.entryTag} ${styles[`tag_${entry.type}`] || ''}`}
+                    >
+                      [{TAG_LABELS[entry.type]}]
+                    </span>
+                    <span className={styles.entryText}>{entry.text}</span>
+                  </div>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
+      </EditableSection>
     </motion.div>
   );
 }

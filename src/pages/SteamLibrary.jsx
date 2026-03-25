@@ -1,7 +1,10 @@
 import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import steamData from '../data/steam-library.json';
-import { gameOverrides } from '../data/steam-overrides';
+import steamOverridesData from '../data/steam-overrides.json';
+import { useAdminStore } from '../stores/adminStore';
+
+const { gameOverrides } = steamOverridesData;
 import { useMediaQuery } from '../hooks/useMediaQuery';
 import SteamTabs from '../components/SteamTabs/SteamTabs';
 import SteamFilters from '../components/SteamFilters/SteamFilters';
@@ -9,6 +12,7 @@ import SteamStats from '../components/SteamStats/SteamStats';
 import SteamGameDetail from '../components/SteamGameDetail/SteamGameDetail';
 import SteamReviews from '../components/SteamReviews/SteamReviews';
 import SteamTierList from '../components/SteamTierList/SteamTierList';
+import SteamWishlist from '../components/SteamWishlist/SteamWishlist';
 import styles from './SteamLibrary.module.css';
 
 const stagger = {
@@ -28,20 +32,50 @@ function mergeOverrides(games) {
     return {
       ...g,
       genres: ov.genres || g.genres || [],
-      categories: ov.categories || g.categories || [],
+      playerModes: ov.playerModes || g.playerModes || [],
+      hardwareSupport: ov.hardwareSupport || g.hardwareSupport || [],
     };
   });
 }
 
+const GAMES_PER_PAGE = 100;
+
+const SORT_OPTIONS = [
+  { key: 'hours', label: 'Hours Played' },
+  { key: 'name', label: 'Alphabetical' },
+  { key: 'achievements', label: 'Achievement %' },
+];
+
+function sortGames(list, sortBy) {
+  const sorted = [...list];
+  switch (sortBy) {
+    case 'name':
+      return sorted.sort((a, b) => a.name.localeCompare(b.name));
+    case 'achievements': {
+      const pct = (g) => {
+        if (!g.achievements || g.achievements.total === 0) return -1;
+        return g.achievements.unlocked / g.achievements.total;
+      };
+      return sorted.sort((a, b) => pct(b) - pct(a));
+    }
+    case 'hours':
+    default:
+      return sorted.sort((a, b) => (b.playtimeHours || 0) - (a.playtimeHours || 0));
+  }
+}
+
 export default function SteamLibrary() {
+  const isAdmin = useAdminStore((s) => s.isAuthenticated);
   const [activeTab, setActiveTab] = useState('library');
   const [selectedGame, setSelectedGame] = useState(null);
   const [showStats, setShowStats] = useState(false);
   const [search, setSearch] = useState('');
-  const [activeFilters, setActiveFilters] = useState(new Set());
+  const [sortBy, setSortBy] = useState('hours');
+  const [page, setPage] = useState(1);
 
-  const { profile } = steamData;
+  const { profile, wishlist } = steamData;
   const games = useMemo(() => mergeOverrides(steamData.games), []);
+  const wishlistCount = wishlist?.length || 0;
 
   const gridRef = useRef(null);
   const [cols, setCols] = useState(3);
@@ -65,13 +99,16 @@ export default function SteamLibrary() {
     return () => observer.disconnect();
   }, [activeTab]);
 
-  const handleFilterToggle = useCallback((tag) => {
-    setActiveFilters((prev) => {
-      const next = new Set(prev);
-      if (next.has(tag)) next.delete(tag);
-      else next.add(tag);
-      return next;
-    });
+  const handleSearchChange = useCallback((value) => {
+    setSearch(value);
+    setPage(1);
+    setSelectedGame(null);
+  }, []);
+
+  const handleSortChange = useCallback((key) => {
+    setSortBy(key);
+    setPage(1);
+    setSelectedGame(null);
   }, []);
 
   const filteredGames = useMemo(() => {
@@ -80,28 +117,26 @@ export default function SteamLibrary() {
     if (q) {
       list = list.filter((g) => g.name.toLowerCase().includes(q));
     }
-    if (activeFilters.size > 0) {
-      list = list.filter((g) => {
-        const tags = new Set([...(g.genres || []), ...(g.categories || [])]);
-        for (const f of activeFilters) {
-          if (!tags.has(f)) return false;
-        }
-        return true;
-      });
-    }
-    return list;
-  }, [games, search, activeFilters]);
+    return sortGames(list, sortBy);
+  }, [games, search, sortBy]);
 
-  const selectedIndex = filteredGames.findIndex(
+  const totalPages = Math.max(1, Math.ceil(filteredGames.length / GAMES_PER_PAGE));
+  const safePage = Math.min(page, totalPages);
+  const pagedGames = filteredGames.slice(
+    (safePage - 1) * GAMES_PER_PAGE,
+    safePage * GAMES_PER_PAGE,
+  );
+
+  const selectedIndex = pagedGames.findIndex(
     (g) => g.appId === selectedGame,
   );
-  const selectedGameData = selectedIndex >= 0 ? filteredGames[selectedIndex] : null;
+  const selectedGameData = selectedIndex >= 0 ? pagedGames[selectedIndex] : null;
 
   const detailOrder = useMemo(() => {
     if (selectedIndex < 0) return -1;
     const row = Math.floor(selectedIndex / cols);
-    return Math.min((row + 1) * cols, filteredGames.length) * 2 - 1;
-  }, [selectedIndex, cols, filteredGames.length]);
+    return Math.min((row + 1) * cols, pagedGames.length) * 2 - 1;
+  }, [selectedIndex, cols, pagedGames.length]);
 
   const handleTabChange = useCallback((tab) => {
     setActiveTab(tab);
@@ -118,16 +153,21 @@ export default function SteamLibrary() {
       <SteamTabs activeTab={activeTab} onTabChange={handleTabChange} />
 
       {activeTab === 'library' && (
-        <div className={styles.page}>
+        <motion.div
+          className={styles.page}
+          variants={stagger}
+          initial="hidden"
+          animate="show"
+        >
           <div className={styles.main}>
             <motion.div variants={fadeUp} className={styles.gridSection}>
               <div className={styles.filterBar}>
                 <SteamFilters
                   search={search}
-                  onSearchChange={setSearch}
-                  activeFilters={activeFilters}
-                  onFilterToggle={handleFilterToggle}
-                  games={games}
+                  onSearchChange={handleSearchChange}
+                  sortBy={sortBy}
+                  onSortChange={handleSortChange}
+                  sortOptions={SORT_OPTIONS}
                 />
                 {!isWide && (
                   <button
@@ -140,7 +180,7 @@ export default function SteamLibrary() {
               </div>
 
               <div className={styles.grid} ref={gridRef}>
-                {filteredGames.map((game, i) => (
+                {pagedGames.map((game, i) => (
                   <button
                     key={game.appId}
                     style={{ order: i * 2 }}
@@ -176,14 +216,41 @@ export default function SteamLibrary() {
               </div>
 
               {filteredGames.length === 0 && (
-                <p className={styles.noResults}>No games match your filters.</p>
+                <p className={styles.noResults}>No games match your search.</p>
+              )}
+
+              {totalPages > 1 && (
+                <div className={styles.pagination}>
+                  <button
+                    className={styles.pageBtn}
+                    disabled={safePage <= 1}
+                    onClick={() => { setPage(safePage - 1); setSelectedGame(null); }}
+                  >
+                    &laquo; PREV
+                  </button>
+                  <span className={styles.pageInfo}>
+                    PAGE {safePage} / {totalPages}
+                    <span className={styles.pageCount}>
+                      &nbsp;({filteredGames.length} games)
+                    </span>
+                  </span>
+                  <button
+                    className={styles.pageBtn}
+                    disabled={safePage >= totalPages}
+                    onClick={() => { setPage(safePage + 1); setSelectedGame(null); }}
+                  >
+                    NEXT &raquo;
+                  </button>
+                </div>
               )}
             </motion.div>
 
-            <motion.p variants={fadeUp} className={styles.hint}>
-              Run <code>node scripts/fetch-steam-data.js</code> with your Steam
-              API key to populate with real data.
-            </motion.p>
+            {isAdmin && (
+              <motion.p variants={fadeUp} className={styles.hint}>
+                Run <code>node scripts/fetch-steam-data.js</code> with your Steam
+                API key to populate with real data.
+              </motion.p>
+            )}
           </div>
 
           {isWide && (
@@ -193,10 +260,21 @@ export default function SteamLibrary() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.3, delay: 0.1 }}
             >
-              <SteamStats games={games} profile={profile} compact />
+              <SteamStats games={games} profile={profile} wishlistCount={wishlistCount} compact />
             </motion.aside>
           )}
-        </div>
+        </motion.div>
+      )}
+
+      {activeTab === 'wishlist' && (
+        <motion.div
+          key="wishlist"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <SteamWishlist wishlist={wishlist || []} />
+        </motion.div>
       )}
 
       {activeTab === 'reviews' && (
@@ -252,7 +330,7 @@ export default function SteamLibrary() {
               </button>
             </div>
             <div className={styles.overlayContent}>
-              <SteamStats games={games} profile={profile} compact />
+              <SteamStats games={games} profile={profile} wishlistCount={wishlistCount} compact />
             </div>
           </motion.aside>
         )}

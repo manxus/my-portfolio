@@ -29,6 +29,8 @@
   align-self: flex-start;
   max-height: 100vh;
   overflow-y: auto;
+  padding-left: 1.25rem;
+  padding-right: 1rem;
 }
 
 /* ---- Grid section ---- */
@@ -42,7 +44,7 @@
 .filterBar {
   display: flex;
   gap: 0.75rem;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .filterBar > *:first-child {
@@ -65,9 +67,10 @@
   color: var(--accent);
   letter-spacing: 0.1em;
   border: 1px solid var(--accent-dim);
-  padding: 0.3rem 0.6rem;
+  padding: 0 0.75rem;
   background: none;
   cursor: pointer;
+  white-space: nowrap;
   transition:
     color var(--transition-fast),
     border-color var(--transition-fast),
@@ -196,12 +199,117 @@
   color: var(--accent);
 }
 
-@media (max-width: 768px) {
+/* ---- Pagination ---- */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.75rem 0;
+}
+
+.pageBtn {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent-dim);
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.pageBtn:hover:not(:disabled) {
+  color: var(--text-primary);
+  border-color: var(--accent);
+  background: var(--bg-hover);
+}
+
+.pageBtn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.pageInfo {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+}
+
+.pageCount {
+  color: var(--text-dim);
+  opacity: 0.6;
+}
+
+/* ---- Responsive: tablet ---- */
+
+@media (max-width: 1024px) {
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   }
 
   .overlay {
+    width: 100%;
+  }
+}
+
+/* ---- Responsive: phone ---- */
+
+@media (max-width: 768px) {
+  .container {
+    padding-bottom: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .overlay {
+    width: 100%;
+  }
+
+  .overlayHeader {
+    padding: 1rem;
+  }
+
+  .overlayContent {
+    padding: 1rem;
+  }
+
+  .pagination {
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .pageBtn {
+    font-size: 0.55rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .pageInfo {
+    font-size: 0.55rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(85px, 1fr));
+    gap: 0.4rem;
+  }
+
+  .filterBar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .filterBar > *:first-child {
     width: 100%;
   }
 }

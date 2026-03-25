@@ -23,9 +23,10 @@
 }
 
 .thumb {
-  width: 80px;
+  width: 130px;
   aspect-ratio: 2 / 3;
-  object-fit: cover;
+  object-fit: contain;
+  align-self: flex-start;
   flex-shrink: 0;
 }
 
@@ -191,5 +192,10 @@
   .thumb {
     width: 100%;
     aspect-ratio: 460 / 215;
+    object-fit: cover;
+  }
+
+  .proscons {
+    gap: 1rem;
   }
 }

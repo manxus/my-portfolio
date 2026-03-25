@@ -1,59 +1,11 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import mediaData from '../data/media.json';
+import EditableSection, { EditableItemControls } from '../admin/EditableSection';
 import styles from './Media.module.css';
 
-const CATEGORIES = ['All', 'Photography', 'Video', 'Creative'];
-
-const GALLERY_ITEMS = [
-  {
-    id: 1,
-    type: 'Photography',
-    title: 'Sample Photo 1',
-    description: 'Replace with your actual photo and description.',
-    thumbnail: 'https://placehold.co/600x400/182028/5f8f8f?text=Photo+1',
-    fullUrl: null,
-  },
-  {
-    id: 2,
-    type: 'Photography',
-    title: 'Sample Photo 2',
-    description: 'Another placeholder — add your photography here.',
-    thumbnail: 'https://placehold.co/600x400/182028/5f8f8f?text=Photo+2',
-    fullUrl: null,
-  },
-  {
-    id: 3,
-    type: 'Video',
-    title: 'Sample Video',
-    description: 'A placeholder for your video content.',
-    thumbnail: 'https://placehold.co/600x400/182028/5f8f8f?text=Video',
-    videoUrl: null,
-  },
-  {
-    id: 4,
-    type: 'Photography',
-    title: 'Sample Photo 3',
-    description: 'Landscape or game screenshot.',
-    thumbnail: 'https://placehold.co/600x400/182028/5f8f8f?text=Photo+3',
-    fullUrl: null,
-  },
-  {
-    id: 5,
-    type: 'Creative',
-    title: 'Creative Project',
-    description: 'A creative project or artwork.',
-    thumbnail: 'https://placehold.co/600x400/182028/5f8f8f?text=Creative',
-    fullUrl: null,
-  },
-  {
-    id: 6,
-    type: 'Photography',
-    title: 'Sample Photo 4',
-    description: 'Another placeholder image.',
-    thumbnail: 'https://placehold.co/600x400/182028/5f8f8f?text=Photo+4',
-    fullUrl: null,
-  },
-];
+const CATEGORIES = mediaData.categories;
+const GALLERY_ITEMS = mediaData.galleryItems;
 
 const stagger = {
   hidden: {},
@@ -95,38 +47,43 @@ export default function Media() {
       </div>
 
       {/* Gallery grid */}
-      <motion.div
-        className={styles.grid}
-        variants={stagger}
-        initial="hidden"
-        animate="show"
-        key={filter}
-      >
-        {filtered.map((item) => (
-          <motion.button
-            key={item.id}
-            variants={fadeUp}
-            className={styles.card}
-            onClick={() => setLightbox(item)}
-          >
-            <div className={styles.imageWrap}>
-              <img
-                src={item.thumbnail}
-                alt={item.title}
-                className={styles.image}
-                loading="lazy"
-              />
-              <div className={styles.overlay}>
-                <span className={styles.overlayType}>{item.type}</span>
+      <EditableSection collection="media" dataKey="galleryItems">
+        <motion.div
+          className={styles.grid}
+          variants={stagger}
+          initial="hidden"
+          animate="show"
+          key={filter}
+        >
+          {filtered.map((item, i) => (
+            <motion.button
+              key={item.id}
+              variants={fadeUp}
+              className={styles.card}
+              onClick={() => setLightbox(item)}
+            >
+              <div className={styles.imageWrap}>
+                <img
+                  src={item.thumbnail}
+                  alt={item.title}
+                  className={styles.image}
+                  loading="lazy"
+                />
+                <div className={styles.overlay}>
+                  <span className={styles.overlayType}>{item.type}</span>
+                </div>
               </div>
-            </div>
-            <div className={styles.cardInfo}>
-              <h4 className={styles.cardTitle}>{item.title}</h4>
-              <p className={styles.cardDesc}>{item.description}</p>
-            </div>
-          </motion.button>
-        ))}
-      </motion.div>
+              <div className={styles.cardInfo}>
+                <h4 className={styles.cardTitle}>
+                  {item.title}
+                  <EditableItemControls index={GALLERY_ITEMS.indexOf(item)} />
+                </h4>
+                <p className={styles.cardDesc}>{item.description}</p>
+              </div>
+            </motion.button>
+          ))}
+        </motion.div>
+      </EditableSection>
 
       {/* Lightbox */}
       <AnimatePresence>

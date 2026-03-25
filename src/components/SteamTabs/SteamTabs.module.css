@@ -29,3 +29,22 @@
   color: var(--accent-bright);
   border-bottom-color: var(--accent-bright);
 }
+
+@media (max-width: 480px) {
+  .tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab {
+    font-size: 0.62rem;
+    padding: 0.5rem 0.85rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}

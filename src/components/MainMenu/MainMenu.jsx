@@ -1,15 +1,18 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { menuItems } from '../../data/menu';
+import menuData from '../../data/menu.json';
 import { useKeyboardNav } from '../../hooks/useKeyboardNav';
 import { useSound } from '../../hooks/useSound';
 import ExitModal from '../ExitModal/ExitModal';
 import MenuBackground from '../MenuBackground/MenuBackground';
 import StatusPanel from '../StatusPanel/StatusPanel';
+import HiddenTrigger from '../../admin/HiddenTrigger';
 import styles from './MainMenu.module.css';
 
-export default function MainMenu({ desktopContent }) {
+const { menuItems } = menuData;
+
+export default function MainMenu({ desktopContent, onAdminTrigger }) {
   const navigate = useNavigate();
   const location = useLocation();
   const { play } = useSound();
@@ -264,7 +267,13 @@ export default function MainMenu({ desktopContent }) {
             &#128187; Patch Notes
           </button>
           <p className={styles.copyright}>
-            &copy; {new Date().getFullYear()} Build Verified
+            {import.meta.env.DEV && onAdminTrigger ? (
+              <HiddenTrigger onTrigger={onAdminTrigger}>
+                &copy; {new Date().getFullYear()} Build Verified
+              </HiddenTrigger>
+            ) : (
+              <>&copy; {new Date().getFullYear()} Build Verified</>
+            )}
           </p>
         </footer>
       </div>

@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, MotionConfig } from 'framer-motion';
 import { useSettingsStore } from './stores/settingsStore';
+import { useAdminStore } from './stores/adminStore';
 import BootSequence from './components/BootSequence/BootSequence';
 import MainMenu from './components/MainMenu/MainMenu';
 import PageShell from './components/PageShell/PageShell';
@@ -10,13 +11,15 @@ import VisionFilters from './components/VisionFilters/VisionFilters';
 import QAPortfolio from './pages/QAPortfolio';
 import SteamLibrary from './pages/SteamLibrary';
 import Resume from './pages/Resume';
-import References from './pages/References';
+import SideProjects from './pages/SideProjects';
 import Tech from './pages/Tech';
 import Media from './pages/Media';
 import Livestream from './pages/Livestream';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
 import PatchNotes from './pages/PatchNotes';
+import LoginModal from './admin/LoginModal';
+import AdminToolbar from './admin/AdminToolbar';
 import { useMediaQuery } from './hooks/useMediaQuery';
 import { useSettingsApplier } from './hooks/useSettingsApplier';
 
@@ -24,8 +27,8 @@ const pageRoutes = [
   { path: '/qa-portfolio', title: 'QA Portfolio', subtitle: 'STORY // CHAPTER 01', Component: QAPortfolio },
   { path: '/steam-library', title: 'Steam Library', subtitle: 'STORY // CHAPTER 02', Component: SteamLibrary },
   { path: '/resume', title: 'Resume', subtitle: 'DLCS // DOWNLOAD 01', Component: Resume },
-  { path: '/references', title: 'References', subtitle: 'DLCS // DOWNLOAD 02', Component: References },
-  { path: '/tech', title: 'Tech', subtitle: 'EXTRA // BONUS CONTENT', Component: Tech },
+  { path: '/side-projects', title: 'Side Projects', subtitle: 'DLCS // DOWNLOAD 02', Component: SideProjects },
+  { path: '/tech', title: 'Tech Loadout', subtitle: 'STORY // CHAPTER 03', Component: Tech },
   { path: '/media', title: 'Media', subtitle: 'EXTRA // BONUS CONTENT', Component: Media },
   { path: '/livestream', title: 'Livestream', subtitle: 'EXTRA // BONUS CONTENT', Component: Livestream },
   { path: '/settings', title: 'Settings', subtitle: 'SYSTEM CONFIGURATION', Component: Settings },
@@ -38,6 +41,21 @@ export default function App() {
   const location = useLocation();
   const isDesktop = useMediaQuery('(min-width: 1200px)');
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
+  const verifyToken = useAdminStore((s) => s.verifyToken);
+  const [showLogin, setShowLogin] = useState(false);
+
+  const handleAdminTrigger = useCallback(() => {
+    if (isAuthenticated) return;
+    setShowLogin(true);
+  }, [isAuthenticated]);
+
+  useEffect(() => {
+    if (import.meta.env.DEV && isAuthenticated) {
+      verifyToken();
+    }
+  }, []);
+
   const [bootComplete, setBootComplete] = useState(() => {
     if (location.pathname !== '/') return true;
     return sessionStorage.getItem('bv_boot') === 'done';
@@ -80,13 +98,23 @@ export default function App() {
       </AnimatePresence>
 
       {bootComplete && isDesktop && (
-        <MainMenu desktopContent={desktopContent} />
+        <MainMenu
+          desktopContent={desktopContent}
+          onAdminTrigger={import.meta.env.DEV ? handleAdminTrigger : undefined}
+        />
       )}
 
       {bootComplete && !isDesktop && (
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
-            <Route path="/" element={<MainMenu />} />
+            <Route
+              path="/"
+              element={
+                <MainMenu
+                  onAdminTrigger={import.meta.env.DEV ? handleAdminTrigger : undefined}
+                />
+              }
+            />
             {pageRoutes.map(({ path, title, subtitle, Component }) => (
               <Route
                 key={path}
@@ -100,6 +128,16 @@ export default function App() {
             ))}
           </Routes>
         </AnimatePresence>
+      )}
+      {import.meta.env.DEV && (
+        <>
+          <AnimatePresence>
+            {showLogin && !isAuthenticated && (
+              <LoginModal onClose={() => setShowLogin(false)} />
+            )}
+          </AnimatePresence>
+          {isAuthenticated && <AdminToolbar />}
+        </>
       )}
     </MotionConfig>
   );

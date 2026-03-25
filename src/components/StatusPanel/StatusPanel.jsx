@@ -1,6 +1,8 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { changelog } from '../../data/changelog';
+import changelogData from '../../data/changelog.json';
+
+const { changelog } = changelogData;
 import PatchModal from '../PatchModal/PatchModal';
 import styles from './StatusPanel.module.css';
 

@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
-import { timeline, personalInfo } from '../data/resume';
+import resumeData from '../data/resume.json';
+import EditableSection, { EditableItemControls } from '../admin/EditableSection';
 import styles from './Resume.module.css';
+
+const { timeline, personalInfo } = resumeData;
 
 const stagger = {
   hidden: {},
@@ -28,11 +31,13 @@ export default function Resume() {
     >
       {/* Info header */}
       <motion.div variants={fadeUp} className={styles.header}>
-        <div>
-          <h2 className={styles.name}>{personalInfo.name}</h2>
-          <p className={styles.role}>{personalInfo.title}</p>
-          <p className={styles.location}>{personalInfo.location}</p>
-        </div>
+        <EditableSection collection="resume" dataKey="personalInfo">
+          <div>
+            <h2 className={styles.name}>{personalInfo.name}</h2>
+            <p className={styles.role}>{personalInfo.title}</p>
+            <p className={styles.location}>{personalInfo.location}</p>
+          </div>
+        </EditableSection>
         <div className={styles.links}>
           {personalInfo.links.map((link) => (
             <a
@@ -55,31 +60,36 @@ export default function Resume() {
       </motion.div>
 
       {/* Timeline */}
-      <div className={styles.timeline}>
-        {timeline.map((block) => (
-          <motion.div key={block.year} variants={fadeUp} className={styles.yearBlock}>
-            <div className={styles.yearLabel}>{block.year}</div>
-            <div className={styles.entries}>
-              {block.entries.map((entry, i) => (
-                <div key={i} className={styles.entry}>
-                  <span className={styles.entryType}>
-                    {TYPE_LABELS[entry.type] || entry.type.toUpperCase()}
-                  </span>
-                  <h4 className={styles.entryTitle}>{entry.title}</h4>
-                  <p className={styles.entryOrg}>
-                    {entry.org}
-                    <span className={styles.entryPeriod}>
-                      {' '}
-                      &middot; {entry.period}
+      <EditableSection collection="resume" dataKey="timeline">
+        <div className={styles.timeline}>
+          {timeline.map((block, bi) => (
+            <motion.div key={block.year} variants={fadeUp} className={styles.yearBlock}>
+              <div className={styles.yearLabel}>
+                {block.year}
+                <EditableItemControls index={bi} />
+              </div>
+              <div className={styles.entries}>
+                {block.entries.map((entry, i) => (
+                  <div key={i} className={styles.entry}>
+                    <span className={styles.entryType}>
+                      {TYPE_LABELS[entry.type] || entry.type.toUpperCase()}
                     </span>
-                  </p>
-                  <p className={styles.entryDesc}>{entry.description}</p>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        ))}
-      </div>
+                    <h4 className={styles.entryTitle}>{entry.title}</h4>
+                    <p className={styles.entryOrg}>
+                      {entry.org}
+                      <span className={styles.entryPeriod}>
+                        {' '}
+                        &middot; {entry.period}
+                      </span>
+                    </p>
+                    <p className={styles.entryDesc}>{entry.description}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </EditableSection>
     </motion.div>
   );
 }

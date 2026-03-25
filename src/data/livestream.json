@@ -1,0 +1,9 @@
+{
+  "twitchChannel": "your_twitch_username",
+  "schedule": [
+    { "day": "Monday", "time": "20:00 — 23:00", "game": "Variety" },
+    { "day": "Wednesday", "time": "20:00 — 23:00", "game": "QA Streams" },
+    { "day": "Friday", "time": "21:00 — 00:00", "game": "Community Night" },
+    { "day": "Saturday", "time": "15:00 — 18:00", "game": "Retro Games" }
+  ]
+}

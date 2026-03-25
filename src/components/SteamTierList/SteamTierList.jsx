@@ -1,7 +1,10 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { tierLists } from '../../data/steam-tierlist';
+import steamTierlistData from '../../data/steam-tierlist.json';
+import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
 import styles from './SteamTierList.module.css';
+
+const { tierLists } = steamTierlistData;
 
 const TIER_ORDER = ['S', 'A', 'B', 'C', 'D', 'F'];
 
@@ -35,68 +38,71 @@ export default function SteamTierList({ games }) {
   }
 
   return (
-    <div className={styles.container}>
-      <div className={styles.categoryBar}>
-        {tierLists.map((tl) => (
-          <button
-            key={tl.category}
-            className={`${styles.categoryBtn} ${activeCategory === tl.category ? styles.categoryActive : ''}`}
-            onClick={() => setActiveCategory(tl.category)}
-          >
-            {tl.category.toUpperCase()}
-          </button>
-        ))}
-      </div>
+    <EditableSection collection="steam-tierlist" dataKey="tierLists">
+      <div className={styles.container}>
+        <div className={styles.categoryBar}>
+          {tierLists.map((tl, i) => (
+            <button
+              key={tl.category}
+              className={`${styles.categoryBtn} ${activeCategory === tl.category ? styles.categoryActive : ''}`}
+              onClick={() => setActiveCategory(tl.category)}
+            >
+              {tl.category.toUpperCase()}
+              <EditableItemControls index={i} />
+            </button>
+          ))}
+        </div>
 
-      {activeTierList && (
-        <motion.div
-          key={activeCategory}
-          className={styles.tierGrid}
-          variants={stagger}
-          initial="hidden"
-          animate="show"
-        >
-          {TIER_ORDER.map((tier) => {
-            const appIds = activeTierList.tiers[tier] || [];
-            return (
-              <motion.div
-                key={tier}
-                className={styles.tierRow}
-                variants={fadeUp}
-              >
-                <div
-                  className={styles.tierLabel}
-                  data-tier={tier}
+        {activeTierList && (
+          <motion.div
+            key={activeCategory}
+            className={styles.tierGrid}
+            variants={stagger}
+            initial="hidden"
+            animate="show"
+          >
+            {TIER_ORDER.map((tier) => {
+              const appIds = activeTierList.tiers[tier] || [];
+              return (
+                <motion.div
+                  key={tier}
+                  className={styles.tierRow}
+                  variants={fadeUp}
                 >
-                  {tier}
-                </div>
-                <div className={styles.tierGames}>
-                  {appIds.length === 0 && (
-                    <span className={styles.tierEmpty}>---</span>
-                  )}
-                  {appIds.map((id) => {
-                    const game = gameMap[id];
-                    if (!game) return null;
-                    return (
-                      <div key={id} className={styles.gameThumb} title={game.name}>
-                        <img
-                          src={`https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appId}/library_600x900.jpg`}
-                          alt={game.name}
-                          className={styles.gameImg}
-                          loading="lazy"
-                          onError={(e) => {
-                            e.target.src = game.headerUrl;
-                          }}
-                        />
-                      </div>
-                    );
-                  })}
-                </div>
-              </motion.div>
-            );
-          })}
-        </motion.div>
-      )}
-    </div>
+                  <div
+                    className={styles.tierLabel}
+                    data-tier={tier}
+                  >
+                    {tier}
+                  </div>
+                  <div className={styles.tierGames}>
+                    {appIds.length === 0 && (
+                      <span className={styles.tierEmpty}>---</span>
+                    )}
+                    {appIds.map((id) => {
+                      const game = gameMap[id];
+                      if (!game) return null;
+                      return (
+                        <div key={id} className={styles.gameThumb} title={game.name}>
+                          <img
+                            src={`https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appId}/library_600x900.jpg`}
+                            alt={game.name}
+                            className={styles.gameImg}
+                            loading="lazy"
+                            onError={(e) => {
+                              e.target.src = game.headerUrl;
+                            }}
+                          />
+                        </div>
+                      );
+                    })}
+                  </div>
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        )}
+      </div>
+    </EditableSection>
   );
 }
