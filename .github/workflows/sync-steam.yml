@@ -18,6 +18,14 @@ jobs:
         with:
           node-version: 20
 
+      - uses: actions/cache@v4
+        id: steam-cache
+        with:
+          path: scripts/.steam-fetch-cache
+          key: steam-fetch-v1-${{ hashFiles('scripts/fetch-steam-data.js') }}
+          restore-keys: |
+            steam-fetch-v1-
+
       - name: Fetch Steam data
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}

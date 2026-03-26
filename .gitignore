@@ -25,3 +25,6 @@ dist-ssr
 
 .vercel
 .env
+
+# Steam fetch script cache (local + CI restored via actions/cache)
+scripts/.steam-fetch-cache
