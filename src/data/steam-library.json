@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-03-26T16:07:13.904Z",
+  "fetchedAt": "2026-03-27T07:08:44.661Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1774538637
+    "lastLogoff": 1774592916
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2471.1,
+      "playtimeHours": 2476.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -1175,10 +1175,7 @@
       ],
       "hardwareSupport": [],
       "releaseDate": "Jan 15, 2015",
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 8190,
@@ -3377,10 +3374,7 @@
       ],
       "hardwareSupport": [],
       "releaseDate": "May 23, 2019",
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 1824220,
@@ -5973,10 +5967,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 348360,
@@ -6765,10 +6756,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 1240210,
@@ -7194,10 +7182,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 383270,
@@ -7284,10 +7269,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 286120,
@@ -8178,6 +8160,21 @@
       }
     },
     {
+      "appId": 1570010,
+      "name": "FAR: Changing Tides",
+      "playtimeHours": 4.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 35,
+        "unlocked": 25
+      }
+    },
+    {
       "appId": 2052970,
       "name": "STRIDEN",
       "playtimeHours": 4.9,
@@ -8187,10 +8184,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 284950,
@@ -9111,21 +9105,6 @@
       "achievements": {
         "total": 13,
         "unlocked": 13
-      }
-    },
-    {
-      "appId": 1570010,
-      "name": "FAR: Changing Tides",
-      "playtimeHours": 3.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 35,
-        "unlocked": 15
       }
     },
     {
@@ -10311,10 +10290,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 1374290,
@@ -13503,10 +13479,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 1930,
@@ -15024,10 +14997,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 34190,
@@ -17430,10 +17400,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 228360,
@@ -19722,10 +19689,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 262280,
@@ -19971,10 +19935,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 266510,
@@ -21369,10 +21330,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 286500,
@@ -21498,10 +21456,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 289070,
@@ -21948,10 +21903,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 293940,
@@ -22461,10 +22413,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 302110,
@@ -23076,10 +23025,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 312670,
@@ -23808,10 +23754,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 323720,
@@ -24519,10 +24462,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 336030,
@@ -24957,10 +24897,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 341310,
@@ -25359,10 +25296,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 347290,
@@ -26085,10 +26019,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 359100,
@@ -26541,10 +26472,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 364360,
@@ -26826,10 +26754,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 368430,
@@ -27525,10 +27450,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 382140,
@@ -27822,10 +27744,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 384930,
@@ -28263,10 +28182,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 391660,
@@ -28323,10 +28239,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 392070,
@@ -28413,10 +28326,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 393420,
@@ -28428,10 +28338,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 393430,
@@ -29274,10 +29181,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 407560,
@@ -30399,10 +30303,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 428550,
@@ -31237,10 +31138,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 444220,
@@ -32350,10 +32248,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 463220,
@@ -33616,10 +33511,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 493900,
@@ -35200,10 +35092,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 530390,
@@ -35521,10 +35410,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 538070,
@@ -36847,10 +36733,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 583270,
@@ -39553,10 +39436,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 686360,
@@ -40450,10 +40330,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 726340,
@@ -40930,10 +40807,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 746940,
@@ -42307,10 +42181,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 811240,
@@ -42706,10 +42577,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 834530,
@@ -43528,10 +43396,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 887060,
@@ -43627,10 +43492,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 893180,
@@ -43702,10 +43564,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 895620,
@@ -44017,10 +43876,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 914750,
@@ -44905,10 +44761,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 964620,
@@ -49759,10 +49612,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 1230530,
@@ -56473,10 +56323,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 0,
-        "unlocked": 0
-      }
+      "achievements": null
     },
     {
       "appId": 1968730,
