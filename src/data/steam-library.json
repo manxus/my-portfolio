@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-03-27T07:08:44.661Z",
+  "fetchedAt": "2026-03-28T07:00:35.253Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1774592916
+    "lastLogoff": 1774670325
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2476.8,
+      "playtimeHours": 2487.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -6225,6 +6225,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 8.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 22
+      }
+    },
+    {
       "appId": 317400,
       "name": "Portal Stories: Mel",
       "playtimeHours": 8.8,
@@ -6597,6 +6612,21 @@
       }
     },
     {
+      "appId": 1570010,
+      "name": "FAR: Changing Tides",
+      "playtimeHours": 8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 35,
+        "unlocked": 29
+      }
+    },
+    {
       "appId": 865360,
       "name": "We Were Here Together",
       "playtimeHours": 7.9,
@@ -6608,21 +6638,6 @@
       "releaseDate": null,
       "achievements": {
         "total": 22,
-        "unlocked": 22
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 7.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
         "unlocked": 22
       }
     },
@@ -8156,21 +8171,6 @@
       "releaseDate": null,
       "achievements": {
         "total": 25,
-        "unlocked": 25
-      }
-    },
-    {
-      "appId": 1570010,
-      "name": "FAR: Changing Tides",
-      "playtimeHours": 4.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 35,
         "unlocked": 25
       }
     },
