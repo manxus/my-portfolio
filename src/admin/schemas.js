@@ -1,3 +1,34 @@
+/** Category slug in tech.json for the computer builds section */
+export const TECH_BUILDS_CATEGORY_ID = 'builds';
+
+/** Software / OS / other tech rows */
+export const TECH_CATEGORY_ITEM_BASE_SCHEMA = [
+  { key: 'name', label: 'Name', type: 'text', required: true },
+  { key: 'tags', label: 'Tags', type: 'list' },
+  { key: 'proficiency', label: 'Proficiency', type: 'text' },
+];
+
+/** Shown only when category id is `builds` (in-app editor + nested list) */
+export const TECH_BUILD_ITEM_EXTRA_SCHEMA = [
+  { key: 'cpu', label: 'CPU', type: 'text' },
+  { key: 'gpu', label: 'GPU', type: 'text' },
+  { key: 'ram', label: 'RAM', type: 'text' },
+  { key: 'storage', label: 'Storage', type: 'text' },
+  { key: 'motherboard', label: 'Motherboard', type: 'text' },
+  { key: 'psu', label: 'PSU', type: 'text' },
+  { key: 'case', label: 'Case', type: 'text' },
+  { key: 'cooling', label: 'Cooling', type: 'text' },
+  { key: 'extras', label: 'Other / Notes', type: 'textarea' },
+  { key: 'specs', label: 'Free-form specs (legacy)', type: 'textarea' },
+];
+
+export function getTechItemSchemaForCategoryId(categoryId) {
+  if (categoryId === TECH_BUILDS_CATEGORY_ID) {
+    return [...TECH_CATEGORY_ITEM_BASE_SCHEMA, ...TECH_BUILD_ITEM_EXTRA_SCHEMA];
+  }
+  return TECH_CATEGORY_ITEM_BASE_SCHEMA;
+}
+
 export const schemas = {
   'qaPortfolio.experience': [
     { key: 'title', label: 'Job Title', type: 'text', required: true },
@@ -52,12 +83,13 @@ export const schemas = {
   'tech.techCategories': [
     { key: 'id', label: 'ID (slug)', type: 'text', required: true },
     { key: 'title', label: 'Section Title', type: 'text', required: true },
-    { key: 'items', label: 'Items', type: 'objectList', schema: [
-      { key: 'name', label: 'Name', type: 'text', required: true },
-      { key: 'tags', label: 'Tags', type: 'list' },
-      { key: 'proficiency', label: 'Proficiency', type: 'text' },
-      { key: 'specs', label: 'Specs', type: 'text' },
-    ]},
+    {
+      key: 'items',
+      label: 'Items',
+      type: 'objectList',
+      schema: TECH_CATEGORY_ITEM_BASE_SCHEMA,
+      getItemSchema: (formData) => getTechItemSchemaForCategoryId(formData?.id),
+    },
   ],
 
   'steam-reviews.reviews': [
@@ -73,7 +105,7 @@ export const schemas = {
 
   'steam-tierlist.tierLists': [
     { key: 'category', label: 'Category Name', type: 'text', required: true },
-    { key: 'tiers', label: 'Tiers (S/A/B/C/D/F)', type: 'tiers' },
+    { key: 'tiers', label: 'Tiers (S–F + Unplayed)', type: 'tiers' },
   ],
 
   'media.galleryItems': [

@@ -1,5 +1,10 @@
 {
-  "categories": ["All", "Photography", "Video", "Creative"],
+  "categories": [
+    "All",
+    "Photography",
+    "Video",
+    "Creative"
+  ],
   "galleryItems": [
     {
       "id": 1,
@@ -48,6 +53,15 @@
       "description": "Another placeholder image.",
       "thumbnail": "https://placehold.co/600x400/182028/5f8f8f?text=Photo+4",
       "fullUrl": null
+    },
+    {
+      "id": "",
+      "type": "",
+      "title": "",
+      "description": "",
+      "thumbnail": "",
+      "fullUrl": "",
+      "videoUrl": ""
     }
   ]
 }

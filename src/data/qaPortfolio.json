@@ -4,19 +4,18 @@
       "degree": "Quality Assurance Game Tester",
       "institution": "Futuregames",
       "period": "2022 - 2023",
-      "description": "Brief description of your studies, relevant coursework, or achievements."
+      "description": "Learned QA fundamentals including test design and defect management, gained hands-on experience in console, mobile, and web testing, and applied advanced techniques like load, regression, and usability testing. Developed knowledge in release management and collaboration, and completed a full-cycle QA project from planning to execution."
     }
   ],
   "experience": [
     {
-      "title": "QA Game Tester",
-      "company": "Company Name",
-      "period": "2024 — Present",
-      "description": "Description of your role, responsibilities, and key achievements.",
+      "title": "QA Intern",
+      "company": "Starbreeze Entertainment",
+      "period": "Aug 2023 - Dec 2023",
+      "description": "Performed functional and regression testing on Payday 3, wrote detailed bug reports in Jira, retested fixes, and conducted crossplay and backend validation. Followed structured test plans alongside exploratory testing and used community feedback to guide priorities. Strengthened organization, communication, and independent task management in a live AAA environment.",
       "highlights": [
-        "Identified and documented 200+ bugs across multiple titles",
-        "Collaborated with dev teams on regression testing",
-        "Created automated test scripts for core gameplay mechanics"
+        "Identified and documented 100+ bugs",
+        "Collaborated with dev teams on regression testing"
       ]
     }
   ],
@@ -40,45 +39,24 @@
       "type": "Early Access"
     }
   ],
-  "certificates": [
-    {
-      "name": "ISTQB Foundation Level",
-      "issuer": "ISTQB",
-      "year": "2024"
-    },
-    {
-      "name": "Relevant Certificate",
-      "issuer": "Issuing Organization",
-      "year": "2023"
-    }
-  ],
+  "certificates": [],
   "skills": [
     {
       "category": "Testing",
       "items": [
-        "Manual Testing",
-        "Regression Testing",
-        "Smoke Testing",
-        "Exploratory Testing",
-        "Compatibility Testing"
+        "Manual",
+        "Regression",
+        "Smoke",
+        "Ad hoc",
+        "Functional",
+        "Usability"
       ]
     },
     {
       "category": "Bug Tracking",
       "items": [
         "JIRA",
-        "Bugzilla",
-        "Azure DevOps",
-        "Mantis"
-      ]
-    },
-    {
-      "category": "Automation",
-      "items": [
-        "Selenium",
-        "Cypress",
-        "Playwright",
-        "Python Scripts"
+        "Asana"
       ]
     },
     {
@@ -94,20 +72,31 @@
     {
       "category": "Tools",
       "items": [
-        "TestRail",
-        "Charles Proxy",
-        "Wireshark",
         "OBS Studio",
-        "Git"
+        "Github",
+        "Miro",
+        "Slack",
+        "Excel"
       ]
     },
     {
       "category": "Soft Skills",
       "items": [
         "Attention to Detail",
-        "Communication",
-        "Analytical Thinking",
-        "Team Collaboration"
+        "Problem Solving",
+        "Fast Learner",
+        "Organized",
+        "Patient",
+        "Adaptable",
+        "Determined"
+      ]
+    },
+    {
+      "category": "Game Engines",
+      "items": [
+        "Unity",
+        "Unreal",
+        "Godot"
       ]
     }
   ]

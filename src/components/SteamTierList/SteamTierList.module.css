@@ -57,7 +57,7 @@
 .tierRow {
   display: flex;
   gap: 0;
-  min-height: 72px;
+  min-height: 90px;
   background: var(--bg-secondary);
   border: 1px solid rgba(95, 143, 143, 0.08);
 }
@@ -81,6 +81,11 @@
 .tierLabel[data-tier='C'] { color: var(--text-dim); }
 .tierLabel[data-tier='D'] { color: var(--text-dim); opacity: 0.7; }
 .tierLabel[data-tier='F'] { color: var(--danger); }
+.tierLabel[data-tier='unplayed'] {
+  color: var(--text-dim);
+  opacity: 0.85;
+  font-size: 1.1rem;
+}
 
 .tierGames {
   flex: 1;
@@ -103,7 +108,7 @@
 /* ---- Game thumbnails ---- */
 
 .gameThumb {
-  width: 44px;
+  width: 58px;
   aspect-ratio: 2 / 3;
   overflow: hidden;
   flex-shrink: 0;
@@ -123,12 +128,16 @@
 }
 
 @media (max-width: 768px) {
+  .tierRow {
+    min-height: 78px;
+  }
+
   .tierLabel {
     width: 36px;
     font-size: 1rem;
   }
 
   .gameThumb {
-    width: 36px;
+    width: 46px;
   }
 }

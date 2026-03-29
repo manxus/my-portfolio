@@ -1,4 +1,4 @@
-﻿# Replace YOUR_GITHUB_USERNAME/YOUR_REPO_NAME and YOUR_PRODUCTION_DOMAIN before deploy.
+# Replace YOUR_GITHUB_USERNAME/YOUR_REPO_NAME and YOUR_PRODUCTION_DOMAIN before deploy.
 # GitHub OAuth callback URL: https://YOUR_PRODUCTION_DOMAIN/api/complete
 
 backend:
@@ -262,4 +262,14 @@ collections:
                     name: tags
                     widget: list
                   - { label: Proficiency, name: proficiency, widget: string, required: false }
-                  - { label: Specs, name: specs, widget: text, required: false }
+                  # Component fields below: use for Computer Builds (category id "builds") only; optional elsewhere.
+                  - { label: CPU, name: cpu, widget: string, required: false }
+                  - { label: GPU, name: gpu, widget: string, required: false }
+                  - { label: RAM, name: ram, widget: string, required: false }
+                  - { label: Storage, name: storage, widget: string, required: false }
+                  - { label: Motherboard, name: motherboard, widget: string, required: false }
+                  - { label: PSU, name: psu, widget: string, required: false }
+                  - { label: Case, name: case, widget: string, required: false }
+                  - { label: Cooling, name: cooling, widget: string, required: false }
+                  - { label: Other / Notes, name: extras, widget: text, required: false }
+                  - { label: Free-form specs (legacy), name: specs, widget: text, required: false }

@@ -1,54 +1,39 @@
 {
   "reviews": [
     {
-      "appId": 620,
-      "rating": 10,
-      "title": "A masterpiece of puzzle design",
-      "text": "Portal 2 builds on everything that made the original great and then some. The writing is razor-sharp, the puzzles are inventive without being obtuse, and the co-op campaign is one of the best cooperative experiences in gaming.",
-      "date": "2025-03-15",
-      "recommended": true,
-      "pros": ["Brilliant writing and humor", "Perfect co-op campaign", "Incredible level design"],
-      "cons": ["Could be longer"]
-    },
-    {
-      "appId": 292030,
-      "rating": 9,
-      "title": "The gold standard for open-world RPGs",
-      "text": "The Witcher 3 delivers one of the richest open worlds ever crafted. The side quests alone rival the main storylines of most other RPGs. Hearts of Stone and Blood and Wine are essential.",
-      "date": "2025-02-10",
-      "recommended": true,
-      "pros": ["Deep narrative choices", "Massive world full of content", "Outstanding DLC"],
-      "cons": ["Combat can feel clunky", "Inventory management"]
-    },
-    {
-      "appId": 1174180,
-      "rating": 9,
-      "title": "A slow burn that pays off beautifully",
-      "text": "Red Dead Redemption 2 is a masterclass in world-building and storytelling. Arthur Morgan is one of the best protagonists in gaming history. Take your time with this one.",
-      "date": "2025-01-20",
-      "recommended": true,
-      "pros": ["Incredible story and characters", "Breathtaking world", "Attention to detail"],
-      "cons": ["Pacing can be slow", "Clunky controls at times"]
-    },
-    {
-      "appId": 1091500,
-      "rating": 8,
-      "title": "Redemption arc of the decade",
-      "text": "Cyberpunk 2077 had a rough launch but has transformed into a genuinely great RPG. Night City is one of the most atmospheric settings in gaming. Phantom Liberty is a must-play.",
-      "date": "2024-12-05",
-      "recommended": true,
-      "pros": ["Night City is stunning", "Great story and side quests", "Phantom Liberty DLC"],
-      "cons": ["Still some bugs", "AI could be smarter"]
-    },
-    {
-      "appId": 730,
+      "appId": 1085220,
       "rating": 7,
-      "title": "Timeless competitive FPS",
-      "text": "Counter-Strike 2 carries the legacy well. The core gameplay loop is as tight as ever. The transition from CSGO was bumpy but the foundation is rock solid.",
-      "date": "2024-11-18",
+      "title": "A Strong Sequel That Leans More Into Combat",
+      "text": "If you enjoyed Figment, then Figment 2: Creed Valley is definitely worth playing.\n\nCombat feels smoother and more polished compared to the first game. There’s a good variety of enemies, although I did find some frustration with certain ones like the slammer, which could be hard to target and damage. Boss fights were a highlight, especially the final musical one.\n\nThe puzzles are creative and I liked the open-/closed-minded mechanic that changes how the environment works. But the game feels a bit more combat-focused rather than puzzles like the first one.\n\nThe music and sound design are great and play a big role in the overall experience. The soundtrack really enhances the game, especially during key moments.\n\nVisually, the game looks great. The surreal mind-world style is varied and interesting throughout. One downside for me was that the game is quite linear and doesn’t allow backtracking, which I missed from the first game.\n\nThe story was enjoyable and had a nice twist on expectations, showing that what seems like the “villain” might not actually be one.\n\nThe game is a bit longer than the first, but it doesn’t feel too long.\n\nI did run into a couple of softlocks where I couldn’t progress. Restarting the chapter fixed it without losing much progress, but it was still a bit annoying.\n\nOverall, a solid sequel that improves on the original in many ways. Recommended, especially if you liked the first game.",
+      "date": "2026-03-28",
       "recommended": true,
-      "pros": ["Perfect gunplay mechanics", "High skill ceiling", "Active competitive scene"],
-      "cons": ["Cheater problem persists", "Lost some CSGO features"]
+      "pros": [
+        "Great boss fights",
+        "Creative puzzles",
+        "Improved combat"
+      ],
+      "cons": [
+        "More combat-focused",
+        "Linear progression",
+        "Softlocks"
+      ]
+    },
+    {
+      "appId": 1813860,
+      "rating": 6,
+      "title": "A Calm and Unique Journey That Won’t Be for Everyone",
+      "text": "I had a good experience with Naiad, but it’s definitely a very specific type of game.\n\nMovement feels smooth overall, and there are a few different ways to swim which keeps it interesting. One thing I didn’t enjoy as much was moving through polluted water it slows you down a lot. It makes sense for the game’s environmental theme, but it can feel a bit frustrating.\n\nInteracting with the environment is enjoyable, but it can become a bit repetitive over time. Some interactions feel like variations of things you’ve already done rather than completely new ideas.\n\nSome areas of the game can feel quite small unless you take the time to explore. It’s very easy to swim past secrets and miss content, so it’s worth slowing down and paying attention.\n\nThe art style fits the game really well. It’s simple and clean, and it works nicely with the calm and relaxing atmosphere.\n\nFor me, the game felt slightly too long for what it offers, although that will depend on how thoroughly you explore. It still feels like a complete experience overall.\n\nI didn’t run into any technical issues during my playthrough.\n\nOverall, I would recommend it, but mainly for players who enjoy slower, more relaxing exploration games. It’s not very challenging, but it’s unique and atmospheric.",
+      "date": "2026-03-25",
+      "recommended": true,
+      "pros": [
+        "Smooth movement",
+        "Relaxing atmosphere",
+        "Encourages exploration"
+      ],
+      "cons": [
+        "Repetitive interactions",
+        "Easy to miss content"
+      ]
     }
   ]
 }

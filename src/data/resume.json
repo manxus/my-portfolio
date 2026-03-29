@@ -1,45 +1,76 @@
 {
   "timeline": [
     {
-      "year": "2026",
-      "entries": [
-        {
-          "type": "work",
-          "title": "QA Game Tester",
-          "org": "Company Name",
-          "period": "Jan 2026 — Present",
-          "description": "Current role description — update with your real info."
-        }
-      ]
-    },
-    {
       "year": "2024",
       "entries": [
         {
           "type": "work",
-          "title": "Junior QA Tester",
-          "org": "Previous Company",
-          "period": "Jun 2024 — Dec 2025",
-          "description": "Previous role description."
-        },
-        {
-          "type": "cert",
-          "title": "ISTQB Foundation Level",
-          "org": "ISTQB",
-          "period": "2024",
-          "description": "Software testing certification."
+          "title": "Leisure Educator/Jack of all traits ",
+          "org": "Montessori School",
+          "period": "Sep 2024 — Jun 2025",
+          "description": "Supported daily school operations, assisted with IT troubleshooting, managed communication with students, parents, and staff, and handled logistics and maintenance. Developed strong reliability, adaptability, and communication skills."
         }
       ]
     },
     {
-      "year": "2020",
+      "year": "2023",
+      "entries": [
+        {
+          "type": "work",
+          "title": "QA Intern",
+          "org": "Starbreeze Entertainment",
+          "period": "Aug 2023 - Dec 2023",
+          "description": "Performed functional and regression testing on Payday 3, wrote detailed bug reports in Jira, retested fixes, and conducted crossplay and backend validation. Followed structured test plans alongside exploratory testing and used community feedback to guide priorities. Strengthened organization, communication, and independent task management in a live AAA environment."
+        }
+      ]
+    },
+    {
+      "year": "2022",
       "entries": [
         {
           "type": "education",
-          "title": "Your Degree",
-          "org": "University Name",
-          "period": "2020 — 2024",
-          "description": "Degree details and relevant coursework."
+          "title": "Quality Assurance Game Tester",
+          "org": "Futuregames",
+          "period": "Sep 2022 - Dec 2023",
+          "description": "Learned QA fundamentals including test design and defect management, gained hands-on experience in console, mobile, and web testing, and applied advanced techniques like load, regression, and usability testing. Developed knowledge in release management and collaboration, and completed a full-cycle QA project from planning to execution."
+        },
+        {
+          "type": "work",
+          "title": "Museum Assistant",
+          "org": "National Maritime Museum",
+          "period": "Jul 2022 - Aug 2022",
+          "description": "Managed customer interactions and daily shop operations, conducted surveys, handled opening and closing routines, and maintained exhibit areas with strong attention to detail."
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "entries": [
+        {
+          "type": "work",
+          "title": "Leisure Educator",
+          "org": "Haninge kommun",
+          "period": "Sep 2017 - Jun 2022",
+          "description": "Collaborated with colleagues to support preschool classes and activities, adapting to changing needs with professionalism and empathy. Demonstrated reliability, flexibility, and a commitment to a positive, respectful school environment."
+        },
+        {
+          "type": "work",
+          "title": "Market Researcher",
+          "org": "Nielsen",
+          "period": "Jun 2017 - Aug 2017",
+          "description": "Price survey and inventory check-up at different grocery stores like ICA, Willy, COOP, etc."
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "entries": [
+        {
+          "type": "work",
+          "title": "Warehouse Worker",
+          "org": "ApoEx",
+          "period": "Jul 2016 - Aug 2016",
+          "description": "Inventory and stock management"
         }
       ]
     }

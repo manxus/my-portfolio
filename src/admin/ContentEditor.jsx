@@ -1,8 +1,52 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './ContentEditor.module.css';
 
-function FieldInput({ field, value, onChange }) {
+function parseTierIdsFromInput(s) {
+  return String(s)
+    .split(',')
+    .map((x) => x.trim())
+    .filter((x) => x !== '')
+    .map(Number)
+    .filter((n) => !isNaN(n));
+}
+
+/** Controlled by a local draft so trailing commas and spacing survive while typing. */
+function TierAppIdsInput({ ids, onChange }) {
+  const idsSerialized = JSON.stringify(ids ?? []);
+  const [draft, setDraft] = useState(() => (ids ?? []).join(', '));
+  const focusedRef = useRef(false);
+
+  useEffect(() => {
+    if (!focusedRef.current) {
+      setDraft((ids ?? []).join(', '));
+    }
+  }, [idsSerialized]);
+
+  return (
+    <input
+      className={styles.input}
+      value={draft}
+      onFocus={() => {
+        focusedRef.current = true;
+      }}
+      onBlur={() => {
+        focusedRef.current = false;
+        const parsed = parseTierIdsFromInput(draft);
+        onChange(parsed);
+        setDraft(parsed.join(', '));
+      }}
+      onChange={(e) => {
+        const v = e.target.value;
+        setDraft(v);
+        onChange(parseTierIdsFromInput(v));
+      }}
+      placeholder="App IDs (comma separated)"
+    />
+  );
+}
+
+function FieldInput({ field, value, onChange, formData }) {
   if (field.type === 'textarea') {
     return (
       <textarea
@@ -90,6 +134,10 @@ function FieldInput({ field, value, onChange }) {
 
   if (field.type === 'objectList') {
     const items = Array.isArray(value) ? value : [];
+    const subSchema =
+      typeof field.getItemSchema === 'function'
+        ? field.getItemSchema(formData)
+        : field.schema;
     return (
       <div className={styles.objectListField}>
         {items.map((obj, i) => (
@@ -104,7 +152,7 @@ function FieldInput({ field, value, onChange }) {
                 &times;
               </button>
             </div>
-            {field.schema.map((subField) => (
+            {subSchema.map((subField) => (
               <label key={subField.key} className={styles.label}>
                 <span className={styles.labelText}>
                   {subField.label}
@@ -118,6 +166,7 @@ function FieldInput({ field, value, onChange }) {
                     next[i] = { ...next[i], [subField.key]: v };
                     onChange(next);
                   }}
+                  formData={formData}
                 />
               </label>
             ))}
@@ -128,7 +177,10 @@ function FieldInput({ field, value, onChange }) {
           className={styles.addListBtn}
           onClick={() => {
             const empty = {};
-            for (const sf of field.schema) empty[sf.key] = sf.type === 'boolean' ? false : sf.type === 'list' ? [] : '';
+            for (const sf of subSchema) {
+              empty[sf.key] =
+                sf.type === 'boolean' ? false : sf.type === 'list' ? [] : '';
+            }
             onChange([...items, empty]);
           }}
         >
@@ -139,7 +191,7 @@ function FieldInput({ field, value, onChange }) {
   }
 
   if (field.type === 'tiers') {
-    const tierOrder = ['S', 'A', 'B', 'C', 'D', 'F'];
+    const tierOrder = ['S', 'A', 'B', 'C', 'D', 'F', 'unplayed'];
     const tiers = value || {};
     return (
       <div className={styles.tiersField}>
@@ -147,21 +199,16 @@ function FieldInput({ field, value, onChange }) {
           const ids = tiers[tier] || [];
           return (
             <div key={tier} className={styles.tierRow}>
-              <span className={styles.tierLabel}>{tier}</span>
-              <input
-                className={styles.input}
-                value={ids.join(', ')}
-                onChange={(e) => {
+              <span className={styles.tierLabel}>
+                {tier === 'unplayed' ? '?' : tier}
+              </span>
+              <TierAppIdsInput
+                ids={ids}
+                onChange={(parsed) => {
                   const next = { ...tiers };
-                  next[tier] = e.target.value
-                    .split(',')
-                    .map((s) => s.trim())
-                    .filter(Boolean)
-                    .map(Number)
-                    .filter((n) => !isNaN(n));
+                  next[tier] = parsed;
                   onChange(next);
                 }}
-                placeholder="App IDs (comma separated)"
               />
             </div>
           );
@@ -196,7 +243,7 @@ export default function ContentEditor({
       }
       if (field.type === 'boolean') empty[field.key] = false;
       else if (field.type === 'list' || field.type === 'objectList') empty[field.key] = [];
-      else if (field.type === 'tiers') empty[field.key] = { S: [], A: [], B: [], C: [], D: [], F: [] };
+      else if (field.type === 'tiers') empty[field.key] = { S: [], A: [], B: [], C: [], D: [], F: [], unplayed: [] };
       else empty[field.key] = '';
     }
     return empty;
@@ -251,6 +298,7 @@ export default function ContentEditor({
                 field={schema[0]}
                 value={formData}
                 onChange={(v) => handleChange('_value', v)}
+                formData={formData}
               />
             </label>
           ) : (
@@ -264,6 +312,7 @@ export default function ContentEditor({
                   field={field}
                   value={formData[field.key]}
                   onChange={(v) => handleChange(field.key, v)}
+                  formData={formData}
                 />
               </label>
             ))

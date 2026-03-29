@@ -1,7 +1,7 @@
 {
   "knownIssues": [
-    "Cake delivery system remains offline — investigation ongoing",
-    "Exit button currently leads to recursive existential prompts",
-    "Occasional phantom hover states in the Twitch dimension"
+    "Steam library JSON is updated by a scheduled workflow, not live from Steam",
+    "In-browser content editing (Decap CMS) is wired for local development; the public site is static",
+    "Some CRT and motion effects are heavy on low-end devices — use Settings to tone them down"
   ]
 }

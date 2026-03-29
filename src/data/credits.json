@@ -2,11 +2,15 @@
   "credits": [
     {
       "heading": "CREATED BY",
-      "items": ["Your Name"]
+      "items": [
+        "Magnus Åhman"
+      ]
     },
     {
       "heading": "DESIGN & DEVELOPMENT",
-      "items": ["Concept, UI/UX Design, and Frontend Development"]
+      "items": [
+        "Concept, UI/UX Design, and Frontend Development"
+      ]
     },
     {
       "heading": "BUILT WITH",
@@ -22,7 +26,6 @@
     {
       "heading": "DESIGN INSPIRATION",
       "items": [
-        "Portal 2 — Valve Corporation",
         "Stitch by Google — Prototyping Tool"
       ]
     },
@@ -38,8 +41,7 @@
       "heading": "SPECIAL THANKS",
       "items": [
         "Friends and colleagues who provided feedback",
-        "The gaming and QA community",
-        "Coffee — for powering late night sessions"
+        "The gaming and QA community"
       ]
     }
   ]

@@ -6,7 +6,9 @@ import styles from './SteamTierList.module.css';
 
 const { tierLists } = steamTierlistData;
 
-const TIER_ORDER = ['S', 'A', 'B', 'C', 'D', 'F'];
+const TIER_ORDER = ['S', 'A', 'B', 'C', 'D', 'F', 'unplayed'];
+
+const tierLabelText = (tier) => (tier === 'unplayed' ? '?' : tier);
 
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
@@ -68,12 +70,18 @@ export default function SteamTierList({ games }) {
                   key={tier}
                   className={styles.tierRow}
                   variants={fadeUp}
+                  aria-label={
+                    tier === 'unplayed'
+                      ? 'Unplayed — games not started yet'
+                      : `Tier ${tier}`
+                  }
                 >
                   <div
                     className={styles.tierLabel}
                     data-tier={tier}
+                    title={tier === 'unplayed' ? 'Unplayed' : undefined}
                   >
-                    {tier}
+                    {tierLabelText(tier)}
                   </div>
                   <div className={styles.tierGames}>
                     {appIds.length === 0 && (

@@ -111,23 +111,37 @@
   font-size: 0.54rem;
   color: var(--text-dim);
   letter-spacing: 0.08em;
+  margin-bottom: 0.65rem;
+}
+
+.patchPreview {
   margin-bottom: 0.85rem;
 }
 
-.entryList {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  margin-bottom: 1rem;
-}
-
-.entry {
+.patchTeaser {
   display: flex;
   gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.patchTeaserText {
   font-family: var(--font-mono);
   font-size: 0.58rem;
-  line-height: 1.5;
+  line-height: 1.45;
   color: var(--text-secondary);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.patchMore {
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  margin: 0.35rem 0 0;
 }
 
 .entryTag {

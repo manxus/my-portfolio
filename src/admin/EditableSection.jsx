@@ -152,7 +152,7 @@ export function useEditableItem() {
   return useContext(EditableItemsContext);
 }
 
-export function EditableItemControls({ index }) {
+export function EditableItemControls({ index, hideDelete = false }) {
   const ctx = useContext(EditableItemsContext);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
 
@@ -181,13 +181,15 @@ export function EditableItemControls({ index }) {
       >
         &#9998;
       </button>
-      <button
-        className={`${styles.itemBtn} ${styles.deleteBtn}`}
-        onClick={(e) => { e.stopPropagation(); ctx.onDelete(index); }}
-        title="Delete"
-      >
-        &times;
-      </button>
+      {!hideDelete && (
+        <button
+          className={`${styles.itemBtn} ${styles.deleteBtn}`}
+          onClick={(e) => { e.stopPropagation(); ctx.onDelete(index); }}
+          title="Delete"
+        >
+          &times;
+        </button>
+      )}
     </div>
   );
 }

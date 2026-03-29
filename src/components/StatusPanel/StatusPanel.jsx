@@ -172,24 +172,29 @@ export default function StatusPanel() {
         <p className={styles.patchVersion}>v{latest.version}</p>
         <p className={styles.patchDate}>{formatDate(latest.date)}</p>
 
-        <div className={styles.entryList}>
-          {latest.entries.map((entry, i) => (
-            <div key={i} className={styles.entry}>
+        {(latest.entries?.length ?? 0) > 0 && (
+          <div className={styles.patchPreview}>
+            <div className={styles.patchTeaser}>
               <span
                 className={`${styles.entryTag} ${
-                  entry.type === 'fixed'
+                  latest.entries[0].type === 'fixed'
                     ? styles.entryTagFixed
-                    : entry.type === 'changed'
+                    : latest.entries[0].type === 'changed'
                       ? styles.entryTagChanged
                       : ''
                 }`}
               >
-                [{TAG_LABELS[entry.type]}]
+                [{TAG_LABELS[latest.entries[0].type]}]
               </span>
-              <span>{entry.text}</span>
+              <p className={styles.patchTeaserText}>{latest.entries[0].text}</p>
             </div>
-          ))}
-        </div>
+            {latest.entries.length > 1 && (
+              <p className={styles.patchMore}>
+                +{latest.entries.length - 1} more in this release
+              </p>
+            )}
+          </div>
+        )}
 
         <button
           className={styles.changelogLink}
