@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-03-28T07:00:35.253Z",
+  "fetchedAt": "2026-03-29T07:04:56.135Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1774670325
+    "lastLogoff": 1774717557
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2487.9,
+      "playtimeHours": 2489.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
