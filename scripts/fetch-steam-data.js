@@ -4,6 +4,7 @@
  * Usage:
  *   STEAM_API_KEY=<key> STEAM_ID=<id> node scripts/fetch-steam-data.js
  *   node scripts/fetch-steam-data.js --force   # ignore disk cache
+ *   node scripts/fetch-steam-data.js --wishlist-only   # update wishlist in existing JSON only
  *
  * Outputs JSON to src/data/steam-library.json
  *
@@ -20,6 +21,7 @@ const CACHE_DIR = resolve(__dirname, '.steam-fetch-cache');
 const CACHE_PATH = join(CACHE_DIR, 'cache.json');
 
 const FORCE = process.argv.includes('--force');
+const WISHLIST_ONLY = process.argv.includes('--wishlist-only');
 
 const API_KEY = process.env.STEAM_API_KEY;
 const STEAM_ID = process.env.STEAM_ID;
@@ -180,6 +182,7 @@ function normalizeWishlistResponse(data) {
   const r = data.response;
   if (Array.isArray(r)) return r;
   if (r?.wishlist && Array.isArray(r.wishlist)) return r.wishlist;
+  if (r?.items && Array.isArray(r.items)) return r.items;
   return [];
 }
 
@@ -236,7 +239,63 @@ function hasCachedStoreFields(cached) {
   return Boolean(cached && 'genres' in cached);
 }
 
+async function resolveAppNameLookup(cache) {
+  if (
+    FORCE ||
+    !cache.appNames ||
+    typeof cache.appNames !== 'object' ||
+    Array.isArray(cache.appNames) ||
+    Object.keys(cache.appNames).length === 0
+  ) {
+    console.log('Fetching global app list for wishlist names...');
+    const m = await getAllAppNames();
+    cache.appNames = Object.fromEntries(m);
+    return m;
+  }
+  console.log('Using cached app name list for wishlist');
+  return new Map(
+    Object.entries(cache.appNames).map(([k, v]) => [Number(k), v]),
+  );
+}
+
+async function mainWishlistOnly() {
+  if (!existsSync(OUTPUT_PATH)) {
+    console.error(`Missing ${OUTPUT_PATH}; run a full fetch first.`);
+    process.exit(1);
+  }
+  console.log('Wishlist-only update...');
+  if (FORCE) console.log('(--force: ignoring disk cache)');
+
+  const cache = loadCache();
+  const nameLookup = await resolveAppNameLookup(cache);
+  const wishlistRows = await getWishlistRaw();
+  const wishlist = wishlistRows.map((w) => {
+    const name = nameLookup.get(w.appId) || `App ${w.appId}`;
+    return {
+      appId: w.appId,
+      dateAdded: w.dateAdded,
+      priority: w.priority,
+      name,
+      headerUrl: `https://cdn.cloudflare.steamstatic.com/steam/apps/${w.appId}/header.jpg`,
+    };
+  });
+  console.log(`Wishlist: ${wishlist.length} items`);
+
+  const existing = JSON.parse(readFileSync(OUTPUT_PATH, 'utf8'));
+  existing.wishlist = wishlist;
+  existing.fetchedAt = new Date().toISOString();
+
+  saveCache(cache);
+  writeFileSync(OUTPUT_PATH, JSON.stringify(existing, null, 2));
+  console.log(`Written to ${OUTPUT_PATH}`);
+}
+
 async function main() {
+  if (WISHLIST_ONLY) {
+    await mainWishlistOnly();
+    return;
+  }
+
   console.log('Fetching Steam data...');
   if (FORCE) console.log('(--force: ignoring disk cache)');
 
@@ -284,24 +343,7 @@ async function main() {
     if ((i + 1) % 200 === 0) console.log(`  ...achievements ${i + 1}/${games.length}`);
   });
 
-  let nameLookup;
-  if (
-    FORCE ||
-    !cache.appNames ||
-    typeof cache.appNames !== 'object' ||
-    Array.isArray(cache.appNames) ||
-    Object.keys(cache.appNames).length === 0
-  ) {
-    console.log('Fetching global app list for wishlist names...');
-    const m = await getAllAppNames();
-    cache.appNames = Object.fromEntries(m);
-    nameLookup = m;
-  } else {
-    console.log('Using cached app name list for wishlist');
-    nameLookup = new Map(
-      Object.entries(cache.appNames).map(([k, v]) => [Number(k), v]),
-    );
-  }
+  const nameLookup = await resolveAppNameLookup(cache);
 
   const wishlistRows = await getWishlistRaw();
 
