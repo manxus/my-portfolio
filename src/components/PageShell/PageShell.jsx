@@ -3,7 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import styles from './PageShell.module.css';
 
-export default function PageShell({ title, subtitle, children, inline }) {
+export default function PageShell({
+  title,
+  subtitle,
+  children,
+  inline,
+  /** Hide back / close / ESC hint (e.g. contact card uses its own CTA) */
+  hideShellNav = false,
+}) {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -28,13 +35,15 @@ export default function PageShell({ title, subtitle, children, inline }) {
             <h1 className={styles.titleInline}>{title}</h1>
             {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
           </div>
-          <button
-            className={styles.closeButton}
-            onClick={() => navigate('/')}
-            title="Close (ESC)"
-          >
-            &#10005;
-          </button>
+          {!hideShellNav && (
+            <button
+              className={styles.closeButton}
+              onClick={() => navigate('/')}
+              title="Close (ESC)"
+            >
+              &#10005;
+            </button>
+          )}
         </header>
 
         <div className={styles.divider} />
@@ -53,15 +62,17 @@ export default function PageShell({ title, subtitle, children, inline }) {
       transition={{ duration: 0.35, ease: 'easeOut' }}
     >
       <header className={styles.header}>
-        <button className={styles.backButton} onClick={() => navigate('/')}>
-          <span className={styles.backArrow}>&larr;</span>
-          <span>BACK TO MENU</span>
-        </button>
+        {!hideShellNav && (
+          <button className={styles.backButton} onClick={() => navigate('/')}>
+            <span className={styles.backArrow}>&larr;</span>
+            <span>BACK TO MENU</span>
+          </button>
+        )}
         <div className={styles.titleBlock}>
           <h1 className={styles.title}>{title}</h1>
           {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
         </div>
-        <div className={styles.escHint}>ESC</div>
+        {!hideShellNav && <div className={styles.escHint}>ESC</div>}
       </header>
 
       <div className={styles.divider} />

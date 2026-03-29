@@ -18,6 +18,7 @@ import Livestream from './pages/Livestream';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
 import PatchNotes from './pages/PatchNotes';
+import CardContactShell from './pages/CardContactShell';
 import LoginModal from './admin/LoginModal';
 import AdminToolbar from './admin/AdminToolbar';
 import { useMediaQuery } from './hooks/useMediaQuery';
@@ -71,6 +72,7 @@ export default function App() {
   const desktopContent = hasPage ? (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
+        <Route path="/card" element={<CardContactShell inline />} />
         {pageRoutes.map(({ path, title, subtitle, Component }) => (
           <Route
             key={path}
@@ -115,6 +117,7 @@ export default function App() {
                 />
               }
             />
+            <Route path="/card" element={<CardContactShell />} />
             {pageRoutes.map(({ path, title, subtitle, Component }) => (
               <Route
                 key={path}

@@ -11,6 +11,8 @@ export default function EditableSection({
   collection,
   dataKey,
   children,
+  /** Single object in JSON (not an array) — toolbar shows Edit instead of Add */
+  singleton = false,
 }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
   const getData = useAdminStore((s) => s.getData);
@@ -27,6 +29,16 @@ export default function EditableSection({
 
   const openAdd = async () => {
     setEditState({ mode: 'add', index: -1, data: null });
+  };
+
+  const openEditSingleton = async () => {
+    try {
+      const fileData = await getData(collection);
+      const item = fileData[dataKey];
+      setEditState({ mode: 'edit', index: -1, data: item });
+    } catch (err) {
+      console.error('Failed to load data for editing:', err);
+    }
   };
 
   const openEdit = async (index) => {
@@ -94,9 +106,20 @@ export default function EditableSection({
     <div className={styles.wrapper}>
       <div className={styles.toolbar}>
         <span className={styles.tag}>{dataKey}</span>
-        <button className={styles.addBtn} onClick={openAdd} title="Add item">
-          +
-        </button>
+        {singleton ? (
+          <button
+            type="button"
+            className={styles.addBtn}
+            onClick={openEditSingleton}
+            title="Edit"
+          >
+            &#9998;
+          </button>
+        ) : (
+          <button type="button" className={styles.addBtn} onClick={openAdd} title="Add item">
+            +
+          </button>
+        )}
       </div>
 
       <EditableItemsContext.Provider

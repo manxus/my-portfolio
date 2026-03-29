@@ -1,13 +1,65 @@
 import { useState, useMemo } from 'react';
 import styles from './SteamWishlist.module.css';
 
+function libraryCapsuleUrl(appId) {
+  return `https://cdn.cloudflare.steamstatic.com/steam/apps/${appId}/library_600x900.jpg`;
+}
+
+function WishlistCard({ item }) {
+  const [phase, setPhase] = useState('library');
+
+  const handleImgError = () => {
+    setPhase((p) => {
+      if (p === 'library') return item.headerUrl ? 'header' : 'none';
+      return 'none';
+    });
+  };
+
+  const showImage = phase === 'library' || (phase === 'header' && Boolean(item.headerUrl));
+
+  return (
+    <a
+      href={`https://store.steampowered.com/app/${item.appId}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.card}
+      aria-label={item.name}
+    >
+      <div className={styles.cardInner}>
+        {showImage && (
+          <img
+            src={phase === 'library' ? libraryCapsuleUrl(item.appId) : item.headerUrl}
+            alt=""
+            className={styles.image}
+            loading="lazy"
+            onError={handleImgError}
+          />
+        )}
+        {!showImage && (
+          <div className={styles.placeholder}>
+            <span className={styles.placeholderTitle}>{item.name}</span>
+          </div>
+        )}
+      </div>
+    </a>
+  );
+}
+
 export default function SteamWishlist({ wishlist }) {
   const [search, setSearch] = useState('');
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
-    if (!q) return wishlist;
-    return wishlist.filter((item) => item.name.toLowerCase().includes(q));
+    const list = !q
+      ? [...wishlist]
+      : wishlist.filter((item) => item.name.toLowerCase().includes(q));
+    list.sort((a, b) =>
+      a.name.localeCompare(b.name, undefined, {
+        sensitivity: 'base',
+        numeric: true,
+      }),
+    );
+    return list;
   }, [wishlist, search]);
 
   return (
@@ -29,27 +81,7 @@ export default function SteamWishlist({ wishlist }) {
 
       <div className={styles.grid}>
         {filtered.map((item) => (
-          <a
-            key={item.appId}
-            href={`https://store.steampowered.com/app/${item.appId}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <img
-              src={`https://cdn.cloudflare.steamstatic.com/steam/apps/${item.appId}/library_600x900.jpg`}
-              alt={item.name}
-              className={styles.image}
-              loading="lazy"
-              onError={(e) => {
-                e.target.src = item.headerUrl;
-                e.target.style.objectFit = 'cover';
-              }}
-            />
-            {item.priority === 0 && (
-              <span className={styles.badge}>COMING SOON</span>
-            )}
-          </a>
+          <WishlistCard key={item.appId} item={item} />
         ))}
       </div>
     </div>

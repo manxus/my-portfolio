@@ -22,15 +22,15 @@
   ],
   "playtests": [
     {
-      "title": "Game Title Alpha",
-      "studio": "Studio Name",
+      "title": "STRIDEN",
+      "studio": "Northify",
       "year": "2025",
       "type": "Closed Alpha"
     },
     {
-      "title": "Game Title Beta",
-      "studio": "Studio Name",
-      "year": "2024",
+      "title": "Snowtracked",
+      "studio": "Northify",
+      "year": "2025",
       "type": "Open Beta"
     },
     {

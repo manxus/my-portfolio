@@ -31,7 +31,7 @@ export default function Resume() {
     >
       {/* Info header */}
       <motion.div variants={fadeUp} className={styles.header}>
-        <EditableSection collection="resume" dataKey="personalInfo">
+        <EditableSection collection="resume" dataKey="personalInfo" singleton>
           <div>
             <h2 className={styles.name}>{personalInfo.name}</h2>
             <p className={styles.role}>{personalInfo.title}</p>

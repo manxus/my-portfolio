@@ -1,0 +1,265 @@
+﻿# Replace YOUR_GITHUB_USERNAME/YOUR_REPO_NAME and YOUR_PRODUCTION_DOMAIN before deploy.
+# GitHub OAuth callback URL: https://YOUR_PRODUCTION_DOMAIN/api/complete
+
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME
+  branch: main
+  base_url: https://YOUR_PRODUCTION_DOMAIN
+  auth_endpoint: api/begin
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: site_data
+    label: Site data (JSON)
+    files:
+      - label: QA Portfolio
+        name: qa_portfolio
+        file: src/data/qaPortfolio.json
+        fields:
+          - label: Education
+            name: education
+            widget: list
+            summary: "{{fields.degree}}"
+            fields:
+              - { label: Degree, name: degree, widget: string }
+              - { label: Institution, name: institution, widget: string }
+              - { label: Period, name: period, widget: string }
+              - { label: Description, name: description, widget: text }
+          - label: Experience
+            name: experience
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Company, name: company, widget: string }
+              - { label: Period, name: period, widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Highlights
+                name: highlights
+                widget: list
+          - label: Playtests
+            name: playtests
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Studio, name: studio, widget: string }
+              - { label: Year, name: year, widget: string }
+              - { label: Type, name: type, widget: string }
+          - label: Certificates
+            name: certificates
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Issuer, name: issuer, widget: string }
+              - { label: Year, name: year, widget: string }
+          - label: Skills
+            name: skills
+            widget: list
+            summary: "{{fields.category}}"
+            fields:
+              - { label: Category, name: category, widget: string }
+              - label: Items
+                name: items
+                widget: list
+
+      - label: Media
+        name: media
+        file: src/data/media.json
+        fields:
+          - label: Categories
+            name: categories
+            widget: list
+          - label: Gallery items
+            name: galleryItems
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Type, name: type, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
+              - { label: Thumbnail URL, name: thumbnail, widget: string }
+              - { label: Full URL, name: fullUrl, widget: string, required: false }
+              - { label: Video URL, name: videoUrl, widget: string, required: false }
+
+      - label: Livestream
+        name: livestream
+        file: src/data/livestream.json
+        fields:
+          - { label: Twitch channel, name: twitchChannel, widget: string }
+          - label: Schedule
+            name: schedule
+            widget: list
+            summary: "{{fields.day}}"
+            fields:
+              - { label: Day, name: day, widget: string }
+              - { label: Time, name: time, widget: string }
+              - { label: Game, name: game, widget: string }
+
+      - label: Credits
+        name: credits
+        file: src/data/credits.json
+        fields:
+          - label: Credits
+            name: credits
+            widget: list
+            summary: "{{fields.heading}}"
+            fields:
+              - { label: Heading, name: heading, widget: string }
+              - label: Items
+                name: items
+                widget: list
+
+      - label: Patch notes (known issues)
+        name: patch_notes
+        file: src/data/patchNotes.json
+        fields:
+          - label: Known issues
+            name: knownIssues
+            widget: list
+
+      - label: Main menu
+        name: menu
+        file: src/data/menu.json
+        fields:
+          - label: Menu items
+            name: menuItems
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Label, name: label, widget: string }
+              - { label: Description, name: description, widget: text, required: false }
+              - { label: Path, name: path, widget: string, required: false }
+              - { label: Action, name: action, widget: string, required: false }
+              - label: Children
+                name: children
+                widget: list
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: ID, name: id, widget: string }
+                  - { label: Label, name: label, widget: string }
+                  - { label: Path, name: path, widget: string }
+                  - { label: Description, name: description, widget: text }
+
+      - label: Steam reviews
+        name: steam_reviews
+        file: src/data/steam-reviews.json
+        fields:
+          - label: Reviews
+            name: reviews
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Steam App ID, name: appId, widget: number, value_type: int }
+              - { label: Rating 1-10, name: rating, widget: number, value_type: int }
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: text, widget: text }
+              - { label: Date, name: date, widget: string }
+              - { label: Recommended, name: recommended, widget: boolean }
+              - label: Pros
+                name: pros
+                widget: list
+              - label: Cons
+                name: cons
+                widget: list
+
+      - label: References
+        name: references
+        file: src/data/references.json
+        fields:
+          - label: References
+            name: references
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Company, name: company, widget: string }
+              - { label: Relationship, name: relationship, widget: string }
+              - { label: Quote, name: quote, widget: text, required: false }
+              - { label: Available, name: available, widget: boolean }
+
+      - label: Changelog
+        name: changelog
+        file: src/data/changelog.json
+        fields:
+          - label: Changelog
+            name: changelog
+            widget: list
+            summary: "{{fields.version}}"
+            fields:
+              - { label: Version, name: version, widget: string }
+              - { label: Date, name: date, widget: string }
+              - label: Entries
+                name: entries
+                widget: list
+                summary: "{{fields.text}}"
+                fields:
+                  - { label: Type, name: type, widget: select, options: [added, fixed, changed, removed] }
+                  - { label: Text, name: text, widget: string }
+
+      - label: Resume
+        name: resume
+        file: src/data/resume.json
+        fields:
+          - label: Personal info
+            name: personalInfo
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Location, name: location, widget: string }
+              - { label: Email, name: email, widget: string }
+              - label: Links
+                name: links
+                widget: list
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: Label, name: label, widget: string }
+                  - { label: URL, name: url, widget: string }
+          - label: Timeline
+            name: timeline
+            widget: list
+            summary: "{{fields.year}}"
+            fields:
+              - { label: Year, name: year, widget: string }
+              - label: Entries
+                name: entries
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Type, name: type, widget: select, options: [work, cert, education] }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Organization, name: org, widget: string }
+                  - { label: Period, name: period, widget: string }
+                  - { label: Description, name: description, widget: text }
+
+      - label: Tech
+        name: tech
+        file: src/data/tech.json
+        fields:
+          - label: Categories
+            name: techCategories
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Title, name: title, widget: string }
+              - label: Items
+                name: items
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { label: Name, name: name, widget: string }
+                  - label: Tags
+                    name: tags
+                    widget: list
+                  - { label: Proficiency, name: proficiency, widget: string, required: false }
+                  - { label: Specs, name: specs, widget: text, required: false }
