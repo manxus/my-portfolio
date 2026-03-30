@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-03-29T12:20:16.836Z",
+  "fetchedAt": "2026-03-30T07:27:41.574Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1774783594
+    "lastLogoff": 1774799456
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2489.7,
+      "playtimeHours": 2507.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -49,7 +49,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "1 Sep, 2021",
+      "releaseDate": "Sep 1, 2021",
       "achievements": {
         "total": 637,
         "unlocked": 627
@@ -72,7 +72,7 @@
         "Cross-Platform Multiplayer"
       ],
       "hardwareSupport": [],
-      "releaseDate": "14 Oct, 2020",
+      "releaseDate": "Oct 14, 2020",
       "achievements": {
         "total": 20,
         "unlocked": 18
@@ -107,7 +107,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "6 Jul, 2015",
+      "releaseDate": "Jul 6, 2015",
       "achievements": {
         "total": 88,
         "unlocked": 88
@@ -129,7 +129,7 @@
       ],
       "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "26 Jul, 2017",
+      "releaseDate": "Jul 26, 2017",
       "achievements": null
     },
     {
@@ -152,7 +152,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "21 Dec, 2017",
+      "releaseDate": "Dec 21, 2017",
       "achievements": {
         "total": 37,
         "unlocked": 37
@@ -176,7 +176,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "4 Nov, 2014",
+      "releaseDate": "Nov 4, 2014",
       "achievements": {
         "total": 641,
         "unlocked": 568
@@ -207,7 +207,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "16 May, 2011",
+      "releaseDate": "May 16, 2011",
       "achievements": {
         "total": 137,
         "unlocked": 116
@@ -265,7 +265,7 @@
         "Partial Controller Support",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "10 Sep, 2024",
+      "releaseDate": "Sep 10, 2024",
       "achievements": {
         "total": 44,
         "unlocked": 31
@@ -290,7 +290,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "13 May, 2015",
+      "releaseDate": "May 13, 2015",
       "achievements": {
         "total": 111,
         "unlocked": 111
@@ -337,7 +337,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "17 Oct, 2019",
+      "releaseDate": "Oct 17, 2019",
       "achievements": {
         "total": 26,
         "unlocked": 26
@@ -366,7 +366,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "11 Aug, 2020",
+      "releaseDate": "Aug 11, 2020",
       "achievements": {
         "total": 171,
         "unlocked": 135
@@ -390,7 +390,7 @@
         "Online Co-op"
       ],
       "hardwareSupport": [],
-      "releaseDate": "20 Jun, 2022",
+      "releaseDate": "Jun 20, 2022",
       "achievements": {
         "total": 104,
         "unlocked": 104
@@ -421,7 +421,7 @@
         "Remote Play on Tablet",
         "Remote Play Together"
       ],
-      "releaseDate": "26 Feb, 2016",
+      "releaseDate": "Feb 26, 2016",
       "achievements": {
         "total": 49,
         "unlocked": 49
@@ -442,7 +442,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "21 Apr, 2025",
+      "releaseDate": "Apr 21, 2025",
       "achievements": {
         "total": 52,
         "unlocked": 52
@@ -470,7 +470,7 @@
         "Cross-Platform Multiplayer"
       ],
       "hardwareSupport": [],
-      "releaseDate": "22 Jul, 2016",
+      "releaseDate": "Jul 22, 2016",
       "achievements": {
         "total": 51,
         "unlocked": 37
@@ -491,7 +491,7 @@
         "Co-op"
       ],
       "hardwareSupport": [],
-      "releaseDate": "11 Nov, 2009",
+      "releaseDate": "Nov 11, 2009",
       "achievements": null
     },
     {
@@ -518,7 +518,7 @@
       "hardwareSupport": [
         "Remote Play on Tablet"
       ],
-      "releaseDate": "29 Nov, 2006",
+      "releaseDate": "Nov 29, 2006",
       "achievements": {
         "total": 29,
         "unlocked": 9
@@ -541,7 +541,7 @@
         "Online PvP"
       ],
       "hardwareSupport": [],
-      "releaseDate": "28 Feb, 2018",
+      "releaseDate": "Feb 28, 2018",
       "achievements": null
     },
     {
@@ -561,7 +561,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "5 Jun, 2015",
+      "releaseDate": "Jun 5, 2015",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -583,7 +583,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "17 Sep, 2025",
+      "releaseDate": "Sep 17, 2025",
       "achievements": {
         "total": 300,
         "unlocked": 300
@@ -609,7 +609,7 @@
         "Online Co-op"
       ],
       "hardwareSupport": [],
-      "releaseDate": "13 Mar, 2023",
+      "releaseDate": "Mar 13, 2023",
       "achievements": {
         "total": 76,
         "unlocked": 48
@@ -632,7 +632,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "24 Sep, 2024",
+      "releaseDate": "Sep 24, 2024",
       "achievements": {
         "total": 500,
         "unlocked": 500
@@ -657,7 +657,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "12 Dec, 2018",
+      "releaseDate": "Dec 12, 2018",
       "achievements": {
         "total": 35,
         "unlocked": 35
@@ -686,7 +686,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "13 Apr, 2015",
+      "releaseDate": "Apr 13, 2015",
       "achievements": {
         "total": 77,
         "unlocked": 37
@@ -707,7 +707,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "9 Dec, 2020",
+      "releaseDate": "Dec 9, 2020",
       "achievements": {
         "total": 57,
         "unlocked": 57
@@ -728,7 +728,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "30 Mar, 2015",
+      "releaseDate": "Mar 30, 2015",
       "achievements": {
         "total": 31,
         "unlocked": 31
@@ -750,7 +750,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "28 Sep, 2011",
+      "releaseDate": "Sep 28, 2011",
       "achievements": {
         "total": 99,
         "unlocked": 90
@@ -779,7 +779,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "23 Jun, 2023",
+      "releaseDate": "Jun 23, 2023",
       "achievements": {
         "total": 177,
         "unlocked": 177
@@ -832,7 +832,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "5 Feb, 2019",
+      "releaseDate": "Feb 5, 2019",
       "achievements": {
         "total": 56,
         "unlocked": 56
@@ -854,7 +854,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "26 Apr, 2024",
+      "releaseDate": "Apr 26, 2024",
       "achievements": {
         "total": 71,
         "unlocked": 71
@@ -882,7 +882,7 @@
         "Full controller support",
         "Remote Play Together"
       ],
-      "releaseDate": "20 Oct, 2022",
+      "releaseDate": "Oct 20, 2022",
       "achievements": {
         "total": 243,
         "unlocked": 243
@@ -909,7 +909,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "20 Sep, 2012",
+      "releaseDate": "Sep 17, 2012",
       "achievements": {
         "total": 75,
         "unlocked": 75
@@ -933,7 +933,7 @@
         "Partial Controller Support",
         "Remote Play Together"
       ],
-      "releaseDate": "10 Oct, 2012",
+      "releaseDate": "Oct 10, 2012",
       "achievements": {
         "total": 34,
         "unlocked": 28
@@ -956,7 +956,7 @@
         "Online Co-op"
       ],
       "hardwareSupport": [],
-      "releaseDate": "30 Mar, 2025",
+      "releaseDate": "Mar 30, 2025",
       "achievements": {
         "total": 14,
         "unlocked": 14
@@ -981,7 +981,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "10 Oct, 2007",
+      "releaseDate": "Oct 10, 2007",
       "achievements": {
         "total": 520,
         "unlocked": 158
@@ -1008,7 +1008,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "15 Aug, 2018",
+      "releaseDate": "Aug 15, 2018",
       "achievements": {
         "total": 125,
         "unlocked": 125
@@ -1038,7 +1038,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "13 Mar, 2020",
+      "releaseDate": "Mar 13, 2020",
       "achievements": {
         "total": 81,
         "unlocked": 81
@@ -1062,7 +1062,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "7 Mar, 2025",
+      "releaseDate": "Mar 7, 2025",
       "achievements": {
         "total": 362,
         "unlocked": 267
@@ -1083,7 +1083,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "29 Jan, 2025",
+      "releaseDate": "Jan 29, 2025",
       "achievements": {
         "total": 31,
         "unlocked": 31
@@ -1107,7 +1107,7 @@
         "Cross-Platform Multiplayer"
       ],
       "hardwareSupport": [],
-      "releaseDate": "19 Nov, 2014",
+      "releaseDate": "Nov 19, 2014",
       "achievements": {
         "total": 125,
         "unlocked": 58
@@ -1130,7 +1130,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "11 Jun, 2020",
+      "releaseDate": "Jun 11, 2020",
       "achievements": {
         "total": 67,
         "unlocked": 46
@@ -1152,7 +1152,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "18 Nov, 2021",
+      "releaseDate": "Nov 18, 2021",
       "achievements": {
         "total": 86,
         "unlocked": 23
@@ -1174,7 +1174,7 @@
         "MMO"
       ],
       "hardwareSupport": [],
-      "releaseDate": "15 Jan, 2015",
+      "releaseDate": "Jan 15, 2015",
       "achievements": null
     },
     {
@@ -1194,7 +1194,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "23 Mar, 2010",
+      "releaseDate": "Mar 23, 2010",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -1249,7 +1249,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "30 May, 2023",
+      "releaseDate": "May 30, 2023",
       "achievements": {
         "total": 29,
         "unlocked": 29
@@ -1275,7 +1275,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "16 Feb, 2017",
+      "releaseDate": "Feb 16, 2017",
       "achievements": {
         "total": 160,
         "unlocked": 34
@@ -1298,7 +1298,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "8 Feb, 2024",
+      "releaseDate": "Feb 8, 2024",
       "achievements": {
         "total": 38,
         "unlocked": 38
@@ -1324,7 +1324,7 @@
         "Full controller support",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "27 Sep, 2022",
+      "releaseDate": "Sep 27, 2022",
       "achievements": {
         "total": 45,
         "unlocked": 40
@@ -1349,7 +1349,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "30 Nov, 2015",
+      "releaseDate": "Nov 30, 2015",
       "achievements": {
         "total": 66,
         "unlocked": 66
@@ -1376,7 +1376,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "18 Apr, 2019",
+      "releaseDate": "Apr 18, 2019",
       "achievements": {
         "total": 103,
         "unlocked": 103
@@ -1404,7 +1404,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "2 Nov, 2017",
+      "releaseDate": "Nov 2, 2017",
       "achievements": {
         "total": 55,
         "unlocked": 9
@@ -1477,7 +1477,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "25 Jan, 2018",
+      "releaseDate": "Jan 25, 2018",
       "achievements": {
         "total": 32,
         "unlocked": 32
@@ -1506,7 +1506,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "9 Jun, 2016",
+      "releaseDate": "Jun 9, 2016",
       "achievements": {
         "total": 49,
         "unlocked": 42
@@ -1530,7 +1530,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "14 Feb, 2020",
+      "releaseDate": "Feb 14, 2020",
       "achievements": {
         "total": 68,
         "unlocked": 68
@@ -1556,7 +1556,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "13 May, 2020",
+      "releaseDate": "May 13, 2020",
       "achievements": {
         "total": 69,
         "unlocked": 41
@@ -1586,7 +1586,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "4 Jun, 2015",
+      "releaseDate": "Jun 4, 2015",
       "achievements": {
         "total": 18,
         "unlocked": 15
@@ -1612,7 +1612,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "4 Apr, 2017",
+      "releaseDate": "Apr 4, 2017",
       "achievements": {
         "total": 48,
         "unlocked": 48
@@ -1636,7 +1636,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "11 Oct, 2012",
+      "releaseDate": "Oct 8, 2012",
       "achievements": {
         "total": 80,
         "unlocked": 80
@@ -1654,7 +1654,7 @@
       ],
       "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "13 Aug, 2019",
+      "releaseDate": "Aug 13, 2019",
       "achievements": null
     },
     {
@@ -1699,7 +1699,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "31 Aug, 2023",
+      "releaseDate": "Aug 31, 2023",
       "achievements": {
         "total": 80,
         "unlocked": 58
@@ -1726,7 +1726,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "21 Sep, 2023",
+      "releaseDate": "Sep 21, 2023",
       "achievements": {
         "total": 22,
         "unlocked": 22
@@ -1750,7 +1750,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "2 Nov, 2022",
+      "releaseDate": "Nov 2, 2022",
       "achievements": {
         "total": 100,
         "unlocked": 100
@@ -1773,7 +1773,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "4 Dec, 2018",
+      "releaseDate": "Dec 4, 2018",
       "achievements": {
         "total": 61,
         "unlocked": 61
@@ -1798,7 +1798,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "14 Nov, 2011",
+      "releaseDate": "Nov 14, 2011",
       "achievements": {
         "total": 83,
         "unlocked": 67
@@ -1826,7 +1826,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "15 Jan, 2019",
+      "releaseDate": "Jan 15, 2019",
       "achievements": {
         "total": 91,
         "unlocked": 31
@@ -1852,7 +1852,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "7 Nov, 2023",
+      "releaseDate": "Nov 7, 2023",
       "achievements": {
         "total": 86,
         "unlocked": 86
@@ -1875,7 +1875,7 @@
       "hardwareSupport": [
         "Remote Play on Tablet"
       ],
-      "releaseDate": "28 Jan, 2015",
+      "releaseDate": "Jan 28, 2015",
       "achievements": {
         "total": 13,
         "unlocked": 13
@@ -1900,7 +1900,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "16 Oct, 2014",
+      "releaseDate": "Oct 13, 2014",
       "achievements": {
         "total": 63,
         "unlocked": 32
@@ -1927,7 +1927,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "22 Feb, 2024",
+      "releaseDate": "Feb 22, 2024",
       "achievements": {
         "total": 32,
         "unlocked": 32
@@ -1966,7 +1966,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "7 Mar, 2016",
+      "releaseDate": "Mar 7, 2016",
       "achievements": {
         "total": 60,
         "unlocked": 0
@@ -1994,7 +1994,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "26 Jan, 2015",
+      "releaseDate": "Jan 26, 2015",
       "achievements": {
         "total": 78,
         "unlocked": 52
@@ -2018,7 +2018,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "28 Jun, 2023",
+      "releaseDate": "Jun 28, 2023",
       "achievements": {
         "total": 43,
         "unlocked": 43
@@ -2041,7 +2041,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "11 Nov, 2016",
+      "releaseDate": "Nov 11, 2016",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -2063,7 +2063,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "23 Jul, 2015",
+      "releaseDate": "Jul 23, 2015",
       "achievements": {
         "total": 99,
         "unlocked": 99
@@ -2087,7 +2087,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "6 Aug, 2020",
+      "releaseDate": "Aug 6, 2020",
       "achievements": {
         "total": 96,
         "unlocked": 73
@@ -2115,7 +2115,7 @@
         "Remote Play on Tablet",
         "Remote Play Together"
       ],
-      "releaseDate": "12 Oct, 2012",
+      "releaseDate": "Oct 12, 2012",
       "achievements": {
         "total": 106,
         "unlocked": 11
@@ -2138,7 +2138,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "31 Oct, 2024",
+      "releaseDate": "Oct 31, 2024",
       "achievements": {
         "total": 181,
         "unlocked": 181
@@ -2171,7 +2171,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "19 Apr, 2016",
+      "releaseDate": "Apr 19, 2016",
       "achievements": {
         "total": 29,
         "unlocked": 24
@@ -2198,7 +2198,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "11 Nov, 2014",
+      "releaseDate": "Nov 11, 2014",
       "achievements": {
         "total": 70,
         "unlocked": 70
@@ -2229,7 +2229,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "4 Mar, 2016",
+      "releaseDate": "Mar 4, 2016",
       "achievements": {
         "total": 31,
         "unlocked": 31
@@ -2270,7 +2270,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "13 Dec, 2022",
+      "releaseDate": "Dec 13, 2022",
       "achievements": {
         "total": 29,
         "unlocked": 29
@@ -2287,7 +2287,7 @@
       ],
       "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "14 Jul, 2017",
+      "releaseDate": "Jul 14, 2017",
       "achievements": null
     },
     {
@@ -2304,7 +2304,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "6 Sep, 2023",
+      "releaseDate": "Sep 6, 2023",
       "achievements": {
         "total": 21,
         "unlocked": 21
@@ -2326,7 +2326,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "14 Dec, 2023",
+      "releaseDate": "Dec 14, 2023",
       "achievements": {
         "total": 17,
         "unlocked": 17
@@ -2350,7 +2350,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "27 Aug, 2020",
+      "releaseDate": "Aug 27, 2020",
       "achievements": {
         "total": 13,
         "unlocked": 13
@@ -2375,7 +2375,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "26 Mar, 2019",
+      "releaseDate": "Mar 26, 2019",
       "achievements": {
         "total": 72,
         "unlocked": 72
@@ -2435,7 +2435,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "24 Feb, 2017",
+      "releaseDate": "Feb 24, 2017",
       "achievements": {
         "total": 63,
         "unlocked": 27
@@ -2462,7 +2462,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "22 Aug, 2013",
+      "releaseDate": "Aug 19, 2013",
       "achievements": {
         "total": 73,
         "unlocked": 52
@@ -2502,7 +2502,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "29 Jun, 2012",
+      "releaseDate": "Jun 29, 2012",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -2525,7 +2525,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "22 Oct, 2020",
+      "releaseDate": "Oct 22, 2020",
       "achievements": {
         "total": 21,
         "unlocked": 21
@@ -2546,7 +2546,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "18 Feb, 2016",
+      "releaseDate": "Feb 18, 2016",
       "achievements": {
         "total": 57,
         "unlocked": 57
@@ -2568,7 +2568,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "13 Dec, 2022",
+      "releaseDate": "Dec 13, 2022",
       "achievements": {
         "total": 44,
         "unlocked": 44
@@ -2625,7 +2625,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "7 Aug, 2018",
+      "releaseDate": "Aug 7, 2018",
       "achievements": {
         "total": 54,
         "unlocked": 54
@@ -2647,7 +2647,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "27 Aug, 2014",
+      "releaseDate": "Aug 25, 2014",
       "achievements": {
         "total": 49,
         "unlocked": 49
@@ -2717,7 +2717,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "31 Jul, 2014",
+      "releaseDate": "Jul 31, 2014",
       "achievements": {
         "total": 31,
         "unlocked": 31
@@ -2741,7 +2741,7 @@
         "VR Support",
         "Remote Play on TV"
       ],
-      "releaseDate": "23 Jan, 2018",
+      "releaseDate": "Jan 23, 2018",
       "achievements": {
         "total": 17,
         "unlocked": 17
@@ -2790,7 +2790,7 @@
         "Full controller support",
         "Remote Play Together"
       ],
-      "releaseDate": "29 Jul, 2021",
+      "releaseDate": "Jul 29, 2021",
       "achievements": {
         "total": 66,
         "unlocked": 66
@@ -2814,7 +2814,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "17 Nov, 2014",
+      "releaseDate": "Nov 17, 2014",
       "achievements": {
         "total": 57,
         "unlocked": 0
@@ -2839,7 +2839,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "26 Mar, 2018",
+      "releaseDate": "Mar 26, 2018",
       "achievements": {
         "total": 72,
         "unlocked": 0
@@ -2868,7 +2868,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "8 May, 2024",
+      "releaseDate": "May 8, 2024",
       "achievements": {
         "total": 49,
         "unlocked": 22
@@ -2891,7 +2891,7 @@
         "Full controller support",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "17 May, 2018",
+      "releaseDate": "May 17, 2018",
       "achievements": {
         "total": 96,
         "unlocked": 26
@@ -2920,7 +2920,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "16 Nov, 2009",
+      "releaseDate": "Nov 16, 2009",
       "achievements": {
         "total": 101,
         "unlocked": 25
@@ -2945,7 +2945,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "8 Jun, 2023",
+      "releaseDate": "Jun 8, 2023",
       "achievements": {
         "total": 34,
         "unlocked": 34
@@ -2975,7 +2975,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "18 Apr, 2011",
+      "releaseDate": "Apr 18, 2011",
       "achievements": {
         "total": 51,
         "unlocked": 51
@@ -2999,7 +2999,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "28 Apr, 2022",
+      "releaseDate": "Apr 28, 2022",
       "achievements": {
         "total": 85,
         "unlocked": 44
@@ -3019,7 +3019,7 @@
         "Multi-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "22 Oct, 2008",
+      "releaseDate": "Oct 22, 2008",
       "achievements": null
     },
     {
@@ -3037,7 +3037,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "27 Aug, 2014",
+      "releaseDate": "Aug 25, 2014",
       "achievements": {
         "total": 49,
         "unlocked": 49
@@ -3061,7 +3061,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "26 Jan, 2016",
+      "releaseDate": "Jan 26, 2016",
       "achievements": {
         "total": 2,
         "unlocked": 2
@@ -3082,7 +3082,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "1 Oct, 2020",
+      "releaseDate": "Oct 1, 2020",
       "achievements": {
         "total": 73,
         "unlocked": 73
@@ -3107,7 +3107,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "17 Oct, 2013",
+      "releaseDate": "Oct 17, 2013",
       "achievements": {
         "total": 10,
         "unlocked": 10
@@ -3133,7 +3133,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "19 Jun, 2025",
+      "releaseDate": "Jun 19, 2025",
       "achievements": {
         "total": 37,
         "unlocked": 37
@@ -3155,7 +3155,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "7 Nov, 2025",
+      "releaseDate": "Nov 7, 2025",
       "achievements": {
         "total": 29,
         "unlocked": 29
@@ -3180,7 +3180,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "31 May, 2016",
+      "releaseDate": "May 31, 2016",
       "achievements": {
         "total": 57,
         "unlocked": 42
@@ -3202,7 +3202,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "26 Oct, 2017",
+      "releaseDate": "Oct 26, 2017",
       "achievements": {
         "total": 80,
         "unlocked": 42
@@ -3222,7 +3222,7 @@
         "Tracked Controller Support",
         "VR Only"
       ],
-      "releaseDate": "14 Apr, 2020",
+      "releaseDate": "Apr 14, 2020",
       "achievements": null
     },
     {
@@ -3245,7 +3245,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "12 Nov, 2009",
+      "releaseDate": "Nov 12, 2009",
       "achievements": null
     },
     {
@@ -3269,7 +3269,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "15 May, 2013",
+      "releaseDate": "May 15, 2013",
       "achievements": {
         "total": 50,
         "unlocked": 31
@@ -3291,7 +3291,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "3 Aug, 2015",
+      "releaseDate": "Aug 3, 2015",
       "achievements": {
         "total": 76,
         "unlocked": 76
@@ -3320,7 +3320,7 @@
         "Remote Play on Tablet",
         "Remote Play Together"
       ],
-      "releaseDate": "19 May, 2020",
+      "releaseDate": "May 19, 2020",
       "achievements": {
         "total": 83,
         "unlocked": 25
@@ -3352,7 +3352,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "29 Jan, 2014",
+      "releaseDate": "Jan 29, 2014",
       "achievements": {
         "total": 112,
         "unlocked": 19
@@ -3373,7 +3373,7 @@
         "Online PvP"
       ],
       "hardwareSupport": [],
-      "releaseDate": "23 May, 2019",
+      "releaseDate": "May 23, 2019",
       "achievements": null
     },
     {
@@ -3394,7 +3394,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "12 Jun, 2022",
+      "releaseDate": "Jun 12, 2022",
       "achievements": {
         "total": 41,
         "unlocked": 22
@@ -3415,7 +3415,7 @@
         "Co-op"
       ],
       "hardwareSupport": [],
-      "releaseDate": "11 Nov, 2009",
+      "releaseDate": "Nov 11, 2009",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -3442,7 +3442,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "14 Sep, 2022",
+      "releaseDate": "Sep 14, 2022",
       "achievements": {
         "total": 25,
         "unlocked": 25
@@ -3465,7 +3465,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "25 Mar, 2013",
+      "releaseDate": "Mar 25, 2013",
       "achievements": {
         "total": 80,
         "unlocked": 50
@@ -3494,7 +3494,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "16 Nov, 2018",
+      "releaseDate": "Nov 16, 2018",
       "achievements": {
         "total": 33,
         "unlocked": 0
@@ -3519,7 +3519,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "23 Sep, 2022",
+      "releaseDate": "Sep 23, 2022",
       "achievements": {
         "total": 86,
         "unlocked": 58
@@ -3539,7 +3539,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "27 Feb, 2015",
+      "releaseDate": "Feb 27, 2015",
       "achievements": {
         "total": 16,
         "unlocked": 16
@@ -3557,7 +3557,7 @@
       ],
       "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "30 Sep, 2017",
+      "releaseDate": "Sep 30, 2017",
       "achievements": null
     },
     {
@@ -3575,7 +3575,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "19 May, 2014",
+      "releaseDate": "May 19, 2014",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -3598,7 +3598,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "31 Aug, 2022",
+      "releaseDate": "Aug 31, 2022",
       "achievements": {
         "total": 30,
         "unlocked": 30
@@ -3623,7 +3623,7 @@
         "Full controller support",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "25 Feb, 2021",
+      "releaseDate": "Feb 25, 2021",
       "achievements": {
         "total": 54,
         "unlocked": 26
@@ -3647,7 +3647,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "22 Dec, 2014",
+      "releaseDate": "Dec 22, 2014",
       "achievements": {
         "total": 547,
         "unlocked": 47
@@ -3676,7 +3676,7 @@
         "Partial Controller Support",
         "Remote Play Together"
       ],
-      "releaseDate": "12 Aug, 2013",
+      "releaseDate": "Aug 12, 2013",
       "achievements": {
         "total": 38,
         "unlocked": 12
@@ -3700,7 +3700,7 @@
         "Remote Play on Tablet",
         "Remote Play Together"
       ],
-      "releaseDate": "16 Nov, 2004",
+      "releaseDate": "Nov 16, 2004",
       "achievements": {
         "total": 69,
         "unlocked": 69
@@ -3719,7 +3719,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "1 Apr, 2008",
+      "releaseDate": "Apr 1, 2008",
       "achievements": null
     },
     {
@@ -3739,7 +3739,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "30 Oct, 2024",
+      "releaseDate": "Oct 30, 2024",
       "achievements": {
         "total": 22,
         "unlocked": 22
@@ -3761,7 +3761,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "29 Feb, 2016",
+      "releaseDate": "Feb 29, 2016",
       "achievements": {
         "total": 55,
         "unlocked": 0
@@ -3798,7 +3798,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "11 Aug, 2011",
+      "releaseDate": "Aug 11, 2011",
       "achievements": {
         "total": 47,
         "unlocked": 47
@@ -3825,7 +3825,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "1 Aug, 2017",
+      "releaseDate": "Aug 1, 2017",
       "achievements": {
         "total": 57,
         "unlocked": 50
@@ -3849,7 +3849,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "30 Sep, 2021",
+      "releaseDate": "Sep 30, 2021",
       "achievements": {
         "total": 53,
         "unlocked": 53
@@ -3881,7 +3881,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "11 Dec, 2018",
+      "releaseDate": "Dec 11, 2018",
       "achievements": {
         "total": 46,
         "unlocked": 25
@@ -3908,7 +3908,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "27 Feb, 2014",
+      "releaseDate": "Feb 7, 2014",
       "achievements": {
         "total": 48,
         "unlocked": 48
@@ -3929,7 +3929,7 @@
         "Multi-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "5 Jan, 2012",
+      "releaseDate": "Jan 5, 2012",
       "achievements": null
     },
     {
@@ -3960,7 +3960,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "31 Aug, 2016",
+      "releaseDate": "Aug 31, 2016",
       "achievements": {
         "total": 98,
         "unlocked": 59
@@ -3982,7 +3982,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "27 Apr, 2017",
+      "releaseDate": "Apr 27, 2017",
       "achievements": {
         "total": 22,
         "unlocked": 18
@@ -4003,7 +4003,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "17 Nov, 2022",
+      "releaseDate": "Nov 17, 2022",
       "achievements": {
         "total": 37,
         "unlocked": 37
@@ -4023,7 +4023,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "4 Mar, 2010",
+      "releaseDate": "Mar 9, 2010",
       "achievements": null
     },
     {
@@ -4046,7 +4046,7 @@
         "Full controller support",
         "Remote Play Together"
       ],
-      "releaseDate": "26 May, 2014",
+      "releaseDate": "May 26, 2014",
       "achievements": {
         "total": 10,
         "unlocked": 10
@@ -4078,7 +4078,7 @@
         "Remote Play on Tablet",
         "Remote Play Together"
       ],
-      "releaseDate": "18 Aug, 2023",
+      "releaseDate": "Aug 18, 2023",
       "achievements": {
         "total": 44,
         "unlocked": 12
@@ -4098,7 +4098,7 @@
         "Cross-Platform Multiplayer"
       ],
       "hardwareSupport": [],
-      "releaseDate": "1 Nov, 2004",
+      "releaseDate": "Nov 1, 2004",
       "achievements": {
         "total": 147,
         "unlocked": 61
@@ -4125,7 +4125,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "1 Jun, 2017",
+      "releaseDate": "Jun 1, 2017",
       "achievements": {
         "total": 42,
         "unlocked": 42
@@ -4151,7 +4151,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "8 Aug, 2017",
+      "releaseDate": "Aug 8, 2017",
       "achievements": {
         "total": 12,
         "unlocked": 12
@@ -4172,7 +4172,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "19 Dec, 2016",
+      "releaseDate": "Dec 19, 2016",
       "achievements": {
         "total": 70,
         "unlocked": 70
@@ -4193,7 +4193,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "27 Oct, 2020",
+      "releaseDate": "Oct 27, 2020",
       "achievements": {
         "total": 45,
         "unlocked": 45
@@ -4217,7 +4217,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "28 Nov, 2012",
+      "releaseDate": "Dec 4, 2012",
       "achievements": {
         "total": 44,
         "unlocked": 0
@@ -4264,7 +4264,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "29 Mar, 2022",
+      "releaseDate": "Mar 29, 2022",
       "achievements": {
         "total": 22,
         "unlocked": 22
@@ -4286,7 +4286,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "13 Feb, 2023",
+      "releaseDate": "Feb 13, 2023",
       "achievements": {
         "total": 65,
         "unlocked": 65
@@ -4310,7 +4310,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "15 Sep, 2021",
+      "releaseDate": "Sep 15, 2021",
       "achievements": {
         "total": 31,
         "unlocked": 31
@@ -4335,7 +4335,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "25 Feb, 2016",
+      "releaseDate": "Feb 25, 2016",
       "achievements": {
         "total": 26,
         "unlocked": 26
@@ -4370,7 +4370,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "21 Apr, 2016",
+      "releaseDate": "Apr 21, 2016",
       "achievements": null
     },
     {
@@ -4401,7 +4401,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "23 Sep, 2020",
+      "releaseDate": "Sep 23, 2020",
       "achievements": {
         "total": 53,
         "unlocked": 17
@@ -4423,7 +4423,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "14 Oct, 2021",
+      "releaseDate": "Oct 14, 2021",
       "achievements": {
         "total": 16,
         "unlocked": 16
@@ -4446,7 +4446,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "26 Oct, 2023",
+      "releaseDate": "Oct 26, 2023",
       "achievements": {
         "total": 34,
         "unlocked": 34
@@ -4469,7 +4469,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "8 Aug, 2013",
+      "releaseDate": "Aug 8, 2013",
       "achievements": {
         "total": 13,
         "unlocked": 13
@@ -4490,7 +4490,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "4 May, 2015",
+      "releaseDate": "May 4, 2015",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -4518,7 +4518,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "22 May, 2017",
+      "releaseDate": "May 22, 2017",
       "achievements": null
     },
     {
@@ -4542,7 +4542,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "22 Jun, 2012",
+      "releaseDate": "Jun 22, 2012",
       "achievements": null
     },
     {
@@ -4562,7 +4562,7 @@
         "Online Co-op"
       ],
       "hardwareSupport": [],
-      "releaseDate": "27 Jul, 2017",
+      "releaseDate": "Jul 27, 2017",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -4590,7 +4590,7 @@
         "Partial Controller Support",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "5 Sep, 2019",
+      "releaseDate": "Sep 5, 2019",
       "achievements": {
         "total": 68,
         "unlocked": 19
@@ -4615,7 +4615,7 @@
         "Full controller support",
         "Remote Play Together"
       ],
-      "releaseDate": "9 Mar, 2023",
+      "releaseDate": "Mar 9, 2023",
       "achievements": {
         "total": 202,
         "unlocked": 74
@@ -4637,7 +4637,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "4 Jun, 2020",
+      "releaseDate": "Jun 4, 2020",
       "achievements": {
         "total": 26,
         "unlocked": 26
@@ -4662,7 +4662,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "20 Jun, 2019",
+      "releaseDate": "Jun 20, 2019",
       "achievements": {
         "total": 30,
         "unlocked": 30
@@ -4682,7 +4682,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "25 Aug, 2022",
+      "releaseDate": "Aug 25, 2022",
       "achievements": {
         "total": 22,
         "unlocked": 22
@@ -4705,7 +4705,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "9 May, 2019",
+      "releaseDate": "May 9, 2019",
       "achievements": {
         "total": 48,
         "unlocked": 48
@@ -4733,7 +4733,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "26 Feb, 2019",
+      "releaseDate": "Feb 26, 2019",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -4753,7 +4753,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "6 Jul, 2015",
+      "releaseDate": "Jul 6, 2015",
       "achievements": {
         "total": 6,
         "unlocked": 6
@@ -4781,7 +4781,7 @@
         "Full controller support",
         "Remote Play on TV"
       ],
-      "releaseDate": "2 Nov, 2017",
+      "releaseDate": "Nov 2, 2017",
       "achievements": {
         "total": 35,
         "unlocked": 35
@@ -4838,7 +4838,7 @@
         "Remote Play on TV",
         "Remote Play Together"
       ],
-      "releaseDate": "15 Oct, 2015",
+      "releaseDate": "Oct 15, 2015",
       "achievements": {
         "total": 17,
         "unlocked": 13
@@ -4863,7 +4863,7 @@
         "Remote Play on Phone",
         "Remote Play on Tablet"
       ],
-      "releaseDate": "19 Nov, 1998",
+      "releaseDate": "Nov 19, 1998",
       "achievements": null
     },
     {
@@ -4891,7 +4891,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "3 Dec, 2019",
+      "releaseDate": "Dec 3, 2019",
       "achievements": {
         "total": 700,
         "unlocked": 13
@@ -4912,7 +4912,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "17 Nov, 2022",
+      "releaseDate": "Nov 17, 2022",
       "achievements": {
         "total": 35,
         "unlocked": 35
@@ -4933,7 +4933,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "22 May, 2013",
+      "releaseDate": "May 22, 2013",
       "achievements": {
         "total": 26,
         "unlocked": 26
@@ -4976,7 +4976,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "13 Oct, 2015",
+      "releaseDate": "Oct 13, 2015",
       "achievements": {
         "total": 50,
         "unlocked": 50
@@ -5006,7 +5006,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "12 Dec, 2019",
+      "releaseDate": "Dec 12, 2019",
       "achievements": {
         "total": 26,
         "unlocked": 26
@@ -5028,7 +5028,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "3 Jul, 2025",
+      "releaseDate": "Jul 3, 2025",
       "achievements": {
         "total": 12,
         "unlocked": 12
@@ -5049,7 +5049,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "19 Nov, 2012",
+      "releaseDate": "Nov 19, 2012",
       "achievements": {
         "total": 47,
         "unlocked": 38
@@ -5074,7 +5074,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "15 Feb, 2019",
+      "releaseDate": "Feb 15, 2019",
       "achievements": {
         "total": 50,
         "unlocked": 0
@@ -5108,7 +5108,7 @@
         "Remote Play on Tablet",
         "Remote Play Together"
       ],
-      "releaseDate": "22 May, 2020",
+      "releaseDate": "May 22, 2020",
       "achievements": {
         "total": 63,
         "unlocked": 18
@@ -5120,20 +5120,10 @@
       "playtimeHours": 14.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/960090/c5f0b67c8beeb6be99abe2ad8db2cada5d5ccff0.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/960090/header.jpg",
-      "genres": [
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [
-        "Remote Play on Phone",
-        "Remote Play on Tablet"
-      ],
-      "releaseDate": "17 Dec, 2018",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 153,
         "unlocked": 20
@@ -5145,20 +5135,10 @@
       "playtimeHours": 14.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/409710/eb72262cd3ccc3219dd76392be3b60a4b6cbfd38.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/409710/header.jpg",
-      "genres": [
-        "Action",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on Phone",
-        "Remote Play on Tablet",
-        "Remote Play on TV"
-      ],
-      "releaseDate": "15 Sep, 2016",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 65,
         "unlocked": 51
@@ -5170,17 +5150,10 @@
       "playtimeHours": 14.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/614630/6717cba43ead8801d078dc03259dc50027578c46.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/614630/header.jpg",
-      "genres": [
-        "Adventure",
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "28 May, 2018",
+      "releaseDate": null,
       "achievements": {
         "total": 12,
         "unlocked": 9
@@ -5192,22 +5165,10 @@
       "playtimeHours": 14.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/21000/51fee43ed4f78494e23bd3eaeec5be43635dbd4c.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/21000/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on Phone",
-        "Remote Play on Tablet",
-        "Remote Play on TV",
-        "Remote Play Together"
-      ],
-      "releaseDate": "29 Sep, 2008",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": null
     },
     {
@@ -5216,18 +5177,10 @@
       "playtimeHours": 14.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/264200/2db66d5c9c2b4fe60afea1d3d331f6fa7d6d5591.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/264200/header.jpg",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "3 Mar, 2014",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 152,
         "unlocked": 103
@@ -5239,18 +5192,10 @@
       "playtimeHours": 14.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/42700/ea744d59efded3feaeebcafed224be9eadde90ac.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/42700/header.jpg",
-      "genres": [
-        "Action"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "8 Nov, 2010",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 68,
         "unlocked": 25
@@ -5262,19 +5207,10 @@
       "playtimeHours": 14.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1432910/6027fb8d72a6fac460b05835262b3e98b55c381c.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1432910/header.jpg",
-      "genres": [
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on TV"
-      ],
-      "releaseDate": "21 Apr, 2022",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 28,
         "unlocked": 14
@@ -5286,21 +5222,10 @@
       "playtimeHours": 14.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/414190/2ad99bd2d04ebe7b137302c939ed5f929a1ff278.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/414190/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Cross-Platform Multiplayer"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "30 Nov, 2016",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 109,
         "unlocked": 33
@@ -5492,22 +5417,10 @@
       "playtimeHours": 12.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/248820/27c63bdc153de52355c8e6983baa4bc0aedc3699.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/248820/header.jpg",
-      "genres": [
-        "Action",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support",
-        "Remote Play on Tablet",
-        "Remote Play Together"
-      ],
-      "releaseDate": "Nov 8, 2013",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 15,
         "unlocked": 6
@@ -5564,17 +5477,10 @@
       "playtimeHours": 12.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/255710/6cf7b10dd29db28448ef79698ed2118a03617d63.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/255710/header.jpg",
-      "genres": [
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Remote Play on Tablet"
-      ],
-      "releaseDate": "10 Mar, 2015",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 135,
         "unlocked": 11
@@ -5778,16 +5684,10 @@
       "playtimeHours": 11.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/224760/900590f739d69da4f50112669f5d949a2e6b9261.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/224760/header.jpg",
-      "genres": [
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "May 1, 2013",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 12,
         "unlocked": 12
@@ -6025,6 +5925,21 @@
       "achievements": {
         "total": 47,
         "unlocked": 47
+      }
+    },
+    {
+      "appId": 1570010,
+      "name": "FAR: Changing Tides",
+      "playtimeHours": 10.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 35,
+        "unlocked": 29
       }
     },
     {
@@ -6709,21 +6624,6 @@
       "achievements": {
         "total": 12,
         "unlocked": 12
-      }
-    },
-    {
-      "appId": 1570010,
-      "name": "FAR: Changing Tides",
-      "playtimeHours": 8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 35,
-        "unlocked": 29
       }
     },
     {
@@ -8622,19 +8522,10 @@
       "playtimeHours": 4.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2292650/e62834385db65b3d86ffee9d8adfc8f408c49c3a.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2292650/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Sep 27, 2023",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 20,
         "unlocked": 20
@@ -8835,19 +8726,10 @@
       "playtimeHours": 3.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/469610/0ec5b9e5a0aeefe368415a2e13b6696a95b5f279.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/469610/header.jpg",
-      "genres": [
-        "Adventure",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Tracked Controller Support",
-        "VR Only"
-      ],
-      "releaseDate": "20 Apr, 2017",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 18,
         "unlocked": 6
@@ -9288,22 +9170,10 @@
       "playtimeHours": 3.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1037190/49f46c9e159722ec4e75c9b69dd1144c6917b891.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1037190/header.jpg",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie",
-        "Sports"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Shared/Split Screen PvP"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play Together"
-      ],
-      "releaseDate": "29 Mar, 2019",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 13,
         "unlocked": 13
@@ -21594,22 +21464,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/289070/9dc914132fec244adcede62fb8e7524a72a7398c.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg",
-      "genres": [
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Shared/Split Screen PvP",
-        "Cross-Platform Multiplayer"
-      ],
-      "hardwareSupport": [
-        "Remote Play on Tablet",
-        "Remote Play Together"
-      ],
-      "releaseDate": "20 Oct, 2016",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 320,
         "unlocked": 0
@@ -30951,10 +30809,17 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/438010/e52a007a5f3d68b9d416afad0d81f32abe63dc76.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/438010/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "27 Jan, 2016",
       "achievements": null
     },
     {
@@ -56452,7 +56317,7 @@
       "appId": 1966720,
       "name": "Lethal Company",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1966720/8393f321a62a9ef0be762c81565d2caea4fb7da6.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1966720/80d2453285274e4723c884a671cdd3f8fe2f766f.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1966720/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -56883,16 +56748,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2096080/aa7cec04dfdd01df49f963816c804d104a59dc5c.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2096080/header.jpg",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Jan 22, 2024",
+      "releaseDate": null,
       "achievements": {
         "total": 20,
         "unlocked": 0
@@ -57078,17 +56937,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2138710/3930eb06cc31a6c91ab243afd4c45f49c9d0c5c1.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/header.jpg",
-      "genres": [
-        "Action",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "28 Mar, 2023",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 61,
         "unlocked": 0
@@ -57160,19 +57012,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2161440/d8601cfc79c54bcf165a469743b166d16bf272fa.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161440/header.jpg",
-      "genres": [
-        "Adventure",
-        "RPG",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Jan 11, 2023",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 39,
         "unlocked": 0
@@ -57244,17 +57087,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2181610/17cf2c54f5a2c7c7e746e40e83a2deb5b138d08d.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2181610/header.jpg",
-      "genres": [
-        "Action",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Sep 13, 2023",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 29,
         "unlocked": 0
@@ -57266,18 +57102,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2181930/78132f97f17ef61df4cc99b0fbf78d7c7247a283.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2181930/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "RPG",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Feb 13, 2023",
+      "releaseDate": null,
       "achievements": {
         "total": 130,
         "unlocked": 0
@@ -57379,17 +57207,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2206270/e47bac1bf1dcbfacba741aa860fcf6a44394122c.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2206270/header.jpg",
-      "genres": [
-        "Action",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Oct 30, 2024",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 215,
         "unlocked": 0
@@ -62607,13 +62428,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1270460/header.jpg"
     },
     {
-      "appId": 1271110,
-      "dateAdded": 1630576866,
-      "priority": 0,
-      "name": "Healing Spree",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1271110/header.jpg"
-    },
-    {
       "appId": 1271900,
       "dateAdded": 1673875323,
       "priority": 0,
@@ -65169,13 +64983,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1769170/header.jpg"
     },
     {
-      "appId": 1769960,
-      "dateAdded": 1769710348,
-      "priority": 0,
-      "name": "Horizon Journey",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1769960/header.jpg"
-    },
-    {
       "appId": 1771110,
       "dateAdded": 1767877142,
       "priority": 0,
@@ -66476,13 +66283,6 @@
       "priority": 0,
       "name": "Begone Beast",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2192380/header.jpg"
-    },
-    {
-      "appId": 2192780,
-      "dateAdded": 1763798143,
-      "priority": 0,
-      "name": "Grimdark Survivors",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2192780/header.jpg"
     },
     {
       "appId": 2193150,
@@ -70571,13 +70371,6 @@
       "priority": 0,
       "name": "Burglin' Gnomes",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3844970/header.jpg"
-    },
-    {
-      "appId": 3845160,
-      "dateAdded": 1761211784,
-      "priority": 0,
-      "name": "App 3845160",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3845160/header.jpg"
     },
     {
       "appId": 3846120,
