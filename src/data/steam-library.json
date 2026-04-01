@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-03-31T07:12:57.728Z",
+  "fetchedAt": "2026-04-01T07:19:55.127Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1774938324
+    "lastLogoff": 1775026610
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2520.3,
+      "playtimeHours": 2534.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -5056,6 +5056,21 @@
       }
     },
     {
+      "appId": 1570010,
+      "name": "FAR: Changing Tides",
+      "playtimeHours": 15.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 35,
+        "unlocked": 35
+      }
+    },
+    {
       "appId": 939960,
       "name": "Far Cry New Dawn",
       "playtimeHours": 15.1,
@@ -5127,21 +5142,6 @@
       "achievements": {
         "total": 153,
         "unlocked": 20
-      }
-    },
-    {
-      "appId": 1570010,
-      "name": "FAR: Changing Tides",
-      "playtimeHours": 14.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 35,
-        "unlocked": 32
       }
     },
     {
@@ -6090,6 +6090,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 9.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 23
+      }
+    },
+    {
       "appId": 635200,
       "name": "Distrust",
       "playtimeHours": 9.9,
@@ -6222,21 +6237,6 @@
       "achievements": {
         "total": 6,
         "unlocked": 6
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 9.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 22
       }
     },
     {
@@ -10216,7 +10216,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 241,
+        "total": 250,
         "unlocked": 11
       }
     },
@@ -22597,7 +22597,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 75,
+        "total": 87,
         "unlocked": 0
       }
     },
@@ -39173,7 +39173,7 @@
     },
     {
       "appId": 678900,
-      "name": "Farmer's Dynasty",
+      "name": "Farmer's Dynasty - Final Harvest Edition",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/678900/b6fdd50d559aed0b1e8c4e456475b50bf27bc386.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/678900/header.jpg",
@@ -54821,7 +54821,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 108,
+        "total": 126,
         "unlocked": 0
       }
     },
@@ -69596,6 +69596,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3449470/header.jpg"
     },
     {
+      "appId": 3456660,
+      "dateAdded": 1774460723,
+      "priority": 0,
+      "name": "PAYDAY: Aces High",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3456660/header.jpg"
+    },
+    {
       "appId": 3467710,
       "dateAdded": 1763546101,
       "priority": 0,
@@ -70317,6 +70324,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3817250/header.jpg"
     },
     {
+      "appId": 3826060,
+      "dateAdded": 1774447227,
+      "priority": 0,
+      "name": "Moventure",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3826060/header.jpg"
+    },
+    {
       "appId": 3829620,
       "dateAdded": 1765984866,
       "priority": 0,
@@ -70385,6 +70399,13 @@
       "priority": 0,
       "name": "FlippUp",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3854060/header.jpg"
+    },
+    {
+      "appId": 3858650,
+      "dateAdded": 1774630977,
+      "priority": 0,
+      "name": "Crushed In Time",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3858650/header.jpg"
     },
     {
       "appId": 3867670,
@@ -70702,6 +70723,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4069520/header.jpg"
     },
     {
+      "appId": 4073860,
+      "dateAdded": 1774743119,
+      "priority": 0,
+      "name": "Sludgineers",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4073860/header.jpg"
+    },
+    {
       "appId": 4077740,
       "dateAdded": 1763823975,
       "priority": 0,
@@ -70714,6 +70742,13 @@
       "priority": 0,
       "name": "Log Riders",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4082750/header.jpg"
+    },
+    {
+      "appId": 4088850,
+      "dateAdded": 1774743084,
+      "priority": 0,
+      "name": "A Game About Opening A Chest",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4088850/header.jpg"
     },
     {
       "appId": 4095380,
@@ -70877,6 +70912,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4197990/header.jpg"
     },
     {
+      "appId": 4200890,
+      "dateAdded": 1774743166,
+      "priority": 0,
+      "name": "Pachincro",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4200890/header.jpg"
+    },
+    {
       "appId": 4206270,
       "dateAdded": 1771969615,
       "priority": 0,
@@ -70940,6 +70982,20 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4262380/header.jpg"
     },
     {
+      "appId": 4276980,
+      "dateAdded": 1774742976,
+      "priority": 0,
+      "name": "Tiny Biomes: Cozy Idle",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4276980/header.jpg"
+    },
+    {
+      "appId": 4279120,
+      "dateAdded": 1774784039,
+      "priority": 0,
+      "name": "Budgie's Bug Shop",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4279120/header.jpg"
+    },
+    {
       "appId": 4279210,
       "dateAdded": 1772154517,
       "priority": 0,
@@ -70982,6 +71038,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4341010/header.jpg"
     },
     {
+      "appId": 4364730,
+      "dateAdded": 1774553876,
+      "priority": 0,
+      "name": "IGTAP: an Incremental Game That's Also a Platformer",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4364730/header.jpg"
+    },
+    {
       "appId": 4389400,
       "dateAdded": 1772154470,
       "priority": 0,
@@ -71008,69 +71071,6 @@
       "priority": 0,
       "name": "The Fancy Pants Adventures Online",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4503040/header.jpg"
-    },
-    {
-      "appId": 3826060,
-      "dateAdded": 1774447227,
-      "priority": 0,
-      "name": "Moventure",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3826060/header.jpg"
-    },
-    {
-      "appId": 3456660,
-      "dateAdded": 1774460723,
-      "priority": 0,
-      "name": "PAYDAY: Aces High",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3456660/header.jpg"
-    },
-    {
-      "appId": 4364730,
-      "dateAdded": 1774553876,
-      "priority": 0,
-      "name": "IGTAP: an Incremental Game That's Also a Platformer",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4364730/header.jpg"
-    },
-    {
-      "appId": 3858650,
-      "dateAdded": 1774630977,
-      "priority": 0,
-      "name": "Crushed In Time",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3858650/header.jpg"
-    },
-    {
-      "appId": 4276980,
-      "dateAdded": 1774742976,
-      "priority": 0,
-      "name": "Tiny Biomes: Cozy Idle",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4276980/header.jpg"
-    },
-    {
-      "appId": 4088850,
-      "dateAdded": 1774743084,
-      "priority": 0,
-      "name": "A Game About Opening A Chest",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4088850/header.jpg"
-    },
-    {
-      "appId": 4073860,
-      "dateAdded": 1774743119,
-      "priority": 0,
-      "name": "Sludgineers",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4073860/header.jpg"
-    },
-    {
-      "appId": 4200890,
-      "dateAdded": 1774743166,
-      "priority": 0,
-      "name": "Pachincro",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4200890/header.jpg"
-    },
-    {
-      "appId": 4279120,
-      "dateAdded": 1774784039,
-      "priority": 0,
-      "name": "Budgie's Bug Shop",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4279120/header.jpg"
     }
   ]
 }
