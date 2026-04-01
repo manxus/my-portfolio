@@ -1,6 +1,23 @@
 {
   "reviews": [
     {
+      "appId": 1813860,
+      "rating": 6,
+      "title": "A Calm and Unique Journey That Won’t Be for Everyone",
+      "text": "I had a good experience with Naiad, but it’s definitely a very specific type of game.\n\nMovement feels smooth overall, and there are a few different ways to swim which keeps it interesting. One thing I didn’t enjoy as much was moving through polluted water it slows you down a lot. It makes sense for the game’s environmental theme, but it can feel a bit frustrating.\n\nInteracting with the environment is enjoyable, but it can become a bit repetitive over time. Some interactions feel like variations of things you’ve already done rather than completely new ideas.\n\nSome areas of the game can feel quite small unless you take the time to explore. It’s very easy to swim past secrets and miss content, so it’s worth slowing down and paying attention.\n\nThe art style fits the game really well. It’s simple and clean, and it works nicely with the calm and relaxing atmosphere.\n\nFor me, the game felt slightly too long for what it offers, although that will depend on how thoroughly you explore. It still feels like a complete experience overall.\n\nI didn’t run into any technical issues during my playthrough.\n\nOverall, I would recommend it, but mainly for players who enjoy slower, more relaxing exploration games. It’s not very challenging, but it’s unique and atmospheric.",
+      "date": "2026-03-25",
+      "recommended": true,
+      "pros": [
+        "Smooth movement",
+        "Relaxing atmosphere",
+        "Encourages exploration"
+      ],
+      "cons": [
+        "Repetitive interactions",
+        "Easy to miss content"
+      ]
+    },
+    {
       "appId": 1085220,
       "rating": 7,
       "title": "A Strong Sequel That Leans More Into Combat",
@@ -19,20 +36,19 @@
       ]
     },
     {
-      "appId": 1813860,
+      "appId": 3929760,
       "rating": 6,
-      "title": "A Calm and Unique Journey That Won’t Be for Everyone",
-      "text": "I had a good experience with Naiad, but it’s definitely a very specific type of game.\n\nMovement feels smooth overall, and there are a few different ways to swim which keeps it interesting. One thing I didn’t enjoy as much was moving through polluted water it slows you down a lot. It makes sense for the game’s environmental theme, but it can feel a bit frustrating.\n\nInteracting with the environment is enjoyable, but it can become a bit repetitive over time. Some interactions feel like variations of things you’ve already done rather than completely new ideas.\n\nSome areas of the game can feel quite small unless you take the time to explore. It’s very easy to swim past secrets and miss content, so it’s worth slowing down and paying attention.\n\nThe art style fits the game really well. It’s simple and clean, and it works nicely with the calm and relaxing atmosphere.\n\nFor me, the game felt slightly too long for what it offers, although that will depend on how thoroughly you explore. It still feels like a complete experience overall.\n\nI didn’t run into any technical issues during my playthrough.\n\nOverall, I would recommend it, but mainly for players who enjoy slower, more relaxing exploration games. It’s not very challenging, but it’s unique and atmospheric.",
-      "date": "2026-03-25",
+      "title": "Roll, Upgrade, Repeat, A Short but Satisfying Loop",
+      "text": "Incredicer is a simple but satisfying incremental dice game.\n\nThe core gameplay loop of rolling dice, earning money, and buying upgrades works well. Progression feels balanced for most of the game, although it slows down quite a bit toward the end.\n\nUpgrades mostly increase numbers or add small modifiers. They work, but I would’ve liked more noticeable feedback when they trigger. A lot of the time it just feels like numbers going up rather than meaningful changes to gameplay and visuals\n\nThe helper hands take a while to feel useful. Early on it’s faster to just roll manually, but later they become more relevant. Idle mode pushes the game even further into automation making it feel less like an incremental game and while it’s optional, once it’s there you’ll probably use it.\n\nThere’s no prestige system like in many other incremental games, so it’s just one continuous run. For a short game that works fine, but it does limit replayability.\n\nThe UI is clean and easy to understand, although a bit basic visually. Endgame becomes very cluttered to the point where you can barely see your screen.\n\nOverall, if you enjoy incremental games and want something short and inexpensive, this is worth picking up.",
+      "date": "2026-04-01",
       "recommended": true,
       "pros": [
-        "Smooth movement",
-        "Relaxing atmosphere",
-        "Encourages exploration"
+        "Satisfying dice-rolling loop",
+        "Good value for its price"
       ],
       "cons": [
-        "Repetitive interactions",
-        "Easy to miss content"
+        "Lack of visuals from upgrades",
+        "No prestige system"
       ]
     }
   ]

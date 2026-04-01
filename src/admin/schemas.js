@@ -115,7 +115,7 @@ export const schemas = {
     { key: 'description', label: 'Description', type: 'textarea' },
     { key: 'thumbnail', label: 'Thumbnail URL', type: 'text', required: true },
     { key: 'fullUrl', label: 'Full Image URL', type: 'text' },
-    { key: 'videoUrl', label: 'Video URL', type: 'text' },
+    { key: 'videoUrl', label: 'Video URL (YouTube watch, youtu.be, embed, or shorts)', type: 'text' },
   ],
   'media.categories': [
     { key: '_value', label: 'Category Name', type: 'text', required: true },

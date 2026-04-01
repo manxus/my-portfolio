@@ -2,7 +2,20 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import mediaData from '../data/media.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
+import {
+  parseYoutubeVideoId,
+  youtubeEmbedUrl,
+  youtubeThumbnailUrl,
+} from '../utils/youtube';
 import styles from './Media.module.css';
+
+function galleryThumbnailSrc(item) {
+  const thumb = typeof item.thumbnail === 'string' ? item.thumbnail.trim() : '';
+  if (thumb) return thumb;
+  const yt = parseYoutubeVideoId(item.videoUrl);
+  if (yt) return youtubeThumbnailUrl(yt);
+  return '';
+}
 
 const CATEGORIES = mediaData.categories;
 const GALLERY_ITEMS = mediaData.galleryItems;
@@ -55,33 +68,51 @@ export default function Media() {
           animate="show"
           key={filter}
         >
-          {filtered.map((item, i) => (
-            <motion.button
-              key={item.id}
-              variants={fadeUp}
-              className={styles.card}
-              onClick={() => setLightbox(item)}
-            >
-              <div className={styles.imageWrap}>
-                <img
-                  src={item.thumbnail}
-                  alt={item.title}
-                  className={styles.image}
-                  loading="lazy"
-                />
-                <div className={styles.overlay}>
-                  <span className={styles.overlayType}>{item.type}</span>
+          {filtered.map((item) => {
+            const fullIndex = GALLERY_ITEMS.findIndex((g) => g.id === item.id);
+            const thumbSrc = galleryThumbnailSrc(item);
+            return (
+              <motion.div
+                key={item.id}
+                role="button"
+                tabIndex={0}
+                variants={fadeUp}
+                className={styles.card}
+                onClick={() => setLightbox(item)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setLightbox(item);
+                  }
+                }}
+              >
+                <div className={styles.imageWrap}>
+                  {thumbSrc ? (
+                    <img
+                      src={thumbSrc}
+                      alt={item.title}
+                      className={styles.image}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className={styles.mediaPlaceholder} aria-hidden />
+                  )}
+                  <div className={styles.overlay}>
+                    <span className={styles.overlayType}>{item.type}</span>
+                  </div>
                 </div>
-              </div>
-              <div className={styles.cardInfo}>
-                <h4 className={styles.cardTitle}>
-                  {item.title}
-                  <EditableItemControls index={GALLERY_ITEMS.indexOf(item)} />
-                </h4>
-                <p className={styles.cardDesc}>{item.description}</p>
-              </div>
-            </motion.button>
-          ))}
+                <div className={styles.cardInfo}>
+                  <div className={styles.cardTitleRow}>
+                    <h4 className={styles.cardTitle}>{item.title}</h4>
+                    {fullIndex >= 0 && (
+                      <EditableItemControls index={fullIndex} />
+                    )}
+                  </div>
+                  <p className={styles.cardDesc}>{item.description}</p>
+                </div>
+              </motion.div>
+            );
+          })}
         </motion.div>
       </EditableSection>
 
@@ -102,11 +133,36 @@ export default function Media() {
               exit={{ scale: 0.9 }}
               onClick={(e) => e.stopPropagation()}
             >
-              <img
-                src={lightbox.fullUrl || lightbox.thumbnail}
-                alt={lightbox.title}
-                className={styles.lightboxImage}
-              />
+              {(() => {
+                const yt = parseYoutubeVideoId(lightbox.videoUrl);
+                if (yt) {
+                  return (
+                    <div className={styles.lightboxEmbed}>
+                      <iframe
+                        title={lightbox.title}
+                        src={youtubeEmbedUrl(yt)}
+                        className={styles.lightboxIframe}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                      />
+                    </div>
+                  );
+                }
+                const imgSrc =
+                  (typeof lightbox.fullUrl === 'string' && lightbox.fullUrl.trim()) ||
+                  galleryThumbnailSrc(lightbox);
+                return imgSrc ? (
+                  <img
+                    src={imgSrc}
+                    alt={lightbox.title}
+                    className={styles.lightboxImage}
+                  />
+                ) : (
+                  <div className={styles.lightboxEmpty}>
+                    Add a thumbnail, full image URL, or a supported YouTube link (video URL field).
+                  </div>
+                );
+              })()}
               <div className={styles.lightboxInfo}>
                 <h3>{lightbox.title}</h3>
                 <p>{lightbox.description}</p>

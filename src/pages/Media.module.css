@@ -51,9 +51,20 @@
   border: 1px solid rgba(95, 143, 143, 0.08);
   overflow: hidden;
   text-align: left;
+  cursor: pointer;
   transition:
     border-color var(--transition-fast),
     transform var(--transition-fast);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--accent, #5f8f8f);
+  outline-offset: 2px;
+}
+
+/* Reveal in-app admin controls when hovering the tile (controls live in the title row) */
+.card:hover :global([class*='itemControls']) {
+  opacity: 1;
 }
 
 .card:hover {
@@ -103,12 +114,22 @@
   gap: 0.25rem;
 }
 
+.cardTitleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
 .cardTitle {
   font-family: var(--font-heading);
   font-size: 0.88rem;
   font-weight: 500;
   color: var(--text-primary);
   letter-spacing: 0.02em;
+  margin: 0;
+  min-width: 0;
+  flex: 1;
 }
 
 .cardDesc {
@@ -145,6 +166,41 @@
   display: block;
 }
 
+.lightboxEmbed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0a0a0a;
+}
+
+.lightboxIframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.lightboxEmpty,
+.mediaPlaceholder {
+  background: var(--bg-hover);
+  min-height: 8rem;
+}
+
+.lightboxEmpty {
+  padding: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.mediaPlaceholder {
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+}
+
 .lightboxInfo {
   padding: 1rem 1.25rem;
 }
@@ -168,6 +224,7 @@
   position: absolute;
   top: 0.5rem;
   right: 0.75rem;
+  z-index: 2;
   font-size: 1.5rem;
   color: var(--text-secondary);
   background: rgba(0, 0, 0, 0.4);
