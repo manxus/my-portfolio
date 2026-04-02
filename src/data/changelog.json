@@ -1,6 +1,20 @@
 {
   "changelog": [
     {
+      "version": "1.1.1",
+      "date": "2026-04-02",
+      "entries": [
+        {
+          "type": "fixed",
+          "text": "Credits: rolling text starts just below the visible credits area at any window size, and scroll speed stays steady across different display refresh rates"
+        },
+        {
+          "type": "changed",
+          "text": "Credits: faster crawl speed for the acknowledgments"
+        }
+      ]
+    },
+    {
       "version": "1.1.0",
       "date": "2026-04-01",
       "entries": [
