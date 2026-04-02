@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-01T07:19:55.127Z",
+  "fetchedAt": "2026-04-02T07:13:02.551Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775026610
+    "lastLogoff": 1775083052
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2534.4,
+      "playtimeHours": 2535,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -5928,6 +5928,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 10.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 24
+      }
+    },
+    {
       "appId": 690150,
       "name": "Fossil Hunters",
       "playtimeHours": 10.7,
@@ -6087,21 +6102,6 @@
       "achievements": {
         "total": 50,
         "unlocked": 32
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 9.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 23
       }
     },
     {
@@ -10008,6 +10008,21 @@
       "achievements": {
         "total": 58,
         "unlocked": 7
+      }
+    },
+    {
+      "appId": 2000950,
+      "name": "Call of Duty®: Modern Warfare®",
+      "playtimeHours": 2.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 27,
+        "unlocked": 0
       }
     },
     {
@@ -56446,21 +56461,6 @@
       }
     },
     {
-      "appId": 2000950,
-      "name": "Call of Duty®: Modern Warfare®",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 27,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 2005010,
       "name": "Warhammer 40,000: Boltgun",
       "playtimeHours": 0,
@@ -71071,6 +71071,13 @@
       "priority": 0,
       "name": "The Fancy Pants Adventures Online",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4503040/header.jpg"
+    },
+    {
+      "appId": 3856460,
+      "dateAdded": 1775057722,
+      "priority": 0,
+      "name": "Cursed Words: The Word Game That Isn't",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3856460/header.jpg"
     }
   ]
 }
