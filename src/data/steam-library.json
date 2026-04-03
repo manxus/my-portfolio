@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-02T07:13:02.551Z",
+  "fetchedAt": "2026-04-03T07:09:10.733Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775083052
+    "lastLogoff": 1775174463
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2535,
+      "playtimeHours": 2547.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -7347,6 +7347,21 @@
       }
     },
     {
+      "appId": 2000950,
+      "name": "Call of Duty®: Modern Warfare®",
+      "playtimeHours": 6.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 27,
+        "unlocked": 2
+      }
+    },
+    {
       "appId": 759570,
       "name": "Decay of Logos",
       "playtimeHours": 6.1,
@@ -10008,21 +10023,6 @@
       "achievements": {
         "total": 58,
         "unlocked": 7
-      }
-    },
-    {
-      "appId": 2000950,
-      "name": "Call of Duty®: Modern Warfare®",
-      "playtimeHours": 2.2,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 27,
-        "unlocked": 0
       }
     },
     {
@@ -31055,9 +31055,9 @@
     },
     {
       "appId": 442120,
-      "name": "Pinball FX3",
+      "name": "Pinball FX Classic",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/442120/8ca505ed87783e67323d3de929f602e6b6b73eec.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/442120/3e5fed771eae3d3d5f6f27c5d79e07a787dd9f17.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/442120/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -71078,6 +71078,13 @@
       "priority": 0,
       "name": "Cursed Words: The Word Game That Isn't",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3856460/header.jpg"
+    },
+    {
+      "appId": 3249380,
+      "dateAdded": 1775131794,
+      "priority": 0,
+      "name": "Piece by Piece",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3249380/header.jpg"
     }
   ]
 }
