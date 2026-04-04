@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-04-03T07:09:10.733Z",
+  "fetchedAt": "2026-04-04T07:01:21.754Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775174463
+    "lastLogoff": 1775265166
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3437,
+      "playtimeHours": 3438.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
       "genres": [
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2547.8,
+      "playtimeHours": 2563.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -1064,8 +1064,8 @@
       ],
       "releaseDate": "Mar 7, 2025",
       "achievements": {
-        "total": 362,
-        "unlocked": 267
+        "total": 361,
+        "unlocked": 266
       }
     },
     {
@@ -5427,6 +5427,21 @@
       }
     },
     {
+      "appId": 2000950,
+      "name": "Call of Duty®: Modern Warfare®",
+      "playtimeHours": 12.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 27,
+        "unlocked": 20
+      }
+    },
+    {
       "appId": 248820,
       "name": "Risk of Rain (2013)",
       "playtimeHours": 12.7,
@@ -7344,21 +7359,6 @@
       "achievements": {
         "total": 73,
         "unlocked": 15
-      }
-    },
-    {
-      "appId": 2000950,
-      "name": "Call of Duty®: Modern Warfare®",
-      "playtimeHours": 6.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 27,
-        "unlocked": 2
       }
     },
     {
@@ -9402,6 +9402,32 @@
       "achievements": {
         "total": 16,
         "unlocked": 16
+      }
+    },
+    {
+      "appId": 3788810,
+      "name": "Demon Lord: Just a Block Demo",
+      "playtimeHours": 2.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3788810/8618640cbbc0986b27ca82d376b36883b84402e9.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3788810/header.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jun 6, 2025",
+      "achievements": {
+        "total": 3,
+        "unlocked": 3
       }
     },
     {
@@ -50467,6 +50493,27 @@
       }
     },
     {
+      "appId": 1282410,
+      "name": "Hard West 2",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1282410/5b3dee691b828e2a844d8d20bd1f159c12329757.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1282410/header.jpg",
+      "genres": [
+        "Action",
+        "RPG",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Aug 4, 2022",
+      "achievements": {
+        "total": 38,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1282730,
       "name": "Loop Hero",
       "playtimeHours": 0,
@@ -51534,6 +51581,31 @@
       "releaseDate": null,
       "achievements": {
         "total": 161,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1359090,
+      "name": "Zero Hour",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1359090/435172a2df3695389d00ea2c78d820c9e748f01e.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1359090/header.jpg",
+      "genres": [
+        "Action",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Sep 9, 2024",
+      "achievements": {
+        "total": 25,
         "unlocked": 0
       }
     },
@@ -53008,6 +53080,28 @@
       }
     },
     {
+      "appId": 1486920,
+      "name": "Tempest Rising",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1486920/23b7c59c0ceb0210b81cfffdbdb1ec2e2bbbe279.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1486920/header.jpg",
+      "genres": [
+        "Action",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Apr 24, 2025",
+      "achievements": {
+        "total": 98,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1488200,
       "name": "Symphony of War: The Nephilim Saga",
       "playtimeHours": 0,
@@ -54211,6 +54305,35 @@
       }
     },
     {
+      "appId": 1607680,
+      "name": "Bread & Fred",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1607680/fcfff47466da4d40a2f1aa12fc941e2955f55038.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1607680/header.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Shared/Split Screen Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play Together"
+      ],
+      "releaseDate": "May 23, 2023",
+      "achievements": {
+        "total": 26,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1608450,
       "name": "Hellslave",
       "playtimeHours": 0,
@@ -55321,6 +55444,32 @@
       }
     },
     {
+      "appId": 1763250,
+      "name": "SWORN",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1763250/7826d78ceea3256381284e688368539b83b91e24.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1763250/header.jpg",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 23, 2025",
+      "achievements": {
+        "total": 31,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1766540,
       "name": "Wonderputt Forever",
       "playtimeHours": 0,
@@ -55491,6 +55640,29 @@
       "releaseDate": null,
       "achievements": {
         "total": 35,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1810820,
+      "name": "Etrian Odyssey III HD",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1810820/d9ba15fa10aea4338b48d3c00d4ca7d61001a9c9.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1810820/header.jpg",
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jun 14, 2023",
+      "achievements": {
+        "total": 29,
         "unlocked": 0
       }
     },
@@ -56136,6 +56308,28 @@
       "releaseDate": null,
       "achievements": {
         "total": 20,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1931770,
+      "name": "Chants of Sennaar",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1931770/99618001a2111dd020f1fc957c5c47c0d6d5d327.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1931770/header.jpg",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 5, 2023",
+      "achievements": {
+        "total": 25,
         "unlocked": 0
       }
     },
@@ -64234,13 +64428,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1603640/header.jpg"
     },
     {
-      "appId": 1607680,
-      "dateAdded": 1678812735,
-      "priority": 0,
-      "name": "Bread & Fred",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1607680/header.jpg"
-    },
-    {
       "appId": 1608230,
       "dateAdded": 1623352696,
       "priority": 0,
@@ -64955,13 +65142,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1762930/header.jpg"
     },
     {
-      "appId": 1763250,
-      "dateAdded": 1738951079,
-      "priority": 0,
-      "name": "SWORN",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1763250/header.jpg"
-    },
-    {
       "appId": 1766390,
       "dateAdded": 1645480657,
       "priority": 0,
@@ -65536,11 +65716,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1931040/header.jpg"
     },
     {
-      "appId": 1931770,
-      "dateAdded": 1693587226,
+      "appId": 3535760,
+      "dateAdded": 1775264890,
       "priority": 0,
-      "name": "Chants of Sennaar",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1931770/header.jpg"
+      "name": "High Above",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3535760/header.jpg"
     },
     {
       "appId": 1933000,
@@ -71085,6 +71265,13 @@
       "priority": 0,
       "name": "Piece by Piece",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3249380/header.jpg"
+    },
+    {
+      "appId": 3748640,
+      "dateAdded": 1775201355,
+      "priority": 0,
+      "name": "Wasteland Bites",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3748640/header.jpg"
     }
   ]
 }
