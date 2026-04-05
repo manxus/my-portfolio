@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-04T07:01:21.754Z",
+  "fetchedAt": "2026-04-05T07:06:26.520Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775265166
+    "lastLogoff": 1775346198
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2563.4,
+      "playtimeHours": 2576.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -4430,6 +4430,21 @@
       }
     },
     {
+      "appId": 2000950,
+      "name": "Call of Duty®: Modern Warfare®",
+      "playtimeHours": 17.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 27,
+        "unlocked": 27
+      }
+    },
+    {
       "appId": 2144740,
       "name": "Ghostrunner 2",
       "playtimeHours": 17.5,
@@ -5424,21 +5439,6 @@
       "achievements": {
         "total": 23,
         "unlocked": 23
-      }
-    },
-    {
-      "appId": 2000950,
-      "name": "Call of Duty®: Modern Warfare®",
-      "playtimeHours": 12.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 27,
-        "unlocked": 20
       }
     },
     {
@@ -64428,6 +64428,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1603640/header.jpg"
     },
     {
+      "appId": 3967470,
+      "dateAdded": 1775297637,
+      "priority": 0,
+      "name": "We Gotta Go",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3967470/header.jpg"
+    },
+    {
       "appId": 1608230,
       "dateAdded": 1623352696,
       "priority": 0,
@@ -65121,13 +65128,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1755100/header.jpg"
     },
     {
-      "appId": 1757300,
-      "dateAdded": 1712881985,
-      "priority": 0,
-      "name": "Jump Space",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1757300/header.jpg"
-    },
-    {
       "appId": 1757350,
       "dateAdded": 1760136424,
       "priority": 0,
@@ -65140,6 +65140,13 @@
       "priority": 0,
       "name": "Goat Simulator: Remastered",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1762930/header.jpg"
+    },
+    {
+      "appId": 1912410,
+      "dateAdded": 1775297622,
+      "priority": 0,
+      "name": "Minecraft Dungeons II",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1912410/header.jpg"
     },
     {
       "appId": 1766390,
@@ -71272,6 +71279,27 @@
       "priority": 0,
       "name": "Wasteland Bites",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3748640/header.jpg"
+    },
+    {
+      "appId": 4328440,
+      "dateAdded": 1775297706,
+      "priority": 0,
+      "name": "Cat Parents",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4328440/header.jpg"
+    },
+    {
+      "appId": 1808320,
+      "dateAdded": 1775319255,
+      "priority": 0,
+      "name": "Lake of Creatures",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1808320/header.jpg"
+    },
+    {
+      "appId": 1198970,
+      "dateAdded": 1775321599,
+      "priority": 0,
+      "name": "I Am Jesus Christ",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1198970/header.jpg"
     }
   ]
 }
