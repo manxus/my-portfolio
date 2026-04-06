@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-05T07:06:26.520Z",
+  "fetchedAt": "2026-04-06T07:29:42.800Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775346198
+    "lastLogoff": 1775433441
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2576.4,
+      "playtimeHours": 2593.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -52,7 +52,7 @@
       "releaseDate": "Sep 1, 2021",
       "achievements": {
         "total": 637,
-        "unlocked": 627
+        "unlocked": 628
       }
     },
     {
@@ -8100,6 +8100,21 @@
       "achievements": null
     },
     {
+      "appId": 3069810,
+      "name": "Rocket Rats",
+      "playtimeHours": 5.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3069810/830a536da819ff851e6e448ca2579aab3a64e23e.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3069810/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 32,
+        "unlocked": 32
+      }
+    },
+    {
       "appId": 200210,
       "name": "Realm of the Mad God Exalt",
       "playtimeHours": 5.1,
@@ -9610,6 +9625,21 @@
       "playtimeHours": 2.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2449040/b91192a2bc2494de1717f8ba74f2b8cd1001770d.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2449040/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 15,
+        "unlocked": 15
+      }
+    },
+    {
+      "appId": 4035270,
+      "name": "Space Rock Breaker",
+      "playtimeHours": 2.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4035270/81ffa0b54c543cb8d68f11fcf28154bc07e8fd05.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4035270/header.jpg",
       "genres": [],
       "playerModes": [],
       "hardwareSupport": [],
@@ -57037,7 +57067,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 55,
+        "total": 60,
         "unlocked": 0
       }
     },
@@ -58458,21 +58488,6 @@
       "achievements": null
     },
     {
-      "appId": 3069810,
-      "name": "Rocket Rats",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3069810/830a536da819ff851e6e448ca2579aab3a64e23e.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3069810/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 32,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 3086580,
       "name": "LOST EMBER: Rekindled Edition",
       "playtimeHours": 0,
@@ -58732,21 +58747,6 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
-    },
-    {
-      "appId": 4035270,
-      "name": "Space Rock Breaker",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4035270/81ffa0b54c543cb8d68f11fcf28154bc07e8fd05.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4035270/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 15,
-        "unlocked": 0
-      }
     }
   ],
   "wishlist": [
@@ -65128,6 +65128,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1755100/header.jpg"
     },
     {
+      "appId": 3512480,
+      "dateAdded": 1775384953,
+      "priority": 0,
+      "name": "Drownlight",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3512480/header.jpg"
+    },
+    {
       "appId": 1757350,
       "dateAdded": 1760136424,
       "priority": 0,
@@ -71300,6 +71307,20 @@
       "priority": 0,
       "name": "I Am Jesus Christ",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1198970/header.jpg"
+    },
+    {
+      "appId": 4461640,
+      "dateAdded": 1775426640,
+      "priority": 0,
+      "name": "Profit Sea Incremental",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4461640/header.jpg"
+    },
+    {
+      "appId": 4279630,
+      "dateAdded": 1775426942,
+      "priority": 0,
+      "name": "Friendly Steps",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4279630/header.jpg"
     }
   ]
 }
