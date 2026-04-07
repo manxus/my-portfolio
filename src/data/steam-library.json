@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-06T07:29:42.800Z",
+  "fetchedAt": "2026-04-07T07:15:25.768Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775433441
+    "lastLogoff": 1775515475
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2593.1,
+      "playtimeHours": 2598.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -10919,6 +10919,21 @@
       }
     },
     {
+      "appId": 1582650,
+      "name": "Caravan Sandwitch",
+      "playtimeHours": 1.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1582650/053fb9dca6e32463951282ae0382ec8d5595de19.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1582650/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 26,
+        "unlocked": 7
+      }
+    },
+    {
       "appId": 3803930,
       "name": "Luckyest",
       "playtimeHours": 1.5,
@@ -11511,6 +11526,21 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
+    },
+    {
+      "appId": 562570,
+      "name": "Access Denied",
+      "playtimeHours": 1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/562570/3496d318a759034059aacb8c25d4545a1fb73ce6.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/562570/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 7,
+        "unlocked": 7
+      }
     },
     {
       "appId": 736260,
@@ -36225,21 +36255,6 @@
       }
     },
     {
-      "appId": 562570,
-      "name": "Access Denied",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/562570/3496d318a759034059aacb8c25d4545a1fb73ce6.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/562570/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 7,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 562800,
       "name": "HOUND",
       "playtimeHours": 0,
@@ -54125,21 +54140,6 @@
       }
     },
     {
-      "appId": 1582650,
-      "name": "Caravan Sandwitch",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1582650/053fb9dca6e32463951282ae0382ec8d5595de19.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1582650/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 26,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 1587130,
       "name": "Blood West",
       "playtimeHours": 0,
@@ -71321,6 +71321,13 @@
       "priority": 0,
       "name": "Friendly Steps",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4279630/header.jpg"
+    },
+    {
+      "appId": 3448430,
+      "dateAdded": 1775497797,
+      "priority": 0,
+      "name": "Origament: A Paper Adventure",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3448430/header.jpg"
     }
   ]
 }
