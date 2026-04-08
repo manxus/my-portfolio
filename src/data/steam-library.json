@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-07T07:15:25.768Z",
+  "fetchedAt": "2026-04-08T07:19:15.378Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775515475
+    "lastLogoff": 1775605398
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2598.3,
+      "playtimeHours": 2613.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -1175,7 +1175,10 @@
       ],
       "hardwareSupport": [],
       "releaseDate": "Jan 15, 2015",
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 8190,
@@ -6012,7 +6015,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 348360,
@@ -6072,6 +6078,21 @@
       "achievements": {
         "total": 39,
         "unlocked": 39
+      }
+    },
+    {
+      "appId": 1582650,
+      "name": "Caravan Sandwitch",
+      "playtimeHours": 10.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1582650/053fb9dca6e32463951282ae0382ec8d5595de19.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1582650/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 26,
+        "unlocked": 17
       }
     },
     {
@@ -10361,7 +10382,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 1374290,
@@ -10916,21 +10940,6 @@
       "achievements": {
         "total": 16,
         "unlocked": 16
-      }
-    },
-    {
-      "appId": 1582650,
-      "name": "Caravan Sandwitch",
-      "playtimeHours": 1.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1582650/053fb9dca6e32463951282ae0382ec8d5595de19.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1582650/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 26,
-        "unlocked": 7
       }
     },
     {
@@ -13580,7 +13589,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 1930,
@@ -15098,7 +15110,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 34190,
@@ -20036,7 +20051,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 266510,
@@ -21431,7 +21449,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 286500,
@@ -21557,7 +21578,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 289070,
@@ -22004,7 +22028,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 293940,
@@ -22514,7 +22541,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 302110,
@@ -23126,7 +23156,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 312670,
@@ -23855,7 +23888,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 323720,
@@ -24998,7 +25034,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 341310,
@@ -25397,7 +25436,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 347290,
@@ -26120,7 +26162,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 359100,
@@ -26573,7 +26618,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 364360,
@@ -27551,7 +27599,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 382140,
@@ -27845,7 +27896,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 384930,
@@ -28283,7 +28337,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 391660,
@@ -28340,7 +28397,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 392070,
@@ -28427,7 +28487,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 393420,
@@ -28439,7 +28502,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 393430,
@@ -29282,7 +29348,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 407560,
@@ -30404,7 +30473,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 428550,
@@ -32349,7 +32421,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 463220,
@@ -33612,7 +33687,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 493900,
@@ -35511,7 +35589,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 538070,
@@ -36819,7 +36900,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 583270,
@@ -40893,7 +40977,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 746940,
@@ -42228,6 +42315,28 @@
       }
     },
     {
+      "appId": 809060,
+      "name": "REVEIL",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/809060/23776675e7d079f44a5be3db0d4d65b50ec8ddbe.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/809060/header.jpg",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Mar 6, 2024",
+      "achievements": {
+        "total": 26,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 809890,
       "name": "Shining Resonance Refrain",
       "playtimeHours": 0,
@@ -42663,7 +42772,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 834530,
@@ -43482,7 +43594,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 887060,
@@ -43578,7 +43693,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 893180,
@@ -52666,6 +52784,32 @@
       }
     },
     {
+      "appId": 1442530,
+      "name": "Outbreak Island",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1442530/c39b86c16ba32b0eb76f15ffc9e3177484076be5.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1442530/header.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Early Access"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Oct 28, 2025",
+      "achievements": {
+        "total": 13,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1442840,
       "name": "DIG - Deep In Galaxies",
       "playtimeHours": 0,
@@ -53177,6 +53321,25 @@
       }
     },
     {
+      "appId": 1489680,
+      "name": "Pixross",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1489680/aadbf60a0c7bbe23899b47b902439354f4f860a7.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1489680/header.jpg",
+      "genres": [
+        "Casual"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Dec 15, 2020",
+      "achievements": {
+        "total": 8,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1491490,
       "name": "Cosmonious High",
       "playtimeHours": 0,
@@ -53203,6 +53366,26 @@
       "releaseDate": null,
       "achievements": {
         "total": 15,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1491720,
+      "name": "Frick, Inc.",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1491720/cbb5defdd591d4e8b3cbdf0ac3a484f74eeca2c1.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1491720/header.jpg",
+      "genres": [
+        "Casual",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Dec 18, 2020",
+      "achievements": {
+        "total": 5,
         "unlocked": 0
       }
     },
@@ -56805,6 +56988,35 @@
       }
     },
     {
+      "appId": 2058140,
+      "name": "Henry Halfhead",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2058140/6985e662248d2b7d3b9aa3aca21b73f7b8becb1b.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2058140/header.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Shared/Split Screen Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Sep 16, 2025",
+      "achievements": {
+        "total": 30,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2059660,
       "name": "Cavern of Dreams",
       "playtimeHours": 0,
@@ -58572,6 +58784,28 @@
       }
     },
     {
+      "appId": 3219410,
+      "name": "The Trolley Solution",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3219410/c4432e9d75cb153cd11853fc6b00db09bdffcd93.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3219410/header.jpg",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Sep 12, 2025",
+      "achievements": {
+        "total": 13,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 3240220,
       "name": "Grand Theft Auto V Enhanced",
       "playtimeHours": 0,
@@ -58722,6 +58956,29 @@
       "achievements": null
     },
     {
+      "appId": 3565100,
+      "name": "Unboxathon",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3565100/32e39b1e687c320bd1c0f6519a5518f1471d6bcc.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3565100/header.jpg",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "Dec 8, 2025",
+      "achievements": {
+        "total": 35,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 3717340,
       "name": "Yakuza Kiwami 2",
       "playtimeHours": 0,
@@ -58747,6 +59004,49 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
+    },
+    {
+      "appId": 3839300,
+      "name": "Dogpile",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3839300/9a27852c03571afabe5ea87db682a8ba505b98a3.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3839300/header.jpg",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Dec 10, 2025",
+      "achievements": {
+        "total": 19,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 4038320,
+      "name": "This Ain’t Even Poker, Ya Joker",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4038320/ae2cfbb6d918c0d60e6ea43233bb9be6dbe019e5.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4038320/header.jpg",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Dec 11, 2025",
+      "achievements": {
+        "total": 12,
+        "unlocked": 0
+      }
     }
   ],
   "wishlist": [
@@ -63504,13 +63804,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1436590/header.jpg"
     },
     {
-      "appId": 1442530,
-      "dateAdded": 1629382004,
-      "priority": 0,
-      "name": "Outbreak Island",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1442530/header.jpg"
-    },
-    {
       "appId": 1444020,
       "dateAdded": 1621621191,
       "priority": 0,
@@ -66085,13 +66378,6 @@
       "priority": 0,
       "name": "Dragon's Dogma 2",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/header.jpg"
-    },
-    {
-      "appId": 2058140,
-      "dateAdded": 1757375670,
-      "priority": 0,
-      "name": "Henry Halfhead",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2058140/header.jpg"
     },
     {
       "appId": 2059170,
@@ -69321,13 +69607,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3218630/header.jpg"
     },
     {
-      "appId": 3219410,
-      "dateAdded": 1749410869,
-      "priority": 0,
-      "name": "The Trolley Solution",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3219410/header.jpg"
-    },
-    {
       "appId": 3228580,
       "dateAdded": 1769376122,
       "priority": 0,
@@ -70014,13 +70293,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3564490/header.jpg"
     },
     {
-      "appId": 3565100,
-      "dateAdded": 1764428927,
-      "priority": 0,
-      "name": "Unboxathon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3565100/header.jpg"
-    },
-    {
       "appId": 3566720,
       "dateAdded": 1749484718,
       "priority": 0,
@@ -70553,13 +70825,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/header.jpg"
     },
     {
-      "appId": 3839300,
-      "dateAdded": 1765984882,
-      "priority": 0,
-      "name": "Dogpile",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3839300/header.jpg"
-    },
-    {
       "appId": 3842880,
       "dateAdded": 1771873194,
       "priority": 0,
@@ -70894,13 +71159,6 @@
       "priority": 0,
       "name": "Xenosensory",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4037830/header.jpg"
-    },
-    {
-      "appId": 4038320,
-      "dateAdded": 1763099965,
-      "priority": 0,
-      "name": "This Ain’t Even Poker, Ya Joker",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4038320/header.jpg"
     },
     {
       "appId": 4045540,
