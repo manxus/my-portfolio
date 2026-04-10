@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-09T07:22:54.883Z",
+  "fetchedAt": "2026-04-10T07:26:52.990Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775696338
+    "lastLogoff": 1775782437
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2624.6,
+      "playtimeHours": 2630.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
       "genres": [
@@ -6508,7 +6508,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 92,
+        "total": 102,
         "unlocked": 0
       }
     },
@@ -7956,6 +7956,27 @@
       "achievements": {
         "total": 13,
         "unlocked": 13
+      }
+    },
+    {
+      "appId": 4038320,
+      "name": "This Ain’t Even Poker, Ya Joker",
+      "playtimeHours": 5.3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4038320/ae2cfbb6d918c0d60e6ea43233bb9be6dbe019e5.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4038320/header.jpg",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Dec 11, 2025",
+      "achievements": {
+        "total": 12,
+        "unlocked": 12
       }
     },
     {
@@ -9408,6 +9429,21 @@
       "achievements": {
         "total": 7,
         "unlocked": 7
+      }
+    },
+    {
+      "appId": 2294130,
+      "name": "Goobies",
+      "playtimeHours": 3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 43,
+        "unlocked": 4
       }
     },
     {
@@ -53307,7 +53343,7 @@
         "Online PvP"
       ],
       "hardwareSupport": [],
-      "releaseDate": "Apr 24, 2025",
+      "releaseDate": "24 Apr, 2025",
       "achievements": {
         "total": 98,
         "unlocked": 0
@@ -57856,21 +57892,6 @@
       }
     },
     {
-      "appId": 2294130,
-      "name": "Goobies",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 43,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 2296380,
       "name": "I Expect You To Die 3",
       "playtimeHours": 0,
@@ -59024,27 +59045,6 @@
       "releaseDate": "Dec 10, 2025",
       "achievements": {
         "total": 19,
-        "unlocked": 0
-      }
-    },
-    {
-      "appId": 4038320,
-      "name": "This Ain’t Even Poker, Ya Joker",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4038320/ae2cfbb6d918c0d60e6ea43233bb9be6dbe019e5.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4038320/header.jpg",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Dec 11, 2025",
-      "achievements": {
-        "total": 12,
         "unlocked": 0
       }
     }
@@ -71593,6 +71593,55 @@
       "priority": 0,
       "name": "Pupple Pop",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4224500/header.jpg"
+    },
+    {
+      "appId": 3667390,
+      "dateAdded": 1775760194,
+      "priority": 0,
+      "name": "Black Hole Fishing",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3667390/header.jpg"
+    },
+    {
+      "appId": 3565090,
+      "dateAdded": 1775774804,
+      "priority": 0,
+      "name": "Goobies 2",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3565090/header.jpg"
+    },
+    {
+      "appId": 4533950,
+      "dateAdded": 1775777618,
+      "priority": 0,
+      "name": "App 4533950",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4533950/header.jpg"
+    },
+    {
+      "appId": 4108000,
+      "dateAdded": 1775777719,
+      "priority": 0,
+      "name": "App 4108000",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4108000/header.jpg"
+    },
+    {
+      "appId": 3341000,
+      "dateAdded": 1775777750,
+      "priority": 0,
+      "name": "Thick As Thieves",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3341000/header.jpg"
+    },
+    {
+      "appId": 4358690,
+      "dateAdded": 1775777758,
+      "priority": 0,
+      "name": "App 4358690",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4358690/header.jpg"
+    },
+    {
+      "appId": 4182190,
+      "dateAdded": 1775777778,
+      "priority": 0,
+      "name": "App 4182190",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4182190/header.jpg"
     }
   ]
 }
