@@ -1,0 +1,44 @@
+/* Base box — size comes from parent (e.g. review thumb) unless .fill is added. */
+.root {
+  position: relative;
+  background: var(--bg-secondary);
+  overflow: hidden;
+}
+
+/* Wishlist cards + library tiles: parent defines a frame; child must stretch to fill it. */
+.fill {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  text-align: center;
+  background: var(--bg-secondary);
+}
+
+.placeholderTitle {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  line-height: 1.35;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

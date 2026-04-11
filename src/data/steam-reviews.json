@@ -50,6 +50,276 @@
         "Lack of visuals from upgrades",
         "No prestige system"
       ]
+    },
+    {
+      "appId": 1582650,
+      "rating": 8,
+      "title": "A Relaxing and Rewarding Exploration Journey",
+      "text": "Caravan SandWitch is a really enjoyable exploration-focused game with a relaxing atmosphere.\n\nDriving around in the van feels great, and I liked how it’s not just used for transportation but also as a tool to interact with the world. The game encourages exploration by letting you revisit areas as you unlock new mechanics that open up new paths and sections.\n\nProgression kept me engaged the whole way through. Between resource gathering, daily missions, exploration, and story elements, there was always something to work towards. The game also does a great job guiding you with logs, markers, and clear visual and sound cues.\n\nVisually, the game is beautiful and has a very calming atmosphere that fits the experience perfectly.\n\nThe story was interesting and well integrated into the exploration, which made everything feel more meaningful.\n\nThe length and pacing felt just right, it never felt too long or too short.\n\nI did run into a couple of minor issues where I couldn’t interact with objects or continue dialogue and had to reload. There’s also a small frustration where if your van gets stuck, you can’t interact with anything due to overlapping keybinds, forcing you to return to the garage.\n\nOverall, a very solid and relaxing experience that I would definitely recommend.",
+      "date": "2026-04-11",
+      "recommended": true,
+      "pros": [
+        "Van mechanics feel meaningful and well integrated",
+        "Clear progression and strong player guidance",
+        "Interesting story tied well to exploration",
+        "Beautiful and relaxing art style"
+      ],
+      "cons": [
+        "Occasional interaction/dialogue issues",
+        "Awkward keybind conflict when van gets stuck"
+      ]
+    },
+    {
+      "appId": 2000950,
+      "rating": 9,
+      "title": "Realistic, Cinematic, and Memorable Campaign",
+      "text": "If you're looking for a cinematic and immersive FPS campaign, Call of Duty: Modern Warfare delivers.\n\nGunplay feels very satisfying and realistic, with a wide variety of weapons and attachments. Movement is solid overall, although the sliding mechanic feels a bit out of place, breaking the realistic feeling but not by much.\n\nMission variety is one of the game’s strongest aspects. There’s a great mix of environments and playstyles, with standout moments like stealth missions, house raids, and sniper sequences. The pacing between slower, tense moments and full combat works really well.\n\nOn higher difficulties, the AI can feel a bit unfair at times, but it pushes you to adapt and play more carefully.\n\nSound design is excellent and adds a lot to the immersion. Everything from gunfire to environmental audio feels impactful.\n\nThe story is engaging and benefits from multiple perspectives. It also tackles more serious and morally complex themes, showing that modern warfare isn’t always clear-cut.\n\nVisually, the game looks fantastic with detailed environments and strong presentation.\n\nThe campaign length is solid, though it could have been a bit longer.\n\nOverall I highly recommend it and if you plan to only play through the campaign I would wait for it to go on sale.",
+      "date": "2026-04-09",
+      "recommended": true,
+      "pros": [
+        "Excellent mission variety",
+        "Satisfying and realistic gunplay",
+        "Engaging story with multiple perspectives",
+        "Stunning visuals"
+      ],
+      "cons": [
+        "Sliding mechanic feels out of place",
+        "AI can feel unfair on higher difficulty"
+      ]
+    },
+    {
+      "appId": 3565100,
+      "gameName": "Unboxathon",
+      "rating": 6,
+      "title": "Satisfying Core Loop Held Back by Repetition",
+      "text": "Unboxathon is built around a simple idea to opening boxes and to its credit, it actually feels pretty satisfying at first.\n\nThe core loop is straightforward: open boxes, buy upgrades, and interact with small side mechanics like popping bubbles to earn more boxes. It works well early on and has a nice, satisfying flow, but it becomes repetitive over time.\n\nThere’s very little variety in the gameplay. Higher-tier boxes mostly just add extra straps to cut, and other mechanics feel like slight variations of the same idea rather than something new. It adds to the satisfaction a bit, but not enough to keep things feeling fresh.\n\nVisually, the game looks good. The cute art style fits perfectly and helps make the experience more enjoyable. However the UI and menus could use some work, some features feel easy to forget about because they’re not presented clearly enough.\n\nThe length feels about right for what the game offers. Since it can get repetitive, it’s a good thing it doesn’t drag on too long.\n\nOverall, a solid core concept that just needs more variety and depth. I’d recommend picking it up on sale rather than at full price.",
+      "date": "2026-04-09",
+      "recommended": true,
+      "pros": [
+        "Satisfying core gameplay loop",
+        "Cute and fitting art style",
+        "Simple and easy to get into"
+      ],
+      "cons": [
+        "Very little gameplay variety",
+        "Repetitive over time",
+        "UI and features lack clarity"
+      ]
+    },
+    {
+      "appId": 562570,
+      "gameName": "",
+      "rating": 4,
+      "title": "Simple Concept, Weak Puzzle Design",
+      "text": "Access Denied is a short puzzle game where you solve 36 different mechanical boxes.\n\nAt first it’s pretty engaging, but it quickly starts to feel repetitive since many of the puzzles reuse similar ideas. The bigger issue though is the puzzle design itself. Most puzzles are either very easy or just confusing, without hitting that satisfying middle ground where solving them feels rewarding.\n\nVisually, the game is clean and simple, which works well for this type of game. Unfortunately the sound design doesn’t hold up, audio feels a bit low quality and doesn’t add much to the experience.\n\nThe game is also very short. I finished it in under an hour, and combined with the lack of variety, it makes the experience feel quite limited.\n\nOverall, it has a decent concept, but the execution falls short. I wouldn’t recommend it.",
+      "date": "2026-04-06",
+      "recommended": false,
+      "pros": [
+        "Clean and simple visuals",
+        "Easy to pick up and understand"
+      ],
+      "cons": [
+        "Poor puzzle design",
+        "Repetitive puzzles with reused ideas",
+        "Very short"
+      ]
+    },
+    {
+      "appId": 4035270,
+      "gameName": "",
+      "rating": 8,
+      "title": "Short, Addictive, and Surprisingly Polished Incremental Fun",
+      "text": "Space Rock Breaker is a really satisfying incremental game with a strong gameplay loop.\n\nYou spend most of your time flying around in a spaceship breaking rocks to collect ore, while also managing resources through a plinko-style system, opening loot boxes, and upgrading your ship. The game constantly feeds progression, which makes it fun the entire time.\n\nUpgrades feel meaningful and well balanced, and you can clearly feel your power increasing. There is a prestige system, but it felt a bit unnecessary since I was able to finish the game without really needing to use it more than once.\n\nThe visuals have a nice old-school CRT style that fits the game well and keeps everything looking clean.\n\nThe game is quite short, and there isn’t much reason to keep playing after beating it, but it doesn’t overstay its welcome.\n\nOverall, a well-made incremental game that I’d recommend if you enjoy this type of experience.",
+      "date": "2026-04-06",
+      "recommended": true,
+      "pros": [
+        "Addictive and satisfying gameplay loop",
+        "Meaningful and noticeable upgrades",
+        "Constant sense of progression",
+        "Clean and fitting CRT visual style"
+      ],
+      "cons": [
+        "Very short experience",
+        "Prestige system feels unnecessary"
+      ]
+    },
+    {
+      "appId": 3069810,
+      "gameName": "",
+      "rating": 6,
+      "title": "Fun at First, But Quickly Turns Into Idle Chaos",
+      "text": "Rocket Rats is a fun survivor-like game that starts strong but becomes repetitive fairly quickly.\n\nAt the beginning, the gameplay feels engaging and rewarding. There’s a good variety of weapons, abilities, and characters, each with their own skill trees, which makes experimenting with builds enjoyable.\n\nHowever, once you get stronger and figure out the optimal upgrades, the game shifts into a much more passive experience. It often feels like you’re just standing still, picking upgrades, and watching enemies die, which takes away from the initial excitement.\n\nThe art style is a highlight. The cute and polished pixel visuals fit the game really well and give it a nice charm.\n\nOne thing that didn’t fully work for me was the very small play area combined with quite intense screen shake, which can feel a bit overwhelming during gameplay.\n\nThe game is fairly short if you’re not going for 100%, but there is some replay value if you enjoy trying different builds.\n\nOn the positive side, the experience was very smooth overall. I didn’t encounter any bugs or technical issues during my playthrough.\n\nIf you enjoy survivor-like games, this is worth checking out but I’d recommend waiting for a sale rather than paying full price.",
+      "date": "2026-04-05",
+      "recommended": true,
+      "pros": [
+        "Fun and engaging early gameplay",
+        "Good variety of weapons, abilities, and characters",
+        "Skill trees allow for different builds",
+        "Cute and polished pixel art style"
+      ],
+      "cons": [
+        "Becomes repetitive quickly",
+        "Gameplay turns passive in late game",
+        "Very small play area"
+      ]
+    },
+    {
+      "appId": 1570010,
+      "gameName": "",
+      "rating": 6,
+      "title": "A Slower, Less Impactful Follow-Up",
+      "text": "It didn’t leave a great first impression. I actually ended up enjoying it more on a second playthrough while going for achievements, which isn’t the best sign. If I wasn’t committed to finishing it, I probably wouldn’t have played as much.\n\nControlling the ship and submarine feels smooth, and managing the different systems can be engaging. That said, moving around inside the ship can be awkward, and I found myself falling between levels or missing jumps more than I expected.\n\nThe biggest issue for me is the pacing. There are long sailing sections where you don’t really have to do anything, and those moments felt more slow than relaxing.\n\nThe puzzles are a mix of simple and interesting ideas, and they fit well into the world, but I felt like there were too few of them.\n\nAtmosphere is still strong. The world feels immersive and the sound design does a good job supporting it. Visually it’s more colorful than the first game, but somehow felt a bit less polished.\n\nI also ran into some minor issues like animation problems and invisible platforms after moving objects.\n\nOverall, it’s not a bad game, but compared to FAR: Lone Sails it feels like a downgrade in pacing and overall experience.",
+      "date": "2026-04-03",
+      "recommended": true,
+      "pros": [
+        "Smooth ship and submarine controls",
+        "Engaging system management mechanics",
+        "Strong atmosphere and immersion"
+      ],
+      "cons": [
+        "Slow pacing with long uneventful sections",
+        "Too few puzzles overall",
+        "Awkward movement inside the ship",
+        "Slightly less polished visuals"
+      ]
+    },
+    {
+      "appId": 1390250,
+      "gameName": "Webbed",
+      "rating": 8,
+      "title": "Charming, Creative, and Surprisingly Clever",
+      "text": "Webbed is a really fun and charming game.\n\nThe web swinging feels satisfying right away, but the web-building mechanic can be a bit frustrating at the start until you get used to it. Once it clicks though, it becomes a big part of what makes the game enjoyable, especially when solving puzzles.\n\nThe puzzles are creative and each area of the map introduces different ideas, which keeps things interesting throughout the game.\n\nThe pixel art looks great and the animations give the game a lot of charm. Overall it has a very cute style that fits the experience perfectly.\n\nThe length felt just right for me. I went for 100% completion and the collectibles were fun to get. The map clearly shows which areas still have collectibles left, which makes it much easier to clean up without it feeling tedious.\n\nOverall, if you like platformers with creative mechanics and a charming style, this is definitely worth playing.",
+      "date": "2026-03-20",
+      "recommended": true,
+      "pros": [
+        "Satisfying web swinging mechanics",
+        "Creative and evolving puzzles",
+        "Beautiful pixel art and animations",
+        "Well-designed collectible system"
+      ],
+      "cons": [
+        "Web-building mechanic can feel frustrating at first",
+        "Slight learning curve before mechanics fully click"
+      ]
+    },
+    {
+      "appId": 2658470,
+      "gameName": "",
+      "rating": 8,
+      "title": "A Clever Hidden Gem with a Unique Twist",
+      "text": "Is This Game Trying to Kill Me? is a really unique puzzle game and honestly feels like a hidden gem.\n\nThe main mechanic revolves around a game-within-a-game concept where you interact with both the cabin environment and a retro-style game running inside it. The way these two layers connect is very well executed and makes the puzzles feel creative and different from most puzzle games.\n\nThe puzzles themselves were great. They’re clever, varied, and fun to solve. The logic behind them always felt fair, and I never had to rely on random trial and error to progress.\n\nThe game has some horror vibes and elements, but it’s much more puzzle-focused than scary, which I personally liked.\n\nI also enjoyed the contrast between the visual styles. The cabin setting combined with the retro game aesthetic works really well and helps sell the whole concept.\n\nTechnically the game ran very smoothly for me and I didn’t encounter any bugs or issues during my playthrough.\n\nOverall, if you enjoy puzzle games with clever mechanics and fair puzzle design, this one is definitely worth playing.",
+      "date": "2026-03-15",
+      "recommended": true,
+      "pros": [
+        "Very creative game-within-a-game mechanic",
+        "Clever, varied, and fair puzzles",
+        "Strong overall concept and execution",
+        "Nice balance between puzzles and light horror elements",
+        "Distinct and effective visual contrast"
+      ],
+      "cons": [
+        "May be too light on horror for players expecting a scary experience"
+      ]
+    },
+    {
+      "appId": 1975440,
+      "gameName": "",
+      "rating": 7,
+      "title": "A Calm but Slightly Repetitive Dive into a Strong Story",
+      "text": "I finished Under the Waves and I had a good experience with it.\n\nThe game recommends playing with a controller, but I used keyboard and mouse. Movement felt mostly fine for me. It can feel a little clunky from time to time, but it wasn’t a major issue.\n\nExploration works well for the type of game this is. Since the focus is on story and atmosphere, moving through the underwater environments feels relaxing and fits the tone of the game nicely.\n\nThe gameplay loop involves exploring, gathering resources, crafting, and maintaining equipment. Because the game isn’t very long, the loop stays fairly engaging. That said, I felt there was slightly too much gathering and crafting. I ended up collecting a lot of resources that I rarely needed to use, so sometimes it felt like filler just to give the player something to do between story sections. This also meant getting in and out of the submarine quite often, which became a bit repetitive.\n\nThe story itself is very good. It’s emotional and impactful, and it’s clearly the main focus of the experience.\n\nThe atmosphere is another highlight. The sound design, ocean environments, and overall feeling of isolation are very well done. The map size feels appropriate, and there are some nice touches like cinematic camera shots, the ability to toggle the HUD for immersion, and small interaction details. The marine life also adds a lot to the world.\n\nThe only technical issue I ran into was with animations occasionally being slightly off or not fully synced with the interaction happening on screen. It didn’t break anything, but it was noticeable a few times.\n\nOverall, Under the Waves is a strong narrative and atmospheric experience. If you enjoy slower-paced story-driven games with exploration, it’s definitely worth playing.",
+      "date": "2026-03-14",
+      "recommended": true,
+      "pros": [
+        "Strong, emotional story",
+        "Excellent atmosphere and sound design",
+        "Relaxing and immersive exploration",
+        "Good environmental details and presentation"
+      ],
+      "cons": [
+        "Too much gathering/crafting at times",
+        "Some repetitive gameplay elements",
+        "Movement can feel slightly clunky"
+      ]
+    },
+    {
+      "appId": 1587570,
+      "gameName": "",
+      "rating": 7,
+      "title": "A Short, Charming, and Silly Stretchy Adventure",
+      "text": "Completely Stretchy is a fun and silly little game.\n\nThe stretchy arm mechanic feels great once you get used to it. It takes a bit of practice at first, but the movement becomes very smooth once you understand how to use the momentum while swinging around the environment.\n\nThe puzzles and quests are generally simple but they’re varied enough that the game rarely feels repetitive.\n\nExploring the three islands was enjoyable. Each one has a different theme, city, industrial, and nature and the world never really felt empty. There are always strange characters around doing random things, which adds a lot of charm.\n\nI liked the colorful cartoon style overall, although some areas felt a little bland because of the heavy use of solid colors and minimal textures.\n\nThe length felt right for this kind of game. It’s short but doesn’t feel rushed. Going for all achievements was mostly enjoyable, although the collectible cleanup near the end became a bit tedious.\n\nI did encounter a few bugs during my playthrough. Some achievements didn’t trigger properly, and I got stuck in the environment a few times. Reloading the save fixed those situations, but one achievement bug required starting a new save to complete it. Luckily it could be completed at the beginning of the game.\n\nOverall it’s a short, charming, and slightly weird experience. If you want to try something different and lighthearted, it’s definitely worth checking out.",
+      "date": "2026-03-10",
+      "recommended": true,
+      "pros": [
+        "Fun and unique stretchy arm movement",
+        "Smooth and satisfying traversal",
+        "Varied puzzles and quests that avoid repetition",
+        "Charming world with quirky characters",
+        "Colorful and playful art style"
+      ],
+      "cons": [
+        "Stretchy mechanics take time to get used to",
+        "Some environments feel visually bland",
+        "Collectible cleanup becomes tedious toward the end"
+      ]
+    },
+    {
+      "appId": 204450,
+      "gameName": "",
+      "rating": 8,
+      "title": "A Stylish Western Shooter That Hits More Than It Misses",
+      "text": "Call of Juarez: Gunslinger was a really enjoyable experience.\n\nThe gunplay feels clean and satisfying. Combat is fast and arcade-like, which fits the game well. The only gameplay issue I noticed was that occasionally when aiming directly at an enemy and shooting, the hit wouldn’t register. It didn’t happen constantly, but it was noticeable when it did.\n\nThe duel mechanic was a highlight. It takes a bit of practice to understand how it works, but once it clicks it becomes very fun. The game also adds new elements to duels later in the story, like dodging and switching targets, which keeps them interesting. I did encounter a small bug a couple of times where the duel animation delayed, I heard the gunshot and died before the character even reached for his gun. Reloading the checkpoint fixed it.\n\nThe skill tree is decent. Some skills noticeably improve gameplay while others are smaller upgrades, but that works fine for the type of shooter this is.\n\nI usually don’t prioritize story in games, but the way it’s presented here is very entertaining. The whole game is Silas Greene telling his story in a saloon, and the world literally changes as he corrects or exaggerates parts of the story. That mechanic alone makes the game stand out.\n\nThe art style also holds up well. The comic-book look gives it a bit of a cel-shaded feel similar to Borderlands, and it still looks good today. The cinematic moments where the action freezes into comic-book style panels are a nice touch too and reinforce the game’s identity.\n\nDifficulty scaling felt fair overall. Higher difficulties were challenging but manageable. The only downside is that the hardest difficulty is locked until you beat the previous one, which I’m personally not a fan of.\n\nThe campaign itself is fairly short, but if you’re going for achievements or 100% completion there’s still a decent amount of content. The arcade and duels mode add some extra challenges.\n\nOverall, a very fun and stylish western shooter that doesn’t overstay its welcome.",
+      "date": "2026-03-06",
+      "recommended": true,
+      "pros": [
+        "Clean, satisfying and fast-paced gunplay",
+        "Unique and entertaining storytelling presentation",
+        "Duel mechanic is fun and evolves throughout the game",
+        "Strong art style that still holds up"
+      ],
+      "cons": [
+        "Occasional hit registration issues",
+        "Some skills feel less impactful than others"
+      ]
+    },
+    {
+      "appId": 1049410,
+      "gameName": "",
+      "rating": 8,
+      "title": "Creative, Clever, and Worth Experiencing",
+      "text": "Hello, my name is Dr. Glenn Pierce.\n\nI really enjoyed Superliminal.\n\nThe perspective-based resizing mechanic is the highlight. It’s simple to understand but clever in execution. The game doesn’t over-explain anything, you pick up an object in the first room, experiment for a few seconds, and immediately understand how it works.\n\nThe puzzles aren’t extremely difficult, but they make you think just enough. For me, the difficulty scaled properly and the solutions felt intuitive. I rarely felt stuck because of unclear logic.\n\nIt’s also short and focused, which I personally see as a positive. The only real downside is that it might feel slightly overpriced for the length. That said, there are community-made levels if you want more content.\n\nI enjoyed the narrative tone as well. It gave off strong Stanley Parable vibes with its calm, slightly surreal presentation.\n\nReplayability was surprisingly solid too. I had a lot of fun going for all achievements and learning speedrun strategies. The mechanics hold up well when you start optimizing movement and puzzle execution.\n\nOverall, if you like creative puzzle games with a unique core mechanic and a focused runtime, this is definitely worth playing.",
+      "date": "2026-03-01",
+      "recommended": true,
+      "pros": [
+        "Unique and satisfying perspective-based mechanic",
+        "Intuitive puzzle design with good difficulty balance",
+        "Strong atmosphere and narration",
+        "Short and well-paced experience"
+      ],
+      "cons": [
+        "Short length may not justify the price for everyone",
+        "Puzzles might be too easy for hardcore puzzle players"
+      ]
+    },
+    {
+      "appId": 50300,
+      "gameName": "Spec Ops: The Line",
+      "rating": 6,
+      "title": "Great Story, Frustrating Gameplay",
+      "text": "Spec Ops: The Line is praised heavily for its story, and I agree that the narrative is the strongest part of the game. It’s uncomfortable, memorable, and clearly the focus.\n\nBut for me, gameplay matters more than narrative and that’s where the experience fell apart.\n\nIf you just want to experience the story, play on Easy or Normal. You’ll probably have a much better time.\n\nI played on higher difficulties because I enjoy a challenge and wanted to 100% the game. The hardest difficulty is locked until you beat the game on the second hardest, which already felt unnecessary. If I want to start on the hardest mode, let me.\n\nAnd every time you boot the game it checks for updates before even entering the campaign, that could easily be triggered when entering multiplayer instead.\n\nOn higher difficulty the problems become very noticeable:\n\n- The game constantly asks if you want to lower the difficulty after repeated deaths.\n- Some checkpoints are placed before cutscenes, forcing you to rewatch them after dying (not all are skippable).\n- The camera can be blocked by the environment, and sometimes your own character gets in the way of your aim.\n- Sprinting lowers turning sensitivity so much that quick adjustments are difficult and also sprinting isn’t always available.\n- The gameplay itself is a very standard cover-based shooter.\n- The AI on higher difficulty feels unfair rather than challenging — snapping to your position, extremely accurate, high damage, constant suppression, limited ammo, while your own accuracy and movement feel restricted.\n\nThe result is frustration instead of tension.\n\nI understand why people praise the story. I just don’t think the mechanics justify a 92% positive rating, especially if you value gameplay over narrative.\n\nIf story is your priority, you may love it.\nIf mechanics and difficulty design matter more to you, your experience might differ.",
+      "date": "2026-02-27",
+      "recommended": false,
+      "pros": [
+        "Excellent, memorable narrative",
+        "Unique tone and themes",
+        "Strong emotional impact"
+      ],
+      "cons": [
+        "Generic cover-based shooting",
+        "Frustrating difficulty design",
+        "Unfair AI on higher settings",
+        "Poor checkpoint placement",
+        "Camera and movement issues"
+      ]
     }
   ]
 }

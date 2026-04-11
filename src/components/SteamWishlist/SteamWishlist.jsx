@@ -1,22 +1,8 @@
 import { useState, useMemo } from 'react';
+import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import styles from './SteamWishlist.module.css';
 
-function libraryCapsuleUrl(appId) {
-  return `https://cdn.cloudflare.steamstatic.com/steam/apps/${appId}/library_600x900.jpg`;
-}
-
 function WishlistCard({ item }) {
-  const [phase, setPhase] = useState('library');
-
-  const handleImgError = () => {
-    setPhase((p) => {
-      if (p === 'library') return item.headerUrl ? 'header' : 'none';
-      return 'none';
-    });
-  };
-
-  const showImage = phase === 'library' || (phase === 'header' && Boolean(item.headerUrl));
-
   return (
     <a
       href={`https://store.steampowered.com/app/${item.appId}`}
@@ -25,22 +11,12 @@ function WishlistCard({ item }) {
       className={styles.card}
       aria-label={item.name}
     >
-      <div className={styles.cardInner}>
-        {showImage && (
-          <img
-            src={phase === 'library' ? libraryCapsuleUrl(item.appId) : item.headerUrl}
-            alt=""
-            className={styles.image}
-            loading="lazy"
-            onError={handleImgError}
-          />
-        )}
-        {!showImage && (
-          <div className={styles.placeholder}>
-            <span className={styles.placeholderTitle}>{item.name}</span>
-          </div>
-        )}
-      </div>
+      <SteamGameCover
+        fill
+        appId={item.appId}
+        title={item.name}
+        headerUrl={item.headerUrl}
+      />
     </a>
   );
 }

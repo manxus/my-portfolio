@@ -115,7 +115,11 @@ function FieldInput({ field, value, onChange, formData }) {
             <button
               type="button"
               className={styles.removeBtn}
-              onClick={() => onChange(items.filter((_, j) => j !== i))}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                onChange(items.filter((_, j) => j !== i));
+              }}
             >
               &times;
             </button>
@@ -147,13 +151,17 @@ function FieldInput({ field, value, onChange, formData }) {
               <button
                 type="button"
                 className={styles.removeBtn}
-                onClick={() => onChange(items.filter((_, j) => j !== i))}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  onChange(items.filter((_, j) => j !== i));
+                }}
               >
                 &times;
               </button>
             </div>
             {subSchema.map((subField) => (
-              <label key={subField.key} className={styles.label}>
+              <div key={subField.key} className={styles.label}>
                 <span className={styles.labelText}>
                   {subField.label}
                   {subField.required && <span className={styles.required}>*</span>}
@@ -168,7 +176,7 @@ function FieldInput({ field, value, onChange, formData }) {
                   }}
                   formData={formData}
                 />
-              </label>
+              </div>
             ))}
           </div>
         ))}
@@ -292,7 +300,7 @@ export default function ContentEditor({
 
         <div className={styles.fields}>
           {isPrimitive ? (
-            <label className={styles.label}>
+            <div className={styles.label}>
               <span className={styles.labelText}>{schema[0].label}</span>
               <FieldInput
                 field={schema[0]}
@@ -300,10 +308,10 @@ export default function ContentEditor({
                 onChange={(v) => handleChange('_value', v)}
                 formData={formData}
               />
-            </label>
+            </div>
           ) : (
             schema.map((field) => (
-              <label key={field.key} className={styles.label}>
+              <div key={field.key} className={styles.label}>
                 <span className={styles.labelText}>
                   {field.label}
                   {field.required && <span className={styles.required}>*</span>}
@@ -314,7 +322,7 @@ export default function ContentEditor({
                   onChange={(v) => handleChange(field.key, v)}
                   formData={formData}
                 />
-              </label>
+              </div>
             ))
           )}
         </div>

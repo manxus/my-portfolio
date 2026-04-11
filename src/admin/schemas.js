@@ -54,10 +54,6 @@ export const schemas = {
     { key: 'issuer', label: 'Issuer', type: 'text', required: true },
     { key: 'year', label: 'Year', type: 'text', required: true },
   ],
-  'qaPortfolio.skills': [
-    { key: 'category', label: 'Category', type: 'text', required: true },
-    { key: 'items', label: 'Skills', type: 'list' },
-  ],
 
   'resume.personalInfo': [
     { key: 'name', label: 'Name', type: 'text', required: true },
@@ -94,6 +90,11 @@ export const schemas = {
 
   'steam-reviews.reviews': [
     { key: 'appId', label: 'Steam App ID', type: 'number', required: true },
+    {
+      key: 'gameName',
+      label: 'Game name (if not in your library JSON)',
+      type: 'text',
+    },
     { key: 'rating', label: 'Rating (1-10)', type: 'number', required: true },
     { key: 'title', label: 'Review Title', type: 'text', required: true },
     { key: 'text', label: 'Review Text', type: 'textarea', required: true },

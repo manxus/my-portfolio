@@ -3,7 +3,7 @@ import qaPortfolioData from '../data/qaPortfolio.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
 import styles from './QAPortfolio.module.css';
 
-const { education, experience, playtests, certificates, skills } = qaPortfolioData;
+const { education, experience, playtests } = qaPortfolioData;
 
 const stagger = {
   hidden: {},
@@ -98,54 +98,6 @@ export default function QAPortfolio() {
                 <p className={styles.playtestMeta}>
                   {pt.studio} &middot; {pt.year}
                 </p>
-              </div>
-            ))}
-          </div>
-        </EditableSection>
-      </motion.section>
-
-      {/* --- Certificates --- */}
-      <motion.section variants={fadeUp} className={styles.section}>
-        <h2 className={styles.sectionTitle}>
-          <span className={styles.sectionIcon}>&gt;</span> CERTIFICATES
-        </h2>
-        <EditableSection collection="qaPortfolio" dataKey="certificates">
-          <div className={styles.certGrid}>
-            {certificates.map((cert, i) => (
-              <div key={i} className={styles.certCard}>
-                <h4 className={styles.certName}>
-                  {cert.name}
-                  <EditableItemControls index={i} />
-                </h4>
-                <p className={styles.certMeta}>
-                  {cert.issuer} &middot; {cert.year}
-                </p>
-              </div>
-            ))}
-          </div>
-        </EditableSection>
-      </motion.section>
-
-      {/* --- Skills & Tools --- */}
-      <motion.section variants={fadeUp} className={styles.section}>
-        <h2 className={styles.sectionTitle}>
-          <span className={styles.sectionIcon}>&gt;</span> SKILLS &amp; TOOLS
-        </h2>
-        <EditableSection collection="qaPortfolio" dataKey="skills">
-          <div className={styles.skillsGrid}>
-            {skills.map((group, i) => (
-              <div key={i} className={styles.skillGroup}>
-                <h4 className={styles.skillCategory}>
-                  {group.category}
-                  <EditableItemControls index={i} />
-                </h4>
-                <div className={styles.skillTags}>
-                  {group.items.map((item, j) => (
-                    <span key={j} className={styles.skillTag}>
-                      {item}
-                    </span>
-                  ))}
-                </div>
               </div>
             ))}
           </div>

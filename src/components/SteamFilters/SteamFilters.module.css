@@ -4,6 +4,12 @@
   align-items: stretch;
 }
 
+.containerSortOnly {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
 .search {
   flex: 1;
   font-family: var(--font-mono);
@@ -30,6 +36,16 @@
 
 .sortWrapper {
   position: relative;
+}
+
+.containerSortOnly .sortWrapper {
+  display: flex;
+  align-items: stretch;
+  min-height: 2rem;
+}
+
+.containerSortOnly .sortBtn {
+  min-height: 2rem;
 }
 
 .sortBtn {
@@ -95,6 +111,10 @@
   .container {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .containerSortOnly .sortBtn {
+    width: 100%;
   }
 
   .search {

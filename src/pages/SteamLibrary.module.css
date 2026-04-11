@@ -104,6 +104,11 @@
     transform var(--transition-fast);
 }
 
+.gameCoverRoot {
+  position: absolute;
+  inset: 0;
+}
+
 .gameCard:hover {
   border-color: var(--accent-dim);
   transform: translateY(-2px);

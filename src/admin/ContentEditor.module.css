@@ -109,6 +109,8 @@
 }
 
 .removeBtn {
+  flex-shrink: 0;
+  align-self: stretch;
   background: rgba(255, 80, 80, 0.15);
   border: 1px solid rgba(255, 80, 80, 0.3);
   border-radius: 4px;

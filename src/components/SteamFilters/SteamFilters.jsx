@@ -7,6 +7,8 @@ export default function SteamFilters({
   sortBy,
   onSortChange,
   sortOptions,
+  /** Reviews tab: only the sort control, no search field. */
+  sortOnly = false,
 }) {
   const [sortOpen, setSortOpen] = useState(false);
   const sortPanelRef = useRef(null);
@@ -24,14 +26,18 @@ export default function SteamFilters({
   const currentLabel = sortOptions.find((o) => o.key === sortBy)?.label || 'Sort';
 
   return (
-    <div className={styles.container}>
-      <input
-        type="text"
-        className={styles.search}
-        placeholder="Search games..."
-        value={search}
-        onChange={(e) => onSearchChange(e.target.value)}
-      />
+    <div
+      className={sortOnly ? styles.containerSortOnly : styles.container}
+    >
+      {!sortOnly && (
+        <input
+          type="text"
+          className={styles.search}
+          placeholder="Search games..."
+          value={search}
+          onChange={(e) => onSearchChange(e.target.value)}
+        />
+      )}
 
       <div className={styles.sortWrapper} ref={sortPanelRef}>
         <button

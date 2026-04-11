@@ -1,6 +1,32 @@
 {
   "changelog": [
     {
+      "version": "1.1.2",
+      "date": "2026-04-11",
+      "entries": [
+        {
+          "type": "fixed",
+          "text": "Dev admin: removing a tag row in the tech item editor (red X) works reliably; list fields are no longer wrapped in a label that intercepted the control"
+        },
+        {
+          "type": "changed",
+          "text": "QA Portfolio: removed the empty Certificates block and simplified portfolio data; main menu descriptions updated"
+        },
+        {
+          "type": "changed",
+          "text": "Tech Loadout: richer category sections in tech data (platforms, testing, game engines, and more); duplicate standalone skills block removed from the page and CMS"
+        },
+        {
+          "type": "added",
+          "text": "Steam library: game cover component, expanded written reviews, and updates to wishlist, filters, and the Steam fetch script"
+        },
+        {
+          "type": "changed",
+          "text": "Resume, Steam tier list, and related JSON content refreshed"
+        }
+      ]
+    },
+    {
       "version": "1.1.1",
       "date": "2026-04-02",
       "entries": [

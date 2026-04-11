@@ -24,80 +24,26 @@
       "title": "STRIDEN",
       "studio": "Northify",
       "year": "2025",
-      "type": "Closed Alpha"
+      "type": "Closed Beta"
     },
     {
       "title": "Snowtracked",
       "studio": "Northify",
       "year": "2025",
-      "type": "Open Beta"
+      "type": "Closed Alpha"
     },
     {
-      "title": "Game Title Early Access",
-      "studio": "Studio Name",
+      "title": "Undisclosed Title",
+      "studio": "Studio Name (NDA)",
+      "year": "2025",
+      "type": "Technical Test"
+    },
+    {
+      "title": "Undisclosed Title",
+      "studio": "Game Studio (NDA)",
       "year": "2024",
-      "type": "Early Access"
+      "type": "Closed Alpha"
     }
   ],
-  "certificates": [],
-  "skills": [
-    {
-      "category": "Testing",
-      "items": [
-        "Manual",
-        "Regression",
-        "Smoke",
-        "Ad hoc",
-        "Functional",
-        "Usability"
-      ]
-    },
-    {
-      "category": "Bug Tracking",
-      "items": [
-        "JIRA",
-        "Asana"
-      ]
-    },
-    {
-      "category": "Platforms",
-      "items": [
-        "PC",
-        "PlayStation",
-        "Xbox",
-        "Nintendo Switch",
-        "Mobile"
-      ]
-    },
-    {
-      "category": "Tools",
-      "items": [
-        "OBS Studio",
-        "Github",
-        "Miro",
-        "Slack",
-        "Excel"
-      ]
-    },
-    {
-      "category": "Soft Skills",
-      "items": [
-        "Attention to Detail",
-        "Problem Solving",
-        "Fast Learner",
-        "Organized",
-        "Patient",
-        "Adaptable",
-        "Determined"
-      ]
-    },
-    {
-      "category": "Game Engines",
-      "items": [
-        "Unity",
-        "Unreal",
-        "Godot"
-      ]
-    }
-  ]
+  "certificates": []
 }

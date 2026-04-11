@@ -1,10 +1,50 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import steamReviewsData from '../../data/steam-reviews.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
+import SteamGameCover from '../SteamGameCover/SteamGameCover';
+import SteamFilters from '../SteamFilters/SteamFilters';
 import styles from './SteamReviews.module.css';
 
 const { reviews } = steamReviewsData;
+
+const STEAM_CURATOR_URL =
+  'https://store.steampowered.com/curator/33245545/';
+
+const SORT_OPTIONS = [
+  { key: 'date', label: 'Date (newest)' },
+  { key: 'rating', label: 'Score (high to low)' },
+  { key: 'name', label: 'Game name (A–Z)' },
+];
+
+function sortReviewRows(rows, sortBy, getGameName) {
+  const out = [...rows];
+  const byDateDesc = (a, b) => b.date.localeCompare(a.date);
+
+  switch (sortBy) {
+    case 'rating':
+      out.sort((a, b) => {
+        const dr = (b.rating ?? 0) - (a.rating ?? 0);
+        if (dr !== 0) return dr;
+        return byDateDesc(a, b);
+      });
+      break;
+    case 'name':
+      out.sort((a, b) => {
+        const cmp = getGameName(a).localeCompare(getGameName(b), undefined, {
+          sensitivity: 'base',
+          numeric: true,
+        });
+        if (cmp !== 0) return cmp;
+        return byDateDesc(a, b);
+      });
+      break;
+    case 'date':
+    default:
+      out.sort(byDateDesc);
+  }
+  return out;
+}
 
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
@@ -17,51 +57,83 @@ const stagger = {
 };
 
 export default function SteamReviews({ games }) {
+  const [sortBy, setSortBy] = useState('date');
+
   const gameMap = useMemo(() => {
     const m = {};
-    for (const g of games) m[g.appId] = g;
+    for (const g of games) m[Number(g.appId)] = g;
     return m;
   }, [games]);
 
-  const sorted = useMemo(
-    () => [...reviews].sort((a, b) => b.date.localeCompare(a.date)),
-    [],
+  const getGameName = useMemo(
+    () => (review) => {
+      const appId = Number(review.appId);
+      const game = gameMap[appId];
+      return game?.name ?? review.gameName ?? `App ${appId}`;
+    },
+    [gameMap],
   );
 
-  if (sorted.length === 0) {
+  const sorted = useMemo(
+    () => sortReviewRows(reviews, sortBy, getGameName),
+    [sortBy, getGameName],
+  );
+
+  if (reviews.length === 0) {
     return (
-      <p className={styles.empty}>No reviews yet. Check back soon.</p>
+      <div className={styles.scrollGutter}>
+        <p className={styles.empty}>No reviews yet. Check back soon.</p>
+      </div>
     );
   }
 
   return (
     <EditableSection collection="steam-reviews" dataKey="reviews">
-      <motion.div
-        className={styles.list}
-        variants={stagger}
-        initial="hidden"
-        animate="show"
-      >
-        {sorted.map((review, ri) => {
-          const game = gameMap[review.appId];
-          if (!game) return null;
+      <div className={styles.scrollGutter}>
+        <div className={styles.sortBar}>
+          <a
+            href={STEAM_CURATOR_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.curatorLink}
+          >
+            STEAM CURATOR &#8599;
+          </a>
+          <SteamFilters
+            sortOnly
+            sortBy={sortBy}
+            onSortChange={setSortBy}
+            sortOptions={SORT_OPTIONS}
+          />
+        </div>
+        <motion.div
+          className={styles.list}
+          variants={stagger}
+          initial="hidden"
+          animate="show"
+        >
+        {sorted.map((review) => {
+          const appId = Number(review.appId);
+          const game = gameMap[appId];
           const pct = review.rating * 10;
           const originalIndex = reviews.indexOf(review);
+          const displayName =
+            game?.name ?? review.gameName ?? `App ${appId}`;
 
           return (
             <motion.article
-              key={`${review.appId}-${review.date}`}
+              key={`${appId}-${review.date}-${originalIndex}`}
               className={styles.card}
               variants={fadeUp}
             >
-              <img
-                src={`https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appId}/library_600x900.jpg`}
-                alt={game.name}
-                className={styles.thumb}
-                loading="lazy"
-                onError={(e) => {
-                  e.target.src = game.headerUrl;
-                }}
+              <SteamGameCover
+                appId={appId}
+                title={displayName}
+                headerUrl={game?.headerUrl}
+                useIconFallback={false}
+                alt={displayName}
+                rootClassName={styles.coverRoot}
+                imageClassName={styles.coverImage}
               />
 
               <div className={styles.body}>
@@ -78,7 +150,7 @@ export default function SteamReviews({ games }) {
                     </span>
                   </div>
                   <div className={styles.meta}>
-                    <span className={styles.gameName}>{game.name}</span>
+                    <span className={styles.gameName}>{displayName}</span>
                     <span className={styles.date}>{review.date}</span>
                   </div>
                 </div>
@@ -125,7 +197,8 @@ export default function SteamReviews({ games }) {
             </motion.article>
           );
         })}
-      </motion.div>
+        </motion.div>
+      </div>
     </EditableSection>
   );
 }

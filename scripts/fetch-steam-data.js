@@ -149,19 +149,25 @@ async function getAppDetails(appId) {
         playerModes: [],
         hardwareSupport: [],
         releaseDate: null,
+        headerImage: null,
       };
     }
     const d = info.data;
     const genres = (d.genres || []).map((g) => g.description);
     const { playerModes, hardwareSupport } = parseCategories(d.categories || []);
     const releaseDate = d.release_date?.date || null;
-    return { genres, playerModes, hardwareSupport, releaseDate };
+    const headerImage =
+      typeof d.header_image === 'string' && d.header_image.length > 0
+        ? d.header_image
+        : null;
+    return { genres, playerModes, hardwareSupport, releaseDate, headerImage };
   } catch {
     return {
       genres: [],
       playerModes: [],
       hardwareSupport: [],
       releaseDate: null,
+      headerImage: null,
     };
   }
 }
@@ -316,18 +322,27 @@ async function main() {
       game.playerModes = prev.playerModes || [];
       game.hardwareSupport = prev.hardwareSupport || [];
       game.releaseDate = prev.releaseDate ?? null;
+      if (prev.headerUrl) {
+        game.headerUrl = prev.headerUrl;
+      } else {
+        const d = await getAppDetails(game.appId);
+        if (d.headerImage) game.headerUrl = d.headerImage;
+        cache.games[id] = { ...prev, headerUrl: game.headerUrl };
+      }
     } else {
       const d = await getAppDetails(game.appId);
       game.genres = d.genres;
       game.playerModes = d.playerModes;
       game.hardwareSupport = d.hardwareSupport;
       game.releaseDate = d.releaseDate;
+      if (d.headerImage) game.headerUrl = d.headerImage;
       cache.games[id] = {
         ...cache.games[id],
         genres: d.genres,
         playerModes: d.playerModes,
         hardwareSupport: d.hardwareSupport,
         releaseDate: d.releaseDate,
+        headerUrl: game.headerUrl,
       };
     }
     if ((i + 1) % 200 === 0) console.log(`  ...details ${i + 1}/${games.length}`);

@@ -1,3 +1,44 @@
+/* Breathing room between review cards and the page scroll track (desktop inline shell). */
+.scrollGutter {
+  padding-right: 0.85rem;
+  box-sizing: border-box;
+}
+
+.sortBar {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.curatorLink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  box-sizing: border-box;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent-dim);
+  padding: 0 0.75rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.curatorLink:hover {
+  color: var(--text-primary);
+  border-color: var(--accent);
+  background: var(--bg-hover);
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -22,12 +63,16 @@
   padding: 1rem;
 }
 
-.thumb {
+.coverRoot {
   width: 130px;
   aspect-ratio: 2 / 3;
-  object-fit: contain;
   align-self: flex-start;
   flex-shrink: 0;
+  border: 1px solid rgba(95, 143, 143, 0.1);
+}
+
+.coverImage {
+  object-fit: cover;
 }
 
 .body {
@@ -189,10 +234,9 @@
     flex-direction: column;
   }
 
-  .thumb {
+  .coverRoot {
     width: 100%;
     aspect-ratio: 460 / 215;
-    object-fit: cover;
   }
 
   .proscons {

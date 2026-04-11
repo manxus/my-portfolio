@@ -177,83 +177,12 @@
   margin-top: 0.35rem;
 }
 
-/* ---- Certificates ---- */
-
-.certGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1rem;
-}
-
-.certCard {
-  background: var(--bg-secondary);
-  border: 1px solid rgba(95, 143, 143, 0.1);
-  padding: 1rem 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.certName {
-  font-family: var(--font-heading);
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text-primary);
-  letter-spacing: 0.03em;
-}
-
-.certMeta {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  color: var(--text-dim);
-}
-
-/* ---- Skills ---- */
-
-.skillsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.5rem;
-}
-
-.skillGroup {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-}
-
-.skillCategory {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  color: var(--accent);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.skillTags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.skillTag {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: var(--text-secondary);
-  background: var(--bg-secondary);
-  border: 1px solid rgba(95, 143, 143, 0.12);
-  padding: 0.25rem 0.6rem;
-  letter-spacing: 0.02em;
-}
-
 @media (max-width: 768px) {
   .container {
     gap: 2rem;
   }
 
-  .playtestGrid,
-  .certGrid,
-  .skillsGrid {
+  .playtestGrid {
     grid-template-columns: 1fr;
   }
 }

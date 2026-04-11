@@ -13,6 +13,7 @@ import SteamGameDetail from '../components/SteamGameDetail/SteamGameDetail';
 import SteamReviews from '../components/SteamReviews/SteamReviews';
 import SteamTierList from '../components/SteamTierList/SteamTierList';
 import SteamWishlist from '../components/SteamWishlist/SteamWishlist';
+import SteamGameCover from '../components/SteamGameCover/SteamGameCover';
 import styles from './SteamLibrary.module.css';
 
 const stagger = {
@@ -191,14 +192,15 @@ export default function SteamLibrary() {
                       )
                     }
                   >
-                    <img
-                      src={`https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appId}/library_600x900.jpg`}
+                    <SteamGameCover
+                      fill
+                      appId={game.appId}
+                      title={game.name}
+                      headerUrl={game.headerUrl}
+                      iconUrl={game.iconUrl}
                       alt={game.name}
-                      className={styles.gameImage}
-                      loading="lazy"
-                      onError={(e) => {
-                        e.target.src = game.headerUrl;
-                      }}
+                      rootClassName={styles.gameCoverRoot}
+                      imageClassName={styles.gameImage}
                     />
                   </button>
                 ))}

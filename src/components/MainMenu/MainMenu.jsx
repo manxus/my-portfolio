@@ -12,11 +12,27 @@ import styles from './MainMenu.module.css';
 
 const { menuItems } = menuData;
 
+const EXPANDED_MENU_STORAGE_KEY = 'bv_expandedMenuGroup';
+
+function readStoredExpandedMenu() {
+  try {
+    if (typeof window === 'undefined') return null;
+    if (window.location.pathname !== '/') return null;
+    const saved = sessionStorage.getItem(EXPANDED_MENU_STORAGE_KEY);
+    if (saved && menuItems.some((m) => m.id === saved && m.children?.length)) {
+      return saved;
+    }
+  } catch {
+    /* ignore */
+  }
+  return null;
+}
+
 export default function MainMenu({ desktopContent, onAdminTrigger }) {
   const navigate = useNavigate();
   const location = useLocation();
   const { play } = useSound();
-  const [expandedItem, setExpandedItem] = useState(null);
+  const [expandedItem, setExpandedItem] = useState(readStoredExpandedMenu);
   const [hoveredItem, setHoveredItem] = useState(null);
   const [showExit, setShowExit] = useState(false);
   const menuRef = useRef(null);
@@ -125,9 +141,22 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
   expandedItemRef.current = expandedItem;
 
   useEffect(() => {
+    try {
+      if (expandedItem) {
+        sessionStorage.setItem(EXPANDED_MENU_STORAGE_KEY, expandedItem);
+      } else {
+        sessionStorage.removeItem(EXPANDED_MENU_STORAGE_KEY);
+      }
+    } catch {
+      /* ignore */
+    }
+  }, [expandedItem]);
+
+  useEffect(() => {
     if (location.pathname === '/') {
       setFocusIndex(-1);
       keyboardActive.current = false;
+      return;
     }
 
     if (expandedItemRef.current) {

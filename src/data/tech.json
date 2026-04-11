@@ -8,7 +8,7 @@
           "name": "JIRA",
           "tags": [
             "Bug Tracking",
-            "Agile"
+            "Project management"
           ],
           "proficiency": ""
         },
@@ -16,7 +16,7 @@
           "name": "Asana",
           "tags": [
             "Bug Tracking",
-            "Agile"
+            "Project management"
           ],
           "proficiency": ""
         },
@@ -74,8 +74,7 @@
         {
           "name": "Handbrake",
           "tags": [
-            "Video Transcoding",
-            "Converter"
+            "Video Transcoding"
           ],
           "proficiency": ""
         },
@@ -111,24 +110,80 @@
       "items": [
         {
           "name": "Windows 10/11",
-          "tags": [
-            "Primary"
-          ],
+          "tags": [],
           "proficiency": "Daily Use"
         },
         {
+          "name": "Android",
+          "tags": [],
+          "proficiency": "Proficient"
+        },
+        {
           "name": "macOS",
-          "tags": [
-            "Secondary"
-          ],
+          "tags": [],
           "proficiency": "Familiar"
         },
         {
-          "name": "Android",
-          "tags": [
-            "Mobile"
-          ],
-          "proficiency": "Proficient"
+          "name": "iOS",
+          "tags": [],
+          "proficiency": "Familiar"
+        }
+      ]
+    },
+    {
+      "id": "game engine",
+      "title": "Game Engines",
+      "items": [
+        {
+          "name": "Unity",
+          "tags": [],
+          "proficiency": "Familiar"
+        },
+        {
+          "name": "Unreal",
+          "tags": [],
+          "proficiency": "Familiar"
+        },
+        {
+          "name": "Godot",
+          "tags": [],
+          "proficiency": "Familiar"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "items": [
+        {
+          "name": "Manual",
+          "tags": [],
+          "proficiency": ""
+        },
+        {
+          "name": "Regression",
+          "tags": [],
+          "proficiency": ""
+        },
+        {
+          "name": "Smoke",
+          "tags": [],
+          "proficiency": ""
+        },
+        {
+          "name": "Ad hoc",
+          "tags": [],
+          "proficiency": ""
+        },
+        {
+          "name": "Functional",
+          "tags": [],
+          "proficiency": ""
+        },
+        {
+          "name": "Usability",
+          "tags": [],
+          "proficiency": ""
         }
       ]
     },
