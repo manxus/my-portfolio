@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-10T07:26:52.990Z",
+  "fetchedAt": "2026-04-11T07:02:04.447Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775782437
+    "lastLogoff": 1775870204
   },
   "games": [
     {
@@ -6885,6 +6885,21 @@
       }
     },
     {
+      "appId": 2294130,
+      "name": "Goobies",
+      "playtimeHours": 7.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 43,
+        "unlocked": 16
+      }
+    },
+    {
       "appId": 1587570,
       "name": "Completely Stretchy",
       "playtimeHours": 7.2,
@@ -9429,21 +9444,6 @@
       "achievements": {
         "total": 7,
         "unlocked": 7
-      }
-    },
-    {
-      "appId": 2294130,
-      "name": "Goobies",
-      "playtimeHours": 3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 43,
-        "unlocked": 4
       }
     },
     {
@@ -53343,7 +53343,7 @@
         "Online PvP"
       ],
       "hardwareSupport": [],
-      "releaseDate": "24 Apr, 2025",
+      "releaseDate": "Apr 24, 2025",
       "achievements": {
         "total": 98,
         "unlocked": 0
