@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-11T07:02:04.447Z",
+  "fetchedAt": "2026-04-12T07:15:06.914Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775870204
+    "lastLogoff": 1775949658
   },
   "games": [
     {
@@ -13,7 +13,7 @@
       "name": "Counter-Strike 2",
       "playtimeHours": 3439,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
         "Action",
         "Free To Play"
@@ -38,7 +38,7 @@
       "name": "Cookie Clicker",
       "playtimeHours": 2630.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1454400/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
         "Casual",
         "Indie",
@@ -60,7 +60,7 @@
       "name": "RuneScape",
       "playtimeHours": 1582.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1343400/55a774ff8df98442993a6290f0f0153d32b638a8.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1343400/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1343400/164e54273831e76f820378b4c6e0c21e0a4834e2/header.jpg?t=1771947591",
       "genres": [
         "Massively Multiplayer",
         "RPG",
@@ -83,7 +83,7 @@
       "name": "Rocket League",
       "playtimeHours": 1475.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/252950/9ad6dd3d173523354385955b5fb2af87639c4163.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/252950/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/1bcf75584d0c3613b02b2d0a2721a6b411375784/header_alt_assets_15.jpg?t=1773251703",
       "genres": [
         "Action",
         "Indie",
@@ -118,7 +118,7 @@
       "name": "Stream Avatars",
       "playtimeHours": 883.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/665300/ccb6ae927e3608921c909c7e26cf36ab826fa7be.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/665300/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/665300/header.jpg?t=1758468867",
       "genres": [
         "Animation & Modeling",
         "Audio Production",
@@ -137,7 +137,7 @@
       "name": "PUBG: BATTLEGROUNDS",
       "playtimeHours": 869.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/578080/609f27278aa70697c13bf99f32c5a0248c381f9d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1775635041",
       "genres": [
         "Action",
         "Adventure",
@@ -163,7 +163,7 @@
       "name": "The Binding of Isaac: Rebirth",
       "playtimeHours": 683.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/250900/16d46c8630499bfc54d20745ac90786a302cd643.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/250900/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
       "genres": [
         "Action"
       ],
@@ -187,7 +187,7 @@
       "name": "Terraria",
       "playtimeHours": 669.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/105600/858961e95fbf869f136e1770d586e0caefd4cfac.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
       "genres": [
         "Action",
         "Adventure",
@@ -218,7 +218,7 @@
       "name": "PAYDAY 2",
       "playtimeHours": 554.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/218620/a6abc0d0c1e79c0b5b0f5c8ab81ce9076a542414.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/218620/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/header.jpg?t=1771610568",
       "genres": [
         "Action",
         "RPG"
@@ -247,7 +247,7 @@
       "name": "Satisfactory",
       "playtimeHours": 528.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/526870/ee3406fe5ec813b1987ad67e37e5cd6fb4f620e6.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/526870/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg?t=1749717464",
       "genres": [
         "Adventure",
         "Indie",
@@ -276,7 +276,7 @@
       "name": "Clicker Heroes",
       "playtimeHours": 411.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/363970/155ed2de95eacc3353b91c2a057bdbf727c11c20.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/363970/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/363970/1ab2c7ea7bca7bf51ac54949b00fd8b7619ce023/header.jpg?t=1775781292",
       "genres": [
         "Adventure",
         "Casual",
@@ -301,7 +301,7 @@
       "name": "Hunt: Showdown 1896",
       "playtimeHours": 317.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/594650/06c70772db40f714537f4d80c11859a68560a6b3.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/594650/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/fe85552acc7c8f01f8118f8a6babc38013ba5e38/header_alt_assets_23.jpg?t=1775743539",
       "genres": [
         "Action"
       ],
@@ -327,7 +327,7 @@
       "name": "Autonauts",
       "playtimeHours": 297.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/979120/45b40ac65153e3137938f0db71224cd425e7b63c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/979120/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979120/header.jpg?t=1728987878",
       "genres": [
         "Casual",
         "Indie",
@@ -348,7 +348,7 @@
       "name": "Risk of Rain 2",
       "playtimeHours": 286.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/632360/0b809ac6f25e6570fecae5fc47bca0139a7bf70c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/632360/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg?t=1775753930",
       "genres": [
         "Action",
         "Indie"
@@ -377,7 +377,7 @@
       "name": "Raft",
       "playtimeHours": 241.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/648800/6a9ae357c4133b1b631b520edd25b1974f3afb68.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/648800/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
       "genres": [
         "Adventure",
         "Indie",
@@ -401,7 +401,7 @@
       "name": "Stardew Valley",
       "playtimeHours": 239,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/413150/35d1377200084a4034238c05b0c8930451e2fb40.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
       "genres": [
         "Indie",
         "RPG",
@@ -432,7 +432,7 @@
       "name": "Cornerpond",
       "playtimeHours": 217.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3454590/234827c2c3e54ad4d481a05a681bd422beb8bc1e.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3454590/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3454590/header.jpg?t=1745247733",
       "genres": [
         "Casual",
         "Indie",
@@ -453,7 +453,7 @@
       "name": "Starbound",
       "playtimeHours": 210.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/211820/4dbf4041c33eb2edfc41f552320a2e584519134c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/211820/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/211820/3ec8855d056d8695de0256594f893a9e3cb826e3/header.jpg?t=1767622909",
       "genres": [
         "Action",
         "Adventure",
@@ -481,7 +481,7 @@
       "name": "Call of Duty: Modern Warfare 2 (2009) - Multiplayer",
       "playtimeHours": 189.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/10190/7dd7c2d5bce2413131762d7cbee3f059614ed69d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/10190/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg?t=1748044299",
       "genres": [
         "Action"
       ],
@@ -499,7 +499,7 @@
       "name": "Garry's Mod",
       "playtimeHours": 162.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4000/4a6f25cfa2426445d0d9d6e233408de4d371ce8b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1764757984",
       "genres": [
         "Casual",
         "Indie",
@@ -529,7 +529,7 @@
       "name": "Z1 Battle Royale",
       "playtimeHours": 162.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/433850/aee7491abfd812e2fbb4ec3326ad5f4b85c8137a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/433850/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/header.jpg?t=1579626820",
       "genres": [
         "Action",
         "Adventure",
@@ -549,7 +549,7 @@
       "name": "Tap Heroes",
       "playtimeHours": 161.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/371570/7452adb40bf8cf1bcc9df4188c5a29416251ef71.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/371570/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/header.jpg?t=1775322391",
       "genres": [
         "Action",
         "Adventure",
@@ -572,7 +572,7 @@
       "name": "Deep Rock Galactic: Survivor",
       "playtimeHours": 154.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2321470/21c0012fc6c4419bad40b03ce6db571d2390642b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2321470/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/header.jpg?t=1775131085",
       "genres": [
         "Action"
       ],
@@ -594,7 +594,7 @@
       "name": "Barotrauma",
       "playtimeHours": 147.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/602960/a0adb0f29ce819c6dffa32446624fb7648defc5a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/602960/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/602960/header.jpg?t=1770912039",
       "genres": [
         "Action",
         "Indie",
@@ -620,7 +620,7 @@
       "name": "Halls of Torment",
       "playtimeHours": 143.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2218750/9fec2ded1ecfea4bc04814440294bde9f235684e.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2218750/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/header.jpg?t=1761660851",
       "genres": [
         "Action",
         "Indie",
@@ -643,7 +643,7 @@
       "name": "Insurgency: Sandstorm",
       "playtimeHours": 139.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/581320/d279a836f1d2df271dadbefda9fee7fc65c5fe87.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/581320/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/581320/43a6395e40687eace79089e96a797c30538bbd95/header.jpg?t=1775825211",
       "genres": [
         "Action"
       ],
@@ -668,7 +668,7 @@
       "name": "Grand Theft Auto V Legacy",
       "playtimeHours": 138.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/271590/1e72f87eb927fa1485e68aefaff23c7fd7178251.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
       "genres": [
         "Action",
         "Adventure"
@@ -697,7 +697,7 @@
       "name": "Cyberpunk 2077",
       "playtimeHours": 135,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1091500/42b9b33fa0f0d997beb299c6157592a8fe7d8f68.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
       "genres": [
         "RPG"
       ],
@@ -718,7 +718,7 @@
       "name": "AdVenture Capitalist",
       "playtimeHours": 133.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/346900/b4dd5ca1582ed52335b31960e05766fd22fa7cc4.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/346900/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346900/header.jpg?t=1769198593",
       "genres": [
         "Casual",
         "Indie",
@@ -739,7 +739,7 @@
       "name": "The Binding of Isaac",
       "playtimeHours": 128.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/113200/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
       "genres": [
         "Action",
         "Adventure",
@@ -761,7 +761,7 @@
       "name": "Brotato",
       "playtimeHours": 121.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1942280/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
       "genres": [
         "Action",
         "Casual",
@@ -790,7 +790,7 @@
       "name": "Apex Legends",
       "playtimeHours": 120.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1172470/8986dd626da56db5f3fe09bc1b8871739de8b00d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/5f9cd40d1507568651688af121d378dab35d3d35/header.jpg?t=1770753360",
       "genres": [
         "Action",
         "Adventure",
@@ -816,7 +816,7 @@
       "name": "ASTRONEER",
       "playtimeHours": 114.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/361420/18ef632a152a69a8fb4f62c074cd50aa15d3bf33.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/361420/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/361420/1c44099d86c824a6fd1098a4215097878d68664e/header.jpg?t=1770767049",
       "genres": [
         "Adventure",
         "Indie"
@@ -843,7 +843,7 @@
       "name": "Rusty's Retirement",
       "playtimeHours": 112.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2666510/72be5b22943d8874a18c9de214f1d5fa82d98310.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2666510/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2666510/1b9c3e5c1a8a08354bed63fbeed798fcec74aff9/header.jpg?t=1765047200",
       "genres": [
         "Casual",
         "Indie",
@@ -865,7 +865,7 @@
       "name": "Vampire Survivors",
       "playtimeHours": 112.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1794680/3677cf1be3be1f4ea42261c62ce10519715ade58.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg?t=1763675244",
       "genres": [
         "Action",
         "Casual",
@@ -893,7 +893,7 @@
       "name": "Borderlands 2",
       "playtimeHours": 103.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/49520/a3f4945226e69b6196074df4c776e342d3e5a3be.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/49520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header.jpg?t=1751931279",
       "genres": [
         "Action",
         "RPG"
@@ -920,7 +920,7 @@
       "name": "Worms Revolution",
       "playtimeHours": 100.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/200170/15c154176bfa6bffabc7ebd31fd67de2485c6e1c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/200170/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200170/header.jpg?t=1758742851",
       "genres": [
         "Strategy"
       ],
@@ -944,7 +944,7 @@
       "name": "Mini Cozy Room: Lo-Fi",
       "playtimeHours": 99.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3511030/ecb3d143001b2a7b6be6eacc56a958bb1018b89c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3511030/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3511030/6a28b45410fec226b4887c8c4c74dc63955051d1/header_alt_assets_0.jpg?t=1775038465",
       "genres": [
         "Casual",
         "Indie"
@@ -967,7 +967,7 @@
       "name": "Team Fortress 2",
       "playtimeHours": 98.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/440/f568912870a4684f9ec76277a1a404dda6bab213.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/440/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
       "genres": [
         "Action",
         "Free To Play"
@@ -992,7 +992,7 @@
       "name": "Graveyard Keeper",
       "playtimeHours": 96.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/599140/b37ef6d7eb243b4d9fc017dec7bc11b234f34cc2.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/599140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599140/07a4abf278d3029bec1bf7dcff9b2852bdde5250/header.jpg?t=1775826330",
       "genres": [
         "Adventure",
         "Indie",
@@ -1019,7 +1019,7 @@
       "name": "Borderlands 3",
       "playtimeHours": 94,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/397540/0ac7b8d98fad581f65b0533bbce63bf953d743ac.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/397540/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/header.jpg?t=1750802377",
       "genres": [
         "Action",
         "RPG"
@@ -1049,7 +1049,7 @@
       "name": "Rogue: Genesia",
       "playtimeHours": 93.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2067920/3902c16718546348eae5db5838e1123189641198.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2067920/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067920/25a809848894726e912b73c39bde5f00fb360d5e/header_alt_assets_2.jpg?t=1775559507",
       "genres": [
         "Action",
         "Casual",
@@ -1073,7 +1073,7 @@
       "name": "Ropuka's Idle Island",
       "playtimeHours": 92,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3416070/326558bff73f8b1c6a1e51974654b18f9c36da24.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3416070/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3416070/header.jpg?t=1774778381",
       "genres": [
         "Casual",
         "Indie",
@@ -1094,7 +1094,7 @@
       "name": "Bloons TD5",
       "playtimeHours": 89.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/306020/b584e669fff85196944f692bebce56200d52bd92.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/306020/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306020/header.jpg?t=1770223235",
       "genres": [
         "Action",
         "Strategy"
@@ -1118,7 +1118,7 @@
       "name": "Battlefield 4™ ",
       "playtimeHours": 87.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1238860/fe0bd4bd2adde978ca411a4b2725c1b6d72717ef.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238860/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238860/header.jpg?t=1734376923",
       "genres": [
         "Action"
       ],
@@ -1141,7 +1141,7 @@
       "name": "Melvor Idle",
       "playtimeHours": 83.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1267910/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
       "genres": [
         "Adventure",
         "Casual",
@@ -1163,7 +1163,7 @@
       "name": "Just Survive",
       "playtimeHours": 77.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/295110/62defe57b364721d8947761c9998643ae5afaad1.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/295110/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/295110/header.jpg?t=1540317442",
       "genres": [
         "Action",
         "Adventure",
@@ -1185,7 +1185,7 @@
       "name": "Just Cause 2",
       "playtimeHours": 77.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/8190/73582e392a2b9413fe93b011665a5b9cf26ff175.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/8190/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8190/header.jpg?t=1728396849",
       "genres": [
         "Action",
         "Adventure"
@@ -1208,7 +1208,7 @@
       "name": "The Forest",
       "playtimeHours": 77.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/242760/3a6847f6ac5879e48531db52261771d5e22904ac.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/242760/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
       "genres": [
         "Action",
         "Adventure",
@@ -1237,7 +1237,7 @@
       "name": "Friends vs Friends",
       "playtimeHours": 77.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1785150/6fc10e1d19f90e59276fa2760e80979381c7f9b2.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1785150/header.jpg?t=1766068873",
       "genres": [
         "Action",
         "Indie"
@@ -1263,7 +1263,7 @@
       "name": "theHunter: Call of the Wild™",
       "playtimeHours": 75.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/518790/8cd121cb62c8f98019ed333716657449c8da2b81.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/518790/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/d4530ad1a7b55624f37a2ffff7eede1e4a5d4a8d/header_alt_assets_27.jpg?t=1775735343",
       "genres": [
         "Adventure",
         "Simulation",
@@ -1289,7 +1289,7 @@
       "name": "HELLDIVERS™ 2",
       "playtimeHours": 74.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/553850/c3dff088e090f81d6e3d88eabbb67732647c69cf.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/f11c258b04a5e3e7771c1bab60f324ebf6c6c6fb/header.jpg?t=1770747641",
       "genres": [
         "Action"
       ],
@@ -1312,7 +1312,7 @@
       "name": "Grounded",
       "playtimeHours": 73.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/962130/0e598fd0dc10e3d85e5f244c62d0c41e4c8d96cc.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/962130/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg?t=1768264530",
       "genres": [
         "Action",
         "Adventure"
@@ -1338,7 +1338,7 @@
       "name": "Just Cause 3",
       "playtimeHours": 73.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/225540/c82c69c8d616d9d273d749e3dd3bd7a0f9da594a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/225540/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225540/header.jpg?t=1766058472",
       "genres": [
         "Action",
         "Adventure"
@@ -1363,7 +1363,7 @@
       "name": "Forager",
       "playtimeHours": 73.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/751780/0ce98fdac94ec51d6133962adf123e4a33a5a6aa.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/751780/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751780/header.jpg?t=1773692958",
       "genres": [
         "Action",
         "Adventure",
@@ -1390,7 +1390,7 @@
       "name": "Call of Duty: WWII - Multiplayer",
       "playtimeHours": 71.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/476620/61353c6b23a7c04b11c875044a243210563e74ba.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/476620/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg?t=1751302904",
       "genres": [
         "Action"
       ],
@@ -1418,7 +1418,7 @@
       "name": "Immortal Redneck",
       "playtimeHours": 70.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/595140/a7d2e5ba107f5cf1ba2f8d55f0884d4956adf384.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/595140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/595140/header.jpg?t=1757661381",
       "genres": [
         "Action",
         "Indie"
@@ -1441,7 +1441,7 @@
       "name": "PC Building Simulator",
       "playtimeHours": 69.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/621060/156646a1e614512ad36c6ff1c698a2f05783c61b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/621060/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/621060/header.jpg?t=1653555111",
       "genres": [
         "Indie",
         "Simulation"
@@ -1465,7 +1465,7 @@
       "name": "Celeste",
       "playtimeHours": 69,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/504230/04cb7aa0b497a3962e6b1655b7fd81a2cc95d18b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
       "genres": [
         "Action",
         "Adventure",
@@ -1491,7 +1491,7 @@
       "name": "Crea",
       "playtimeHours": 68.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/280520/7954156e3d6dc775507ab890132be9e4be3822ab.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/280520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/280520/header.jpg?t=1734129970",
       "genres": [
         "Action",
         "Adventure",
@@ -1520,7 +1520,7 @@
       "name": "Metro Exodus Enhanced Edition",
       "playtimeHours": 67.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1449560/f9863ed0ffc717b130744488f088ae95fe6e9bd8.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1449560/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
       "genres": [
         "Action"
       ],
@@ -1544,7 +1544,7 @@
       "name": "Deep Rock Galactic",
       "playtimeHours": 66.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/548430/e033e23c29a192a17c16a7645a2b423ac64ff447.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/548430/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/36fbee168dca4023519384a5822e79418949bfcb/header_alt_assets_22.jpg?t=1775555380",
       "genres": [
         "Action"
       ],
@@ -1570,7 +1570,7 @@
       "name": "Duck Game",
       "playtimeHours": 64.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/312530/d539148e7970b82733bfc78d595b41465fd09275.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/312530/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312530/header.jpg?t=1719772984",
       "genres": [
         "Action",
         "Indie"
@@ -1600,7 +1600,7 @@
       "name": "LEGO® City Undercover",
       "playtimeHours": 63,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/578330/48536e84b21951f851ec4ecf8349370a867e2c37.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/578330/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578330/header.jpg?t=1745612336",
       "genres": [
         "Action"
       ],
@@ -1626,7 +1626,7 @@
       "name": "Dishonored",
       "playtimeHours": 60.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/205100/74f8ee1ba536e0759e64a9bf801fc013e16c8dd1.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/205100/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/205100/header.jpg?t=1750785977",
       "genres": [
         "Action",
         "Adventure"
@@ -1650,7 +1650,7 @@
       "name": "VEGAS Pro 17 Edit Steam Edition",
       "playtimeHours": 59.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1110410/4f468b680151fd3bf7452b61c103ee4cf6881641.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1110410/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1110410/header.jpg?t=1695637729",
       "genres": [
         "Audio Production",
         "Video Production"
@@ -1665,7 +1665,7 @@
       "name": "God Of Weapons",
       "playtimeHours": 58.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2342950/79cc571a2deead401fcf15eb3d3f4d851e5ca6c0.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2342950/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2342950/c26539cca65906f4fe3c2c2ea8b16593ae5ad24f/header.jpg?t=1773366172",
       "genres": [
         "Action",
         "Casual",
@@ -1689,7 +1689,7 @@
       "name": "Borderlands GOTY",
       "playtimeHours": 58.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/8980/eb45fb32b7f4e75564a30a52aa3c35a191253ea0.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/8980/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8980/header.jpg?t=1692308968",
       "genres": [
         "Action",
         "RPG"
@@ -1713,7 +1713,7 @@
       "name": "PAYDAY 3",
       "playtimeHours": 57.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1272080/d4ad48893646cae61934ea10749527346f8b7736.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272080/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/d2f9d9bb92bda9eb6a451488d4ddeae460da9366/header.jpg?t=1774628435",
       "genres": [
         "Action",
         "Adventure",
@@ -1740,7 +1740,7 @@
       "name": "Spellbook Demonslayers",
       "playtimeHours": 57.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2007530/50082e6ea4a3b5f0f3a0b49eb1998ceb086f557a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2007530/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2007530/header.jpg?t=1739172747",
       "genres": [
         "Action",
         "Casual",
@@ -1764,7 +1764,7 @@
       "name": "Just Cause 4",
       "playtimeHours": 56.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/517630/f2f0824cf788ba0acb3dad3b39cd6f25de06e667.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/517630/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/517630/header.jpg?t=1728396656",
       "genres": [
         "Action",
         "Adventure"
@@ -1787,7 +1787,7 @@
       "name": "Saints Row: The Third",
       "playtimeHours": 56.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/55230/ec83645f13643999e7c91da75d418053d6b56529.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/55230/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/55230/header.jpg?t=1764671029",
       "genres": [
         "Action"
       ],
@@ -1812,7 +1812,7 @@
       "name": "My Time at Portia",
       "playtimeHours": 56.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/666140/06668be3a8b596a5980adf1b61b0c0dd515b5acd.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/666140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/666140/header.jpg?t=1773299649",
       "genres": [
         "Adventure",
         "Casual",
@@ -1840,7 +1840,7 @@
       "name": "Roboquest",
       "playtimeHours": 56.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/692890/3312e8dd4028e24c438abefeea65c28f21aeeaf9.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/692890/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/692890/header.jpg?t=1763992816",
       "genres": [
         "Action",
         "Indie"
@@ -1866,7 +1866,7 @@
       "name": "Heroes of Might & Magic III - HD Edition",
       "playtimeHours": 55.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/297000/0ae505e74b80d1cdee125500f4467a4c7a1d7e43.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/297000/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/297000/header.jpg?t=1699009789",
       "genres": [
         "RPG",
         "Strategy"
@@ -1889,7 +1889,7 @@
       "name": "Borderlands: The Pre-Sequel",
       "playtimeHours": 54.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/261640/af5ef05eac8b1eb618e4f57354ac7b3e918ab1bd.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/261640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/261640/header.jpg?t=1750081341",
       "genres": [
         "Action",
         "RPG"
@@ -1914,7 +1914,7 @@
       "name": "Sons Of The Forest",
       "playtimeHours": 51.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1326470/bd28fe592b339cff5a3eef743f31e3166c984c68.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg?t=1708624856",
       "genres": [
         "Action",
         "Adventure",
@@ -1953,7 +1953,7 @@
       "name": "Tom Clancy's The Division",
       "playtimeHours": 50.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/365590/93be9eec9ea09ee3cbc0f04de58f1c87a24b18f5.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/365590/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365590/e36fd6a73af2b20d6286633ee3a089acf53397ff/header.jpg?t=1770141394",
       "genres": [
         "Action",
         "Adventure",
@@ -1980,7 +1980,7 @@
       "name": "Dying Light",
       "playtimeHours": 45.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/239140/d575b4ba3480fe20aaeda8e8f498c3e47033069d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/239140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239140/9d1b810b85ae46a0acbdfddf583ccbb81271183e/header.jpg?t=1771490504",
       "genres": [
         "Action",
         "RPG"
@@ -2008,7 +2008,7 @@
       "name": "DAVE THE DIVER",
       "playtimeHours": 44.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1868140/2f19d6889f66eae88e8b5a36727d560ec88a00cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1868140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/81bdb3bce15d27ca1b4554a642d91096e89be229/header.jpg?t=1775198556",
       "genres": [
         "Adventure",
         "Casual",
@@ -2032,7 +2032,7 @@
       "name": "Dishonored 2",
       "playtimeHours": 43.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/403640/6d6bac950a234764a353c518607dcd01973f5b65.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/403640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/header.jpg?t=1750785918",
       "genres": [
         "Action"
       ],
@@ -2055,7 +2055,7 @@
       "name": "Time Clickers",
       "playtimeHours": 43,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/385770/7eaca926a86cd223e1e3e18b26ae4d03bbe9f755.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/385770/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/385770/header.jpg?t=1595729803",
       "genres": [
         "Action",
         "Casual",
@@ -2077,7 +2077,7 @@
       "name": "UnderMine",
       "playtimeHours": 41.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/656350/e80bd473b8ab8d8e261c6300d98cfdd47e06f726.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/656350/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/656350/header.jpg?t=1724975181",
       "genres": [
         "Action",
         "Adventure",
@@ -2101,7 +2101,7 @@
       "name": "Euro Truck Simulator 2",
       "playtimeHours": 40.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/227300/adc18a4fc9adc0330144b76d61cbda68bb2394a0.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/227300/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1773641450",
       "genres": [
         "Indie",
         "Simulation"
@@ -2129,7 +2129,7 @@
       "name": "Slime 3K: Rise Against Despot",
       "playtimeHours": 40.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2348610/eb857f25aa72c7195c6d4c9f94e43c3fbbc745d2.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2348610/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2348610/header.jpg?t=1772094334",
       "genres": [
         "Action",
         "Indie",
@@ -2152,7 +2152,7 @@
       "name": "SpeedRunners",
       "playtimeHours": 39.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/207140/65cfa21149c415430fe36d83c23e079e6db476cc.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/207140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/207140/header.jpg?t=1772095212",
       "genres": [
         "Action",
         "Casual",
@@ -2185,7 +2185,7 @@
       "name": "LEGO® Batman™ 3: Beyond Gotham",
       "playtimeHours": 38.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/313690/4bd5b11c55070ddb17b14f05293eac8a464f71ac.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/313690/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/313690/header.jpg?t=1745962284",
       "genres": [
         "Action",
         "Adventure"
@@ -2212,7 +2212,7 @@
       "name": "Ultimate Chicken Horse",
       "playtimeHours": 38.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/386940/07e45651fd2e37fde1d512c4cb77238ff5ce97c0.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/386940/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386940/header.jpg?t=1765298731",
       "genres": [
         "Action",
         "Casual",
@@ -2243,7 +2243,7 @@
       "name": "Nubby's Number Factory",
       "playtimeHours": 38.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3191030/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
       "genres": [
         "Strategy"
       ],
@@ -2262,7 +2262,7 @@
       "name": "Potion Craft: Alchemist Simulator",
       "playtimeHours": 38.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1210320/e0a089daf3bfb668d42375e2e3d1f9c1184bb80f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1210320/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1210320/header.jpg?t=1775228161",
       "genres": [
         "Indie",
         "Simulation"
@@ -2284,7 +2284,7 @@
       "name": "VEGAS Movie Studio 14 Platinum Steam Edition",
       "playtimeHours": 38.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/523120/797bed1ef3d38ae047109aa8ed3be2e86c7a43ac.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/523120/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/523120/header.jpg?t=1667234073",
       "genres": [
         "Video Production"
       ],
@@ -2298,7 +2298,7 @@
       "name": "Chillquarium",
       "playtimeHours": 38.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2276930/14100944fb543efc582dd0e39e18622e89387044.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2276930/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2276930/header.jpg?t=1751390547",
       "genres": [
         "Casual",
         "Simulation"
@@ -2318,7 +2318,7 @@
       "name": "(the) Gnorp Apologue",
       "playtimeHours": 38.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1473350/c0ce2ae2660a7d0590b777e2cdbc6395d78e99c3.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1473350/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1473350/header.jpg?t=1766095692",
       "genres": [
         "Casual",
         "Indie",
@@ -2340,7 +2340,7 @@
       "name": "Ancestors: The Humankind Odyssey ",
       "playtimeHours": 38.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/536270/13e10516c1ae778fa3ab5a404aa0a2516d2d5182.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/536270/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/536270/header.jpg?t=1765224027",
       "genres": [
         "Action",
         "Adventure",
@@ -2364,7 +2364,7 @@
       "name": "Generation Zero®",
       "playtimeHours": 37.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/704270/8e55fc5328374be6e476a6f97ee4e4209de272cf.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/704270/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/704270/header.jpg?t=1733993638",
       "genres": [
         "Action",
         "Adventure"
@@ -2389,7 +2389,7 @@
       "name": "Tabletop Simulator",
       "playtimeHours": 37.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/286160/19f5b90e3c7084758f885ded843631b13929fa26.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/286160/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg?t=1772387518",
       "genres": [
         "Casual",
         "Indie",
@@ -2423,7 +2423,7 @@
       "name": "Hollow Knight",
       "playtimeHours": 37.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/367520/f6ab055c2366237200b1a31cccbd6cf81e436d72.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1770338567",
       "genres": [
         "Action",
         "Adventure",
@@ -2449,7 +2449,7 @@
       "name": "Saints Row IV",
       "playtimeHours": 36.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/206420/211c502e385781a17b4d02cad7a3ef53f09f1e91.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/206420/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206420/header.jpg?t=1764670979",
       "genres": [
         "Action",
         "Adventure"
@@ -2491,7 +2491,7 @@
       "name": "Spec Ops: The Line",
       "playtimeHours": 35.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/50300/55ae859a90d61c08f18ed3aa0ee2579169d2c2bf.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/50300/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/50300/header.jpg?t=1706567828",
       "genres": [
         "Action",
         "Adventure"
@@ -2516,7 +2516,7 @@
       "name": "Battlefield™ V",
       "playtimeHours": 35.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1238810/23ded6a957b5ec7525679c2e7bdac90c0653dbc8.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238810/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg?t=1772707365",
       "genres": [
         "Action"
       ],
@@ -2539,7 +2539,7 @@
       "name": "Dungelot : Shattered Lands",
       "playtimeHours": 34.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/403940/3492819436d0efc16b6c94fda0f8ba277d44c2c9.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/403940/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403940/header.jpg?t=1725623359",
       "genres": [
         "Action",
         "Indie",
@@ -2560,7 +2560,7 @@
       "name": "High On Life",
       "playtimeHours": 34.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1583230/edf77785498d06effc5d8c4db72c0d364978b66f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1583230/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1583230/header.jpg?t=1752869049",
       "genres": [
         "Action",
         "Adventure"
@@ -2582,7 +2582,7 @@
       "name": "Beat Saber",
       "playtimeHours": 34.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/620980/d2922f271fca9579ecdcc07408cee13d87ca4148.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/3067664ee110fed550f5c3a1b74340cabd7d53f0/header.jpg?t=1774871210",
       "genres": [
         "Indie"
       ],
@@ -2606,7 +2606,7 @@
       "name": "Overcooked! 2",
       "playtimeHours": 34.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/728880/bac36f471109038ae0b40619de4109d475f86a54.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/header.jpg?t=1774973780",
       "genres": [
         "Action",
         "Casual",
@@ -2639,7 +2639,7 @@
       "name": "Metro: Last Light Redux",
       "playtimeHours": 33.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/287390/7139b7af2ad9d248d21e98302b964cd61474318c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/287390/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/header.jpg?t=1725444535",
       "genres": [
         "Action"
       ],
@@ -2661,7 +2661,7 @@
       "name": "Ace of Spades",
       "playtimeHours": 33.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/224540/78082d2c84f67cfb7bd75e9b42c7c412259608bb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/224540/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224540/header.jpg?t=1636677126",
       "genres": [
         "Action",
         "Indie"
@@ -2683,7 +2683,7 @@
       "name": "PEAK",
       "playtimeHours": 33.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3527290/b3a992fd5991bd2f4c956d58e062b0ce2988d6cd.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3527290/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1775581133",
       "genres": [
         "Action",
         "Adventure",
@@ -2709,7 +2709,7 @@
       "name": "Pixel Piracy",
       "playtimeHours": 33.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/264140/f9f7a780e965a53d7efb2f7a6555580ccb5c0117.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/264140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264140/header.jpg?t=1703187003",
       "genres": [
         "Adventure",
         "Indie",
@@ -2731,7 +2731,7 @@
       "name": "Subnautica",
       "playtimeHours": 32.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/264710/8a14ceef6e230330a916d7a6324b8c52d464d569.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/264710/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1774323987",
       "genres": [
         "Adventure",
         "Indie"
@@ -2755,7 +2755,7 @@
       "name": "Little Big Workshop",
       "playtimeHours": 31.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/574720/5454053a0b47c72840b477a741c970d8f8f9d75c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/574720/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/574720/4ff5560c7503df436fd54fc6c28296e2c56df826/header.jpg?t=1770373859",
       "genres": [
         "Simulation",
         "Strategy"
@@ -2775,7 +2775,7 @@
       "name": "The Ascent",
       "playtimeHours": 31.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/979690/ced822d46392fcb97daaeb303523b7ff5defecd7.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/979690/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979690/header.jpg?t=1772590323",
       "genres": [
         "Action",
         "Adventure",
@@ -2804,7 +2804,7 @@
       "name": "Far Cry 4",
       "playtimeHours": 31.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/298110/be1366a047a515ed2275aa500a36a50de587b7a7.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/header.jpg?t=1764168324",
       "genres": [
         "Action",
         "Adventure"
@@ -2828,7 +2828,7 @@
       "name": "Far Cry 5",
       "playtimeHours": 31.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/552520/928df2d32021f480499a97458068f62c45298e7a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg?t=1762190084",
       "genres": [
         "Action",
         "Adventure"
@@ -2853,7 +2853,7 @@
       "name": "V Rising",
       "playtimeHours": 30.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1604030/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
       "genres": [
         "Action",
         "Adventure",
@@ -2882,7 +2882,7 @@
       "name": "House Flipper",
       "playtimeHours": 30.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/613100/4ab6e7c49f3f0c063dfe08ab85038c979301f6dd.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/613100/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/6cee40fe293f0bab47534e78bcda64487902efc1/header.jpg?t=1775632015",
       "genres": [
         "Indie",
         "Simulation"
@@ -2905,7 +2905,7 @@
       "name": "Left 4 Dead 2",
       "playtimeHours": 30,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/550/7d5a243f9500d2f8467312822f8af2a2928777ed.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
       "genres": [
         "Action"
       ],
@@ -2934,7 +2934,7 @@
       "name": "20 Minutes Till Dawn",
       "playtimeHours": 29.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1966900/b29417f962eda1797bafb8cca89c7c13bb768682.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1966900/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966900/header.jpg?t=1775331286",
       "genres": [
         "Action",
         "Adventure",
@@ -2959,7 +2959,7 @@
       "name": "Portal 2",
       "playtimeHours": 28.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/620/25a5a16b2423bf7487ac5340b5b0948cef48c5f8.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004",
       "genres": [
         "Action",
         "Adventure"
@@ -2989,7 +2989,7 @@
       "name": "Dorfromantik",
       "playtimeHours": 28.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1455840/c7f24bc1facf1af3378ad655eed2dee7acc5c7b2.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1455840/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1455840/header.jpg?t=1769357001",
       "genres": [
         "Casual",
         "Indie",
@@ -3013,7 +3013,7 @@
       "name": "Far Cry 2",
       "playtimeHours": 28.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/19900/c73f0c967f77518128c6f2a3f0c4069ff49b1441.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/19900/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/19900/header.jpg?t=1709317476",
       "genres": [
         "Action"
       ],
@@ -3030,7 +3030,7 @@
       "name": "Metro 2033 Redux",
       "playtimeHours": 28,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/286690/353ea01a045c084215bca95519808eaa7319ce0c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/286690/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286690/header.jpg?t=1741110084",
       "genres": [
         "Action"
       ],
@@ -3051,7 +3051,7 @@
       "name": "The Witness",
       "playtimeHours": 27.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/210970/5406b4e33862420abfb60a23e581cad2a1ec85f7.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/210970/header.jpg?t=1720810823",
       "genres": [
         "Adventure",
         "Indie"
@@ -3075,7 +3075,7 @@
       "name": "Train Station Renovation",
       "playtimeHours": 27.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/914010/022d44ea24c2b73df8538b1a621eb5d815f9f4e2.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/914010/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/914010/header.jpg?t=1760606809",
       "genres": [
         "Casual",
         "Indie",
@@ -3096,7 +3096,7 @@
       "name": "The Stanley Parable",
       "playtimeHours": 27.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/221910/d4958966dbc02d7a282c52552f71ce6910957b63.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/221910/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221910/header.jpg?t=1765834020",
       "genres": [
         "Adventure",
         "Indie"
@@ -3121,7 +3121,7 @@
       "name": "REMATCH",
       "playtimeHours": 27.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2138720/fe863eabc2365b3a7bce66297d95f843867cc483.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2138720/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138720/header.jpg?t=1774538788",
       "genres": [
         "Action",
         "Indie",
@@ -3147,7 +3147,7 @@
       "name": "My Little Spider",
       "playtimeHours": 27.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3854330/01be27be26ecc17e088b4e84795102af8a543d7b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3854330/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3854330/52799d1b98e7d05800588135af93709b586bebec/header.jpg?t=1763000229",
       "genres": [
         "Adventure",
         "Casual",
@@ -3169,7 +3169,7 @@
       "name": "Dead Island Definitive Edition",
       "playtimeHours": 26.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/383150/80d0dabca21c70909e63682512a24ce66c4f5c3b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/383150/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383150/header.jpg?t=1725361899",
       "genres": [
         "Action"
       ],
@@ -3194,7 +3194,7 @@
       "name": "Wolfenstein II: The New Colossus",
       "playtimeHours": 26.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/612880/fd5c894c47b49a7d5e46e7ed60d6f1fdf60d210d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/612880/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612880/header.jpg?t=1750784115",
       "genres": [
         "Action"
       ],
@@ -3216,7 +3216,7 @@
       "name": "OVR Advanced Settings",
       "playtimeHours": 26.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1009850/fa8eecdff0e044b5aad401e027fcdc53e8282690.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1009850/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1009850/header.jpg?t=1715384916",
       "genres": [
         "Utilities"
       ],
@@ -3233,7 +3233,7 @@
       "name": "LEGO® Star Wars™: The Complete Saga",
       "playtimeHours": 26.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/32440/096307d4ae0decd6a331e381f8dd464d75e3d9d6.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/32440/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/32440/header.jpg?t=1604517910",
       "genres": [
         "Adventure"
       ],
@@ -3256,7 +3256,7 @@
       "name": "Sanctum 2",
       "playtimeHours": 26.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/210770/4cdfa1d19be460374a111b718ce3a204f21ea1dc.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/210770/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/210770/75bbb195391cac2943e0b51468e0561fab1261f7/header.jpg?t=1774270979",
       "genres": [
         "Action",
         "Indie",
@@ -3283,7 +3283,7 @@
       "name": "Duet",
       "playtimeHours": 26.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/292600/5ca5bee5c2525cfb00fbb47d9ec522f083d7c63b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/292600/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292600/header.jpg?t=1697670314",
       "genres": [
         "Action",
         "Indie"
@@ -3305,7 +3305,7 @@
       "name": "Golf With Your Friends",
       "playtimeHours": 26.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/431240/c6379c8ec66ac02565f1155bf3821b846164d93c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/431240/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431240/header.jpg?t=1771860670",
       "genres": [
         "Casual",
         "Indie",
@@ -3334,7 +3334,7 @@
       "name": "Hero Siege",
       "playtimeHours": 26,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/269210/c787f8aa68ebb1426c5a9633b7609d7e849c1bc2.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/269210/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/269210/1d4674142878a3683379122f28537a784d1c5c56/header.jpg?t=1775210178",
       "genres": [
         "Action",
         "Adventure",
@@ -3366,7 +3366,7 @@
       "name": "BATTALION: Legacy",
       "playtimeHours": 25.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/489940/56876299e611314a6e0857e3996ba1c204b24249.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/489940/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489940/header.jpg?t=1660846889",
       "genres": [
         "Action",
         "Free To Play"
@@ -3384,7 +3384,7 @@
       "name": "Chivalry 2",
       "playtimeHours": 25.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1824220/c3f16bfc0ab3bed369a63309e1f0e33d3f9ccce5.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1824220/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824220/header.jpg?t=1744201613",
       "genres": [
         "Action",
         "Massively Multiplayer"
@@ -3408,7 +3408,7 @@
       "name": "Call of Duty: Modern Warfare 2 (2009)",
       "playtimeHours": 25.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/10180/ad502494f1658220f9166c7e17ac90422bf6a479.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/10180/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg?t=1748044299",
       "genres": [
         "Action"
       ],
@@ -3429,7 +3429,7 @@
       "name": "You Suck at Parking® - Complete Edition",
       "playtimeHours": 25,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/837880/4dce460b9d3c46066c3a4e5fcb2484acc2ebc624.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/837880/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837880/header.jpg?t=1753707913",
       "genres": [
         "Action",
         "Indie",
@@ -3456,7 +3456,7 @@
       "name": "BioShock Infinite",
       "playtimeHours": 24.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/8870/4ebaf5f9ee74f50152f7ff361debef7553fa0e4e.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/8870/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/header.jpg?t=1728673518",
       "genres": [
         "Action"
       ],
@@ -3479,7 +3479,7 @@
       "name": "Among Us",
       "playtimeHours": 24.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/945360/b82c3f46da8f3c918e1c9e0d18bd6fa8fcef6801.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1757444903",
       "genres": [
         "Casual"
       ],
@@ -3508,7 +3508,7 @@
       "name": "Tiny Rogues",
       "playtimeHours": 24.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2088570/7ec7eebf0e29881f26fb55fa9e031e6228941811.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2088570/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2088570/header.jpg?t=1757771623",
       "genres": [
         "Action",
         "Adventure",
@@ -3533,7 +3533,7 @@
       "name": "Tales of the Orient: The Rising Sun",
       "playtimeHours": 24.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/339160/d761a0f46e033f019f82e939789e5cb1b12752aa.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/339160/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/339160/header.jpg?t=1739448313",
       "genres": [
         "Casual",
         "Indie"
@@ -3553,7 +3553,7 @@
       "name": "Soundpad",
       "playtimeHours": 23.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/629520/f261c8f5948de73428a1dbed573ec964fcbecb67.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/629520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/629520/header.jpg?t=1760026851",
       "genres": [
         "Audio Production",
         "Utilities"
@@ -3568,7 +3568,7 @@
       "name": "Wolfenstein: The New Order",
       "playtimeHours": 23.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/201810/965b8943ad172d8cf0c74e86068b4aa670aba92c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/201810/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201810/header.jpg?t=1750784496",
       "genres": [
         "Action"
       ],
@@ -3589,7 +3589,7 @@
       "name": "Neophyte",
       "playtimeHours": 23.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1409530/e219edda3bdc7f92b508286e77b79d2097d328b5.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1409530/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1409530/header.jpg?t=1711505511",
       "genres": [
         "Action",
         "Indie",
@@ -3612,7 +3612,7 @@
       "name": "Breathedge",
       "playtimeHours": 23,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/738520/be75f36a24abb31bfbbf1220e801c61ed477c03a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/738520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/738520/header.jpg?t=1775232655",
       "genres": [
         "Action",
         "Adventure",
@@ -3637,7 +3637,7 @@
       "name": "Geometry Dash",
       "playtimeHours": 22.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/322170/7fb2e71773468dbd98d56c733b604c92f5ab0ad4.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg?t=1775300400",
       "genres": [
         "Action",
         "Indie"
@@ -3661,7 +3661,7 @@
       "name": "Hammerwatch",
       "playtimeHours": 22.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/239070/2d07672b1ccb294a5986ebc36c4138216c55d60d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/239070/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239070/1719e8fc3bd6d9289fca3a55eafebfdb32204074/header.jpg?t=1775655744",
       "genres": [
         "Action",
         "Adventure",
@@ -3690,7 +3690,7 @@
       "name": "Half-Life 2",
       "playtimeHours": 22.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/220/fcfb366051782b8ebf2aa297f3b746395858cb62.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/220/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/header.jpg?t=1745368545",
       "genres": [
         "Action"
       ],
@@ -3714,7 +3714,7 @@
       "name": "Far Cry",
       "playtimeHours": 22,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/13520/76f5a80c061ffb5553619fc2b54e6e3a44dfd0fb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/13520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13520/header.jpg?t=1602602361",
       "genres": [
         "Action"
       ],
@@ -3730,7 +3730,7 @@
       "name": "Karate Survivor",
       "playtimeHours": 21.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3027930/ee9db65005dc88e4a69b266e584e27890b926f08.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3027930/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3027930/header.jpg?t=1773119892",
       "genres": [
         "Action",
         "Casual",
@@ -3753,7 +3753,7 @@
       "name": "Far Cry Primal",
       "playtimeHours": 21.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/371660/5b8109f8e71bc8b5c295d6972b841ffb92702ef0.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/371660/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371660/header.jpg?t=1772640435",
       "genres": [
         "Action",
         "Adventure"
@@ -3790,7 +3790,7 @@
       "name": "EDGE",
       "playtimeHours": 21.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/38740/a80d29a04b9c8bbd4762e9cb265784fa18a085ae.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/38740/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/38740/header.jpg?t=1596256602",
       "genres": [
         "Action",
         "Indie"
@@ -3812,7 +3812,7 @@
       "name": "Slime Rancher",
       "playtimeHours": 21.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/433340/814236b2c3a100cf76b00390585f351708e4c1e4.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433340/header.jpg?t=1758651509",
       "genres": [
         "Action",
         "Adventure",
@@ -3839,7 +3839,7 @@
       "name": "HOT WHEELS UNLEASHED™",
       "playtimeHours": 21.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1271700/9858624f92471c7228e99e038b2d61aa070e8a7a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1271700/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1271700/header.jpg?t=1725035139",
       "genres": [
         "Racing"
       ],
@@ -3863,7 +3863,7 @@
       "name": "Kingdom Two Crowns",
       "playtimeHours": 21.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/701160/7bf44c4e301a0f6fae78f697b39b5a1268223945.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/701160/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/701160/d72cfd4ce3ae1d24e54bf05d6255d56b6e20d5b5/header.jpg?t=1773147635",
       "genres": [
         "Adventure",
         "Indie",
@@ -3895,7 +3895,7 @@
       "name": "The LEGO® Movie - Videogame",
       "playtimeHours": 20.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/267530/74b77a8e64398e29d6d53bd10a07975f73bf1b70.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/267530/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/267530/header.jpg?t=1773444148",
       "genres": [
         "Action",
         "Adventure"
@@ -3922,7 +3922,7 @@
       "name": "Age of Empires® III (2007)",
       "playtimeHours": 20.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/105450/6fd62f99d3d245868d83af54eb60def5d1667402.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/105450/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105450/header.jpg?t=1728423545",
       "genres": [
         "Simulation",
         "Strategy"
@@ -3940,7 +3940,7 @@
       "name": "Lost Castle",
       "playtimeHours": 20.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/434650/8462ea7ace0444710f30a8681714b57a4a7643d6.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/434650/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/434650/header.jpg?t=1759298493",
       "genres": [
         "Action",
         "Adventure",
@@ -3974,7 +3974,7 @@
       "name": "Little Nightmares",
       "playtimeHours": 20.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/424840/1904c041f963b5e2cb22b56c370444517cc4e288.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/424840/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/424840/facf9a7a675c6d7f210d96d6b111caffe0386cd5/header.jpg?t=1773135169",
       "genres": [
         "Adventure"
       ],
@@ -3996,7 +3996,7 @@
       "name": "Crysis 3 Remastered",
       "playtimeHours": 20,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2096610/0c3330f540a6fbce8123110357608e6a36fff1fb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2096610/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2096610/header.jpg?t=1709652109",
       "genres": [
         "Action"
       ],
@@ -4017,7 +4017,7 @@
       "name": "Assassin's Creed II",
       "playtimeHours": 19.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/33230/0492d8ee860ac99168e46efeb003029c3224cb38.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/33230/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg?t=1682004272",
       "genres": [
         "Action",
         "Adventure"
@@ -4034,7 +4034,7 @@
       "name": "ibb & obb",
       "playtimeHours": 19.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/95400/1e179e3aa2f16e00d4baf3c978554ea20a8890d0.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/95400/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/95400/header.jpg?t=1725230107",
       "genres": [
         "Action",
         "Adventure",
@@ -4060,7 +4060,7 @@
       "name": "Golf It!",
       "playtimeHours": 19.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/571740/70b58cf94333587a69cf93c7e4a4241500928251.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/571740/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/571740/header.jpg?t=1707842297",
       "genres": [
         "Casual",
         "Indie",
@@ -4092,7 +4092,7 @@
       "name": "Counter-Strike: Source",
       "playtimeHours": 19.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/240/9052fa60c496a1c03383b27687ec50f4bf0f0e10.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/240/header.jpg?t=1745368575",
       "genres": [
         "Action"
       ],
@@ -4112,7 +4112,7 @@
       "name": "TEKKEN 7",
       "playtimeHours": 19.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/389730/fe025a6f9a666b3839fe0a2591542dc98844643f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/389730/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/389730/header.jpg?t=1765812753",
       "genres": [
         "Action",
         "Sports"
@@ -4139,7 +4139,7 @@
       "name": "Cat Quest",
       "playtimeHours": 19.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/593280/8cdb631e4334e79e61f33e0c1d37d26507f06712.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/593280/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/593280/69324384b1da76cab8a6215c42f5d5f34a0e1290/header.jpg?t=1756984217",
       "genres": [
         "Action",
         "Adventure",
@@ -4165,7 +4165,7 @@
       "name": "Happy Room",
       "playtimeHours": 19,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/550010/8e0130041429101f0756d9686220ef0a54dd525a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/550010/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550010/header.jpg?t=1755238751",
       "genres": [
         "Action",
         "Indie",
@@ -4186,7 +4186,7 @@
       "name": "Ghostrunner",
       "playtimeHours": 18.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1139900/ed987f3c8a114549fca26e0c2e9bbc62a9691d57.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1139900/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139900/header.jpg?t=1727712844",
       "genres": [
         "Action"
       ],
@@ -4207,7 +4207,7 @@
       "name": "Far Cry® 3",
       "playtimeHours": 18.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/220240/8231f43d3dd47fb4b4111fd6bd4a849e73eb0520.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220240/header.jpg?t=1752169206",
       "genres": [
         "Action",
         "Adventure"
@@ -4231,7 +4231,7 @@
       "name": "Half-Life: Alyx",
       "playtimeHours": 18.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/546560/225032ac2ad1aca8f5fd98baa2b9daf1eebea5ca.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/546560/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg?t=1762986588",
       "genres": [
         "Action",
         "Adventure"
@@ -4255,7 +4255,7 @@
       "name": "Patrick's Parabox",
       "playtimeHours": 18.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1260520/bab6408283de26821edc28fad609fdfcca382781.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1260520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260520/header.jpg?t=1745611653",
       "genres": [
         "Casual",
         "Indie",
@@ -4278,7 +4278,7 @@
       "name": "Perseus: Titan Slayer",
       "playtimeHours": 18.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2003050/83b47c513b4f482dbc52529126b13f717eb15dd8.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2003050/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2003050/header.jpg?t=1721738689",
       "genres": [
         "Action",
         "Adventure",
@@ -4300,7 +4300,7 @@
       "name": "Scrapnaut",
       "playtimeHours": 18.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1323900/e1eeb323e594055d1d32f3d60b7899d70e248b9c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1323900/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1323900/cbab69ccce60fd51bc2cf5f2b6a2af5ab4b15dfb/header.jpg?t=1770728819",
       "genres": [
         "Indie"
       ],
@@ -4324,7 +4324,7 @@
       "name": "SUPERHOT",
       "playtimeHours": 18.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/322500/81839f0d50cb3e54c9aa7c69c04916f1e53d8c35.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/322500/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322500/header.jpg?t=1726509130",
       "genres": [
         "Action",
         "Indie"
@@ -4349,7 +4349,7 @@
       "name": "Don't Starve Together",
       "playtimeHours": 18.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/322330/a80aa6cff8eebc1cbc18c367d9ab063e1553b0ee.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/322330/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/51e5f44e4e38ce02a985687df4fdc8feb678219b/header.jpg?t=1775799180",
       "genres": [
         "Action",
         "Adventure",
@@ -4381,7 +4381,7 @@
       "name": "Unrailed!",
       "playtimeHours": 17.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1016920/d52e7b3ffc58010b2792160e07ce6834f8c3d80b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1016920/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1016920/header.jpg?t=1773842519",
       "genres": [
         "Action",
         "Casual",
@@ -4415,7 +4415,7 @@
       "name": "Arcade Tycoon",
       "playtimeHours": 17.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/750520/75bd86ef39c12ea2d73c033035d964002657263f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750520/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750520/header.jpg?t=1718872694",
       "genres": [
         "Casual",
         "Indie",
@@ -4437,7 +4437,7 @@
       "name": "Call of Duty®: Modern Warfare®",
       "playtimeHours": 17.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2000950/dec4f33dfa8c3a47cfadb3a8ef0629740caa536d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/header.jpg?t=1678294805",
       "genres": [],
       "playerModes": [],
       "hardwareSupport": [],
@@ -4452,7 +4452,7 @@
       "name": "Ghostrunner 2",
       "playtimeHours": 17.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2144740/39fc0a6b7051f744c725f1fc518a8996b859e86d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2144740/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header.jpg?t=1741369902",
       "genres": [
         "Action",
         "Adventure",
@@ -4475,7 +4475,7 @@
       "name": "Papers, Please",
       "playtimeHours": 17.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/239030/102e22fc7e0689cb5a9d8cfdd5a6725d571d1a0f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/239030/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239030/header.jpg?t=1678266428",
       "genres": [
         "Adventure",
         "Indie"
@@ -4498,7 +4498,7 @@
       "name": "Wolfenstein: The Old Blood ",
       "playtimeHours": 17.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/350080/e45bc4d7a8233546c74f1cbba4e7d7a02bfc53a0.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/350080/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/350080/header.jpg?t=1750784023",
       "genres": [
         "Action"
       ],
@@ -4519,7 +4519,7 @@
       "name": "The Elder Scrolls Online",
       "playtimeHours": 17.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/306130/2a0f43963c08a3755682adb2369918c9ad07ef1b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/306130/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/ec07d0bdeb484c72a88f6c4427871736d091c3fc/header.jpg?t=1775577634",
       "genres": [
         "Action",
         "Adventure",
@@ -4544,7 +4544,7 @@
       "name": "LEGO® Batman™ 2: DC Super Heroes",
       "playtimeHours": 17.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/213330/92446ccf0abc6ab3e716251c0004acda5c3b13fd.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/213330/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/213330/header.jpg?t=1755185006",
       "genres": [
         "Action",
         "Adventure"
@@ -4568,7 +4568,7 @@
       "name": "Call of Duty: Modern Warfare Remastered (2017)",
       "playtimeHours": 17.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/393080/ed487167f0b2f5a7dfc61d8cb6b98b4be2d81e6f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/393080/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/header.jpg?t=1748021557",
       "genres": [
         "Action"
       ],
@@ -4591,7 +4591,7 @@
       "name": "Green Hell",
       "playtimeHours": 16.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/815370/d118d766ef0107189e71b1410bebe13831b70d7b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/815370/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg?t=1774600969",
       "genres": [
         "Action",
         "Adventure",
@@ -4619,7 +4619,7 @@
       "name": "Boneraiser Minions",
       "playtimeHours": 16.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1944570/ef2c57b71a334c6e86a87284b58d059dc98c104a.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1944570/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1944570/header.jpg?t=1733234278",
       "genres": [
         "Action",
         "Casual",
@@ -4644,7 +4644,7 @@
       "name": "Unravel",
       "playtimeHours": 16.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1225560/6746371712b83b3c45e282862ad3f466b6a791d9.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1225560/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225560/header.jpg?t=1598618701",
       "genres": [
         "Action",
         "Adventure"
@@ -4666,7 +4666,7 @@
       "name": "My Friend Pedro",
       "playtimeHours": 16.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/557340/734deb65d5561961595a190fa2d2adf61d607efe.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/557340/header.jpg?t=1745954928",
       "genres": [
         "Action",
         "Indie"
@@ -4691,7 +4691,7 @@
       "name": "KILLRUN",
       "playtimeHours": 16.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1442170/56410dc9089fe1b8855501a1196987f647a3a035.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1442170/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442170/header.jpg?t=1771420673",
       "genres": [
         "Action",
         "Racing"
@@ -4711,7 +4711,7 @@
       "name": "Swag and Sorcery",
       "playtimeHours": 16.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/929010/327b80851fc1f7d01fa561f8066674a90e0cc43e.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/929010/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/929010/header.jpg?t=1775826402",
       "genres": [
         "Adventure",
         "Indie",
@@ -4734,7 +4734,7 @@
       "name": "The LEGO® Movie 2 - Videogame",
       "playtimeHours": 16.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/881320/ca06ccae43dd30763edcfee98e0f75cab2ecb2cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/881320/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881320/header.jpg?t=1758528940",
       "genres": [
         "Adventure"
       ],
@@ -4762,7 +4762,7 @@
       "name": "oO",
       "playtimeHours": 16.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/367570/c4d44b8ac44c2ba529a0c6719c0d50fe772d6626.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/367570/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367570/header.jpg?t=1728467138",
       "genres": [
         "Action",
         "Indie"
@@ -4782,7 +4782,7 @@
       "name": "Call of Duty: WWII",
       "playtimeHours": 16,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/476600/9cc56555b04419785037d36362b71e2854daa69c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/476600/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg?t=1751302904",
       "genres": [
         "Action"
       ],
@@ -4810,7 +4810,7 @@
       "name": "Sniper Elite V2",
       "playtimeHours": 15.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/63380/0092da2541424d4c1d10c1757dcb8104c37323ac.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/63380/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/63380/header.jpg?t=1601483610",
       "genres": [
         "Action"
       ],
@@ -4833,7 +4833,7 @@
       "name": "Broforce",
       "playtimeHours": 15.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/274190/aade0d272c8df1e1ea7e47d4baea36cb80e8b33d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/274190/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/274190/header.jpg?t=1764247760",
       "genres": [
         "Action",
         "Adventure",
@@ -4867,7 +4867,7 @@
       "name": "Half-Life",
       "playtimeHours": 15.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/70/95be6d131fc61f145797317ca437c9765f24b41c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/70/header.jpg?t=1745368462",
       "genres": [
         "Action"
       ],
@@ -4889,7 +4889,7 @@
       "name": "Halo: The Master Chief Collection",
       "playtimeHours": 15.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/976730/196a45d8df1981ff6b6b1872a38dc38f6c22875d.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/976730/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg?t=1774466074",
       "genres": [
         "Action"
       ],
@@ -4920,7 +4920,7 @@
       "name": "Crysis 2 Remastered",
       "playtimeHours": 15.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2096600/cb25994d3d2d4ea9c605e785c1f5b3db265e2529.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2096600/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2096600/header.jpg?t=1709652029",
       "genres": [
         "Action"
       ],
@@ -4941,7 +4941,7 @@
       "name": "Call of Juarez Gunslinger",
       "playtimeHours": 15.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/204450/b9a00d132852719cd6e6c2be3f3d0fdf669ed7ce.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/204450/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204450/header.jpg?t=1728907994",
       "genres": [
         "Action"
       ],
@@ -4962,7 +4962,7 @@
       "name": "Colin McRae Rally",
       "playtimeHours": 15.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/287340/68f63fecae9d9648bc461433036ec3fa33074ff5.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/287340/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287340/header.jpg?t=1572605431",
       "genres": [
         "Racing",
         "Sports"
@@ -4984,7 +4984,7 @@
       "name": "Minecraft: Story Mode - A Telltale Games Series",
       "playtimeHours": 15.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/376870/4b6ddfa303f24008748894ad65b556251d0bd6a8.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/376870/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/376870/header.jpg?t=1556548617",
       "genres": [
         "Adventure"
       ],
@@ -5005,7 +5005,7 @@
       "name": "Feel The Snow",
       "playtimeHours": 15.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/538100/4c8b0c162b7a5fc3d7b3b081ec9bde49d69237c8.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/538100/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/538100/header.jpg?t=1668273265",
       "genres": [
         "Action",
         "Adventure",
@@ -5035,7 +5035,7 @@
       "name": "gridkeeper",
       "playtimeHours": 15.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3536380/51403db1e8e6161c3b25e152ef6c7e21b519f89c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3536380/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3536380/header.jpg?t=1751558280",
       "genres": [
         "Casual",
         "Indie",
@@ -5057,7 +5057,7 @@
       "name": "Hitman: Absolution",
       "playtimeHours": 15.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/203140/fe5e36ac1548793eb48b6b25b701b37d86fb94a3.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/203140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203140/header.jpg?t=1734461136",
       "genres": [
         "Action"
       ],
@@ -5078,7 +5078,7 @@
       "name": "FAR: Changing Tides",
       "playtimeHours": 15.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1570010/1f22d277a1205cd8bb9167f5d6048fcf13363c40.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1570010/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1570010/header.jpg?t=1769095040",
       "genres": [],
       "playerModes": [],
       "hardwareSupport": [],
@@ -5093,7 +5093,7 @@
       "name": "Far Cry New Dawn",
       "playtimeHours": 15.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/939960/4123e8e644fd7c9d576e405f76f4296869293deb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/939960/header.jpg?t=1750925197",
       "genres": [
         "Action",
         "Adventure"
@@ -5404,7 +5404,7 @@
       "name": "Stray",
       "playtimeHours": 13.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1332010/7794cc0b4e70bd3e4b9a0d07e2570ab8668c5f0b.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/header.jpg?t=1733260906",
       "genres": [],
       "playerModes": [],
       "hardwareSupport": [],
@@ -5611,7 +5611,7 @@
       "name": "Split Fiction",
       "playtimeHours": 12,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2001120/a01dc6ea47db8c74964d581fe9f1f8039e0e4f33.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2001120/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1763484567",
       "genres": [],
       "playerModes": [],
       "hardwareSupport": [],
@@ -5886,6 +5886,21 @@
       "achievements": {
         "total": 103,
         "unlocked": 42
+      }
+    },
+    {
+      "appId": 2294130,
+      "name": "Goobies",
+      "playtimeHours": 11,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 43,
+        "unlocked": 24
       }
     },
     {
@@ -6882,21 +6897,6 @@
       "achievements": {
         "total": 31,
         "unlocked": 26
-      }
-    },
-    {
-      "appId": 2294130,
-      "name": "Goobies",
-      "playtimeHours": 7.2,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 43,
-        "unlocked": 16
       }
     },
     {
@@ -7979,16 +7979,10 @@
       "playtimeHours": 5.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4038320/ae2cfbb6d918c0d60e6ea43233bb9be6dbe019e5.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4038320/header.jpg",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Dec 11, 2025",
+      "releaseDate": null,
       "achievements": {
         "total": 12,
         "unlocked": 12
@@ -9482,21 +9476,10 @@
       "playtimeHours": 2.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3788810/8618640cbbc0986b27ca82d376b36883b84402e9.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3788810/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie",
-        "RPG",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Jun 6, 2025",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 3,
         "unlocked": 3
@@ -10369,18 +10352,10 @@
       "playtimeHours": 2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3565100/32e39b1e687c320bd1c0f6519a5518f1471d6bcc.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3565100/header.jpg",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "Dec 8, 2025",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 35,
         "unlocked": 35
@@ -42379,17 +42354,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/809060/23776675e7d079f44a5be3db0d4d65b50ec8ddbe.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/809060/header.jpg",
-      "genres": [
-        "Adventure",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Mar 6, 2024",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 26,
         "unlocked": 0
@@ -50720,16 +50688,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1282410/5b3dee691b828e2a844d8d20bd1f159c12329757.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1282410/header.jpg",
-      "genres": [
-        "Action",
-        "RPG",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Aug 4, 2022",
+      "releaseDate": null,
       "achievements": {
         "total": 38,
         "unlocked": 0
@@ -51812,20 +51774,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1359090/435172a2df3695389d00ea2c78d820c9e748f01e.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1359090/header.jpg",
-      "genres": [
-        "Action",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "Co-op",
-        "Online Co-op"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Sep 9, 2024",
+      "releaseDate": null,
       "achievements": {
         "total": 25,
         "unlocked": 0
@@ -52848,21 +52800,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1442530/c39b86c16ba32b0eb76f15ffc9e3177484076be5.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1442530/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "RPG",
-        "Simulation",
-        "Early Access"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Oct 28, 2025",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 13,
         "unlocked": 0
@@ -53333,17 +53274,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1486920/23b7c59c0ceb0210b81cfffdbdb1ec2e2bbbe279.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1486920/header.jpg",
-      "genres": [
-        "Action",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Apr 24, 2025",
+      "releaseDate": null,
       "achievements": {
         "total": 98,
         "unlocked": 0
@@ -53385,14 +53319,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1489680/aadbf60a0c7bbe23899b47b902439354f4f860a7.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1489680/header.jpg",
-      "genres": [
-        "Casual"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Dec 15, 2020",
+      "releaseDate": null,
       "achievements": {
         "total": 8,
         "unlocked": 0
@@ -53434,15 +53364,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1491720/cbb5defdd591d4e8b3cbdf0ac3a484f74eeca2c1.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1491720/header.jpg",
-      "genres": [
-        "Casual",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Dec 18, 2020",
+      "releaseDate": null,
       "achievements": {
         "total": 5,
         "unlocked": 0
@@ -54582,24 +54507,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1607680/fcfff47466da4d40a2f1aa12fc941e2955f55038.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1607680/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op",
-        "Shared/Split Screen Co-op"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play Together"
-      ],
-      "releaseDate": "May 23, 2023",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 26,
         "unlocked": 0
@@ -55721,21 +55632,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1763250/7826d78ceea3256381284e688368539b83b91e24.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1763250/header.jpg",
-      "genres": [
-        "Action",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Sep 23, 2025",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 31,
         "unlocked": 0
@@ -55921,18 +55821,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1810820/d9ba15fa10aea4338b48d3c00d4ca7d61001a9c9.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1810820/header.jpg",
-      "genres": [
-        "Adventure",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Jun 14, 2023",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 29,
         "unlocked": 0
@@ -56589,17 +56481,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1931770/99618001a2111dd020f1fc957c5c47c0d6d5d327.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1931770/header.jpg",
-      "genres": [
-        "Adventure",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Sep 5, 2023",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 25,
         "unlocked": 0
@@ -56832,7 +56717,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 110,
+        "total": 127,
         "unlocked": 0
       }
     },
@@ -57052,24 +56937,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2058140/6985e662248d2b7d3b9aa3aca21b73f7b8becb1b.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2058140/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Shared/Split Screen Co-op"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on TV",
-        "Remote Play Together"
-      ],
-      "releaseDate": "Sep 16, 2025",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 30,
         "unlocked": 0
@@ -58833,17 +58704,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3219410/c4432e9d75cb153cd11853fc6b00db09bdffcd93.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3219410/header.jpg",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
+      "genres": [],
+      "playerModes": [],
       "hardwareSupport": [],
-      "releaseDate": "Sep 12, 2025",
+      "releaseDate": null,
       "achievements": {
         "total": 13,
         "unlocked": 0
@@ -59032,17 +58896,10 @@
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3839300/9a27852c03571afabe5ea87db682a8ba505b98a3.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3839300/header.jpg",
-      "genres": [
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Dec 10, 2025",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
       "achievements": {
         "total": 19,
         "unlocked": 0
