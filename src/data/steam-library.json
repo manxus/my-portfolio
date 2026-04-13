@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-12T07:15:06.914Z",
+  "fetchedAt": "2026-04-13T08:03:54.117Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1775949658
+    "lastLogoff": 1776034378
   },
   "games": [
     {
@@ -5370,6 +5370,21 @@
       }
     },
     {
+      "appId": 2294130,
+      "name": "Goobies",
+      "playtimeHours": 13.3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 43,
+        "unlocked": 29
+      }
+    },
+    {
       "appId": 1426210,
       "name": "It Takes Two",
       "playtimeHours": 13.3,
@@ -5886,21 +5901,6 @@
       "achievements": {
         "total": 103,
         "unlocked": 42
-      }
-    },
-    {
-      "appId": 2294130,
-      "name": "Goobies",
-      "playtimeHours": 11,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 43,
-        "unlocked": 24
       }
     },
     {
@@ -8948,7 +8948,7 @@
       "releaseDate": null,
       "achievements": {
         "total": 33,
-        "unlocked": 3
+        "unlocked": 0
       }
     },
     {
@@ -9438,6 +9438,21 @@
       "achievements": {
         "total": 7,
         "unlocked": 7
+      }
+    },
+    {
+      "appId": 2543510,
+      "name": "GUNTOUCHABLES",
+      "playtimeHours": 3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2543510/ea77a863d8b1c9aee54c2c1af30602c854097273.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2543510/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 79,
+        "unlocked": 17
       }
     },
     {
@@ -11972,7 +11987,7 @@
       "releaseDate": null,
       "achievements": {
         "total": 22,
-        "unlocked": 3
+        "unlocked": 0
       }
     },
     {
@@ -12071,7 +12086,7 @@
       "releaseDate": null,
       "achievements": {
         "total": 50,
-        "unlocked": 7
+        "unlocked": 0
       }
     },
     {
@@ -12581,7 +12596,7 @@
       "releaseDate": null,
       "achievements": {
         "total": 11,
-        "unlocked": 0
+        "unlocked": 1
       }
     },
     {
@@ -12653,7 +12668,7 @@
       "releaseDate": null,
       "achievements": {
         "total": 14,
-        "unlocked": 1
+        "unlocked": 0
       }
     },
     {
@@ -12737,7 +12752,7 @@
       "releaseDate": null,
       "achievements": {
         "total": 13,
-        "unlocked": 2
+        "unlocked": 0
       }
     },
     {
@@ -58230,21 +58245,6 @@
       "releaseDate": null,
       "achievements": {
         "total": 20,
-        "unlocked": 0
-      }
-    },
-    {
-      "appId": 2543510,
-      "name": "GUNTOUCHABLES",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2543510/ea77a863d8b1c9aee54c2c1af30602c854097273.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2543510/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 79,
         "unlocked": 0
       }
     },
