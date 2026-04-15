@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-14T07:30:36.256Z",
+  "fetchedAt": "2026-04-15T07:30:14.141Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1776148455
+    "lastLogoff": 1776236451
   },
   "games": [
     {
@@ -5727,6 +5727,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 11.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 26
+      }
+    },
+    {
       "appId": 257510,
       "name": "The Talos Principle",
       "playtimeHours": 11.8,
@@ -5886,21 +5901,6 @@
       "achievements": {
         "total": 77,
         "unlocked": 7
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 11.2,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 25
       }
     },
     {
@@ -37541,7 +37541,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 114,
+        "total": 116,
         "unlocked": 0
       }
     },
@@ -48125,7 +48125,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 89,
+        "total": 87,
         "unlocked": 0
       }
     },
@@ -51475,7 +51475,7 @@
       "appId": 1336490,
       "name": "Against the Storm",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1336490/f26712271f7b0554cc1c6fb0267f122c47cf6e85.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1336490/44ec53399bb08097ee5a348b722b2bfecc04a97c.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1336490/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -71506,6 +71506,20 @@
       "priority": 0,
       "name": "Rivage",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4094660/header.jpg"
+    },
+    {
+      "appId": 2760560,
+      "dateAdded": 1776234621,
+      "priority": 0,
+      "name": "Cthulhu: The Cosmic Abyss",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2760560/header.jpg"
+    },
+    {
+      "appId": 2174380,
+      "dateAdded": 1776234747,
+      "priority": 0,
+      "name": "Call of the Elder Gods",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2174380/header.jpg"
     }
   ]
 }
