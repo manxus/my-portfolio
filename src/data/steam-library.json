@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-15T07:30:14.141Z",
+  "fetchedAt": "2026-04-16T07:31:15.542Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1776236451
+    "lastLogoff": 1776321511
   },
   "games": [
     {
@@ -3970,6 +3970,21 @@
       }
     },
     {
+      "appId": 2294130,
+      "name": "Goobies",
+      "playtimeHours": 20.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 43,
+        "unlocked": 33
+      }
+    },
+    {
       "appId": 424840,
       "name": "Little Nightmares",
       "playtimeHours": 20.1,
@@ -5370,21 +5385,6 @@
       }
     },
     {
-      "appId": 2294130,
-      "name": "Goobies",
-      "playtimeHours": 13.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 43,
-        "unlocked": 29
-      }
-    },
-    {
       "appId": 1426210,
       "name": "It Takes Two",
       "playtimeHours": 13.3,
@@ -5595,6 +5595,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 12.3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 29
+      }
+    },
+    {
       "appId": 3339780,
       "name": "Desktop Survivors 98",
       "playtimeHours": 12.3,
@@ -5724,21 +5739,6 @@
       "achievements": {
         "total": 10,
         "unlocked": 10
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 11.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 26
       }
     },
     {
@@ -12901,18 +12901,6 @@
         "total": 34,
         "unlocked": 0
       }
-    },
-    {
-      "appId": 590830,
-      "name": "s&box",
-      "playtimeHours": 0.2,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/590830/07c8144ef8eb4b0522e7a64429f8f187ff01ee25.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/590830/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": null
     },
     {
       "appId": 291010,
@@ -39158,7 +39146,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 69,
+        "total": 82,
         "unlocked": 0
       }
     },
@@ -71520,6 +71508,20 @@
       "priority": 0,
       "name": "Call of the Elder Gods",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2174380/header.jpg"
+    },
+    {
+      "appId": 3811840,
+      "dateAdded": 1776244682,
+      "priority": 0,
+      "name": "Simultree",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3811840/header.jpg"
+    },
+    {
+      "appId": 2434600,
+      "dateAdded": 1776244733,
+      "priority": 0,
+      "name": "ShantyTown",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2434600/header.jpg"
     }
   ]
 }
