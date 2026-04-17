@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-16T07:31:15.542Z",
+  "fetchedAt": "2026-04-17T07:32:14.744Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1776321511
+    "lastLogoff": 1776407528
   },
   "games": [
     {
@@ -696,7 +696,7 @@
       "appId": 1091500,
       "name": "Cyberpunk 2077",
       "playtimeHours": 135,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1091500/42b9b33fa0f0d997beb299c6157592a8fe7d8f68.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1091500/6897c3848f3e0350d512f59d5bae174a1e3739f9.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
       "genres": [
         "RPG"
@@ -5415,6 +5415,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 13.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 29
+      }
+    },
+    {
       "appId": 1332010,
       "name": "Stray",
       "playtimeHours": 13.2,
@@ -5592,21 +5607,6 @@
       "achievements": {
         "total": 40,
         "unlocked": 40
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 12.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 29
       }
     },
     {
@@ -24099,7 +24099,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 13,
+        "unlocked": 0
+      }
     },
     {
       "appId": 326120,
