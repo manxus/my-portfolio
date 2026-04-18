@@ -7,6 +7,12 @@ import styles from './EditableSection.module.css';
 
 const EditableItemsContext = createContext(null);
 
+function notifyAdminCollectionSaved(collection) {
+  window.dispatchEvent(
+    new CustomEvent('admin-collection-saved', { detail: { collection } }),
+  );
+}
+
 export default function EditableSection({
   collection,
   dataKey,
@@ -63,6 +69,7 @@ export default function EditableSection({
       if (Array.isArray(items)) {
         items.splice(index, 1);
         await saveData(collection, { ...fileData, [dataKey]: items });
+        notifyAdminCollectionSaved(collection);
       }
     } catch (err) {
       console.error('Failed to delete item:', err);
@@ -83,6 +90,7 @@ export default function EditableSection({
     } else {
       await saveData(collection, { ...fileData, [dataKey]: formData });
     }
+    notifyAdminCollectionSaved(collection);
   };
 
   const handleMoveUp = async (index) => {
@@ -92,6 +100,7 @@ export default function EditableSection({
     if (!Array.isArray(items)) return;
     [items[index - 1], items[index]] = [items[index], items[index - 1]];
     await saveData(collection, { ...fileData, [dataKey]: items });
+    notifyAdminCollectionSaved(collection);
   };
 
   const handleMoveDown = async (index) => {
@@ -100,6 +109,7 @@ export default function EditableSection({
     if (!Array.isArray(items) || index >= items.length - 1) return;
     [items[index], items[index + 1]] = [items[index + 1], items[index]];
     await saveData(collection, { ...fileData, [dataKey]: items });
+    notifyAdminCollectionSaved(collection);
   };
 
   return (

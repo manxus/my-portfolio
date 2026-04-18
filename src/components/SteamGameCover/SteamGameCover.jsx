@@ -8,6 +8,7 @@ export function libraryCapsuleUrl(appId) {
 /**
  * Library capsule → header → optional Steam community icon → text placeholder.
  * Icons are tiny; set useIconFallback={false} for large thumbs (e.g. reviews).
+ * Set textFallbackOnly to skip header/icon and use the text tile when the capsule fails.
  */
 export default function SteamGameCover({
   appId,
@@ -18,6 +19,8 @@ export default function SteamGameCover({
   fill = false,
   /** Steam icons are low-res; upscaling them in a big portrait slot looks awful. */
   useIconFallback = true,
+  /** Only try the library capsule; on error show the text placeholder (no header/icon). */
+  textFallbackOnly = false,
   rootClassName = '',
   imageClassName = '',
   alt = '',
@@ -27,10 +30,11 @@ export default function SteamGameCover({
 
   useEffect(() => {
     setPhase('library');
-  }, [id, headerUrl, iconUrl, useIconFallback]);
+  }, [id, headerUrl, iconUrl, useIconFallback, textFallbackOnly]);
 
   const advance = () => {
     setPhase((p) => {
+      if (textFallbackOnly) return 'none';
       if (p === 'library') {
         if (headerUrl) return 'header';
         if (useIconFallback && iconUrl) return 'icon';

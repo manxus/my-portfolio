@@ -320,6 +320,25 @@
         "Poor checkpoint placement",
         "Camera and movement issues"
       ]
+    },
+    {
+      "appId": 4038320,
+      "gameName": "",
+      "rating": 9,
+      "title": "Constant Progression Done Right",
+      "text": "This Ain’t Even Poker, Ya Joker is a really enjoyable incremental game with a lot more depth than it first appears.\n\nMost of your time is spent flipping cards, earning money, expanding your deck, and buying upgrades. It’s satisfying and fun, with a steady stream of things to manage and improve. It gets a little repetitive toward the very end, but the game finishes at about the right time.\n\nWhat really kept me engaged was how many mechanics the game introduces over time. Expeditions, Joker cards, quests, prestige upgrades, and rune crafting all add meaningful progression. Everything scales well and there’s almost always something to do, so it rarely feels idle.\n\nVisually, I liked the top-down perspective in a 3D environment, and I appreciated that many interactable elements actually contribute to gameplay.\n\nSound effects are satisfying, although things can get a bit overwhelming once the game becomes chaotic.\n\nNo technical issues during my playthrough, it felt polished throughout.\n\nOverall, definitely recommended, especially if you’re a fan of incremental games.",
+      "date": "2026-04-18",
+      "recommended": true,
+      "pros": [
+        "Constantly introduces new mechanics",
+        "Meaningful progression and scaling",
+        "Very little downtime, always something to do",
+        "Good pacing and game length",
+        "Satisfying card-combining and upgrade systems"
+      ],
+      "cons": [
+        "Becomes slightly repetitive near the end"
+      ]
     }
   ]
 }

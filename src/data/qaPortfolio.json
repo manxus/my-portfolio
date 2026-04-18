@@ -43,6 +43,36 @@
       "studio": "Game Studio (NDA)",
       "year": "2024",
       "type": "Closed Alpha"
+    },
+    {
+      "title": "Monster Meals: Big Bite Diner",
+      "studio": "Giant Warrior Studio",
+      "year": "2026",
+      "type": "Gameround"
+    },
+    {
+      "title": "PengPong",
+      "studio": "SANDY FLOOR",
+      "year": "2026",
+      "type": "gameround"
+    },
+    {
+      "title": "Demon Lord: Just a Block",
+      "studio": "YuWave Studio",
+      "year": "2026",
+      "type": "gameround"
+    },
+    {
+      "title": "Tokatonton: One-Armed Blacksmith",
+      "studio": "SANDY FLOOR",
+      "year": "2026",
+      "type": "gameround"
+    },
+    {
+      "title": "The Last Squad",
+      "studio": "STOIC Entertainment Inc.",
+      "year": "2026",
+      "type": "gameround"
     }
   ],
   "certificates": []
