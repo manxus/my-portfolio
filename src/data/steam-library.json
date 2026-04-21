@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-20T08:05:13.913Z",
+  "fetchedAt": "2026-04-21T07:34:18.608Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1776663455
+    "lastLogoff": 1776705523
   },
   "games": [
     {
@@ -2148,6 +2148,21 @@
       }
     },
     {
+      "appId": 2294130,
+      "name": "Goobies",
+      "playtimeHours": 40.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 43,
+        "unlocked": 43
+      }
+    },
+    {
       "appId": 207140,
       "name": "SpeedRunners",
       "playtimeHours": 39.4,
@@ -2509,21 +2524,6 @@
       "achievements": {
         "total": 50,
         "unlocked": 50
-      }
-    },
-    {
-      "appId": 2294130,
-      "name": "Goobies",
-      "playtimeHours": 35.6,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2294130/22521336c395b4413cd7729535343290309f2808.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 43,
-        "unlocked": 42
       }
     },
     {
@@ -58349,7 +58349,7 @@
       "name": "Stickman Killing Zombie",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2792610/50352563f217fdb321d4c2f72da144bf255ec334.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2792610/header.jpg?t=1775669825",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2792610/header.jpg?t=1776682916",
       "genres": [
         "Action",
         "Adventure"
@@ -71596,6 +71596,41 @@
       "priority": 0,
       "name": "Forbidden Solitaire",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3414580/header.jpg"
+    },
+    {
+      "appId": 4244510,
+      "dateAdded": 1776711120,
+      "priority": 0,
+      "name": "Pratfall",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4244510/header.jpg"
+    },
+    {
+      "appId": 3744430,
+      "dateAdded": 1776711192,
+      "priority": 0,
+      "name": "Together: Moon Escape",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3744430/header.jpg"
+    },
+    {
+      "appId": 4254050,
+      "dateAdded": 1776711418,
+      "priority": 0,
+      "name": "Retroneer",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4254050/header.jpg"
+    },
+    {
+      "appId": 3133220,
+      "dateAdded": 1776711662,
+      "priority": 0,
+      "name": "MAFATE",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3133220/header.jpg"
+    },
+    {
+      "appId": 4072850,
+      "dateAdded": 1776752240,
+      "priority": 0,
+      "name": "Isle of Food",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4072850/header.jpg"
     }
   ]
 }
