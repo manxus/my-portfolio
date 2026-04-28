@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-27T08:19:34.479Z",
+  "fetchedAt": "2026-04-28T08:21:15.149Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1777267365
+    "lastLogoff": 1777356143
   },
   "games": [
     {
@@ -1976,6 +1976,21 @@
       }
     },
     {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 47.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 19
+      }
+    },
+    {
       "appId": 239140,
       "name": "Dying Light",
       "playtimeHours": 45.6,
@@ -2001,21 +2016,6 @@
       "achievements": {
         "total": 78,
         "unlocked": 52
-      }
-    },
-    {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 44.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 18
       }
     },
     {
@@ -2140,6 +2140,25 @@
       }
     },
     {
+      "appId": 3191030,
+      "name": "Nubby's Number Factory",
+      "playtimeHours": 40.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
+      "genres": [
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 7, 2025",
+      "achievements": {
+        "total": 13,
+        "unlocked": 9
+      }
+    },
+    {
       "appId": 2348610,
       "name": "Slime 3K: Rise Against Despot",
       "playtimeHours": 40.4,
@@ -2160,25 +2179,6 @@
       "achievements": {
         "total": 181,
         "unlocked": 181
-      }
-    },
-    {
-      "appId": 3191030,
-      "name": "Nubby's Number Factory",
-      "playtimeHours": 40.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
-      "genres": [
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 7, 2025",
-      "achievements": {
-        "total": 13,
-        "unlocked": 9
       }
     },
     {
@@ -8418,6 +8418,21 @@
       }
     },
     {
+      "appId": 2543510,
+      "name": "GUNTOUCHABLES",
+      "playtimeHours": 4.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2543510/ea77a863d8b1c9aee54c2c1af30602c854097273.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2543510/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 79,
+        "unlocked": 19
+      }
+    },
+    {
       "appId": 433910,
       "name": "Neon Drive",
       "playtimeHours": 4.4,
@@ -9456,21 +9471,6 @@
       }
     },
     {
-      "appId": 2543510,
-      "name": "GUNTOUCHABLES",
-      "playtimeHours": 3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2543510/ea77a863d8b1c9aee54c2c1af30602c854097273.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2543510/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 79,
-        "unlocked": 17
-      }
-    },
-    {
       "appId": 1790490,
       "name": "Regular Factory: Escape Room",
       "playtimeHours": 3,
@@ -9498,21 +9498,6 @@
       "achievements": {
         "total": 16,
         "unlocked": 16
-      }
-    },
-    {
-      "appId": 3788810,
-      "name": "Demon Lord: Just a Block Demo",
-      "playtimeHours": 2.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3788810/8618640cbbc0986b27ca82d376b36883b84402e9.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3788810/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 3,
-        "unlocked": 3
       }
     },
     {
@@ -35295,7 +35280,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 127,
+        "total": 141,
         "unlocked": 0
       }
     },
@@ -40664,6 +40649,32 @@
       "releaseDate": null,
       "achievements": {
         "total": 36,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 728740,
+      "name": "Sniper Elite V2 Remastered",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/728740/0f3ea49e9a6da5d5204764625c15d39a36005beb.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728740/header.jpg?t=1601483608",
+      "genres": [
+        "Action"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV"
+      ],
+      "releaseDate": "May 13, 2019",
+      "achievements": {
+        "total": 71,
         "unlocked": 0
       }
     },
@@ -51260,6 +51271,28 @@
       }
     },
     {
+      "appId": 1307690,
+      "name": "The Darkest Tales",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1307690/9a7b85b16a808f51112b107bb05ebefc342dc5cd.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1307690/header.jpg?t=1774882691",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Oct 13, 2022",
+      "achievements": {
+        "total": 41,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1311070,
       "name": "Greak: Memories of Azur",
       "playtimeHours": 0,
@@ -55755,6 +55788,28 @@
       "releaseDate": null,
       "achievements": {
         "total": 77,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1743850,
+      "name": "HYPER DEMON",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1743850/0be97ced3212221ca3293cbc6775d0056e3edf29.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1743850/header.jpg?t=1726872838",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Sep 19, 2022",
+      "achievements": {
+        "total": 1,
         "unlocked": 0
       }
     },
@@ -60711,13 +60766,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg"
     },
     {
-      "appId": 728740,
-      "dateAdded": 1554841175,
-      "priority": 377,
-      "name": "Sniper Elite V2 Remastered",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/728740/header.jpg"
-    },
-    {
       "appId": 732050,
       "dateAdded": 1555281019,
       "priority": 381,
@@ -65567,13 +65615,6 @@
       "priority": 0,
       "name": "Have a Nice Death",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1740720/header.jpg"
-    },
-    {
-      "appId": 1743850,
-      "dateAdded": 1663919839,
-      "priority": 0,
-      "name": "HYPER DEMON",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1743850/header.jpg"
     },
     {
       "appId": 1747830,
@@ -72014,6 +72055,62 @@
       "priority": 0,
       "name": "App 4604090",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4604090/header.jpg"
+    },
+    {
+      "appId": 4614080,
+      "dateAdded": 1777285646,
+      "priority": 0,
+      "name": "App 4614080",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614080/header.jpg"
+    },
+    {
+      "appId": 4171850,
+      "dateAdded": 1777285667,
+      "priority": 0,
+      "name": "Trees Hate You",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/header.jpg"
+    },
+    {
+      "appId": 2239770,
+      "dateAdded": 1777285682,
+      "priority": 0,
+      "name": "App 2239770",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239770/header.jpg"
+    },
+    {
+      "appId": 4623290,
+      "dateAdded": 1777285731,
+      "priority": 0,
+      "name": "App 4623290",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4623290/header.jpg"
+    },
+    {
+      "appId": 2961930,
+      "dateAdded": 1777285831,
+      "priority": 0,
+      "name": "App 2961930",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2961930/header.jpg"
+    },
+    {
+      "appId": 4502890,
+      "dateAdded": 1777285881,
+      "priority": 0,
+      "name": "App 4502890",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4502890/header.jpg"
+    },
+    {
+      "appId": 3547270,
+      "dateAdded": 1777285918,
+      "priority": 0,
+      "name": "Worming from Home",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3547270/header.jpg"
+    },
+    {
+      "appId": 4269150,
+      "dateAdded": 1777286204,
+      "priority": 0,
+      "name": "Campwood",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4269150/header.jpg"
     }
   ]
 }
