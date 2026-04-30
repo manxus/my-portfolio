@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-04-29T08:14:41.450Z",
+  "fetchedAt": "2026-04-30T08:18:30.776Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1777447369
+    "lastLogoff": 1777530133
   },
   "games": [
     {
@@ -1910,6 +1910,21 @@
       }
     },
     {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 52.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 22
+      }
+    },
+    {
       "appId": 1326470,
       "name": "Sons Of The Forest",
       "playtimeHours": 51.3,
@@ -1973,21 +1988,6 @@
       "achievements": {
         "total": 60,
         "unlocked": 0
-      }
-    },
-    {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 49.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 22
       }
     },
     {
@@ -4617,6 +4617,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 17.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 31
+      }
+    },
+    {
       "appId": 815370,
       "name": "Green Hell",
       "playtimeHours": 16.9,
@@ -4805,21 +4820,6 @@
       "achievements": {
         "total": 6,
         "unlocked": 6
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 16,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 29
       }
     },
     {
@@ -48653,7 +48653,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 170,
+        "total": 171,
         "unlocked": 0
       }
     },
@@ -72111,6 +72111,41 @@
       "priority": 0,
       "name": "Campwood",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4269150/header.jpg"
+    },
+    {
+      "appId": 4016880,
+      "dateAdded": 1777473942,
+      "priority": 0,
+      "name": "Secrets of Velendar Castle - Escape Room",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4016880/header.jpg"
+    },
+    {
+      "appId": 3500680,
+      "dateAdded": 1777474638,
+      "priority": 0,
+      "name": "Cropdeck",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3500680/header.jpg"
+    },
+    {
+      "appId": 1880620,
+      "dateAdded": 1777485146,
+      "priority": 0,
+      "name": "Once Upon A KATAMARI",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1880620/header.jpg"
+    },
+    {
+      "appId": 2830030,
+      "dateAdded": 1777485216,
+      "priority": 0,
+      "name": "MOTORSLICE",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2830030/header.jpg"
+    },
+    {
+      "appId": 3968100,
+      "dateAdded": 1777485325,
+      "priority": 0,
+      "name": "CD-ROM",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3968100/header.jpg"
     }
   ]
 }
