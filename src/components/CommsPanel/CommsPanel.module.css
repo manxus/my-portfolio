@@ -58,3 +58,29 @@
 .linkItem:hover .linkIcon {
   opacity: 1;
 }
+
+/* Contact card: match primary name contrast for outdoor / bright venues */
+.windowContactCard {
+  border-color: color-mix(in srgb, var(--text-primary) 28%, transparent);
+}
+
+.windowContactCard .windowTitle {
+  color: var(--text-primary);
+  border-bottom-color: color-mix(in srgb, var(--text-primary) 22%, transparent);
+}
+
+.windowContactCard .linkItem {
+  color: var(--text-primary);
+  font-size: 0.62rem;
+  font-weight: 500;
+}
+
+.windowContactCard .linkItem:hover {
+  color: var(--text-primary);
+  border-color: color-mix(in srgb, var(--text-primary) 35%, transparent);
+  background: var(--bg-hover);
+}
+
+.windowContactCard .linkIcon {
+  opacity: 1;
+}

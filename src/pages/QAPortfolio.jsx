@@ -5,6 +5,13 @@ import styles from './QAPortfolio.module.css';
 
 const { education, experience, playtests } = qaPortfolioData;
 
+function playtestHref(raw) {
+  const s = String(raw ?? '').trim();
+  if (!s) return '';
+  if (/^https?:\/\//i.test(s)) return s;
+  return `https://${s}`;
+}
+
 const stagger = {
   hidden: {},
   show: { transition: { staggerChildren: 0.07 } },
@@ -88,18 +95,34 @@ export default function QAPortfolio() {
         </h2>
         <EditableSection collection="qaPortfolio" dataKey="playtests">
           <div className={styles.playtestGrid}>
-            {playtests.map((pt, i) => (
-              <div key={i} className={styles.playtestCard}>
-                <span className={styles.playtestType}>
-                  {pt.type}
-                  <EditableItemControls index={i} />
-                </span>
-                <h4 className={styles.playtestTitle}>{pt.title}</h4>
-                <p className={styles.playtestMeta}>
-                  {pt.studio} &middot; {pt.year}
-                </p>
-              </div>
-            ))}
+            {playtests.map((pt, i) => {
+              const storeUrl = playtestHref(pt.url);
+              return (
+                <div key={i} className={styles.playtestCard}>
+                  <span className={styles.playtestType}>
+                    {pt.type}
+                    <EditableItemControls index={i} />
+                  </span>
+                  <h4 className={styles.playtestTitle}>
+                    {storeUrl ? (
+                      <a
+                        href={storeUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.playtestTitleLink}
+                      >
+                        {pt.title}
+                      </a>
+                    ) : (
+                      pt.title
+                    )}
+                  </h4>
+                  <p className={styles.playtestMeta}>
+                    {pt.studio} &middot; {pt.year}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </EditableSection>
       </motion.section>

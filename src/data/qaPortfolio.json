@@ -24,13 +24,15 @@
       "title": "STRIDEN",
       "studio": "Northify",
       "year": "2025",
-      "type": "Closed Beta"
+      "type": "Closed Beta",
+      "url": "https://store.steampowered.com/app/2052970/STRIDEN/"
     },
     {
       "title": "Snowtracked",
       "studio": "Northify",
       "year": "2025",
-      "type": "Closed Alpha"
+      "type": "Closed Alpha",
+      "url": "https://store.steampowered.com/app/1909310/Snowtracked/"
     },
     {
       "title": "Undisclosed Title",
@@ -48,31 +50,50 @@
       "title": "Monster Meals: Big Bite Diner",
       "studio": "Giant Warrior Studio",
       "year": "2026",
-      "type": "Gameround"
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/4209940/Monster_Meals_Big_Bite_Diner/"
     },
     {
       "title": "PengPong",
       "studio": "SANDY FLOOR",
       "year": "2026",
-      "type": "gameround"
+      "type": "gameround",
+      "url": "https://store.steampowered.com/app/2766910/PengPong/"
     },
     {
       "title": "Demon Lord: Just a Block",
       "studio": "YuWave Studio",
       "year": "2026",
-      "type": "gameround"
+      "type": "gameround",
+      "url": "https://store.steampowered.com/app/3720420/Demon_Lord_Just_a_Block/"
     },
     {
       "title": "Tokatonton: One-Armed Blacksmith",
       "studio": "SANDY FLOOR",
       "year": "2026",
-      "type": "gameround"
+      "type": "gameround",
+      "url": "https://store.steampowered.com/app/3399610/Tokatonton_OneArmed_Blacksmith/"
     },
     {
       "title": "The Last Squad",
       "studio": "STOIC Entertainment Inc.",
       "year": "2026",
-      "type": "gameround"
+      "type": "gameround",
+      "url": "https://store.steampowered.com/app/3600590/The_Last_Squad/"
+    },
+    {
+      "title": "Aksun",
+      "studio": "Wayway Inc.",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/3129360/Aksun/"
+    },
+    {
+      "title": "Cult Of Blood",
+      "studio": "Dusty Box",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/3056650/Cult_Of_Blood/"
     }
   ],
   "certificates": []

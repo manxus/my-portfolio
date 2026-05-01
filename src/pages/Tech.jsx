@@ -6,6 +6,7 @@ import ContentEditor from '../admin/ContentEditor';
 import {
   getTechItemSchemaForCategoryId,
   TECH_BUILDS_CATEGORY_ID,
+  TECH_COMPONENT_INVENTORY_CATEGORY_ID,
 } from '../admin/schemas';
 import { useAdminStore } from '../stores/adminStore';
 import editableStyles from '../admin/EditableSection.module.css';
@@ -122,6 +123,30 @@ function TechItemSpecs({ item, categoryId }) {
   );
 }
 
+function TechInventoryDetails({ item }) {
+  const rawQty = item.quantity;
+  const hasQty =
+    rawQty !== '' &&
+    rawQty != null &&
+    Number.isFinite(Number(rawQty));
+  const notes = item.extras != null && String(item.extras).trim();
+
+  if (!hasQty && !notes) return null;
+
+  return (
+    <>
+      {hasQty ? (
+        <span className={styles.inventoryQty}>
+          Qty: {Number(rawQty)}
+        </span>
+      ) : null}
+      {notes ? (
+        <p className={`${styles.specs} ${styles.inventoryNotes}`}>{String(item.extras).trim()}</p>
+      ) : null}
+    </>
+  );
+}
+
 const stagger = {
   hidden: {},
   show: { transition: { staggerChildren: 0.06 } },
@@ -223,7 +248,8 @@ export default function Tech() {
               </h2>
               <div
                 className={
-                  cat.id === TECH_BUILDS_CATEGORY_ID
+                  cat.id === TECH_BUILDS_CATEGORY_ID ||
+                  cat.id === TECH_COMPONENT_INVENTORY_CATEGORY_ID
                     ? `${styles.itemList} ${styles.itemListBuilds}`
                     : styles.itemList
                 }
@@ -251,6 +277,9 @@ export default function Tech() {
                       <span className={styles.proficiency}>{item.proficiency}</span>
                     )}
                     <TechItemSpecs item={item} categoryId={cat.id} />
+                    {cat.id === TECH_COMPONENT_INVENTORY_CATEGORY_ID ? (
+                      <TechInventoryDetails item={item} />
+                    ) : null}
                   </div>
                 ))}
               </div>

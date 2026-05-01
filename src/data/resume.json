@@ -52,6 +52,25 @@
           "org": "National Maritime Museum",
           "period": "Jul 2022 - Aug 2022",
           "description": "Managed customer interactions and daily shop operations, conducted surveys, handled opening and closing routines, and maintained exhibit areas with strong attention to detail."
+        },
+        {
+          "type": "volunteer",
+          "title": "Crew Member",
+          "org": "Dremahack",
+          "period": "Jun 2022",
+          "description": "Managed ticketing and VIP check-in, and delivered customer-focused service. Adapted quickly to changing needs while collaborating across teams to ensure smooth event execution."
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "entries": [
+        {
+          "type": "volunteer",
+          "title": "Crew Member",
+          "org": "Dreamhack",
+          "period": "Nov 2021",
+          "description": "Supported event setup/teardown and front-of-house operations, managed ticketing and VIP check-in, and delivered customer-focused service. Adapted quickly to changing needs while collaborating across teams to ensure smooth event execution."
         }
       ]
     },

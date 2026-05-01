@@ -1,8 +1,10 @@
 import styles from './CommsPanel.module.css';
 
-export default function CommsPanel({ className }) {
+export default function CommsPanel({ className, contactCard }) {
   return (
-    <div className={`${styles.window}${className ? ` ${className}` : ''}`}>
+    <div
+      className={`${styles.window}${contactCard ? ` ${styles.windowContactCard}` : ''}${className ? ` ${className}` : ''}`}
+    >
       <h3 className={styles.windowTitle}>&#9670; Comms</h3>
       <div className={styles.linksGrid}>
         <a

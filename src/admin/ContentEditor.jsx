@@ -99,6 +99,64 @@ function FieldInput({ field, value, onChange, formData }) {
 
   if (field.type === 'list') {
     const items = Array.isArray(value) ? value : [];
+
+    if (Array.isArray(field.options) && field.options.length > 0) {
+      const optionSet = new Set(field.options);
+      const orphans = items.filter((t) => !optionSet.has(String(t)));
+      const setFromHardwareSelection = (selectedInOrder) => {
+        onChange([...selectedInOrder, ...orphans]);
+      };
+      return (
+        <div className={styles.listField}>
+          <div className={styles.hardwareTagGrid} role="group" aria-label={field.label}>
+            {field.options.map((opt) => {
+              const checked = items.includes(opt);
+              return (
+                <label key={opt} className={styles.checkboxLabel}>
+                  <input
+                    type="checkbox"
+                    checked={checked}
+                    onChange={(e) => {
+                      const selected = new Set(
+                        field.options.filter((o) => items.includes(o)),
+                      );
+                      if (e.target.checked) selected.add(opt);
+                      else selected.delete(opt);
+                      const ordered = field.options.filter((o) => selected.has(o));
+                      setFromHardwareSelection(ordered);
+                    }}
+                  />
+                  <span>{opt}</span>
+                </label>
+              );
+            })}
+          </div>
+          {orphans.length > 0 ? (
+            <div className={styles.orphanTagsBlock}>
+              <span className={styles.orphanTagsLabel}>Other tags</span>
+              {orphans.map((tag) => (
+                <div key={tag} className={styles.listRow}>
+                  <input className={styles.input} value={String(tag)} readOnly />
+                  <button
+                    type="button"
+                    className={styles.removeBtn}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      onChange(items.filter((t) => String(t) !== String(tag)));
+                    }}
+                    title="Remove tag"
+                  >
+                    &times;
+                  </button>
+                </div>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      );
+    }
+
     return (
       <div className={styles.listField}>
         {items.map((item, i) => (

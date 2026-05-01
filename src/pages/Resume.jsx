@@ -17,6 +17,7 @@ const fadeUp = {
 
 const TYPE_LABELS = {
   work: 'EMPLOYMENT',
+  volunteer: 'VOLUNTEER',
   cert: 'CERTIFICATION',
   education: 'EDUCATION',
 };

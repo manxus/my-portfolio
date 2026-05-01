@@ -1,14 +1,21 @@
 .wrap {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 2rem;
   padding-bottom: 1rem;
+}
+
+.contactCol {
+  width: 100%;
+  max-width: 20rem;
 }
 
 .card {
   background: var(--bg-secondary);
   border: 1px solid rgba(95, 143, 143, 0.1);
   padding: 1.5rem;
+  box-sizing: border-box;
 }
 
 .name {
@@ -22,7 +29,7 @@
 .role {
   font-family: var(--font-mono);
   font-size: 0.8rem;
-  color: var(--accent);
+  color: var(--text-primary);
   letter-spacing: 0.06em;
   margin-top: 0.35rem;
 }
@@ -30,14 +37,9 @@
 .location {
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  color: var(--text-dim);
+  color: var(--text-primary);
   letter-spacing: 0.06em;
   margin-top: 0.2rem;
-}
-
-.commsSlot {
-  width: 100%;
-  max-width: 20rem;
 }
 
 .commsOnCard {
@@ -47,12 +49,12 @@
 .fullSiteBtn {
   font-family: var(--font-mono);
   font-size: 0.8rem;
-  color: var(--accent-bright);
+  font-weight: 600;
+  color: var(--text-primary);
   padding: 0.65rem 1.35rem;
-  border: 1px solid var(--accent-dim);
+  border: 1px solid color-mix(in srgb, var(--text-primary) 38%, transparent);
   letter-spacing: 0.1em;
   width: 100%;
-  max-width: 20rem;
   transition:
     color var(--transition-fast),
     background var(--transition-fast),
@@ -62,5 +64,5 @@
 .fullSiteBtn:hover {
   color: var(--text-primary);
   background: var(--bg-hover);
-  border-color: var(--accent);
+  border-color: color-mix(in srgb, var(--text-primary) 55%, transparent);
 }

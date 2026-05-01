@@ -154,3 +154,15 @@
   overflow-wrap: break-word;
   word-break: normal;
 }
+
+.inventoryQty {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  margin-top: 0.35rem;
+}
+
+.inventoryNotes {
+  margin-top: 0.35rem;
+}

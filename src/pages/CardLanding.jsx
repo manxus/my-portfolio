@@ -27,7 +27,7 @@ export default function CardLanding() {
       initial="hidden"
       animate="show"
     >
-      <motion.div variants={fadeUp}>
+      <motion.div variants={fadeUp} className={styles.contactCol}>
         <EditableSection collection="resume" dataKey="personalInfo" singleton>
           <div className={styles.card}>
             <h2 className={styles.name}>{personalInfo.name}</h2>
@@ -37,11 +37,11 @@ export default function CardLanding() {
         </EditableSection>
       </motion.div>
 
-      <motion.div variants={fadeUp} className={styles.commsSlot}>
-        <CommsPanel className={styles.commsOnCard} />
+      <motion.div variants={fadeUp} className={styles.contactCol}>
+        <CommsPanel contactCard className={styles.commsOnCard} />
       </motion.div>
 
-      <motion.div variants={fadeUp}>
+      <motion.div variants={fadeUp} className={styles.contactCol}>
         <button
           type="button"
           className={styles.fullSiteBtn}

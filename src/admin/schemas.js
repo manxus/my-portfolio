@@ -1,12 +1,59 @@
 /** Category slug in tech.json for the computer builds section */
 export const TECH_BUILDS_CATEGORY_ID = 'builds';
 
-/** Software / OS / other tech rows */
-export const TECH_CATEGORY_ITEM_BASE_SCHEMA = [
-  { key: 'name', label: 'Name', type: 'text', required: true },
-  { key: 'tags', label: 'Tags', type: 'list' },
-  { key: 'proficiency', label: 'Proficiency', type: 'text' },
+/** Spare parts / on-hand hardware below Computer Builds */
+export const TECH_COMPONENT_INVENTORY_CATEGORY_ID = 'component-inventory';
+
+/** In-app tech editor: Builds + Component Inventory use checkboxes */
+export const TECH_HARDWARE_TAG_OPTIONS = [
+  'GPU',
+  'CPU',
+  'PSU',
+  'Motherboard',
+  'RAM',
+  'Storage',
+  'Case',
+  'Cooling',
 ];
+
+const TECH_ITEM_NAME_FIELD = {
+  key: 'name',
+  label: 'Name',
+  type: 'text',
+  required: true,
+};
+
+const TECH_ITEM_PROFICIENCY_FIELD = {
+  key: 'proficiency',
+  label: 'Proficiency',
+  type: 'text',
+};
+
+export function techItemTagsFieldForCategoryId(categoryId) {
+  const useHardwarePicker =
+    categoryId === TECH_BUILDS_CATEGORY_ID ||
+    categoryId === TECH_COMPONENT_INVENTORY_CATEGORY_ID;
+  if (useHardwarePicker) {
+    return {
+      key: 'tags',
+      label: 'Tags',
+      type: 'list',
+      options: TECH_HARDWARE_TAG_OPTIONS,
+    };
+  }
+  return { key: 'tags', label: 'Tags', type: 'list' };
+}
+
+/** Base rows for nested tech item editor when category id is unknown (software-style tags). */
+export function getTechCategoryItemBaseSchema(categoryId) {
+  return [
+    TECH_ITEM_NAME_FIELD,
+    techItemTagsFieldForCategoryId(categoryId),
+    TECH_ITEM_PROFICIENCY_FIELD,
+  ];
+}
+
+export const TECH_CATEGORY_ITEM_BASE_SCHEMA = getTechCategoryItemBaseSchema();
 
 /** Shown only when category id is `builds` (in-app editor + nested list) */
 export const TECH_BUILD_ITEM_EXTRA_SCHEMA = [
@@ -22,11 +69,21 @@ export const TECH_BUILD_ITEM_EXTRA_SCHEMA = [
   { key: 'specs', label: 'Free-form specs (legacy)', type: 'textarea' },
 ];
 
+/** Use for category id component-inventory (quantity + notes) */
+export const TECH_INVENTORY_ITEM_EXTRA_SCHEMA = [
+  { key: 'quantity', label: 'Quantity', type: 'number' },
+  { key: 'extras', label: 'Notes', type: 'textarea' },
+];
+
 export function getTechItemSchemaForCategoryId(categoryId) {
+  const base = getTechCategoryItemBaseSchema(categoryId);
   if (categoryId === TECH_BUILDS_CATEGORY_ID) {
-    return [...TECH_CATEGORY_ITEM_BASE_SCHEMA, ...TECH_BUILD_ITEM_EXTRA_SCHEMA];
+    return [...base, ...TECH_BUILD_ITEM_EXTRA_SCHEMA];
   }
-  return TECH_CATEGORY_ITEM_BASE_SCHEMA;
+  if (categoryId === TECH_COMPONENT_INVENTORY_CATEGORY_ID) {
+    return [...base, ...TECH_INVENTORY_ITEM_EXTRA_SCHEMA];
+  }
+  return base;
 }
 
 export const schemas = {
@@ -48,6 +105,7 @@ export const schemas = {
     { key: 'studio', label: 'Studio', type: 'text', required: true },
     { key: 'year', label: 'Year', type: 'text', required: true },
     { key: 'type', label: 'Type', type: 'text', required: true },
+    { key: 'url', label: 'Store or page URL (e.g. Steam)', type: 'text' },
   ],
   'qaPortfolio.certificates': [
     { key: 'name', label: 'Certificate Name', type: 'text', required: true },
@@ -68,7 +126,7 @@ export const schemas = {
   'resume.timeline': [
     { key: 'year', label: 'Year', type: 'text', required: true },
     { key: 'entries', label: 'Entries', type: 'objectList', schema: [
-      { key: 'type', label: 'Type', type: 'select', options: ['work', 'cert', 'education'], required: true },
+      { key: 'type', label: 'Type', type: 'select', options: ['work', 'volunteer', 'cert', 'education'], required: true },
       { key: 'title', label: 'Title', type: 'text', required: true },
       { key: 'org', label: 'Organization', type: 'text', required: true },
       { key: 'period', label: 'Period', type: 'text', required: true },

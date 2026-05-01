@@ -49,6 +49,7 @@ collections:
               - { label: Studio, name: studio, widget: string }
               - { label: Year, name: year, widget: string }
               - { label: Type, name: type, widget: string }
+              - { label: Store or page URL, name: url, widget: string, required: false }
           - label: Certificates
             name: certificates
             widget: list
@@ -227,7 +228,7 @@ collections:
                 widget: list
                 summary: "{{fields.title}}"
                 fields:
-                  - { label: Type, name: type, widget: select, options: [work, cert, education] }
+                  - { label: Type, name: type, widget: select, options: [work, volunteer, cert, education] }
                   - { label: Title, name: title, widget: string }
                   - { label: Organization, name: org, widget: string }
                   - { label: Period, name: period, widget: string }
@@ -254,7 +255,9 @@ collections:
                     name: tags
                     widget: list
                   - { label: Proficiency, name: proficiency, widget: string, required: false }
-                  # Component fields below: use for Computer Builds (category id "builds") only; optional elsewhere.
+                  # Quantity: use for Component Inventory (category id "component-inventory"); optional elsewhere.
+                  - { label: Quantity, name: quantity, widget: number, required: false, value_type: int }
+                  # Component fields below: use for Computer Builds (category id "builds"); optional elsewhere.
                   - { label: CPU, name: cpu, widget: string, required: false }
                   - { label: GPU, name: gpu, widget: string, required: false }
                   - { label: RAM, name: ram, widget: string, required: false }

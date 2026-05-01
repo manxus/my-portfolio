@@ -339,6 +339,27 @@
       "cons": [
         "Becomes slightly repetitive near the end"
       ]
+    },
+    {
+      "appId": 2294130,
+      "gameName": "",
+      "rating": 4,
+      "title": "Decent Core Ideas, But Far Too Barebones",
+      "text": "I wanted to like Goobies more than I did, but it feels too barebones right now.\n\nThe gameplay is smooth for the most part, though the momentum-based character felt awkward to use. The bigger issue is repetition. Maps and enemies are extremely basic, and since runs are endless, there’s no satisfying conclusion to them. After a few runs, it all starts to feel the same.\n\nThere is some build variety, and I liked how weapon upgrades evolve into stronger versions with added traits instead of just boosting stats. But because everything is unlocked from the start and there’s no real limit on what you can stack, most runs ended up looking very similar anyway.\n\nProgression feels very slow and not especially rewarding. It often didn’t feel like I was working toward anything meaningful, which is a major problem for a game built around repeated runs.\n\nThe visuals are probably the strongest part. The goofy style gives the game some charm. But once the screen fills up in the mid and late game, it becomes cluttered and hard to read, and I even had performance issues because of it.\n\nThere’s an alright core here, but it needs much more content, balance, and a better progression loop. As it stands, I can’t recommend it unless you get it free or very cheap and just want a few hours with a simple survivor-like.",
+      "date": "2026-04-20",
+      "recommended": false,
+      "pros": [
+        "Smooth core gameplay overall",
+        "Some interesting weapon evolution upgrades",
+        "Goofy visuals have charm"
+      ],
+      "cons": [
+        "Repetitive runs with little variation",
+        "Endless runs lack satisfying conclusions",
+        "Weak and slow progression",
+        "Too much unlocked from the start hurts build identity",
+        "Heavy screen clutter in mid/endgame"
+      ]
     }
   ]
 }
