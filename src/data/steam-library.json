@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-04-30T08:18:30.776Z",
+  "fetchedAt": "2026-05-01T08:13:23.741Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1777530133
+    "lastLogoff": 1777561126
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3439,
+      "playtimeHours": 3440.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -1709,6 +1709,21 @@
       }
     },
     {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 58.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 28
+      }
+    },
+    {
       "appId": 1272080,
       "name": "PAYDAY 3",
       "playtimeHours": 57.2,
@@ -1907,21 +1922,6 @@
       "achievements": {
         "total": 63,
         "unlocked": 32
-      }
-    },
-    {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 52.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 22
       }
     },
     {
@@ -4463,6 +4463,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 17.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 31
+      }
+    },
+    {
       "appId": 2000950,
       "name": "Call of Duty®: Modern Warfare®",
       "playtimeHours": 17.5,
@@ -4614,21 +4629,6 @@
       "achievements": {
         "total": 50,
         "unlocked": 50
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 17.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 31
       }
     },
     {
@@ -50680,7 +50680,7 @@
       "appId": 1272320,
       "name": "Diplomacy is Not an Option",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1272320/3a013eec1a7ff2aef7a136a49c340b703ce7aae3.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1272320/d9e6846fb4b0406a494a635a5d67ab5faecad397.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272320/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -70497,7 +70497,7 @@
     },
     {
       "appId": 3509230,
-      "dateAdded": 1765976282,
+      "dateAdded": 1777563430,
       "priority": 0,
       "name": "Gambonanza",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3509230/header.jpg"
@@ -72146,6 +72146,41 @@
       "priority": 0,
       "name": "CD-ROM",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3968100/header.jpg"
+    },
+    {
+      "appId": 2599690,
+      "dateAdded": 1777563469,
+      "priority": 0,
+      "name": "Better Than Dead",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2599690/header.jpg"
+    },
+    {
+      "appId": 3812830,
+      "dateAdded": 1777563482,
+      "priority": 0,
+      "name": "Tiny Delivery",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3812830/header.jpg"
+    },
+    {
+      "appId": 3840230,
+      "dateAdded": 1777573412,
+      "priority": 0,
+      "name": "Adorable Adventures",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3840230/header.jpg"
+    },
+    {
+      "appId": 3794610,
+      "dateAdded": 1777573482,
+      "priority": 0,
+      "name": "Goblin Vyke",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3794610/header.jpg"
+    },
+    {
+      "appId": 3713650,
+      "dateAdded": 1777618209,
+      "priority": 0,
+      "name": "Teenage Mutant Ninja Turtles: Empire City",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3713650/header.jpg"
     }
   ]
 }
