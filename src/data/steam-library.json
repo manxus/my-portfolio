@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-01T08:13:23.741Z",
+  "fetchedAt": "2026-05-02T07:31:23.588Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
@@ -11,7 +11,7 @@
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3440.1,
+      "playtimeHours": 3441.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -1622,6 +1622,21 @@
       }
     },
     {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 62.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 32
+      }
+    },
+    {
       "appId": 205100,
       "name": "Dishonored",
       "playtimeHours": 60.7,
@@ -1706,21 +1721,6 @@
       "achievements": {
         "total": 80,
         "unlocked": 58
-      }
-    },
-    {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 58.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 28
       }
     },
     {
@@ -2112,6 +2112,25 @@
       }
     },
     {
+      "appId": 3191030,
+      "name": "Nubby's Number Factory",
+      "playtimeHours": 40.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
+      "genres": [
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 7, 2025",
+      "achievements": {
+        "total": 13,
+        "unlocked": 9
+      }
+    },
+    {
       "appId": 227300,
       "name": "Euro Truck Simulator 2",
       "playtimeHours": 40.7,
@@ -2137,25 +2156,6 @@
       "achievements": {
         "total": 106,
         "unlocked": 11
-      }
-    },
-    {
-      "appId": 3191030,
-      "name": "Nubby's Number Factory",
-      "playtimeHours": 40.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
-      "genres": [
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 7, 2025",
-      "achievements": {
-        "total": 13,
-        "unlocked": 9
       }
     },
     {
@@ -47050,6 +47050,26 @@
       }
     },
     {
+      "appId": 1071130,
+      "name": "The Procession to Calvary",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1071130/fc5daf9da0238c6c4a653f0dcba892c0008cd793.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1071130/header.jpg?t=1774549724",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Apr 9, 2020",
+      "achievements": {
+        "total": 21,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1071870,
       "name": "Biped",
       "playtimeHours": 0,
@@ -50617,6 +50637,29 @@
       }
     },
     {
+      "appId": 1269950,
+      "name": "Buddy Simulator 1984",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1269950/9718b428d7d623d4a6c32c9ecb51e94110c6b278.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1269950/6565c6ce539591aa5a95c005b95bb525b11007a9/header.jpg?t=1747255411",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Feb 18, 2021",
+      "achievements": {
+        "total": 30,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1270620,
       "name": "Project Chemistry",
       "playtimeHours": 0,
@@ -51739,6 +51782,31 @@
       "releaseDate": null,
       "achievements": {
         "total": 26,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1342490,
+      "name": "Daemon X Machina: Titanic Scion",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1342490/5ab7709896cee09a22ad296360df5fcafb7a06c1.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1342490/dc5fd7e61c483622ee093b53b1a0928e4ea90996/header.jpg?t=1775578386",
+      "genres": [
+        "Action"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "Sep 5, 2025",
+      "achievements": {
+        "total": 59,
         "unlocked": 0
       }
     },
@@ -54381,6 +54449,29 @@
       }
     },
     {
+      "appId": 1574820,
+      "name": "Until Then",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1574820/52cf8cf1891b1b6e05a9a72ce743593e4e8a7741.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1574820/header.jpg?t=1775146191",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jun 25, 2024",
+      "achievements": {
+        "total": 29,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1577120,
       "name": "The Quarry",
       "playtimeHours": 0,
@@ -54707,6 +54798,29 @@
       "releaseDate": null,
       "achievements": {
         "total": 26,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1608230,
+      "name": "Planet of Lana",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1608230/bdd2e1185b697ebe383d5f09754d3ca7fb484971.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1608230/afc987687f2f80c5c4a93293f2f0f53a62032212/header.jpg?t=1772728759",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "May 23, 2023",
+      "achievements": {
+        "total": 25,
         "unlocked": 0
       }
     },
@@ -57934,6 +58048,29 @@
       }
     },
     {
+      "appId": 2208920,
+      "name": "Assassin's Creed Valhalla",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2208920/3946f91cf6beb0d384a85fc32d71616313dc362e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg?t=1754572990",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "Dec 6, 2022",
+      "achievements": {
+        "total": 92,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2213980,
       "name": "Caverns of Mars: Recharged",
       "playtimeHours": 0,
@@ -57960,6 +58097,27 @@
       "releaseDate": null,
       "achievements": {
         "total": 50,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 2224640,
+      "name": "Artisan TD",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2224640/de34c7b6eff6a45a091d08c3676cf37c8eedda17.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2224640/header.jpg?t=1777362000",
+      "genres": [
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jul 22, 2024",
+      "achievements": {
+        "total": 41,
         "unlocked": 0
       }
     },
@@ -58931,6 +59089,33 @@
       }
     },
     {
+      "appId": 2933130,
+      "name": "The Lord of the Rings: Return to Moria™",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2933130/29286f2af71b4c1752abf62428e2b60761f7e69a.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933130/6b8f8cf6304969c5c1d72fb3b33e5a31a1255f83/header.jpg?t=1776449367",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Aug 27, 2024",
+      "achievements": {
+        "total": 27,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2951630,
       "name": "Total War: PHARAOH DYNASTIES",
       "playtimeHours": 0,
@@ -59236,6 +59421,27 @@
       "releaseDate": null,
       "achievements": {
         "total": 28,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 3550490,
+      "name": "Overcome Your Fears - Caretaker",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3550490/c88651c70b22e19c144be71e70afcdd77cd3a5ff.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3550490/cbd34ac4c5465cd866035baad4f75ec11293aea1/header.jpg?t=1777644132",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Oct 20, 2025",
+      "achievements": {
+        "total": 5,
         "unlocked": 0
       }
     },
@@ -64966,11 +65172,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1603640/header.jpg"
     },
     {
-      "appId": 1608230,
-      "dateAdded": 1623352696,
+      "appId": 4518240,
+      "dateAdded": 1777647600,
       "priority": 0,
-      "name": "Planet of Lana",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1608230/header.jpg"
+      "name": "App 4518240",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4518240/header.jpg"
     },
     {
       "appId": 1610500,
@@ -67045,11 +67251,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208810/header.jpg"
     },
     {
-      "appId": 2208920,
-      "dateAdded": 1669589044,
+      "appId": 3727390,
+      "dateAdded": 1777647591,
       "priority": 0,
-      "name": "Assassin's Creed Valhalla",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/header.jpg"
+      "name": "The Expanse: Osiris Reborn",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3727390/header.jpg"
     },
     {
       "appId": 2211170,
@@ -69159,11 +69365,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2932680/header.jpg"
     },
     {
-      "appId": 2933130,
-      "dateAdded": 1724782988,
+      "appId": 2766910,
+      "dateAdded": 1777639708,
       "priority": 0,
-      "name": "The Lord of the Rings: Return to Moria™",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2933130/header.jpg"
+      "name": "PengPong",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2766910/header.jpg"
     },
     {
       "appId": 2936810,
@@ -72181,6 +72387,48 @@
       "priority": 0,
       "name": "Teenage Mutant Ninja Turtles: Empire City",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3713650/header.jpg"
+    },
+    {
+      "appId": 4513480,
+      "dateAdded": 1777647659,
+      "priority": 0,
+      "name": "App 4513480",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4513480/header.jpg"
+    },
+    {
+      "appId": 3639060,
+      "dateAdded": 1777647699,
+      "priority": 0,
+      "name": "DELIVERY MUST COMPLETE",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3639060/header.jpg"
+    },
+    {
+      "appId": 881940,
+      "dateAdded": 1777647761,
+      "priority": 0,
+      "name": "App 881940",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/881940/header.jpg"
+    },
+    {
+      "appId": 4171660,
+      "dateAdded": 1777647885,
+      "priority": 0,
+      "name": "PANLINE",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171660/header.jpg"
+    },
+    {
+      "appId": 3558600,
+      "dateAdded": 1777647916,
+      "priority": 0,
+      "name": "Leafy Corner",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3558600/header.jpg"
+    },
+    {
+      "appId": 3056840,
+      "dateAdded": 1777702600,
+      "priority": 0,
+      "name": "A Bumpy Ride",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3056840/header.jpg"
     }
   ]
 }
