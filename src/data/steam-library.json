@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-03T08:01:19.248Z",
+  "fetchedAt": "2026-05-04T08:30:29.140Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1777776746
+    "lastLogoff": 1777870898
   },
   "games": [
     {
@@ -1566,6 +1566,21 @@
       }
     },
     {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 66.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 34
+      }
+    },
+    {
       "appId": 312530,
       "name": "Duck Game",
       "playtimeHours": 64.6,
@@ -1593,21 +1608,6 @@
       "achievements": {
         "total": 18,
         "unlocked": 15
-      }
-    },
-    {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 63.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 34
       }
     },
     {
@@ -58064,7 +58064,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "Dec 6, 2022",
+      "releaseDate": "6 Dec, 2022",
       "achievements": {
         "total": 92,
         "unlocked": 0
@@ -72450,6 +72450,20 @@
       "priority": 0,
       "name": "Horsey Game",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3602570/header.jpg"
+    },
+    {
+      "appId": 3806120,
+      "dateAdded": 1777801016,
+      "priority": 0,
+      "name": "Gluttony",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3806120/header.jpg"
+    },
+    {
+      "appId": 3424730,
+      "dateAdded": 1777827750,
+      "priority": 0,
+      "name": "ORMOD: Directive",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3424730/header.jpg"
     }
   ]
 }
