@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-07T08:32:59.023Z",
+  "fetchedAt": "2026-05-08T07:28:54.995Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1778140430
+    "lastLogoff": 1778218341
   },
   "games": [
     {
@@ -1386,6 +1386,21 @@
       }
     },
     {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 72.4,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 37
+      }
+    },
+    {
       "appId": 476620,
       "name": "Call of Duty: WWII - Multiplayer",
       "playtimeHours": 71.6,
@@ -1411,21 +1426,6 @@
       "achievements": {
         "total": 55,
         "unlocked": 9
-      }
-    },
-    {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 71.4,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 36
       }
     },
     {
@@ -1991,6 +1991,25 @@
       }
     },
     {
+      "appId": 3191030,
+      "name": "Nubby's Number Factory",
+      "playtimeHours": 45.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
+      "genres": [
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 7, 2025",
+      "achievements": {
+        "total": 13,
+        "unlocked": 9
+      }
+    },
+    {
       "appId": 239140,
       "name": "Dying Light",
       "playtimeHours": 45.6,
@@ -2109,25 +2128,6 @@
       "achievements": {
         "total": 96,
         "unlocked": 73
-      }
-    },
-    {
-      "appId": 3191030,
-      "name": "Nubby's Number Factory",
-      "playtimeHours": 41.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
-      "genres": [
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 7, 2025",
-      "achievements": {
-        "total": 13,
-        "unlocked": 9
       }
     },
     {
@@ -3923,7 +3923,7 @@
     {
       "appId": 352400,
       "name": "LEGO® Jurassic World",
-      "playtimeHours": 20.5,
+      "playtimeHours": 21,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
       "genres": [],
@@ -3932,7 +3932,7 @@
       "releaseDate": null,
       "achievements": {
         "total": 49,
-        "unlocked": 39
+        "unlocked": 40
       }
     },
     {
@@ -39306,6 +39306,29 @@
       }
     },
     {
+      "appId": 673600,
+      "name": "Prison Boss VR",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/673600/ceda587574c5a9a4149ddf9d9d3a03b93c9b802e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673600/header.jpg?t=1750962039",
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Tracked Controller Support",
+        "VR Only"
+      ],
+      "releaseDate": "Aug 29, 2017",
+      "achievements": {
+        "total": 38,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 673750,
       "name": "Super Bunny Man",
       "playtimeHours": 0,
@@ -42446,6 +42469,26 @@
         "total": 44,
         "unlocked": 0
       }
+    },
+    {
+      "appId": 804530,
+      "name": "Cubism",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/804530/2e808d03d0ec774326fffc0bf0629f6194dabcb1.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/804530/header.jpg?t=1743707675",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Tracked Controller Support",
+        "VR Only"
+      ],
+      "releaseDate": "Sep 17, 2020",
+      "achievements": null
     },
     {
       "appId": 808090,
@@ -58104,6 +58147,28 @@
       }
     },
     {
+      "appId": 2221980,
+      "name": "Budget Cuts Ultimate",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2221980/8712dfe937f16c1ad860dbc5b25a4f72fe4d79fb.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221980/header.jpg?t=1743707384",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "VR Only"
+      ],
+      "releaseDate": "Sep 20, 2023",
+      "achievements": {
+        "total": 52,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2224640,
       "name": "Artisan TD",
       "playtimeHours": 0,
@@ -58806,6 +58871,54 @@
       }
     },
     {
+      "appId": 2701700,
+      "name": "Maestro",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2701700/3281e96e3843beb9f743a662eef18b3a75380253.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/header.jpg?t=1766137715",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "VR Only"
+      ],
+      "releaseDate": "Oct 22, 2024",
+      "achievements": {
+        "total": 44,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 2702300,
+      "name": "Thrasher",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2702300/94fcb5b81e4875a83275216a331b3854e364908f.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2702300/23a3916f054b8b31e4af9131bd509b10ca9cfc87/header.jpg?t=1762894804",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Racing"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Tracked Controller Support"
+      ],
+      "releaseDate": "Nov 7, 2025",
+      "achievements": {
+        "total": 47,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2752710,
       "name": "WHAT THE PAK?!",
       "playtimeHours": 0,
@@ -58859,6 +58972,29 @@
         "total": 13,
         "unlocked": 0
       }
+    },
+    {
+      "appId": 2782960,
+      "name": "Crossings",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2782960/8268e48e69ddff2ada2b509c9cde2a9853ca570a.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2782960/1390276b90385c0d4e48efdfe69d1b2b55fe2eb8/header.jpg?t=1775560889",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [
+        "Tracked Controller Support",
+        "VR Only"
+      ],
+      "releaseDate": "Feb 6, 2026",
+      "achievements": null
     },
     {
       "appId": 2792610,
@@ -59132,6 +59268,30 @@
         "total": 105,
         "unlocked": 0
       }
+    },
+    {
+      "appId": 2973830,
+      "name": "Crime Shop Simulator: A Prison Boss Game",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2973830/c378948709bd9a305a9bd890e324fb57b95230cb.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2973830/b15f7889e86b99b7d5d92be8c545159b6f8ffae1/header.jpg?t=1778085600",
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [
+        "Tracked Controller Support",
+        "VR Only"
+      ],
+      "releaseDate": "Jul 10, 2025",
+      "achievements": null
     },
     {
       "appId": 2977570,
@@ -59472,6 +59632,32 @@
       "releaseDate": null,
       "achievements": {
         "total": 59,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 3743090,
+      "name": "Deadly Delivery",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3743090/ffd41e72d0f256fb8a714021be0cde2ea545a2c4.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743090/59b63a681e2e65cf90db239df4357d42bdeb339c/header.jpg?t=1778086021",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [
+        "Tracked Controller Support",
+        "VR Only"
+      ],
+      "releaseDate": "Dec 4, 2025",
+      "achievements": {
+        "total": 13,
         "unlocked": 0
       }
     },
@@ -72474,6 +72660,20 @@
       "priority": 0,
       "name": "Broken Lens",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2184770/header.jpg"
+    },
+    {
+      "appId": 2393760,
+      "dateAdded": 1778216601,
+      "priority": 0,
+      "name": "Tall Trails",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2393760/header.jpg"
+    },
+    {
+      "appId": 3441280,
+      "dateAdded": 1778217043,
+      "priority": 0,
+      "name": "The Greenening",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3441280/header.jpg"
     }
   ]
 }
