@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-05-10T08:09:01.100Z",
+  "fetchedAt": "2026-05-11T09:37:28.053Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1778395633
+    "lastLogoff": 1778480705
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3444.8,
+      "playtimeHours": 3446.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -1159,6 +1159,21 @@
       }
     },
     {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 80.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 45
+      }
+    },
+    {
       "appId": 295110,
       "name": "Just Survive",
       "playtimeHours": 77.9,
@@ -1256,21 +1271,6 @@
       "achievements": {
         "total": 29,
         "unlocked": 29
-      }
-    },
-    {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 76.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 37
       }
     },
     {
@@ -1993,7 +1993,7 @@
     {
       "appId": 3191030,
       "name": "Nubby's Number Factory",
-      "playtimeHours": 46.9,
+      "playtimeHours": 47.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
       "genres": [
@@ -11458,6 +11458,18 @@
         "total": 20,
         "unlocked": 20
       }
+    },
+    {
+      "appId": 3363220,
+      "name": "Wren Playtest",
+      "playtimeHours": 1.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3363220/186ee08d1f8e3f72ba04bea97ad9c12955bdb0f6.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3363220/header.jpg?t=1778224816",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": "May 8, 2026",
+      "achievements": null
     },
     {
       "appId": 768100,
@@ -59290,7 +59302,7 @@
         "Tracked Controller Support",
         "VR Only"
       ],
-      "releaseDate": "10 Jul, 2025",
+      "releaseDate": "Jul 10, 2025",
       "achievements": null
     },
     {
@@ -59507,18 +59519,6 @@
       "achievements": null
     },
     {
-      "appId": 3363220,
-      "name": "Wren Playtest",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3363220/186ee08d1f8e3f72ba04bea97ad9c12955bdb0f6.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3363220/header.jpg?t=1778224816",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": "May 8, 2026",
-      "achievements": null
-    },
-    {
       "appId": 3432970,
       "name": "REMATCH BETA TEST",
       "playtimeHours": 0,
@@ -59652,7 +59652,7 @@
       "name": "Deadly Delivery",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3743090/ffd41e72d0f256fb8a714021be0cde2ea545a2c4.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743090/59b63a681e2e65cf90db239df4357d42bdeb339c/header.jpg?t=1778242715",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743090/59b63a681e2e65cf90db239df4357d42bdeb339c/header.jpg?t=1778417578",
       "genres": [
         "Action",
         "Adventure"
@@ -61689,6 +61689,13 @@
       "priority": 468,
       "name": "Pummel Party",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/880940/header.jpg"
+    },
+    {
+      "appId": 881940,
+      "dateAdded": 1777647761,
+      "priority": 0,
+      "name": "App 881940",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/881940/header.jpg"
     },
     {
       "appId": 885160,
@@ -65373,13 +65380,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1603640/header.jpg"
     },
     {
-      "appId": 4518240,
-      "dateAdded": 1777647600,
-      "priority": 0,
-      "name": "App 4518240",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4518240/header.jpg"
-    },
-    {
       "appId": 1610500,
       "dateAdded": 1661387941,
       "priority": 0,
@@ -66493,6 +66493,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1880610/header.jpg"
     },
     {
+      "appId": 1880620,
+      "dateAdded": 1777485146,
+      "priority": 0,
+      "name": "Once Upon A KATAMARI",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1880620/header.jpg"
+    },
+    {
       "appId": 1882190,
       "dateAdded": 1743541753,
       "priority": 0,
@@ -67375,6 +67382,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2184020/header.jpg"
     },
     {
+      "appId": 2184770,
+      "dateAdded": 1778005895,
+      "priority": 0,
+      "name": "Broken Lens",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2184770/header.jpg"
+    },
+    {
       "appId": 2186990,
       "dateAdded": 1763717606,
       "priority": 0,
@@ -67450,13 +67464,6 @@
       "priority": 0,
       "name": "Jurassic Park: Survival",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2208810/header.jpg"
-    },
-    {
-      "appId": 3727390,
-      "dateAdded": 1777647591,
-      "priority": 0,
-      "name": "The Expanse: Osiris Reborn",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3727390/header.jpg"
     },
     {
       "appId": 2211170,
@@ -67583,6 +67590,13 @@
       "priority": 0,
       "name": "Earthblade",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239640/header.jpg"
+    },
+    {
+      "appId": 2239770,
+      "dateAdded": 1777285682,
+      "priority": 0,
+      "name": "App 2239770",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239770/header.jpg"
     },
     {
       "appId": 2245210,
@@ -68038,6 +68052,13 @@
       "priority": 0,
       "name": "The Chef's Shift",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2390230/header.jpg"
+    },
+    {
+      "appId": 2393760,
+      "dateAdded": 1778216601,
+      "priority": 0,
+      "name": "Tall Trails",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2393760/header.jpg"
     },
     {
       "appId": 2395210,
@@ -68656,6 +68677,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2597880/header.jpg"
     },
     {
+      "appId": 2599690,
+      "dateAdded": 1777563469,
+      "priority": 0,
+      "name": "Better Than Dead",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2599690/header.jpg"
+    },
+    {
       "appId": 2600600,
       "dateAdded": 1713464189,
       "priority": 0,
@@ -69181,6 +69209,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2766240/header.jpg"
     },
     {
+      "appId": 2766910,
+      "dateAdded": 1777639708,
+      "priority": 0,
+      "name": "PengPong",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2766910/header.jpg"
+    },
+    {
       "appId": 2768030,
       "dateAdded": 1763174815,
       "priority": 0,
@@ -69354,6 +69389,13 @@
       "priority": 0,
       "name": "The Forever Winter",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2828860/header.jpg"
+    },
+    {
+      "appId": 2830030,
+      "dateAdded": 1777485216,
+      "priority": 0,
+      "name": "MOTORSLICE",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2830030/header.jpg"
     },
     {
       "appId": 2830150,
@@ -69566,13 +69608,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2932680/header.jpg"
     },
     {
-      "appId": 2766910,
-      "dateAdded": 1777639708,
-      "priority": 0,
-      "name": "PengPong",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2766910/header.jpg"
-    },
-    {
       "appId": 2936810,
       "dateAdded": 1773010938,
       "priority": 0,
@@ -69613,6 +69648,13 @@
       "priority": 0,
       "name": "Grocery Store Simulator",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2961880/header.jpg"
+    },
+    {
+      "appId": 2961930,
+      "dateAdded": 1777285831,
+      "priority": 0,
+      "name": "App 2961930",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2961930/header.jpg"
     },
     {
       "appId": 2963540,
@@ -69846,6 +69888,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3043580/header.jpg"
     },
     {
+      "appId": 3043760,
+      "dateAdded": 1778353214,
+      "priority": 0,
+      "name": "HELLBREAK",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3043760/header.jpg"
+    },
+    {
       "appId": 3043940,
       "dateAdded": 1760885212,
       "priority": 0,
@@ -69879,6 +69928,13 @@
       "priority": 0,
       "name": "Going Dark",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3056760/header.jpg"
+    },
+    {
+      "appId": 3056840,
+      "dateAdded": 1777702600,
+      "priority": 0,
+      "name": "A Bumpy Ride",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3056840/header.jpg"
     },
     {
       "appId": 3057190,
@@ -70096,6 +70152,13 @@
       "priority": 0,
       "name": "Hela",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3161310/header.jpg"
+    },
+    {
+      "appId": 3161400,
+      "dateAdded": 1778353218,
+      "priority": 0,
+      "name": "Infinity Sweeper",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3161400/header.jpg"
     },
     {
       "appId": 3166050,
@@ -70728,6 +70791,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3423990/header.jpg"
     },
     {
+      "appId": 3424730,
+      "dateAdded": 1777827750,
+      "priority": 0,
+      "name": "ORMOD: Directive",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3424730/header.jpg"
+    },
+    {
       "appId": 3430340,
       "dateAdded": 1764044341,
       "priority": 0,
@@ -70754,6 +70824,13 @@
       "priority": 0,
       "name": "Sledding Game",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3438850/header.jpg"
+    },
+    {
+      "appId": 3441280,
+      "dateAdded": 1778217043,
+      "priority": 0,
+      "name": "The Greenening",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3441280/header.jpg"
     },
     {
       "appId": 3445510,
@@ -70875,6 +70952,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3495730/header.jpg"
     },
     {
+      "appId": 3500680,
+      "dateAdded": 1777474638,
+      "priority": 0,
+      "name": "Cropdeck",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3500680/header.jpg"
+    },
+    {
       "appId": 3503440,
       "dateAdded": 1756309049,
       "priority": 0,
@@ -70980,6 +71064,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3546610/header.jpg"
     },
     {
+      "appId": 3547270,
+      "dateAdded": 1777285918,
+      "priority": 0,
+      "name": "Worming from Home",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3547270/header.jpg"
+    },
+    {
       "appId": 3549390,
       "dateAdded": 1767664097,
       "priority": 0,
@@ -70999,6 +71090,13 @@
       "priority": 0,
       "name": "Backseat Drivers",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3558400/header.jpg"
+    },
+    {
+      "appId": 3558600,
+      "dateAdded": 1777647916,
+      "priority": 0,
+      "name": "Leafy Corner",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3558600/header.jpg"
     },
     {
       "appId": 3558670,
@@ -71120,11 +71218,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3599690/header.jpg"
     },
     {
+      "appId": 3601800,
+      "dateAdded": 1777742482,
+      "priority": 0,
+      "name": "Meltopia",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3601800/header.jpg"
+    },
+    {
       "appId": 3602270,
       "dateAdded": 1770235117,
       "priority": 0,
       "name": "Whisk",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3602270/header.jpg"
+    },
+    {
+      "appId": 3602570,
+      "dateAdded": 1777743201,
+      "priority": 0,
+      "name": "Horsey Game",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3602570/header.jpg"
     },
     {
       "appId": 3604780,
@@ -71216,6 +71328,13 @@
       "priority": 0,
       "name": "Servant of the Lake",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3636770/header.jpg"
+    },
+    {
+      "appId": 3639060,
+      "dateAdded": 1777647699,
+      "priority": 0,
+      "name": "DELIVERY MUST COMPLETE",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3639060/header.jpg"
     },
     {
       "appId": 3642000,
@@ -71344,6 +71463,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3710850/header.jpg"
     },
     {
+      "appId": 3713650,
+      "dateAdded": 1777618209,
+      "priority": 0,
+      "name": "Teenage Mutant Ninja Turtles: Empire City",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3713650/header.jpg"
+    },
+    {
       "appId": 3714450,
       "dateAdded": 1749483061,
       "priority": 0,
@@ -71384,6 +71510,13 @@
       "priority": 0,
       "name": "There Are No Ghosts at the Grand",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3725190/header.jpg"
+    },
+    {
+      "appId": 3727390,
+      "dateAdded": 1777647591,
+      "priority": 0,
+      "name": "The Expanse: Osiris Reborn",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3727390/header.jpg"
     },
     {
       "appId": 3738640,
@@ -71540,6 +71673,20 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3788800/header.jpg"
     },
     {
+      "appId": 3794610,
+      "dateAdded": 1777573482,
+      "priority": 0,
+      "name": "Goblin Vyke",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3794610/header.jpg"
+    },
+    {
+      "appId": 3806120,
+      "dateAdded": 1777801016,
+      "priority": 0,
+      "name": "Gluttony",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3806120/header.jpg"
+    },
+    {
       "appId": 3806350,
       "dateAdded": 1767877208,
       "priority": 0,
@@ -71566,6 +71713,13 @@
       "priority": 0,
       "name": "ReStory: Chill Electronics Repairs",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3812600/header.jpg"
+    },
+    {
+      "appId": 3812830,
+      "dateAdded": 1777563482,
+      "priority": 0,
+      "name": "Tiny Delivery",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3812830/header.jpg"
     },
     {
       "appId": 3816930,
@@ -71615,6 +71769,13 @@
       "priority": 0,
       "name": "YAPYAP",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/header.jpg"
+    },
+    {
+      "appId": 3840230,
+      "dateAdded": 1777573412,
+      "priority": 0,
+      "name": "Adorable Adventures",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3840230/header.jpg"
     },
     {
       "appId": 3842880,
@@ -71869,6 +72030,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3967470/header.jpg"
     },
     {
+      "appId": 3968100,
+      "dateAdded": 1777485325,
+      "priority": 0,
+      "name": "CD-ROM",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3968100/header.jpg"
+    },
+    {
       "appId": 3970690,
       "dateAdded": 1763869344,
       "priority": 0,
@@ -71944,6 +72112,13 @@
       "priority": 0,
       "name": "MyVoiceZoo",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4015530/header.jpg"
+    },
+    {
+      "appId": 4016880,
+      "dateAdded": 1777473942,
+      "priority": 0,
+      "name": "Secrets of Velendar Castle - Escape Room",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4016880/header.jpg"
     },
     {
       "appId": 4019090,
@@ -72184,6 +72359,20 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4168290/header.jpg"
     },
     {
+      "appId": 4171660,
+      "dateAdded": 1777647885,
+      "priority": 0,
+      "name": "PANLINE",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171660/header.jpg"
+    },
+    {
+      "appId": 4171850,
+      "dateAdded": 1777285667,
+      "priority": 0,
+      "name": "Trees Hate You",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/header.jpg"
+    },
+    {
       "appId": 4182190,
       "dateAdded": 1775777778,
       "priority": 0,
@@ -72210,6 +72399,13 @@
       "priority": 0,
       "name": "Don't Panic! It is Just Turbulence",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4187140/header.jpg"
+    },
+    {
+      "appId": 4193590,
+      "dateAdded": 1777715414,
+      "priority": 0,
+      "name": "Salvation Denied",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4193590/header.jpg"
     },
     {
       "appId": 4195110,
@@ -72315,6 +72511,13 @@
       "priority": 0,
       "name": "Sea Warden",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4262380/header.jpg"
+    },
+    {
+      "appId": 4269150,
+      "dateAdded": 1777286204,
+      "priority": 0,
+      "name": "Campwood",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4269150/header.jpg"
     },
     {
       "appId": 4276980,
@@ -72436,6 +72639,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4461640/header.jpg"
     },
     {
+      "appId": 4502890,
+      "dateAdded": 1777285881,
+      "priority": 0,
+      "name": "App 4502890",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4502890/header.jpg"
+    },
+    {
       "appId": 4503040,
       "dateAdded": 1773518594,
       "priority": 0,
@@ -72448,6 +72658,20 @@
       "priority": 0,
       "name": "Alchemist's Garden",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4503640/header.jpg"
+    },
+    {
+      "appId": 4513480,
+      "dateAdded": 1777647659,
+      "priority": 0,
+      "name": "App 4513480",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4513480/header.jpg"
+    },
+    {
+      "appId": 4518240,
+      "dateAdded": 1777647600,
+      "priority": 0,
+      "name": "App 4518240",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4518240/header.jpg"
     },
     {
       "appId": 4533950,
@@ -72471,20 +72695,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614080/header.jpg"
     },
     {
-      "appId": 4171850,
-      "dateAdded": 1777285667,
-      "priority": 0,
-      "name": "Trees Hate You",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171850/header.jpg"
-    },
-    {
-      "appId": 2239770,
-      "dateAdded": 1777285682,
-      "priority": 0,
-      "name": "App 2239770",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239770/header.jpg"
-    },
-    {
       "appId": 4623290,
       "dateAdded": 1777285731,
       "priority": 0,
@@ -72492,214 +72702,39 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4623290/header.jpg"
     },
     {
-      "appId": 2961930,
-      "dateAdded": 1777285831,
+      "appId": 2959770,
+      "dateAdded": 1778412469,
       "priority": 0,
-      "name": "App 2961930",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2961930/header.jpg"
+      "name": "Duck Side of the Moon",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2959770/header.jpg"
     },
     {
-      "appId": 4502890,
-      "dateAdded": 1777285881,
+      "appId": 2582320,
+      "dateAdded": 1778424834,
       "priority": 0,
-      "name": "App 4502890",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4502890/header.jpg"
+      "name": "Mixtape",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2582320/header.jpg"
     },
     {
-      "appId": 3547270,
-      "dateAdded": 1777285918,
+      "appId": 2255370,
+      "dateAdded": 1778424844,
       "priority": 0,
-      "name": "Worming from Home",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3547270/header.jpg"
+      "name": "Directive 8020",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2255370/header.jpg"
     },
     {
-      "appId": 4269150,
-      "dateAdded": 1777286204,
+      "appId": 1378990,
+      "dateAdded": 1778424964,
       "priority": 0,
-      "name": "Campwood",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4269150/header.jpg"
+      "name": "Crash Bandicoot™ 4: It’s About Time",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1378990/header.jpg"
     },
     {
-      "appId": 4016880,
-      "dateAdded": 1777473942,
+      "appId": 3457390,
+      "dateAdded": 1778489308,
       "priority": 0,
-      "name": "Secrets of Velendar Castle - Escape Room",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4016880/header.jpg"
-    },
-    {
-      "appId": 3500680,
-      "dateAdded": 1777474638,
-      "priority": 0,
-      "name": "Cropdeck",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3500680/header.jpg"
-    },
-    {
-      "appId": 1880620,
-      "dateAdded": 1777485146,
-      "priority": 0,
-      "name": "Once Upon A KATAMARI",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1880620/header.jpg"
-    },
-    {
-      "appId": 2830030,
-      "dateAdded": 1777485216,
-      "priority": 0,
-      "name": "MOTORSLICE",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2830030/header.jpg"
-    },
-    {
-      "appId": 3968100,
-      "dateAdded": 1777485325,
-      "priority": 0,
-      "name": "CD-ROM",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3968100/header.jpg"
-    },
-    {
-      "appId": 2599690,
-      "dateAdded": 1777563469,
-      "priority": 0,
-      "name": "Better Than Dead",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2599690/header.jpg"
-    },
-    {
-      "appId": 3812830,
-      "dateAdded": 1777563482,
-      "priority": 0,
-      "name": "Tiny Delivery",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3812830/header.jpg"
-    },
-    {
-      "appId": 3840230,
-      "dateAdded": 1777573412,
-      "priority": 0,
-      "name": "Adorable Adventures",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3840230/header.jpg"
-    },
-    {
-      "appId": 3794610,
-      "dateAdded": 1777573482,
-      "priority": 0,
-      "name": "Goblin Vyke",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3794610/header.jpg"
-    },
-    {
-      "appId": 3713650,
-      "dateAdded": 1777618209,
-      "priority": 0,
-      "name": "Teenage Mutant Ninja Turtles: Empire City",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3713650/header.jpg"
-    },
-    {
-      "appId": 4513480,
-      "dateAdded": 1777647659,
-      "priority": 0,
-      "name": "App 4513480",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4513480/header.jpg"
-    },
-    {
-      "appId": 3639060,
-      "dateAdded": 1777647699,
-      "priority": 0,
-      "name": "DELIVERY MUST COMPLETE",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3639060/header.jpg"
-    },
-    {
-      "appId": 881940,
-      "dateAdded": 1777647761,
-      "priority": 0,
-      "name": "App 881940",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/881940/header.jpg"
-    },
-    {
-      "appId": 4171660,
-      "dateAdded": 1777647885,
-      "priority": 0,
-      "name": "PANLINE",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4171660/header.jpg"
-    },
-    {
-      "appId": 3558600,
-      "dateAdded": 1777647916,
-      "priority": 0,
-      "name": "Leafy Corner",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3558600/header.jpg"
-    },
-    {
-      "appId": 3056840,
-      "dateAdded": 1777702600,
-      "priority": 0,
-      "name": "A Bumpy Ride",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3056840/header.jpg"
-    },
-    {
-      "appId": 4193590,
-      "dateAdded": 1777715414,
-      "priority": 0,
-      "name": "Salvation Denied",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4193590/header.jpg"
-    },
-    {
-      "appId": 3601800,
-      "dateAdded": 1777742482,
-      "priority": 0,
-      "name": "Meltopia",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3601800/header.jpg"
-    },
-    {
-      "appId": 3602570,
-      "dateAdded": 1777743201,
-      "priority": 0,
-      "name": "Horsey Game",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3602570/header.jpg"
-    },
-    {
-      "appId": 3806120,
-      "dateAdded": 1777801016,
-      "priority": 0,
-      "name": "Gluttony",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3806120/header.jpg"
-    },
-    {
-      "appId": 3424730,
-      "dateAdded": 1777827750,
-      "priority": 0,
-      "name": "ORMOD: Directive",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3424730/header.jpg"
-    },
-    {
-      "appId": 2184770,
-      "dateAdded": 1778005895,
-      "priority": 0,
-      "name": "Broken Lens",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2184770/header.jpg"
-    },
-    {
-      "appId": 2393760,
-      "dateAdded": 1778216601,
-      "priority": 0,
-      "name": "Tall Trails",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2393760/header.jpg"
-    },
-    {
-      "appId": 3441280,
-      "dateAdded": 1778217043,
-      "priority": 0,
-      "name": "The Greenening",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3441280/header.jpg"
-    },
-    {
-      "appId": 3043760,
-      "dateAdded": 1778353214,
-      "priority": 0,
-      "name": "HELLBREAK",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3043760/header.jpg"
-    },
-    {
-      "appId": 3161400,
-      "dateAdded": 1778353218,
-      "priority": 0,
-      "name": "Infinity Sweeper",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3161400/header.jpg"
+      "name": "Little Wings Deliveries",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3457390/header.jpg"
     }
   ]
 }
