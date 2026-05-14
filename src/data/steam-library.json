@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-05-13T08:45:19.779Z",
+  "fetchedAt": "2026-05-14T08:38:42.526Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1778655652
+    "lastLogoff": 1778745828
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3446.7,
+      "playtimeHours": 3448,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -1927,7 +1927,7 @@
     {
       "appId": 3191030,
       "name": "Nubby's Number Factory",
-      "playtimeHours": 51.7,
+      "playtimeHours": 52,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
       "genres": [
@@ -3579,6 +3579,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 23.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 47
+      }
+    },
+    {
       "appId": 629520,
       "name": "Soundpad",
       "playtimeHours": 23.7,
@@ -3592,21 +3607,6 @@
       "hardwareSupport": [],
       "releaseDate": "Sep 30, 2017",
       "achievements": null
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 23.4,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 42
-      }
     },
     {
       "appId": 201810,
@@ -17592,6 +17592,29 @@
       "achievements": null
     },
     {
+      "appId": 228280,
+      "name": "Baldur's Gate: Enhanced Edition",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/228280/8f58ffe2b58e546ec6d9515fa80fb231764b2da8.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/header.jpg?t=1746198680",
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jan 16, 2013",
+      "achievements": {
+        "total": 129,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 228360,
       "name": "Full Throttle Remastered",
       "playtimeHours": 0,
@@ -19514,6 +19537,29 @@
       "releaseDate": null,
       "achievements": {
         "total": 42,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 257350,
+      "name": "Baldur's Gate II: Enhanced Edition",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/257350/c76299c87cab47a1cfcbff3b42cd883194e090f9.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350/header.jpg?t=1776702115",
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Nov 15, 2013",
+      "achievements": {
+        "total": 93,
         "unlocked": 0
       }
     },
@@ -36059,6 +36105,27 @@
       "achievements": null
     },
     {
+      "appId": 548570,
+      "name": "RAGE 2",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/548570/42046dcd77862072d679fc165a417e207d15b061.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548570/header.jpg?t=1761681586",
+      "genres": [
+        "Action"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 13, 2019",
+      "achievements": {
+        "total": 64,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 550320,
       "name": "art of rally",
       "playtimeHours": 0,
@@ -43477,6 +43544,30 @@
       "releaseDate": null,
       "achievements": {
         "total": 53,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 861650,
+      "name": "Session: Skate Sim",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/861650/e59c2798923eb4f7d536dca328499a8a30ccd97f.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/861650/4076026c5d7f4456b477f89d8d567aef236de713/header.jpg?t=1774533764",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Sports",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 22, 2022",
+      "achievements": {
+        "total": 48,
         "unlocked": 0
       }
     },
@@ -51986,6 +52077,34 @@
       }
     },
     {
+      "appId": 1354260,
+      "name": "Brave Escape",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1354260/25b63bbc0520fad02923590375816980505140b8.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1354260/430ef4770c894451526cecfaa12c884a57beab2f/header.jpg?t=1778699870",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Shared/Split Screen Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Jan 31, 2025",
+      "achievements": {
+        "total": 25,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1354830,
       "name": "Cat Cafe Manager",
       "playtimeHours": 0,
@@ -52546,6 +52665,32 @@
       "releaseDate": null,
       "achievements": {
         "total": 15,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1403650,
+      "name": "Everdream Valley",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1403650/dddf2632b1f36d0897e1f9dd2cba3c52ed35a61e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1403650/header.jpg?t=1776528156",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "May 30, 2023",
+      "achievements": {
+        "total": 22,
         "unlocked": 0
       }
     },
@@ -55041,6 +55186,28 @@
       "releaseDate": null,
       "achievements": {
         "total": 52,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1622350,
+      "name": "Copycat",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1622350/35ad7e6f4e50757823ae7c3fb6b66ef51078f0ad.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1622350/header.jpg?t=1763430983",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 19, 2024",
+      "achievements": {
+        "total": 21,
         "unlocked": 0
       }
     },
@@ -57730,6 +57897,34 @@
       "achievements": null
     },
     {
+      "appId": 2122880,
+      "name": "All Hands on Deck",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2122880/dd63e1062de557a80318cf0cd83b2fad3996a602.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2122880/dfd1d4cd6e38b4ddd2668b7d6f790214d8e106aa/header.jpg?t=1768496452",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op",
+        "Shared/Split Screen Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Nov 11, 2025",
+      "achievements": {
+        "total": 29,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2124120,
       "name": "SULFUR",
       "playtimeHours": 0,
@@ -58491,6 +58686,29 @@
       }
     },
     {
+      "appId": 2304440,
+      "name": "Creatures of Ava",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2304440/c2c41bd127ed401014c0c7e58ef5f2ede4624ffe.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2304440/header.jpg?t=1777545686",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Aug 7, 2024",
+      "achievements": {
+        "total": 27,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2312160,
       "name": "Frogun Encore",
       "playtimeHours": 0,
@@ -59176,6 +59394,29 @@
       }
     },
     {
+      "appId": 2797650,
+      "name": "Pip My Dice",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2797650/9c7635cd37e785ebe701f7cc760ad21fede3a3b3.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2797650/header.jpg?t=1777906381",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jul 25, 2025",
+      "achievements": {
+        "total": 41,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2825530,
       "name": "Beholder: Conductor",
       "playtimeHours": 0,
@@ -59524,7 +59765,7 @@
       "name": "I Am Legion: Stand Survivors",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3109580/a35acbe0a94d48b337c3fbf9283d587647990a91.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1778160276",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1778744987",
       "genres": [
         "Action",
         "Adventure"
@@ -60616,13 +60857,6 @@
       "priority": 229,
       "name": "Stationeers",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/544550/header.jpg"
-    },
-    {
-      "appId": 548570,
-      "dateAdded": 1553556389,
-      "priority": 2,
-      "name": "RAGE 2",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/548570/header.jpg"
     },
     {
       "appId": 552620,
@@ -61757,13 +61991,6 @@
       "priority": 0,
       "name": "Dungeon Deathball",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/861330/header.jpg"
-    },
-    {
-      "appId": 861650,
-      "dateAdded": 1582580839,
-      "priority": 0,
-      "name": "Session: Skate Sim",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/861650/header.jpg"
     },
     {
       "appId": 863570,
@@ -67359,11 +67586,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2119830/header.jpg"
     },
     {
-      "appId": 2122880,
-      "dateAdded": 1761211969,
+      "appId": 3784760,
+      "dateAdded": 1778686084,
       "priority": 0,
-      "name": "All Hands on Deck",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2122880/header.jpg"
+      "name": "Elfie: A Sand Plan",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3784760/header.jpg"
     },
     {
       "appId": 2125540,
@@ -67651,13 +67878,6 @@
       "priority": 0,
       "name": "Rivals of Aether II",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2217000/header.jpg"
-    },
-    {
-      "appId": 2220740,
-      "dateAdded": 1673184073,
-      "priority": 0,
-      "name": "App 2220740",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2220740/header.jpg"
     },
     {
       "appId": 2221490,
@@ -72894,6 +73114,13 @@
       "priority": 0,
       "name": "Wobbledogs",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1424330/header.jpg"
+    },
+    {
+      "appId": 3100370,
+      "dateAdded": 1778683138,
+      "priority": 0,
+      "name": "Black Jacket",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3100370/header.jpg"
     }
   ]
 }
