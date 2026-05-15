@@ -4,7 +4,7 @@ export const TECH_BUILDS_CATEGORY_ID = 'builds';
 /** Spare parts / on-hand hardware below Computer Builds */
 export const TECH_COMPONENT_INVENTORY_CATEGORY_ID = 'component-inventory';
 
-/** In-app tech editor: Builds + Component Inventory use checkboxes */
+/** In-app tech editor: Builds use multi-tag checkboxes; inventory uses one category */
 export const TECH_HARDWARE_TAG_OPTIONS = [
   'GPU',
   'CPU',
@@ -30,10 +30,16 @@ const TECH_ITEM_PROFICIENCY_FIELD = {
 };
 
 export function techItemTagsFieldForCategoryId(categoryId) {
-  const useHardwarePicker =
-    categoryId === TECH_BUILDS_CATEGORY_ID ||
-    categoryId === TECH_COMPONENT_INVENTORY_CATEGORY_ID;
-  if (useHardwarePicker) {
+  if (categoryId === TECH_COMPONENT_INVENTORY_CATEGORY_ID) {
+    return {
+      key: 'tags',
+      label: 'Category',
+      type: 'select',
+      options: TECH_HARDWARE_TAG_OPTIONS,
+      tagSingleton: true,
+    };
+  }
+  if (categoryId === TECH_BUILDS_CATEGORY_ID) {
     return {
       key: 'tags',
       label: 'Tags',
@@ -73,6 +79,28 @@ export const TECH_BUILD_ITEM_EXTRA_SCHEMA = [
 export const TECH_INVENTORY_ITEM_EXTRA_SCHEMA = [
   { key: 'quantity', label: 'Quantity', type: 'number' },
   { key: 'extras', label: 'Notes', type: 'textarea' },
+];
+
+/** Subgroup bulk-edit rows: bucket implies category (no tags field). */
+export const TECH_INVENTORY_SUBGROUP_ROW_SCHEMA_HARDWARE = [
+  TECH_ITEM_NAME_FIELD,
+  TECH_ITEM_PROFICIENCY_FIELD,
+  ...TECH_INVENTORY_ITEM_EXTRA_SCHEMA,
+];
+
+/** Other bucket: assign exactly one hardware category per row */
+export const TECH_INVENTORY_SUBGROUP_ROW_SCHEMA_OTHER = [
+  TECH_ITEM_NAME_FIELD,
+  {
+    key: 'tags',
+    label: 'Category',
+    type: 'select',
+    options: TECH_HARDWARE_TAG_OPTIONS,
+    tagSingleton: true,
+    required: true,
+  },
+  TECH_ITEM_PROFICIENCY_FIELD,
+  ...TECH_INVENTORY_ITEM_EXTRA_SCHEMA,
 ];
 
 export function getTechItemSchemaForCategoryId(categoryId) {

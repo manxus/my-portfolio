@@ -1,6 +1,24 @@
 {
   "changelog": [
     {
+      "version": "1.1.5",
+      "date": "2026-05-15",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Steam Library: Milestones tab with tier tracks for library size, lifetime playtime, deepest single title, flawless runs, achievement haul, and wishlist; three-column milestone cards with completed checkmarks, progress bars, and compact captions"
+        },
+        {
+          "type": "changed",
+          "text": "Tech Loadout: expanded page layout and styles; Content Editor, schemas, and EditableSection updated for richer items and admin saves"
+        },
+        {
+          "type": "changed",
+          "text": "QA portfolio playtests, Steam reviews and tier list, and tech inventory data refreshed"
+        }
+      ]
+    },
+    {
       "version": "1.1.4",
       "date": "2026-05-01",
       "entries": [

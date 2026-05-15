@@ -83,14 +83,28 @@ function FieldInput({ field, value, onChange, formData }) {
   }
 
   if (field.type === 'select') {
+    const displayValue = field.tagSingleton
+      ? (Array.isArray(value) && value.length
+          ? String(
+              (field.options || []).find((opt) => value.includes(opt)) ?? value[0],
+            )
+          : '')
+      : (value ?? '');
     return (
       <select
         className={styles.input}
-        value={value ?? ''}
-        onChange={(e) => onChange(e.target.value)}
+        value={displayValue}
+        onChange={(e) => {
+          const v = e.target.value;
+          if (field.tagSingleton) {
+            onChange(v ? [v] : []);
+          } else {
+            onChange(v);
+          }
+        }}
       >
-        <option value="">-- Select --</option>
-        {field.options.map((opt) => (
+        <option value="">{field.tagSingleton ? '-- Category --' : '-- Select --'}</option>
+        {(field.options || []).map((opt) => (
           <option key={opt} value={opt}>{opt}</option>
         ))}
       </select>
@@ -245,7 +259,13 @@ function FieldInput({ field, value, onChange, formData }) {
             const empty = {};
             for (const sf of subSchema) {
               empty[sf.key] =
-                sf.type === 'boolean' ? false : sf.type === 'list' ? [] : '';
+                sf.type === 'boolean'
+                  ? false
+                  : sf.type === 'list'
+                    ? []
+                    : sf.type === 'select' && sf.tagSingleton
+                      ? []
+                      : '';
             }
             onChange([...items, empty]);
           }}
@@ -310,6 +330,7 @@ export default function ContentEditor({
       if (field.type === 'boolean') empty[field.key] = false;
       else if (field.type === 'list' || field.type === 'objectList') empty[field.key] = [];
       else if (field.type === 'tiers') empty[field.key] = { S: [], A: [], B: [], C: [], D: [], F: [], unplayed: [] };
+      else if (field.type === 'select' && field.tagSingleton) empty[field.key] = [];
       else empty[field.key] = '';
     }
     return empty;

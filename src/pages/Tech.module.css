@@ -166,3 +166,87 @@
 .inventoryNotes {
   margin-top: 0.35rem;
 }
+
+.inventoryAccordionPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.inventoryDetails {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inventorySummary {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.65rem 0.85rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.inventorySummary::-webkit-details-marker {
+  display: none;
+}
+
+.inventorySummaryLabel {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  min-width: 6.25rem;
+}
+
+.inventorySummaryCount {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.03em;
+}
+
+.inventorySubgroupEditBtn {
+  flex-shrink: 0;
+  margin-right: 0.25rem;
+}
+
+.inventoryChevron {
+  width: 0.42rem;
+  height: 0.42rem;
+  border-right: 2px solid var(--accent-dim);
+  border-bottom: 2px solid var(--accent-dim);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.inventoryDetails[open] > .inventorySummary .inventoryChevron {
+  transform: rotate(-135deg);
+}
+
+.inventoryDetailsBody {
+  padding: 0 0.85rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  border-top: 1px solid rgba(95, 143, 143, 0.08);
+}
+
+.inventoryDetailsBody > .itemList {
+  padding-top: 0.65rem;
+}
+
+.inventoryEmpty {
+  margin: 0;
+  padding: 0.65rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.03em;
+}

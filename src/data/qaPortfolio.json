@@ -94,6 +94,27 @@
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/3056650/Cult_Of_Blood/"
+    },
+    {
+      "title": "Woodland Rebels",
+      "studio": "Beak Berry Games",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/3862100/Woodland_Rebels/"
+    },
+    {
+      "title": "Gluttony",
+      "studio": "TeamFG",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/3806120/Gluttony/"
+    },
+    {
+      "title": "One Last Hand",
+      "studio": "Fire Brick Games",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/4209830/One_Last_Hand/"
     }
   ],
   "certificates": []

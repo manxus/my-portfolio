@@ -5,6 +5,7 @@ const TABS = [
   { id: 'wishlist', label: 'WISHLIST' },
   { id: 'reviews', label: 'REVIEWS' },
   { id: 'tierlist', label: 'TIER LIST' },
+  { id: 'milestones', label: 'MILESTONES' },
 ];
 
 export default function SteamTabs({ activeTab, onTabChange }) {

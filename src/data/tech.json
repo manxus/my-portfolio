@@ -213,21 +213,21 @@
       "items": [
         {
           "name": "ASUS GeForce GTX 980 4GB GDDR5 TURBO",
-          "tags": [
-            "GPU"
-          ],
           "proficiency": "",
           "quantity": 1,
-          "extras": ""
+          "extras": "",
+          "tags": [
+            "GPU"
+          ]
         },
         {
           "name": "Asus GeForce GTX 760 DirectCU II 2GB GDDR5",
-          "tags": [
-            "GPU"
-          ],
           "proficiency": "",
           "quantity": 1,
-          "extras": ""
+          "extras": "",
+          "tags": [
+            "GPU"
+          ]
         }
       ]
     }
