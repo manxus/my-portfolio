@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-05-15T08:49:57.727Z",
+  "fetchedAt": "2026-05-16T08:03:37.873Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1778810331
+    "lastLogoff": 1778898639
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3449.2,
+      "playtimeHours": 3452.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -6291,6 +6291,21 @@
       }
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 9.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 5
+      }
+    },
+    {
       "appId": 221640,
       "name": "Super Hexagon",
       "playtimeHours": 9.1,
@@ -10506,21 +10521,6 @@
       }
     },
     {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 2,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 2
-      }
-    },
-    {
       "appId": 508170,
       "name": "BlackSmith HIT",
       "playtimeHours": 2,
@@ -11856,10 +11856,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 9,
-        "unlocked": 2
-      }
+      "achievements": null
     },
     {
       "appId": 400250,
@@ -53310,7 +53307,7 @@
       "appId": 1445790,
       "name": "Make Way",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1445790/b58295ca82d83183a6dcc287e315ddb445bd33df.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1445790/458644e89c9e639bbb6a9e4a16aef23ccd80a157.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1445790/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -54475,7 +54472,7 @@
       "name": "Virtual Hunter",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1549850/4e770af31689e7ff9e48d389a277dc0b5e29eecd.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1549850/header.jpg?t=1772478384",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1549850/74407f4d2cc61225833c9231d5bb1a30d1b22a37/header.jpg?t=1778837658",
       "genres": [
         "Adventure",
         "Indie",
