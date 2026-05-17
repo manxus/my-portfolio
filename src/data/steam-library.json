@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-16T08:03:37.873Z",
+  "fetchedAt": "2026-05-17T08:23:01.086Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1778898639
+    "lastLogoff": 1778951116
   },
   "games": [
     {
@@ -6006,6 +6006,21 @@
       }
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 10.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 7
+      }
+    },
+    {
       "appId": 690150,
       "name": "Fossil Hunters",
       "playtimeHours": 10.7,
@@ -6288,21 +6303,6 @@
       "achievements": {
         "total": 47,
         "unlocked": 8
-      }
-    },
-    {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 9.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 5
       }
     },
     {
@@ -72698,13 +72698,6 @@
       "priority": 0,
       "name": "My Winter Car",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4164420/header.jpg"
-    },
-    {
-      "appId": 4165870,
-      "dateAdded": 1763033742,
-      "priority": 0,
-      "name": "App 4165870",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4165870/header.jpg"
     },
     {
       "appId": 4165890,
