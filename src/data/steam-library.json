@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-18T09:57:13.422Z",
+  "fetchedAt": "2026-05-19T09:39:43.163Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779084125
+    "lastLogoff": 1779145361
   },
   "games": [
     {
@@ -4632,6 +4632,21 @@
       }
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 17.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 8
+      }
+    },
+    {
       "appId": 815370,
       "name": "Green Hell",
       "playtimeHours": 16.9,
@@ -5412,21 +5427,6 @@
       "achievements": {
         "total": 50,
         "unlocked": 29
-      }
-    },
-    {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 13.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 7
       }
     },
     {
@@ -51936,7 +51936,7 @@
       "name": "Daemon X Machina: Titanic Scion",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1342490/5ab7709896cee09a22ad296360df5fcafb7a06c1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1342490/dc5fd7e61c483622ee093b53b1a0928e4ea90996/header.jpg?t=1775578386",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1342490/2d181de76d76db99bb377ebaf69e3f4915f54fce/header.jpg?t=1779123309",
       "genres": [
         "Action"
       ],
@@ -51950,7 +51950,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "Sep 5, 2025",
+      "releaseDate": "5 Sep, 2025",
       "achievements": {
         "total": 59,
         "unlocked": 0
@@ -73132,6 +73132,139 @@
       "priority": 0,
       "name": "Sol Cesto",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2738490/header.jpg"
+    },
+    {
+      "appId": 4078200,
+      "dateAdded": 1779101244,
+      "priority": 0,
+      "name": "Dwarf Eats Mountain",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4078200/header.jpg"
+    },
+    {
+      "appId": 3542380,
+      "dateAdded": 1779101282,
+      "priority": 0,
+      "name": "Rune Dice",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3542380/header.jpg"
+    },
+    {
+      "appId": 4535880,
+      "dateAdded": 1779101329,
+      "priority": 0,
+      "name": "App 4535880",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4535880/header.jpg"
+    },
+    {
+      "appId": 3336240,
+      "dateAdded": 1779101429,
+      "priority": 0,
+      "name": "Walk The Frog",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3336240/header.jpg"
+    },
+    {
+      "appId": 3115240,
+      "dateAdded": 1779101472,
+      "priority": 0,
+      "name": "Alchemist: Journey of the Soul",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3115240/header.jpg"
+    },
+    {
+      "appId": 3496890,
+      "dateAdded": 1779101558,
+      "priority": 0,
+      "name": "Slot or Not",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3496890/header.jpg"
+    },
+    {
+      "appId": 2980170,
+      "dateAdded": 1779101586,
+      "priority": 0,
+      "name": "Vortica",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2980170/header.jpg"
+    },
+    {
+      "appId": 4135750,
+      "dateAdded": 1779101601,
+      "priority": 0,
+      "name": "FEED THE QUEEN",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4135750/header.jpg"
+    },
+    {
+      "appId": 3283310,
+      "dateAdded": 1779101691,
+      "priority": 0,
+      "name": "Kioku: Last Summer",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3283310/header.jpg"
+    },
+    {
+      "appId": 3264960,
+      "dateAdded": 1779101765,
+      "priority": 0,
+      "name": "Cardburners",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3264960/header.jpg"
+    },
+    {
+      "appId": 3265290,
+      "dateAdded": 1779101851,
+      "priority": 0,
+      "name": "Swan Song",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265290/header.jpg"
+    },
+    {
+      "appId": 1928690,
+      "dateAdded": 1779110220,
+      "priority": 0,
+      "name": "Bionic Bay",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1928690/header.jpg"
+    },
+    {
+      "appId": 4601230,
+      "dateAdded": 1779130938,
+      "priority": 0,
+      "name": "App 4601230",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4601230/header.jpg"
+    },
+    {
+      "appId": 4663380,
+      "dateAdded": 1779130999,
+      "priority": 0,
+      "name": "App 4663380",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4663380/header.jpg"
+    },
+    {
+      "appId": 4592560,
+      "dateAdded": 1779131016,
+      "priority": 0,
+      "name": "App 4592560",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4592560/header.jpg"
+    },
+    {
+      "appId": 2853130,
+      "dateAdded": 1779131066,
+      "priority": 0,
+      "name": "Astrodle",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2853130/header.jpg"
+    },
+    {
+      "appId": 2276980,
+      "dateAdded": 1779131088,
+      "priority": 0,
+      "name": "FACEMINER",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2276980/header.jpg"
+    },
+    {
+      "appId": 4241840,
+      "dateAdded": 1779131176,
+      "priority": 0,
+      "name": "Sporbs",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4241840/header.jpg"
+    },
+    {
+      "appId": 4268890,
+      "dateAdded": 1779131207,
+      "priority": 0,
+      "name": "Drop and Grow",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4268890/header.jpg"
     }
   ]
 }
