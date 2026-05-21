@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-20T09:05:04.296Z",
+  "fetchedAt": "2026-05-21T09:35:28.895Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779230391
+    "lastLogoff": 1779344646
   },
   "games": [
     {
@@ -3505,6 +3505,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 24.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 47
+      }
+    },
+    {
       "appId": 945360,
       "name": "Among Us",
       "playtimeHours": 24.6,
@@ -3556,21 +3571,6 @@
       "achievements": {
         "total": 86,
         "unlocked": 58
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 24.4,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 47
       }
     },
     {
@@ -13764,7 +13764,10 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": null
+      "achievements": {
+        "total": 54,
+        "unlocked": 0
+      }
     },
     {
       "appId": 3590,
@@ -46090,7 +46093,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 495,
+        "total": 512,
         "unlocked": 0
       }
     },
