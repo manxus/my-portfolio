@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-21T09:35:28.895Z",
+  "fetchedAt": "2026-05-22T09:00:51.016Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779344646
+    "lastLogoff": 1779420823
   },
   "games": [
     {
@@ -3392,6 +3392,21 @@
       }
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 25.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 47
+      }
+    },
+    {
       "appId": 489940,
       "name": "BATTALION: Legacy",
       "playtimeHours": 25.6,
@@ -3502,21 +3517,6 @@
       "achievements": {
         "total": 80,
         "unlocked": 50
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 24.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 47
       }
     },
     {
@@ -48653,6 +48653,28 @@
       }
     },
     {
+      "appId": 1141580,
+      "name": "Taiji",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1141580/31967d33e6a2788637d36bbdd9192f0d1bd2dbc1.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1141580/header.jpg?t=1752260208",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 9, 2022",
+      "achievements": {
+        "total": 12,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1142080,
       "name": "Pawnbarian",
       "playtimeHours": 0,
@@ -52444,6 +52466,28 @@
       }
     },
     {
+      "appId": 1382070,
+      "name": "Viewfinder",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1382070/6da05b88ad6faf05ea093baa77177700961ff056.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1382070/a69eb56f73446624325dec8a4fe74dc4ae09fb96/header.jpg?t=1764842475",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jul 18, 2023",
+      "achievements": {
+        "total": 46,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1382330,
       "name": "Persona 5 Strikers",
       "playtimeHours": 0,
@@ -54600,6 +54644,31 @@
       "releaseDate": null,
       "achievements": {
         "total": 21,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1560160,
+      "name": "ILA: A Frosty Glide",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1560160/133bbb95924bee204dd9527e6911f46f19af48af.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1560160/header.jpg?t=1768846478",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Oct 20, 2025",
+      "achievements": {
+        "total": 20,
         "unlocked": 0
       }
     },
@@ -57561,6 +57630,29 @@
       }
     },
     {
+      "appId": 2012320,
+      "name": "Parallel Experiment",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2012320/168c15957fc468ee16ec46572a87e0565941a05d.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2012320/998ac2a14769cc38a7f58e6dcd3e4e56452e3a3a/header.jpg?t=1774462922",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jun 5, 2025",
+      "achievements": {
+        "total": 26,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2013730,
       "name": "Gourdlets",
       "playtimeHours": 0,
@@ -58724,6 +58816,29 @@
       }
     },
     {
+      "appId": 2312770,
+      "name": "Linkito",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2312770/54412924cc6df6b5243691b335bf60d84856936f.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2312770/header.jpg?t=1723801631",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jul 23, 2024",
+      "achievements": {
+        "total": 37,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2320910,
       "name": "AMID EVIL VR",
       "playtimeHours": 0,
@@ -59231,6 +59346,28 @@
       }
     },
     {
+      "appId": 2685900,
+      "name": "Mind Over Magnet",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2685900/b2b23a72fdecc0c5bfcf1c5f8a11eb8f021ab405.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685900/header.jpg?t=1753080661",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Nov 13, 2024",
+      "achievements": {
+        "total": 9,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2701700,
       "name": "Maestro",
       "playtimeHours": 0,
@@ -59722,6 +59859,24 @@
       }
     },
     {
+      "appId": 3021530,
+      "name": "Abra-Cooking-Dabra",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3021530/c96214d7c7632c73c544de4cac1da87941729529.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3021530/header.jpg?t=1778238700",
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Nov 17, 2025",
+      "achievements": null
+    },
+    {
       "appId": 3048140,
       "name": "Daemonologie",
       "playtimeHours": 0,
@@ -59732,6 +59887,27 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
+    },
+    {
+      "appId": 3083300,
+      "name": "Proverbs",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3083300/e274bc8a8e2cd49dbf821918f289f7c380f20f49.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3083300/header.jpg?t=1763461008",
+      "genres": [
+        "Casual"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "Nov 7, 2024",
+      "achievements": {
+        "total": 94,
+        "unlocked": 0
+      }
     },
     {
       "appId": 3086580,
@@ -64597,13 +64773,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1379930/header.jpg"
     },
     {
-      "appId": 1382070,
-      "dateAdded": 1682407581,
-      "priority": 0,
-      "name": "Viewfinder",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1382070/header.jpg"
-    },
-    {
       "appId": 1384660,
       "dateAdded": 1680212223,
       "priority": 0,
@@ -69315,11 +69484,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2682580/header.jpg"
     },
     {
-      "appId": 2685900,
-      "dateAdded": 1763210108,
+      "appId": 971030,
+      "dateAdded": 1779431594,
       "priority": 0,
-      "name": "Mind Over Magnet",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2685900/header.jpg"
+      "name": "SkateBIRD",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/971030/header.jpg"
     },
     {
       "appId": 2686630,
@@ -73296,6 +73465,27 @@
       "priority": 0,
       "name": "The Dream Globe",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3820130/header.jpg"
+    },
+    {
+      "appId": 1418390,
+      "dateAdded": 1779364610,
+      "priority": 0,
+      "name": "Antipaint",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1418390/header.jpg"
+    },
+    {
+      "appId": 4476320,
+      "dateAdded": 1779392711,
+      "priority": 0,
+      "name": "Feed The Void",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4476320/header.jpg"
+    },
+    {
+      "appId": 2388030,
+      "dateAdded": 1779394042,
+      "priority": 0,
+      "name": "LogiGolf",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2388030/header.jpg"
     }
   ]
 }
