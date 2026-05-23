@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-05-22T09:00:51.016Z",
+  "fetchedAt": "2026-05-23T08:17:46.982Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779420823
+    "lastLogoff": 1779513420
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3454.9,
+      "playtimeHours": 3456.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -3574,6 +3574,21 @@
       }
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 24.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 11
+      }
+    },
+    {
       "appId": 339160,
       "name": "Tales of the Orient: The Rising Sun",
       "playtimeHours": 24.1,
@@ -3850,21 +3865,6 @@
       "achievements": {
         "total": 47,
         "unlocked": 47
-      }
-    },
-    {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 21.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 10
       }
     },
     {
@@ -13765,7 +13765,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 54,
+        "total": 74,
         "unlocked": 0
       }
     },
@@ -64771,6 +64771,13 @@
       "priority": 0,
       "name": "Power & Revolution 2020 Edition",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1379930/header.jpg"
+    },
+    {
+      "appId": 3237970,
+      "dateAdded": 1779482280,
+      "priority": 0,
+      "name": "Bubsy 4D",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3237970/header.jpg"
     },
     {
       "appId": 1384660,
