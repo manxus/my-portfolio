@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-05-23T08:17:46.982Z",
+  "fetchedAt": "2026-05-24T08:29:14.753Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779513420
+    "lastLogoff": 1779604322
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3456.8,
+      "playtimeHours": 3458.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -3425,6 +3425,21 @@
       "achievements": null
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 25.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 13
+      }
+    },
+    {
       "appId": 1824220,
       "name": "Chivalry 2",
       "playtimeHours": 25.5,
@@ -3571,21 +3586,6 @@
       "achievements": {
         "total": 86,
         "unlocked": 58
-      }
-    },
-    {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 24.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 11
       }
     },
     {
@@ -73493,6 +73493,20 @@
       "priority": 0,
       "name": "LogiGolf",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2388030/header.jpg"
+    },
+    {
+      "appId": 3779710,
+      "dateAdded": 1779559507,
+      "priority": 0,
+      "name": "CINESCAPE VR",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3779710/header.jpg"
+    },
+    {
+      "appId": 4381560,
+      "dateAdded": 1779559624,
+      "priority": 0,
+      "name": "Compass",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4381560/header.jpg"
     }
   ]
 }
