@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-24T08:29:14.753Z",
+  "fetchedAt": "2026-05-25T10:02:57.224Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779604322
+    "lastLogoff": 1779702093
   },
   "games": [
     {
@@ -1927,7 +1927,7 @@
     {
       "appId": 3191030,
       "name": "Nubby's Number Factory",
-      "playtimeHours": 52.1,
+      "playtimeHours": 52.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
       "genres": [
@@ -2985,6 +2985,21 @@
       }
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 29,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 17
+      }
+    },
+    {
       "appId": 620,
       "name": "Portal 2",
       "playtimeHours": 28.9,
@@ -3423,21 +3438,6 @@
       "hardwareSupport": [],
       "releaseDate": "May 23, 2019",
       "achievements": null
-    },
-    {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 25.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 13
-      }
     },
     {
       "appId": 1824220,
@@ -10638,6 +10638,29 @@
       }
     },
     {
+      "appId": 259080,
+      "name": "Just Cause 2: Multiplayer Mod",
+      "playtimeHours": 1.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/259080/6cdb990bb1973c0ada2cd644d71ba0533b5d4e7e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/259080/header.jpg?t=1572375602",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "Dec 16, 2013",
+      "achievements": {
+        "total": 20,
+        "unlocked": 2
+      }
+    },
+    {
       "appId": 1582290,
       "name": "LumbearJack",
       "playtimeHours": 1.8,
@@ -10782,6 +10805,28 @@
       "achievements": {
         "total": 14,
         "unlocked": 14
+      }
+    },
+    {
+      "appId": 2685900,
+      "name": "Mind Over Magnet",
+      "playtimeHours": 1.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2685900/b2b23a72fdecc0c5bfcf1c5f8a11eb8f021ab405.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685900/header.jpg?t=1753080661",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Nov 13, 2024",
+      "achievements": {
+        "total": 9,
+        "unlocked": 5
       }
     },
     {
@@ -54536,7 +54581,7 @@
         "Tracked Controller Support",
         "VR Only"
       ],
-      "releaseDate": "Jan 15, 2025",
+      "releaseDate": "15 Jan, 2025",
       "achievements": {
         "total": 84,
         "unlocked": 0
@@ -57533,7 +57578,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Oct 28, 2024",
+      "releaseDate": "28 Oct, 2024",
       "achievements": {
         "total": 50,
         "unlocked": 0
@@ -59346,28 +59391,6 @@
       }
     },
     {
-      "appId": 2685900,
-      "name": "Mind Over Magnet",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2685900/b2b23a72fdecc0c5bfcf1c5f8a11eb8f021ab405.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685900/header.jpg?t=1753080661",
-      "genres": [
-        "Adventure",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Nov 13, 2024",
-      "achievements": {
-        "total": 9,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 2701700,
       "name": "Maestro",
       "playtimeHours": 0,
@@ -59384,7 +59407,7 @@
       "hardwareSupport": [
         "VR Only"
       ],
-      "releaseDate": "Oct 22, 2024",
+      "releaseDate": "22 Oct, 2024",
       "achievements": {
         "total": 44,
         "unlocked": 0
@@ -59768,7 +59791,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Aug 27, 2024",
+      "releaseDate": "27 Aug, 2024",
       "achievements": {
         "total": 27,
         "unlocked": 0
@@ -59952,7 +59975,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Mar 6, 2025",
+      "releaseDate": "6 Mar, 2025",
       "achievements": {
         "total": 80,
         "unlocked": 0
@@ -73507,6 +73530,13 @@
       "priority": 0,
       "name": "Compass",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4381560/header.jpg"
+    },
+    {
+      "appId": 4704690,
+      "dateAdded": 1779627584,
+      "priority": 0,
+      "name": "App 4704690",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4704690/header.jpg"
     }
   ]
 }
