@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-05-25T10:02:57.224Z",
+  "fetchedAt": "2026-05-26T09:49:25.361Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779702093
+    "lastLogoff": 1779784138
   },
   "games": [
     {
@@ -9450,6 +9450,28 @@
       }
     },
     {
+      "appId": 2685900,
+      "name": "Mind Over Magnet",
+      "playtimeHours": 3.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2685900/b2b23a72fdecc0c5bfcf1c5f8a11eb8f021ab405.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685900/header.jpg?t=1753080661",
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Nov 13, 2024",
+      "achievements": {
+        "total": 9,
+        "unlocked": 9
+      }
+    },
+    {
       "appId": 1132030,
       "name": "Trash Sailors",
       "playtimeHours": 3.1,
@@ -10805,28 +10827,6 @@
       "achievements": {
         "total": 14,
         "unlocked": 14
-      }
-    },
-    {
-      "appId": 2685900,
-      "name": "Mind Over Magnet",
-      "playtimeHours": 1.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2685900/b2b23a72fdecc0c5bfcf1c5f8a11eb8f021ab405.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2685900/header.jpg?t=1753080661",
-      "genres": [
-        "Adventure",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Nov 13, 2024",
-      "achievements": {
-        "total": 9,
-        "unlocked": 5
       }
     },
     {
@@ -21994,7 +21994,7 @@
       "appId": 292030,
       "name": "The Witcher 3: Wild Hunt",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/292030/78d0ff98b67851f24539cdf2402cf147679134f4.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/292030/7b52d11edee478d652ef4e7103e00644bed2c74c.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -45561,7 +45561,7 @@
       "appId": 973760,
       "name": "Thronebreaker: The Witcher Tales",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/973760/c1f8e9dddd16f817b624d7e18f0af525dbb867dd.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/973760/101577aca9f8473a0ec1041c0907e38125d847cf.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/973760/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -54581,7 +54581,7 @@
         "Tracked Controller Support",
         "VR Only"
       ],
-      "releaseDate": "15 Jan, 2025",
+      "releaseDate": "Jan 15, 2025",
       "achievements": {
         "total": 84,
         "unlocked": 0
@@ -56451,7 +56451,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 37,
+        "total": 57,
         "unlocked": 0
       }
     },
@@ -57578,7 +57578,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "28 Oct, 2024",
+      "releaseDate": "Oct 28, 2024",
       "achievements": {
         "total": 50,
         "unlocked": 0
@@ -59407,7 +59407,7 @@
       "hardwareSupport": [
         "VR Only"
       ],
-      "releaseDate": "22 Oct, 2024",
+      "releaseDate": "Oct 22, 2024",
       "achievements": {
         "total": 44,
         "unlocked": 0
@@ -59791,7 +59791,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "27 Aug, 2024",
+      "releaseDate": "Aug 27, 2024",
       "achievements": {
         "total": 27,
         "unlocked": 0
@@ -59975,7 +59975,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "6 Mar, 2025",
+      "releaseDate": "Mar 6, 2025",
       "achievements": {
         "total": 80,
         "unlocked": 0
@@ -73537,6 +73537,13 @@
       "priority": 0,
       "name": "App 4704690",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4704690/header.jpg"
+    },
+    {
+      "appId": 2196350,
+      "dateAdded": 1779707462,
+      "priority": 0,
+      "name": "Plague Alchemist",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2196350/header.jpg"
     }
   ]
 }
