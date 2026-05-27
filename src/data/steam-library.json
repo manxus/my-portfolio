@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-05-26T09:49:25.361Z",
+  "fetchedAt": "2026-05-27T09:43:23.754Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779784138
+    "lastLogoff": 1779860579
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3458.2,
+      "playtimeHours": 3458.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -737,7 +737,7 @@
     {
       "appId": 113200,
       "name": "The Binding of Isaac",
-      "playtimeHours": 128.8,
+      "playtimeHours": 129.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
       "genres": [
@@ -759,7 +759,7 @@
     {
       "appId": 1942280,
       "name": "Brotato",
-      "playtimeHours": 122.4,
+      "playtimeHours": 122.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
       "genres": [
@@ -1927,7 +1927,7 @@
     {
       "appId": 3191030,
       "name": "Nubby's Number Factory",
-      "playtimeHours": 52.4,
+      "playtimeHours": 53.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
       "genres": [
@@ -2854,6 +2854,21 @@
       }
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 31.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 17
+      }
+    },
+    {
       "appId": 552520,
       "name": "Far Cry 5",
       "playtimeHours": 31.2,
@@ -2982,21 +2997,6 @@
       "achievements": {
         "total": 34,
         "unlocked": 34
-      }
-    },
-    {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 29,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 17
       }
     },
     {
@@ -7785,6 +7785,21 @@
       }
     },
     {
+      "appId": 2543510,
+      "name": "GUNTOUCHABLES",
+      "playtimeHours": 5.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2543510/ea77a863d8b1c9aee54c2c1af30602c854097273.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2543510/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 79,
+        "unlocked": 22
+      }
+    },
+    {
       "appId": 397950,
       "name": "Clustertruck",
       "playtimeHours": 5.6,
@@ -8454,21 +8469,6 @@
       "achievements": {
         "total": 20,
         "unlocked": 20
-      }
-    },
-    {
-      "appId": 2543510,
-      "name": "GUNTOUCHABLES",
-      "playtimeHours": 4.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2543510/ea77a863d8b1c9aee54c2c1af30602c854097273.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2543510/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 79,
-        "unlocked": 19
       }
     },
     {
@@ -59817,8 +59817,9 @@
       "name": "Crime Shop Simulator: A Prison Boss Game",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2973830/c378948709bd9a305a9bd890e324fb57b95230cb.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2973830/b15f7889e86b99b7d5d92be8c545159b6f8ffae1/header.jpg?t=1778085600",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2973830/b15f7889e86b99b7d5d92be8c545159b6f8ffae1/header.jpg?t=1779808324",
       "genres": [
+        "Casual",
         "Indie",
         "Simulation"
       ],
