@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-05-27T09:43:23.754Z",
+  "fetchedAt": "2026-05-28T10:00:08.766Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1779860579
+    "lastLogoff": 1779949042
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3458.6,
+      "playtimeHours": 3459.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -737,7 +737,7 @@
     {
       "appId": 113200,
       "name": "The Binding of Isaac",
-      "playtimeHours": 129.4,
+      "playtimeHours": 129.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
       "genres": [
@@ -759,7 +759,7 @@
     {
       "appId": 1942280,
       "name": "Brotato",
-      "playtimeHours": 122.9,
+      "playtimeHours": 123.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
       "genres": [
@@ -1927,7 +1927,7 @@
     {
       "appId": 3191030,
       "name": "Nubby's Number Factory",
-      "playtimeHours": 53.1,
+      "playtimeHours": 53.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
       "genres": [
@@ -3274,6 +3274,21 @@
       "achievements": null
     },
     {
+      "appId": 352400,
+      "name": "LEGO® Jurassic World",
+      "playtimeHours": 26.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 49,
+        "unlocked": 49
+      }
+    },
+    {
       "appId": 32440,
       "name": "LEGO® Star Wars™: The Complete Saga",
       "playtimeHours": 26.4,
@@ -3404,21 +3419,6 @@
       "achievements": {
         "total": 112,
         "unlocked": 19
-      }
-    },
-    {
-      "appId": 352400,
-      "name": "LEGO® Jurassic World",
-      "playtimeHours": 25.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/352400/03ad502b30a87b5694eadaef7ddf837d8ea560df.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/352400/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 49,
-        "unlocked": 47
       }
     },
     {
@@ -38181,6 +38181,32 @@
       }
     },
     {
+      "appId": 619820,
+      "name": "Heroes of Hammerwatch II",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/619820/e7996086d677a9176d8c367d1e777884bd61508b.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/619820/c0f71d1f131f1ce2a47f846d13510e4341c8c7c9/header.jpg?t=1776718787",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jan 14, 2025",
+      "achievements": {
+        "total": 37,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 620590,
       "name": "Ancestors Legacy",
       "playtimeHours": 0,
@@ -50939,7 +50965,7 @@
       "appId": 1272320,
       "name": "Diplomacy is Not an Option",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1272320/d9e6846fb4b0406a494a635a5d67ab5faecad397.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1272320/3f6a00fbd8921cd0845af2cd96c3247f0863b194.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272320/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -55888,6 +55914,30 @@
       }
     },
     {
+      "appId": 1691190,
+      "name": "Rogue Waters",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1691190/878bee5c8a13bf94a11eab4742c02e7f95175d0f.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1691190/header.jpg?t=1748339686",
+      "genres": [
+        "Action",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 30, 2024",
+      "achievements": {
+        "total": 18,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1695480,
       "name": "Hellblusser",
       "playtimeHours": 0,
@@ -56949,6 +56999,28 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
+    },
+    {
+      "appId": 1875830,
+      "name": "Shin Megami Tensei V: Vengeance",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1875830/152d5faf9eeb58f452f36252fd12d1b27727fdd7.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875830/header.jpg?t=1763530264",
+      "genres": [
+        "Adventure",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jun 13, 2024",
+      "achievements": {
+        "total": 48,
+        "unlocked": 0
+      }
     },
     {
       "appId": 1880890,
@@ -59241,6 +59313,27 @@
       }
     },
     {
+      "appId": 2521630,
+      "name": "Mini Settlers",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2521630/4153470c65e756a7e28dcc4d7a2e1fee67b4b03e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2521630/header.jpg?t=1758098064",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "May 6, 2025",
+      "achievements": {
+        "total": 67,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2523120,
       "name": "King of the Bridge",
       "playtimeHours": 0,
@@ -59901,6 +59994,26 @@
       "achievements": null
     },
     {
+      "appId": 3028310,
+      "name": "Nordhold",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3028310/68ed7b7299b7ae6ba50cbb6c9910a24484b07f62.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3028310/d01fcd6116c7d93d30f113925dc0b75446afb635/header.jpg?t=1778599254",
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 25, 2025",
+      "achievements": {
+        "total": 32,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 3048140,
       "name": "Daemonologie",
       "playtimeHours": 0,
@@ -60110,6 +60223,33 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
+    },
+    {
+      "appId": 3400000,
+      "name": "Cubic Odyssey",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3400000/8ba5993cf98a556ed0c352c112ad1c3178c8ed28.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3400000/header.jpg?t=1779290210",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV"
+      ],
+      "releaseDate": "May 14, 2025",
+      "achievements": {
+        "total": 37,
+        "unlocked": 0
+      }
     },
     {
       "appId": 3432970,
@@ -61344,13 +61484,6 @@
       "priority": 0,
       "name": "cyubeVR",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/619500/header.jpg"
-    },
-    {
-      "appId": 619820,
-      "dateAdded": 1736967159,
-      "priority": 0,
-      "name": "Heroes of Hammerwatch II",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/619820/header.jpg"
     },
     {
       "appId": 620190,
@@ -69053,13 +69186,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2512930/header.jpg"
     },
     {
-      "appId": 2521630,
-      "dateAdded": 1746701768,
-      "priority": 0,
-      "name": "Mini Settlers",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2521630/header.jpg"
-    },
-    {
       "appId": 2526310,
       "dateAdded": 1776789943,
       "priority": 0,
@@ -73545,6 +73671,48 @@
       "priority": 0,
       "name": "Plague Alchemist",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2196350/header.jpg"
+    },
+    {
+      "appId": 2459890,
+      "dateAdded": 1779949320,
+      "priority": 0,
+      "name": "Bobls",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2459890/header.jpg"
+    },
+    {
+      "appId": 2383240,
+      "dateAdded": 1779949327,
+      "priority": 0,
+      "name": "Ecumene Aztec",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2383240/header.jpg"
+    },
+    {
+      "appId": 3782840,
+      "dateAdded": 1779949375,
+      "priority": 0,
+      "name": "Mingle",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3782840/header.jpg"
+    },
+    {
+      "appId": 3024130,
+      "dateAdded": 1779949452,
+      "priority": 0,
+      "name": "Pao Pao",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3024130/header.jpg"
+    },
+    {
+      "appId": 3071810,
+      "dateAdded": 1779949470,
+      "priority": 0,
+      "name": "Project Solar",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3071810/header.jpg"
+    },
+    {
+      "appId": 1909310,
+      "dateAdded": 1779949522,
+      "priority": 0,
+      "name": "Snowtracked",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1909310/header.jpg"
     }
   ]
 }
