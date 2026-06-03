@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-06-02T10:19:28.979Z",
+  "fetchedAt": "2026-06-03T10:56:02.036Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1780393261
+    "lastLogoff": 1780480486
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3462,
+      "playtimeHours": 3463.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -693,30 +693,9 @@
       }
     },
     {
-      "appId": 1091500,
-      "name": "Cyberpunk 2077",
-      "playtimeHours": 135,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1091500/6897c3848f3e0350d512f59d5bae174a1e3739f9.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
-      "genres": [
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Dec 9, 2020",
-      "achievements": {
-        "total": 57,
-        "unlocked": 57
-      }
-    },
-    {
       "appId": 1942280,
       "name": "Brotato",
-      "playtimeHours": 134.3,
+      "playtimeHours": 136.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
       "genres": [
@@ -740,6 +719,27 @@
       "achievements": {
         "total": 179,
         "unlocked": 177
+      }
+    },
+    {
+      "appId": 1091500,
+      "name": "Cyberpunk 2077",
+      "playtimeHours": 135,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1091500/6897c3848f3e0350d512f59d5bae174a1e3739f9.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
+      "genres": [
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Dec 9, 2020",
+      "achievements": {
+        "total": 57,
+        "unlocked": 57
       }
     },
     {
@@ -1900,6 +1900,25 @@
       }
     },
     {
+      "appId": 3191030,
+      "name": "Nubby's Number Factory",
+      "playtimeHours": 54.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
+      "genres": [
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 7, 2025",
+      "achievements": {
+        "total": 13,
+        "unlocked": 9
+      }
+    },
+    {
       "appId": 261640,
       "name": "Borderlands: The Pre-Sequel",
       "playtimeHours": 54.5,
@@ -1922,25 +1941,6 @@
       "achievements": {
         "total": 63,
         "unlocked": 32
-      }
-    },
-    {
-      "appId": 3191030,
-      "name": "Nubby's Number Factory",
-      "playtimeHours": 54.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3191030/559df7775ec23b53482c6757d18e083eb014a700.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3191030/header.jpg?t=1774449140",
-      "genres": [
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 7, 2025",
-      "achievements": {
-        "total": 13,
-        "unlocked": 9
       }
     },
     {
@@ -2517,6 +2517,21 @@
       }
     },
     {
+      "appId": 1593500,
+      "name": "God of War",
+      "playtimeHours": 36.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 37,
+        "unlocked": 18
+      }
+    },
+    {
       "appId": 50300,
       "name": "Spec Ops: The Line",
       "playtimeHours": 35.6,
@@ -2562,21 +2577,6 @@
       "achievements": {
         "total": 21,
         "unlocked": 21
-      }
-    },
-    {
-      "appId": 1593500,
-      "name": "God of War",
-      "playtimeHours": 35.4,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1593500/8aa5e7e0e55cad682c7f2e65e075c3bc04dfc1cb.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 37,
-        "unlocked": 18
       }
     },
     {
@@ -3030,6 +3030,31 @@
       }
     },
     {
+      "appId": 2088570,
+      "name": "Tiny Rogues",
+      "playtimeHours": 28.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2088570/7ec7eebf0e29881f26fb55fa9e031e6228941811.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2088570/header.jpg?t=1757771623",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Early Access"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 23, 2022",
+      "achievements": {
+        "total": 86,
+        "unlocked": 59
+      }
+    },
+    {
       "appId": 1455840,
       "name": "Dorfromantik",
       "playtimeHours": 28.3,
@@ -3134,31 +3159,6 @@
       "achievements": {
         "total": 73,
         "unlocked": 73
-      }
-    },
-    {
-      "appId": 2088570,
-      "name": "Tiny Rogues",
-      "playtimeHours": 27.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2088570/7ec7eebf0e29881f26fb55fa9e031e6228941811.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2088570/header.jpg?t=1757771623",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "RPG",
-        "Early Access"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Sep 23, 2022",
-      "achievements": {
-        "total": 86,
-        "unlocked": 58
       }
     },
     {
@@ -36996,6 +36996,29 @@
       }
     },
     {
+      "appId": 577740,
+      "name": "Winexy",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/577740/8ec65580cb2e3d9564d1afa757c9cfc643250411.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/577740/header.jpg?t=1778879396",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "13 Jan, 2017",
+      "achievements": {
+        "total": 16,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 578620,
       "name": "GORN",
       "playtimeHours": 0,
@@ -46187,7 +46210,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 512,
+        "total": 513,
         "unlocked": 0
       }
     },
@@ -55068,7 +55091,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 46,
+        "total": 59,
         "unlocked": 0
       }
     },
@@ -59263,7 +59286,7 @@
       "name": "Bang Average Football",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2393770/b4be5fe5900fd1b7562ffe71dfed01a6b35e5c27.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393770/abeabef6747f79b173cd98d160257fd4a93698af/header.jpg?t=1779260561",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393770/abeabef6747f79b173cd98d160257fd4a93698af/header.jpg?t=1780399024",
       "genres": [
         "Casual",
         "Indie",
@@ -60120,6 +60143,24 @@
       }
     },
     {
+      "appId": 2997260,
+      "name": "SATAN",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2997260/0b19d96bcdd2c1ff4db49a4249df3e3d05601e04.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997260/header.jpg?t=1765193292",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jan 16, 2025",
+      "achievements": null
+    },
+    {
       "appId": 3008740,
       "name": "Winter Burrow",
       "playtimeHours": 0,
@@ -60252,7 +60293,7 @@
       "name": "I Am Legion: Stand Survivors",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3109580/a35acbe0a94d48b337c3fbf9283d587647990a91.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1778813954",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1780480868",
       "genres": [
         "Action",
         "Adventure"
@@ -74176,6 +74217,13 @@
       "priority": 0,
       "name": "Slip & Skid",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651350/header.jpg"
+    },
+    {
+      "appId": 4304930,
+      "dateAdded": 1780419710,
+      "priority": 0,
+      "name": "Chef Knight",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304930/header.jpg"
     }
   ]
 }
