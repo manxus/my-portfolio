@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-04T09:55:50.757Z",
+  "fetchedAt": "2026-06-05T09:44:23.801Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1780539932
+    "lastLogoff": 1780641694
   },
   "games": [
     {
@@ -346,7 +346,7 @@
     {
       "appId": 632360,
       "name": "Risk of Rain 2",
-      "playtimeHours": 290.8,
+      "playtimeHours": 292.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/632360/0b809ac6f25e6570fecae5fc47bca0139a7bf70c.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg?t=1775753930",
       "genres": [
@@ -616,6 +616,35 @@
       }
     },
     {
+      "appId": 1942280,
+      "name": "Brotato",
+      "playtimeHours": 145.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Shared/Split Screen Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Jun 23, 2023",
+      "achievements": {
+        "total": 179,
+        "unlocked": 177
+      }
+    },
+    {
       "appId": 2218750,
       "name": "Halls of Torment",
       "playtimeHours": 143.7,
@@ -690,35 +719,6 @@
       "achievements": {
         "total": 77,
         "unlocked": 37
-      }
-    },
-    {
-      "appId": 1942280,
-      "name": "Brotato",
-      "playtimeHours": 138.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Shared/Split Screen Co-op"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on TV",
-        "Remote Play Together"
-      ],
-      "releaseDate": "Jun 23, 2023",
-      "achievements": {
-        "total": 179,
-        "unlocked": 177
       }
     },
     {
@@ -2580,6 +2580,35 @@
       }
     },
     {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 34.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 22
+      }
+    },
+    {
       "appId": 403940,
       "name": "Dungelot : Shattered Lands",
       "playtimeHours": 34.5,
@@ -2891,35 +2920,6 @@
       "achievements": {
         "total": 72,
         "unlocked": 0
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 30.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 22
       }
     },
     {
@@ -8578,7 +8578,7 @@
     },
     {
       "appId": 342180,
-      "name": "Arizona Sunshine",
+      "name": "Arizona Sunshine® VR Legacy",
       "playtimeHours": 4.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/342180/b19b198927f3fc91ba859c45f6120269d706eddc.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/342180/header.jpg",
@@ -28758,7 +28758,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 273,
+        "total": 274,
         "unlocked": 0
       }
     },
@@ -37012,7 +37012,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "Jan 13, 2017",
+      "releaseDate": "13 Jan, 2017",
       "achievements": {
         "total": 16,
         "unlocked": 0
@@ -37047,7 +37047,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "Oct 23, 2020",
+      "releaseDate": "23 Oct, 2020",
       "achievements": {
         "total": 68,
         "unlocked": 0
@@ -38673,7 +38673,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "Jun 2, 2017",
+      "releaseDate": "2 Jun, 2017",
       "achievements": {
         "total": 36,
         "unlocked": 0
@@ -54954,7 +54954,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Jun 25, 2024",
+      "releaseDate": "25 Jun, 2024",
       "achievements": {
         "total": 29,
         "unlocked": 0
@@ -57162,7 +57162,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Jun 13, 2024",
+      "releaseDate": "13 Jun, 2024",
       "achievements": {
         "total": 48,
         "unlocked": 0
@@ -58590,7 +58590,7 @@
       "name": "Sodaman",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2178990/5b93d3b389a20ac26347a4837aa86a0d22ba300e.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178990/a489e7e69d6bfb9a4f6bb5240992ceae099e35f4/header_alt_assets_1.jpg?t=1780318251",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178990/a489e7e69d6bfb9a4f6bb5240992ceae099e35f4/header_alt_assets_1.jpg?t=1780568133",
       "genres": [
         "Action",
         "Casual"
@@ -58648,7 +58648,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 106,
+        "total": 133,
         "unlocked": 0
       }
     },
@@ -59524,7 +59524,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "May 6, 2025",
+      "releaseDate": "6 May, 2025",
       "achievements": {
         "total": 67,
         "unlocked": 0
@@ -59697,7 +59697,7 @@
       "hardwareSupport": [
         "VR Only"
       ],
-      "releaseDate": "Oct 22, 2024",
+      "releaseDate": "22 Oct, 2024",
       "achievements": {
         "total": 44,
         "unlocked": 0
@@ -59722,7 +59722,7 @@
         "Full controller support",
         "Tracked Controller Support"
       ],
-      "releaseDate": "Nov 7, 2025",
+      "releaseDate": "7 Nov, 2025",
       "achievements": {
         "total": 47,
         "unlocked": 0
@@ -59747,7 +59747,7 @@
       "hardwareSupport": [
         "Remote Play Together"
       ],
-      "releaseDate": "Dec 6, 2024",
+      "releaseDate": "6 Dec, 2024",
       "achievements": {
         "total": 56,
         "unlocked": 0
@@ -59803,7 +59803,7 @@
         "Tracked Controller Support",
         "VR Only"
       ],
-      "releaseDate": "Feb 6, 2026",
+      "releaseDate": "6 Feb, 2026",
       "achievements": null
     },
     {
@@ -60478,7 +60478,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "26 Sep, 2025",
+      "releaseDate": "Sep 26, 2025",
       "achievements": {
         "total": 30,
         "unlocked": 0
@@ -74224,6 +74224,69 @@
       "priority": 0,
       "name": "Chef Knight",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304930/header.jpg"
+    },
+    {
+      "appId": 3819020,
+      "dateAdded": 1780584084,
+      "priority": 0,
+      "name": "DEADBOOT",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3819020/header.jpg"
+    },
+    {
+      "appId": 4540840,
+      "dateAdded": 1780598344,
+      "priority": 0,
+      "name": "App 4540840",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4540840/header.jpg"
+    },
+    {
+      "appId": 4126510,
+      "dateAdded": 1780598449,
+      "priority": 0,
+      "name": "App 4126510",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4126510/header.jpg"
+    },
+    {
+      "appId": 4111300,
+      "dateAdded": 1780598640,
+      "priority": 0,
+      "name": "MegaGum",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4111300/header.jpg"
+    },
+    {
+      "appId": 3830320,
+      "dateAdded": 1780598711,
+      "priority": 0,
+      "name": "Ballgame",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3830320/header.jpg"
+    },
+    {
+      "appId": 4466940,
+      "dateAdded": 1780598976,
+      "priority": 0,
+      "name": "Lost & Found",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4466940/header.jpg"
+    },
+    {
+      "appId": 3861710,
+      "dateAdded": 1780599034,
+      "priority": 0,
+      "name": "Otterly Lost",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3861710/header.jpg"
+    },
+    {
+      "appId": 4003590,
+      "dateAdded": 1780599135,
+      "priority": 0,
+      "name": "Alt+F4",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4003590/header.jpg"
+    },
+    {
+      "appId": 2055590,
+      "dateAdded": 1780645797,
+      "priority": 0,
+      "name": "Star Overdrive",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2055590/header.jpg"
     }
   ]
 }
