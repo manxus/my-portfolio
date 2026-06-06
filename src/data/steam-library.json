@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-05T09:44:23.801Z",
+  "fetchedAt": "2026-06-06T08:35:24.463Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1780641694
+    "lastLogoff": 1780733332
   },
   "games": [
     {
@@ -590,35 +590,9 @@
       }
     },
     {
-      "appId": 602960,
-      "name": "Barotrauma",
-      "playtimeHours": 147.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/602960/a0adb0f29ce819c6dffa32446624fb7648defc5a.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/602960/header.jpg?t=1770912039",
-      "genres": [
-        "Action",
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 13, 2023",
-      "achievements": {
-        "total": 76,
-        "unlocked": 48
-      }
-    },
-    {
       "appId": 1942280,
       "name": "Brotato",
-      "playtimeHours": 145.5,
+      "playtimeHours": 149.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
       "genres": [
@@ -642,6 +616,32 @@
       "achievements": {
         "total": 179,
         "unlocked": 177
+      }
+    },
+    {
+      "appId": 602960,
+      "name": "Barotrauma",
+      "playtimeHours": 147.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/602960/a0adb0f29ce819c6dffa32446624fb7648defc5a.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/602960/header.jpg?t=1770912039",
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 13, 2023",
+      "achievements": {
+        "total": 76,
+        "unlocked": 48
       }
     },
     {
@@ -2475,6 +2475,35 @@
       }
     },
     {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 36.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 22
+      }
+    },
+    {
       "appId": 206420,
       "name": "Saints Row IV",
       "playtimeHours": 36.6,
@@ -2577,35 +2606,6 @@
       "achievements": {
         "total": 21,
         "unlocked": 21
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 34.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 22
       }
     },
     {
@@ -17656,7 +17656,7 @@
       "name": "Baldur's Gate: Enhanced Edition",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/228280/8f58ffe2b58e546ec6d9515fa80fb231764b2da8.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/header.jpg?t=1746198680",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/9761e1ed90324b2102ffc3dac295eeabf03bea55/header.jpg?t=1780676012",
       "genres": [
         "Adventure",
         "RPG"
@@ -19605,7 +19605,7 @@
       "name": "Baldur's Gate II: Enhanced Edition",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/257350/c76299c87cab47a1cfcbff3b42cd883194e090f9.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350/header.jpg?t=1776702115",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350/486ef7ce52fdb1ee5d2909ac97f26d4e26da18d3/header.jpg?t=1780685777",
       "genres": [
         "Adventure",
         "RPG"
@@ -37012,7 +37012,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "13 Jan, 2017",
+      "releaseDate": "Jan 13, 2017",
       "achievements": {
         "total": 16,
         "unlocked": 0
@@ -37047,7 +37047,7 @@
         "Remote Play on Tablet",
         "Remote Play on TV"
       ],
-      "releaseDate": "23 Oct, 2020",
+      "releaseDate": "Oct 23, 2020",
       "achievements": {
         "total": 68,
         "unlocked": 0
@@ -38673,7 +38673,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "2 Jun, 2017",
+      "releaseDate": "Jun 2, 2017",
       "achievements": {
         "total": 36,
         "unlocked": 0
@@ -54954,7 +54954,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "25 Jun, 2024",
+      "releaseDate": "Jun 25, 2024",
       "achievements": {
         "total": 29,
         "unlocked": 0
@@ -57162,7 +57162,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "13 Jun, 2024",
+      "releaseDate": "Jun 13, 2024",
       "achievements": {
         "total": 48,
         "unlocked": 0
@@ -58590,7 +58590,7 @@
       "name": "Sodaman",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2178990/5b93d3b389a20ac26347a4837aa86a0d22ba300e.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178990/a489e7e69d6bfb9a4f6bb5240992ceae099e35f4/header_alt_assets_1.jpg?t=1780568133",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2178990/a489e7e69d6bfb9a4f6bb5240992ceae099e35f4/header_alt_assets_1.jpg?t=1780701636",
       "genres": [
         "Action",
         "Casual"
@@ -58815,7 +58815,7 @@
       "name": "Greedland",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2218400/a8161291616949b6325460d8aaeb96e73e4eaeb1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/343b85ee5799d9ca115207374841ba72c111619c/header.jpg?t=1778642578",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/343b85ee5799d9ca115207374841ba72c111619c/header.jpg?t=1780656759",
       "genres": [
         "Action",
         "Adventure",
@@ -59524,7 +59524,7 @@
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "6 May, 2025",
+      "releaseDate": "May 6, 2025",
       "achievements": {
         "total": 67,
         "unlocked": 0
@@ -59697,7 +59697,7 @@
       "hardwareSupport": [
         "VR Only"
       ],
-      "releaseDate": "22 Oct, 2024",
+      "releaseDate": "Oct 22, 2024",
       "achievements": {
         "total": 44,
         "unlocked": 0
@@ -59722,7 +59722,7 @@
         "Full controller support",
         "Tracked Controller Support"
       ],
-      "releaseDate": "7 Nov, 2025",
+      "releaseDate": "Nov 7, 2025",
       "achievements": {
         "total": 47,
         "unlocked": 0
@@ -59747,7 +59747,7 @@
       "hardwareSupport": [
         "Remote Play Together"
       ],
-      "releaseDate": "6 Dec, 2024",
+      "releaseDate": "Dec 6, 2024",
       "achievements": {
         "total": 56,
         "unlocked": 0
@@ -59803,7 +59803,7 @@
         "Tracked Controller Support",
         "VR Only"
       ],
-      "releaseDate": "6 Feb, 2026",
+      "releaseDate": "Feb 6, 2026",
       "achievements": null
     },
     {
