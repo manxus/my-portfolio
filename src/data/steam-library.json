@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-06-07T08:56:08.183Z",
+  "fetchedAt": "2026-06-08T10:32:33.316Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1780814274
+    "lastLogoff": 1780908317
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3463.1,
+      "playtimeHours": 3464.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -592,7 +592,7 @@
     {
       "appId": 1942280,
       "name": "Brotato",
-      "playtimeHours": 150,
+      "playtimeHours": 153.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
       "genres": [
@@ -615,7 +615,7 @@
       "releaseDate": "Jun 23, 2023",
       "achievements": {
         "total": 179,
-        "unlocked": 177
+        "unlocked": 179
       }
     },
     {
@@ -2010,6 +2010,35 @@
       }
     },
     {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 46.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 23
+      }
+    },
+    {
       "appId": 239140,
       "name": "Dying Light",
       "playtimeHours": 45.6,
@@ -2387,35 +2416,6 @@
       "achievements": {
         "total": 13,
         "unlocked": 13
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 37.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 22
       }
     },
     {
@@ -38613,6 +38613,30 @@
       }
     },
     {
+      "appId": 633360,
+      "name": "Remothered: Tormented Fathers",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/633360/c3e2e34bccda6c2ec494c123739c19560dfc7298.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/633360/header.jpg?t=1778183363",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV"
+      ],
+      "releaseDate": "Jan 30, 2018",
+      "achievements": {
+        "total": 10,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 633440,
       "name": "Unit 4",
       "playtimeHours": 0,
@@ -52645,7 +52669,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "18 Jul, 2023",
+      "releaseDate": "Jul 18, 2023",
       "achievements": {
         "total": 46,
         "unlocked": 0
@@ -58815,7 +58839,7 @@
       "name": "Greedland",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2218400/a8161291616949b6325460d8aaeb96e73e4eaeb1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/343b85ee5799d9ca115207374841ba72c111619c/header.jpg?t=1780656759",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/002b54de00e6ed92c966f120e6ec989e9b958d4c/header_alt_assets_3.jpg?t=1780909236",
       "genres": [
         "Action",
         "Adventure",
@@ -60293,7 +60317,7 @@
       "name": "I Am Legion: Stand Survivors",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3109580/a35acbe0a94d48b337c3fbf9283d587647990a91.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1780480868",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1780905137",
       "genres": [
         "Action",
         "Adventure"
@@ -60478,7 +60502,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "26 Sep, 2025",
+      "releaseDate": "Sep 26, 2025",
       "achievements": {
         "total": 30,
         "unlocked": 0
@@ -61171,6 +61195,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/404200/header.jpg"
     },
     {
+      "appId": 408200,
+      "dateAdded": 1780336164,
+      "priority": 0,
+      "name": "App 408200",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/408200/header.jpg"
+    },
+    {
       "appId": 414120,
       "dateAdded": 1501505989,
       "priority": 81,
@@ -61246,13 +61277,6 @@
       "priority": 176,
       "name": "Deliver Us The Moon",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/428660/header.jpg"
-    },
-    {
-      "appId": 4197610,
-      "dateAdded": 1778614250,
-      "priority": 0,
-      "name": "Librarian: Tidy Up the Arcane Library!",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4197610/header.jpg"
     },
     {
       "appId": 450540,
@@ -62982,6 +63006,13 @@
       "priority": 0,
       "name": "Transient: Extended Edition",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/962630/header.jpg"
+    },
+    {
+      "appId": 971030,
+      "dateAdded": 1779431594,
+      "priority": 0,
+      "name": "SkateBIRD",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/971030/header.jpg"
     },
     {
       "appId": 973230,
@@ -65203,6 +65234,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1374490/header.jpg"
     },
     {
+      "appId": 1374860,
+      "dateAdded": 1780335033,
+      "priority": 0,
+      "name": "Nocturne",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1374860/header.jpg"
+    },
+    {
       "appId": 1375900,
       "dateAdded": 1678558175,
       "priority": 0,
@@ -65224,6 +65262,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1377380/header.jpg"
     },
     {
+      "appId": 1378990,
+      "dateAdded": 1778424964,
+      "priority": 0,
+      "name": "Crash Bandicoot™ 4: It’s About Time",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1378990/header.jpg"
+    },
+    {
       "appId": 1379600,
       "dateAdded": 1646840156,
       "priority": 0,
@@ -65236,13 +65281,6 @@
       "priority": 0,
       "name": "Power & Revolution 2020 Edition",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1379930/header.jpg"
-    },
-    {
-      "appId": 3237970,
-      "dateAdded": 1779482280,
-      "priority": 0,
-      "name": "Bubsy 4D",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3237970/header.jpg"
     },
     {
       "appId": 1384660,
@@ -65425,6 +65463,20 @@
       "priority": 0,
       "name": "Run Die Run Again (RDRA)",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1416900/header.jpg"
+    },
+    {
+      "appId": 1418390,
+      "dateAdded": 1779364610,
+      "priority": 0,
+      "name": "Antipaint",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1418390/header.jpg"
+    },
+    {
+      "appId": 1424330,
+      "dateAdded": 1778607467,
+      "priority": 0,
+      "name": "Wobbledogs",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1424330/header.jpg"
     },
     {
       "appId": 1424600,
@@ -65677,13 +65729,6 @@
       "priority": 0,
       "name": "Tune My Car",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1478730/header.jpg"
-    },
-    {
-      "appId": 3856530,
-      "dateAdded": 1778587585,
-      "priority": 0,
-      "name": "About Fishing",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3856530/header.jpg"
     },
     {
       "appId": 1485690,
@@ -67590,6 +67635,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1906830/header.jpg"
     },
     {
+      "appId": 1909310,
+      "dateAdded": 1779949522,
+      "priority": 0,
+      "name": "Snowtracked",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1909310/header.jpg"
+    },
+    {
       "appId": 1911360,
       "dateAdded": 1702655440,
       "priority": 0,
@@ -67651,6 +67703,13 @@
       "priority": 0,
       "name": "Prospector",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1928080/header.jpg"
+    },
+    {
+      "appId": 1928690,
+      "dateAdded": 1779110220,
+      "priority": 0,
+      "name": "Bionic Bay",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1928690/header.jpg"
     },
     {
       "appId": 1928870,
@@ -68031,6 +68090,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/header.jpg"
     },
     {
+      "appId": 2055590,
+      "dateAdded": 1780645797,
+      "priority": 0,
+      "name": "Star Overdrive",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2055590/header.jpg"
+    },
+    {
       "appId": 2059170,
       "dateAdded": 1685614670,
       "priority": 0,
@@ -68225,13 +68291,6 @@
       "priority": 0,
       "name": "MISERY",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2119830/header.jpg"
-    },
-    {
-      "appId": 3784760,
-      "dateAdded": 1778686084,
-      "priority": 0,
-      "name": "Elfie: A Sand Plan",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3784760/header.jpg"
     },
     {
       "appId": 2125540,
@@ -68437,6 +68496,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2193490/header.jpg"
     },
     {
+      "appId": 2196350,
+      "dateAdded": 1779707462,
+      "priority": 0,
+      "name": "Plague Alchemist",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2196350/header.jpg"
+    },
+    {
       "appId": 2198070,
       "dateAdded": 1678124100,
       "priority": 0,
@@ -68626,6 +68692,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2254990/header.jpg"
     },
     {
+      "appId": 2255370,
+      "dateAdded": 1778424844,
+      "priority": 0,
+      "name": "Directive 8020",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2255370/header.jpg"
+    },
+    {
       "appId": 2258070,
       "dateAdded": 1749285964,
       "priority": 0,
@@ -68666,6 +68739,13 @@
       "priority": 0,
       "name": "SLUDGE LIFE 2",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2275150/header.jpg"
+    },
+    {
+      "appId": 2276980,
+      "dateAdded": 1779131088,
+      "priority": 0,
+      "name": "FACEMINER",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2276980/header.jpg"
     },
     {
       "appId": 2279600,
@@ -68764,6 +68844,13 @@
       "priority": 0,
       "name": "Noun Town Language Learning",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2313720/header.jpg"
+    },
+    {
+      "appId": 2315020,
+      "dateAdded": 1779980889,
+      "priority": 0,
+      "name": "Froguelike",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2315020/header.jpg"
     },
     {
       "appId": 2315050,
@@ -68885,6 +68972,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2343920/header.jpg"
     },
     {
+      "appId": 2345430,
+      "dateAdded": 1780074383,
+      "priority": 0,
+      "name": "Escape From Crimson Manor: Trapped Together",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2345430/header.jpg"
+    },
+    {
       "appId": 2347290,
       "dateAdded": 1744817051,
       "priority": 0,
@@ -68932,6 +69026,13 @@
       "priority": 0,
       "name": "Astrometica",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2353250/header.jpg"
+    },
+    {
+      "appId": 2356780,
+      "dateAdded": 1779027083,
+      "priority": 0,
+      "name": "Dungeon Clawler",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2356780/header.jpg"
     },
     {
       "appId": 2357000,
@@ -69046,11 +69147,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2381520/header.jpg"
     },
     {
+      "appId": 2383240,
+      "dateAdded": 1779949327,
+      "priority": 0,
+      "name": "Ecumene Aztec",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2383240/header.jpg"
+    },
+    {
       "appId": 2387670,
       "dateAdded": 1762258340,
       "priority": 0,
       "name": "As One We Survive",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2387670/header.jpg"
+    },
+    {
+      "appId": 2388030,
+      "dateAdded": 1779394042,
+      "priority": 0,
+      "name": "LogiGolf",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2388030/header.jpg"
     },
     {
       "appId": 2390230,
@@ -69331,6 +69446,13 @@
       "priority": 0,
       "name": "Avowed",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2457220/header.jpg"
+    },
+    {
+      "appId": 2459890,
+      "dateAdded": 1779949320,
+      "priority": 0,
+      "name": "Bobls",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2459890/header.jpg"
     },
     {
       "appId": 2461850,
@@ -69634,6 +69756,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2581950/header.jpg"
     },
     {
+      "appId": 2582320,
+      "dateAdded": 1778424834,
+      "priority": 0,
+      "name": "Mixtape",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2582320/header.jpg"
+    },
+    {
       "appId": 2589500,
       "dateAdded": 1756308934,
       "priority": 0,
@@ -69795,6 +69924,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2625420/header.jpg"
     },
     {
+      "appId": 2629230,
+      "dateAdded": 1779010020,
+      "priority": 0,
+      "name": "The Adventures of Sir Kicksalot",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2629230/header.jpg"
+    },
+    {
       "appId": 2633950,
       "dateAdded": 1725829884,
       "priority": 0,
@@ -69835,6 +69971,13 @@
       "priority": 0,
       "name": "Marvel's Spider-Man 2",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/header.jpg"
+    },
+    {
+      "appId": 2651350,
+      "dateAdded": 1780336325,
+      "priority": 0,
+      "name": "Slip & Skid",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651350/header.jpg"
     },
     {
       "appId": 2654710,
@@ -69940,13 +70083,6 @@
       "priority": 0,
       "name": "DUCKSIDE",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2682580/header.jpg"
-    },
-    {
-      "appId": 971030,
-      "dateAdded": 1779431594,
-      "priority": 0,
-      "name": "SkateBIRD",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/971030/header.jpg"
     },
     {
       "appId": 2686630,
@@ -70166,11 +70302,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2738230/header.jpg"
     },
     {
+      "appId": 2738490,
+      "dateAdded": 1779027127,
+      "priority": 0,
+      "name": "Sol Cesto",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2738490/header.jpg"
+    },
+    {
       "appId": 2741160,
       "dateAdded": 1728175073,
       "priority": 0,
       "name": "Red Metal",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2741160/header.jpg"
+    },
+    {
+      "appId": 2742710,
+      "dateAdded": 1779194445,
+      "priority": 0,
+      "name": "Cozy Cleaner",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2742710/header.jpg"
     },
     {
       "appId": 2753620,
@@ -70446,6 +70596,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2849490/header.jpg"
     },
     {
+      "appId": 2853130,
+      "dateAdded": 1779131066,
+      "priority": 0,
+      "name": "Astrodle",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2853130/header.jpg"
+    },
+    {
       "appId": 2854620,
       "dateAdded": 1769696909,
       "priority": 0,
@@ -70642,6 +70799,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2956040/header.jpg"
     },
     {
+      "appId": 2959770,
+      "dateAdded": 1778412469,
+      "priority": 0,
+      "name": "Duck Side of the Moon",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2959770/header.jpg"
+    },
+    {
       "appId": 2961880,
       "dateAdded": 1722972522,
       "priority": 0,
@@ -70696,6 +70860,13 @@
       "priority": 0,
       "name": "Squirreled Away",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2977620/header.jpg"
+    },
+    {
+      "appId": 2980170,
+      "dateAdded": 1779101586,
+      "priority": 0,
+      "name": "Vortica",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2980170/header.jpg"
     },
     {
       "appId": 2982340,
@@ -70789,6 +70960,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3009850/header.jpg"
     },
     {
+      "appId": 3010130,
+      "dateAdded": 1779980999,
+      "priority": 0,
+      "name": "Monster Mayhem",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3010130/header.jpg"
+    },
+    {
       "appId": 3010850,
       "dateAdded": 1771855727,
       "priority": 0,
@@ -70824,11 +71002,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3021220/header.jpg"
     },
     {
+      "appId": 3024130,
+      "dateAdded": 1779949452,
+      "priority": 0,
+      "name": "Pao Pao",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3024130/header.jpg"
+    },
+    {
       "appId": 3026450,
       "dateAdded": 1759312654,
       "priority": 0,
       "name": "Deadly Days: Roadtrip",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3026450/header.jpg"
+    },
+    {
+      "appId": 3030560,
+      "dateAdded": 1780334803,
+      "priority": 0,
+      "name": "Sloppy Forgeries",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3030560/header.jpg"
     },
     {
       "appId": 3031880,
@@ -70964,6 +71156,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3070070/header.jpg"
     },
     {
+      "appId": 3071810,
+      "dateAdded": 1779949470,
+      "priority": 0,
+      "name": "Project Solar",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3071810/header.jpg"
+    },
+    {
       "appId": 3073940,
       "dateAdded": 1763869032,
       "priority": 0,
@@ -71020,6 +71219,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3097560/header.jpg"
     },
     {
+      "appId": 3100370,
+      "dateAdded": 1778683138,
+      "priority": 0,
+      "name": "Black Jacket",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3100370/header.jpg"
+    },
+    {
       "appId": 3103800,
       "dateAdded": 1764252563,
       "priority": 0,
@@ -71060,6 +71266,20 @@
       "priority": 0,
       "name": "Town to City",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3115220/header.jpg"
+    },
+    {
+      "appId": 3115240,
+      "dateAdded": 1779101472,
+      "priority": 0,
+      "name": "Alchemist: Journey of the Soul",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3115240/header.jpg"
+    },
+    {
+      "appId": 3119540,
+      "dateAdded": 1779191348,
+      "priority": 0,
+      "name": "Scriptorium: Master of Manuscripts",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3119540/header.jpg"
     },
     {
       "appId": 3123290,
@@ -71391,6 +71611,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3232380/header.jpg"
     },
     {
+      "appId": 3237970,
+      "dateAdded": 1779482280,
+      "priority": 0,
+      "name": "Bubsy 4D",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3237970/header.jpg"
+    },
+    {
       "appId": 3238670,
       "dateAdded": 1746187124,
       "priority": 0,
@@ -71440,11 +71667,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3256150/header.jpg"
     },
     {
+      "appId": 3264960,
+      "dateAdded": 1779101765,
+      "priority": 0,
+      "name": "Cardburners",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3264960/header.jpg"
+    },
+    {
       "appId": 3265250,
       "dateAdded": 1748511593,
       "priority": 0,
       "name": "MindsEye",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265250/header.jpg"
+    },
+    {
+      "appId": 3265290,
+      "dateAdded": 1779101851,
+      "priority": 0,
+      "name": "Swan Song",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265290/header.jpg"
     },
     {
       "appId": 3265700,
@@ -71508,6 +71749,13 @@
       "priority": 0,
       "name": "THE LIFT: Supernatural Handyman Simulator",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3283240/header.jpg"
+    },
+    {
+      "appId": 3283310,
+      "dateAdded": 1779101691,
+      "priority": 0,
+      "name": "Kioku: Last Summer",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3283310/header.jpg"
     },
     {
       "appId": 3288210,
@@ -71580,6 +71828,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3328900/header.jpg"
     },
     {
+      "appId": 3336240,
+      "dateAdded": 1779101429,
+      "priority": 0,
+      "name": "Walk The Frog",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3336240/header.jpg"
+    },
+    {
       "appId": 3337180,
       "dateAdded": 1768057694,
       "priority": 0,
@@ -71606,6 +71861,13 @@
       "priority": 0,
       "name": "Fill Up The Hole",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3343160/header.jpg"
+    },
+    {
+      "appId": 3346460,
+      "dateAdded": 1780336293,
+      "priority": 0,
+      "name": "App 3346460",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3346460/header.jpg"
     },
     {
       "appId": 3352240,
@@ -71783,6 +72045,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3424730/header.jpg"
     },
     {
+      "appId": 3426150,
+      "dateAdded": 1780334620,
+      "priority": 0,
+      "name": "I Have No Change",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3426150/header.jpg"
+    },
+    {
       "appId": 3430340,
       "dateAdded": 1764044341,
       "priority": 0,
@@ -71860,6 +72129,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3456660/header.jpg"
     },
     {
+      "appId": 3457390,
+      "dateAdded": 1778489308,
+      "priority": 0,
+      "name": "Little Wings Deliveries",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3457390/header.jpg"
+    },
+    {
       "appId": 3467710,
       "dateAdded": 1763546101,
       "priority": 0,
@@ -71935,6 +72211,13 @@
       "priority": 0,
       "name": "Lucid Blocks",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3495730/header.jpg"
+    },
+    {
+      "appId": 3496890,
+      "dateAdded": 1779101558,
+      "priority": 0,
+      "name": "Slot or Not",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3496890/header.jpg"
     },
     {
       "appId": 3500680,
@@ -72026,6 +72309,13 @@
       "priority": 0,
       "name": "Örnöga: Idle & Loot",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3536530/header.jpg"
+    },
+    {
+      "appId": 3542380,
+      "dateAdded": 1779101282,
+      "priority": 0,
+      "name": "Rune Dice",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3542380/header.jpg"
     },
     {
       "appId": 3543890,
@@ -72133,13 +72423,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3569420/header.jpg"
     },
     {
-      "appId": 2345430,
-      "dateAdded": 1780074383,
-      "priority": 0,
-      "name": "Escape From Crimson Manor: Trapped Together",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2345430/header.jpg"
-    },
-    {
       "appId": 3570430,
       "dateAdded": 1748201829,
       "priority": 0,
@@ -72180,6 +72463,13 @@
       "priority": 0,
       "name": "Keep Digging",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3585800/header.jpg"
+    },
+    {
+      "appId": 3595450,
+      "dateAdded": 1780334781,
+      "priority": 0,
+      "name": "Object Impermanence",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3595450/header.jpg"
     },
     {
       "appId": 3595710,
@@ -72644,11 +72934,32 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3777060/header.jpg"
     },
     {
+      "appId": 3779710,
+      "dateAdded": 1779559507,
+      "priority": 0,
+      "name": "CINESCAPE VR",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3779710/header.jpg"
+    },
+    {
+      "appId": 3782840,
+      "dateAdded": 1779949375,
+      "priority": 0,
+      "name": "Mingle",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3782840/header.jpg"
+    },
+    {
       "appId": 3784030,
       "dateAdded": 1756129394,
       "priority": 0,
       "name": "RACCOIN: Coin Pusher Roguelike",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3784030/header.jpg"
+    },
+    {
+      "appId": 3784760,
+      "dateAdded": 1778686084,
+      "priority": 0,
+      "name": "Elfie: A Sand Plan",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3784760/header.jpg"
     },
     {
       "appId": 3788800,
@@ -72721,6 +73032,20 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3817250/header.jpg"
     },
     {
+      "appId": 3819020,
+      "dateAdded": 1780584084,
+      "priority": 0,
+      "name": "DEADBOOT",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3819020/header.jpg"
+    },
+    {
+      "appId": 3820130,
+      "dateAdded": 1779195252,
+      "priority": 0,
+      "name": "The Dream Globe",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3820130/header.jpg"
+    },
+    {
       "appId": 3826060,
       "dateAdded": 1774447227,
       "priority": 0,
@@ -72733,6 +73058,13 @@
       "priority": 0,
       "name": "Execute",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3829620/header.jpg"
+    },
+    {
+      "appId": 3830320,
+      "dateAdded": 1780598711,
+      "priority": 0,
+      "name": "Ballgame",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3830320/header.jpg"
     },
     {
       "appId": 3832490,
@@ -72754,6 +73086,13 @@
       "priority": 0,
       "name": "YAPYAP",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834090/header.jpg"
+    },
+    {
+      "appId": 3839000,
+      "dateAdded": 1780167217,
+      "priority": 0,
+      "name": "Golden Gambit",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3839000/header.jpg"
     },
     {
       "appId": 3840230,
@@ -72791,6 +73130,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3846120/header.jpg"
     },
     {
+      "appId": 3847920,
+      "dateAdded": 1780334713,
+      "priority": 0,
+      "name": "App 3847920",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3847920/header.jpg"
+    },
+    {
       "appId": 3854060,
       "dateAdded": 1767876944,
       "priority": 0,
@@ -72805,11 +73151,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3856460/header.jpg"
     },
     {
+      "appId": 3856530,
+      "dateAdded": 1778587585,
+      "priority": 0,
+      "name": "About Fishing",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3856530/header.jpg"
+    },
+    {
       "appId": 3858650,
       "dateAdded": 1774630977,
       "priority": 0,
       "name": "Crushed In Time",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3858650/header.jpg"
+    },
+    {
+      "appId": 3861710,
+      "dateAdded": 1780599034,
+      "priority": 0,
+      "name": "Otterly Lost",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3861710/header.jpg"
     },
     {
       "appId": 3867670,
@@ -72868,6 +73228,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3892270/header.jpg"
     },
     {
+      "appId": 3898830,
+      "dateAdded": 1780334575,
+      "priority": 0,
+      "name": "Banana of Doom",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3898830/header.jpg"
+    },
+    {
       "appId": 3905450,
       "dateAdded": 1770234967,
       "priority": 0,
@@ -72887,6 +73254,13 @@
       "priority": 0,
       "name": "Ash Warden",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3913310/header.jpg"
+    },
+    {
+      "appId": 3914860,
+      "dateAdded": 1780334906,
+      "priority": 0,
+      "name": "App 3914860",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3914860/header.jpg"
     },
     {
       "appId": 3915840,
@@ -72964,6 +73338,13 @@
       "priority": 0,
       "name": "RV There Yet?",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3949040/header.jpg"
+    },
+    {
+      "appId": 3950840,
+      "dateAdded": 1779980967,
+      "priority": 0,
+      "name": "Grannies on Wheels",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3950840/header.jpg"
     },
     {
       "appId": 3954370,
@@ -73055,6 +73436,13 @@
       "priority": 0,
       "name": "Frog Sqwad 🐸",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3989960/header.jpg"
+    },
+    {
+      "appId": 4003590,
+      "dateAdded": 1780599135,
+      "priority": 0,
+      "name": "Alt+F4",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4003590/header.jpg"
     },
     {
       "appId": 4005560,
@@ -73169,6 +73557,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4077740/header.jpg"
     },
     {
+      "appId": 4078200,
+      "dateAdded": 1779101244,
+      "priority": 0,
+      "name": "Dwarf Eats Mountain",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4078200/header.jpg"
+    },
+    {
       "appId": 4082750,
       "dateAdded": 1770234886,
       "priority": 0,
@@ -73211,6 +73606,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4108000/header.jpg"
     },
     {
+      "appId": 4111300,
+      "dateAdded": 1780598640,
+      "priority": 0,
+      "name": "MegaGum",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4111300/header.jpg"
+    },
+    {
       "appId": 4111370,
       "dateAdded": 1771421169,
       "priority": 0,
@@ -73223,6 +73625,13 @@
       "priority": 0,
       "name": "An Eggstremely Hard Game",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4112070/header.jpg"
+    },
+    {
+      "appId": 4114490,
+      "dateAdded": 1779195202,
+      "priority": 0,
+      "name": "Desktop Golf",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4114490/header.jpg"
     },
     {
       "appId": 4122640,
@@ -73253,11 +73662,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4126480/header.jpg"
     },
     {
+      "appId": 4126510,
+      "dateAdded": 1780598449,
+      "priority": 0,
+      "name": "App 4126510",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4126510/header.jpg"
+    },
+    {
       "appId": 4134650,
       "dateAdded": 1772154423,
       "priority": 0,
       "name": "Bones and Coins",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4134650/header.jpg"
+    },
+    {
+      "appId": 4135750,
+      "dateAdded": 1779101601,
+      "priority": 0,
+      "name": "FEED THE QUEEN",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4135750/header.jpg"
     },
     {
       "appId": 4137920,
@@ -73307,6 +73730,13 @@
       "priority": 0,
       "name": "The Artisan of Glimmith",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160210/header.jpg"
+    },
+    {
+      "appId": 4160590,
+      "dateAdded": 1779980923,
+      "priority": 0,
+      "name": "App 4160590",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160590/header.jpg"
     },
     {
       "appId": 4164420,
@@ -73386,11 +73816,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4193590/header.jpg"
     },
     {
+      "appId": 4194800,
+      "dateAdded": 1780166938,
+      "priority": 0,
+      "name": "Starvester",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4194800/header.jpg"
+    },
+    {
       "appId": 4195110,
       "dateAdded": 1772154438,
       "priority": 0,
       "name": "Ultrapool",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4195110/header.jpg"
+    },
+    {
+      "appId": 4197610,
+      "dateAdded": 1778614250,
+      "priority": 0,
+      "name": "Librarian: Tidy Up the Arcane Library!",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4197610/header.jpg"
     },
     {
       "appId": 4197990,
@@ -73412,6 +73856,13 @@
       "priority": 0,
       "name": "Wireworks",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4206270/header.jpg"
+    },
+    {
+      "appId": 4210060,
+      "dateAdded": 1780334816,
+      "priority": 0,
+      "name": "App 4210060",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4210060/header.jpg"
     },
     {
       "appId": 4212210,
@@ -73447,6 +73898,13 @@
       "priority": 0,
       "name": "Inverted Dreams",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4233350/header.jpg"
+    },
+    {
+      "appId": 4241840,
+      "dateAdded": 1779131176,
+      "priority": 0,
+      "name": "Sporbs",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4241840/header.jpg"
     },
     {
       "appId": 4243690,
@@ -73489,6 +73947,13 @@
       "priority": 0,
       "name": "Sea Warden",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4262380/header.jpg"
+    },
+    {
+      "appId": 4268890,
+      "dateAdded": 1779131207,
+      "priority": 0,
+      "name": "Drop and Grow",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4268890/header.jpg"
     },
     {
       "appId": 4269150,
@@ -73540,6 +74005,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4286550/header.jpg"
     },
     {
+      "appId": 4298170,
+      "dateAdded": 1780336253,
+      "priority": 0,
+      "name": "Carry the Pack Rack",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4298170/header.jpg"
+    },
+    {
       "appId": 4299460,
       "dateAdded": 1772154307,
       "priority": 0,
@@ -73547,11 +74019,25 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4299460/header.jpg"
     },
     {
+      "appId": 4304930,
+      "dateAdded": 1780419710,
+      "priority": 0,
+      "name": "Chef Knight",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304930/header.jpg"
+    },
+    {
       "appId": 4305480,
       "dateAdded": 1772399017,
       "priority": 0,
       "name": "IncreKnight",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4305480/header.jpg"
+    },
+    {
+      "appId": 4315040,
+      "dateAdded": 1780335079,
+      "priority": 0,
+      "name": "Hearth and Hamlet",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4315040/header.jpg"
     },
     {
       "appId": 4328440,
@@ -73589,11 +74075,39 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4364730/header.jpg"
     },
     {
+      "appId": 4369130,
+      "dateAdded": 1780335012,
+      "priority": 0,
+      "name": "Chop Chop Inc.",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4369130/header.jpg"
+    },
+    {
+      "appId": 4374530,
+      "dateAdded": 1780336137,
+      "priority": 0,
+      "name": "App 4374530",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4374530/header.jpg"
+    },
+    {
+      "appId": 4381560,
+      "dateAdded": 1779559624,
+      "priority": 0,
+      "name": "Compass",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4381560/header.jpg"
+    },
+    {
       "appId": 4389400,
       "dateAdded": 1772154470,
       "priority": 0,
       "name": "Bouncy Weapons",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4389400/header.jpg"
+    },
+    {
+      "appId": 4400160,
+      "dateAdded": 1779981092,
+      "priority": 0,
+      "name": "Infernal Logistics",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4400160/header.jpg"
     },
     {
       "appId": 4402330,
@@ -73610,11 +74124,39 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4409870/header.jpg"
     },
     {
+      "appId": 4414640,
+      "dateAdded": 1780168857,
+      "priority": 0,
+      "name": "App 4414640",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4414640/header.jpg"
+    },
+    {
       "appId": 4461640,
       "dateAdded": 1775426640,
       "priority": 0,
       "name": "Profit Sea Incremental",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4461640/header.jpg"
+    },
+    {
+      "appId": 4466940,
+      "dateAdded": 1780598976,
+      "priority": 0,
+      "name": "Lost & Found",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4466940/header.jpg"
+    },
+    {
+      "appId": 4476320,
+      "dateAdded": 1779392711,
+      "priority": 0,
+      "name": "Feed The Void",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4476320/header.jpg"
+    },
+    {
+      "appId": 4502710,
+      "dateAdded": 1780335091,
+      "priority": 0,
+      "name": "App 4502710",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4502710/header.jpg"
     },
     {
       "appId": 4502890,
@@ -73659,11 +74201,53 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4533950/header.jpg"
     },
     {
+      "appId": 4535880,
+      "dateAdded": 1779101329,
+      "priority": 0,
+      "name": "App 4535880",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4535880/header.jpg"
+    },
+    {
+      "appId": 4540840,
+      "dateAdded": 1780598344,
+      "priority": 0,
+      "name": "App 4540840",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4540840/header.jpg"
+    },
+    {
+      "appId": 4553140,
+      "dateAdded": 1780167075,
+      "priority": 0,
+      "name": "App 4553140",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4553140/header.jpg"
+    },
+    {
+      "appId": 4592560,
+      "dateAdded": 1779131016,
+      "priority": 0,
+      "name": "App 4592560",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4592560/header.jpg"
+    },
+    {
+      "appId": 4601230,
+      "dateAdded": 1779130938,
+      "priority": 0,
+      "name": "App 4601230",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4601230/header.jpg"
+    },
+    {
       "appId": 4604090,
       "dateAdded": 1777037418,
       "priority": 0,
       "name": "App 4604090",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4604090/header.jpg"
+    },
+    {
+      "appId": 4606050,
+      "dateAdded": 1780167113,
+      "priority": 0,
+      "name": "App 4606050",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4606050/header.jpg"
     },
     {
       "appId": 4614080,
@@ -73680,165 +74264,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4623290/header.jpg"
     },
     {
-      "appId": 2959770,
-      "dateAdded": 1778412469,
+      "appId": 4632350,
+      "dateAdded": 1780335099,
       "priority": 0,
-      "name": "Duck Side of the Moon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2959770/header.jpg"
-    },
-    {
-      "appId": 2582320,
-      "dateAdded": 1778424834,
-      "priority": 0,
-      "name": "Mixtape",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2582320/header.jpg"
-    },
-    {
-      "appId": 2255370,
-      "dateAdded": 1778424844,
-      "priority": 0,
-      "name": "Directive 8020",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2255370/header.jpg"
-    },
-    {
-      "appId": 1378990,
-      "dateAdded": 1778424964,
-      "priority": 0,
-      "name": "Crash Bandicoot™ 4: It’s About Time",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1378990/header.jpg"
-    },
-    {
-      "appId": 3457390,
-      "dateAdded": 1778489308,
-      "priority": 0,
-      "name": "Little Wings Deliveries",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3457390/header.jpg"
-    },
-    {
-      "appId": 1424330,
-      "dateAdded": 1778607467,
-      "priority": 0,
-      "name": "Wobbledogs",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1424330/header.jpg"
-    },
-    {
-      "appId": 3100370,
-      "dateAdded": 1778683138,
-      "priority": 0,
-      "name": "Black Jacket",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3100370/header.jpg"
-    },
-    {
-      "appId": 2629230,
-      "dateAdded": 1779010020,
-      "priority": 0,
-      "name": "The Adventures of Sir Kicksalot",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2629230/header.jpg"
-    },
-    {
-      "appId": 2356780,
-      "dateAdded": 1779027083,
-      "priority": 0,
-      "name": "Dungeon Clawler",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2356780/header.jpg"
-    },
-    {
-      "appId": 2738490,
-      "dateAdded": 1779027127,
-      "priority": 0,
-      "name": "Sol Cesto",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2738490/header.jpg"
-    },
-    {
-      "appId": 4078200,
-      "dateAdded": 1779101244,
-      "priority": 0,
-      "name": "Dwarf Eats Mountain",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4078200/header.jpg"
-    },
-    {
-      "appId": 3542380,
-      "dateAdded": 1779101282,
-      "priority": 0,
-      "name": "Rune Dice",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3542380/header.jpg"
-    },
-    {
-      "appId": 4535880,
-      "dateAdded": 1779101329,
-      "priority": 0,
-      "name": "App 4535880",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4535880/header.jpg"
-    },
-    {
-      "appId": 3336240,
-      "dateAdded": 1779101429,
-      "priority": 0,
-      "name": "Walk The Frog",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3336240/header.jpg"
-    },
-    {
-      "appId": 3115240,
-      "dateAdded": 1779101472,
-      "priority": 0,
-      "name": "Alchemist: Journey of the Soul",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3115240/header.jpg"
-    },
-    {
-      "appId": 3496890,
-      "dateAdded": 1779101558,
-      "priority": 0,
-      "name": "Slot or Not",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3496890/header.jpg"
-    },
-    {
-      "appId": 2980170,
-      "dateAdded": 1779101586,
-      "priority": 0,
-      "name": "Vortica",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2980170/header.jpg"
-    },
-    {
-      "appId": 4135750,
-      "dateAdded": 1779101601,
-      "priority": 0,
-      "name": "FEED THE QUEEN",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4135750/header.jpg"
-    },
-    {
-      "appId": 3283310,
-      "dateAdded": 1779101691,
-      "priority": 0,
-      "name": "Kioku: Last Summer",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3283310/header.jpg"
-    },
-    {
-      "appId": 3264960,
-      "dateAdded": 1779101765,
-      "priority": 0,
-      "name": "Cardburners",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3264960/header.jpg"
-    },
-    {
-      "appId": 3265290,
-      "dateAdded": 1779101851,
-      "priority": 0,
-      "name": "Swan Song",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265290/header.jpg"
-    },
-    {
-      "appId": 1928690,
-      "dateAdded": 1779110220,
-      "priority": 0,
-      "name": "Bionic Bay",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1928690/header.jpg"
-    },
-    {
-      "appId": 4601230,
-      "dateAdded": 1779130938,
-      "priority": 0,
-      "name": "App 4601230",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4601230/header.jpg"
+      "name": "App 4632350",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4632350/header.jpg"
     },
     {
       "appId": 4663380,
@@ -73848,270 +74278,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4663380/header.jpg"
     },
     {
-      "appId": 4592560,
-      "dateAdded": 1779131016,
-      "priority": 0,
-      "name": "App 4592560",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4592560/header.jpg"
-    },
-    {
-      "appId": 2853130,
-      "dateAdded": 1779131066,
-      "priority": 0,
-      "name": "Astrodle",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2853130/header.jpg"
-    },
-    {
-      "appId": 2276980,
-      "dateAdded": 1779131088,
-      "priority": 0,
-      "name": "FACEMINER",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2276980/header.jpg"
-    },
-    {
-      "appId": 4241840,
-      "dateAdded": 1779131176,
-      "priority": 0,
-      "name": "Sporbs",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4241840/header.jpg"
-    },
-    {
-      "appId": 4268890,
-      "dateAdded": 1779131207,
-      "priority": 0,
-      "name": "Drop and Grow",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4268890/header.jpg"
-    },
-    {
-      "appId": 3119540,
-      "dateAdded": 1779191348,
-      "priority": 0,
-      "name": "Scriptorium: Master of Manuscripts",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3119540/header.jpg"
-    },
-    {
-      "appId": 2742710,
-      "dateAdded": 1779194445,
-      "priority": 0,
-      "name": "Cozy Cleaner",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2742710/header.jpg"
-    },
-    {
-      "appId": 4114490,
-      "dateAdded": 1779195202,
-      "priority": 0,
-      "name": "Desktop Golf",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4114490/header.jpg"
-    },
-    {
-      "appId": 3820130,
-      "dateAdded": 1779195252,
-      "priority": 0,
-      "name": "The Dream Globe",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3820130/header.jpg"
-    },
-    {
-      "appId": 1418390,
-      "dateAdded": 1779364610,
-      "priority": 0,
-      "name": "Antipaint",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1418390/header.jpg"
-    },
-    {
-      "appId": 4476320,
-      "dateAdded": 1779392711,
-      "priority": 0,
-      "name": "Feed The Void",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4476320/header.jpg"
-    },
-    {
-      "appId": 2388030,
-      "dateAdded": 1779394042,
-      "priority": 0,
-      "name": "LogiGolf",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2388030/header.jpg"
-    },
-    {
-      "appId": 3779710,
-      "dateAdded": 1779559507,
-      "priority": 0,
-      "name": "CINESCAPE VR",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3779710/header.jpg"
-    },
-    {
-      "appId": 4381560,
-      "dateAdded": 1779559624,
-      "priority": 0,
-      "name": "Compass",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4381560/header.jpg"
-    },
-    {
-      "appId": 4704690,
-      "dateAdded": 1779627584,
-      "priority": 0,
-      "name": "App 4704690",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4704690/header.jpg"
-    },
-    {
-      "appId": 2196350,
-      "dateAdded": 1779707462,
-      "priority": 0,
-      "name": "Plague Alchemist",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2196350/header.jpg"
-    },
-    {
-      "appId": 2459890,
-      "dateAdded": 1779949320,
-      "priority": 0,
-      "name": "Bobls",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2459890/header.jpg"
-    },
-    {
-      "appId": 2383240,
-      "dateAdded": 1779949327,
-      "priority": 0,
-      "name": "Ecumene Aztec",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2383240/header.jpg"
-    },
-    {
-      "appId": 3782840,
-      "dateAdded": 1779949375,
-      "priority": 0,
-      "name": "Mingle",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3782840/header.jpg"
-    },
-    {
-      "appId": 3024130,
-      "dateAdded": 1779949452,
-      "priority": 0,
-      "name": "Pao Pao",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3024130/header.jpg"
-    },
-    {
-      "appId": 3071810,
-      "dateAdded": 1779949470,
-      "priority": 0,
-      "name": "Project Solar",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3071810/header.jpg"
-    },
-    {
-      "appId": 1909310,
-      "dateAdded": 1779949522,
-      "priority": 0,
-      "name": "Snowtracked",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1909310/header.jpg"
-    },
-    {
-      "appId": 2315020,
-      "dateAdded": 1779980889,
-      "priority": 0,
-      "name": "Froguelike",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2315020/header.jpg"
-    },
-    {
-      "appId": 4160590,
-      "dateAdded": 1779980923,
-      "priority": 0,
-      "name": "App 4160590",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4160590/header.jpg"
-    },
-    {
       "appId": 4678470,
       "dateAdded": 1779980950,
       "priority": 0,
       "name": "App 4678470",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4678470/header.jpg"
-    },
-    {
-      "appId": 3950840,
-      "dateAdded": 1779980967,
-      "priority": 0,
-      "name": "Grannies on Wheels",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3950840/header.jpg"
-    },
-    {
-      "appId": 3010130,
-      "dateAdded": 1779980999,
-      "priority": 0,
-      "name": "Monster Mayhem",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3010130/header.jpg"
-    },
-    {
-      "appId": 4400160,
-      "dateAdded": 1779981092,
-      "priority": 0,
-      "name": "Infernal Logistics",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4400160/header.jpg"
-    },
-    {
-      "appId": 4194800,
-      "dateAdded": 1780166938,
-      "priority": 0,
-      "name": "Starvester",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4194800/header.jpg"
-    },
-    {
-      "appId": 4731620,
-      "dateAdded": 1780167013,
-      "priority": 0,
-      "name": "App 4731620",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4731620/header.jpg"
-    },
-    {
-      "appId": 4553140,
-      "dateAdded": 1780167075,
-      "priority": 0,
-      "name": "App 4553140",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4553140/header.jpg"
-    },
-    {
-      "appId": 4606050,
-      "dateAdded": 1780167113,
-      "priority": 0,
-      "name": "App 4606050",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4606050/header.jpg"
-    },
-    {
-      "appId": 3839000,
-      "dateAdded": 1780167217,
-      "priority": 0,
-      "name": "Golden Gambit",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3839000/header.jpg"
-    },
-    {
-      "appId": 4414640,
-      "dateAdded": 1780168857,
-      "priority": 0,
-      "name": "App 4414640",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4414640/header.jpg"
-    },
-    {
-      "appId": 4705700,
-      "dateAdded": 1780248128,
-      "priority": 0,
-      "name": "App 4705700",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4705700/header.jpg"
-    },
-    {
-      "appId": 3898830,
-      "dateAdded": 1780334575,
-      "priority": 0,
-      "name": "Banana of Doom",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3898830/header.jpg"
-    },
-    {
-      "appId": 3426150,
-      "dateAdded": 1780334620,
-      "priority": 0,
-      "name": "I Have No Change",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3426150/header.jpg"
-    },
-    {
-      "appId": 3847920,
-      "dateAdded": 1780334713,
-      "priority": 0,
-      "name": "App 3847920",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3847920/header.jpg"
     },
     {
       "appId": 4686110,
@@ -74121,172 +74292,32 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4686110/header.jpg"
     },
     {
-      "appId": 3595450,
-      "dateAdded": 1780334781,
+      "appId": 4704690,
+      "dateAdded": 1779627584,
       "priority": 0,
-      "name": "Object Impermanence",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3595450/header.jpg"
+      "name": "App 4704690",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4704690/header.jpg"
     },
     {
-      "appId": 3030560,
-      "dateAdded": 1780334803,
+      "appId": 4705700,
+      "dateAdded": 1780248128,
       "priority": 0,
-      "name": "Sloppy Forgeries",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3030560/header.jpg"
+      "name": "App 4705700",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4705700/header.jpg"
     },
     {
-      "appId": 4210060,
-      "dateAdded": 1780334816,
+      "appId": 4731620,
+      "dateAdded": 1780167013,
       "priority": 0,
-      "name": "App 4210060",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4210060/header.jpg"
+      "name": "App 4731620",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4731620/header.jpg"
     },
     {
-      "appId": 3914860,
-      "dateAdded": 1780334906,
+      "appId": 4590270,
+      "dateAdded": 1780906045,
       "priority": 0,
-      "name": "App 3914860",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3914860/header.jpg"
-    },
-    {
-      "appId": 4369130,
-      "dateAdded": 1780335012,
-      "priority": 0,
-      "name": "Chop Chop Inc.",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4369130/header.jpg"
-    },
-    {
-      "appId": 1374860,
-      "dateAdded": 1780335033,
-      "priority": 0,
-      "name": "Nocturne",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1374860/header.jpg"
-    },
-    {
-      "appId": 4315040,
-      "dateAdded": 1780335079,
-      "priority": 0,
-      "name": "Hearth and Hamlet",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4315040/header.jpg"
-    },
-    {
-      "appId": 4502710,
-      "dateAdded": 1780335091,
-      "priority": 0,
-      "name": "App 4502710",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4502710/header.jpg"
-    },
-    {
-      "appId": 4632350,
-      "dateAdded": 1780335099,
-      "priority": 0,
-      "name": "App 4632350",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4632350/header.jpg"
-    },
-    {
-      "appId": 4374530,
-      "dateAdded": 1780336137,
-      "priority": 0,
-      "name": "App 4374530",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4374530/header.jpg"
-    },
-    {
-      "appId": 408200,
-      "dateAdded": 1780336164,
-      "priority": 0,
-      "name": "App 408200",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/408200/header.jpg"
-    },
-    {
-      "appId": 4298170,
-      "dateAdded": 1780336253,
-      "priority": 0,
-      "name": "Carry the Pack Rack",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4298170/header.jpg"
-    },
-    {
-      "appId": 3346460,
-      "dateAdded": 1780336293,
-      "priority": 0,
-      "name": "App 3346460",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3346460/header.jpg"
-    },
-    {
-      "appId": 2651350,
-      "dateAdded": 1780336325,
-      "priority": 0,
-      "name": "Slip & Skid",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651350/header.jpg"
-    },
-    {
-      "appId": 4304930,
-      "dateAdded": 1780419710,
-      "priority": 0,
-      "name": "Chef Knight",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304930/header.jpg"
-    },
-    {
-      "appId": 3819020,
-      "dateAdded": 1780584084,
-      "priority": 0,
-      "name": "DEADBOOT",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3819020/header.jpg"
-    },
-    {
-      "appId": 4540840,
-      "dateAdded": 1780598344,
-      "priority": 0,
-      "name": "App 4540840",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4540840/header.jpg"
-    },
-    {
-      "appId": 4126510,
-      "dateAdded": 1780598449,
-      "priority": 0,
-      "name": "App 4126510",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4126510/header.jpg"
-    },
-    {
-      "appId": 4111300,
-      "dateAdded": 1780598640,
-      "priority": 0,
-      "name": "MegaGum",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4111300/header.jpg"
-    },
-    {
-      "appId": 3830320,
-      "dateAdded": 1780598711,
-      "priority": 0,
-      "name": "Ballgame",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3830320/header.jpg"
-    },
-    {
-      "appId": 4466940,
-      "dateAdded": 1780598976,
-      "priority": 0,
-      "name": "Lost & Found",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4466940/header.jpg"
-    },
-    {
-      "appId": 3861710,
-      "dateAdded": 1780599034,
-      "priority": 0,
-      "name": "Otterly Lost",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3861710/header.jpg"
-    },
-    {
-      "appId": 4003590,
-      "dateAdded": 1780599135,
-      "priority": 0,
-      "name": "Alt+F4",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4003590/header.jpg"
-    },
-    {
-      "appId": 2055590,
-      "dateAdded": 1780645797,
-      "priority": 0,
-      "name": "Star Overdrive",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2055590/header.jpg"
+      "name": "App 4590270",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4590270/header.jpg"
     }
   ]
 }
