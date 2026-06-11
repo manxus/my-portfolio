@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-10T09:53:22.552Z",
+  "fetchedAt": "2026-06-11T10:21:27.397Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1781081314
+    "lastLogoff": 1781162592
   },
   "games": [
     {
@@ -1159,24 +1159,9 @@
       }
     },
     {
-      "appId": 990080,
-      "name": "Hogwarts Legacy",
-      "playtimeHours": 80.6,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 45
-      }
-    },
-    {
       "appId": 548430,
       "name": "Deep Rock Galactic",
-      "playtimeHours": 79.1,
+      "playtimeHours": 82.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/548430/e033e23c29a192a17c16a7645a2b423ac64ff447.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/36fbee168dca4023519384a5822e79418949bfcb/header_alt_assets_22.jpg?t=1775555380",
       "genres": [
@@ -1196,7 +1181,22 @@
       "releaseDate": "May 13, 2020",
       "achievements": {
         "total": 69,
-        "unlocked": 43
+        "unlocked": 44
+      }
+    },
+    {
+      "appId": 990080,
+      "name": "Hogwarts Legacy",
+      "playtimeHours": 80.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/990080/a9ecb94f249768d0ee5ccecbffe8d8c06d9bed59.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 45
       }
     },
     {
@@ -1676,6 +1676,35 @@
       "achievements": null
     },
     {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 59.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 36
+      }
+    },
+    {
       "appId": 2342950,
       "name": "God Of Weapons",
       "playtimeHours": 58.9,
@@ -1968,35 +1997,6 @@
       "achievements": {
         "total": 32,
         "unlocked": 32
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 50.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 26
       }
     },
     {
@@ -9465,7 +9465,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "13 Nov, 2024",
+      "releaseDate": "Nov 13, 2024",
       "achievements": {
         "total": 9,
         "unlocked": 9
@@ -46973,7 +46973,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 35,
+        "total": 9,
         "unlocked": 0
       }
     },
@@ -53810,7 +53810,7 @@
       "name": "AK-xolotl: Together",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1479140/12c5cc11413ba878e8b1ae12476e1fb91cbaa8b0.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1479140/6cd173eae37fc18ace70c39f72d54c8dfd786b6e/header.jpg?t=1761035337",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1479140/6cd173eae37fc18ace70c39f72d54c8dfd786b6e/header.jpg?t=1781108375",
       "genres": [
         "Action",
         "Indie"
@@ -58839,7 +58839,7 @@
       "name": "Greedland",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2218400/a8161291616949b6325460d8aaeb96e73e4eaeb1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/002b54de00e6ed92c966f120e6ec989e9b958d4c/header_alt_assets_3.jpg?t=1780919120",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/002b54de00e6ed92c966f120e6ec989e9b958d4c/header_alt_assets_3.jpg?t=1781170516",
       "genres": [
         "Action",
         "Adventure",
@@ -59721,7 +59721,7 @@
       "hardwareSupport": [
         "VR Only"
       ],
-      "releaseDate": "22 Oct, 2024",
+      "releaseDate": "Oct 22, 2024",
       "achievements": {
         "total": 44,
         "unlocked": 0
@@ -60317,7 +60317,7 @@
       "name": "I Am Legion: Stand Survivors",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3109580/a35acbe0a94d48b337c3fbf9283d587647990a91.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1781004550",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3109580/145f8de214c9c888e35fb073c80a46e4af3ee4f7/header.jpg?t=1781158349",
       "genres": [
         "Action",
         "Adventure"
@@ -60328,7 +60328,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Mar 6, 2025",
+      "releaseDate": "6 Mar, 2025",
       "achievements": {
         "total": 80,
         "unlocked": 0
