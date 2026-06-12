@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-11T10:21:27.397Z",
+  "fetchedAt": "2026-06-12T10:08:57.318Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1781162592
+    "lastLogoff": 1781210027
   },
   "games": [
     {
@@ -1137,31 +1137,9 @@
       }
     },
     {
-      "appId": 1267910,
-      "name": "Melvor Idle",
-      "playtimeHours": 83.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
-      "genres": [
-        "Adventure",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Nov 18, 2021",
-      "achievements": {
-        "total": 86,
-        "unlocked": 23
-      }
-    },
-    {
       "appId": 548430,
       "name": "Deep Rock Galactic",
-      "playtimeHours": 82.9,
+      "playtimeHours": 85.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/548430/e033e23c29a192a17c16a7645a2b423ac64ff447.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/36fbee168dca4023519384a5822e79418949bfcb/header_alt_assets_22.jpg?t=1775555380",
       "genres": [
@@ -1182,6 +1160,28 @@
       "achievements": {
         "total": 69,
         "unlocked": 44
+      }
+    },
+    {
+      "appId": 1267910,
+      "name": "Melvor Idle",
+      "playtimeHours": 83.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Nov 18, 2021",
+      "achievements": {
+        "total": 86,
+        "unlocked": 23
       }
     },
     {
@@ -13929,6 +13929,24 @@
       "achievements": null
     },
     {
+      "appId": 6100,
+      "name": "Eets",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/6100/fbaf69a669637c8bd5cebdd9a8f06b4f37831235.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6100/b97e6e9de18d08941c872fc73abae7c2dc91ccfe/header.jpg?t=1781207036",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "30 Mar, 2006",
+      "achievements": null
+    },
+    {
       "appId": 6800,
       "name": "Commandos: Behind Enemy Lines",
       "playtimeHours": 0,
@@ -21254,7 +21272,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 211,
+        "total": 219,
         "unlocked": 0
       }
     },
@@ -28758,7 +28776,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 274,
+        "total": 293,
         "unlocked": 0
       }
     },
@@ -32359,7 +32377,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 50,
+        "total": 51,
         "unlocked": 0
       }
     },
@@ -39598,7 +39616,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 0,
+        "total": 19,
         "unlocked": 0
       }
     },
@@ -42734,7 +42752,7 @@
       "name": "Cubism",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/804530/2e808d03d0ec774326fffc0bf0629f6194dabcb1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/804530/header.jpg?t=1743707675",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/804530/header.jpg?t=1781179419",
       "genres": [
         "Casual",
         "Indie"
@@ -52920,7 +52938,7 @@
       "name": "Everdream Valley",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1403650/dddf2632b1f36d0897e1f9dd2cba3c52ed35a61e.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1403650/header.jpg?t=1776528156",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1403650/header.jpg?t=1781180811",
       "genres": [
         "Adventure",
         "Casual",
@@ -53370,6 +53388,33 @@
       "releaseDate": null,
       "achievements": {
         "total": 37,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1433340,
+      "name": "Happy's Humble Burger Farm",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1433340/fce7f7d050591517802de41deff591e42d495601.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1433340/bffacca0828f9dd790c7104c85040aa558eab420/header_alt_assets_0.jpg?t=1781202018",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play on TV"
+      ],
+      "releaseDate": "Dec 3, 2021",
+      "achievements": {
+        "total": 30,
         "unlocked": 0
       }
     },
@@ -60328,7 +60373,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "6 Mar, 2025",
+      "releaseDate": "Mar 6, 2025",
       "achievements": {
         "total": 80,
         "unlocked": 0
@@ -60739,7 +60784,7 @@
         "Tracked Controller Support",
         "VR Only"
       ],
-      "releaseDate": "Dec 4, 2025",
+      "releaseDate": "4 Dec, 2025",
       "achievements": {
         "total": 13,
         "unlocked": 0
@@ -74346,6 +74391,13 @@
       "priority": 0,
       "name": "Serious Sam: Tormental",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/640340/header.jpg"
+    },
+    {
+      "appId": 3219180,
+      "dateAdded": 1781204748,
+      "priority": 0,
+      "name": "Cursemark",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3219180/header.jpg"
     }
   ]
 }
