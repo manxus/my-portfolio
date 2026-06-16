@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-15T11:59:54.492Z",
+  "fetchedAt": "2026-06-16T11:07:55.511Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1781518066
+    "lastLogoff": 1781593832
   },
   "games": [
     {
@@ -1069,30 +1069,9 @@
       }
     },
     {
-      "appId": 3416070,
-      "name": "Ropuka's Idle Island",
-      "playtimeHours": 92,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3416070/326558bff73f8b1c6a1e51974654b18f9c36da24.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3416070/header.jpg?t=1774778381",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Jan 29, 2025",
-      "achievements": {
-        "total": 31,
-        "unlocked": 31
-      }
-    },
-    {
       "appId": 548430,
       "name": "Deep Rock Galactic",
-      "playtimeHours": 90.3,
+      "playtimeHours": 93.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/548430/e033e23c29a192a17c16a7645a2b423ac64ff447.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/36fbee168dca4023519384a5822e79418949bfcb/header_alt_assets_22.jpg?t=1775555380",
       "genres": [
@@ -1112,7 +1091,28 @@
       "releaseDate": "May 13, 2020",
       "achievements": {
         "total": 69,
-        "unlocked": 46
+        "unlocked": 47
+      }
+    },
+    {
+      "appId": 3416070,
+      "name": "Ropuka's Idle Island",
+      "playtimeHours": 92,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3416070/326558bff73f8b1c6a1e51974654b18f9c36da24.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3416070/header.jpg?t=1774778381",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jan 29, 2025",
+      "achievements": {
+        "total": 31,
+        "unlocked": 31
       }
     },
     {
@@ -10178,7 +10178,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 50,
+        "total": 54,
         "unlocked": 0
       }
     },
@@ -13933,17 +13933,18 @@
       "name": "Eets",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/6100/fbaf69a669637c8bd5cebdd9a8f06b4f37831235.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6100/b97e6e9de18d08941c872fc73abae7c2dc91ccfe/header.jpg?t=1781284010",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6100/b97e6e9de18d08941c872fc73abae7c2dc91ccfe/header.jpg?t=1781544337",
       "genres": [
         "Casual",
         "Indie",
-        "Strategy"
+        "Strategy",
+        "Free To Play"
       ],
       "playerModes": [
         "Single-player"
       ],
       "hardwareSupport": [],
-      "releaseDate": "Mar 29, 2006",
+      "releaseDate": "Dec 20, 2006",
       "achievements": null
     },
     {
@@ -47371,7 +47372,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "Nov 19, 2019",
+      "releaseDate": "19 Nov, 2019",
       "achievements": {
         "total": 41,
         "unlocked": 0
@@ -53396,7 +53397,7 @@
       "name": "Happy's Humble Burger Farm",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1433340/fce7f7d050591517802de41deff591e42d495601.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1433340/bffacca0828f9dd790c7104c85040aa558eab420/header_alt_assets_0.jpg?t=1781355115",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1433340/bffacca0828f9dd790c7104c85040aa558eab420/header_alt_assets_1.jpg?t=1781531712",
       "genres": [
         "Action",
         "Adventure",
@@ -57371,7 +57372,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Jun 8, 2023",
+      "releaseDate": "8 Jun, 2023",
       "achievements": {
         "total": 221,
         "unlocked": 0
@@ -59985,7 +59986,7 @@
       "name": "8AM",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2835590/44bd7fad168e4390dcf06499d890c1bcdf057aa5.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835590/header.jpg?t=1777058060",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835590/header.jpg?t=1781547073",
       "genres": [
         "Casual",
         "Indie"
@@ -60585,7 +60586,7 @@
       "name": "Cubic Odyssey",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3400000/8ba5993cf98a556ed0c352c112ad1c3178c8ed28.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3400000/header.jpg?t=1779290210",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3400000/header.jpg?t=1781529164",
       "genres": [
         "Action",
         "Adventure"
@@ -74440,6 +74441,41 @@
       "priority": 0,
       "name": "App 4610800",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4610800/header.jpg"
+    },
+    {
+      "appId": 3724710,
+      "dateAdded": 1781544060,
+      "priority": 0,
+      "name": "Gunstoppable",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3724710/header.jpg"
+    },
+    {
+      "appId": 4094350,
+      "dateAdded": 1781544113,
+      "priority": 0,
+      "name": "Online: 404",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4094350/header.jpg"
+    },
+    {
+      "appId": 3227240,
+      "dateAdded": 1781544170,
+      "priority": 0,
+      "name": "MineGeon: Renegades",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3227240/header.jpg"
+    },
+    {
+      "appId": 4066520,
+      "dateAdded": 1781544249,
+      "priority": 0,
+      "name": "BETCOIL",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4066520/header.jpg"
+    },
+    {
+      "appId": 3673060,
+      "dateAdded": 1781544466,
+      "priority": 0,
+      "name": "How to Train Your Cock",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3673060/header.jpg"
     }
   ]
 }
