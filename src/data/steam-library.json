@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-20T08:53:24.344Z",
+  "fetchedAt": "2026-06-21T09:48:30.953Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1781864218
+    "lastLogoff": 1781979924
   },
   "games": [
     {
@@ -60151,7 +60151,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "Aug 27, 2024",
+      "releaseDate": "27 Aug, 2024",
       "achievements": {
         "total": 27,
         "unlocked": 0
@@ -74469,6 +74469,13 @@
       "priority": 0,
       "name": "App 4656000",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4656000/header.jpg"
+    },
+    {
+      "appId": 4137830,
+      "dateAdded": 1781960115,
+      "priority": 0,
+      "name": "Must be Feng Shui",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4137830/header.jpg"
     }
   ]
 }
