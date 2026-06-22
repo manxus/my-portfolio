@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-06-21T09:48:30.953Z",
+  "fetchedAt": "2026-06-22T11:49:19.612Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1781979924
+    "lastLogoff": 1782067314
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3464.5,
+      "playtimeHours": 3465.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -1375,6 +1375,35 @@
       }
     },
     {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 73.4,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 41
+      }
+    },
+    {
       "appId": 225540,
       "name": "Just Cause 3",
       "playtimeHours": 73.3,
@@ -1452,35 +1481,6 @@
       "achievements": {
         "total": 55,
         "unlocked": 9
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 70.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 41
       }
     },
     {
@@ -58885,7 +58885,7 @@
       "name": "Greedland",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2218400/a8161291616949b6325460d8aaeb96e73e4eaeb1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/002b54de00e6ed92c966f120e6ec989e9b958d4c/header_alt_assets_3.jpg?t=1781775202",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/343b85ee5799d9ca115207374841ba72c111619c/header.jpg?t=1781775202",
       "genres": [
         "Action",
         "Adventure",
@@ -60151,7 +60151,7 @@
       "hardwareSupport": [
         "Full controller support"
       ],
-      "releaseDate": "27 Aug, 2024",
+      "releaseDate": "Aug 27, 2024",
       "achievements": {
         "total": 27,
         "unlocked": 0
@@ -71622,6 +71622,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3219180/header.jpg"
     },
     {
+      "appId": 3227240,
+      "dateAdded": 1781544170,
+      "priority": 0,
+      "name": "MineGeon: Renegades",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3227240/header.jpg"
+    },
+    {
       "appId": 3228580,
       "dateAdded": 1769376122,
       "priority": 0,
@@ -71739,6 +71746,13 @@
       "priority": 0,
       "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3265700/header.jpg"
+    },
+    {
+      "appId": 3268370,
+      "dateAdded": 1781620077,
+      "priority": 0,
+      "name": "Tenkemo",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3268370/header.jpg"
     },
     {
       "appId": 3269180,
@@ -72336,6 +72350,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3521660/header.jpg"
     },
     {
+      "appId": 3524720,
+      "dateAdded": 1781619845,
+      "priority": 0,
+      "name": "App 3524720",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3524720/header.jpg"
+    },
+    {
       "appId": 3526710,
       "dateAdded": 1772358364,
       "priority": 0,
@@ -72735,6 +72756,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3671850/header.jpg"
     },
     {
+      "appId": 3673060,
+      "dateAdded": 1781544466,
+      "priority": 0,
+      "name": "How to Train Your Cock",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3673060/header.jpg"
+    },
+    {
       "appId": 3673320,
       "dateAdded": 1764508598,
       "priority": 0,
@@ -72852,6 +72880,13 @@
       "priority": 0,
       "name": "Idle Gumball Machine",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3724490/header.jpg"
+    },
+    {
+      "appId": 3724710,
+      "dateAdded": 1781544060,
+      "priority": 0,
+      "name": "Gunstoppable",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3724710/header.jpg"
     },
     {
       "appId": 3725190,
@@ -73603,6 +73638,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4045540/header.jpg"
     },
     {
+      "appId": 4066520,
+      "dateAdded": 1781544249,
+      "priority": 0,
+      "name": "BETCOIL",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4066520/header.jpg"
+    },
+    {
       "appId": 4069520,
       "dateAdded": 1768651633,
       "priority": 0,
@@ -73650,6 +73692,13 @@
       "priority": 0,
       "name": "A Game About Opening A Chest",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4088850/header.jpg"
+    },
+    {
+      "appId": 4094350,
+      "dateAdded": 1781544113,
+      "priority": 0,
+      "name": "Online: 404",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4094350/header.jpg"
     },
     {
       "appId": 4094660,
@@ -73755,6 +73804,13 @@
       "priority": 0,
       "name": "FEED THE QUEEN",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4135750/header.jpg"
+    },
+    {
+      "appId": 4137830,
+      "dateAdded": 1781960115,
+      "priority": 0,
+      "name": "Must be Feng Shui",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4137830/header.jpg"
     },
     {
       "appId": 4137920,
@@ -73944,6 +74000,13 @@
       "priority": 0,
       "name": "Demon Castle Story",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4212210/header.jpg"
+    },
+    {
+      "appId": 4213030,
+      "dateAdded": 1781619911,
+      "priority": 0,
+      "name": "Deadhikers",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4213030/header.jpg"
     },
     {
       "appId": 4216670,
@@ -74163,6 +74226,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4374530/header.jpg"
     },
     {
+      "appId": 4380490,
+      "dateAdded": 1781521509,
+      "priority": 0,
+      "name": "App 4380490",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4380490/header.jpg"
+    },
+    {
       "appId": 4381560,
       "dateAdded": 1779559624,
       "priority": 0,
@@ -74331,6 +74401,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4606050/header.jpg"
     },
     {
+      "appId": 4610800,
+      "dateAdded": 1781521597,
+      "priority": 0,
+      "name": "App 4610800",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4610800/header.jpg"
+    },
+    {
       "appId": 4614080,
       "dateAdded": 1777285646,
       "priority": 0,
@@ -74350,6 +74427,13 @@
       "priority": 0,
       "name": "App 4632350",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4632350/header.jpg"
+    },
+    {
+      "appId": 4656000,
+      "dateAdded": 1781620262,
+      "priority": 0,
+      "name": "App 4656000",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4656000/header.jpg"
     },
     {
       "appId": 4663380,
@@ -74394,88 +74478,11 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4731620/header.jpg"
     },
     {
-      "appId": 4380490,
-      "dateAdded": 1781521509,
+      "appId": 4312850,
+      "dateAdded": 1782124667,
       "priority": 0,
-      "name": "App 4380490",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4380490/header.jpg"
-    },
-    {
-      "appId": 4610800,
-      "dateAdded": 1781521597,
-      "priority": 0,
-      "name": "App 4610800",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4610800/header.jpg"
-    },
-    {
-      "appId": 3724710,
-      "dateAdded": 1781544060,
-      "priority": 0,
-      "name": "Gunstoppable",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3724710/header.jpg"
-    },
-    {
-      "appId": 4094350,
-      "dateAdded": 1781544113,
-      "priority": 0,
-      "name": "Online: 404",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4094350/header.jpg"
-    },
-    {
-      "appId": 3227240,
-      "dateAdded": 1781544170,
-      "priority": 0,
-      "name": "MineGeon: Renegades",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3227240/header.jpg"
-    },
-    {
-      "appId": 4066520,
-      "dateAdded": 1781544249,
-      "priority": 0,
-      "name": "BETCOIL",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4066520/header.jpg"
-    },
-    {
-      "appId": 3673060,
-      "dateAdded": 1781544466,
-      "priority": 0,
-      "name": "How to Train Your Cock",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3673060/header.jpg"
-    },
-    {
-      "appId": 3524720,
-      "dateAdded": 1781619845,
-      "priority": 0,
-      "name": "App 3524720",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3524720/header.jpg"
-    },
-    {
-      "appId": 4213030,
-      "dateAdded": 1781619911,
-      "priority": 0,
-      "name": "Deadhikers",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4213030/header.jpg"
-    },
-    {
-      "appId": 3268370,
-      "dateAdded": 1781620077,
-      "priority": 0,
-      "name": "Tenkemo",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3268370/header.jpg"
-    },
-    {
-      "appId": 4656000,
-      "dateAdded": 1781620262,
-      "priority": 0,
-      "name": "App 4656000",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4656000/header.jpg"
-    },
-    {
-      "appId": 4137830,
-      "dateAdded": 1781960115,
-      "priority": 0,
-      "name": "Must be Feng Shui",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4137830/header.jpg"
+      "name": "FISH",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4312850/header.jpg"
     }
   ]
 }
