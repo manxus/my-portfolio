@@ -7,6 +7,15 @@
   ],
   "galleryItems": [
     {
+      "id": 1,
+      "type": "Video",
+      "title": "Midsummer - 2026",
+      "description": "",
+      "thumbnail": "",
+      "fullUrl": "",
+      "videoUrl": "https://www.youtube.com/watch?v=GNtuYa_bI4k"
+    },
+    {
       "id": 0,
       "type": "Video",
       "title": "1 Month in Thailand - 2025",

@@ -403,6 +403,48 @@
         "Performance issues even on a high-end PC",
         "Occasional cloth physics bugs and Z-fighting"
       ]
+    },
+    {
+      "appId": 2685900,
+      "gameName": "Mind Over Magnet",
+      "rating": 7,
+      "title": "Magnetic Mechanics Done Right",
+      "text": "Mind Over Magnet is a creative puzzle platformer with a strong central mechanic that stays enjoyable throughout the entire game.\n\nThe magnet mechanics are genuinely fun to use and the game does a great job of introducing new ideas frequently enough that puzzles never really become repetitive. The levels are divided into different worlds, each with their own mechanics and twists, which keeps the experience feeling fresh.\n\nThe puzzles have a solid difficulty balance overall. Some made me stop and think for a bit, while others only took longer because of my own mistakes. I also appreciated the hint system and how naturally it’s implemented into the game.\n\nControls feel smooth and precise, which is important for this type of game and I never felt like I was fighting the mechanics.\n\nVisually and audibly the game is fairly basic but still pleasant enough and fitting for the experience.\n\nIt’s a fairly short game but I think the length works well since the game introduces new mechanics at a steady pace without dragging things out.\n\nI also had a completely smooth experience technically with no bugs or issues during my playthrough.\n\nOverall, I’d definitely recommend it to fans of puzzle platformers and creative mechanics. The only thing holding me back slightly is the price, which feels a little high for the amount of content so I’d probably wait for a sale.",
+      "date": "2026-05-26",
+      "recommended": true,
+      "pros": [
+        "Creative and satisfying magnet mechanics",
+        "New mechanics introduced frequently",
+        "Good puzzle variety and pacing",
+        "Smooth and precise controls",
+        "Helpful and well-implemented hint system"
+      ],
+      "cons": [
+        "Visuals and audio are fairly basic",
+        "Price feels slightly high for the amount of content"
+      ]
+    },
+    {
+      "appId": 352400,
+      "gameName": "LEGO® Jurassic World",
+      "rating": 8,
+      "title": "A Fun LEGO Adventure With Plenty to Discover",
+      "text": "LEGO Jurassic World is an enjoyable LEGO adventure that offers plenty of exploration, collectibles, and lighthearted gameplay.\n\nThe gameplay offers a nice mix of combat, exploration, puzzles, quick-time events, and open-world activities. Compared to some previous LEGO games I've played, it felt a bit different in a good way. While things became slightly repetitive towards the end, there was enough variety throughout most of the game to keep me engaged.\n\nThe character roster is one of the highlights. Many characters have multiple uses, which makes exploration and puzzle-solving more interesting. I was also pleasantly surprised that you also get to play as the dinosaurs. That being said, some of the larger dinosaurs was a bit awkward to control. One thing I struggled with throughout the game was remembering which characters could perform specific actions, and I think the game could do a better job communicating that information.\n\nExploration was probably my favorite part of the experience. The open-world areas are enjoyable to explore, the map is a welcome addition, and being able to select individual sections of completed levels makes collectible hunting much more manageable. Most collectibles were fun to find, although some during chase sequences were frustrating since camera angles made them difficult to spot even with the collectible detector enabled.\n\nThe environments look good and the soundtrack helps support the atmosphere. On the technical side, I encountered a couple of crashes during my playthrough. It was also fairly easy to get characters stuck in the environment, although switching characters usually fixed the issue. I also ran into some targeting frustrations and occasional animation glitches.\n\nOverall, LEGO Jurassic World is a fun LEGO adventure with enjoyable exploration, a good amount of variety, and plenty of content for completionists. If you enjoy LEGO games, this is an easy recommendation.",
+      "date": "2026-06-05",
+      "recommended": true,
+      "pros": [
+        "Fun mix of combat, puzzles, exploration, and quick-time events",
+        "Enjoyable open-world areas",
+        "Large variety of playable characters",
+        "Map system improves exploration",
+        "Ability to replay specific level sections helps completionists"
+      ],
+      "cons": [
+        "Can feel slightly repetitive towards the end",
+        "Some larger dinosaurs are awkward to control",
+        "Character abilities can be difficult to remember",
+        "Occasional crashes"
+      ]
     }
   ]
 }
