@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-22T11:49:19.612Z",
+  "fetchedAt": "2026-06-24T09:05:23.632Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1782067314
+    "lastLogoff": 1782284190
   },
   "games": [
     {
@@ -839,6 +839,32 @@
       }
     },
     {
+      "appId": 548430,
+      "name": "Deep Rock Galactic",
+      "playtimeHours": 112.3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/548430/e033e23c29a192a17c16a7645a2b423ac64ff447.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/36fbee168dca4023519384a5822e79418949bfcb/header_alt_assets_22.jpg?t=1775555380",
+      "genres": [
+        "Action"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on Tablet",
+        "Remote Play on TV"
+      ],
+      "releaseDate": "May 13, 2020",
+      "achievements": {
+        "total": 69,
+        "unlocked": 52
+      }
+    },
+    {
       "appId": 2666510,
       "name": "Rusty's Retirement",
       "playtimeHours": 112.1,
@@ -886,32 +912,6 @@
       "achievements": {
         "total": 243,
         "unlocked": 243
-      }
-    },
-    {
-      "appId": 548430,
-      "name": "Deep Rock Galactic",
-      "playtimeHours": 107.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/548430/e033e23c29a192a17c16a7645a2b423ac64ff447.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/36fbee168dca4023519384a5822e79418949bfcb/header_alt_assets_22.jpg?t=1775555380",
-      "genres": [
-        "Action"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on Tablet",
-        "Remote Play on TV"
-      ],
-      "releaseDate": "May 13, 2020",
-      "achievements": {
-        "total": 69,
-        "unlocked": 51
       }
     },
     {
@@ -17675,7 +17675,7 @@
       "name": "Baldur's Gate: Enhanced Edition",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/228280/8f58ffe2b58e546ec6d9515fa80fb231764b2da8.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/9761e1ed90324b2102ffc3dac295eeabf03bea55/header.jpg?t=1780676012",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/228280/9761e1ed90324b2102ffc3dac295eeabf03bea55/header.jpg?t=1782244509",
       "genres": [
         "Adventure",
         "RPG"
@@ -19624,7 +19624,7 @@
       "name": "Baldur's Gate II: Enhanced Edition",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/257350/c76299c87cab47a1cfcbff3b42cd883194e090f9.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350/486ef7ce52fdb1ee5d2909ac97f26d4e26da18d3/header.jpg?t=1780685777",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257350/486ef7ce52fdb1ee5d2909ac97f26d4e26da18d3/header.jpg?t=1782244672",
       "genres": [
         "Adventure",
         "RPG"
@@ -52939,7 +52939,7 @@
       "name": "Everdream Valley",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1403650/dddf2632b1f36d0897e1f9dd2cba3c52ed35a61e.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1403650/header.jpg?t=1781521384",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1403650/header.jpg?t=1782200700",
       "genres": [
         "Adventure",
         "Casual",
@@ -58885,7 +58885,7 @@
       "name": "Greedland",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2218400/a8161291616949b6325460d8aaeb96e73e4eaeb1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/343b85ee5799d9ca115207374841ba72c111619c/header.jpg?t=1781775202",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218400/343b85ee5799d9ca115207374841ba72c111619c/header.jpg?t=1782185003",
       "genres": [
         "Action",
         "Adventure",
@@ -74483,6 +74483,48 @@
       "priority": 0,
       "name": "FISH",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4312850/header.jpg"
+    },
+    {
+      "appId": 3299050,
+      "dateAdded": 1782197980,
+      "priority": 0,
+      "name": "No Such Place",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3299050/header.jpg"
+    },
+    {
+      "appId": 4117730,
+      "dateAdded": 1782198001,
+      "priority": 0,
+      "name": "Slayblade",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4117730/header.jpg"
+    },
+    {
+      "appId": 4131730,
+      "dateAdded": 1782198051,
+      "priority": 0,
+      "name": "VHOLUME",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4131730/header.jpg"
+    },
+    {
+      "appId": 2950790,
+      "dateAdded": 1782215807,
+      "priority": 0,
+      "name": "IRON NEST: Heavy Turret Simulator",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2950790/header.jpg"
+    },
+    {
+      "appId": 2458980,
+      "dateAdded": 1782284961,
+      "priority": 0,
+      "name": "Dimhaven - The Lost Source",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2458980/header.jpg"
+    },
+    {
+      "appId": 3688130,
+      "dateAdded": 1782284974,
+      "priority": 0,
+      "name": "Moldwasher",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3688130/header.jpg"
     }
   ]
 }
