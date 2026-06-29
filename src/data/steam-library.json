@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-28T08:52:02.880Z",
+  "fetchedAt": "2026-06-29T10:52:46.586Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1782603748
+    "lastLogoff": 1782725205
   },
   "games": [
     {
@@ -1163,6 +1163,36 @@
       }
     },
     {
+      "appId": 312530,
+      "name": "Duck Game",
+      "playtimeHours": 84.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/312530/d539148e7970b82733bfc78d595b41465fd09275.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312530/header.jpg?t=1719772984",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Shared/Split Screen PvP"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play on TV",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Jun 4, 2015",
+      "achievements": {
+        "total": 18,
+        "unlocked": 17
+      }
+    },
+    {
       "appId": 1267910,
       "name": "Melvor Idle",
       "playtimeHours": 83.9,
@@ -1326,6 +1356,35 @@
       }
     },
     {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 74.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 41
+      }
+    },
+    {
       "appId": 962130,
       "name": "Grounded",
       "playtimeHours": 74.6,
@@ -1372,35 +1431,6 @@
       "achievements": {
         "total": 38,
         "unlocked": 38
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 73.4,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 41
       }
     },
     {
@@ -1607,36 +1637,6 @@
       "achievements": {
         "total": 68,
         "unlocked": 68
-      }
-    },
-    {
-      "appId": 312530,
-      "name": "Duck Game",
-      "playtimeHours": 65.2,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/312530/d539148e7970b82733bfc78d595b41465fd09275.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312530/header.jpg?t=1719772984",
-      "genres": [
-        "Action",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Shared/Split Screen PvP"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on Phone",
-        "Remote Play on Tablet",
-        "Remote Play on TV",
-        "Remote Play Together"
-      ],
-      "releaseDate": "Jun 4, 2015",
-      "achievements": {
-        "total": 18,
-        "unlocked": 15
       }
     },
     {
@@ -6738,6 +6738,30 @@
       }
     },
     {
+      "appId": 3892270,
+      "name": "Gamble With Your Friends",
+      "playtimeHours": 7.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3892270/620adde61e9a7003f375bb5979fadde34eafa9d6.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1782258835",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "May 1, 2026",
+      "achievements": {
+        "total": 55,
+        "unlocked": 20
+      }
+    },
+    {
       "appId": 435400,
       "name": "Hidden Folks",
       "playtimeHours": 7.7,
@@ -10797,30 +10821,6 @@
       "achievements": {
         "total": 27,
         "unlocked": 0
-      }
-    },
-    {
-      "appId": 3892270,
-      "name": "Gamble With Your Friends",
-      "playtimeHours": 1.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3892270/620adde61e9a7003f375bb5979fadde34eafa9d6.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1782258835",
-      "genres": [
-        "Adventure",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "May 1, 2026",
-      "achievements": {
-        "total": 55,
-        "unlocked": 7
       }
     },
     {
@@ -47106,7 +47106,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 980,
+        "total": 981,
         "unlocked": 0
       }
     },
@@ -58889,7 +58889,7 @@
       "hardwareSupport": [
         "Partial Controller Support"
       ],
-      "releaseDate": "6 Dec, 2022",
+      "releaseDate": "Dec 6, 2022",
       "achievements": {
         "total": 92,
         "unlocked": 0
