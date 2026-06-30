@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-29T10:52:46.586Z",
+  "fetchedAt": "2026-06-30T09:30:36.298Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1782725205
+    "lastLogoff": 1782806634
   },
   "games": [
     {
@@ -944,7 +944,7 @@
     {
       "appId": 200170,
       "name": "Worms Revolution",
-      "playtimeHours": 100.7,
+      "playtimeHours": 101.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/200170/15c154176bfa6bffabc7ebd31fd67de2485c6e1c.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200170/header.jpg?t=1758742851",
       "genres": [
@@ -962,7 +962,37 @@
       "releaseDate": "Oct 10, 2012",
       "achievements": {
         "total": 34,
-        "unlocked": 28
+        "unlocked": 32
+      }
+    },
+    {
+      "appId": 312530,
+      "name": "Duck Game",
+      "playtimeHours": 100.4,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/312530/d539148e7970b82733bfc78d595b41465fd09275.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312530/header.jpg?t=1719772984",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Shared/Split Screen PvP"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play on TV",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Jun 4, 2015",
+      "achievements": {
+        "total": 18,
+        "unlocked": 17
       }
     },
     {
@@ -1163,36 +1193,6 @@
       }
     },
     {
-      "appId": 312530,
-      "name": "Duck Game",
-      "playtimeHours": 84.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/312530/d539148e7970b82733bfc78d595b41465fd09275.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312530/header.jpg?t=1719772984",
-      "genres": [
-        "Action",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Shared/Split Screen PvP"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on Phone",
-        "Remote Play on Tablet",
-        "Remote Play on TV",
-        "Remote Play Together"
-      ],
-      "releaseDate": "Jun 4, 2015",
-      "achievements": {
-        "total": 18,
-        "unlocked": 17
-      }
-    },
-    {
       "appId": 1267910,
       "name": "Melvor Idle",
       "playtimeHours": 83.9,
@@ -1212,6 +1212,35 @@
       "achievements": {
         "total": 86,
         "unlocked": 23
+      }
+    },
+    {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 81,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 43
       }
     },
     {
@@ -1353,35 +1382,6 @@
       "achievements": {
         "total": 160,
         "unlocked": 34
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 74.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 41
       }
     },
     {
@@ -5334,10 +5334,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
-      "achievements": {
-        "total": 34,
-        "unlocked": 23
-      }
+      "achievements": null
     },
     {
       "appId": 1681430,
@@ -6306,6 +6303,30 @@
       }
     },
     {
+      "appId": 3892270,
+      "name": "Gamble With Your Friends",
+      "playtimeHours": 9.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3892270/620adde61e9a7003f375bb5979fadde34eafa9d6.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1782258835",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "May 1, 2026",
+      "achievements": {
+        "total": 55,
+        "unlocked": 25
+      }
+    },
+    {
       "appId": 238370,
       "name": "Magicka 2",
       "playtimeHours": 9.2,
@@ -6735,30 +6756,6 @@
       "achievements": {
         "total": 22,
         "unlocked": 22
-      }
-    },
-    {
-      "appId": 3892270,
-      "name": "Gamble With Your Friends",
-      "playtimeHours": 7.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3892270/620adde61e9a7003f375bb5979fadde34eafa9d6.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1782258835",
-      "genres": [
-        "Adventure",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "May 1, 2026",
-      "achievements": {
-        "total": 55,
-        "unlocked": 20
       }
     },
     {
@@ -74565,13 +74562,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4601230/header.jpg"
     },
     {
-      "appId": 4604090,
-      "dateAdded": 1777037418,
-      "priority": 0,
-      "name": "App 4604090",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4604090/header.jpg"
-    },
-    {
       "appId": 4606050,
       "dateAdded": 1780167113,
       "priority": 0,
@@ -74689,6 +74679,20 @@
       "priority": 0,
       "name": "Bang Bang Barrage",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3003460/header.jpg"
+    },
+    {
+      "appId": 3314580,
+      "dateAdded": 1782731000,
+      "priority": 0,
+      "name": "Trash Day",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3314580/header.jpg"
+    },
+    {
+      "appId": 2743290,
+      "dateAdded": 1782808443,
+      "priority": 0,
+      "name": "App 2743290",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2743290/header.jpg"
     }
   ]
 }
