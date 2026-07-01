@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-06-30T09:30:36.298Z",
+  "fetchedAt": "2026-07-01T09:43:23.545Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1782806634
+    "lastLogoff": 1782873312
   },
   "games": [
     {
@@ -36,7 +36,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2630.9,
+      "playtimeHours": 2637.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -865,6 +865,36 @@
       }
     },
     {
+      "appId": 312530,
+      "name": "Duck Game",
+      "playtimeHours": 112.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/312530/d539148e7970b82733bfc78d595b41465fd09275.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312530/header.jpg?t=1719772984",
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Shared/Split Screen PvP"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play on TV",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Jun 4, 2015",
+      "achievements": {
+        "total": 18,
+        "unlocked": 17
+      }
+    },
+    {
       "appId": 2666510,
       "name": "Rusty's Retirement",
       "playtimeHours": 112.1,
@@ -944,7 +974,7 @@
     {
       "appId": 200170,
       "name": "Worms Revolution",
-      "playtimeHours": 101.5,
+      "playtimeHours": 101.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/200170/15c154176bfa6bffabc7ebd31fd67de2485c6e1c.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200170/header.jpg?t=1758742851",
       "genres": [
@@ -963,36 +993,6 @@
       "achievements": {
         "total": 34,
         "unlocked": 32
-      }
-    },
-    {
-      "appId": 312530,
-      "name": "Duck Game",
-      "playtimeHours": 100.4,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/312530/d539148e7970b82733bfc78d595b41465fd09275.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312530/header.jpg?t=1719772984",
-      "genres": [
-        "Action",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Shared/Split Screen PvP"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on Phone",
-        "Remote Play on Tablet",
-        "Remote Play on TV",
-        "Remote Play Together"
-      ],
-      "releaseDate": "Jun 4, 2015",
-      "achievements": {
-        "total": 18,
-        "unlocked": 17
       }
     },
     {
@@ -1170,6 +1170,35 @@
       }
     },
     {
+      "appId": 1604030,
+      "name": "V Rising",
+      "playtimeHours": 87.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Partial Controller Support"
+      ],
+      "releaseDate": "May 8, 2024",
+      "achievements": {
+        "total": 49,
+        "unlocked": 46
+      }
+    },
+    {
       "appId": 1238860,
       "name": "Battlefield 4™ ",
       "playtimeHours": 87.5,
@@ -1212,35 +1241,6 @@
       "achievements": {
         "total": 86,
         "unlocked": 23
-      }
-    },
-    {
-      "appId": 1604030,
-      "name": "V Rising",
-      "playtimeHours": 81,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1604030/d18204000a839feb84393b3d860c17cd4a4b269c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/be49834ab147ad22ba17005fb847c93917d18b97/header.jpg?t=1773095397",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op"
-      ],
-      "hardwareSupport": [
-        "Partial Controller Support"
-      ],
-      "releaseDate": "May 8, 2024",
-      "achievements": {
-        "total": 49,
-        "unlocked": 43
       }
     },
     {
@@ -4700,6 +4700,21 @@
       }
     },
     {
+      "appId": 1097150,
+      "name": "Fall Guys",
+      "playtimeHours": 16.7,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1097150/6c027709b9eb1417c993bc7d513b97b232002368.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1097150/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "achievements": {
+        "total": 34,
+        "unlocked": 28
+      }
+    },
+    {
       "appId": 1225560,
       "name": "Unravel",
       "playtimeHours": 16.7,
@@ -5323,18 +5338,6 @@
         "total": 109,
         "unlocked": 33
       }
-    },
-    {
-      "appId": 1097150,
-      "name": "Fall Guys",
-      "playtimeHours": 14,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1097150/6c027709b9eb1417c993bc7d513b97b232002368.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1097150/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": null
     },
     {
       "appId": 1681430,
@@ -8257,7 +8260,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": {
-        "total": 163,
+        "total": 167,
         "unlocked": 0
       }
     },
@@ -42207,6 +42210,37 @@
       }
     },
     {
+      "appId": 780310,
+      "name": "The Riftbreaker",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/780310/628a2676cfb9adb61407c7c4ff63c350b3b8e6e5.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/780310/3f5251539a56b6a2ceb79d96657ce5bc2e09e8c5/header_alt_assets_6.jpg?t=1776772717",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV"
+      ],
+      "releaseDate": "Oct 14, 2021",
+      "achievements": {
+        "total": 54,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 780580,
       "name": "Lost in the Dungeon",
       "playtimeHours": 0,
@@ -51164,6 +51198,31 @@
       }
     },
     {
+      "appId": 1273400,
+      "name": "Construction Simulator",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1273400/e8d8dcccca84500b17912f4def1209d07700480c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1273400/header.jpg?t=1781177657",
+      "genres": [
+        "Casual",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 20, 2022",
+      "achievements": {
+        "total": 33,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1273560,
       "name": "DeathSprint 66",
       "playtimeHours": 0,
@@ -52603,6 +52662,27 @@
       "releaseDate": null,
       "achievements": {
         "total": 23,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1373960,
+      "name": "INDIKA",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1373960/3029a15f13070be45d00b1d49deffcf32d55678e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1373960/header.jpg?t=1765218123",
+      "genres": [
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "May 2, 2024",
+      "achievements": {
+        "total": 16,
         "unlocked": 0
       }
     },
@@ -55701,7 +55781,7 @@
       "name": "Nocturnal",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1634080/e1e2321cd4b6c89c46ab3ba0d59bd9523fc89c1c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634080/header.jpg?t=1782472796",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634080/d6906a04c502c2507ad67e2fb34ad901ab02a8f5/header.jpg?t=1782833654",
       "genres": [
         "Action",
         "Adventure"
@@ -56716,6 +56796,29 @@
       }
     },
     {
+      "appId": 1782460,
+      "name": "Hell Clock",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1782460/e04eb51612b353ffaf9ef0509c55352132396f4c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/c3310d934da14b8f013bc37f9fb94c114aaed3c3/header.jpg?t=1780936992",
+      "genres": [
+        "Action",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jul 22, 2025",
+      "achievements": {
+        "total": 71,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1793350,
       "name": "Blue Fire: Void Maker",
       "playtimeHours": 0,
@@ -57236,6 +57339,28 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
+    },
+    {
+      "appId": 1874000,
+      "name": "Life is Strange: Double Exposure",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1874000/c428ff3626c5896b2a0b1f441a04c0985c4d311a.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874000/header.jpg?t=1773408764",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Oct 29, 2024",
+      "achievements": {
+        "total": 34,
+        "unlocked": 0
+      }
     },
     {
       "appId": 1875830,
@@ -57762,6 +57887,27 @@
       "releaseDate": null,
       "achievements": {
         "total": 100,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 1971650,
+      "name": "OCTOPATH TRAVELER II",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1971650/7a90088ff3b521a0edcbd414fcd88361dd3d8b45.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971650/header.jpg?t=1781762559",
+      "genres": [
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Feb 24, 2023",
+      "achievements": {
+        "total": 33,
         "unlocked": 0
       }
     },
@@ -59511,6 +59657,29 @@
       }
     },
     {
+      "appId": 2442460,
+      "name": "Citizen Sleeper 2: Starward Vector",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2442460/38fc8d1f718da774916fbbe20022f2cf1945f805.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2442460/header.jpg?t=1782403325",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jan 31, 2025",
+      "achievements": {
+        "total": 30,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2475490,
       "name": "Mouthwashing",
       "playtimeHours": 0,
@@ -60647,6 +60816,27 @@
       "releaseDate": "May 14, 2025",
       "achievements": {
         "total": 37,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 3410180,
+      "name": "Overlooting",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3410180/f7193da1da8ce064c50f5e047111d7a7a3c11251.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410180/4ca029db0776cfe71a6dd1e57f68125ce59bd5ff/header_alt_assets_0.jpg?t=1771941661",
+      "genres": [
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Sep 1, 2025",
+      "achievements": {
+        "total": 32,
         "unlocked": 0
       }
     },
@@ -63803,13 +63993,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1119730/header.jpg"
     },
     {
-      "appId": 1120480,
-      "dateAdded": 1623352694,
-      "priority": 0,
-      "name": "The Anacrusis",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1120480/header.jpg"
-    },
-    {
       "appId": 1121140,
       "dateAdded": 1632064222,
       "priority": 0,
@@ -64732,13 +64915,6 @@
       "priority": 0,
       "name": "Space Chef",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1272290/header.jpg"
-    },
-    {
-      "appId": 1273400,
-      "dateAdded": 1661274545,
-      "priority": 0,
-      "name": "Construction Simulator",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1273400/header.jpg"
     },
     {
       "appId": 1275550,
@@ -67289,13 +67465,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/header.jpg"
     },
     {
-      "appId": 1782460,
-      "dateAdded": 1753218072,
-      "priority": 0,
-      "name": "Hell Clock",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1782460/header.jpg"
-    },
-    {
       "appId": 1783280,
       "dateAdded": 1645480935,
       "priority": 0,
@@ -68015,13 +68184,6 @@
       "priority": 0,
       "name": "Backpack Hero",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1970580/header.jpg"
-    },
-    {
-      "appId": 1971650,
-      "dateAdded": 1675567029,
-      "priority": 0,
-      "name": "OCTOPATH TRAVELER II",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1971650/header.jpg"
     },
     {
       "appId": 1975580,
