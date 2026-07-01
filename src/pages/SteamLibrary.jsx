@@ -5,15 +5,15 @@ import steamOverridesData from '../data/steam-overrides.json';
 import { useAdminStore } from '../stores/adminStore';
 
 const { gameOverrides } = steamOverridesData;
-import { useMediaQuery } from '../hooks/useMediaQuery';
 import SteamTabs from '../components/SteamTabs/SteamTabs';
 import SteamFilters from '../components/SteamFilters/SteamFilters';
-import SteamStats from '../components/SteamStats/SteamStats';
+import SteamOverview from '../components/SteamOverview/SteamOverview';
 import SteamGameDetail from '../components/SteamGameDetail/SteamGameDetail';
 import SteamReviews from '../components/SteamReviews/SteamReviews';
 import SteamTierList from '../components/SteamTierList/SteamTierList';
 import SteamWishlist from '../components/SteamWishlist/SteamWishlist';
 import SteamMilestones from '../components/SteamMilestones/SteamMilestones';
+import SteamAchievements from '../components/SteamAchievements/SteamAchievements';
 import SteamGameCover from '../components/SteamGameCover/SteamGameCover';
 import styles from './SteamLibrary.module.css';
 
@@ -68,9 +68,8 @@ function sortGames(list, sortBy) {
 
 export default function SteamLibrary() {
   const isAdmin = useAdminStore((s) => s.isAuthenticated);
-  const [activeTab, setActiveTab] = useState('library');
+  const [activeTab, setActiveTab] = useState('overview');
   const [selectedGame, setSelectedGame] = useState(null);
-  const [showStats, setShowStats] = useState(false);
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState('hours');
   const [page, setPage] = useState(1);
@@ -81,11 +80,6 @@ export default function SteamLibrary() {
 
   const gridRef = useRef(null);
   const [cols, setCols] = useState(3);
-  const isWide = useMediaQuery('(min-width: 1500px)');
-
-  useEffect(() => {
-    if (isWide) setShowStats(false);
-  }, [isWide]);
 
   useEffect(() => {
     const grid = gridRef.current;
@@ -154,6 +148,21 @@ export default function SteamLibrary() {
     >
       <SteamTabs activeTab={activeTab} onTabChange={handleTabChange} />
 
+      {activeTab === 'overview' && (
+        <motion.div
+          key="overview"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <SteamOverview
+            games={games}
+            profile={profile}
+            wishlist={wishlist || []}
+          />
+        </motion.div>
+      )}
+
       {activeTab === 'library' && (
         <motion.div
           className={styles.page}
@@ -171,14 +180,6 @@ export default function SteamLibrary() {
                   onSortChange={handleSortChange}
                   sortOptions={SORT_OPTIONS}
                 />
-                {!isWide && (
-                  <button
-                    className={styles.statsToggle}
-                    onClick={() => setShowStats(true)}
-                  >
-                    [STATS]
-                  </button>
-                )}
               </div>
 
               <div className={styles.grid} ref={gridRef}>
@@ -255,17 +256,17 @@ export default function SteamLibrary() {
               </motion.p>
             )}
           </div>
+        </motion.div>
+      )}
 
-          {isWide && (
-            <motion.aside
-              className={styles.sidebar}
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.3, delay: 0.1 }}
-            >
-              <SteamStats games={games} profile={profile} wishlistCount={wishlistCount} compact />
-            </motion.aside>
-          )}
+      {activeTab === 'achievements' && (
+        <motion.div
+          key="achievements"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <SteamAchievements games={games} />
         </motion.div>
       )}
 
@@ -312,43 +313,6 @@ export default function SteamLibrary() {
           <SteamMilestones games={games} wishlistCount={wishlistCount} />
         </motion.div>
       )}
-
-      <AnimatePresence>
-        {!isWide && showStats && activeTab === 'library' && (
-          <motion.div
-            key="backdrop"
-            className={styles.backdrop}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            onClick={() => setShowStats(false)}
-          />
-        )}
-        {!isWide && showStats && activeTab === 'library' && (
-          <motion.aside
-            key="overlay"
-            className={styles.overlay}
-            initial={{ x: '100%' }}
-            animate={{ x: 0 }}
-            exit={{ x: '100%' }}
-            transition={{ duration: 0.3, ease: 'easeInOut' }}
-          >
-            <div className={styles.overlayHeader}>
-              <span className={styles.overlayTitle}>STATS OVERVIEW</span>
-              <button
-                className={styles.overlayClose}
-                onClick={() => setShowStats(false)}
-              >
-                &#10005;
-              </button>
-            </div>
-            <div className={styles.overlayContent}>
-              <SteamStats games={games} profile={profile} wishlistCount={wishlistCount} compact />
-            </div>
-          </motion.aside>
-        )}
-      </AnimatePresence>
     </motion.div>
   );
 }

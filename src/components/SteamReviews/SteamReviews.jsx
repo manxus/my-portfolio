@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
-import { motion } from 'framer-motion';
+import { useCallback, useMemo, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import steamReviewsData from '../../data/steam-reviews.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
@@ -10,6 +10,8 @@ const { reviews } = steamReviewsData;
 
 const STEAM_CURATOR_URL =
   'https://store.steampowered.com/curator/33245545/';
+
+const REVIEWS_PER_PAGE = 10;
 
 const SORT_OPTIONS = [
   { key: 'date', label: 'Date (newest)' },
@@ -58,6 +60,9 @@ const stagger = {
 
 export default function SteamReviews({ games }) {
   const [sortBy, setSortBy] = useState('date');
+  const [search, setSearch] = useState('');
+  const [page, setPage] = useState(1);
+  const [expanded, setExpanded] = useState(() => new Set());
 
   const gameMap = useMemo(() => {
     const m = {};
@@ -74,9 +79,52 @@ export default function SteamReviews({ games }) {
     [gameMap],
   );
 
+  const handleSearchChange = useCallback((value) => {
+    setSearch(value);
+    setPage(1);
+    setExpanded(new Set());
+  }, []);
+
+  const handleSortChange = useCallback((key) => {
+    setSortBy(key);
+    setPage(1);
+    setExpanded(new Set());
+  }, []);
+
+  const handlePageChange = useCallback((next) => {
+    setPage(next);
+    setExpanded(new Set());
+  }, []);
+
+  const toggleExpanded = useCallback((key) => {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }, []);
+
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    if (!q) return reviews;
+    return reviews.filter((r) => {
+      const name = getGameName(r).toLowerCase();
+      const title = (r.title || '').toLowerCase();
+      return name.includes(q) || title.includes(q);
+    });
+  }, [search, getGameName]);
+
   const sorted = useMemo(
-    () => sortReviewRows(reviews, sortBy, getGameName),
-    [sortBy, getGameName],
+    () => sortReviewRows(filtered, sortBy, getGameName),
+    [filtered, sortBy, getGameName],
+  );
+
+  const totalPages = Math.max(1, Math.ceil(sorted.length / REVIEWS_PER_PAGE));
+  const safePage = Math.min(page, totalPages);
+  const pagedReviews = sorted.slice(
+    (safePage - 1) * REVIEWS_PER_PAGE,
+    safePage * REVIEWS_PER_PAGE,
   );
 
   if (reviews.length === 0) {
@@ -100,104 +148,176 @@ export default function SteamReviews({ games }) {
             STEAM CURATOR &#8599;
           </a>
           <SteamFilters
-            sortOnly
+            search={search}
+            onSearchChange={handleSearchChange}
             sortBy={sortBy}
-            onSortChange={setSortBy}
+            onSortChange={handleSortChange}
             sortOptions={SORT_OPTIONS}
           />
         </div>
-        <motion.div
-          className={styles.list}
-          variants={stagger}
-          initial="hidden"
-          animate="show"
-        >
-        {sorted.map((review) => {
-          const appId = Number(review.appId);
-          const game = gameMap[appId];
-          const pct = review.rating * 10;
-          const originalIndex = reviews.indexOf(review);
-          const displayName =
-            game?.name ?? review.gameName ?? `App ${appId}`;
 
-          return (
-            <motion.article
-              key={`${appId}-${review.date}-${originalIndex}`}
-              className={styles.card}
-              variants={fadeUp}
-            >
-              <SteamGameCover
-                appId={appId}
-                title={displayName}
-                headerUrl={game?.headerUrl}
-                useIconFallback={false}
-                alt={displayName}
-                rootClassName={styles.coverRoot}
-                imageClassName={styles.coverImage}
-              />
+        {sorted.length === 0 ? (
+          <p className={styles.empty}>No reviews match your search.</p>
+        ) : (
+          <motion.div
+            key={`${sortBy}-${search}-${safePage}`}
+            className={styles.list}
+            variants={stagger}
+            initial="hidden"
+            animate="show"
+          >
+            {pagedReviews.map((review) => {
+              const appId = Number(review.appId);
+              const game = gameMap[appId];
+              const pct = review.rating * 10;
+              const originalIndex = reviews.indexOf(review);
+              const displayName =
+                game?.name ?? review.gameName ?? `App ${appId}`;
+              const key = `${appId}-${review.date}-${originalIndex}`;
+              const isOpen = expanded.has(key);
 
-              <div className={styles.body}>
-                <div className={styles.header}>
-                  <div className={styles.titleRow}>
-                    <h3 className={styles.title}>
-                      {review.title}
-                      <EditableItemControls index={originalIndex} />
-                    </h3>
+              return (
+                <motion.article
+                  key={key}
+                  className={`${styles.card} ${isOpen ? styles.cardOpen : ''}`}
+                  variants={fadeUp}
+                >
+                  <div
+                    className={styles.summary}
+                    role="button"
+                    tabIndex={0}
+                    aria-expanded={isOpen}
+                    onClick={() => toggleExpanded(key)}
+                    onKeyDown={(e) => {
+                      if (e.target !== e.currentTarget) return;
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        toggleExpanded(key);
+                      }
+                    }}
+                  >
+                    <SteamGameCover
+                      appId={appId}
+                      title={displayName}
+                      headerUrl={game?.headerUrl}
+                      preferHeader
+                      useIconFallback={false}
+                      alt={displayName}
+                      rootClassName={styles.coverRoot}
+                      imageClassName={styles.coverImage}
+                    />
+
+                    <div className={styles.summaryBody}>
+                      <div className={styles.titleRow}>
+                        <h3 className={styles.title}>
+                          {displayName}
+                          <EditableItemControls index={originalIndex} />
+                        </h3>
+                        <span
+                          className={`${styles.badge} ${review.recommended ? styles.recommended : styles.notRecommended}`}
+                        >
+                          {review.recommended ? 'RECOMMENDED' : 'NOT RECOMMENDED'}
+                        </span>
+                      </div>
+
+                      <div className={styles.ratingRow}>
+                        <span className={styles.ratingValue}>
+                          {review.rating}/10
+                        </span>
+                        <div className={styles.ratingTrack}>
+                          <div
+                            className={styles.ratingFill}
+                            style={{ width: `${pct}%` }}
+                          />
+                        </div>
+                        <span className={styles.date}>{review.date}</span>
+                      </div>
+                    </div>
+
                     <span
-                      className={`${styles.badge} ${review.recommended ? styles.recommended : styles.notRecommended}`}
+                      className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`}
+                      aria-hidden="true"
                     >
-                      {review.recommended ? 'RECOMMENDED' : 'NOT RECOMMENDED'}
+                      &#9662;
                     </span>
                   </div>
-                  <div className={styles.meta}>
-                    <span className={styles.gameName}>{displayName}</span>
-                    <span className={styles.date}>{review.date}</span>
-                  </div>
-                </div>
 
-                <div className={styles.ratingRow}>
-                  <span className={styles.ratingValue}>
-                    {review.rating}/10
-                  </span>
-                  <div className={styles.ratingTrack}>
-                    <div
-                      className={styles.ratingFill}
-                      style={{ width: `${pct}%` }}
-                    />
-                  </div>
-                </div>
+                  <AnimatePresence initial={false}>
+                    {isOpen && (
+                      <motion.div
+                        className={styles.detail}
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.25, ease: 'easeInOut' }}
+                      >
+                        <div className={styles.detailInner}>
+                          <h4 className={styles.reviewTitle}>{review.title}</h4>
+                          <p className={styles.text}>{review.text}</p>
 
-                <p className={styles.text}>{review.text}</p>
-
-                {(review.pros?.length > 0 || review.cons?.length > 0) && (
-                  <div className={styles.proscons}>
-                    {review.pros?.length > 0 && (
-                      <div className={styles.column}>
-                        <span className={styles.columnLabel}>+ PROS</span>
-                        <ul className={styles.bulletList}>
-                          {review.pros.map((p, i) => (
-                            <li key={i}>{p}</li>
-                          ))}
-                        </ul>
-                      </div>
+                          {(review.pros?.length > 0 ||
+                            review.cons?.length > 0) && (
+                            <div className={styles.proscons}>
+                              {review.pros?.length > 0 && (
+                                <div className={styles.column}>
+                                  <span className={styles.columnLabel}>
+                                    + PROS
+                                  </span>
+                                  <ul className={styles.bulletList}>
+                                    {review.pros.map((p, i) => (
+                                      <li key={i}>{p}</li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
+                              {review.cons?.length > 0 && (
+                                <div className={styles.column}>
+                                  <span className={styles.columnLabel}>
+                                    - CONS
+                                  </span>
+                                  <ul className={styles.bulletList}>
+                                    {review.cons.map((c, i) => (
+                                      <li key={i}>{c}</li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      </motion.div>
                     )}
-                    {review.cons?.length > 0 && (
-                      <div className={styles.column}>
-                        <span className={styles.columnLabel}>- CONS</span>
-                        <ul className={styles.bulletList}>
-                          {review.cons.map((c, i) => (
-                            <li key={i}>{c}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-                )}
-              </div>
-            </motion.article>
-          );
-        })}
-        </motion.div>
+                  </AnimatePresence>
+                </motion.article>
+              );
+            })}
+          </motion.div>
+        )}
+
+        {totalPages > 1 && (
+          <div className={styles.pagination}>
+            <button
+              className={styles.pageBtn}
+              disabled={safePage <= 1}
+              onClick={() => handlePageChange(safePage - 1)}
+            >
+              &laquo; PREV
+            </button>
+            <span className={styles.pageInfo}>
+              PAGE {safePage} / {totalPages}
+              <span className={styles.pageCount}>
+                &nbsp;({sorted.length} reviews)
+              </span>
+            </span>
+            <button
+              className={styles.pageBtn}
+              disabled={safePage >= totalPages}
+              onClick={() => handlePageChange(safePage + 1)}
+            >
+              NEXT &raquo;
+            </button>
+          </div>
+        )}
       </div>
     </EditableSection>
   );

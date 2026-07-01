@@ -1,6 +1,32 @@
 {
   "changelog": [
     {
+      "version": "1.2.0",
+      "date": "2026-07-01",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Steam Library: Overview tab (new default) — a consolidated dashboard with profile stats, most-played chart, achievement completion, rarity distribution, and a full-year unlock-activity calendar where days are clickable for details and perfected-game days are highlighted in gold, plus at-a-glance Reviews, Wishlist, and Tier List summaries"
+        },
+        {
+          "type": "added",
+          "text": "Steam Library: Achievements tab with per-achievement detail (icons, descriptions, unlock dates, and global rarity); Showcase surfaces rarest and most recent unlocks and perfect games, and Browse explores any game's achievements sorted by rarity, unlock date, or locked state"
+        },
+        {
+          "type": "added",
+          "text": "Steam written reviews: search and pagination, with each review collapsed to a summary card that expands for the full write-up, pros, and cons"
+        },
+        {
+          "type": "changed",
+          "text": "Steam fetch script now stores full per-achievement data (schema and global rarity) for every game with at least one unlock"
+        },
+        {
+          "type": "changed",
+          "text": "Steam Library: the Library tab is now a clean game grid — profile and stats moved into the new Overview tab"
+        }
+      ]
+    },
+    {
       "version": "1.1.6",
       "date": "2026-06-23",
       "entries": [

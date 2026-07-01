@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import styles from './SteamGameCover.module.css';
 
 export function libraryCapsuleUrl(appId) {
@@ -9,6 +9,7 @@ export function libraryCapsuleUrl(appId) {
  * Library capsule → header → optional Steam community icon → text placeholder.
  * Icons are tiny; set useIconFallback={false} for large thumbs (e.g. reviews).
  * Set textFallbackOnly to skip header/icon and use the text tile when the capsule fails.
+ * Set preferHeader to lead with the horizontal header banner (falls back to the capsule).
  */
 export default function SteamGameCover({
   appId,
@@ -21,31 +22,38 @@ export default function SteamGameCover({
   useIconFallback = true,
   /** Only try the library capsule; on error show the text placeholder (no header/icon). */
   textFallbackOnly = false,
+  /** Lead with the horizontal header banner instead of the vertical capsule. */
+  preferHeader = false,
   rootClassName = '',
   imageClassName = '',
   alt = '',
 }) {
   const id = Number(appId);
-  const [phase, setPhase] = useState('library');
+
+  const sequence = useMemo(() => {
+    if (textFallbackOnly) return ['library', 'none'];
+    const seq = [];
+    if (preferHeader && headerUrl) {
+      seq.push('header', 'library');
+    } else {
+      seq.push('library');
+      if (headerUrl) seq.push('header');
+    }
+    if (useIconFallback && iconUrl) seq.push('icon');
+    seq.push('none');
+    return seq;
+  }, [textFallbackOnly, preferHeader, headerUrl, iconUrl, useIconFallback]);
+
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    setPhase('library');
-  }, [id, headerUrl, iconUrl, useIconFallback, textFallbackOnly]);
+    setIndex(0);
+  }, [id, headerUrl, iconUrl, useIconFallback, textFallbackOnly, preferHeader]);
+
+  const phase = sequence[Math.min(index, sequence.length - 1)];
 
   const advance = () => {
-    setPhase((p) => {
-      if (textFallbackOnly) return 'none';
-      if (p === 'library') {
-        if (headerUrl) return 'header';
-        if (useIconFallback && iconUrl) return 'icon';
-        return 'none';
-      }
-      if (p === 'header') {
-        if (useIconFallback && iconUrl) return 'icon';
-        return 'none';
-      }
-      return 'none';
-    });
+    setIndex((i) => Math.min(i + 1, sequence.length - 1));
   };
 
   const showImage =

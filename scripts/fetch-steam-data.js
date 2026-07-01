@@ -178,10 +178,71 @@ async function getAchievements(appId) {
     const data = await fetchJSON(url);
     const achievements = data.playerstats?.achievements || [];
     const unlocked = achievements.filter((a) => a.achieved === 1).length;
-    return { total: achievements.length, unlocked };
+    const player = achievements.map((a) => ({
+      apiName: a.apiname,
+      achieved: a.achieved === 1,
+      unlockTime: a.unlocktime || 0,
+    }));
+    return { total: achievements.length, unlocked, player };
   } catch {
     return null;
   }
+}
+
+/** Static per-achievement metadata (names, descriptions, icons). Rarely changes. */
+async function getAchievementSchema(appId) {
+  try {
+    const url = `${STEAM_API}/ISteamUserStats/GetSchemaForGame/v2/?key=${API_KEY}&appid=${appId}`;
+    const data = await fetchJSON(url);
+    const list = data.game?.availableGameStats?.achievements || [];
+    return list.map((a) => ({
+      apiName: a.name,
+      name: a.displayName || a.name,
+      description: a.description || '',
+      iconUrl: a.icon || '',
+      iconGrayUrl: a.icongray || '',
+      hidden: a.hidden === 1,
+    }));
+  } catch {
+    return [];
+  }
+}
+
+/** Global unlock rarity per achievement (percent of all owners who have it). Changes slowly. */
+async function getGlobalPercentages(appId) {
+  try {
+    const url = `${STEAM_API}/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v0002/?gameid=${appId}`;
+    const data = await fetchJSON(url);
+    const list = data.achievementpercentages?.achievements || [];
+    const map = {};
+    for (const a of list) {
+      map[a.name] = Number(a.percent) || 0;
+    }
+    return map;
+  } catch {
+    return {};
+  }
+}
+
+/** Merge player unlock state + static schema + global rarity into a display-ready item list. */
+function buildAchievementItems(player, schema, globalPct) {
+  if (!Array.isArray(schema) || schema.length === 0) return null;
+  const playerMap = {};
+  for (const p of player || []) playerMap[p.apiName] = p;
+  return schema.map((meta) => {
+    const p = playerMap[meta.apiName];
+    return {
+      apiName: meta.apiName,
+      name: meta.name,
+      description: meta.description,
+      iconUrl: meta.iconUrl,
+      iconGrayUrl: meta.iconGrayUrl,
+      hidden: meta.hidden,
+      unlocked: Boolean(p?.achieved),
+      unlockTime: p?.achieved ? p.unlockTime : 0,
+      globalPct: globalPct[meta.apiName] ?? null,
+    };
+  });
 }
 
 function normalizeWishlistResponse(data) {
@@ -353,8 +414,38 @@ async function main() {
     const game = games[i];
     const id = String(game.appId);
     const ach = await getAchievements(game.appId);
-    game.achievements = ach;
-    cache.games[id] = { ...cache.games[id], achievements: ach };
+
+    let items = null;
+    // Only pull full per-achievement detail for games where at least one
+    // achievement is unlocked (keeps JSON size manageable).
+    if (ach && ach.unlocked > 0) {
+      const prev = cache.games[id] || {};
+      // Schema + global rarity change rarely, so reuse cached copies when present.
+      const schema =
+        !FORCE && Array.isArray(prev.achSchema) && prev.achSchema.length > 0
+          ? prev.achSchema
+          : await getAchievementSchema(game.appId);
+      const globalPct =
+        !FORCE && prev.achGlobalPct && typeof prev.achGlobalPct === 'object'
+          ? prev.achGlobalPct
+          : await getGlobalPercentages(game.appId);
+      items = buildAchievementItems(ach.player, schema, globalPct);
+      cache.games[id] = {
+        ...cache.games[id],
+        achSchema: schema,
+        achGlobalPct: globalPct,
+      };
+    }
+
+    // Store aggregate counts plus the merged item list (when available).
+    // Drop the raw `player` array from the output to avoid duplication.
+    game.achievements = ach
+      ? { total: ach.total, unlocked: ach.unlocked, ...(items ? { items } : {}) }
+      : null;
+    cache.games[id] = {
+      ...cache.games[id],
+      achievements: { total: ach?.total ?? 0, unlocked: ach?.unlocked ?? 0 },
+    };
     if ((i + 1) % 200 === 0) console.log(`  ...achievements ${i + 1}/${games.length}`);
   });
 

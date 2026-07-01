@@ -6,7 +6,7 @@ const fadeUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.35 } },
 };
 
-export default function SteamStats({ games, profile, wishlistCount, compact, className }) {
+export default function SteamStats({ games, profile, compact, className }) {
   if (!games || games.length === 0) return null;
 
   const totalHours = games.reduce((sum, g) => sum + g.playtimeHours, 0);
@@ -43,7 +43,9 @@ export default function SteamStats({ games, profile, wishlistCount, compact, cla
     .join(' ');
 
   const Tag = compact ? 'div' : motion.div;
-  const tagProps = compact ? {} : { variants: fadeUp };
+  const tagProps = compact
+    ? {}
+    : { variants: fadeUp, initial: 'hidden', animate: 'show' };
 
   return (
     <Tag className={rootClass} {...tagProps}>
@@ -86,15 +88,9 @@ export default function SteamStats({ games, profile, wishlistCount, compact, cla
                 <span className={styles.profileStatValue}>{perfectGames}</span>
                 <span className={styles.profileStatLabel}>100%</span>
               </div>
-            </div>
-            <div className={styles.profileStatsRow}>
               <div className={styles.profileStat}>
                 <span className={styles.profileStatValue}>{games.length}</span>
                 <span className={styles.profileStatLabel}>GAMES</span>
-              </div>
-              <div className={styles.profileStat}>
-                <span className={styles.profileStatValue}>{wishlistCount}</span>
-                <span className={styles.profileStatLabel}>WISHLIST</span>
               </div>
             </div>
           </div>

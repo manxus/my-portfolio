@@ -7,10 +7,15 @@
 .sortBar {
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-bottom: 1rem;
+}
+
+/* SteamFilters (search + sort) fills the space next to the curator link. */
+.sortBar > div {
+  flex: 1;
+  min-width: 0;
 }
 
 .curatorLink {
@@ -42,7 +47,7 @@
 .list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .empty {
@@ -53,20 +58,43 @@
   padding: 3rem 1rem;
 }
 
-/* ---- Review card ---- */
+/* ---- Review card (collapsible) ---- */
 
 .card {
   display: flex;
-  gap: 1.25rem;
+  flex-direction: column;
   background: var(--bg-secondary);
   border: 1px solid rgba(95, 143, 143, 0.1);
-  padding: 1rem;
+  transition: border-color var(--transition-fast);
+}
+
+.cardOpen {
+  border-color: var(--accent-dim);
+}
+
+/* ---- Summary row (always visible, clickable) ---- */
+
+.summary {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.summary:hover {
+  background: var(--bg-hover);
 }
 
 .coverRoot {
   width: 130px;
-  aspect-ratio: 2 / 3;
-  align-self: flex-start;
+  aspect-ratio: 460 / 215;
+  align-self: center;
   flex-shrink: 0;
   border: 1px solid rgba(95, 143, 143, 0.1);
 }
@@ -75,20 +103,12 @@
   object-fit: cover;
 }
 
-.body {
+.summaryBody {
   flex: 1;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-}
-
-/* ---- Header ---- */
-
-.header {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.4rem;
 }
 
 .titleRow {
@@ -100,7 +120,7 @@
 
 .title {
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-primary);
   letter-spacing: 0.03em;
@@ -125,27 +145,7 @@
   border-color: var(--danger-dim);
 }
 
-.meta {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.gameName {
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
-  color: var(--accent);
-  letter-spacing: 0.06em;
-}
-
-.date {
-  font-family: var(--font-mono);
-  font-size: 0.55rem;
-  color: var(--text-dim);
-  letter-spacing: 0.06em;
-}
-
-/* ---- Rating ---- */
+/* ---- Rating (in summary row) ---- */
 
 .ratingRow {
   display: flex;
@@ -155,7 +155,7 @@
 
 .ratingValue {
   font-family: var(--font-heading);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--accent-bright);
   flex-shrink: 0;
@@ -175,6 +175,49 @@
   transition: width 0.6s ease-out;
 }
 
+.date {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.chevron {
+  flex-shrink: 0;
+  align-self: center;
+  color: var(--accent);
+  font-size: 0.7rem;
+  line-height: 1;
+  transition: transform var(--transition-fast);
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+/* ---- Collapsible detail ---- */
+
+.detail {
+  overflow: hidden;
+}
+
+.detailInner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 0.85rem 0.9rem 1rem;
+  border-top: 1px solid rgba(95, 143, 143, 0.1);
+}
+
+.reviewTitle {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+}
+
 /* ---- Text ---- */
 
 .text {
@@ -182,6 +225,7 @@
   font-size: 0.78rem;
   color: var(--text-secondary);
   line-height: 1.65;
+  white-space: pre-line;
 }
 
 /* ---- Pros / Cons ---- */
@@ -229,17 +273,78 @@
   color: var(--accent-dim);
 }
 
+/* ---- Pagination ---- */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0 0.25rem;
+}
+
+.pageBtn {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent-dim);
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.pageBtn:hover:not(:disabled) {
+  color: var(--text-primary);
+  border-color: var(--accent);
+  background: var(--bg-hover);
+}
+
+.pageBtn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.pageInfo {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+}
+
+.pageCount {
+  color: var(--text-dim);
+  opacity: 0.6;
+}
+
 @media (max-width: 768px) {
-  .card {
-    flex-direction: column;
+  .summary {
+    flex-wrap: wrap;
   }
 
   .coverRoot {
-    width: 100%;
-    aspect-ratio: 460 / 215;
+    width: 96px;
   }
 
   .proscons {
     gap: 1rem;
+  }
+
+  .pagination {
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .pageBtn {
+    font-size: 0.55rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .pageInfo {
+    font-size: 0.55rem;
   }
 }
