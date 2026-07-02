@@ -1,6 +1,24 @@
 {
   "changelog": [
     {
+      "version": "1.2.1",
+      "date": "2026-07-02",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Steam Library: Hall of Pain tab — a curated wall of framed brutal games with status badges (Conquered, Broke Me, Still Bleeding, Dreading It), optional notes, and a gallery-style presentation with gunmetal frames and gilded gold for conquered titles"
+        },
+        {
+          "type": "added",
+          "text": "Hall of Pain: games with 100% achievements are automatically shown as Conquered; incomplete entries render in grayscale until conquered; dev admin can add, edit, reorder, and remove entries"
+        },
+        {
+          "type": "added",
+          "text": "Steam written review: V Rising"
+        }
+      ]
+    },
+    {
       "version": "1.2.0",
       "date": "2026-07-01",
       "entries": [

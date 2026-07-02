@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "appId": 327890,
+      "status": "conquered",
+      "note": ""
+    },
+    {
+      "appId": 612880,
+      "status": "bleeding",
+      "note": ""
+    },
+    {
+      "appId": 40800,
+      "status": "bleeding",
+      "note": ""
+    },
+    {
+      "appId": 504230,
+      "status": "conquered",
+      "note": ""
+    },
+    {
+      "appId": 218620,
+      "status": "bleeding",
+      "note": ""
+    },
+    {
+      "appId": 250900,
+      "status": "bleeding",
+      "note": ""
+    },
+    {
+      "appId": 3191030,
+      "status": "bleeding",
+      "note": ""
+    },
+    {
+      "appId": 976730,
+      "status": "bleeding",
+      "note": ""
+    }
+  ]
+}

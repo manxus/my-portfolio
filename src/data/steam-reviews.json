@@ -445,6 +445,28 @@
         "Character abilities can be difficult to remember",
         "Occasional crashes"
       ]
+    },
+    {
+      "appId": 1604030,
+      "gameName": "V Rising",
+      "rating": 9,
+      "title": "A Brilliant Vampire Survival Experience",
+      "text": "V Rising is an outstanding survival crafting experience.\n\nThe combat feels fantastic from beginning to end. It's responsive, satisfying, and offers a huge amount of build variety through different weapons, spells, passives, and jewel modifications. Every V Blood boss feels unique and requires a different approach, making each victory rewarding. We played on Brutal difficulty, which was challenging without ever feeling unfair. Learning boss mechanics and improving over time made every encounter satisfying. It's also fun when roaming bosses unexpectedly run into each other and start fighting.\n\nCastle building is another standout feature. The building system is intuitive and easy to use, and I really enjoyed designing, decorating, and continuously expanding my castle. New crafting stations, decorations, and upgrades keep unlocking throughout the game, giving you plenty of reasons to keep improving your base.\n\nExploration is consistently rewarding. Every region has its own distinct atmosphere, enemies, resources, and bosses, so there's always something new to discover.\n\nProgression is excellent. Unlocking new abilities, crafting stations, and recipes through boss kills and research always feels meaningful. I expected the game to be much grindier than it actually was. Gathering resources can occasionally become a little repetitive, but it never felt excessive.\n\nI had previously played the game solo and never finished it, but this time I experienced it with two friends in PvE, which made the game even more enjoyable. We skipped PvP entirely, and for us that was the right choice.\n\nVisually, the game looks great. The gothic art style, music, and sound design all work together to create a fantastic vampire atmosphere. The gameplay is clearly the main focus rather than the story, and that's exactly where the game excels.\n\nThe game is quite long but never overstays its welcome because there's always another meaningful goal to work towards.\n\nPerformance was flawless during my playthrough. I didn't experience any bugs or technical issues.\n\nOverall, V Rising is an outstanding survival game with excellent combat, rewarding progression, satisfying base building, and a world that's genuinely fun to explore. Highly recommended.",
+      "date": "2026-07-02",
+      "recommended": true,
+      "pros": [
+        "Huge build variety with weapons and spells",
+        "Unique and memorable boss fights",
+        "Brutal difficulty is challenging but fair",
+        "Intuitive and satisfying castle building",
+        "Constantly rewarding progression",
+        "Large, varied world to explore",
+        "Great co-op experience"
+      ],
+      "cons": [
+        "Story and lore take a back seat to the gameplay",
+        "Resource gathering can become slightly repetitive at times"
+      ]
     }
   ]
 }

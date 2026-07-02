@@ -195,6 +195,18 @@ export const schemas = {
     { key: 'tiers', label: 'Tiers (S–F + Unplayed)', type: 'tiers' },
   ],
 
+  'steam-hallofpain.entries': [
+    { key: 'appId', label: 'Steam App ID', type: 'number', required: true },
+    {
+      key: 'status',
+      label: 'Status',
+      type: 'select',
+      options: ['conquered', 'brokeme', 'bleeding', 'dreading'],
+      required: true,
+    },
+    { key: 'note', label: 'Note', type: 'textarea' },
+  ],
+
   'media.galleryItems': [
     { key: 'id', label: 'ID', type: 'number', required: true },
     { key: 'type', label: 'Category', type: 'text', required: true },

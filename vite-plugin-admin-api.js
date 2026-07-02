@@ -43,7 +43,7 @@ function json(res, status, data) {
 const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides',
-  'media', 'livestream', 'credits', 'patchNotes',
+  'media', 'livestream', 'credits', 'patchNotes', 'steam-hallofpain',
 ]);
 
 export default function adminApiPlugin() {

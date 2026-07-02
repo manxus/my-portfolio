@@ -13,6 +13,7 @@ import SteamReviews from '../components/SteamReviews/SteamReviews';
 import SteamTierList from '../components/SteamTierList/SteamTierList';
 import SteamWishlist from '../components/SteamWishlist/SteamWishlist';
 import SteamMilestones from '../components/SteamMilestones/SteamMilestones';
+import SteamHallOfPain from '../components/SteamHallOfPain/SteamHallOfPain';
 import SteamAchievements from '../components/SteamAchievements/SteamAchievements';
 import SteamGameCover from '../components/SteamGameCover/SteamGameCover';
 import styles from './SteamLibrary.module.css';
@@ -311,6 +312,17 @@ export default function SteamLibrary() {
           transition={{ duration: 0.3 }}
         >
           <SteamMilestones games={games} wishlistCount={wishlistCount} />
+        </motion.div>
+      )}
+
+      {activeTab === 'hallofpain' && (
+        <motion.div
+          key="hallofpain"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <SteamHallOfPain games={games} />
         </motion.div>
       )}
     </motion.div>

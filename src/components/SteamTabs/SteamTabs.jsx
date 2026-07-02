@@ -8,6 +8,7 @@ const TABS = [
   { id: 'reviews', label: 'REVIEWS' },
   { id: 'tierlist', label: 'TIER LIST' },
   { id: 'milestones', label: 'MILESTONES' },
+  { id: 'hallofpain', label: 'HALL OF PAIN' },
 ];
 
 export default function SteamTabs({ activeTab, onTabChange }) {
