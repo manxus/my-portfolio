@@ -13,9 +13,13 @@ function WishlistCard({ item }) {
     >
       <SteamGameCover
         fill
+        variant="cover"
         appId={item.appId}
         title={item.name}
         headerUrl={item.headerUrl}
+        libraryCapsuleUrl={item.libraryCapsuleUrl}
+        libraryHeaderUrl={item.libraryHeaderUrl}
+        alt={item.name}
       />
     </a>
   );

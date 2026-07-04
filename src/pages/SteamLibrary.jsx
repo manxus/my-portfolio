@@ -197,9 +197,12 @@ export default function SteamLibrary() {
                   >
                     <SteamGameCover
                       fill
+                      variant="cover"
                       appId={game.appId}
                       title={game.name}
                       headerUrl={game.headerUrl}
+                      libraryCapsuleUrl={game.libraryCapsuleUrl}
+                      libraryHeaderUrl={game.libraryHeaderUrl}
                       iconUrl={game.iconUrl}
                       alt={game.name}
                       rootClassName={styles.gameCoverRoot}

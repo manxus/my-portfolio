@@ -34,6 +34,9 @@ if (!API_KEY || !STEAM_ID) {
 
 const STEAM_API = 'https://api.steampowered.com';
 const STORE_API = 'https://store.steampowered.com/api';
+const STEAMCMD_API = 'https://api.steamcmd.net/v1/info';
+const ASSET_CDN =
+  'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps';
 
 const POOL_SIZE = 5;
 const POOL_DELAY_MS = 250;
@@ -170,6 +173,42 @@ async function getAppDetails(appId) {
       headerImage: null,
     };
   }
+}
+
+function pickLibraryAssetPath(node) {
+  if (!node) return null;
+  return node.image2x?.english || node.image?.english || null;
+}
+
+/** Portrait grid + library header art from Steam product info (matches the Steam client). */
+async function getLibraryAssets(appId) {
+  try {
+    const data = await fetchJSON(`${STEAMCMD_API}/${appId}`);
+    const full = data?.data?.[String(appId)]?.common?.library_assets_full;
+    const capsulePath = pickLibraryAssetPath(full?.library_capsule);
+    const headerPath = pickLibraryAssetPath(full?.library_header);
+    return {
+      libraryCapsuleUrl: capsulePath
+        ? `${ASSET_CDN}/${appId}/${capsulePath}`
+        : null,
+      libraryHeaderUrl: headerPath
+        ? `${ASSET_CDN}/${appId}/${headerPath}`
+        : null,
+    };
+  } catch {
+    return { libraryCapsuleUrl: null, libraryHeaderUrl: null };
+  }
+}
+
+async function attachLibraryAssets(game, cacheEntry, force) {
+  if (!force && cacheEntry?.libraryCapsuleUrl) {
+    game.libraryCapsuleUrl = cacheEntry.libraryCapsuleUrl;
+    game.libraryHeaderUrl = cacheEntry.libraryHeaderUrl ?? null;
+    return;
+  }
+  const assets = await getLibraryAssets(game.appId);
+  if (assets.libraryCapsuleUrl) game.libraryCapsuleUrl = assets.libraryCapsuleUrl;
+  if (assets.libraryHeaderUrl) game.libraryHeaderUrl = assets.libraryHeaderUrl;
 }
 
 async function getAchievements(appId) {
@@ -336,15 +375,24 @@ async function mainWishlistOnly() {
   const cache = loadCache();
   const nameLookup = await resolveAppNameLookup(cache);
   const wishlistRows = await getWishlistRaw();
-  const wishlist = wishlistRows.map((w) => {
+  const wishlist = [];
+  console.log(`Fetching wishlist library art (${wishlistRows.length} items)...`);
+  await runPool(wishlistRows.length, POOL_SIZE, async (i) => {
+    const w = wishlistRows[i];
     const name = nameLookup.get(w.appId) || `App ${w.appId}`;
-    return {
+    const entry = {
       appId: w.appId,
       dateAdded: w.dateAdded,
       priority: w.priority,
       name,
       headerUrl: `https://cdn.cloudflare.steamstatic.com/steam/apps/${w.appId}/header.jpg`,
     };
+    const d = await getAppDetails(w.appId);
+    if (d.headerImage) entry.headerUrl = d.headerImage;
+    const assets = await getLibraryAssets(w.appId);
+    if (assets.libraryCapsuleUrl) entry.libraryCapsuleUrl = assets.libraryCapsuleUrl;
+    if (assets.libraryHeaderUrl) entry.libraryHeaderUrl = assets.libraryHeaderUrl;
+    wishlist[i] = entry;
   });
   console.log(`Wishlist: ${wishlist.length} items`);
 
@@ -406,6 +454,12 @@ async function main() {
         headerUrl: game.headerUrl,
       };
     }
+    await attachLibraryAssets(game, cache.games[id], FORCE);
+    cache.games[id] = {
+      ...cache.games[id],
+      libraryCapsuleUrl: game.libraryCapsuleUrl ?? null,
+      libraryHeaderUrl: game.libraryHeaderUrl ?? null,
+    };
     if ((i + 1) % 200 === 0) console.log(`  ...details ${i + 1}/${games.length}`);
   });
 
@@ -452,16 +506,24 @@ async function main() {
   const nameLookup = await resolveAppNameLookup(cache);
 
   const wishlistRows = await getWishlistRaw();
-
-  const wishlist = wishlistRows.map((w) => {
+  const wishlist = [];
+  console.log(`Fetching wishlist library art (${wishlistRows.length} items)...`);
+  await runPool(wishlistRows.length, POOL_SIZE, async (i) => {
+    const w = wishlistRows[i];
     const name = nameLookup.get(w.appId) || `App ${w.appId}`;
-    return {
+    const entry = {
       appId: w.appId,
       dateAdded: w.dateAdded,
       priority: w.priority,
       name,
       headerUrl: `https://cdn.cloudflare.steamstatic.com/steam/apps/${w.appId}/header.jpg`,
     };
+    const d = await getAppDetails(w.appId);
+    if (d.headerImage) entry.headerUrl = d.headerImage;
+    const assets = await getLibraryAssets(w.appId);
+    if (assets.libraryCapsuleUrl) entry.libraryCapsuleUrl = assets.libraryCapsuleUrl;
+    if (assets.libraryHeaderUrl) entry.libraryHeaderUrl = assets.libraryHeaderUrl;
+    wishlist[i] = entry;
   });
   console.log(`Wishlist: ${wishlist.length} items`);
 

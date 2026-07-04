@@ -2,6 +2,7 @@ import { useState, createContext, useContext } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { useAdminStore } from '../stores/adminStore';
 import { schemas } from './schemas';
+import { applyAutoId } from './autoId';
 import ContentEditor from './ContentEditor';
 import styles from './EditableSection.module.css';
 
@@ -81,10 +82,11 @@ export default function EditableSection({
     const items = fileData[dataKey];
 
     if (Array.isArray(items)) {
+      const payload = applyAutoId(schema, formData, items, editState.mode);
       if (editState.mode === 'add') {
-        items.push(formData);
+        items.push(payload);
       } else {
-        items[editState.index] = formData;
+        items[editState.index] = payload;
       }
       await saveData(collection, { ...fileData, [dataKey]: items });
     } else {

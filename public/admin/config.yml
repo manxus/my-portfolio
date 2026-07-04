@@ -84,6 +84,14 @@ collections:
         file: src/data/livestream.json
         fields:
           - { label: Twitch channel, name: twitchChannel, widget: string }
+          - { label: Timezone note, name: timezone, widget: string, required: false }
+          - { label: Schedule note, name: scheduleNote, widget: text }
+          - label: About
+            name: about
+            widget: object
+            fields:
+              - { label: Intro, name: intro, widget: text }
+              - { label: QA streams note, name: qaStreamsNote, widget: text }
           - label: Schedule
             name: schedule
             widget: list
@@ -92,6 +100,63 @@ collections:
               - { label: Day, name: day, widget: string }
               - { label: Time, name: time, widget: string }
               - { label: Game, name: game, widget: string }
+          - label: Highlights
+            name: highlights
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: number }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text, required: false }
+              - { label: Thumbnail URL, name: thumbnail, widget: string, required: false }
+              - { label: Video URL, name: videoUrl, widget: string, required: false }
+          - label: Stream loadout
+            name: streamLoadout
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - { label: Value, name: value, widget: string }
+              - { label: Link URL, name: url, widget: string, required: false }
+          - label: Chat rules
+            name: chatRules
+            widget: list
+            summary: "{{fields.text}}"
+            fields:
+              - { label: Rule, name: text, widget: string }
+          - label: Chat commands
+            name: chatCommands
+            widget: list
+            summary: "{{fields.command}}"
+            fields:
+              - { label: Command, name: command, widget: string }
+              - { label: Description, name: description, widget: string }
+
+      - label: Music
+        name: music
+        file: src/data/music.json
+        fields:
+          - label: Favorites
+            name: favorites
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: number }
+              - label: Kind
+                name: kind
+                widget: select
+                options: [Album, Artist]
+              - { label: Title, name: title, widget: string }
+              - { label: Artist, name: artist, widget: string, required: false }
+              - { label: Show in favorite albums, name: featured, widget: boolean, required: false }
+              - label: Physical copy
+                name: physicalFormat
+                widget: select
+                options: [Vinyl, CD, Cassette]
+                required: false
+              - { label: Description, name: description, widget: text, required: false }
+              - { label: Cover URL, name: coverUrl, widget: string, required: false }
+              - { label: Listen URL, name: listenUrl, widget: string, required: false }
 
       - label: Credits
         name: credits

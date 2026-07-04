@@ -1,0 +1,97 @@
+{
+  "favorites": [
+    {
+      "id": 1,
+      "kind": "Album",
+      "featured": true,
+      "title": "Meteora",
+      "artist": "Linkin Park",
+      "physicalFormat": "",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/album/0f7R0jf0pcTb6K6IVVPcMD?si=wQ98zZX3QHOLguicYbA19g"
+    },
+    {
+      "id": 2,
+      "kind": "Artist",
+      "title": "Linkin Park",
+      "artist": "",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz?si=X8W9H3-ST5mHQjPmMZgCCw"
+    },
+    {
+      "id": 3,
+      "kind": "Album",
+      "featured": true,
+      "title": "Hybrid Theory",
+      "artist": "Linkin Park",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/album/6hPkbAV3ZXpGZBGUvL6jVM?si=GMVLUiP_SIeedtiCNyZ3pQ"
+    },
+    {
+      "id": 4,
+      "kind": "Album",
+      "featured": true,
+      "title": "Minutes to Midnight",
+      "artist": "Linkin Park",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/album/7pgs38iLfEqUtwgCRgvbND?si=mw4RdcDBSQiA09gGyz9qMQ"
+    },
+    {
+      "id": 5,
+      "kind": "Artist",
+      "title": "bbno$",
+      "artist": "",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/artist/41X1TR6hrK8Q2ZCpp2EqCz?si=PEiLkrwESSWX7r-TygnKQA"
+    },
+    {
+      "id": 6,
+      "kind": "Album",
+      "featured": true,
+      "title": "bbno$",
+      "artist": "bbno$",
+      "physicalFormat": "Vinyl",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/album/6NnOcPG7uLUSpJTS83Ra1T?si=cZGvnYOsQ4yRDxLLTGMIGA"
+    },
+    {
+      "id": 7,
+      "kind": "Album",
+      "title": "recess",
+      "artist": "bbno$",
+      "featured": false,
+      "physicalFormat": "Vinyl",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/album/2i2J6QneO1x319QCJLkTBa?si=FASP4jZrSF6-5mVkn1KBXw"
+    },
+    {
+      "kind": "Album",
+      "title": "good luck have fun",
+      "artist": "bbno$",
+      "featured": false,
+      "physicalFormat": "CD",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/album/2lPZd7UZV4ALfjLu7dUpAP?si=exbIDefCSPW6Ju99p3xuOQ",
+      "id": 8
+    },
+    {
+      "kind": "Album",
+      "title": "bad or die",
+      "artist": "bbno$",
+      "featured": false,
+      "physicalFormat": "CD",
+      "description": "",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/album/4oGLasNzQCSK6V3A8ssVKY?si=KZpey0hARwePj-P-EWSLIQ",
+      "id": 9
+    }
+  ]
+}

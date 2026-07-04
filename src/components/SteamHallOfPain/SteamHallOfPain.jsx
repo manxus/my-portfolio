@@ -101,9 +101,12 @@ export default function SteamHallOfPain({ games }) {
                   <div className={styles.cover}>
                     <SteamGameCover
                       fill
+                      variant="cover"
                       appId={entry.appId}
                       title={name}
                       headerUrl={game?.headerUrl}
+                      libraryCapsuleUrl={game?.libraryCapsuleUrl}
+                      libraryHeaderUrl={game?.libraryHeaderUrl}
                       iconUrl={game?.iconUrl}
                       alt={name}
                       rootClassName={styles.coverRoot}

@@ -87,6 +87,27 @@
   font-size: 1.1rem;
 }
 
+.tierDesc {
+  width: 118px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.45rem;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--text-dim);
+  background: rgba(0, 0, 0, 0.12);
+  border-right: 1px solid rgba(95, 143, 143, 0.1);
+}
+
+.tierDesc[data-tier='S'] { color: var(--accent-bright); opacity: 0.9; }
+.tierDesc[data-tier='A'] { color: var(--accent); opacity: 0.9; }
+.tierDesc[data-tier='F'] { color: var(--danger); opacity: 0.85; }
+
 .tierGames {
   flex: 1;
   display: flex;
@@ -155,6 +176,12 @@
   .tierLabel {
     width: 36px;
     font-size: 1rem;
+  }
+
+  .tierDesc {
+    width: 72px;
+    font-size: 0.5rem;
+    padding: 0.3rem 0.35rem;
   }
 
   .gameThumb {

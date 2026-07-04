@@ -1,9 +1,3 @@
-/* Breathing room between review cards and the page scroll track (desktop inline shell). */
-.scrollGutter {
-  padding-right: 0.85rem;
-  box-sizing: border-box;
-}
-
 .sortBar {
   display: flex;
   align-items: stretch;

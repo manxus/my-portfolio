@@ -467,6 +467,26 @@
         "Story and lore take a back seat to the gameplay",
         "Resource gathering can become slightly repetitive at times"
       ]
+    },
+    {
+      "appId": 3633450,
+      "gameName": "Fingerdance",
+      "rating": 7,
+      "title": "A Surprisingly Challenging Test of Finger Coordination",
+      "text": "Fingerdance is a fun and unique rhythm game that challenged my coordination far more than I expected.\n\nThe concept is simple: assign one key to each finger and hit the correct notes as they appear. It took me a while to find a comfortable keybind layout, but once I did, the controls felt responsive and satisfying. Most of the difficulty came from getting my brain and fingers to communicate properly rather than from the game itself.\n\nThe difficulty is well balanced throughout the levels. It can be challenging at times, but it always felt fair and rewarding as I improved.\n\nThe presentation is clean and minimal, which fits the game perfectly. The UI is easy to read, and the notes are clear and easy to follow.\n\nThe game is quite short, only taking a couple of hours to complete. Because of that, it never overstays its welcome or becomes repetitive. However, I don't see much replay value, and I found myself needing regular breaks since the gameplay can be surprisingly mentally demanding.\n\nOverall, I'd recommend Fingerdance if you're looking for a short, unique rhythm game. It's a fun experience, although I think the price could be slightly lower considering the limited amount of content.",
+      "date": "2026-07-02",
+      "recommended": true,
+      "pros": [
+        "Unique gameplay concept",
+        "Responsive controls",
+        "Balanced difficulty",
+        "Clean, readable UI"
+      ],
+      "cons": [
+        "Very limited amount of content",
+        "Little replay value",
+        "Best played in short sessions due to the mental strain"
+      ]
     }
   ]
 }

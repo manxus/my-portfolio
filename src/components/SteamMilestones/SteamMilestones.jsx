@@ -1,4 +1,5 @@
 import { useMemo } from 'react';
+import { motion } from 'framer-motion';
 import styles from './SteamMilestones.module.css';
 
 function buildMetrics(games, wishlistCount) {
@@ -136,6 +137,21 @@ const SECTION_DEFINITIONS = [
   },
 ];
 
+const THRESHOLD_UNITS = {
+  library: (t) => `${t.toLocaleString()} games`,
+  hours: (t) => `${t.toLocaleString()} hrs`,
+  single: (t) => `${t.toLocaleString()} hrs`,
+  perfect: (t) => `${t.toLocaleString()} titles`,
+  achievements: (t) => `${t.toLocaleString()} unlocks`,
+  wishlist: (t) => `${t.toLocaleString()} games`,
+};
+
+const STATE_CLASS = {
+  complete: 'milestoneComplete',
+  next: 'milestoneNext',
+  future: 'milestoneFuture',
+};
+
 function fmtCount(n) {
   return Math.round(n).toLocaleString();
 }
@@ -144,30 +160,33 @@ function fmtHoursOneDecimal(n) {
   return n.toLocaleString(undefined, { maximumFractionDigits: 1 });
 }
 
-/** Short caption under each card (no repeating totals like “247 games” on completed tiers). */
-function milestoneCaption(sectionId, current, threshold, complete, metrics) {
+function thresholdBadge(sectionId, threshold) {
+  const fmt = THRESHOLD_UNITS[sectionId];
+  return fmt ? fmt(threshold) : threshold.toLocaleString();
+}
+
+function milestoneCaptionParts(
+  sectionId,
+  current,
+  threshold,
+  complete,
+  metrics,
+) {
   const thr = threshold.toLocaleString();
 
   if (complete) {
-    return `${thr}/${thr}`;
+    return { primary: `${thr}/${thr}`, secondary: null };
   }
 
-  switch (sectionId) {
-    case 'library':
-      return `${fmtCount(current)}/${thr}`;
-    case 'hours':
-      return `${fmtCount(current)}/${thr}`;
-    case 'single':
-      return `${fmtHoursOneDecimal(current)}/${thr} · ${metrics.topGameName}`;
-    case 'perfect':
-      return `${fmtCount(current)}/${thr}`;
-    case 'achievements':
-      return `${fmtCount(current)}/${thr}`;
-    case 'wishlist':
-      return `${fmtCount(current)}/${thr}`;
-    default:
-      return `${fmtCount(current)}/${thr}`;
-  }
+  const useDecimal =
+    sectionId === 'hours' || sectionId === 'single';
+  const primary = useDecimal
+    ? `${fmtHoursOneDecimal(current)}/${thr}`
+    : `${fmtCount(current)}/${thr}`;
+  const secondary =
+    sectionId === 'single' ? metrics.topGameName : null;
+
+  return { primary, secondary };
 }
 
 /** Verbose description for accessibility / progress hints. */
@@ -211,6 +230,16 @@ function milestoneAriaLabel(sectionId, current, threshold, complete, metrics) {
   }
 }
 
+function assignMilestoneStates(milestones) {
+  const firstIncompleteIdx = milestones.findIndex((m) => !m.complete);
+
+  return milestones.map((m, idx) => {
+    if (m.complete) return { ...m, state: 'complete' };
+    if (idx === firstIncompleteIdx) return { ...m, state: 'next' };
+    return { ...m, state: 'future' };
+  });
+}
+
 function buildSections(metrics) {
   return SECTION_DEFINITIONS.map((section) => {
     const current = section.getValue(metrics);
@@ -226,8 +255,10 @@ function buildSections(metrics) {
         threshold: def.threshold,
         complete,
         pct,
+        pctLabel: complete ? '100%' : `${Math.round(pct)}%`,
         valueNow: Math.min(def.threshold, current),
-        caption: milestoneCaption(
+        thresholdBadge: thresholdBadge(section.sectionId, def.threshold),
+        captionParts: milestoneCaptionParts(
           section.sectionId,
           current,
           def.threshold,
@@ -248,7 +279,7 @@ function buildSections(metrics) {
       sectionId: section.sectionId,
       heading: section.heading,
       hint: section.hint,
-      milestones,
+      milestones: assignMilestoneStates(milestones),
     };
   });
 }
@@ -272,11 +303,14 @@ export default function SteamMilestones({ games, wishlistCount }) {
 
   return (
     <div className={styles.wrapper}>
-      {sections.map((section) => (
-        <section
+      {sections.map((section, sectionIdx) => (
+        <motion.section
           key={section.sectionId}
           className={styles.block}
           aria-labelledby={`sec-${section.sectionId}`}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: sectionIdx * 0.05 }}
         >
           <div className={styles.blockHead}>
             <h2 id={`sec-${section.sectionId}`} className={styles.blockTitle}>
@@ -287,8 +321,18 @@ export default function SteamMilestones({ games, wishlistCount }) {
             )}
           </div>
           <ul className={styles.milestoneList}>
-            {section.milestones.map((m) => (
-              <li key={m.key} className={styles.milestone}>
+            {section.milestones.map((m, i) => (
+              <motion.li
+                key={m.key}
+                className={`${styles.milestone} ${styles[STATE_CLASS[m.state]]}`}
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  duration: 0.3,
+                  delay: sectionIdx * 0.05 + Math.min(i, 12) * 0.03,
+                }}
+              >
+                <span className={styles.thresholdBadge}>{m.thresholdBadge}</span>
                 <div className={styles.milestoneTop}>
                   <p className={styles.milestoneTitle}>{m.title}</p>
                   {m.complete && (
@@ -301,31 +345,43 @@ export default function SteamMilestones({ games, wishlistCount }) {
                     </span>
                   )}
                 </div>
-                {!m.complete && (
-                  <>
-                    <p className={styles.progressCaption}>{m.caption}</p>
-                    <div
-                      className={styles.progressTrack}
-                      role="progressbar"
-                      aria-valuemin={0}
-                      aria-valuemax={m.threshold}
-                      aria-valuenow={Math.round(m.valueNow)}
-                      aria-label={m.ariaLabel}
+                <div className={styles.captionBlock}>
+                  <p
+                    className={
+                      m.complete ? styles.doneCaption : styles.progressCaption
+                    }
+                  >
+                    {m.captionParts.primary}
+                  </p>
+                  {m.captionParts.secondary && (
+                    <p
+                      className={styles.captionGame}
+                      title={m.captionParts.secondary}
                     >
-                      <div
-                        className={styles.progressFill}
-                        style={{ width: `${m.pct}%` }}
-                      />
-                    </div>
-                  </>
-                )}
-                {m.complete && (
-                  <p className={styles.doneCaption}>{m.caption}</p>
-                )}
-              </li>
+                      {m.captionParts.secondary}
+                    </p>
+                  )}
+                </div>
+                <div className={styles.progressRow}>
+                  <div
+                    className={styles.progressTrack}
+                    role="progressbar"
+                    aria-valuemin={0}
+                    aria-valuemax={m.threshold}
+                    aria-valuenow={Math.round(m.valueNow)}
+                    aria-label={m.ariaLabel}
+                  >
+                    <div
+                      className={styles.progressFill}
+                      style={{ width: `${m.pct}%` }}
+                    />
+                  </div>
+                  <span className={styles.pctLabel}>{m.pctLabel}</span>
+                </div>
+              </motion.li>
             ))}
           </ul>
-        </section>
+        </motion.section>
       ))}
     </div>
   );

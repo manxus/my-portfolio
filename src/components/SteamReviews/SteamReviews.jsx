@@ -129,15 +129,13 @@ export default function SteamReviews({ games }) {
 
   if (reviews.length === 0) {
     return (
-      <div className={styles.scrollGutter}>
-        <p className={styles.empty}>No reviews yet. Check back soon.</p>
-      </div>
+      <p className={styles.empty}>No reviews yet. Check back soon.</p>
     );
   }
 
   return (
     <EditableSection collection="steam-reviews" dataKey="reviews">
-      <div className={styles.scrollGutter}>
+      <>
         <div className={styles.sortBar}>
           <a
             href={STEAM_CURATOR_URL}
@@ -197,11 +195,13 @@ export default function SteamReviews({ games }) {
                     }}
                   >
                     <SteamGameCover
+                      variant="banner"
                       appId={appId}
                       title={displayName}
                       headerUrl={game?.headerUrl}
-                      preferHeader
-                      useIconFallback={false}
+                      libraryCapsuleUrl={game?.libraryCapsuleUrl}
+                      libraryHeaderUrl={game?.libraryHeaderUrl}
+                      iconUrl={game?.iconUrl}
                       alt={displayName}
                       rootClassName={styles.coverRoot}
                       imageClassName={styles.coverImage}
@@ -318,7 +318,7 @@ export default function SteamReviews({ games }) {
             </button>
           </div>
         )}
-      </div>
+      </>
     </EditableSection>
   );
 }

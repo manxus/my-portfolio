@@ -1,6 +1,48 @@
 {
   "changelog": [
     {
+      "version": "1.3.0",
+      "date": "2026-07-04",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Livestream page expansion — about blurb, Follow on Twitch CTA, collapsible mobile chat, stream highlights gallery (YouTube, Twitch clips, and Twitch videos) with auto-fetched thumbnails, stream loadout, and chat rules/commands sections"
+        },
+        {
+          "type": "added",
+          "text": "Livestream: flexible “When I Stream” note replaces the fixed weekly schedule; optional schedule slots still supported via CMS if you add them later"
+        },
+        {
+          "type": "added",
+          "text": "Music page — favorite albums and artists with Spotify listen links and auto-resolved cover art when no custom image is set"
+        },
+        {
+          "type": "added",
+          "text": "Steam Library: client-side library capsule art lookup (SteamCMD product info) for sharper grid covers, with legacy CDN fallbacks"
+        },
+        {
+          "type": "added",
+          "text": "Steam written review: Fingerdance"
+        },
+        {
+          "type": "added",
+          "text": "Hall of Pain and tier list data updates"
+        },
+        {
+          "type": "changed",
+          "text": "Steam Milestones tab — refreshed milestone cards, progress styling, and next-up highlighting"
+        },
+        {
+          "type": "changed",
+          "text": "Steam fetch script extended for additional library metadata used by cover art and milestones"
+        },
+        {
+          "type": "changed",
+          "text": "Decap CMS and dev admin schemas updated for livestream, music, and related content fields"
+        }
+      ]
+    },
+    {
       "version": "1.2.1",
       "date": "2026-07-02",
       "entries": [

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import styles from './SteamGameDetail.module.css';
 
 export default function SteamGameDetail({ game, onClose, style }) {
@@ -22,10 +23,16 @@ export default function SteamGameDetail({ game, onClose, style }) {
       style={{ overflow: 'hidden', ...style }}
     >
       <div className={styles.inner}>
-        <img
-          src={game.headerUrl}
+        <SteamGameCover
+          variant="banner"
+          appId={game.appId}
+          title={game.name}
+          headerUrl={game.headerUrl}
+          libraryHeaderUrl={game.libraryHeaderUrl}
+          iconUrl={game.iconUrl}
           alt={game.name}
-          className={styles.banner}
+          rootClassName={styles.banner}
+          imageClassName={styles.bannerImage}
         />
 
         <div className={styles.body}>

@@ -59,7 +59,13 @@
           "id": "livestream",
           "label": "LIVESTREAM",
           "path": "/livestream",
-          "description": "Twitch stream with live chat and schedule."
+          "description": "Twitch stream with live chat and highlights."
+        },
+        {
+          "id": "music",
+          "label": "MUSIC",
+          "path": "/music",
+          "description": "Albums and artists I keep on repeat."
         }
       ]
     },

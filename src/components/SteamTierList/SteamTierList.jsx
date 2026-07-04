@@ -14,6 +14,18 @@ const DND_PAYLOAD_TYPE = 'application/x-steam-tier-dnd';
 
 const tierLabelText = (tier) => (tier === 'unplayed' ? '?' : tier);
 
+const TIER_HINTS = {
+  S: 'Favorites in this category',
+  A: 'Excellent',
+  B: 'Solid and enjoyable',
+  C: 'Mediocre',
+  D: 'Weak',
+  F: "Didn't enjoy",
+  unplayed: 'Owned but not ranked yet',
+};
+
+const tierHintTitle = (tier) => TIER_HINTS[tier] ?? `Tier ${tier}`;
+
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
   show: { opacity: 1, y: 0, transition: { duration: 0.3 } },
@@ -246,18 +258,16 @@ export default function SteamTierList({ games }) {
                   key={tier}
                   className={styles.tierRow}
                   variants={fadeUp}
-                  aria-label={
-                    tier === 'unplayed'
-                      ? 'Unplayed — games not started yet'
-                      : `Tier ${tier}`
-                  }
+                  aria-label={tierHintTitle(tier)}
                 >
                   <div
                     className={styles.tierLabel}
                     data-tier={tier}
-                    title={tier === 'unplayed' ? 'Unplayed' : undefined}
                   >
                     {tierLabelText(tier)}
+                  </div>
+                  <div className={styles.tierDesc} data-tier={tier}>
+                    {TIER_HINTS[tier]}
                   </div>
                   <div
                     className={`${styles.tierGames} ${dragOverTier === tier ? styles.tierGamesDragOver : ''}`}
@@ -283,9 +293,13 @@ export default function SteamTierList({ games }) {
                         >
                           <SteamGameCover
                             fill
-                            textFallbackOnly
+                            variant="cover"
                             appId={game.appId}
                             title={game.name}
+                            headerUrl={game.headerUrl}
+                            libraryCapsuleUrl={game.libraryCapsuleUrl}
+                            libraryHeaderUrl={game.libraryHeaderUrl}
+                            iconUrl={game.iconUrl}
                             alt={game.name}
                             rootClassName={styles.coverRoot}
                             imageClassName={styles.gameImg}

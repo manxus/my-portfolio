@@ -208,7 +208,7 @@ export const schemas = {
   ],
 
   'media.galleryItems': [
-    { key: 'id', label: 'ID', type: 'number', required: true },
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
     { key: 'type', label: 'Category', type: 'text', required: true },
     { key: 'title', label: 'Title', type: 'text', required: true },
     { key: 'description', label: 'Description', type: 'textarea' },
@@ -227,6 +227,62 @@ export const schemas = {
   ],
   'livestream.twitchChannel': [
     { key: '_value', label: 'Twitch Channel', type: 'text', required: true },
+  ],
+  'livestream.timezone': [
+    { key: '_value', label: 'Timezone Note (optional, for fixed slots)', type: 'text' },
+  ],
+  'livestream.scheduleNote': [
+    { key: '_value', label: 'Schedule Note', type: 'textarea', required: true },
+  ],
+  'livestream.about': [
+    { key: 'intro', label: 'Intro', type: 'textarea', required: true },
+    { key: 'qaStreamsNote', label: 'QA Streams Note', type: 'textarea', required: true },
+  ],
+  'livestream.highlights': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    { key: 'title', label: 'Title', type: 'text', required: true },
+    { key: 'description', label: 'Description', type: 'textarea' },
+    { key: 'thumbnail', label: 'Thumbnail URL (optional — auto from video if empty)', type: 'text' },
+    { key: 'videoUrl', label: 'Video URL (YouTube, Twitch clip, or Twitch video)', type: 'text' },
+  ],
+  'livestream.streamLoadout': [
+    { key: 'label', label: 'Label', type: 'text', required: true },
+    { key: 'value', label: 'Value', type: 'text', required: true },
+    { key: 'url', label: 'Link URL (optional)', type: 'text' },
+  ],
+  'livestream.chatRules': [
+    { key: 'text', label: 'Rule', type: 'text', required: true },
+  ],
+  'livestream.chatCommands': [
+    { key: 'command', label: 'Command', type: 'text', required: true },
+    { key: 'description', label: 'Description', type: 'text', required: true },
+  ],
+
+  'music.favorites': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    {
+      key: 'kind',
+      label: 'Kind',
+      type: 'select',
+      options: ['Album', 'Artist'],
+      required: true,
+    },
+    { key: 'title', label: 'Title', type: 'text', required: true },
+    { key: 'artist', label: 'Artist (for albums)', type: 'text' },
+    {
+      key: 'featured',
+      label: 'Show in favorite albums',
+      type: 'boolean',
+    },
+    {
+      key: 'physicalFormat',
+      label: 'Physical copy (albums only)',
+      type: 'select',
+      options: ['Vinyl', 'CD', 'Cassette'],
+    },
+    { key: 'description', label: 'Description', type: 'textarea' },
+    { key: 'coverUrl', label: 'Cover Image URL', type: 'text' },
+    { key: 'listenUrl', label: 'Listen URL (Spotify, etc.)', type: 'text' },
   ],
 
   'credits.credits': [

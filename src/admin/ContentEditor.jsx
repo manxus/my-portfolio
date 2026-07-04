@@ -1,5 +1,6 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { visibleSchemaFields } from './autoId';
 import styles from './ContentEditor.module.css';
 
 function parseTierIdsFromInput(s) {
@@ -324,6 +325,7 @@ export default function ContentEditor({
     if (initialData != null) return structuredClone(initialData);
     const empty = {};
     for (const field of schema) {
+      if (field.autoId) continue;
       if (field.key === '_value') {
         return '';
       }
@@ -337,7 +339,8 @@ export default function ContentEditor({
   });
   const [saving, setSaving] = useState(false);
 
-  const isPrimitive = schema.length === 1 && schema[0].key === '_value';
+  const fields = visibleSchemaFields(schema);
+  const isPrimitive = fields.length === 1 && fields[0].key === '_value';
 
   const handleChange = useCallback((key, value) => {
     if (isPrimitive) {
@@ -380,16 +383,16 @@ export default function ContentEditor({
         <div className={styles.fields}>
           {isPrimitive ? (
             <div className={styles.label}>
-              <span className={styles.labelText}>{schema[0].label}</span>
+              <span className={styles.labelText}>{fields[0].label}</span>
               <FieldInput
-                field={schema[0]}
+                field={fields[0]}
                 value={formData}
                 onChange={(v) => handleChange('_value', v)}
                 formData={formData}
               />
             </div>
           ) : (
-            schema.map((field) => (
+            fields.map((field) => (
               <div key={field.key} className={styles.label}>
                 <span className={styles.labelText}>
                   {field.label}

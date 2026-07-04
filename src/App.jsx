@@ -15,6 +15,7 @@ import SideProjects from './pages/SideProjects';
 import Tech from './pages/Tech';
 import Media from './pages/Media';
 import Livestream from './pages/Livestream';
+import Music from './pages/Music';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
 import PatchNotes from './pages/PatchNotes';
@@ -32,6 +33,7 @@ const pageRoutes = [
   { path: '/tech', title: 'Tech Loadout', subtitle: 'STORY // CHAPTER 03', Component: Tech },
   { path: '/media', title: 'Media', subtitle: 'EXTRA // BONUS CONTENT', Component: Media },
   { path: '/livestream', title: 'Livestream', subtitle: 'EXTRA // BONUS CONTENT', Component: Livestream },
+  { path: '/music', title: 'Music', subtitle: 'EXTRA // BONUS CONTENT', Component: Music },
   { path: '/settings', title: 'Settings', subtitle: 'SYSTEM CONFIGURATION', Component: Settings },
   { path: '/credits', title: 'Credits', subtitle: 'ACKNOWLEDGMENTS', Component: Credits },
   { path: '/patch-notes', title: 'Patch Notes', subtitle: 'VERSION HISTORY // CHANGELOG', Component: PatchNotes },

@@ -1,6 +1,9 @@
 import { createHmac } from 'node:crypto';
+import { createRequire } from 'node:module';
 import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+
+const require = createRequire(import.meta.url);
 
 const TOKEN_SECRET = 'bv-admin-' + Date.now();
 const TOKEN_TTL = 1000 * 60 * 60 * 8; // 8 hours
@@ -43,13 +46,35 @@ function json(res, status, data) {
 const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides',
-  'media', 'livestream', 'credits', 'patchNotes', 'steam-hallofpain',
+  'media', 'livestream', 'music', 'credits', 'patchNotes', 'steam-hallofpain',
 ]);
+
+async function handleTwitchOembed(req, res) {
+  const requestUrl = new URL(req.url, 'http://localhost');
+  const pageUrl = requestUrl.searchParams.get('url');
+
+  if (!pageUrl) {
+    return json(res, 400, { error: 'Missing url parameter' });
+  }
+
+  try {
+    const handler = require('./api/twitch-oembed.cjs');
+    await handler(req, res);
+  } catch (err) {
+    console.error('[twitch-oembed dev]', err);
+    return json(res, 502, { error: 'Failed to fetch Twitch oEmbed' });
+  }
+}
 
 export default function adminApiPlugin() {
   return {
     name: 'admin-api',
     configureServer(server) {
+      server.middlewares.use(async (req, res, next) => {
+        if (!req.url?.startsWith('/api/twitch-oembed') || req.method !== 'GET') return next();
+        return handleTwitchOembed(req, res);
+      });
+
       server.middlewares.use(async (req, res, next) => {
         if (!req.url.startsWith('/api/admin')) return next();
 

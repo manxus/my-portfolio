@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import AchievementCard from './AchievementCard';
+import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import { buildAchievementData } from './achievementShared';
 import styles from './SteamAchievements.module.css';
 
@@ -27,26 +28,20 @@ const stagger = {
 };
 
 function PerfectGameBanner({ game }) {
-  const [failed, setFailed] = useState(false);
-  const banner =
-    game.headerUrl ||
-    `https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appId}/header.jpg`;
   return (
     <>
-      {failed ? (
-        <div className={styles.coverFallback}>
-          <span className={styles.coverFallbackName}>{game.name}</span>
-        </div>
-      ) : (
-        <img
-          className={styles.coverImg}
-          src={banner}
-          alt={game.name}
-          loading="lazy"
-          draggable={false}
-          onError={() => setFailed(true)}
-        />
-      )}
+      <SteamGameCover
+        fill
+        variant="banner"
+        appId={game.appId}
+        title={game.name}
+        headerUrl={game.headerUrl}
+        libraryHeaderUrl={game.libraryHeaderUrl}
+        iconUrl={game.iconUrl}
+        alt={game.name}
+        rootClassName={styles.coverRoot}
+        imageClassName={styles.coverImg}
+      />
       <div className={styles.coverOverlay}>
         <span className={styles.coverName}>{game.name}</span>
         <span className={styles.coverCount}>
