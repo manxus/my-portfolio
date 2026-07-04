@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-07-03T09:01:19.556Z",
+  "fetchedAt": "2026-07-04T08:35:53.012Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1783036867
+    "lastLogoff": 1783128413
   },
   "games": [
     {
@@ -49,7 +49,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2663.2,
+      "playtimeHours": 2673.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -180687,6 +180687,788 @@
       "achievements": null
     },
     {
+      "appId": 3820130,
+      "name": "The Dream Globe",
+      "playtimeHours": 14.5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3820130/4a005f2070f24a4fb1c46ab1c8216d7044350e7d.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820130/02a92904e7f56690dfd555c6672f5fac5d7f926a/header.jpg?t=1779150308",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Oct 30, 2025",
+      "achievements": {
+        "total": 69,
+        "unlocked": 16,
+        "items": [
+          {
+            "apiName": "ACH_LEVEL_15",
+            "name": "Dream Walker",
+            "description": "Reach level 15, can change scenes",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7a994243bef98138a8290e4f8de7bb0fd9c6e345.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d171c723c609bea0dddb4df2a016d34a625cf632.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783033271,
+            "globalPct": 75
+          },
+          {
+            "apiName": "ACH_LEVEL_50",
+            "name": "Deep Dreamer",
+            "description": "Reach level 50",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/74417d86126abfd8d75812a11da6e62300bd90ff.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/eed13485e9d2ece0470c0369c68c8d03dc86ad5d.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 50
+          },
+          {
+            "apiName": "ACH_LEVEL_100",
+            "name": "Dream Master",
+            "description": "Reach level 100",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/02171cc6ae15abd4d040a79a2980f7d66afcc957.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e4b84cf7b20e2fa544f7eeaf71c9e0c63a600ca9.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.3
+          },
+          {
+            "apiName": "ACH_MONEY_1K",
+            "name": "Got some money",
+            "description": "Earned 1000 money",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/aca10a3b00f99caa358c746da85dd6a03c5ac41c.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/bc572905ea9537520caa330046657b6a8b49b79e.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783027616,
+            "globalPct": 84.5
+          },
+          {
+            "apiName": "ACH_MONEY_10K",
+            "name": "I'm rich",
+            "description": "Earned 10000 money",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/02331062b568ccc137ebd819f7aa1c4a7490997d.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f912810d1f7c42e257764d29e4c900b914ae31d7.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783074664,
+            "globalPct": 68.9
+          },
+          {
+            "apiName": "ACH_MONEY_100K",
+            "name": "Show me the money",
+            "description": "Earned 100000 money",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/60feb7f7f908361973be32931391f12a71d496e9.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/fbe86b3b9fb1faa4bb2dd7a7818f737f02054f20.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 45.3
+          },
+          {
+            "apiName": "ACH_FIRST_BREAD",
+            "name": "First Bread",
+            "description": "Produce 1 bread",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3f0cd358cf05cf61290516cdbf6a9413ae48c0f9.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e56b16e9cf7fbad3a38e9751101147c05a25e208.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783025479,
+            "globalPct": 95.3
+          },
+          {
+            "apiName": "ACH_FIRST_CHICKEN",
+            "name": "First Chick",
+            "description": "Breed a new chicken",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/669655c3d84dfa2638d99627a9b76d9cdf26614c.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1b6ebe0d17242d240d98a6062cd301b2b0396fad.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783026200,
+            "globalPct": 88.2
+          },
+          {
+            "apiName": "ACH_FIRST_LEGENDARY",
+            "name": "Legendary",
+            "description": "Got a legendary product",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/414cdf52e668fd348d20131831a2d3f1baabeec1.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ec1bbcbbb1eedad5f8dbfbb974f254e718b93b86.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783029571,
+            "globalPct": 67.6
+          },
+          {
+            "apiName": "ACH_FIRST_HUNT",
+            "name": "Big Hunt",
+            "description": "Hunt a bear",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/299f14f180bfe2b149ff7ceec7db8e4d1933a5c3.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/32a0e0bbe477327e5799c732b2280df206850213.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 49.9
+          },
+          {
+            "apiName": "ACH_MAX_STOVE",
+            "name": "Baker",
+            "description": "Buy max bakery from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/dbed2d83434a4e86679ed8647dfad115eb5ca81a.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3f6b3dd1b39ec2b18d39010b1a2ca7b7a6c1b35d.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 41.5
+          },
+          {
+            "apiName": "ACH_MAX_SCYTHE",
+            "name": "Farmer",
+            "description": "Buy max farming tool from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d1ccb3957fb66b7799b5e65f56e195d54da477d2.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/23f59ea108dc46a06f93adc44674e9d2ab4224c8.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 42.5
+          },
+          {
+            "apiName": "ACH_MAX_PICKAXE",
+            "name": "Miner",
+            "description": "Buy max  pickaxe from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8b16f507be4e18b4697276fca0a2d9447cca767f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b00ce912bd97650c60abe866db87abba60ea156b.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.2
+          },
+          {
+            "apiName": "ACH_MAX_GARDEN",
+            "name": "Gardener",
+            "description": "Buy max gardening tool from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/42ed45aa3bcc812cc1c98ee3e17cf1233091443f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8c579e15af230dd38d257d0a9de61896a2f2bd81.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 37
+          },
+          {
+            "apiName": "ACH_MAX_FISHING",
+            "name": "Fisher",
+            "description": "Buy max fishing tool from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/dbde060102ca0e73f5ce5cbc15937a84db56a602.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8b647dd510e099a760a61f1793bb929b1cef1c9e.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.4
+          },
+          {
+            "apiName": "ACH_MAX_BREWERY",
+            "name": "Brewer",
+            "description": "Buy max brewery tool from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/088451ae6c557be691faaf3fe67491551fc18aa8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/613cc61b0031f4c71565a33c5caf1af1e5dafa9e.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.8
+          },
+          {
+            "apiName": "ACH_CAT",
+            "name": "Kitten",
+            "description": "Buy a cat from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/03edcad54c1be3e0cc671fc5639f9c612b9be0f7.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7ffd6bc26adf359edd20f16b37209a4fdc22c3c2.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783029490,
+            "globalPct": 80
+          },
+          {
+            "apiName": "ACH_DOG",
+            "name": "Doggy",
+            "description": "Buy a dog from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ea266561f7bc45f8e26f88fd3fb98d2e34f76b8d.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/424be517130e319113ca1bea42f3f638039ccfa7.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783099992,
+            "globalPct": 60.9
+          },
+          {
+            "apiName": "ACH_MAX_STOCKPILE",
+            "name": "Warehouse",
+            "description": "Buy max stock limit from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2d442e090c1eab8ebb8ff2ae5af670df0a6530ed.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/12079a46250d8ed149d3ba0468a07da7eeed9907.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 30.8
+          },
+          {
+            "apiName": "ACH_MAX_ENERGY",
+            "name": "Energy",
+            "description": "Buy max stamina from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f4918fe377e070f2318b4e1f10bc2caee14f7f67.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ac0329444425e59a73d09fae7c4b601efdf722a1.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.5
+          },
+          {
+            "apiName": "ACH_SCENE_FOREST",
+            "name": "Forest",
+            "description": "Unlock the forest scene",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/0220742e4aaa8745e86dc21935163c539228c470.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/5d48886f4c259c3c4c02968646f23aee1c224a44.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783073285,
+            "globalPct": 70.6
+          },
+          {
+            "apiName": "ACH_SCENE_SNOWLAND",
+            "name": "Snow land",
+            "description": "Unlock the snowland scene",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/52b74ea141443af4687813102564d71472d98978.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a851f39565dc41291b1888f2ba976ac9d996474c.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 48.2
+          },
+          {
+            "apiName": "ACH_TIME_2H",
+            "name": "Beginner",
+            "description": "Play the game for 2 hours",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/102a7ab6021c9509ba94efafa35d9f8be824aea1.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/42e54e68db40a1d7c61340372c48725c799ec442.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783032757,
+            "globalPct": 76.8
+          },
+          {
+            "apiName": "ACH_TIME_8H",
+            "name": "Expert",
+            "description": "Play the game for 8 hours",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/129f2230af84b071690e5491944945e8a7c4eb95.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/68edb389568700d2d1deb81f23cd5b64454ce3fa.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783105296,
+            "globalPct": 62.9
+          },
+          {
+            "apiName": "ACH_TIME_24H",
+            "name": "A whole day",
+            "description": "Play the game for 24 hours",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f681601bc9bb1f74a36fde173dfb7fea07d16ff8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1d7c99ef61099c82b01cec405512574b82f5f3a0.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 49
+          },
+          {
+            "apiName": "ACH_100_BREAD",
+            "name": "Bread",
+            "description": "Produce 100 pcs of bread",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1ef974932f33711e6deb971d0b262ffe5cb17078.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f10d62a05a0f05ae4455c9b4ff1e9dd511fe2d3f.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783031106,
+            "globalPct": 76.2
+          },
+          {
+            "apiName": "ACH_BABY",
+            "name": "Family",
+            "description": "Have a baby",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/de4b4f846365776f88e98350d21b072dc15b9592.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/bb3108853d264cc2e3a0e5ecebecd6465997f2ea.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 33.8
+          },
+          {
+            "apiName": "ACH_100_CHICKEN",
+            "name": "Chicken",
+            "description": "Raise 100 chickens",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/32bfe97bb6e68b9ab93859216aa985da7652ee27.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/4a0e1e4c6976c45101b4735d2f264192c2c3686b.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783034897,
+            "globalPct": 69.1
+          },
+          {
+            "apiName": "ACH_100_GEMS",
+            "name": "Gems",
+            "description": "Mine 100 pcs of stones",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1d000082871b9616eac99f3f7fff5296ced5c391.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/40ad28cd4f8e2be7be9a1bdbe8a3f873c84da8fb.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783100745,
+            "globalPct": 58.3
+          },
+          {
+            "apiName": "ACH_100_CROPS",
+            "name": "Vegetables",
+            "description": "Plant 100 pcs of vegetables",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/10fc92e5a659f5c7de4102ea8d285013d62ae3f2.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/c91a7e8c7e74f0b5ca8118dd24d679180ff593e1.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783100473,
+            "globalPct": 57.2
+          },
+          {
+            "apiName": "ACH_100_FISH",
+            "name": "Fish",
+            "description": "Catch 100 fish",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9059742bc796930b08b8c93cc3f11a0bd949b8ee.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/c2428e747a2ad525cae8a38133f646348192723e.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 42.9
+          },
+          {
+            "apiName": "ACH_100_ALCOHOL",
+            "name": "Drinks",
+            "description": "Brewery have 100 pcs of products",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a2f99f1dfbc1a57384cfda5c04b6f090bfa28406.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/93fad0d8caf2f2cbec8f7f754991487fc8c7648b.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 41.1
+          },
+          {
+            "apiName": "ACH_FULL_ALCOHOL",
+            "name": "100% Drinks",
+            "description": "Produce all kinds of drinks at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2a420b9636dcce8539258892f829dc0457070d58.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9d238eb1efac41a5c7b9ff125f52f22b1f891f7a.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 26.1
+          },
+          {
+            "apiName": "ACH_FULL_FISH",
+            "name": "100% Fish",
+            "description": "Catch all kinds of fish at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/74e8b14e923e79cef0fac126790f1b1b3b4c7c5f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/639eb4c420e93ab7fbeadd9f7f7a98829107ef1b.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.8
+          },
+          {
+            "apiName": "ACH_FULL_GEMS",
+            "name": "100% Gems",
+            "description": "Mine all kinds of minerals at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6871a75816930dd7a76bcee93b3fefaebd92fb50.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/fbe419634840d2b4e3f06d94cfd95219112a6ec3.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 29.5
+          },
+          {
+            "apiName": "ACH_FULL_CROPS",
+            "name": "100% Vegetables",
+            "description": "Harvest all kinds of vegetables at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/273d80134b3d808bfead260835e2fd9dd7d3022b.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b7a5973ee72e3bd231b5f4c00a597504d58c0cbd.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.8
+          },
+          {
+            "apiName": "ACH_FULL_BREAD",
+            "name": "100% Breads",
+            "description": "Produce all kinds of breads at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/949a3563b082039007c939aedcb8b7d48c756d07.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1982cd66704a26b0b1031b73453660c5b2fe0f8e.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 29.9
+          },
+          {
+            "apiName": "ACH_FULL_CHICKEN",
+            "name": "100% Chicken",
+            "description": "Breed all kinds of chicken at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8220799138bfefc556f2f88720da3e863a3f5ce3.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/c3c0090416bcce0f7b41529c59aef46a42a8e259.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.1
+          },
+          {
+            "apiName": "ACH_500_BREAD",
+            "name": "More Bread",
+            "description": "Produce 500 pcs of bread",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/99ee5d8d48e7163e0697266fac517ccba3718719.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6c5004b9cdb1dd7335f71d5aa3183b8fa2521d41.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 48.8
+          },
+          {
+            "apiName": "ACH_500_CHICKEN",
+            "name": "More Chicken",
+            "description": "Raise 500 chickens",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e29e429f38b87e245723fd89ecc7b17708912038.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/36dc6157d0ead6e1438030b2759677cd666517f5.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 43.2
+          },
+          {
+            "apiName": "ACH_500_GEMS",
+            "name": "More Gems",
+            "description": "Mine 500 pcs of stones",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2e64fbb9268cd8051971133da17fa5375b75facd.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2c9c8316610fad183e53c35219360c87f7f0e622.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783126199,
+            "globalPct": 48.2
+          },
+          {
+            "apiName": "ACH_500_CROPS",
+            "name": "More Vegetables",
+            "description": "Plant 500 pcs of vegetables",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d64d19e0463ebac95ca04a5243c82d26fa286817.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6f9b195e9eec2d9a8a7d9d0350bf0c1fad619954.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 46.9
+          },
+          {
+            "apiName": "ACH_500_FISH",
+            "name": "More Fish",
+            "description": "Catch 500 fish",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3fc1a78119e2d4d64060de26ee9e447856cc70f4.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e04c5203851c5c5bf90c9d4791adf40b253302fd.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.4
+          },
+          {
+            "apiName": "ACH_500_ALCOHOL",
+            "name": "More Drinks",
+            "description": "Brewery have 500 pcs of products",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1254f102f57f79b39738945ae8f55637cf4bac79.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/5cc83df544efe7800b66eb751857c6d66566d41c.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.5
+          },
+          {
+            "apiName": "ACH_MONEY_500K",
+            "name": "Golden Globe",
+            "description": "Earned 500000 money",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/be28a6a4a77dfd46e57df07cf4edfb1126a6f753.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f2500545857b5724bb5f8d53a8400d8b0882bdba.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31
+          },
+          {
+            "apiName": "ACH_LUCKY_BOTTLE",
+            "name": "Lucky Bottle",
+            "description": "Find a bottle in the ice lake",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6f41aec6297a3ce82e2aaa97fdf45559fe1e9f21.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/43bf98de277c0a4fdac4b9f4214eb3e8cfc97cb2.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.2
+          },
+          {
+            "apiName": "ACH_999_BREAD",
+            "name": "Mountain of Bread",
+            "description": "Produce 999 pcs of breads",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9dcf87d7a3d1f54d238cef9c2c3238539c18ed21.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/40a639bed6a504f9d0cf709d39e2613797eccac7.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 35.8
+          },
+          {
+            "apiName": "ACH_999_GEMS",
+            "name": "Gem Vault",
+            "description": "Mine 999 pcs of stones",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/18df8859386e04816ff13ae60b00fc2f4345f0ca.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f703ce42e45b6722850cab02d8f4fd7d2319eec5.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 40.7
+          },
+          {
+            "apiName": "ACH_999_CROPS",
+            "name": "Sea of Vegetable",
+            "description": "Plant 999 pcs of vegetables",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ed86f00a441ee66b30f51c5c44beccf25a88afb7.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/946bcb3dc42c161c633eb81f2660d5df26818d39.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 39
+          },
+          {
+            "apiName": "ACH_999_FISH",
+            "name": "Lake of Fish",
+            "description": "Catch 999 fish",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/cd42b5ec00d4a6580ddf0f6517af835ffa86bfc2.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/eb74155b15e00a6750b6c5ff605fa79d1821e4da.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.9
+          },
+          {
+            "apiName": "ACH_DUCK",
+            "name": "Duck",
+            "description": "A pair of ducks moved in, and the biggest effect is that the noisy frog has become much quieter.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e322c5f6a18bd0e4c1ec2a70fbbbb7adca743815.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/dcfe032169f67435804e9345670a10350ae75b85.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.4
+          },
+          {
+            "apiName": "ACH_PENGUIN",
+            "name": "Penguins",
+            "description": "A small colony of penguins settled on the iceland.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2a99418fe8a7429640587300154b8e856800d465.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f155971539b6cbc09acff4126d1d129de1345578.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 38
+          },
+          {
+            "apiName": "ACH_CRAB",
+            "name": "Mud Crab",
+            "description": "Spotted a crab in the swamp.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ddb407d61d35192f99401166cccf3cb93aa8a029.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2ede07dd2fe5d7adb37b4ad2a08b5d0142397a6b.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25
+          },
+          {
+            "apiName": "ACH_MAX_PRAY",
+            "name": "Prayer",
+            "description": "Buy max pray level from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/bd6600e052bc8fe1b29659cd3aac26ce50a30643.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7369ea266d63ea3928d6a6b2d2010cc094758ef0.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.5
+          },
+          {
+            "apiName": "ACH_MAX_HAMMER",
+            "name": "Blacksmith",
+            "description": "Buy max smith tool from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8b136ec60eb2248a1422b717bc7d067ba1e2f990.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6cd58cf7b557955c1b35358e242304bf580203cd.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 28
+          },
+          {
+            "apiName": "ACH_MAX_WATERINGCAN",
+            "name": "Mushroom Planter",
+            "description": "Buy max mushroom planting level from shop",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2379f23733228f9b04227c73a669d5f0f89a110a.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/68b92a7b76baa52b54749fb1246365fc4e8d423d.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 28.4
+          },
+          {
+            "apiName": "ACH_FULL_SMITH",
+            "name": "100% Blacksmith",
+            "description": "Craft all kinds of smith product at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d91a212c77e0099680266b23fe288719391ee00a.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/15eb42e624f5b9c495e01c1b38ab870cd84e2049.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 21
+          },
+          {
+            "apiName": "ACH_FULL_MUSHROOM",
+            "name": "100% Mushroom",
+            "description": "Plant all kinds of mushrooms at all qualities",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e7717d5ca49cec7fdadb10ba1f7e621d504230dd.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b9a1a7bf12ed831200e72856bf6156026d8697bf.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 22.6
+          },
+          {
+            "apiName": "ACH_100_MUSHROOM",
+            "name": "Mushrooms",
+            "description": "Plant 100 pcs of mushrooms",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a95db6a9c28c4af4930f77f26574aa0eacd99209.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/67c03dc7b4d95548354bb9bb4ef7631c0738de79.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 33.4
+          },
+          {
+            "apiName": "ACH_500_MUSHROOM",
+            "name": "More Mushrooms",
+            "description": "Plant 500 pcs of mushrooms",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/82b677be26ec69c7dc996f57f67d968430dcdfc4.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9962bc92c43bcdbdfba6fc5e12a4ccb17cc4bb64.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 28.8
+          },
+          {
+            "apiName": "ACH_999_MUSHROOM",
+            "name": "Mushroom Garden",
+            "description": "Plant 999 pcs of mushrooms",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/386201998e0f46c0e2cc65f9260b4a81665c546c.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/50f9bce3dd6f42b37bc01bb7f56a586183117697.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "ACH_100_SMITH",
+            "name": "Smith",
+            "description": "Craft 100 pcs of smith product",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/51976cfe442b7010def5604e4bfff08eae21f646.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/15aa5af993cf70a77e5640bf22b9fa77e9d1427c.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.6
+          },
+          {
+            "apiName": "ACH_500_SMITH",
+            "name": "More Smithing",
+            "description": "Craft 500 pcs of smith product",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7c3752b4c79f86c7bd84abfdfd49f75567238b0f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/5f3db22b1ea832f8923b7ea415d378f27fd588fe.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.1
+          },
+          {
+            "apiName": "ACH_SCENE_MARSH",
+            "name": "Marsh",
+            "description": "Unlock the marsh scene",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/977f917e1db4afe926ade327db6995455d3f6554.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6c267dacc1b6bc6181b750a656f317654c8d6f90.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 37.9
+          },
+          {
+            "apiName": "ACH_ALTAR_SPRING",
+            "name": "Rite of Spring",
+            "description": "Click on the Large Flower next to the vegetable garden in the forest scene. This needs to be done at day, after waiting for it to fully charge.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/079ccb9f544bd1d2b70af8c188db9e772d8184c0.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f8fbbd1dcec929f258114f7fddf0e015db97e409.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.5
+          },
+          {
+            "apiName": "ACH_ALTAR_SUMMER",
+            "name": "Rite of Summer",
+            "description": "Click on the Brazier in the marsh scene. After waiting for it to fully charge.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3a949bd7be2344ef1c16a8a8def5543d9f37006b.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2e2abcc6760aa74ee97032b2729765e6cc35517f.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.5
+          },
+          {
+            "apiName": "ACH_ALTAR_AUTUMN",
+            "name": "Rite of Autumn",
+            "description": "Click on the  Scarecrow in the wheatfield in the plain scene. This needs to be done at night, after waiting for it to fully charge.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/19fa32c9429e846e64d86feedc6e9ea7c01441a4.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/db7bbf4781d660151d2ff6c0a0ed5e5eb5b26d8d.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.5
+          },
+          {
+            "apiName": "ACH_ALTAR_WINTER",
+            "name": "Rite of Winter",
+            "description": "Click on the Christmas Tree next to the house in the snowland scene. This needs to be done at night, after waiting for it to fully charge.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a93afdae7c9177ee790a137eca03b3376b012872.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b4196f0dbf95c6f93758f53bda4be31da8f01292.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "ACH_ICESPIRIT",
+            "name": "Ice Spirit",
+            "description": "Click the elder ice butterfly in the sky of Ice Land.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e902c96d8e513bf9f29d53e9c1ec2dc6b31f1c12.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/015a222224dce4584a541d1ce540e2ec1c9c1171.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 34.3
+          }
+        ]
+      }
+    },
+    {
       "appId": 264200,
       "name": "One Finger Death Punch",
       "playtimeHours": 14.5,
@@ -184677,6 +185459,637 @@
             "unlocked": false,
             "unlockTime": 0,
             "globalPct": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "appId": 3892270,
+      "name": "Gamble With Your Friends",
+      "playtimeHours": 14.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3892270/620adde61e9a7003f375bb5979fadde34eafa9d6.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1782258835",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "May 1, 2026",
+      "achievements": {
+        "total": 55,
+        "unlocked": 46,
+        "items": [
+          {
+            "apiName": "ACH_ENDING_COINFLIP_WON",
+            "name": "Let It Ride!",
+            "description": "",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1782946931,
+            "globalPct": 14.2
+          },
+          {
+            "apiName": "ACH_ENDING_COINFLIP_LOST",
+            "name": "End of the Line",
+            "description": "",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.3
+          },
+          {
+            "apiName": "ACH_ENDING_DEBT_PAID",
+            "name": "...And They Lived Happily After",
+            "description": "",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1783109563,
+            "globalPct": 10.7
+          },
+          {
+            "apiName": "ACH_CHA_F1_BIGSPENDER",
+            "name": "Big Spender",
+            "description": "Spend a lot of money on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782677561,
+            "globalPct": 72.9
+          },
+          {
+            "apiName": "ACH_CHA_F1_BLACKJACK",
+            "name": "No Bust Run",
+            "description": "Win 4 games in a row on Blackjack on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782590456,
+            "globalPct": 35.3
+          },
+          {
+            "apiName": "ACH_CHA_F1_CRAPS",
+            "name": "Lucky 7",
+            "description": "Get 7 on your first roll on Street Craps on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782592887,
+            "globalPct": 47.9
+          },
+          {
+            "apiName": "ACH_CHA_F1_HIGHROLLER",
+            "name": "High Roller",
+            "description": "Place a very big bet on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782662065,
+            "globalPct": 72.8
+          },
+          {
+            "apiName": "ACH_CHA_F1_LUCKYSTREAK",
+            "name": "Lucky Streak",
+            "description": "Win 3 games in a row on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782590933,
+            "globalPct": 65.5
+          },
+          {
+            "apiName": "ACH_CHA_F1_ROULETTE",
+            "name": "All on Red",
+            "description": "Bet a lot of money on Roulette on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782676192,
+            "globalPct": 59.8
+          },
+          {
+            "apiName": "ACH_CHA_F1_SLOTS",
+            "name": "Jackpot Hunter",
+            "description": "Win with 10X on Slot Machine on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782659288,
+            "globalPct": 34.3
+          },
+          {
+            "apiName": "ACH_CHA_F1_BLACKJACK2",
+            "name": "Risky Move",
+            "description": "Win on Blackjack with a hand value less than 10 on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782591994,
+            "globalPct": 37.2
+          },
+          {
+            "apiName": "ACH_CHA_F1_DUCKRACE",
+            "name": "YARLL!!!",
+            "description": "Bet on YARL and win on Duck Race on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782683806,
+            "globalPct": 51
+          },
+          {
+            "apiName": "ACH_CHA_F1_WHEELOFFORTUNE",
+            "name": "Spin The Wheel",
+            "description": "Win 3 games by betting a lot of money on Wheel of Fortune on Floor 1.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782588805,
+            "globalPct": 43.8
+          },
+          {
+            "apiName": "ACH_CHA_F2_BIGSPENDER2",
+            "name": "Big Spender 2",
+            "description": "Spend a lot of money on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782593736,
+            "globalPct": 40
+          },
+          {
+            "apiName": "ACH_CHA_F2_CRASH",
+            "name": "Greed Test",
+            "description": "Win at least 10X on Crash on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782941987,
+            "globalPct": 10.7
+          },
+          {
+            "apiName": "ACH_CHA_F2_CROSSYROAD",
+            "name": "Winner Winner Penguin Dinner",
+            "description": "Win at least \"3X\" 2 times in a row on Penguin Cross on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782742863,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "ACH_CHA_F2_DICE",
+            "name": "Roll the Odds",
+            "description": "Profit a lot of money on HiLo on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782743789,
+            "globalPct": 6.5
+          },
+          {
+            "apiName": "ACH_CHA_F2_HIGHROLLER2",
+            "name": "High Roller 2",
+            "description": "Place a very big bet on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782660166,
+            "globalPct": 44
+          },
+          {
+            "apiName": "ACH_CHA_F2_KENO",
+            "name": "Spot On",
+            "description": "Bet a lot of money on Keno on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782743351,
+            "globalPct": 14.4
+          },
+          {
+            "apiName": "ACH_CHA_F2_LUCKYSTREAK2",
+            "name": "Lucky Streak 2 ",
+            "description": "Win 4 games in a row on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782678027,
+            "globalPct": 33.6
+          },
+          {
+            "apiName": "ACH_CHA_F2_MONEYWHEEL",
+            "name": "Spin Streak",
+            "description": "Win 3 games in a row with a lot of money on Money Wheel on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782941555,
+            "globalPct": 6.3
+          },
+          {
+            "apiName": "ACH_CHA_F2_PLINKO",
+            "name": "Clean Fall",
+            "description": "Win 24X on Plinko on Floor 2.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782685782,
+            "globalPct": 7.5
+          },
+          {
+            "apiName": "ACH_CHA_F3_POKER",
+            "name": "Poker Face",
+            "description": "Don't lock cards and win with a hand equal to or better than Two of a Kind on 1P Poker on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783111883,
+            "globalPct": 3
+          },
+          {
+            "apiName": "ACH_CHA_F3_BIGSPENDER3",
+            "name": "Big Spender 3",
+            "description": "Bet a lot of money across all games on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782944713,
+            "globalPct": 20.6
+          },
+          {
+            "apiName": "ACH_CHA_F3_CRAPS",
+            "name": "Natural Roller",
+            "description": "Win on Street Craps during the point phase on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "ACH_CHA_F3_CROSSYROAD",
+            "name": "Traffic Monster",
+            "description": "Win at least 4X on Penguin Cross on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782945055,
+            "globalPct": 8.3
+          },
+          {
+            "apiName": "ACH_CHA_F3_DICE",
+            "name": "No Safe Rolls",
+            "description": "Win 10x on HiLo on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782744352,
+            "globalPct": 3.6
+          },
+          {
+            "apiName": "ACH_CHA_F3_DRAGONTOWER",
+            "name": "Step Into Fire",
+            "description": "Lose 4 times in a row on Dragon Tower on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783108759,
+            "globalPct": 7.1
+          },
+          {
+            "apiName": "ACH_CHA_F3_HIGHROLLER3",
+            "name": "High Roller 3",
+            "description": "Place a very big bet on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782665372,
+            "globalPct": 25.3
+          },
+          {
+            "apiName": "ACH_CHA_F3_LUCKYSTREAK3",
+            "name": "Lucky Streak 3",
+            "description": "Win 5 games in a row on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783098835,
+            "globalPct": 14.1
+          },
+          {
+            "apiName": "ACH_CHA_F3_MINESWEEPER",
+            "name": "Perfect Sweep",
+            "description": "Win at least 20X on Mine Sweeper on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "ACH_CHA_F3_WHEELOFFORTUNE",
+            "name": "Keep It Spinning",
+            "description": "Spend a lot of money on Wheel of Fortune on Floor 3.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783099965,
+            "globalPct": 6.8
+          },
+          {
+            "apiName": "ACH_CHA_F4_BIGSPENDER4",
+            "name": "Big Spender 4",
+            "description": "Bet a lot of money across all games on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783112518,
+            "globalPct": 12
+          },
+          {
+            "apiName": "ACH_CHA_F4_BLACKJACK",
+            "name": "House Breaker",
+            "description": "Win a lot of money on Blackjack on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.4
+          },
+          {
+            "apiName": "ACH_CHA_F4_CRASH",
+            "name": "Safe Exit",
+            "description": "Win 4 times in a row on Crash on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2
+          },
+          {
+            "apiName": "ACH_CHA_F4_CROSSYROAD",
+            "name": "No Hesitation",
+            "description": "Spend a lot of money on Penguin Cross on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 5.1
+          },
+          {
+            "apiName": "ACH_CHA_F4_DRAGONTOWER",
+            "name": "Flameproof",
+            "description": "Win at least \"3x\" 3 times in a row on Dragon Tower on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782946327,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "ACH_CHA_F4_DUCKRACE",
+            "name": "Unstoppable Quack",
+            "description": "Win 2 games in a row on Duck Race on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782945861,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "ACH_CHA_F4_HIGHROLLER4",
+            "name": "High Roller 4",
+            "description": "Place a very big bet on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783112725,
+            "globalPct": 13
+          },
+          {
+            "apiName": "ACH_CHA_F4_KENO",
+            "name": "Marked to Win",
+            "description": "Profit a lot of money on Keno on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 4.7
+          },
+          {
+            "apiName": "ACH_CHA_F4_LUCKYSTREAK4",
+            "name": "Lucky Streak 4 ",
+            "description": "Win 5 games in a row on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783109365,
+            "globalPct": 9.7
+          },
+          {
+            "apiName": "ACH_CHA_F4_MINESWEEPER",
+            "name": "No Detonations",
+            "description": "Win \"5X\" 3 times in a row on Mine Sweeper on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.4
+          },
+          {
+            "apiName": "ACH_CHA_F4_MONEYWHEEL",
+            "name": "High Risk Wedge",
+            "description": "Lose 5 games in a row on Money Wheel on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783109029,
+            "globalPct": 1.6
+          },
+          {
+            "apiName": "ACH_CHA_F4_PLINKO",
+            "name": "Straight Down",
+            "description": "Lose 7 games in a row on Plinko on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.5
+          },
+          {
+            "apiName": "ACH_CHA_F4_ROULETTE",
+            "name": "Ball in Motion",
+            "description": "Spend a lot of money on Roulette on Floor 4.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783109190,
+            "globalPct": 6.3
+          },
+          {
+            "apiName": "ACH_MONEY_10M",
+            "name": "HARDER",
+            "description": "Collect $10M.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782743747,
+            "globalPct": 43.3
+          },
+          {
+            "apiName": "ACH_MONEY_100M",
+            "name": "BETTER",
+            "description": "Collect $100M.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782945799,
+            "globalPct": 36.2
+          },
+          {
+            "apiName": "ACH_MONEY_1B",
+            "name": "FASTER",
+            "description": "Collect $1B.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782945847,
+            "globalPct": 29
+          },
+          {
+            "apiName": "ACH_MONEY_10B",
+            "name": "STRONGER",
+            "description": "Collect $10B.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782946435,
+            "globalPct": 22.5
+          },
+          {
+            "apiName": "ACH_MONEY_100B",
+            "name": "WORK IS NEVER OVER!",
+            "description": "Collect $100B.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782946747,
+            "globalPct": 17.3
+          },
+          {
+            "apiName": "ACH_MISC_NOTOGAMBLE",
+            "name": "Not Feeling It",
+            "description": "",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1782658332,
+            "globalPct": 62.9
+          },
+          {
+            "apiName": "ACH_MISC_YESTOGAMBLEWIN",
+            "name": "The Gambler's Blessing",
+            "description": "",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1782588135,
+            "globalPct": 83.6
+          },
+          {
+            "apiName": "ACH_MISC_YESTOGAMBLELOSE",
+            "name": "Unlucky :(",
+            "description": "",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1782668985,
+            "globalPct": 70.7
+          },
+          {
+            "apiName": "ACH_MISC_PEAK",
+            "name": "You reached...PEAK!",
+            "description": "",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1782665268,
+            "globalPct": 52.2
+          },
+          {
+            "apiName": "ACH_MISC_GETHELP",
+            "name": "Real Gambling Is Not Cool.",
+            "description": "Check out the Gambling Support Services around the world and educate yourself.",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1782668928,
+            "globalPct": 25.4
           }
         ]
       }
@@ -198873,637 +200286,6 @@
             "unlocked": false,
             "unlockTime": 0,
             "globalPct": 3.1
-          }
-        ]
-      }
-    },
-    {
-      "appId": 3892270,
-      "name": "Gamble With Your Friends",
-      "playtimeHours": 11.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3892270/620adde61e9a7003f375bb5979fadde34eafa9d6.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1782258835",
-      "genres": [
-        "Adventure",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "May 1, 2026",
-      "achievements": {
-        "total": 55,
-        "unlocked": 36,
-        "items": [
-          {
-            "apiName": "ACH_ENDING_COINFLIP_WON",
-            "name": "Let It Ride!",
-            "description": "",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1782946931,
-            "globalPct": 14.2
-          },
-          {
-            "apiName": "ACH_ENDING_COINFLIP_LOST",
-            "name": "End of the Line",
-            "description": "",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.3
-          },
-          {
-            "apiName": "ACH_ENDING_DEBT_PAID",
-            "name": "...And They Lived Happily After",
-            "description": "",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.7
-          },
-          {
-            "apiName": "ACH_CHA_F1_BIGSPENDER",
-            "name": "Big Spender",
-            "description": "Spend a lot of money on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782677561,
-            "globalPct": 72.9
-          },
-          {
-            "apiName": "ACH_CHA_F1_BLACKJACK",
-            "name": "No Bust Run",
-            "description": "Win 4 games in a row on Blackjack on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782590456,
-            "globalPct": 35.3
-          },
-          {
-            "apiName": "ACH_CHA_F1_CRAPS",
-            "name": "Lucky 7",
-            "description": "Get 7 on your first roll on Street Craps on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782592887,
-            "globalPct": 47.9
-          },
-          {
-            "apiName": "ACH_CHA_F1_HIGHROLLER",
-            "name": "High Roller",
-            "description": "Place a very big bet on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782662065,
-            "globalPct": 72.8
-          },
-          {
-            "apiName": "ACH_CHA_F1_LUCKYSTREAK",
-            "name": "Lucky Streak",
-            "description": "Win 3 games in a row on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782590933,
-            "globalPct": 65.5
-          },
-          {
-            "apiName": "ACH_CHA_F1_ROULETTE",
-            "name": "All on Red",
-            "description": "Bet a lot of money on Roulette on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782676192,
-            "globalPct": 59.8
-          },
-          {
-            "apiName": "ACH_CHA_F1_SLOTS",
-            "name": "Jackpot Hunter",
-            "description": "Win with 10X on Slot Machine on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782659288,
-            "globalPct": 34.3
-          },
-          {
-            "apiName": "ACH_CHA_F1_BLACKJACK2",
-            "name": "Risky Move",
-            "description": "Win on Blackjack with a hand value less than 10 on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782591994,
-            "globalPct": 37.2
-          },
-          {
-            "apiName": "ACH_CHA_F1_DUCKRACE",
-            "name": "YARLL!!!",
-            "description": "Bet on YARL and win on Duck Race on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782683806,
-            "globalPct": 51
-          },
-          {
-            "apiName": "ACH_CHA_F1_WHEELOFFORTUNE",
-            "name": "Spin The Wheel",
-            "description": "Win 3 games by betting a lot of money on Wheel of Fortune on Floor 1.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782588805,
-            "globalPct": 43.8
-          },
-          {
-            "apiName": "ACH_CHA_F2_BIGSPENDER2",
-            "name": "Big Spender 2",
-            "description": "Spend a lot of money on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782593736,
-            "globalPct": 40
-          },
-          {
-            "apiName": "ACH_CHA_F2_CRASH",
-            "name": "Greed Test",
-            "description": "Win at least 10X on Crash on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782941987,
-            "globalPct": 10.7
-          },
-          {
-            "apiName": "ACH_CHA_F2_CROSSYROAD",
-            "name": "Winner Winner Penguin Dinner",
-            "description": "Win at least \"3X\" 2 times in a row on Penguin Cross on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782742863,
-            "globalPct": 25.2
-          },
-          {
-            "apiName": "ACH_CHA_F2_DICE",
-            "name": "Roll the Odds",
-            "description": "Profit a lot of money on HiLo on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782743789,
-            "globalPct": 6.5
-          },
-          {
-            "apiName": "ACH_CHA_F2_HIGHROLLER2",
-            "name": "High Roller 2",
-            "description": "Place a very big bet on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782660166,
-            "globalPct": 44
-          },
-          {
-            "apiName": "ACH_CHA_F2_KENO",
-            "name": "Spot On",
-            "description": "Bet a lot of money on Keno on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782743351,
-            "globalPct": 14.4
-          },
-          {
-            "apiName": "ACH_CHA_F2_LUCKYSTREAK2",
-            "name": "Lucky Streak 2 ",
-            "description": "Win 4 games in a row on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782678027,
-            "globalPct": 33.6
-          },
-          {
-            "apiName": "ACH_CHA_F2_MONEYWHEEL",
-            "name": "Spin Streak",
-            "description": "Win 3 games in a row with a lot of money on Money Wheel on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782941555,
-            "globalPct": 6.3
-          },
-          {
-            "apiName": "ACH_CHA_F2_PLINKO",
-            "name": "Clean Fall",
-            "description": "Win 24X on Plinko on Floor 2.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782685782,
-            "globalPct": 7.5
-          },
-          {
-            "apiName": "ACH_CHA_F3_POKER",
-            "name": "Poker Face",
-            "description": "Don't lock cards and win with a hand equal to or better than Two of a Kind on 1P Poker on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3
-          },
-          {
-            "apiName": "ACH_CHA_F3_BIGSPENDER3",
-            "name": "Big Spender 3",
-            "description": "Bet a lot of money across all games on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782944713,
-            "globalPct": 20.6
-          },
-          {
-            "apiName": "ACH_CHA_F3_CRAPS",
-            "name": "Natural Roller",
-            "description": "Win on Street Craps during the point phase on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "ACH_CHA_F3_CROSSYROAD",
-            "name": "Traffic Monster",
-            "description": "Win at least 4X on Penguin Cross on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782945055,
-            "globalPct": 8.3
-          },
-          {
-            "apiName": "ACH_CHA_F3_DICE",
-            "name": "No Safe Rolls",
-            "description": "Win 10x on HiLo on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782744352,
-            "globalPct": 3.6
-          },
-          {
-            "apiName": "ACH_CHA_F3_DRAGONTOWER",
-            "name": "Step Into Fire",
-            "description": "Lose 4 times in a row on Dragon Tower on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.1
-          },
-          {
-            "apiName": "ACH_CHA_F3_HIGHROLLER3",
-            "name": "High Roller 3",
-            "description": "Place a very big bet on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782665372,
-            "globalPct": 25.3
-          },
-          {
-            "apiName": "ACH_CHA_F3_LUCKYSTREAK3",
-            "name": "Lucky Streak 3",
-            "description": "Win 5 games in a row on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.1
-          },
-          {
-            "apiName": "ACH_CHA_F3_MINESWEEPER",
-            "name": "Perfect Sweep",
-            "description": "Win at least 20X on Mine Sweeper on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "ACH_CHA_F3_WHEELOFFORTUNE",
-            "name": "Keep It Spinning",
-            "description": "Spend a lot of money on Wheel of Fortune on Floor 3.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.8
-          },
-          {
-            "apiName": "ACH_CHA_F4_BIGSPENDER4",
-            "name": "Big Spender 4",
-            "description": "Bet a lot of money across all games on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12
-          },
-          {
-            "apiName": "ACH_CHA_F4_BLACKJACK",
-            "name": "House Breaker",
-            "description": "Win a lot of money on Blackjack on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.4
-          },
-          {
-            "apiName": "ACH_CHA_F4_CRASH",
-            "name": "Safe Exit",
-            "description": "Win 4 times in a row on Crash on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2
-          },
-          {
-            "apiName": "ACH_CHA_F4_CROSSYROAD",
-            "name": "No Hesitation",
-            "description": "Spend a lot of money on Penguin Cross on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 5.1
-          },
-          {
-            "apiName": "ACH_CHA_F4_DRAGONTOWER",
-            "name": "Flameproof",
-            "description": "Win at least \"3x\" 3 times in a row on Dragon Tower on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782946327,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "ACH_CHA_F4_DUCKRACE",
-            "name": "Unstoppable Quack",
-            "description": "Win 2 games in a row on Duck Race on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782945861,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "ACH_CHA_F4_HIGHROLLER4",
-            "name": "High Roller 4",
-            "description": "Place a very big bet on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13
-          },
-          {
-            "apiName": "ACH_CHA_F4_KENO",
-            "name": "Marked to Win",
-            "description": "Profit a lot of money on Keno on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 4.7
-          },
-          {
-            "apiName": "ACH_CHA_F4_LUCKYSTREAK4",
-            "name": "Lucky Streak 4 ",
-            "description": "Win 5 games in a row on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.7
-          },
-          {
-            "apiName": "ACH_CHA_F4_MINESWEEPER",
-            "name": "No Detonations",
-            "description": "Win \"5X\" 3 times in a row on Mine Sweeper on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.4
-          },
-          {
-            "apiName": "ACH_CHA_F4_MONEYWHEEL",
-            "name": "High Risk Wedge",
-            "description": "Lose 5 games in a row on Money Wheel on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.6
-          },
-          {
-            "apiName": "ACH_CHA_F4_PLINKO",
-            "name": "Straight Down",
-            "description": "Lose 7 games in a row on Plinko on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.5
-          },
-          {
-            "apiName": "ACH_CHA_F4_ROULETTE",
-            "name": "Ball in Motion",
-            "description": "Spend a lot of money on Roulette on Floor 4.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.3
-          },
-          {
-            "apiName": "ACH_MONEY_10M",
-            "name": "HARDER",
-            "description": "Collect $10M.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782743747,
-            "globalPct": 43.3
-          },
-          {
-            "apiName": "ACH_MONEY_100M",
-            "name": "BETTER",
-            "description": "Collect $100M.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782945799,
-            "globalPct": 36.2
-          },
-          {
-            "apiName": "ACH_MONEY_1B",
-            "name": "FASTER",
-            "description": "Collect $1B.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782945847,
-            "globalPct": 29
-          },
-          {
-            "apiName": "ACH_MONEY_10B",
-            "name": "STRONGER",
-            "description": "Collect $10B.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782946435,
-            "globalPct": 22.5
-          },
-          {
-            "apiName": "ACH_MONEY_100B",
-            "name": "WORK IS NEVER OVER!",
-            "description": "Collect $100B.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782946747,
-            "globalPct": 17.3
-          },
-          {
-            "apiName": "ACH_MISC_NOTOGAMBLE",
-            "name": "Not Feeling It",
-            "description": "",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1782658332,
-            "globalPct": 62.9
-          },
-          {
-            "apiName": "ACH_MISC_YESTOGAMBLEWIN",
-            "name": "The Gambler's Blessing",
-            "description": "",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1782588135,
-            "globalPct": 83.6
-          },
-          {
-            "apiName": "ACH_MISC_YESTOGAMBLELOSE",
-            "name": "Unlucky :(",
-            "description": "",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/f0ac9bcdb62b9667ba9542403be24b464ee330f8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1782668985,
-            "globalPct": 70.7
-          },
-          {
-            "apiName": "ACH_MISC_PEAK",
-            "name": "You reached...PEAK!",
-            "description": "",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/bd841186e2f335e5b1af013286429ba4c12d515f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1782665268,
-            "globalPct": 52.2
-          },
-          {
-            "apiName": "ACH_MISC_GETHELP",
-            "name": "Real Gambling Is Not Cool.",
-            "description": "Check out the Gambling Support Services around the world and educate yourself.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/d46a400375ef72a3c360136fee5e1126dab3df37.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3892270/9d6e58e76024ee69d0bc8536bd4a93321aa38690.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1782668928,
-            "globalPct": 25.4
           }
         ]
       }
@@ -264335,6 +265117,98 @@
       }
     },
     {
+      "appId": 4028640,
+      "name": "DEFRAG",
+      "playtimeHours": 5.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4028640/dcb3cb281eda23f987a52533a8a06607c0d0e384.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028640/0782813d90c8597eab725b395c772a4e2e6263b4/header.jpg?t=1777442623",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Nov 12, 2025",
+      "achievements": {
+        "total": 6,
+        "unlocked": 6,
+        "items": [
+          {
+            "apiName": "achievement_01",
+            "name": "THROUGHPUT BREAKPOINT",
+            "description": "Destroy all Breakpoints in Benchmark",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/8089f66155ad6cc9d64e9486f725a7981a354789.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/047cb9647e22daafd09992fb0d2c83b846a820f6.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783118154,
+            "globalPct": 42.9
+          },
+          {
+            "apiName": "achievement_02",
+            "name": "THERMAL LIMIT BREACHED",
+            "description": "Complete all Overclock challenges",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/2b5b465b5b27a53afa635d506b683d0c62806fe5.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/c9da39a255d768f3d84b62081c0a11e7c2911738.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783118990,
+            "globalPct": 39.4
+          },
+          {
+            "apiName": "achievement_03",
+            "name": "INTEGRITY CHECK PASSED",
+            "description": "Purge all Bad Sectors",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/ced50415537247bb000d07394d95ceabdcc9e91d.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/913f09e5b8ac4314f985fa87cf8507100212f9a6.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783104958,
+            "globalPct": 65.5
+          },
+          {
+            "apiName": "achievement_04",
+            "name": "HIDDEN PARTITION ERASED",
+            "description": "Clear all EXTRA stages",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/f80be8caa8e47a8618dea9609dbde0c4ffbf6ca3.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/20167cc97c88a2e2b56fee6297d36c624d43ec9e.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783115953,
+            "globalPct": 53.1
+          },
+          {
+            "apiName": "achievement_05",
+            "name": "OPTIMAL TOPOLOGY ACHIEVED",
+            "description": "Upgrade all nodes",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/57b8a584439faa93a50970abcb3eae680c759cd5.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/c8c85996a9b3f33a976204dfc0e881112b40401a.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783116794,
+            "globalPct": 42.5
+          },
+          {
+            "apiName": "achievement_06",
+            "name": "SYSTEM DEFRAG",
+            "description": "REBOOT",
+            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/3ca9b1887781bd0935bfe67726ff84016f58e3f6.jpg",
+            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/4028640/174ef47ca9d601378a7e767d680a650b2943547c.jpg",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1783115982,
+            "globalPct": 52.7
+          }
+        ]
+      }
+    },
+    {
       "appId": 574560,
       "name": "Dude, Stop",
       "playtimeHours": 5.2,
@@ -284500,788 +285374,6 @@
       }
     },
     {
-      "appId": 3820130,
-      "name": "The Dream Globe",
-      "playtimeHours": 3.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3820130/4a005f2070f24a4fb1c46ab1c8216d7044350e7d.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820130/02a92904e7f56690dfd555c6672f5fac5d7f926a/header.jpg?t=1779150308",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Oct 30, 2025",
-      "achievements": {
-        "total": 69,
-        "unlocked": 9,
-        "items": [
-          {
-            "apiName": "ACH_LEVEL_15",
-            "name": "Dream Walker",
-            "description": "Reach level 15, can change scenes",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7a994243bef98138a8290e4f8de7bb0fd9c6e345.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d171c723c609bea0dddb4df2a016d34a625cf632.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783033271,
-            "globalPct": 74.9
-          },
-          {
-            "apiName": "ACH_LEVEL_50",
-            "name": "Deep Dreamer",
-            "description": "Reach level 50",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/74417d86126abfd8d75812a11da6e62300bd90ff.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/eed13485e9d2ece0470c0369c68c8d03dc86ad5d.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 49.9
-          },
-          {
-            "apiName": "ACH_LEVEL_100",
-            "name": "Dream Master",
-            "description": "Reach level 100",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/02171cc6ae15abd4d040a79a2980f7d66afcc957.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e4b84cf7b20e2fa544f7eeaf71c9e0c63a600ca9.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.3
-          },
-          {
-            "apiName": "ACH_MONEY_1K",
-            "name": "Got some money",
-            "description": "Earned 1000 money",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/aca10a3b00f99caa358c746da85dd6a03c5ac41c.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/bc572905ea9537520caa330046657b6a8b49b79e.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783027616,
-            "globalPct": 84.5
-          },
-          {
-            "apiName": "ACH_MONEY_10K",
-            "name": "I'm rich",
-            "description": "Earned 10000 money",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/02331062b568ccc137ebd819f7aa1c4a7490997d.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f912810d1f7c42e257764d29e4c900b914ae31d7.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 68.8
-          },
-          {
-            "apiName": "ACH_MONEY_100K",
-            "name": "Show me the money",
-            "description": "Earned 100000 money",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/60feb7f7f908361973be32931391f12a71d496e9.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/fbe86b3b9fb1faa4bb2dd7a7818f737f02054f20.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 45.2
-          },
-          {
-            "apiName": "ACH_FIRST_BREAD",
-            "name": "First Bread",
-            "description": "Produce 1 bread",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3f0cd358cf05cf61290516cdbf6a9413ae48c0f9.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e56b16e9cf7fbad3a38e9751101147c05a25e208.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783025479,
-            "globalPct": 95.3
-          },
-          {
-            "apiName": "ACH_FIRST_CHICKEN",
-            "name": "First Chick",
-            "description": "Breed a new chicken",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/669655c3d84dfa2638d99627a9b76d9cdf26614c.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1b6ebe0d17242d240d98a6062cd301b2b0396fad.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783026200,
-            "globalPct": 88.2
-          },
-          {
-            "apiName": "ACH_FIRST_LEGENDARY",
-            "name": "Legendary",
-            "description": "Got a legendary product",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/414cdf52e668fd348d20131831a2d3f1baabeec1.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ec1bbcbbb1eedad5f8dbfbb974f254e718b93b86.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783029571,
-            "globalPct": 67.6
-          },
-          {
-            "apiName": "ACH_FIRST_HUNT",
-            "name": "Big Hunt",
-            "description": "Hunt a bear",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/299f14f180bfe2b149ff7ceec7db8e4d1933a5c3.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/32a0e0bbe477327e5799c732b2280df206850213.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 49.9
-          },
-          {
-            "apiName": "ACH_MAX_STOVE",
-            "name": "Baker",
-            "description": "Buy max bakery from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/dbed2d83434a4e86679ed8647dfad115eb5ca81a.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3f6b3dd1b39ec2b18d39010b1a2ca7b7a6c1b35d.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 41.5
-          },
-          {
-            "apiName": "ACH_MAX_SCYTHE",
-            "name": "Farmer",
-            "description": "Buy max farming tool from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d1ccb3957fb66b7799b5e65f56e195d54da477d2.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/23f59ea108dc46a06f93adc44674e9d2ab4224c8.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 42.5
-          },
-          {
-            "apiName": "ACH_MAX_PICKAXE",
-            "name": "Miner",
-            "description": "Buy max  pickaxe from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8b16f507be4e18b4697276fca0a2d9447cca767f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b00ce912bd97650c60abe866db87abba60ea156b.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.2
-          },
-          {
-            "apiName": "ACH_MAX_GARDEN",
-            "name": "Gardener",
-            "description": "Buy max gardening tool from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/42ed45aa3bcc812cc1c98ee3e17cf1233091443f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8c579e15af230dd38d257d0a9de61896a2f2bd81.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.9
-          },
-          {
-            "apiName": "ACH_MAX_FISHING",
-            "name": "Fisher",
-            "description": "Buy max fishing tool from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/dbde060102ca0e73f5ce5cbc15937a84db56a602.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8b647dd510e099a760a61f1793bb929b1cef1c9e.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.4
-          },
-          {
-            "apiName": "ACH_MAX_BREWERY",
-            "name": "Brewer",
-            "description": "Buy max brewery tool from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/088451ae6c557be691faaf3fe67491551fc18aa8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/613cc61b0031f4c71565a33c5caf1af1e5dafa9e.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.7
-          },
-          {
-            "apiName": "ACH_CAT",
-            "name": "Kitten",
-            "description": "Buy a cat from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/03edcad54c1be3e0cc671fc5639f9c612b9be0f7.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7ffd6bc26adf359edd20f16b37209a4fdc22c3c2.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783029490,
-            "globalPct": 80
-          },
-          {
-            "apiName": "ACH_DOG",
-            "name": "Doggy",
-            "description": "Buy a dog from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ea266561f7bc45f8e26f88fd3fb98d2e34f76b8d.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/424be517130e319113ca1bea42f3f638039ccfa7.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 60.8
-          },
-          {
-            "apiName": "ACH_MAX_STOCKPILE",
-            "name": "Warehouse",
-            "description": "Buy max stock limit from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2d442e090c1eab8ebb8ff2ae5af670df0a6530ed.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/12079a46250d8ed149d3ba0468a07da7eeed9907.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 30.8
-          },
-          {
-            "apiName": "ACH_MAX_ENERGY",
-            "name": "Energy",
-            "description": "Buy max stamina from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f4918fe377e070f2318b4e1f10bc2caee14f7f67.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ac0329444425e59a73d09fae7c4b601efdf722a1.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.5
-          },
-          {
-            "apiName": "ACH_SCENE_FOREST",
-            "name": "Forest",
-            "description": "Unlock the forest scene",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/0220742e4aaa8745e86dc21935163c539228c470.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/5d48886f4c259c3c4c02968646f23aee1c224a44.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 70.6
-          },
-          {
-            "apiName": "ACH_SCENE_SNOWLAND",
-            "name": "Snow land",
-            "description": "Unlock the snowland scene",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/52b74ea141443af4687813102564d71472d98978.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a851f39565dc41291b1888f2ba976ac9d996474c.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 48.1
-          },
-          {
-            "apiName": "ACH_TIME_2H",
-            "name": "Beginner",
-            "description": "Play the game for 2 hours",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/102a7ab6021c9509ba94efafa35d9f8be824aea1.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/42e54e68db40a1d7c61340372c48725c799ec442.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783032757,
-            "globalPct": 76.8
-          },
-          {
-            "apiName": "ACH_TIME_8H",
-            "name": "Expert",
-            "description": "Play the game for 8 hours",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/129f2230af84b071690e5491944945e8a7c4eb95.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/68edb389568700d2d1deb81f23cd5b64454ce3fa.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 62.9
-          },
-          {
-            "apiName": "ACH_TIME_24H",
-            "name": "A whole day",
-            "description": "Play the game for 24 hours",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f681601bc9bb1f74a36fde173dfb7fea07d16ff8.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1d7c99ef61099c82b01cec405512574b82f5f3a0.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 49
-          },
-          {
-            "apiName": "ACH_100_BREAD",
-            "name": "Bread",
-            "description": "Produce 100 pcs of bread",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1ef974932f33711e6deb971d0b262ffe5cb17078.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f10d62a05a0f05ae4455c9b4ff1e9dd511fe2d3f.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783031106,
-            "globalPct": 76.2
-          },
-          {
-            "apiName": "ACH_BABY",
-            "name": "Family",
-            "description": "Have a baby",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/de4b4f846365776f88e98350d21b072dc15b9592.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/bb3108853d264cc2e3a0e5ecebecd6465997f2ea.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 33.8
-          },
-          {
-            "apiName": "ACH_100_CHICKEN",
-            "name": "Chicken",
-            "description": "Raise 100 chickens",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/32bfe97bb6e68b9ab93859216aa985da7652ee27.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/4a0e1e4c6976c45101b4735d2f264192c2c3686b.jpg",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1783034897,
-            "globalPct": 69
-          },
-          {
-            "apiName": "ACH_100_GEMS",
-            "name": "Gems",
-            "description": "Mine 100 pcs of stones",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1d000082871b9616eac99f3f7fff5296ced5c391.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/40ad28cd4f8e2be7be9a1bdbe8a3f873c84da8fb.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 58.3
-          },
-          {
-            "apiName": "ACH_100_CROPS",
-            "name": "Vegetables",
-            "description": "Plant 100 pcs of vegetables",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/10fc92e5a659f5c7de4102ea8d285013d62ae3f2.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/c91a7e8c7e74f0b5ca8118dd24d679180ff593e1.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 57.2
-          },
-          {
-            "apiName": "ACH_100_FISH",
-            "name": "Fish",
-            "description": "Catch 100 fish",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9059742bc796930b08b8c93cc3f11a0bd949b8ee.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/c2428e747a2ad525cae8a38133f646348192723e.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 42.9
-          },
-          {
-            "apiName": "ACH_100_ALCOHOL",
-            "name": "Drinks",
-            "description": "Brewery have 100 pcs of products",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a2f99f1dfbc1a57384cfda5c04b6f090bfa28406.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/93fad0d8caf2f2cbec8f7f754991487fc8c7648b.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 41.1
-          },
-          {
-            "apiName": "ACH_FULL_ALCOHOL",
-            "name": "100% Drinks",
-            "description": "Produce all kinds of drinks at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2a420b9636dcce8539258892f829dc0457070d58.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9d238eb1efac41a5c7b9ff125f52f22b1f891f7a.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 26.1
-          },
-          {
-            "apiName": "ACH_FULL_FISH",
-            "name": "100% Fish",
-            "description": "Catch all kinds of fish at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/74e8b14e923e79cef0fac126790f1b1b3b4c7c5f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/639eb4c420e93ab7fbeadd9f7f7a98829107ef1b.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 25.7
-          },
-          {
-            "apiName": "ACH_FULL_GEMS",
-            "name": "100% Gems",
-            "description": "Mine all kinds of minerals at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6871a75816930dd7a76bcee93b3fefaebd92fb50.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/fbe419634840d2b4e3f06d94cfd95219112a6ec3.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 29.5
-          },
-          {
-            "apiName": "ACH_FULL_CROPS",
-            "name": "100% Vegetables",
-            "description": "Harvest all kinds of vegetables at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/273d80134b3d808bfead260835e2fd9dd7d3022b.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b7a5973ee72e3bd231b5f4c00a597504d58c0cbd.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27.7
-          },
-          {
-            "apiName": "ACH_FULL_BREAD",
-            "name": "100% Breads",
-            "description": "Produce all kinds of breads at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/949a3563b082039007c939aedcb8b7d48c756d07.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1982cd66704a26b0b1031b73453660c5b2fe0f8e.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 29.8
-          },
-          {
-            "apiName": "ACH_FULL_CHICKEN",
-            "name": "100% Chicken",
-            "description": "Breed all kinds of chicken at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8220799138bfefc556f2f88720da3e863a3f5ce3.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/c3c0090416bcce0f7b41529c59aef46a42a8e259.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27
-          },
-          {
-            "apiName": "ACH_500_BREAD",
-            "name": "More Bread",
-            "description": "Produce 500 pcs of bread",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/99ee5d8d48e7163e0697266fac517ccba3718719.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6c5004b9cdb1dd7335f71d5aa3183b8fa2521d41.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 48.8
-          },
-          {
-            "apiName": "ACH_500_CHICKEN",
-            "name": "More Chicken",
-            "description": "Raise 500 chickens",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e29e429f38b87e245723fd89ecc7b17708912038.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/36dc6157d0ead6e1438030b2759677cd666517f5.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 43.2
-          },
-          {
-            "apiName": "ACH_500_GEMS",
-            "name": "More Gems",
-            "description": "Mine 500 pcs of stones",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2e64fbb9268cd8051971133da17fa5375b75facd.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2c9c8316610fad183e53c35219360c87f7f0e622.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 48.1
-          },
-          {
-            "apiName": "ACH_500_CROPS",
-            "name": "More Vegetables",
-            "description": "Plant 500 pcs of vegetables",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d64d19e0463ebac95ca04a5243c82d26fa286817.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6f9b195e9eec2d9a8a7d9d0350bf0c1fad619954.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 46.8
-          },
-          {
-            "apiName": "ACH_500_FISH",
-            "name": "More Fish",
-            "description": "Catch 500 fish",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3fc1a78119e2d4d64060de26ee9e447856cc70f4.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e04c5203851c5c5bf90c9d4791adf40b253302fd.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.3
-          },
-          {
-            "apiName": "ACH_500_ALCOHOL",
-            "name": "More Drinks",
-            "description": "Brewery have 500 pcs of products",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/1254f102f57f79b39738945ae8f55637cf4bac79.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/5cc83df544efe7800b66eb751857c6d66566d41c.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.5
-          },
-          {
-            "apiName": "ACH_MONEY_500K",
-            "name": "Golden Globe",
-            "description": "Earned 500000 money",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/be28a6a4a77dfd46e57df07cf4edfb1126a6f753.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f2500545857b5724bb5f8d53a8400d8b0882bdba.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 30.9
-          },
-          {
-            "apiName": "ACH_LUCKY_BOTTLE",
-            "name": "Lucky Bottle",
-            "description": "Find a bottle in the ice lake",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6f41aec6297a3ce82e2aaa97fdf45559fe1e9f21.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/43bf98de277c0a4fdac4b9f4214eb3e8cfc97cb2.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27.1
-          },
-          {
-            "apiName": "ACH_999_BREAD",
-            "name": "Mountain of Bread",
-            "description": "Produce 999 pcs of breads",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9dcf87d7a3d1f54d238cef9c2c3238539c18ed21.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/40a639bed6a504f9d0cf709d39e2613797eccac7.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 35.7
-          },
-          {
-            "apiName": "ACH_999_GEMS",
-            "name": "Gem Vault",
-            "description": "Mine 999 pcs of stones",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/18df8859386e04816ff13ae60b00fc2f4345f0ca.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f703ce42e45b6722850cab02d8f4fd7d2319eec5.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 40.6
-          },
-          {
-            "apiName": "ACH_999_CROPS",
-            "name": "Sea of Vegetable",
-            "description": "Plant 999 pcs of vegetables",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ed86f00a441ee66b30f51c5c44beccf25a88afb7.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/946bcb3dc42c161c633eb81f2660d5df26818d39.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 39
-          },
-          {
-            "apiName": "ACH_999_FISH",
-            "name": "Lake of Fish",
-            "description": "Catch 999 fish",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/cd42b5ec00d4a6580ddf0f6517af835ffa86bfc2.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/eb74155b15e00a6750b6c5ff605fa79d1821e4da.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 31.8
-          },
-          {
-            "apiName": "ACH_DUCK",
-            "name": "Duck",
-            "description": "A pair of ducks moved in, and the biggest effect is that the noisy frog has become much quieter.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e322c5f6a18bd0e4c1ec2a70fbbbb7adca743815.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/dcfe032169f67435804e9345670a10350ae75b85.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27.4
-          },
-          {
-            "apiName": "ACH_PENGUIN",
-            "name": "Penguins",
-            "description": "A small colony of penguins settled on the iceland.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2a99418fe8a7429640587300154b8e856800d465.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f155971539b6cbc09acff4126d1d129de1345578.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 37.9
-          },
-          {
-            "apiName": "ACH_CRAB",
-            "name": "Mud Crab",
-            "description": "Spotted a crab in the swamp.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/ddb407d61d35192f99401166cccf3cb93aa8a029.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2ede07dd2fe5d7adb37b4ad2a08b5d0142397a6b.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 25
-          },
-          {
-            "apiName": "ACH_MAX_PRAY",
-            "name": "Prayer",
-            "description": "Buy max pray level from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/bd6600e052bc8fe1b29659cd3aac26ce50a30643.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7369ea266d63ea3928d6a6b2d2010cc094758ef0.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27.4
-          },
-          {
-            "apiName": "ACH_MAX_HAMMER",
-            "name": "Blacksmith",
-            "description": "Buy max smith tool from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/8b136ec60eb2248a1422b717bc7d067ba1e2f990.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6cd58cf7b557955c1b35358e242304bf580203cd.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 28
-          },
-          {
-            "apiName": "ACH_MAX_WATERINGCAN",
-            "name": "Mushroom Planter",
-            "description": "Buy max mushroom planting level from shop",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2379f23733228f9b04227c73a669d5f0f89a110a.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/68b92a7b76baa52b54749fb1246365fc4e8d423d.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 28.4
-          },
-          {
-            "apiName": "ACH_FULL_SMITH",
-            "name": "100% Blacksmith",
-            "description": "Craft all kinds of smith product at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/d91a212c77e0099680266b23fe288719391ee00a.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/15eb42e624f5b9c495e01c1b38ab870cd84e2049.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 21
-          },
-          {
-            "apiName": "ACH_FULL_MUSHROOM",
-            "name": "100% Mushroom",
-            "description": "Plant all kinds of mushrooms at all qualities",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e7717d5ca49cec7fdadb10ba1f7e621d504230dd.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b9a1a7bf12ed831200e72856bf6156026d8697bf.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 22.6
-          },
-          {
-            "apiName": "ACH_100_MUSHROOM",
-            "name": "Mushrooms",
-            "description": "Plant 100 pcs of mushrooms",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a95db6a9c28c4af4930f77f26574aa0eacd99209.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/67c03dc7b4d95548354bb9bb4ef7631c0738de79.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 33.4
-          },
-          {
-            "apiName": "ACH_500_MUSHROOM",
-            "name": "More Mushrooms",
-            "description": "Plant 500 pcs of mushrooms",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/82b677be26ec69c7dc996f57f67d968430dcdfc4.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/9962bc92c43bcdbdfba6fc5e12a4ccb17cc4bb64.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 28.8
-          },
-          {
-            "apiName": "ACH_999_MUSHROOM",
-            "name": "Mushroom Garden",
-            "description": "Plant 999 pcs of mushrooms",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/386201998e0f46c0e2cc65f9260b4a81665c546c.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/50f9bce3dd6f42b37bc01bb7f56a586183117697.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 25.1
-          },
-          {
-            "apiName": "ACH_100_SMITH",
-            "name": "Smith",
-            "description": "Craft 100 pcs of smith product",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/51976cfe442b7010def5604e4bfff08eae21f646.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/15aa5af993cf70a77e5640bf22b9fa77e9d1427c.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.5
-          },
-          {
-            "apiName": "ACH_500_SMITH",
-            "name": "More Smithing",
-            "description": "Craft 500 pcs of smith product",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/7c3752b4c79f86c7bd84abfdfd49f75567238b0f.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/5f3db22b1ea832f8923b7ea415d378f27fd588fe.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27
-          },
-          {
-            "apiName": "ACH_SCENE_MARSH",
-            "name": "Marsh",
-            "description": "Unlock the marsh scene",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/977f917e1db4afe926ade327db6995455d3f6554.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/6c267dacc1b6bc6181b750a656f317654c8d6f90.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 37.8
-          },
-          {
-            "apiName": "ACH_ALTAR_SPRING",
-            "name": "Rite of Spring",
-            "description": "Click on the Large Flower next to the vegetable garden in the forest scene. This needs to be done at day, after waiting for it to fully charge.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/079ccb9f544bd1d2b70af8c188db9e772d8184c0.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/f8fbbd1dcec929f258114f7fddf0e015db97e409.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27.5
-          },
-          {
-            "apiName": "ACH_ALTAR_SUMMER",
-            "name": "Rite of Summer",
-            "description": "Click on the Brazier in the marsh scene. After waiting for it to fully charge.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/3a949bd7be2344ef1c16a8a8def5543d9f37006b.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/2e2abcc6760aa74ee97032b2729765e6cc35517f.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.5
-          },
-          {
-            "apiName": "ACH_ALTAR_AUTUMN",
-            "name": "Rite of Autumn",
-            "description": "Click on the  Scarecrow in the wheatfield in the plain scene. This needs to be done at night, after waiting for it to fully charge.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/19fa32c9429e846e64d86feedc6e9ea7c01441a4.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/db7bbf4781d660151d2ff6c0a0ed5e5eb5b26d8d.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 31.5
-          },
-          {
-            "apiName": "ACH_ALTAR_WINTER",
-            "name": "Rite of Winter",
-            "description": "Click on the Christmas Tree next to the house in the snowland scene. This needs to be done at night, after waiting for it to fully charge.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/a93afdae7c9177ee790a137eca03b3376b012872.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/b4196f0dbf95c6f93758f53bda4be31da8f01292.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.3
-          },
-          {
-            "apiName": "ACH_ICESPIRIT",
-            "name": "Ice Spirit",
-            "description": "Click the elder ice butterfly in the sky of Ice Land.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/e902c96d8e513bf9f29d53e9c1ec2dc6b31f1c12.jpg",
-            "iconGrayUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3820130/015a222224dce4584a541d1ce540e2ec1c9c1171.jpg",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 34.2
-          }
-        ]
-      }
-    },
-    {
       "appId": 702670,
       "name": "Donut County",
       "playtimeHours": 3.1,
@@ -303899,30 +303991,6 @@
             "globalPct": 93
           }
         ]
-      }
-    },
-    {
-      "appId": 4028640,
-      "name": "DEFRAG",
-      "playtimeHours": 2,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4028640/dcb3cb281eda23f987a52533a8a06607c0d0e384.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4028640/0782813d90c8597eab725b395c772a4e2e6263b4/header.jpg?t=1777442623",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Nov 12, 2025",
-      "achievements": {
-        "total": 6,
-        "unlocked": 0
       }
     },
     {
@@ -411739,6 +411807,13 @@
       "priority": 0,
       "name": "The Typing of The Dead: Overkill",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/246580/header.jpg"
+    },
+    {
+      "appId": 3510740,
+      "dateAdded": 1783102010,
+      "priority": 0,
+      "name": "Luke Muscat's Ultimate Golf Challenge",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3510740/header.jpg"
     }
   ]
 }
