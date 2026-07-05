@@ -1,0 +1,15 @@
+{
+  "books": [
+    {
+      "title": "Blood, Sweat, and Pixels",
+      "author": "Jason Schreier",
+      "featured": false,
+      "format": "Paperback",
+      "description": "",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1487805540l/34376766.jpg",
+      "readUrl": "https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels?from_search=true&from_srp=true&qid=kkQ0pVaSff&rank=1",
+      "id": 1,
+      "read": true
+    }
+  ]
+}

@@ -46,7 +46,7 @@ function json(res, status, data) {
 const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides',
-  'media', 'livestream', 'music', 'credits', 'patchNotes', 'steam-hallofpain',
+  'media', 'livestream', 'music', 'books', 'travel', 'credits', 'patchNotes', 'steam-hallofpain',
 ]);
 
 async function handleTwitchOembed(req, res) {
@@ -66,6 +66,18 @@ async function handleTwitchOembed(req, res) {
   }
 }
 
+async function handleGeocode(req, res) {
+  try {
+    const geocodePath = resolve(process.cwd(), 'api/geocode.cjs');
+    delete require.cache[geocodePath];
+    const handler = require('./api/geocode.cjs');
+    await handler(req, res);
+  } catch (err) {
+    console.error('[geocode dev]', err);
+    return json(res, 502, { error: 'Failed to search locations' });
+  }
+}
+
 export default function adminApiPlugin() {
   return {
     name: 'admin-api',
@@ -73,6 +85,11 @@ export default function adminApiPlugin() {
       server.middlewares.use(async (req, res, next) => {
         if (!req.url?.startsWith('/api/twitch-oembed') || req.method !== 'GET') return next();
         return handleTwitchOembed(req, res);
+      });
+
+      server.middlewares.use(async (req, res, next) => {
+        if (!req.url?.startsWith('/api/geocode') || req.method !== 'GET') return next();
+        return handleGeocode(req, res);
       });
 
       server.middlewares.use(async (req, res, next) => {

@@ -56,16 +56,28 @@
           "description": "Photography, videos, and creative projects."
         },
         {
-          "id": "livestream",
-          "label": "LIVESTREAM",
-          "path": "/livestream",
-          "description": "Twitch stream with live chat and highlights."
-        },
-        {
           "id": "music",
           "label": "MUSIC",
           "path": "/music",
           "description": "Albums and artists I keep on repeat."
+        },
+        {
+          "id": "library",
+          "label": "LIBRARY",
+          "path": "/books",
+          "description": "Books read and worth remembering."
+        },
+        {
+          "id": "journey",
+          "label": "JOURNEY",
+          "path": "/travel-log",
+          "description": "Places visited — map pins, trip stories, and travel memories."
+        },
+        {
+          "id": "livestream",
+          "label": "LIVESTREAM",
+          "path": "/livestream",
+          "description": "Twitch stream with live chat and highlights."
         }
       ]
     },

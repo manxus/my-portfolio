@@ -1,0 +1,175 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hint {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--color-muted, #888);
+  line-height: 1.45;
+  margin: 0;
+}
+
+.searchWrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.searchInput {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  padding: 0.5rem 0.6rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--color-text, #e0e0e0);
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.searchInput:focus {
+  border-color: var(--accent, #5f8f8f);
+}
+
+.searchStatus {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.6rem;
+  color: var(--color-muted, #888);
+}
+
+.searchError {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.6rem;
+  color: #e55;
+}
+
+.searchEmpty {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.6rem;
+  color: var(--color-muted, #888);
+  line-height: 1.45;
+  margin: 0;
+}
+
+.searchResults {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  z-index: 20;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 180px;
+  overflow-y: auto;
+  background: #182028;
+  border: 1px solid #3d6363;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.searchResults li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.searchResults li:last-child {
+  border-bottom: none;
+}
+
+.searchResultBtn {
+  width: 100%;
+  text-align: left;
+  padding: 0.55rem 0.65rem;
+  background: transparent;
+  border: none;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: var(--color-text, #e0e0e0);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.searchResultBtn:hover {
+  background: rgba(95, 143, 143, 0.15);
+}
+
+.attribution {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.55rem;
+  color: var(--color-muted, #666);
+  margin: 0;
+}
+
+.mapFrame {
+  width: 100%;
+  height: 220px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  background: #0a0f12;
+  z-index: 0;
+}
+
+.markerRoot {
+  background: transparent !important;
+  border: none !important;
+}
+
+.mapFrame :global(.leaflet-control-zoom a) {
+  background: #182028;
+  color: #82bfbf;
+  border-color: #3d6363;
+}
+
+.mapFrame :global(.leaflet-control-attribution) {
+  font-size: 0.5rem;
+  background: rgba(10, 15, 18, 0.8);
+  color: #3e555e;
+}
+
+.coordRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.coordField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.coordLabel {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.6rem;
+  color: var(--color-muted, #888);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.coordInput {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  padding: 0.45rem 0.5rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--color-text, #e0e0e0);
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.coordInput:focus {
+  border-color: var(--accent, #5f8f8f);
+}

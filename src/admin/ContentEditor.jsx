@@ -1,6 +1,8 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { motion } from 'framer-motion';
 import { visibleSchemaFields } from './autoId';
+import TravelLocationPicker from './TravelLocationPicker';
 import styles from './ContentEditor.module.css';
 
 function parseTierIdsFromInput(s) {
@@ -329,6 +331,11 @@ export default function ContentEditor({
       if (field.key === '_value') {
         return '';
       }
+      if (field.type === 'mapLocation') {
+        empty.lat = '';
+        empty.lng = '';
+        continue;
+      }
       if (field.type === 'boolean') empty[field.key] = false;
       else if (field.type === 'list' || field.type === 'objectList') empty[field.key] = [];
       else if (field.type === 'tiers') empty[field.key] = { S: [], A: [], B: [], C: [], D: [], F: [], unplayed: [] };
@@ -341,6 +348,7 @@ export default function ContentEditor({
 
   const fields = visibleSchemaFields(schema);
   const isPrimitive = fields.length === 1 && fields[0].key === '_value';
+  const hasMapLocation = fields.some((f) => f.type === 'mapLocation');
 
   const handleChange = useCallback((key, value) => {
     if (isPrimitive) {
@@ -352,6 +360,21 @@ export default function ContentEditor({
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (hasMapLocation) {
+      const lat = formData.lat;
+      const lng = formData.lng;
+      if (
+        lat === '' ||
+        lng === '' ||
+        lat == null ||
+        lng == null ||
+        Number.isNaN(Number(lat)) ||
+        Number.isNaN(Number(lng))
+      ) {
+        alert('Place a pin on the map before saving.');
+        return;
+      }
+    }
     setSaving(true);
     try {
       await onSave(formData);
@@ -361,7 +384,7 @@ export default function ContentEditor({
     }
   };
 
-  return (
+  return createPortal(
     <motion.div
       className={styles.backdrop}
       initial={{ opacity: 0 }}
@@ -370,7 +393,7 @@ export default function ContentEditor({
       onClick={onClose}
     >
       <motion.form
-        className={styles.modal}
+        className={`${styles.modal}${hasMapLocation ? ` ${styles.modalWide}` : ''}`}
         initial={{ scale: 0.95, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         exit={{ scale: 0.95, opacity: 0 }}
@@ -398,12 +421,27 @@ export default function ContentEditor({
                   {field.label}
                   {field.required && <span className={styles.required}>*</span>}
                 </span>
-                <FieldInput
-                  field={field}
-                  value={formData[field.key]}
-                  onChange={(v) => handleChange(field.key, v)}
-                  formData={formData}
-                />
+                {field.type === 'mapLocation' ? (
+                  <TravelLocationPicker
+                    lat={formData.lat}
+                    lng={formData.lng}
+                    onChange={(nextLat, nextLng, locationLabel) => {
+                      setFormData((prev) => ({
+                        ...prev,
+                        lat: nextLat,
+                        lng: nextLng,
+                        ...(locationLabel ? { location: locationLabel } : {}),
+                      }));
+                    }}
+                  />
+                ) : (
+                  <FieldInput
+                    field={field}
+                    value={formData[field.key]}
+                    onChange={(v) => handleChange(field.key, v)}
+                    formData={formData}
+                  />
+                )}
               </div>
             ))
           )}
@@ -418,6 +456,7 @@ export default function ContentEditor({
           </button>
         </div>
       </motion.form>
-    </motion.div>
+    </motion.div>,
+    document.body,
   );
 }

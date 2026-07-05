@@ -258,6 +258,26 @@ export const schemas = {
     { key: 'description', label: 'Description', type: 'text', required: true },
   ],
 
+  'travel.home': [
+    { key: 'location', label: 'Location', type: 'text', required: true },
+    { key: 'mapLocation', label: 'Pin location', type: 'mapLocation', required: true },
+  ],
+
+  'travel.trips': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    { key: 'location', label: 'Location', type: 'text', required: true },
+    { key: 'mapLocation', label: 'Pin location', type: 'mapLocation', required: true },
+    { key: 'period', label: 'Period', type: 'text', required: true },
+    { key: 'summary', label: 'Summary', type: 'textarea' },
+    { key: 'highlights', label: 'Highlights', type: 'list' },
+    { key: 'coverUrl', label: 'Cover Image URL', type: 'text' },
+    { key: 'photos', label: 'Photos', type: 'objectList', schema: [
+      { key: 'url', label: 'Image URL', type: 'text', required: true },
+      { key: 'caption', label: 'Caption', type: 'text' },
+    ]},
+    { key: 'videoUrl', label: 'Video URL (YouTube)', type: 'text' },
+  ],
+
   'music.favorites': [
     { key: 'id', label: 'ID', type: 'number', autoId: true },
     {
@@ -283,6 +303,23 @@ export const schemas = {
     { key: 'description', label: 'Description', type: 'textarea' },
     { key: 'coverUrl', label: 'Cover Image URL', type: 'text' },
     { key: 'listenUrl', label: 'Listen URL (Spotify, etc.)', type: 'text' },
+  ],
+
+  'books.books': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    { key: 'title', label: 'Title', type: 'text', required: true },
+    { key: 'author', label: 'Author', type: 'text', required: true },
+    { key: 'read', label: 'Have read', type: 'boolean' },
+    { key: 'featured', label: 'Show in favorites', type: 'boolean' },
+    {
+      key: 'format',
+      label: 'Format',
+      type: 'select',
+      options: ['Paperback', 'Hardcover', 'Ebook', 'Audiobook'],
+    },
+    { key: 'description', label: 'Description', type: 'textarea' },
+    { key: 'coverUrl', label: 'Cover Image URL', type: 'text' },
+    { key: 'readUrl', label: 'Read URL (Goodreads, StoryGraph, etc.)', type: 'text' },
   ],
 
   'credits.credits': [

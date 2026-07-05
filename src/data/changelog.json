@@ -1,6 +1,46 @@
 {
   "changelog": [
     {
+      "version": "1.5.0",
+      "date": "2026-07-05",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Library page — book shelf with READ and favorite badges, favorites sorted first, and CMS support via local admin and Decap CMS"
+        },
+        {
+          "type": "added",
+          "text": "Steam written reviews: Gamble With Your Friends and Gold Miner: Classic Edition"
+        },
+        {
+          "type": "changed",
+          "text": "EXTRA menu — Library and Journey added; Livestream moved to the bottom; Media and Music subtitles updated (EXTRA // REPLAY VAULT, EXTRA // ON REPEAT)"
+        },
+        {
+          "type": "changed",
+          "text": "Dev admin — content editor modal renders via portal above page UI; travel location picker with geocode search for Journey pins"
+        },
+        {
+          "type": "fixed",
+          "text": "Journey map — zoom and pan clamped so tiles fill the frame with horizontal wrap; no trip or home highlight on first visit"
+        }
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-07-05",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Journey page — interactive dark world map with trip pins, selectable trip cards, highlights, photo lightbox, and embedded YouTube travel videos; seeded with Thailand and Midsummer trips"
+        },
+        {
+          "type": "added",
+          "text": "Journey CMS support — editable home base and trips (lat/lng, photos, highlights) via local admin and Decap CMS"
+        }
+      ]
+    },
+    {
       "version": "1.3.0",
       "date": "2026-07-04",
       "entries": [

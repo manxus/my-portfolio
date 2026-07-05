@@ -487,6 +487,48 @@
         "Little replay value",
         "Best played in short sessions due to the mental strain"
       ]
+    },
+    {
+      "appId": 3892270,
+      "gameName": "Gamble with your friends",
+      "rating": 7,
+      "title": "The house always wins... especially against your friends",
+      "text": "If you're looking for a casual party game to play with friends, Gamble With Your Friends is a solid choice.\n\nThe game offers a good variety of casino games that gradually unlock as you reach new floors. You'll find everything from slots, blackjack, roulette, crash, keno, and plinko to several other games. Each one is fun on its own, but after a while the overall gameplay loop starts to become repetitive. Most of the games are based more on luck than strategy, although a few let you make small decisions that can either save you or make you lose everything because you got a little too greedy.\n\nI played both solo and multiplayer, and it's clear that this game is built around playing with friends. Most of my solo time was just spent cleaning up achievements. Multiplayer is where the game shines, with lots of funny interactions between players. Watching your friends lose all their money, secretly changing their bet size, or jumping into their game creates plenty of memorable moments.\n\nThe controls are responsive, the UI is straightforward, and it's very easy to understand how everything works.\n\nThe art style is simple but charming, fitting the game's goofy atmosphere well. The animations and sound effects are fairly basic, but they get the job done, and the music suits the casino setting nicely.\n\nRun lengths can vary a lot. Sometimes you'll lose everything almost immediately simply because luck wasn't on your side. After several unlucky runs, I definitely felt less motivated to keep playing. On the bright side, there's a decent amount of content, and I think the asking price is fair for what the game offers. It also reinforces one important lesson: gamble with fake money, not real money.\n\nI did run into a few issues. Some challenges referenced games that didn't appear on the current floors, although they still progressed on different machines. The phone in the lobby could still be answered by players joining late, rerolling challenges unexpectedly. The emote wheel occasionally selected the wrong emote, NPCs often stood in front of machines and became more annoying than immersive, and the repeated trips back to the car between days eventually felt like unnecessary downtime. The camera animation when starting a new day also became a bit hard to watch after a while, with your character getting launched out of the box over and over again.\n\nOverall, I had a good time with Gamble With Your Friends. It probably won't keep you hooked for dozens of hours, but it's an easy game to recommend if you want a few evenings full of laughs with friends at a reasonable price.",
+      "date": "2026-07-05",
+      "recommended": true,
+      "pros": [
+        "Good variety of casino games that unlock over time",
+        "Multiplayer creates lots of hilarious moments",
+        "Simple, responsive controls and UI",
+        "Charming, goofy art style",
+        "Fair amount of content for the price"
+      ],
+      "cons": [
+        "Gameplay loop becomes repetitive",
+        "NPCs often get in the way",
+        "Too much downtime between days",
+        "Several small bugs"
+      ]
+    },
+    {
+      "appId": 3777060,
+      "gameName": "Gold Miner:Classic Edition",
+      "rating": 3,
+      "title": "A classic browser game that doesn't quite strike gold on Steam",
+      "text": "Gold Miner is one of those games that many people remember fondly, and I completely understand why. It was a fantastic browser game back in 2003, and replaying it definitely brought back some nostalgic memories.\n\nThat said, I don't think nostalgia alone should determine whether a modern Steam release is worth recommending.\n\nThe gameplay is still simple and easy to understand, but after a short while it started feeling repetitive. The Steam version adds a new game mode and a few small extra things, but overall it's still essentially the same game many of us played for free years ago. Even the menus and general presentation feel a bit rough.\n\nIf you're buying this purely to relive your childhood, you'll probably have a good time for an hour or so, just like I did. But if you've never played Gold Miner before, I don't think it holds up particularly well compared to what's available today, especially at its current price.\n\nI respect what Gold Miner meant to gaming history, but this Steam release feels like it's relying more on nostalgia than offering enough value as a modern release.",
+      "date": "2026-07-05",
+      "recommended": false,
+      "pros": [
+        "Faithful recreation of the classic browser game.",
+        "Nostalgia is strong for returning players.",
+        "Includes a new game mode and a few extra additions."
+      ],
+      "cons": [
+        "Gameplay becomes repetitive quickly.",
+        "Menus and presentation feel unpolished.",
+        "Difficult to justify the price compared to modern alternatives.",
+        "New players may not find it nearly as enjoyable."
+      ]
     }
   ]
 }

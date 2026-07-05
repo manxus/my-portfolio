@@ -16,6 +16,8 @@ import Tech from './pages/Tech';
 import Media from './pages/Media';
 import Livestream from './pages/Livestream';
 import Music from './pages/Music';
+import Books from './pages/Books';
+import TravelLog from './pages/TravelLog';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
 import PatchNotes from './pages/PatchNotes';
@@ -31,9 +33,11 @@ const pageRoutes = [
   { path: '/resume', title: 'Resume', subtitle: 'DLCS // DOWNLOAD 01', Component: Resume },
   { path: '/side-projects', title: 'Side Projects', subtitle: 'DLCS // DOWNLOAD 02', Component: SideProjects },
   { path: '/tech', title: 'Tech Loadout', subtitle: 'STORY // CHAPTER 03', Component: Tech },
-  { path: '/media', title: 'Media', subtitle: 'EXTRA // BONUS CONTENT', Component: Media },
+  { path: '/media', title: 'Media', subtitle: 'EXTRA // REPLAY VAULT', Component: Media },
   { path: '/livestream', title: 'Livestream', subtitle: 'EXTRA // BONUS CONTENT', Component: Livestream },
-  { path: '/music', title: 'Music', subtitle: 'EXTRA // BONUS CONTENT', Component: Music },
+  { path: '/music', title: 'Music', subtitle: 'EXTRA // ON REPEAT', Component: Music },
+  { path: '/books', title: 'Library', subtitle: 'EXTRA // CODEX', Component: Books },
+  { path: '/travel-log', title: 'Journey', subtitle: 'EXTRA // WORLD MAP', Component: TravelLog },
   { path: '/settings', title: 'Settings', subtitle: 'SYSTEM CONFIGURATION', Component: Settings },
   { path: '/credits', title: 'Credits', subtitle: 'ACKNOWLEDGMENTS', Component: Credits },
   { path: '/patch-notes', title: 'Patch Notes', subtitle: 'VERSION HISTORY // CHANGELOG', Component: PatchNotes },

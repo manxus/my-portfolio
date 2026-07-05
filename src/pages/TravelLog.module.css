@@ -1,0 +1,341 @@
+.container {
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--accent-dim);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sectionIcon {
+  color: var(--accent-bright);
+  font-family: var(--font-mono);
+}
+
+/* ---- Timeline ---- */
+
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--accent-dim);
+}
+
+.timelineItem {
+  position: relative;
+}
+
+.timelineItemActive .timelineCard {
+  border-color: var(--accent-dim);
+  box-shadow: 0 0 0 1px rgba(95, 143, 143, 0.15);
+}
+
+.timelineDot {
+  position: absolute;
+  left: -1.5rem;
+  top: 1.35rem;
+  width: 11px;
+  height: 11px;
+  background: var(--bg-deep);
+  border: 2px solid var(--accent);
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.timelineDotActive {
+  background: var(--accent);
+  border-color: var(--accent-bright);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.timelineCard {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  overflow: hidden;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.timelineHeader {
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.timelineHeader:hover {
+  background: var(--bg-hover);
+}
+
+.timelineHeader:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.timelineHeaderMain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.timelinePeriod {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent-bright);
+  letter-spacing: 0.1em;
+}
+
+.timelineTitleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.timelineLocation {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+  margin: 0;
+  min-width: 0;
+  flex: 1;
+}
+
+.timelineControls {
+  flex-shrink: 0;
+}
+
+.timelineCard:hover :global([class*='itemControls']) {
+  opacity: 1;
+}
+
+.emptyTimeline {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  padding: 1rem 0;
+}
+
+.timelineBody {
+  padding: 0 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 1px solid rgba(95, 143, 143, 0.08);
+  padding-top: 1rem;
+  margin-top: -0.25rem;
+}
+
+.timelineCoverWrap {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--bg-hover);
+  border: 1px solid rgba(95, 143, 143, 0.08);
+}
+
+.timelineCover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.detailSummary {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.highlightsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.highlightsLabel,
+.videoLabel {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent-bright);
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.highlightsList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+}
+
+.highlightsList li {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  padding-left: 1rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.highlightsList li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: var(--accent-dim);
+}
+
+.videoHint {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+/* ---- Photos ---- */
+
+.photoStrip {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.photoThumb {
+  width: 100px;
+  height: 72px;
+  overflow: hidden;
+  border: 1px solid var(--accent-dim);
+  cursor: pointer;
+  padding: 0;
+  transition: border-color var(--transition-fast);
+}
+
+.photoThumb:hover {
+  border-color: var(--accent);
+}
+
+.photoThumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---- Video ---- */
+
+.videoBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.videoEmbed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0a0a0a;
+  border: 1px solid var(--accent-dim);
+}
+
+.videoIframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ---- Lightbox ---- */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  backdrop-filter: blur(6px);
+}
+
+.lightboxContent {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+}
+
+.lightboxImage {
+  width: 100%;
+  display: block;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+.lightboxInfo {
+  padding: 0.75rem 1.25rem;
+}
+
+.lightboxInfo p {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.lightboxClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  z-index: 2;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  background: rgba(0, 0, 0, 0.4);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition-fast);
+}
+
+.lightboxClose:hover {
+  color: var(--text-primary);
+}

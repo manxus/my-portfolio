@@ -23,6 +23,10 @@
   gap: 1rem;
 }
 
+.modalWide {
+  max-width: 640px;
+}
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 1.2rem;

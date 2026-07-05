@@ -1,0 +1,129 @@
+{
+  "home": {
+    "location": "Stockholm, Sweden",
+    "lat": 59.3293,
+    "lng": 18.0686
+  },
+  "trips": [
+    {
+      "location": "Budapest, Hungary",
+      "lat": 47.486701,
+      "lng": 19.0448,
+      "period": "2023",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 3
+    },
+    {
+      "location": "New York, United States",
+      "lat": 40.704717,
+      "lng": -74.020386,
+      "period": "2016",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 4
+    },
+    {
+      "id": 1,
+      "location": "Bangkok, Thailand",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "period": "2025",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": ""
+    },
+    {
+      "location": "Boden, Sweden",
+      "lat": 65.824001,
+      "lng": 21.697483,
+      "period": "2022",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 2
+    },
+    {
+      "location": "Idre fjäll, Sweden",
+      "lat": 61.889606,
+      "lng": 12.833074,
+      "period": "2023",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 5
+    },
+    {
+      "location": "Ko Lanta, Thailand",
+      "lat": 7.53102,
+      "lng": 99.094384,
+      "period": "2015",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 6
+    },
+    {
+      "location": "Montenegro",
+      "lat": 42.775562,
+      "lng": 19.202242,
+      "period": "2013",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 7
+    },
+    {
+      "location": "Skövde, Sweden",
+      "lat": 58.389633,
+      "lng": 13.845634,
+      "period": "2024",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 8
+    },
+    {
+      "location": "Jönköping, Sweden",
+      "lat": 57.782563,
+      "lng": 14.165719,
+      "period": "2021, 2022",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 9
+    },
+    {
+      "location": "Luleå, Sweden",
+      "lat": 65.583119,
+      "lng": 22.145954,
+      "period": "2022",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 10
+    }
+  ]
+}

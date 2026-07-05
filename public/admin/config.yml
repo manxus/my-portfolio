@@ -132,6 +132,42 @@ collections:
               - { label: Command, name: command, widget: string }
               - { label: Description, name: description, widget: string }
 
+      - label: Journey
+        name: travel
+        file: src/data/travel.json
+        fields:
+          - label: Home base
+            name: home
+            widget: object
+            fields:
+              - { label: Location, name: location, widget: string }
+              - { label: Latitude, name: lat, widget: number, value_type: float }
+              - { label: Longitude, name: lng, widget: number, value_type: float }
+          - label: Trips
+            name: trips
+            widget: list
+            summary: "{{fields.location}}"
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Location, name: location, widget: string }
+              - { label: Latitude, name: lat, widget: number, value_type: float }
+              - { label: Longitude, name: lng, widget: number, value_type: float }
+              - { label: Period, name: period, widget: string }
+              - { label: Summary, name: summary, widget: text, required: false }
+              - label: Highlights
+                name: highlights
+                widget: list
+              - { label: Cover URL, name: coverUrl, widget: string, required: false }
+              - label: Photos
+                name: photos
+                widget: list
+                required: false
+                summary: "{{fields.caption}}"
+                fields:
+                  - { label: Image URL, name: url, widget: string }
+                  - { label: Caption, name: caption, widget: string, required: false }
+              - { label: Video URL, name: videoUrl, widget: string, required: false }
+
       - label: Music
         name: music
         file: src/data/music.json
@@ -157,6 +193,29 @@ collections:
               - { label: Description, name: description, widget: text, required: false }
               - { label: Cover URL, name: coverUrl, widget: string, required: false }
               - { label: Listen URL, name: listenUrl, widget: string, required: false }
+
+      - label: Library
+        name: books
+        file: src/data/books.json
+        fields:
+          - label: Books
+            name: books
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Title, name: title, widget: string }
+              - { label: Author, name: author, widget: string }
+              - { label: Have read, name: read, widget: boolean, required: false }
+              - { label: Show in favorites, name: featured, widget: boolean, required: false }
+              - label: Format
+                name: format
+                widget: select
+                options: [Paperback, Hardcover, Ebook, Audiobook]
+                required: false
+              - { label: Description, name: description, widget: text, required: false }
+              - { label: Cover URL, name: coverUrl, widget: string, required: false }
+              - { label: Read URL, name: readUrl, widget: string, required: false }
 
       - label: Credits
         name: credits
