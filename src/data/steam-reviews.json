@@ -529,6 +529,28 @@
         "Difficult to justify the price compared to modern alternatives.",
         "New players may not find it nearly as enjoyable."
       ]
+    },
+    {
+      "appId": 2374670,
+      "gameName": "Duncrush",
+      "rating": 6,
+      "title": "Solid Foundation, But Needs More Variety",
+      "text": "Duncrush has a solid foundation, but it could use a bit more variety to stay engaging throughout.\n\nThe core gameplay loop of clearing dungeon floors, collecting loot, and becoming stronger is enjoyable at first. However, it becomes repetitive fairly quickly. While each floor introduces something new, most additions feel minor, and the enemies, equipment, and environments are largely the same with different visual themes.\n\nI wasn't a fan of the click-to-move controls. For this type of game, keyboard movement would have felt much more natural. Combat is also quite basic, and the very short attack range often means you have to stand almost on top of enemies, trading damage rather than avoiding it.\n\nThe retro presentation is well done. The pixel art, sound effects, and soundtrack all fit the game's old-school style nicely. Nothing particularly stands out, but the overall presentation is solid.\n\nProgression is decent, and you definitely feel stronger as you unlock better gear. I especially enjoyed unlocking companions that help you fight through the dungeons.\n\nThe game only lasts a few hours, which works in its favor since there isn't a huge amount of content. It's reasonably priced, although I'd recommend grabbing it on sale if you can.\n\nPerformance was flawless during my playthrough, and I didn't encounter any bugs or technical issues.\n\nOverall, I still recommend Duncrush. It has a fun core gameplay loop and is an enjoyable short experience, but it would benefit from more gameplay variety and a few improvements to combat and movement.",
+      "date": "2026-07-07",
+      "recommended": true,
+      "pros": [
+        "Fun core dungeon-crawling loop",
+        "Nice retro pixel art and soundtrack",
+        "Noticeable character progression",
+        "Companion system is enjoyable"
+      ],
+      "cons": [
+        "Becomes repetitive fairly quickly",
+        "Click-to-move controls feel awkward",
+        "Combat lacks depth",
+        "Extremely short melee range leads to trading damage",
+        "New floors introduce very little mechanically"
+      ]
     }
   ]
 }

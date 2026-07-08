@@ -66,21 +66,9 @@
       "id": 5
     },
     {
-      "location": "Ko Lanta, Thailand",
-      "lat": 7.53102,
-      "lng": 99.094384,
-      "period": "2015",
-      "summary": "",
-      "highlights": [],
-      "coverUrl": "",
-      "photos": [],
-      "videoUrl": "",
-      "id": 6
-    },
-    {
-      "location": "Montenegro",
-      "lat": 42.775562,
-      "lng": 19.202242,
+      "location": "Bigova, Montenegro",
+      "lat": 42.356268,
+      "lng": 18.705745,
       "period": "2013",
       "summary": "",
       "highlights": [],
@@ -88,6 +76,18 @@
       "photos": [],
       "videoUrl": "",
       "id": 7
+    },
+    {
+      "location": "Ko Lanta, Thailand",
+      "lat": 7.53102,
+      "lng": 99.094384,
+      "period": "2015, 2025",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 6
     },
     {
       "location": "Skövde, Sweden",
@@ -124,6 +124,66 @@
       "photos": [],
       "videoUrl": "",
       "id": 10
+    },
+    {
+      "location": "Prague, Czechia",
+      "lat": 50.087465,
+      "lng": 14.421254,
+      "period": "2017",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 11
+    },
+    {
+      "location": "Kufstein, Austria",
+      "lat": 47.582996,
+      "lng": 12.169213,
+      "period": "Need to look up",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 12
+    },
+    {
+      "location": "Brač, Croatia",
+      "lat": 43.323945,
+      "lng": 16.654845,
+      "period": "Need to look up",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 13
+    },
+    {
+      "location": "Billund, Denmark",
+      "lat": 55.724702,
+      "lng": 9.119584,
+      "period": "Need to look up",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 14
+    },
+    {
+      "location": "Berlin, Germany",
+      "lat": 52.517389,
+      "lng": 13.395131,
+      "period": "Need to look up",
+      "summary": "",
+      "highlights": [],
+      "coverUrl": "",
+      "photos": [],
+      "videoUrl": "",
+      "id": 15
     }
   ]
 }

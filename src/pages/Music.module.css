@@ -155,3 +155,163 @@
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 }
+
+/* ---- Live performances ---- */
+
+.performanceList {
+  position: relative;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.performanceList::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--accent-dim);
+}
+
+.performanceItem {
+  position: relative;
+}
+
+.performanceDot {
+  position: absolute;
+  left: -1.5rem;
+  top: 1.1rem;
+  width: 11px;
+  height: 11px;
+  background: var(--bg-deep);
+  border: 2px solid var(--accent);
+}
+
+.performanceRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  transition:
+    border-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.performanceRowClickable {
+  cursor: pointer;
+}
+
+.performanceRowClickable:hover {
+  border-color: var(--accent-dim);
+  transform: translateY(-1px);
+}
+
+.performanceRowClickable:focus-visible {
+  outline: 2px solid var(--accent, #5f8f8f);
+  outline-offset: 2px;
+}
+
+.performanceCoverWrap {
+  flex-shrink: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  overflow: hidden;
+  background: var(--bg-hover);
+}
+
+.performanceCoverImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.performanceCoverPlaceholder {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-hover);
+}
+
+.performanceRow:hover :global([class*='itemControls']) {
+  opacity: 1;
+}
+
+.performanceDate {
+  flex-shrink: 0;
+  width: 6.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent-bright);
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  padding-top: 0.15rem;
+}
+
+.performanceContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.performanceTourFestival {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid var(--accent-dim);
+  padding: 0.15rem 0.5rem;
+  align-self: flex-start;
+}
+
+.performanceTitleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.performanceArtist {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+  margin: 0;
+  min-width: 0;
+  flex: 1;
+}
+
+.performanceMeta {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.emptyList {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .performanceRow {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .performanceDate {
+    width: auto;
+    padding-top: 0;
+  }
+}

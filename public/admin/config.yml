@@ -193,6 +193,19 @@ collections:
               - { label: Description, name: description, widget: text, required: false }
               - { label: Cover URL, name: coverUrl, widget: string, required: false }
               - { label: Listen URL, name: listenUrl, widget: string, required: false }
+          - label: Performances
+            name: performances
+            widget: list
+            summary: "{{fields.artist}} · {{fields.date}}"
+            fields:
+              - { label: ID, name: id, widget: number }
+              - { label: Artist, name: artist, widget: string }
+              - { label: Date, name: date, widget: string }
+              - { label: Venue, name: venue, widget: string }
+              - { label: City, name: city, widget: string }
+              - { label: Tour / Festival, name: tourFestival, widget: string, required: false }
+              - { label: Cover URL, name: coverUrl, widget: string, required: false }
+              - { label: Listen URL, name: listenUrl, widget: string, required: false }
 
       - label: Library
         name: books

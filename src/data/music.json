@@ -93,5 +93,37 @@
       "listenUrl": "https://open.spotify.com/album/4oGLasNzQCSK6V3A8ssVKY?si=KZpey0hARwePj-P-EWSLIQ",
       "id": 9
     }
+  ],
+  "performances": [
+    {
+      "artist": "Bad Omens",
+      "date": "2026-06-24",
+      "venue": "Östermalms IP",
+      "city": "Stockholm",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/artist/3Ri4H12KFyu98LMjSoij5V?si=8DjcIZgzSBmAq7Eaujdr6Q",
+      "id": 2,
+      "tourFestival": "Broken Summer"
+    },
+    {
+      "artist": "Iron Maiden",
+      "date": "2018-06-01",
+      "venue": "Tele2 Arena",
+      "city": "Stockholm",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/artist/6mdiAmATAx73kdxrNrnlao?si=sfW-leU4SdaOz09np9CCWA",
+      "id": 1,
+      "tourFestival": "Legacy of the Beast"
+    },
+    {
+      "artist": "The plot in you",
+      "date": "2026-06-24",
+      "venue": "Östermalms IP",
+      "city": "Stockholm",
+      "coverUrl": "",
+      "listenUrl": "https://open.spotify.com/artist/1cJ5tVoeAEFcZBAwSZ0CtF?si=cu9OvvX8Sc-sCEN49aY-oA",
+      "id": 3,
+      "tourFestival": "Broken Summer"
+    }
   ]
 }

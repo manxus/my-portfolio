@@ -1,6 +1,36 @@
 {
   "changelog": [
     {
+      "version": "1.6.0",
+      "date": "2026-07-09",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Music page — LIVE SHOWS section logs attended performances with date, venue, city, optional Tour / Festival badge, Spotify listen links, and auto-resolved artist cover art"
+        },
+        {
+          "type": "added",
+          "text": "Music performances CMS support — editable via local admin and Decap CMS"
+        },
+        {
+          "type": "added",
+          "text": "Journey trip log — trips grouped by year with animated expand/collapse and scroll-to-selected when picking a map pin"
+        },
+        {
+          "type": "added",
+          "text": "Journey map — Prague, Kufstein, Brač, Billund, Berlin, and Bigova trips added; Ko Lanta period updated"
+        },
+        {
+          "type": "added",
+          "text": "Steam written review: Duncrush"
+        },
+        {
+          "type": "changed",
+          "text": "Music menu description updated to mention live shows"
+        }
+      ]
+    },
+    {
       "version": "1.5.0",
       "date": "2026-07-05",
       "entries": [

@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useEffect } from 'react';
+import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import defaultTravelData from '../data/travel.json';
 import TravelMap, { HOME_PIN_ID } from '../components/TravelMap/TravelMap';
@@ -21,11 +21,35 @@ function tripYear(period) {
   return match ? Number(match[0]) : 0;
 }
 
+function tripYearKey(trip) {
+  const year = tripYear(trip.period);
+  return year > 0 ? String(year) : 'unknown';
+}
+
 function sortTripsChronologically(trips) {
   return [...trips].sort((a, b) => {
     const yearDiff = tripYear(a.period) - tripYear(b.period);
     if (yearDiff !== 0) return yearDiff;
     return (a.id ?? 0) - (b.id ?? 0);
+  });
+}
+
+function groupTripsByYear(trips) {
+  const groups = new Map();
+
+  for (const trip of trips) {
+    const yearKey = tripYearKey(trip);
+    const label = yearKey === 'unknown' ? 'Unknown' : yearKey;
+    if (!groups.has(yearKey)) {
+      groups.set(yearKey, { yearKey, label, trips: [] });
+    }
+    groups.get(yearKey).trips.push(trip);
+  }
+
+  return [...groups.values()].sort((a, b) => {
+    if (a.yearKey === 'unknown') return 1;
+    if (b.yearKey === 'unknown') return -1;
+    return Number(b.yearKey) - Number(a.yearKey);
   });
 }
 
@@ -111,10 +135,6 @@ function TripTimelineBody({ trip, isSelected, onSelectPhoto }) {
           </div>
         </div>
       )}
-
-      {yt && !isSelected && (
-        <p className={styles.videoHint}>Select this trip to load the travel video.</p>
-      )}
     </div>
   );
 }
@@ -133,8 +153,15 @@ export default function TravelLog() {
     [trips],
   );
 
+  const yearGroups = useMemo(
+    () => groupTripsByYear(sortedTrips),
+    [sortedTrips],
+  );
+
   const [selectedId, setSelectedId] = useState(null);
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
+
+  const tripItemRefs = useRef(new Map());
 
   const refreshTravel = useCallback(async () => {
     if (!import.meta.env.DEV) return;
@@ -176,12 +203,25 @@ export default function TravelLog() {
     }
   }, [sortedTrips, selectedId]);
 
+  useEffect(() => {
+    if (selectedId == null || selectedId === HOME_PIN_ID) return;
+    tripItemRefs.current.get(selectedId)?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+    });
+  }, [selectedId]);
+
   const handleSelectTrip = useCallback((id) => {
     setSelectedId(id);
   }, []);
 
   const handleSelectHome = useCallback(() => {
     setSelectedId(HOME_PIN_ID);
+  }, []);
+
+  const setTripItemRef = useCallback((id, node) => {
+    if (node) tripItemRefs.current.set(id, node);
+    else tripItemRefs.current.delete(id);
   }, []);
 
   return (
@@ -216,51 +256,95 @@ export default function TravelLog() {
           {sortedTrips.length === 0 ? (
             <p className={styles.emptyTimeline}>No trips logged yet.</p>
           ) : (
-            <div className={styles.timeline}>
-              {sortedTrips.map((trip) => {
-                const fullIndex = trips.findIndex((t) => t.id === trip.id);
-                const isSelected = trip.id === selectedId && selectedId !== HOME_PIN_ID;
+            <div className={styles.timelineByYear}>
+              {yearGroups.map((group) => {
+                const tripLabel = group.trips.length === 1 ? 'trip' : 'trips';
+
                 return (
-                  <div
-                    key={trip.id}
-                    className={`${styles.timelineItem}${isSelected ? ` ${styles.timelineItemActive}` : ''}`}
-                  >
-                    <div
-                      className={`${styles.timelineDot}${isSelected ? ` ${styles.timelineDotActive}` : ''}`}
-                      aria-hidden
-                    />
-                    <article className={styles.timelineCard}>
-                      <button
-                        type="button"
-                        className={styles.timelineHeader}
-                        onClick={() => handleSelectTrip(trip.id)}
-                        aria-pressed={isSelected}
-                      >
-                        <div className={styles.timelineHeaderMain}>
-                          <span className={styles.timelinePeriod}>{trip.period}</span>
-                          <div className={styles.timelineTitleRow}>
-                            <h3 className={styles.timelineLocation}>{trip.location}</h3>
-                            {fullIndex >= 0 && (
-                              <span
-                                className={styles.timelineControls}
-                                onClick={(e) => e.stopPropagation()}
-                                onKeyDown={(e) => e.stopPropagation()}
+                  <section key={group.yearKey} className={styles.yearSection}>
+                    <h3 className={styles.yearLabel}>
+                      {group.label}
+                      <span className={styles.yearCount}>
+                        · {group.trips.length} {tripLabel}
+                      </span>
+                    </h3>
+                    <div className={styles.timeline}>
+                      {group.trips.map((trip) => {
+                        const fullIndex = trips.findIndex((t) => t.id === trip.id);
+                        const isSelected =
+                          trip.id === selectedId && selectedId !== HOME_PIN_ID;
+                        const hasBody = tripHasBodyContent(trip);
+
+                        return (
+                          <div
+                            key={trip.id}
+                            ref={(node) => setTripItemRef(trip.id, node)}
+                            className={`${styles.timelineItem}${isSelected ? ` ${styles.timelineItemActive}` : ''}`}
+                          >
+                            <div
+                              className={`${styles.timelineDot}${isSelected ? ` ${styles.timelineDotActive}` : ''}`}
+                              aria-hidden
+                            />
+                            <article className={styles.timelineCard}>
+                              <button
+                                type="button"
+                                className={styles.timelineHeader}
+                                onClick={() => handleSelectTrip(trip.id)}
+                                aria-pressed={isSelected}
+                                aria-expanded={isSelected && hasBody}
                               >
-                                <EditableItemControls index={fullIndex} />
-                              </span>
-                            )}
+                                <div className={styles.timelineHeaderMain}>
+                                  <span className={styles.timelinePeriod}>
+                                    {trip.period}
+                                  </span>
+                                  <div className={styles.timelineTitleRow}>
+                                    <h4 className={styles.timelineLocation}>
+                                      {trip.location}
+                                    </h4>
+                                    {fullIndex >= 0 && (
+                                      <span
+                                        className={styles.timelineControls}
+                                        onClick={(e) => e.stopPropagation()}
+                                        onKeyDown={(e) => e.stopPropagation()}
+                                      >
+                                        <EditableItemControls index={fullIndex} />
+                                      </span>
+                                    )}
+                                  </div>
+                                </div>
+                                {hasBody && (
+                                  <span
+                                    className={`${styles.tripChevron}${isSelected ? ` ${styles.tripChevronOpen}` : ''}`}
+                                    aria-hidden
+                                  >
+                                    &#9662;
+                                  </span>
+                                )}
+                              </button>
+
+                              <AnimatePresence initial={false}>
+                                {isSelected && hasBody && (
+                                  <motion.div
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: 'auto', opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    transition={{ duration: 0.25, ease: 'easeInOut' }}
+                                    style={{ overflow: 'hidden' }}
+                                  >
+                                    <TripTimelineBody
+                                      trip={trip}
+                                      isSelected={isSelected}
+                                      onSelectPhoto={setLightboxPhoto}
+                                    />
+                                  </motion.div>
+                                )}
+                              </AnimatePresence>
+                            </article>
                           </div>
-                        </div>
-                      </button>
-                      {tripHasBodyContent(trip) && (
-                        <TripTimelineBody
-                          trip={trip}
-                          isSelected={isSelected}
-                          onSelectPhoto={setLightboxPhoto}
-                        />
-                      )}
-                    </article>
-                  </div>
+                        );
+                      })}
+                    </div>
+                  </section>
                 );
               })}
             </div>

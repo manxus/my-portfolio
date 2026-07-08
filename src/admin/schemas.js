@@ -305,6 +305,17 @@ export const schemas = {
     { key: 'listenUrl', label: 'Listen URL (Spotify, etc.)', type: 'text' },
   ],
 
+  'music.performances': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    { key: 'artist', label: 'Artist / Act', type: 'text', required: true },
+    { key: 'date', label: 'Date (YYYY-MM-DD)', type: 'text', required: true },
+    { key: 'venue', label: 'Venue', type: 'text', required: true },
+    { key: 'city', label: 'City', type: 'text', required: true },
+    { key: 'tourFestival', label: 'Tour / Festival', type: 'text' },
+    { key: 'coverUrl', label: 'Cover Image URL', type: 'text' },
+    { key: 'listenUrl', label: 'Listen URL (Spotify, etc.)', type: 'text' },
+  ],
+
   'books.books': [
     { key: 'id', label: 'ID', type: 'number', autoId: true },
     { key: 'title', label: 'Title', type: 'text', required: true },

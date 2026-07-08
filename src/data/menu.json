@@ -59,7 +59,7 @@
           "id": "music",
           "label": "MUSIC",
           "path": "/music",
-          "description": "Albums and artists I keep on repeat."
+          "description": "Albums, artists, and live shows."
         },
         {
           "id": "library",
