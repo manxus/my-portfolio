@@ -1,0 +1,66 @@
+.headerBadge {
+  margin-top: 0.75rem;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.note {
+  font-family: var(--font-mono);
+  font-size: 0.54rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  margin-top: 0.35rem;
+  padding-left: calc(6px + 0.5rem);
+}
+
+.inlineValue {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  flex-shrink: 0;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.dotOpen {
+  background: var(--accent-bright);
+}
+
+.dotLimited {
+  background: #c9a227;
+}
+
+.dotBusy {
+  background: #a65f5f;
+}
+
+.dotHidden {
+  background: var(--text-dim);
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}

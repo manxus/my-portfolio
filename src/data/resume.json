@@ -116,6 +116,12 @@
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/magnusahman/"
       }
-    ]
+    ],
+    "availability": {
+      "enabled": true,
+      "status": "open",
+      "label": "",
+      "note": "Remote or on-site · Stockholm"
+    }
   }
 }

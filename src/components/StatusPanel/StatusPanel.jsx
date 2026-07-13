@@ -1,10 +1,13 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import changelogData from '../../data/changelog.json';
+import resumeData from '../../data/resume.json';
+import { resolveAvailability } from '../../utils/availability';
 
 const { changelog } = changelogData;
 import PatchModal from '../PatchModal/PatchModal';
 import CommsPanel from '../CommsPanel/CommsPanel';
+import AvailabilityBadge from '../AvailabilityBadge/AvailabilityBadge';
 import styles from './StatusPanel.module.css';
 
 function getClientInfo() {
@@ -106,6 +109,8 @@ export default function StatusPanel() {
   const clientInfo = useMemo(getClientInfo, []);
   const connectionType = useMemo(getConnectionType, []);
   const latest = changelog[0];
+  const availability = resumeData.personalInfo?.availability;
+  const showAvailability = resolveAvailability(availability);
 
   useEffect(() => {
     const tick = setInterval(() => {
@@ -130,6 +135,12 @@ export default function StatusPanel() {
       <div className={styles.window}>
         <h2 className={styles.windowTitle}>&#9670; System Telemetry</h2>
         <div className={styles.statusGrid}>
+          {showAvailability && (
+            <div className={styles.statusRow}>
+              <span className={styles.statusLabel}>Availability</span>
+              <AvailabilityBadge availability={availability} variant="inline" />
+            </div>
+          )}
           <div className={styles.statusRow}>
             <span className={styles.statusLabel}>Build Status</span>
             <span className={styles.statusValue}>

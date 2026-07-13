@@ -150,6 +150,15 @@ export const schemas = {
       { key: 'label', label: 'Label', type: 'text', required: true },
       { key: 'url', label: 'URL', type: 'text', required: true },
     ]},
+    { key: 'availabilityEnabled', label: 'Show availability badge', type: 'boolean' },
+    {
+      key: 'availabilityStatus',
+      label: 'Availability status',
+      type: 'select',
+      options: ['open', 'limited', 'busy', 'hidden'],
+    },
+    { key: 'availabilityLabel', label: 'Custom label (optional)', type: 'text' },
+    { key: 'availabilityNote', label: 'Availability note (optional)', type: 'text' },
   ],
   'resume.timeline': [
     { key: 'year', label: 'Year', type: 'text', required: true },
@@ -331,6 +340,21 @@ export const schemas = {
     { key: 'description', label: 'Description', type: 'textarea' },
     { key: 'coverUrl', label: 'Cover Image URL', type: 'text' },
     { key: 'readUrl', label: 'Read URL (Goodreads, StoryGraph, etc.)', type: 'text' },
+  ],
+
+  'tabletop.games': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    { key: 'title', label: 'Title', type: 'text', required: true },
+    { key: 'designer', label: 'Designer', type: 'text', required: true },
+    { key: 'featured', label: 'Show in favorites', type: 'boolean' },
+    { key: 'owned', label: 'Owned (physical shelf)', type: 'boolean' },
+    { key: 'wishlist', label: 'Wishlist', type: 'boolean' },
+    { key: 'wins', label: 'Wins', type: 'number' },
+    { key: 'losses', label: 'Losses', type: 'number' },
+    { key: 'playerCount', label: 'Player count (e.g. 2-4)', type: 'text' },
+    { key: 'description', label: 'Description', type: 'textarea' },
+    { key: 'coverUrl', label: 'Cover Image URL', type: 'text' },
+    { key: 'bggUrl', label: 'BGG URL (BoardGameGeek)', type: 'text' },
   ],
 
   'credits.credits': [

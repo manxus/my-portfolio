@@ -4,6 +4,10 @@ import { useAdminStore } from '../stores/adminStore';
 import { schemas } from './schemas';
 import { applyAutoId } from './autoId';
 import ContentEditor from './ContentEditor';
+import {
+  flattenPersonalInfoForEditor,
+  nestPersonalInfoFromEditor,
+} from '../utils/availability';
 import styles from './EditableSection.module.css';
 
 const EditableItemsContext = createContext(null);
@@ -29,6 +33,7 @@ export default function EditableSection({
 
   const schemaKey = `${collection}.${dataKey}`;
   const schema = schemas[schemaKey];
+  const isPersonalInfo = collection === 'resume' && dataKey === 'personalInfo';
 
   if (!import.meta.env.DEV || !isAuthenticated || !schema) {
     return children;
@@ -42,7 +47,11 @@ export default function EditableSection({
     try {
       const fileData = await getData(collection);
       const item = fileData[dataKey];
-      setEditState({ mode: 'edit', index: -1, data: item });
+      setEditState({
+        mode: 'edit',
+        index: -1,
+        data: isPersonalInfo ? flattenPersonalInfoForEditor(item) : item,
+      });
     } catch (err) {
       console.error('Failed to load data for editing:', err);
     }
@@ -90,7 +99,8 @@ export default function EditableSection({
       }
       await saveData(collection, { ...fileData, [dataKey]: items });
     } else {
-      await saveData(collection, { ...fileData, [dataKey]: formData });
+      const payload = isPersonalInfo ? nestPersonalInfoFromEditor(formData) : formData;
+      await saveData(collection, { ...fileData, [dataKey]: payload });
     }
     notifyAdminCollectionSaved(collection);
   };

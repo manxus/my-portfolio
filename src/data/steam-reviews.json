@@ -551,6 +551,27 @@
         "Extremely short melee range leads to trading damage",
         "New floors introduce very little mechanically"
       ]
+    },
+    {
+      "appId": 1382070,
+      "gameName": "Viewfinder",
+      "rating": 8,
+      "title": "A Brilliant Puzzle Game That's Just a Little Too Short",
+      "text": "Viewfinder is one of the more creative puzzle games I've played.\n\nThe photography mechanic is fantastic. Being able to place photos into the world and reshape the environment never got old, and the game does a great job introducing new mechanics throughout the adventure without making things feel repetitive.\n\nMost puzzles are on the easier side, but they're still satisfying to solve because there are often multiple ways to approach them. I frequently questioned whether I had solved a puzzle as intended or had simply found my own solution, which made experimentation a lot of fun. The optional challenge levels offer a nice increase in difficulty for players looking for more.\n\nThe visuals are excellent and play a huge role in the experience. The environments are varied, and unlocking camera filters that change how parts of the world look is a fun addition. Combined with the relaxing soundtrack, narration, and voice acting, the game creates a very calming atmosphere.\n\nThe story is interesting enough, but it mainly serves to support the gameplay rather than being the main reason to play.\n\nControls are intuitive, the UI is clean, and I encountered no bugs or performance issues during my playthrough.\n\nMy only real complaint is the length and pricing. The game is fairly short, and although I finished it wanting more, I don't think it's worth the full asking price. I'd definitely recommend waiting for a sale.\n\nOverall, Viewfinder is a unique and memorable puzzle game that I'd happily recommend to anyone who enjoys creative puzzle-solving.",
+      "date": "2026-07-12",
+      "recommended": true,
+      "pros": [
+        "Extremely creative and unique photography mechanic",
+        "Beautiful art style and varied environments",
+        "Relaxing soundtrack, narration, and atmosphere",
+        "New mechanics are introduced at a great pace",
+        "Puzzles allow creative problem-solving"
+      ],
+      "cons": [
+        "Most puzzles are fairly easy",
+        "Short experience",
+        "Difficult to justify the full retail price"
+      ]
     }
   ]
 }

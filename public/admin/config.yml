@@ -230,6 +230,28 @@ collections:
               - { label: Cover URL, name: coverUrl, widget: string, required: false }
               - { label: Read URL, name: readUrl, widget: string, required: false }
 
+      - label: Tabletop
+        name: tabletop
+        file: src/data/tabletop.json
+        fields:
+          - label: Games
+            name: games
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: Title, name: title, widget: string }
+              - { label: Designer, name: designer, widget: string }
+              - { label: Show in favorites, name: featured, widget: boolean, required: false }
+              - { label: Owned (physical shelf), name: owned, widget: boolean, required: false }
+              - { label: Wishlist, name: wishlist, widget: boolean, required: false }
+              - { label: Wins, name: wins, widget: number, value_type: int, required: false }
+              - { label: Losses, name: losses, widget: number, value_type: int, required: false }
+              - { label: Player count, name: playerCount, widget: string, required: false }
+              - { label: Description, name: description, widget: text, required: false }
+              - { label: Cover URL, name: coverUrl, widget: string, required: false }
+              - { label: BGG URL, name: bggUrl, widget: string, required: false }
+
       - label: Credits
         name: credits
         file: src/data/credits.json
@@ -347,6 +369,18 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Location, name: location, widget: string }
               - { label: Email, name: email, widget: string }
+              - label: Availability
+                name: availability
+                widget: object
+                fields:
+                  - { label: Show availability badge, name: enabled, widget: boolean, default: true }
+                  - label: Status
+                    name: status
+                    widget: select
+                    options: [open, limited, busy, hidden]
+                    default: open
+                  - { label: Custom label (optional), name: label, widget: string }
+                  - { label: Note (optional), name: note, widget: string }
               - label: Links
                 name: links
                 widget: list

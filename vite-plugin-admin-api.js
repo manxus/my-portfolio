@@ -46,7 +46,7 @@ function json(res, status, data) {
 const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides',
-  'media', 'livestream', 'music', 'books', 'travel', 'credits', 'patchNotes', 'steam-hallofpain',
+  'media', 'livestream', 'music', 'books', 'tabletop', 'travel', 'credits', 'patchNotes', 'steam-hallofpain',
 ]);
 
 async function handleTwitchOembed(req, res) {

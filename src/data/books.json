@@ -10,6 +10,39 @@
       "readUrl": "https://www.goodreads.com/book/show/34376766-blood-sweat-and-pixels?from_search=true&from_srp=true&qid=kkQ0pVaSff&rank=1",
       "id": 1,
       "read": true
+    },
+    {
+      "title": "Play Nice",
+      "author": "Jason Schreier",
+      "read": false,
+      "featured": false,
+      "format": "Paperback",
+      "description": "",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1707158560i/207567968.jpg",
+      "readUrl": "https://www.goodreads.com/book/show/207567968-play-nice?ac=1",
+      "id": 3
+    },
+    {
+      "title": "Press Reset",
+      "author": "Jason Schreier",
+      "read": false,
+      "featured": false,
+      "format": "Paperback",
+      "description": "",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1603915190i/55277893.jpg",
+      "readUrl": "https://www.goodreads.com/book/show/55277893-press-reset?ac=1",
+      "id": 4
+    },
+    {
+      "title": "Minecraft",
+      "author": "Daniel Goldberg ,  Linus Larsson",
+      "read": true,
+      "featured": false,
+      "format": "Paperback",
+      "description": "",
+      "coverUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1364852622i/17412776.jpg",
+      "readUrl": "https://www.goodreads.com/book/show/17412776-minecraft",
+      "id": 2
     }
   ]
 }

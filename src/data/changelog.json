@@ -1,6 +1,44 @@
 {
   "changelog": [
     {
+      "version": "1.6.1",
+      "date": "2026-07-14",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Tabletop page — board games shelf with owned, featured, and wishlist filters, win/loss record stats, BGG links, and cover art"
+        },
+        {
+          "type": "added",
+          "text": "Tabletop CMS support — editable via local admin and Decap CMS"
+        },
+        {
+          "type": "added",
+          "text": "Main menu availability badge — CMS-editable hiring status under BUILD VERIFIED with pulsing status dot, optional custom label and note, and matching row in System Telemetry on the desktop home screen"
+        },
+        {
+          "type": "added",
+          "text": "Library shelf — Play Nice, Press Reset, and Minecraft added to the codex"
+        },
+        {
+          "type": "added",
+          "text": "Steam written review: Viewfinder"
+        },
+        {
+          "type": "added",
+          "text": "Hall of Pain — Hollow Knight, Hotline Miami 2, Noita, Dark Souls, and additional dreading titles added to the wall"
+        },
+        {
+          "type": "changed",
+          "text": "Steam Achievements browse list — game picker now sorted alphabetically instead of by unlock count"
+        },
+        {
+          "type": "changed",
+          "text": "Steam tier list — Shredders moved from Unplayed to C tier"
+        }
+      ]
+    },
+    {
       "version": "1.6.0",
       "date": "2026-07-09",
       "entries": [

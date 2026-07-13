@@ -68,6 +68,12 @@
           "description": "Books read and worth remembering."
         },
         {
+          "id": "tabletop",
+          "label": "TABLETOP",
+          "path": "/tabletop",
+          "description": "Board games owned, played, and worth revisiting."
+        },
+        {
           "id": "journey",
           "label": "JOURNEY",
           "path": "/travel-log",

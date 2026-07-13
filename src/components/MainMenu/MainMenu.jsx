@@ -2,12 +2,15 @@ import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import menuData from '../../data/menu.json';
+import resumeData from '../../data/resume.json';
 import { useKeyboardNav } from '../../hooks/useKeyboardNav';
 import { useSound } from '../../hooks/useSound';
 import ExitModal from '../ExitModal/ExitModal';
 import MenuBackground from '../MenuBackground/MenuBackground';
 import StatusPanel from '../StatusPanel/StatusPanel';
+import AvailabilityBadge from '../AvailabilityBadge/AvailabilityBadge';
 import HiddenTrigger from '../../admin/HiddenTrigger';
+import EditableSection from '../../admin/EditableSection';
 import styles from './MainMenu.module.css';
 
 const { menuItems } = menuData;
@@ -203,6 +206,12 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
           <p className={styles.subtitle}>
             QUALITY ASSURANCE DIVISION // BUILD SECTOR 04
           </p>
+          <EditableSection collection="resume" dataKey="personalInfo" singleton>
+            <AvailabilityBadge
+              availability={resumeData.personalInfo?.availability}
+              variant="header"
+            />
+          </EditableSection>
         </header>
 
         <nav className={styles.nav}>

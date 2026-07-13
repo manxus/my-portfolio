@@ -83,8 +83,8 @@ export default function SteamAchievements({ games }) {
   const browseGameList = useMemo(() => {
     const q = browseSearch.trim().toLowerCase();
     return [...gamesWithItems]
-      .sort((a, b) => (b.achievements.unlocked || 0) - (a.achievements.unlocked || 0))
-      .filter((g) => (q ? g.name.toLowerCase().includes(q) : true));
+      .filter((g) => (q ? g.name.toLowerCase().includes(q) : true))
+      .sort((a, b) => a.name.localeCompare(b.name));
   }, [gamesWithItems, browseSearch]);
 
   const activeBrowseId =
