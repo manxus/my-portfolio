@@ -47,6 +47,45 @@
   color: var(--text-primary);
 }
 
+.titleBoldPlatinum {
+  background: linear-gradient(
+    105deg,
+    #9a7209 0%,
+    #ffd700 22%,
+    #fff6c8 42%,
+    #ffd700 58%,
+    #fff6c8 72%,
+    #daa520 88%,
+    #9a7209 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter:
+    drop-shadow(0 0 8px rgba(255, 215, 0, 0.65))
+    drop-shadow(0 0 18px rgba(255, 215, 0, 0.4))
+    drop-shadow(0 0 32px rgba(255, 200, 0, 0.2));
+}
+
+.titleBoldPlatinumStill {
+  background: linear-gradient(
+    105deg,
+    #9a7209 0%,
+    #ffd700 22%,
+    #fff6c8 42%,
+    #ffd700 58%,
+    #fff6c8 72%,
+    #daa520 88%,
+    #9a7209 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter:
+    drop-shadow(0 0 8px rgba(255, 215, 0, 0.65))
+    drop-shadow(0 0 18px rgba(255, 215, 0, 0.4));
+}
+
 .titleLight {
   font-weight: 300;
   color: var(--accent);

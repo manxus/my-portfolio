@@ -225,6 +225,26 @@
 
 /* ---- Reset ---- */
 
+.medalsLink {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--accent-dim);
+  width: 100%;
+  outline: none;
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.medalsLink:hover {
+  color: var(--accent-bright);
+  border-color: var(--accent-bright);
+}
+
 .resetButton {
   font-family: var(--font-mono);
   font-size: 0.75rem;

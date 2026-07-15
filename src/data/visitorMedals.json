@@ -1,0 +1,286 @@
+{
+  "medals": [
+    {
+      "id": "first_boot",
+      "title": "First boot",
+      "description": "Completed the system boot sequence.",
+      "category": "onboarding",
+      "secret": false
+    },
+    {
+      "id": "patient_boot",
+      "title": "Patient boot",
+      "description": "Watched the full boot sequence without skipping.",
+      "category": "onboarding",
+      "secret": false
+    },
+    {
+      "id": "welcome_back",
+      "title": "Welcome back",
+      "description": "Returned on a different day.",
+      "category": "onboarding",
+      "secret": false
+    },
+    {
+      "id": "story_complete",
+      "title": "Story mode clear",
+      "description": "Visited every STORY chapter.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "dlc_complete",
+      "title": "DLC pack installed",
+      "description": "Opened all downloadable content pages.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "extra_complete",
+      "title": "Bonus disc unlocked",
+      "description": "Explored every EXTRA section.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "full_catalog",
+      "title": "Full catalog sweep",
+      "description": "Visited every page in the launcher.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "patch_reader",
+      "title": "Patch notes reader",
+      "description": "Read the version history.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "cv_download",
+      "title": "Paper trail",
+      "description": "Downloaded the CV.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "comms_open",
+      "title": "Comms open",
+      "description": "Clicked a link in the Comms panel.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "achievement_hunter",
+      "title": "Achievement hunter",
+      "description": "Opened the Steam Library achievements tab.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "steam_curator",
+      "title": "Steam curator",
+      "description": "Visited the Steam curator page from reviews.",
+      "category": "exploration",
+      "secret": false
+    },
+    {
+      "id": "session_5",
+      "title": "Warm-up lap",
+      "description": "5 minutes of session uptime.",
+      "category": "session",
+      "secret": false
+    },
+    {
+      "id": "session_15",
+      "title": "Extended session",
+      "description": "15 minutes of session uptime.",
+      "category": "session",
+      "secret": false
+    },
+    {
+      "id": "session_30",
+      "title": "Marathon viewer",
+      "description": "30 minutes of session uptime.",
+      "category": "session",
+      "secret": false
+    },
+    {
+      "id": "deep_session",
+      "title": "Deep dive",
+      "description": "Visited 8 or more pages in one session.",
+      "category": "session",
+      "secret": false
+    },
+    {
+      "id": "speedrun",
+      "title": "Speedrun",
+      "description": "Visited 5 pages within 2 minutes.",
+      "category": "session",
+      "secret": false
+    },
+    {
+      "id": "night_shift",
+      "title": "Night shift",
+      "description": "Browsed the site after 10 PM.",
+      "category": "session",
+      "secret": false
+    },
+    {
+      "id": "early_bird",
+      "title": "Early bird",
+      "description": "Browsed the site before 8 AM.",
+      "category": "session",
+      "secret": false
+    },
+    {
+      "id": "hiring_path",
+      "title": "Recruiter route",
+      "description": "Viewed QA Portfolio and Resume in the same session.",
+      "category": "recruiter",
+      "secret": false
+    },
+    {
+      "id": "settings_tinker",
+      "title": "Settings tinkerer",
+      "description": "Customized at least one setting.",
+      "category": "customization",
+      "secret": false
+    },
+    {
+      "id": "factory_reset",
+      "title": "Factory reset",
+      "description": "Reset all settings to defaults.",
+      "category": "customization",
+      "secret": false
+    },
+    {
+      "id": "sound_check",
+      "title": "Sound check",
+      "description": "Enabled sound effects.",
+      "category": "customization",
+      "secret": false
+    },
+    {
+      "id": "aim_trainer",
+      "title": "Aim trainer",
+      "description": "Tried 3 different cursor styles.",
+      "category": "customization",
+      "secret": false
+    },
+    {
+      "id": "ludicrous",
+      "title": "Ludicrous speed",
+      "description": "Cranked particle speed to Ludicrous.",
+      "category": "customization",
+      "secret": false
+    },
+    {
+      "id": "full_retro",
+      "title": "Full retro",
+      "description": "Enabled CRT filter and monochrome together.",
+      "category": "customization",
+      "secret": false
+    },
+    {
+      "id": "the_light_it_hurt",
+      "title": "The light, it hurt",
+      "description": "Switched to light theme, then fled back to dark.",
+      "category": "customization",
+      "secret": false
+    },
+    {
+      "id": "exit_warning",
+      "title": "Exit warning",
+      "description": "Triggered the quit confirmation dialog.",
+      "category": "secrets",
+      "secret": false
+    },
+    {
+      "id": "no_regrets",
+      "title": "No regrets",
+      "description": "Confirmed exit on the quit dialog.",
+      "category": "secrets",
+      "secret": true
+    },
+    {
+      "id": "credits_survivor",
+      "title": "Credits survivor",
+      "description": "Watched the credits to the end.",
+      "category": "secrets",
+      "secret": true
+    },
+    {
+      "id": "boot_skip",
+      "title": "Skip cutscene",
+      "description": "Skipped the boot sequence animation.",
+      "category": "secrets",
+      "secret": true
+    },
+    {
+      "id": "keyboard_master",
+      "title": "Keyboard warrior",
+      "description": "Navigated the menu with keyboard only.",
+      "category": "secrets",
+      "secret": true
+    },
+    {
+      "id": "regular",
+      "title": "Regular",
+      "description": "Returned on 3 different days.",
+      "category": "completion",
+      "secret": false
+    },
+    {
+      "id": "veteran",
+      "title": "Veteran",
+      "description": "Returned on 7 different days.",
+      "category": "completion",
+      "secret": false
+    },
+    {
+      "id": "platinum_build",
+      "title": "Platinum build",
+      "description": "Unlocked every other achievement.",
+      "category": "completion",
+      "secret": false
+    }
+  ],
+  "displayOrder": [
+    "first_boot",
+    "patient_boot",
+    "welcome_back",
+    "story_complete",
+    "dlc_complete",
+    "extra_complete",
+    "full_catalog",
+    "patch_reader",
+    "cv_download",
+    "comms_open",
+    "achievement_hunter",
+    "steam_curator",
+    "session_5",
+    "session_15",
+    "session_30",
+    "deep_session",
+    "speedrun",
+    "night_shift",
+    "early_bird",
+    "hiring_path",
+    "settings_tinker",
+    "factory_reset",
+    "sound_check",
+    "aim_trainer",
+    "ludicrous",
+    "full_retro",
+    "the_light_it_hurt",
+    "exit_warning",
+    "regular",
+    "veteran",
+    "no_regrets",
+    "credits_survivor",
+    "boot_skip",
+    "keyboard_master",
+    "platinum_build"
+  ]
+}

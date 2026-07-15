@@ -1,9 +1,11 @@
 import { useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
+import { trackExitConfirm } from '../../hooks/useVisitorTracking';
 import styles from './ExitModal.module.css';
 
 export default function ExitModal({ onClose }) {
   const handleExit = () => {
+    trackExitConfirm();
     window.open('about:blank', '_self');
     window.close();
   };

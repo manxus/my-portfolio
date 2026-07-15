@@ -2,6 +2,7 @@ import { useRef, useLayoutEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import creditsData from '../data/credits.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
+import { trackCreditsFinished } from '../hooks/useVisitorTracking';
 import styles from './Credits.module.css';
 
 const CREDITS = creditsData.credits;
@@ -39,6 +40,7 @@ export default function Credits() {
 
       if (offset + content.scrollHeight <= 0) {
         setFinished(true);
+        trackCreditsFinished();
         rafId = null;
         return;
       }

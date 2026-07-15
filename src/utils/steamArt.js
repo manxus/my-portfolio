@@ -54,3 +54,13 @@ export function legacyLibraryCapsuleUrls(appId) {
 export function defaultHeaderUrl(appId) {
   return `https://cdn.cloudflare.steamstatic.com/steam/apps/${appId}/header.jpg`;
 }
+
+/** Extract Steam app ID from a store URL, e.g. .../app/730/... */
+export function parseSteamAppId(raw) {
+  const s = String(raw ?? '').trim();
+  if (!s) return null;
+  const match = s.match(/(?:store\.steampowered\.com\/app\/|steam:\/\/rungameid\/)(\d+)/i);
+  if (!match) return null;
+  const id = Number(match[1]);
+  return Number.isFinite(id) && id > 0 ? id : null;
+}

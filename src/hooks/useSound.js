@@ -91,6 +91,10 @@ const SOUND_THEMES = {
       setTimeout(() => playTone(700, 0.15, 0.5, 'sine'), 120);
       setTimeout(() => playTone(900, 0.2, 0.4, 'sine'), 240);
     },
+    unlock: () => {
+      playTone(660, 0.1, 0.5, 'sine');
+      setTimeout(() => playTone(880, 0.14, 0.45, 'sine'), 70);
+    },
   },
 
   retro: {
@@ -112,6 +116,10 @@ const SOUND_THEMES = {
       playTone(523, 0.08, 0.5, 'square');
       setTimeout(() => playTone(659, 0.08, 0.5, 'square'), 80);
       setTimeout(() => playTone(784, 0.12, 0.6, 'square'), 160);
+    },
+    unlock: () => {
+      playTone(784, 0.06, 0.5, 'square');
+      setTimeout(() => playTone(988, 0.08, 0.45, 'square'), 60);
     },
   },
 
@@ -146,6 +154,10 @@ const SOUND_THEMES = {
       playNoise(0.06, 0.5);
       playTone(1000, 0.1, 0.4, 'triangle');
     },
+    unlock: () => {
+      playNoise(0.04, 0.4);
+      playTone(1200, 0.08, 0.35, 'triangle');
+    },
   },
 
   soft: {
@@ -164,6 +176,10 @@ const SOUND_THEMES = {
       playTone(396, 0.2, 0.3, 'sine');
       setTimeout(() => playTone(528, 0.2, 0.25, 'sine'), 180);
       setTimeout(() => playTone(660, 0.3, 0.2, 'sine'), 360);
+    },
+    unlock: () => {
+      playTone(440, 0.15, 0.25, 'sine');
+      setTimeout(() => playTone(554, 0.2, 0.2, 'sine'), 100);
     },
   },
 
@@ -192,6 +208,10 @@ const SOUND_THEMES = {
       playDetunedChord(500, 0.2, 0.5);
       setTimeout(() => playDetunedChord(700, 0.2, 0.4), 150);
       setTimeout(() => playDetunedChord(1000, 0.3, 0.35), 300);
+    },
+    unlock: () => {
+      playDetunedChord(600, 0.12, 0.45);
+      setTimeout(() => playDetunedChord(900, 0.16, 0.35), 80);
     },
   },
 };

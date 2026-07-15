@@ -27,6 +27,10 @@ import LoginModal from './admin/LoginModal';
 import AdminToolbar from './admin/AdminToolbar';
 import { useMediaQuery } from './hooks/useMediaQuery';
 import { useSettingsApplier } from './hooks/useSettingsApplier';
+import { useVisitorTracking, trackBootComplete } from './hooks/useVisitorTracking';
+import UnlockToast from './components/VisitorMedals/UnlockToast';
+import VisitorMedalsDrawer from './components/VisitorMedals/VisitorMedalsDrawer';
+import { useVisitorStore } from './stores/visitorStore';
 
 const pageRoutes = [
   { path: '/qa-portfolio', title: 'QA Portfolio', subtitle: 'STORY // CHAPTER 01', Component: QAPortfolio },
@@ -47,12 +51,21 @@ const pageRoutes = [
 
 export default function App() {
   useSettingsApplier();
+  useVisitorTracking();
   const location = useLocation();
+  const drawerOpen = useVisitorStore((s) => s.drawerOpen);
+  const setDrawerOpen = useVisitorStore((s) => s.setDrawerOpen);
   const isDesktop = useMediaQuery('(min-width: 1200px)');
   const reduceMotion = useSettingsStore((s) => s.reduceMotion);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
   const verifyToken = useAdminStore((s) => s.verifyToken);
   const [showLogin, setShowLogin] = useState(false);
+
+  useEffect(() => {
+    if (sessionStorage.getItem('bv_boot') === 'done') {
+      trackBootComplete();
+    }
+  }, []);
 
   const handleAdminTrigger = useCallback(() => {
     if (isAuthenticated) return;
@@ -72,6 +85,7 @@ export default function App() {
 
   const handleBootComplete = () => {
     sessionStorage.setItem('bv_boot', 'done');
+    trackBootComplete();
     setBootComplete(true);
   };
 
@@ -150,6 +164,13 @@ export default function App() {
           {isAuthenticated && <AdminToolbar />}
         </>
       )}
+
+      <UnlockToast />
+      <AnimatePresence>
+        {drawerOpen && (
+          <VisitorMedalsDrawer onClose={() => setDrawerOpen(false)} />
+        )}
+      </AnimatePresence>
     </MotionConfig>
   );
 }

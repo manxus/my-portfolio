@@ -3,7 +3,159 @@ import { createPortal } from 'react-dom';
 import { motion } from 'framer-motion';
 import { visibleSchemaFields } from './autoId';
 import TravelLocationPicker from './TravelLocationPicker';
+import { useAdminStore } from '../stores/adminStore';
+import { setAdminEditorOpen } from './editorLock';
 import styles from './ContentEditor.module.css';
+
+const ADMIN_PORTAL = () => document.getElementById('admin-portal') ?? document.body;
+
+async function readClipboardText(event) {
+  const fromEvent =
+    event?.clipboardData?.getData('text/plain') ||
+    event?.clipboardData?.getData('text') ||
+    '';
+  if (fromEvent) return fromEvent;
+  if (navigator.clipboard?.readText) {
+    try {
+      return await navigator.clipboard.readText();
+    } catch {
+      return '';
+    }
+  }
+  return '';
+}
+
+function insertTextAtSelection(el, current, text, onCommit) {
+  const start = el?.selectionStart ?? current.length;
+  const end = el?.selectionEnd ?? start;
+  const next = current.slice(0, start) + text + current.slice(end);
+  onCommit(next);
+  requestAnimationFrame(() => {
+    try {
+      el.setSelectionRange(start + text.length, start + text.length);
+    } catch {
+      /* ignore */
+    }
+  });
+}
+
+function TextInput({ value, onChange, className, placeholder }) {
+  const [draft, setDraft] = useState(() => String(value ?? ''));
+  const focusedRef = useRef(false);
+
+  useEffect(() => {
+    if (!focusedRef.current) {
+      setDraft(String(value ?? ''));
+    }
+  }, [value]);
+
+  const commit = (next) => {
+    setDraft(next);
+    onChange(next);
+  };
+
+  const applyPaste = async (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    const text = await readClipboardText(e);
+    if (!text) return;
+    insertTextAtSelection(e.target, draft, text, commit);
+  };
+
+  const handlePasteShortcut = async (e) => {
+    if (!((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'v')) return;
+    e.stopPropagation();
+    e.preventDefault();
+    const text = await readClipboardText();
+    if (!text) return;
+    insertTextAtSelection(e.target, draft, text, commit);
+  };
+
+  return (
+    <input
+      className={className}
+      type="text"
+      value={draft}
+      placeholder={placeholder}
+      onFocus={() => {
+        focusedRef.current = true;
+      }}
+      onBlur={() => {
+        focusedRef.current = false;
+        onChange(draft);
+      }}
+      onChange={(e) => commit(e.target.value)}
+      onKeyDown={(e) => {
+        e.stopPropagation();
+        void handlePasteShortcut(e);
+      }}
+      onPaste={(e) => {
+        void applyPaste(e);
+      }}
+    />
+  );
+}
+
+function TextAreaInput({ value, onChange, className, rows = 3 }) {
+  const [draft, setDraft] = useState(() => String(value ?? ''));
+  const focusedRef = useRef(false);
+
+  useEffect(() => {
+    if (!focusedRef.current) {
+      setDraft(String(value ?? ''));
+    }
+  }, [value]);
+
+  const commit = (next) => {
+    setDraft(next);
+    onChange(next);
+  };
+
+  const applyPaste = async (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+    const text = await readClipboardText(e);
+    if (!text) return;
+    insertTextAtSelection(e.target, draft, text, commit);
+  };
+
+  const handlePasteShortcut = async (e) => {
+    if (!((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'v')) return;
+    e.stopPropagation();
+    e.preventDefault();
+    const text = await readClipboardText();
+    if (!text) return;
+    insertTextAtSelection(e.target, draft, text, commit);
+  };
+
+  return (
+    <textarea
+      className={className}
+      value={draft}
+      rows={rows}
+      onFocus={() => {
+        focusedRef.current = true;
+      }}
+      onBlur={() => {
+        focusedRef.current = false;
+        onChange(draft);
+      }}
+      onChange={(e) => commit(e.target.value)}
+      onKeyDown={(e) => {
+        e.stopPropagation();
+        void handlePasteShortcut(e);
+      }}
+      onPaste={(e) => {
+        void applyPaste(e);
+      }}
+    />
+  );
+}
+
+async function pasteClipboardValue(onChange) {
+  const text = await readClipboardText();
+  if (text) onChange(text.trim());
+}
 
 function parseTierIdsFromInput(s) {
   return String(s)
@@ -49,13 +201,77 @@ function TierAppIdsInput({ ids, onChange }) {
   );
 }
 
+function FileField({ field, value, onChange }) {
+  const uploadFile = useAdminStore((s) => s.uploadFile);
+  const [uploading, setUploading] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleFile = async (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    setError('');
+    setUploading(true);
+    try {
+      const { url } = await uploadFile(file);
+      onChange(url);
+    } catch (err) {
+      setError(err.message || 'Upload failed');
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  return (
+    <div className={styles.fileField}>
+      <TextInput
+        className={styles.input}
+        value={value}
+        onChange={onChange}
+        placeholder="/uploads/your-cv.pdf"
+      />
+      <div className={styles.fileActions}>
+        <button
+          type="button"
+          className={styles.filePickerBtn}
+          onClick={() => {
+            void pasteClipboardValue(onChange);
+          }}
+        >
+          PASTE URL
+        </button>
+        <label className={styles.filePickerBtn}>
+          <input
+            type="file"
+            accept={field.accept || 'application/pdf,.pdf'}
+            onChange={handleFile}
+            disabled={uploading}
+            hidden
+          />
+          {uploading ? 'UPLOADING…' : 'CHOOSE PDF'}
+        </label>
+      </div>
+      {value ? (
+        <a className={styles.fileLink} href={value} target="_blank" rel="noopener noreferrer">
+          Open current file
+        </a>
+      ) : null}
+      {error ? <span className={styles.fileError}>{error}</span> : null}
+    </div>
+  );
+}
+
 function FieldInput({ field, value, onChange, formData }) {
+  if (field.type === 'file') {
+    return <FileField field={field} value={value} onChange={onChange} />;
+  }
+
   if (field.type === 'textarea') {
     return (
-      <textarea
+      <TextAreaInput
         className={styles.textarea}
-        value={value ?? ''}
-        onChange={(e) => onChange(e.target.value)}
+        value={value}
+        onChange={onChange}
         rows={3}
       />
     );
@@ -178,12 +394,12 @@ function FieldInput({ field, value, onChange, formData }) {
       <div className={styles.listField}>
         {items.map((item, i) => (
           <div key={i} className={styles.listRow}>
-            <input
+            <TextInput
               className={styles.input}
               value={item}
-              onChange={(e) => {
+              onChange={(v) => {
                 const next = [...items];
-                next[i] = e.target.value;
+                next[i] = v;
                 onChange(next);
               }}
             />
@@ -307,11 +523,10 @@ function FieldInput({ field, value, onChange, formData }) {
   }
 
   return (
-    <input
+    <TextInput
       className={styles.input}
-      type="text"
-      value={value ?? ''}
-      onChange={(e) => onChange(e.target.value)}
+      value={value}
+      onChange={onChange}
     />
   );
 }
@@ -345,6 +560,11 @@ export default function ContentEditor({
     return empty;
   });
   const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    setAdminEditorOpen(true);
+    return () => setAdminEditorOpen(false);
+  }, []);
 
   const fields = visibleSchemaFields(schema);
   const isPrimitive = fields.length === 1 && fields[0].key === '_value';
@@ -392,6 +612,7 @@ export default function ContentEditor({
       exit={{ opacity: 0 }}
       onClick={onClose}
     >
+      <div className={styles.backdropFill} aria-hidden="true" />
       <motion.form
         className={`${styles.modal}${hasMapLocation ? ` ${styles.modalWide}` : ''}`}
         initial={{ scale: 0.95, opacity: 0 }}
@@ -457,6 +678,6 @@ export default function ContentEditor({
         </div>
       </motion.form>
     </motion.div>,
-    document.body,
+    ADMIN_PORTAL(),
   );
 }

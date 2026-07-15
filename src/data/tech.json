@@ -109,14 +109,14 @@
       "title": "OPERATING SYSTEMS",
       "items": [
         {
-          "name": "Windows 10/11",
+          "name": "Windows",
           "tags": [],
           "proficiency": "Daily Use"
         },
         {
           "name": "Android",
           "tags": [],
-          "proficiency": "Proficient"
+          "proficiency": "Daily Use"
         },
         {
           "name": "macOS",

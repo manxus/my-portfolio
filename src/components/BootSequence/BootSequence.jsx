@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSound } from '../../hooks/useSound';
+import { trackBootSkip } from '../../hooks/useVisitorTracking';
 import styles from './BootSequence.module.css';
 
 const BOOT_LINES = [
@@ -79,6 +80,7 @@ export default function BootSequence({ onComplete }) {
   }, []);
 
   const skipToEnd = useCallback(() => {
+    trackBootSkip();
     abortRef.current = true;
     setTypingText('');
     setDisplayedLines(

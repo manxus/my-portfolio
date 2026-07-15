@@ -2,6 +2,7 @@
   "knownIssues": [
     "Steam library JSON is updated by a scheduled workflow, not live from Steam",
     "In-browser content editing (Decap CMS) is wired for local development; the public site is static",
-    "Some CRT and motion effects are heavy on low-end devices — use Settings to tone them down"
+    "Some CRT and motion effects are heavy on low-end devices — use Settings to tone them down",
+    "Admin CV upload and PASTE URL require the local dev server (npm run dev); production edits use Decap CMS or JSON"
   ]
 }

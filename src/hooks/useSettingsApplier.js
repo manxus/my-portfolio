@@ -43,12 +43,13 @@ export function useSettingsApplier() {
   }, [reduceMotion]);
 
   useEffect(() => {
+    // Apply on #root (not <html>) so portaled admin modals stay editable.
+    const root = document.getElementById('root');
     const hasFilter = monochrome || (colorblindMode && colorblindMode !== 'none');
-    if (hasFilter) {
-      document.documentElement.style.filter = 'url(#bv-vision-filter)';
-    } else {
-      document.documentElement.style.filter = '';
+    if (root) {
+      root.style.filter = hasFilter ? 'url(#bv-vision-filter)' : '';
     }
+    document.documentElement.style.filter = '';
   }, [colorblindMode, monochrome]);
 
   useEffect(() => {

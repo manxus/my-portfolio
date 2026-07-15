@@ -70,6 +70,30 @@ export const useAdminStore = create(
         if (!res.ok) throw new Error('Failed to save data');
         return res.json();
       },
+
+      uploadFile: async (file) => {
+        const { authFetch } = get();
+        const buffer = await file.arrayBuffer();
+        const bytes = new Uint8Array(buffer);
+        let binary = '';
+        for (let i = 0; i < bytes.length; i += 1) {
+          binary += String.fromCharCode(bytes[i]);
+        }
+        const data = btoa(binary);
+        const res = await authFetch('/api/admin/upload', {
+          method: 'POST',
+          body: JSON.stringify({
+            filename: file.name,
+            data,
+            mimeType: file.type,
+          }),
+        });
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          throw new Error(err.error || 'Upload failed');
+        }
+        return res.json();
+      },
     }),
     {
       name: 'bv-admin',

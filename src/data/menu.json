@@ -88,6 +88,12 @@
       ]
     },
     {
+      "id": "achievements",
+      "label": "ACHIEVEMENTS",
+      "action": "achievements",
+      "description": "Your exploration progress and hidden discoveries."
+    },
+    {
       "id": "settings",
       "label": "SETTINGS",
       "path": "/settings",

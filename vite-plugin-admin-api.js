@@ -1,7 +1,7 @@
 import { createHmac } from 'node:crypto';
 import { createRequire } from 'node:module';
-import { readFile, writeFile } from 'node:fs/promises';
-import { resolve } from 'node:path';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { basename, extname, resolve } from 'node:path';
 
 const require = createRequire(import.meta.url);
 
@@ -119,6 +119,31 @@ export default function adminApiPlugin() {
           if (req.url === '/api/admin/verify' && req.method === 'GET') {
             const token = req.headers.authorization?.replace('Bearer ', '');
             return json(res, 200, { valid: verifyToken(token) });
+          }
+
+          if (req.url === '/api/admin/upload' && req.method === 'POST') {
+            const token = req.headers.authorization?.replace('Bearer ', '');
+            if (!verifyToken(token)) {
+              return json(res, 401, { error: 'Unauthorized' });
+            }
+
+            const body = JSON.parse(await readBody(req));
+            const rawName = typeof body.filename === 'string' ? body.filename : '';
+            const safeName = basename(rawName).replace(/[^a-zA-Z0-9._-]/g, '-');
+            const ext = extname(safeName).toLowerCase();
+            const allowedExt = new Set(['.pdf', '.png', '.jpg', '.jpeg', '.webp', '.gif']);
+            if (!safeName || !allowedExt.has(ext)) {
+              return json(res, 400, { error: 'Invalid file type' });
+            }
+            if (typeof body.data !== 'string' || !body.data) {
+              return json(res, 400, { error: 'Missing file data' });
+            }
+
+            const uploadsDir = resolve(process.cwd(), 'public/uploads');
+            await mkdir(uploadsDir, { recursive: true });
+            const filePath = resolve(uploadsDir, safeName);
+            await writeFile(filePath, Buffer.from(body.data, 'base64'));
+            return json(res, 200, { url: `/uploads/${safeName}` });
           }
 
           const dataMatch = req.url.match(/^\/api\/admin\/data\/([a-zA-Z0-9_-]+)$/);

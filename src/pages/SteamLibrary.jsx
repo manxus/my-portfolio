@@ -15,6 +15,7 @@ import SteamWishlist from '../components/SteamWishlist/SteamWishlist';
 import SteamMilestones from '../components/SteamMilestones/SteamMilestones';
 import SteamHallOfPain from '../components/SteamHallOfPain/SteamHallOfPain';
 import SteamAchievements from '../components/SteamAchievements/SteamAchievements';
+import { trackSteamAchievementsTab } from '../hooks/useVisitorTracking';
 import SteamGameCover from '../components/SteamGameCover/SteamGameCover';
 import styles from './SteamLibrary.module.css';
 
@@ -136,6 +137,7 @@ export default function SteamLibrary() {
   }, [selectedIndex, cols, pagedGames.length]);
 
   const handleTabChange = useCallback((tab) => {
+    if (tab === 'achievements') trackSteamAchievementsTab();
     setActiveTab(tab);
     setSelectedGame(null);
   }, []);

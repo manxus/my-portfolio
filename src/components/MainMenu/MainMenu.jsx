@@ -10,6 +10,9 @@ import MenuBackground from '../MenuBackground/MenuBackground';
 import StatusPanel from '../StatusPanel/StatusPanel';
 import AvailabilityBadge from '../AvailabilityBadge/AvailabilityBadge';
 import HiddenTrigger from '../../admin/HiddenTrigger';
+import { trackExitModal, trackKeyboardNav } from '../../hooks/useVisitorTracking';
+import { useVisitorStore, hasAllAchievementsUnlocked } from '../../stores/visitorStore';
+import { useSettingsStore } from '../../stores/settingsStore';
 import EditableSection from '../../admin/EditableSection';
 import styles from './MainMenu.module.css';
 
@@ -42,6 +45,10 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
   const keyboardActive = useRef(false);
   const pendingFocusId = useRef(null);
   const isDesktop = desktopContent !== undefined;
+  const setDrawerOpen = useVisitorStore((s) => s.setDrawerOpen);
+  const unlocked = useVisitorStore((s) => s.unlocked);
+  const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const allAchievementsUnlocked = hasAllAchievementsUnlocked(unlocked);
 
   const flatItems = useMemo(() => {
     const items = [];
@@ -60,7 +67,13 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
     (item) => {
       if (item.action === 'exit') {
         play('error');
+        trackExitModal();
         setShowExit(true);
+        return;
+      }
+      if (item.action === 'achievements') {
+        play('select');
+        setDrawerOpen(true);
         return;
       }
       if (item.children) {
@@ -77,7 +90,7 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
         navigate(item.path);
       }
     },
-    [navigate, play],
+    [navigate, play, setDrawerOpen],
   );
 
   const handleSelect = useCallback(
@@ -86,8 +99,10 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
       if (!item) return;
 
       if (item.type === 'child' && item.path) {
+        if (keyboardActive.current) trackKeyboardNav();
         navigate(item.path);
       } else {
+        if (keyboardActive.current && item.path) trackKeyboardNav();
         handleItemAction(item);
       }
     },
@@ -199,7 +214,17 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
       <div className={styles.menuPanel} ref={menuRef}>
         <header className={styles.header}>
           <h1 className={styles.title}>
-            <span className={styles.titleBold}>BUILD</span>{' '}
+            <span
+              className={`${styles.titleBold} ${
+                allAchievementsUnlocked
+                  ? reduceMotion
+                    ? styles.titleBoldPlatinumStill
+                    : styles.titleBoldPlatinum
+                  : ''
+              }`}
+            >
+              BUILD
+            </span>{' '}
             <span className={styles.titleLight}>VERIFIED</span>
             <span className={styles.titleIcon}>&#9673;</span>
           </h1>

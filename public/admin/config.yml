@@ -40,6 +40,18 @@ collections:
               - label: Highlights
                 name: highlights
                 widget: list
+          - label: Games worked on
+            name: gamesWorkedOn
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Company, name: company, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Period, name: period, widget: string, required: false }
+              - { label: Store or page URL, name: url, widget: string, required: false }
+              - { label: Steam App ID, name: appId, widget: string, required: false, hint: "Optional. Auto-detected from Steam store URLs." }
+              - { label: Cover image URL, name: coverUrl, widget: string, required: false, hint: "Optional. Uses Steam library art when App ID or store URL is set." }
           - label: Playtests
             name: playtests
             widget: list
@@ -47,9 +59,13 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Studio, name: studio, widget: string }
+              - { label: Source, name: source, widget: select, options: [official, gameround], default: official }
+              - { label: Visibility, name: visibility, widget: select, options: [public, private], default: public, required: false }
               - { label: Year, name: year, widget: string }
               - { label: Type, name: type, widget: string }
               - { label: Store or page URL, name: url, widget: string, required: false }
+              - { label: Steam App ID, name: appId, widget: string, required: false, hint: "Optional. Auto-detected from Steam store URLs." }
+              - { label: Cover image URL, name: coverUrl, widget: string, required: false, hint: "Optional. Uses Steam library art when App ID or store URL is set." }
           - label: Certificates
             name: certificates
             widget: list
@@ -369,6 +385,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Location, name: location, widget: string }
               - { label: Email, name: email, widget: string }
+              - { label: CV file (PDF), name: cvUrl, widget: file, required: false, media_folder: public/uploads, public_folder: /uploads }
               - label: Availability
                 name: availability
                 widget: object

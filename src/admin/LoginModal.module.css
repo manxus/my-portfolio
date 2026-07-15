@@ -5,11 +5,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(4px);
+}
+
+.backdropFill {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
 }
 
 .modal {
+  position: relative;
+  z-index: 1;
   background: var(--color-surface, #1a1a2e);
   border: 1px solid var(--accent, #5f8f8f);
   border-radius: 8px;

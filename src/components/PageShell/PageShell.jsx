@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { isAdminEditorOpen } from '../../admin/editorLock';
 import styles from './PageShell.module.css';
 
 export default function PageShell({
@@ -15,7 +16,19 @@ export default function PageShell({
 
   useEffect(() => {
     const handleKey = (e) => {
-      if (e.key === 'Escape') navigate('/');
+      if (e.key !== 'Escape' || isAdminEditorOpen()) return;
+      const t = e.target;
+      if (
+        t instanceof Element &&
+        (t.tagName === 'INPUT' ||
+          t.tagName === 'TEXTAREA' ||
+          t.tagName === 'SELECT' ||
+          t.isContentEditable ||
+          t.closest('[role="dialog"], form'))
+      ) {
+        return;
+      }
+      navigate('/');
     };
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);

@@ -128,12 +128,44 @@ export const schemas = {
     { key: 'period', label: 'Period', type: 'text', required: true },
     { key: 'description', label: 'Description', type: 'textarea' },
   ],
+  'qaPortfolio.gamesWorkedOn': [
+    { key: 'title', label: 'Game Title', type: 'text', required: true },
+    { key: 'company', label: 'Company / Studio', type: 'text', required: true },
+    { key: 'role', label: 'Role', type: 'text', required: true },
+    { key: 'period', label: 'Period', type: 'text' },
+    { key: 'url', label: 'Store or page URL (e.g. Steam)', type: 'text' },
+    { key: 'appId', label: 'Steam App ID (optional)', type: 'text' },
+    { key: 'coverUrl', label: 'Cover image URL (optional)', type: 'text' },
+  ],
   'qaPortfolio.playtests': [
     { key: 'title', label: 'Game Title', type: 'text', required: true },
     { key: 'studio', label: 'Studio', type: 'text', required: true },
+    {
+      key: 'source',
+      label: 'Source',
+      type: 'select',
+      options: ['official', 'gameround'],
+      required: true,
+    },
+    {
+      key: 'visibility',
+      label: 'Visibility (Gameround only)',
+      type: 'select',
+      options: ['public', 'private'],
+    },
     { key: 'year', label: 'Year', type: 'text', required: true },
     { key: 'type', label: 'Type', type: 'text', required: true },
     { key: 'url', label: 'Store or page URL (e.g. Steam)', type: 'text' },
+    {
+      key: 'appId',
+      label: 'Steam App ID (optional)',
+      type: 'text',
+    },
+    {
+      key: 'coverUrl',
+      label: 'Cover image URL (optional)',
+      type: 'text',
+    },
   ],
   'qaPortfolio.certificates': [
     { key: 'name', label: 'Certificate Name', type: 'text', required: true },
@@ -146,6 +178,7 @@ export const schemas = {
     { key: 'title', label: 'Title', type: 'text', required: true },
     { key: 'location', label: 'Location', type: 'text' },
     { key: 'email', label: 'Email', type: 'text' },
+    { key: 'cvUrl', label: 'CV file (PDF)', type: 'file', accept: 'application/pdf,.pdf' },
     { key: 'links', label: 'Links', type: 'objectList', schema: [
       { key: 'label', label: 'Label', type: 'text', required: true },
       { key: 'url', label: 'URL', type: 'text', required: true },

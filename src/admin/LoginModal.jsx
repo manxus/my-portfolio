@@ -32,6 +32,7 @@ export default function LoginModal({ onClose }) {
       exit={{ opacity: 0 }}
       onClick={onClose}
     >
+      <div className={styles.backdropFill} aria-hidden="true" />
       <motion.form
         className={styles.modal}
         initial={{ scale: 0.9, opacity: 0 }}
@@ -39,6 +40,8 @@ export default function LoginModal({ onClose }) {
         exit={{ scale: 0.9, opacity: 0 }}
         transition={{ duration: 0.2 }}
         onClick={(e) => e.stopPropagation()}
+        onKeyDown={(e) => e.stopPropagation()}
+        onPaste={(e) => e.stopPropagation()}
         onSubmit={handleSubmit}
       >
         <h2 className={styles.title}>ADMIN ACCESS</h2>

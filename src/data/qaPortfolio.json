@@ -19,10 +19,20 @@
       ]
     }
   ],
+  "gamesWorkedOn": [
+    {
+      "title": "PAYDAY 3",
+      "company": "Starbreeze Entertainment",
+      "role": "QA Intern",
+      "period": "2023",
+      "url": "https://store.steampowered.com/app/1272080/PAYDAY_3/"
+    }
+  ],
   "playtests": [
     {
       "title": "STRIDEN",
       "studio": "Northify",
+      "source": "official",
       "year": "2025",
       "type": "Closed Beta",
       "url": "https://store.steampowered.com/app/2052970/STRIDEN/"
@@ -30,6 +40,7 @@
     {
       "title": "Snowtracked",
       "studio": "Northify",
+      "source": "official",
       "year": "2025",
       "type": "Closed Alpha",
       "url": "https://store.steampowered.com/app/1909310/Snowtracked/"
@@ -37,18 +48,22 @@
     {
       "title": "Undisclosed Title",
       "studio": "Studio Name (NDA)",
+      "source": "official",
       "year": "2025",
       "type": "Technical Test"
     },
     {
       "title": "Undisclosed Title",
       "studio": "Game Studio (NDA)",
+      "source": "official",
       "year": "2024",
       "type": "Closed Alpha"
     },
     {
       "title": "Monster Meals: Big Bite Diner",
       "studio": "Giant Warrior Studio",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/4209940/Monster_Meals_Big_Bite_Diner/"
@@ -56,34 +71,44 @@
     {
       "title": "PengPong",
       "studio": "SANDY FLOOR",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
-      "type": "gameround",
+      "type": "Gameround",
       "url": "https://store.steampowered.com/app/2766910/PengPong/"
     },
     {
       "title": "Demon Lord: Just a Block",
       "studio": "YuWave Studio",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
-      "type": "gameround",
+      "type": "Gameround",
       "url": "https://store.steampowered.com/app/3720420/Demon_Lord_Just_a_Block/"
     },
     {
       "title": "Tokatonton: One-Armed Blacksmith",
       "studio": "SANDY FLOOR",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
-      "type": "gameround",
+      "type": "Gameround",
       "url": "https://store.steampowered.com/app/3399610/Tokatonton_OneArmed_Blacksmith/"
     },
     {
       "title": "The Last Squad",
       "studio": "STOIC Entertainment Inc.",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
-      "type": "gameround",
+      "type": "Gameround",
       "url": "https://store.steampowered.com/app/3600590/The_Last_Squad/"
     },
     {
       "title": "Aksun",
       "studio": "Wayway Inc.",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/3129360/Aksun/"
@@ -91,6 +116,8 @@
     {
       "title": "Cult Of Blood",
       "studio": "Dusty Box",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/3056650/Cult_Of_Blood/"
@@ -98,6 +125,8 @@
     {
       "title": "Woodland Rebels",
       "studio": "Beak Berry Games",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/3862100/Woodland_Rebels/"
@@ -105,6 +134,8 @@
     {
       "title": "Gluttony",
       "studio": "TeamFG",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/3806120/Gluttony/"
@@ -112,6 +143,8 @@
     {
       "title": "One Last Hand",
       "studio": "Fire Brick Games",
+      "source": "gameround",
+      "visibility": "public",
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/4209830/One_Last_Hand/"

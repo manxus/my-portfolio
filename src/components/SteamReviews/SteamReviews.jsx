@@ -4,6 +4,7 @@ import steamReviewsData from '../../data/steam-reviews.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import SteamFilters from '../SteamFilters/SteamFilters';
+import { trackSteamCuratorClick } from '../../hooks/useVisitorTracking';
 import styles from './SteamReviews.module.css';
 
 const { reviews } = steamReviewsData;
@@ -142,6 +143,7 @@ export default function SteamReviews({ games }) {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.curatorLink}
+            onClick={() => trackSteamCuratorClick()}
           >
             STEAM CURATOR &#8599;
           </a>

@@ -1,5 +1,8 @@
+import { useEffect, useRef } from 'react';
 import { useSettingsStore } from '../stores/settingsStore';
 import { useSound } from '../hooks/useSound';
+import { trackSettingsChange, trackSettingsReset } from '../hooks/useVisitorTracking';
+import { useVisitorStore } from '../stores/visitorStore';
 import { CURSOR_STYLES } from '../utils/cursors';
 import styles from './Settings.module.css';
 
@@ -79,6 +82,31 @@ export default function Settings() {
   } = useSettingsStore();
 
   const { play } = useSound();
+  const setDrawerOpen = useVisitorStore((s) => s.setDrawerOpen);
+  const settingsInitialized = useRef(false);
+
+  useEffect(() => {
+    if (!settingsInitialized.current) {
+      settingsInitialized.current = true;
+      return;
+    }
+    trackSettingsChange();
+  }, [
+    theme,
+    accentColor,
+    soundEnabled,
+    soundVolume,
+    soundTheme,
+    effectsEnabled,
+    crtFilter,
+    particlesEnabled,
+    reduceMotion,
+    fontSize,
+    particleSpeed,
+    colorblindMode,
+    monochrome,
+    cursorStyle,
+  ]);
 
   const previewSound = (themeValue) => {
     setSoundTheme(themeValue);
@@ -282,7 +310,22 @@ export default function Settings() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>SYSTEM</h3>
           <div className={styles.setting}>
-            <button className={styles.resetButton} onClick={resetAll}>
+            <button
+              type="button"
+              className={styles.medalsLink}
+              onClick={() => setDrawerOpen(true)}
+            >
+              VIEW ACHIEVEMENTS
+            </button>
+          </div>
+          <div className={styles.setting}>
+            <button
+              className={styles.resetButton}
+              onClick={() => {
+                trackSettingsReset();
+                resetAll();
+              }}
+            >
               RESET TO DEFAULTS
             </button>
           </div>

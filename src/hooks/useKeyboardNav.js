@@ -1,11 +1,20 @@
 import { useState, useEffect, useCallback } from 'react';
+import { isAdminEditorOpen } from '../admin/editorLock';
+
+function isTypingInField(target) {
+  if (!(target instanceof Element)) return false;
+  const tag = target.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return true;
+  if (target.isContentEditable) return true;
+  return Boolean(target.closest('[contenteditable="true"], [role="textbox"]'));
+}
 
 export function useKeyboardNav(itemCount, { onSelect, onBack, enabled = true }) {
   const [focusIndex, setFocusIndex] = useState(-1);
 
   const handleKeyDown = useCallback(
     (e) => {
-      if (!enabled || itemCount === 0) return;
+      if (!enabled || itemCount === 0 || isAdminEditorOpen() || isTypingInField(e.target)) return;
 
       switch (e.key) {
         case 'ArrowDown':

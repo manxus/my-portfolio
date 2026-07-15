@@ -1,0 +1,269 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+}
+
+.modal {
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+  max-width: 520px;
+  width: 100%;
+  max-height: min(80vh, 640px);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem 1.75rem 0;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  margin: 0.35rem 0 0;
+}
+
+.closeButton {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  border: 1px solid var(--text-dim);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  outline: none;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.closeButton:hover {
+  color: var(--accent-bright);
+  border-color: var(--accent-bright);
+}
+
+.divider {
+  height: 1px;
+  background: rgba(95, 143, 143, 0.15);
+  margin: 1rem 1.75rem 0;
+}
+
+.body {
+  overflow-y: auto;
+  padding: 1rem 1.75rem 1.25rem;
+}
+
+.medalList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.medal {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  padding: 0.65rem 0.75rem;
+  background: var(--bg-primary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  opacity: 0.55;
+  transition:
+    opacity var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.medalUnlocked {
+  opacity: 1;
+  border-color: rgba(95, 143, 143, 0.25);
+}
+
+.medalIcon {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  flex-shrink: 0;
+  width: 1rem;
+  text-align: center;
+  margin-top: 0.05rem;
+}
+
+.medalUnlocked .medalIcon {
+  color: var(--accent-bright);
+}
+
+.medalContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.medalTitle {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.medalUnlocked .medalTitle {
+  color: var(--text-primary);
+}
+
+.medalDesc {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--text-dim);
+  line-height: 1.45;
+  margin: 0.2rem 0 0;
+}
+
+.medalAdminLocked {
+  cursor: help;
+}
+
+.medalAdminLocked:hover .medalDescAdmin {
+  display: block;
+}
+
+.reorderControls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  flex-shrink: 0;
+}
+
+.reorderButton {
+  font-family: var(--font-mono);
+  font-size: 0.45rem;
+  line-height: 1;
+  color: var(--text-dim);
+  border: 1px solid rgba(95, 143, 143, 0.25);
+  background: transparent;
+  width: 1.15rem;
+  height: 0.85rem;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.reorderButton:hover:not(:disabled) {
+  color: var(--accent-bright);
+  border-color: var(--accent-bright);
+}
+
+.reorderButton:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.medalDescAdmin {
+  display: none;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--accent);
+  line-height: 1.45;
+  margin: 0.2rem 0 0;
+}
+
+.escHint {
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.75rem;
+  border-top: 1px solid rgba(95, 143, 143, 0.1);
+}
+
+.adminFooter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1.75rem 0.75rem;
+  border-top: 1px solid rgba(95, 143, 143, 0.1);
+}
+
+.unlockAllButton,
+.resetButton,
+.copyOrderButton,
+.resetOrderButton {
+  flex: 1 1 calc(50% - 0.25rem);
+  min-width: 7rem;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid rgba(95, 143, 143, 0.35);
+  background: transparent;
+  padding: 0.55rem 0.75rem;
+  outline: none;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.unlockAllButton {
+  color: var(--accent-bright);
+}
+
+.unlockAllButton:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-bright);
+  background: rgba(95, 143, 143, 0.12);
+}
+
+.resetButton {
+  color: var(--danger, #bf8282);
+  border-color: rgba(191, 130, 130, 0.35);
+}
+
+.resetButton:hover {
+  color: var(--text-primary);
+  border-color: var(--danger, #bf8282);
+  background: rgba(191, 130, 130, 0.1);
+}
+
+.copyOrderButton,
+.resetOrderButton {
+  color: var(--text-secondary);
+}
+
+.copyOrderButton:hover,
+.resetOrderButton:hover {
+  color: var(--text-primary);
+  border-color: var(--accent);
+  background: rgba(95, 143, 143, 0.08);
+}

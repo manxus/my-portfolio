@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import resumeData from '../data/resume.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
+import { trackCvDownload } from '../hooks/useVisitorTracking';
 import styles from './Resume.module.css';
 
 const { timeline, personalInfo } = resumeData;
@@ -55,9 +56,22 @@ export default function Resume() {
       </motion.div>
 
       <motion.div variants={fadeUp} className={styles.downloadRow}>
-        <button className={styles.downloadBtn}>
-          &#8615; DOWNLOAD CV (PDF)
-        </button>
+        {personalInfo.cvUrl ? (
+          <a
+            href={personalInfo.cvUrl}
+            className={styles.downloadBtn}
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => trackCvDownload()}
+          >
+            &#8615; DOWNLOAD CV (PDF)
+          </a>
+        ) : (
+          <span className={styles.downloadBtn} aria-disabled="true">
+            &#8615; DOWNLOAD CV (PDF)
+          </span>
+        )}
       </motion.div>
 
       {/* Timeline */}

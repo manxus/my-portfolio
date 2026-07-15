@@ -5,12 +5,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(4px);
   padding: 1rem;
 }
 
+/* Blur on a sibling layer so inputs aren't descendants of backdrop-filter. */
+.backdropFill {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+}
+
 .modal {
+  position: relative;
+  z-index: 1;
   background: var(--color-surface, #1a1a2e);
   border: 1px solid var(--accent, #5f8f8f);
   border-radius: 8px;
@@ -80,6 +87,52 @@
 .input:focus,
 .textarea:focus {
   border-color: var(--accent, #5f8f8f);
+}
+
+.fileField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.fileActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.filePickerBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 0.4rem 0.75rem;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--accent, #5f8f8f);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.filePickerBtn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.fileLink {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--accent, #5f8f8f);
+  word-break: break-all;
+}
+
+.fileError {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  color: #e55;
 }
 
 .textarea {

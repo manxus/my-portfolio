@@ -1,0 +1,94 @@
+.toast {
+  position: fixed;
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  left: 50%;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  background: rgba(17, 26, 32, 0.95);
+  border: 1px solid rgba(95, 143, 143, 0.35);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  max-width: min(420px, calc(100vw - 2rem));
+  pointer-events: auto;
+}
+
+.badge {
+  font-size: 0.85rem;
+  color: var(--accent-bright);
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  color: var(--text-dim);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 0.15rem;
+}
+
+.title {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-primary);
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.viewButton {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-bright);
+  border: 1px solid var(--accent-dim);
+  background: transparent;
+  padding: 0.35rem 0.55rem;
+  outline: none;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.viewButton:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-bright);
+  background: rgba(95, 143, 143, 0.12);
+}
+
+.dismiss {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  border: none;
+  background: transparent;
+  padding: 0.25rem;
+  outline: none;
+  transition: color var(--transition-fast);
+}
+
+.dismiss:hover {
+  color: var(--accent-bright);
+}
+
+@media (max-width: 600px) {
+  .toast {
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    padding: 0.75rem 0.85rem;
+  }
+}

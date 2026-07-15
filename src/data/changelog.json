@@ -1,6 +1,48 @@
 {
   "changelog": [
     {
+      "version": "1.6.2",
+      "date": "2026-07-15",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Visitor achievements — 34 medals track exploration, sessions, and site interactions; unlock toasts, achievements drawer, menu entry, Settings shortcut, and platinum BUILD VERIFIED title when every medal is earned"
+        },
+        {
+          "type": "added",
+          "text": "Resume CV download — editable PDF link on the Resume page with CMS and local admin support, including file upload to public/uploads"
+        },
+        {
+          "type": "added",
+          "text": "QA Portfolio playtests — Official and Gameround sections with cover art, Steam links, NDA-safe undisclosed entries, and a Games Worked On block (PAYDAY 3)"
+        },
+        {
+          "type": "added",
+          "text": "PlaytestCover component — custom cover URL with Steam art fallback for portfolio playtest tiles"
+        },
+        {
+          "type": "added",
+          "text": "Admin file upload API — dev server endpoint for PDF and image uploads used by the CV field and content editor"
+        },
+        {
+          "type": "fixed",
+          "text": "Admin content editor — paste, Ctrl+V, and PASTE URL now work reliably in personal info and other text fields (Chromium clipboard and backdrop-filter issues)"
+        },
+        {
+          "type": "fixed",
+          "text": "Admin editor isolation — modal renders outside filtered app layers; menu keyboard shortcuts pause while editing"
+        },
+        {
+          "type": "changed",
+          "text": "QA Portfolio layout — responsive playtest grid with subsection headers and improved tile styling"
+        },
+        {
+          "type": "changed",
+          "text": "Resume download button — activates when a CV URL is set; shows disabled state until configured"
+        }
+      ]
+    },
+    {
       "version": "1.6.1",
       "date": "2026-07-14",
       "entries": [

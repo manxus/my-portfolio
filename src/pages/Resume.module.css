@@ -81,10 +81,15 @@
     border-color var(--transition-fast);
 }
 
-.downloadBtn:hover {
+a.downloadBtn:hover {
   color: var(--text-primary);
   background: var(--accent-dim);
   border-color: var(--accent);
+}
+
+.downloadBtn[aria-disabled='true'] {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 /* ---- Timeline ---- */
