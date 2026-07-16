@@ -1,6 +1,32 @@
 {
   "changelog": [
     {
+      "version": "1.6.3",
+      "date": "2026-07-16",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Steam Library HowLongToBeat times — completionist (100%) estimates baked into library data, shown in the game detail drawer with your hours vs the HLTB estimate and a link to the HLTB page"
+        },
+        {
+          "type": "added",
+          "text": "Library sort options — HLTB 100% (Longest) and HLTB 100% (Shortest) for finding marathon or quick completionist picks"
+        },
+        {
+          "type": "added",
+          "text": "HLTB fetch pipeline — cached HowLongToBeat enrichment in the Steam sync script (base games only, DLC rejected) with incremental checkpoints"
+        },
+        {
+          "type": "fixed",
+          "text": "Steam Library detail panel — column count measurement no longer leaves a gap beside the selected cover when expanding a game"
+        },
+        {
+          "type": "added",
+          "text": "Steam written review: Desktop Golf"
+        }
+      ]
+    },
+    {
       "version": "1.6.2",
       "date": "2026-07-15",
       "entries": [

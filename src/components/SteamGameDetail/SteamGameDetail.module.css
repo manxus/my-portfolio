@@ -131,9 +131,18 @@
   flex-shrink: 0;
 }
 
-/* ---- Store link ---- */
+.hltbProgress {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
 
-.storeLink {
+/* ---- Store / HLTB links ---- */
+
+.storeLink,
+.hltbLink {
   font-family: var(--font-mono);
   font-size: 0.6rem;
   color: var(--accent);
@@ -148,7 +157,8 @@
     border-color var(--transition-fast);
 }
 
-.storeLink:hover {
+.storeLink:hover,
+.hltbLink:hover {
   background: var(--accent-dim);
   color: var(--text-primary);
   border-color: var(--accent);

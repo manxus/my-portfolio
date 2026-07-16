@@ -48,7 +48,18 @@ const SORT_OPTIONS = [
   { key: 'hours', label: 'Hours Played' },
   { key: 'name', label: 'Alphabetical' },
   { key: 'achievements', label: 'Achievement %' },
+  { key: 'hltb100', label: 'HLTB 100% (Longest)' },
+  { key: 'hltb100asc', label: 'HLTB 100% (Shortest)' },
 ];
+
+function compareHltb100(a, b, ascending) {
+  const ah = a.hltb?.completionistHours;
+  const bh = b.hltb?.completionistHours;
+  if (ah == null && bh == null) return 0;
+  if (ah == null) return 1;
+  if (bh == null) return -1;
+  return ascending ? ah - bh : bh - ah;
+}
 
 function sortGames(list, sortBy) {
   const sorted = [...list];
@@ -62,6 +73,10 @@ function sortGames(list, sortBy) {
       };
       return sorted.sort((a, b) => pct(b) - pct(a));
     }
+    case 'hltb100':
+      return sorted.sort((a, b) => compareHltb100(a, b, false));
+    case 'hltb100asc':
+      return sorted.sort((a, b) => compareHltb100(a, b, true));
     case 'hours':
     default:
       return sorted.sort((a, b) => (b.playtimeHours || 0) - (a.playtimeHours || 0));
@@ -82,20 +97,6 @@ export default function SteamLibrary() {
 
   const gridRef = useRef(null);
   const [cols, setCols] = useState(3);
-
-  useEffect(() => {
-    const grid = gridRef.current;
-    if (!grid) return;
-    const measure = () => {
-      const columns =
-        getComputedStyle(grid).gridTemplateColumns.split(' ').length;
-      setCols(columns);
-    };
-    measure();
-    const observer = new ResizeObserver(measure);
-    observer.observe(grid);
-    return () => observer.disconnect();
-  }, [activeTab]);
 
   const handleSearchChange = useCallback((value) => {
     setSearch(value);
@@ -124,6 +125,35 @@ export default function SteamLibrary() {
     (safePage - 1) * GAMES_PER_PAGE,
     safePage * GAMES_PER_PAGE,
   );
+
+  useEffect(() => {
+    const grid = gridRef.current;
+    if (!grid || activeTab !== 'library') return;
+
+    // Derive column count from card width vs grid width. Parsing
+    // gridTemplateColumns was unreliable with auto-fill and left `cols`
+    // stuck at the default (3) while the grid showed 6 — so the detail
+    // panel inserted mid-row and left a gap beside the selected cover.
+    const measure = () => {
+      const card = grid.querySelector(`.${styles.gameCard}`);
+      if (!card) return;
+      const gap =
+        parseFloat(getComputedStyle(grid).columnGap || getComputedStyle(grid).gap) ||
+        0;
+      const cardWidth = card.getBoundingClientRect().width;
+      if (cardWidth <= 0) return;
+      const count = Math.max(
+        1,
+        Math.round((grid.clientWidth + gap) / (cardWidth + gap)),
+      );
+      setCols(count);
+    };
+
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(grid);
+    return () => observer.disconnect();
+  }, [activeTab, pagedGames.length, safePage]);
 
   const selectedIndex = pagedGames.findIndex(
     (g) => g.appId === selectedGame,

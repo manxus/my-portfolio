@@ -572,6 +572,25 @@
         "Short experience",
         "Difficult to justify the full retail price"
       ]
+    },
+    {
+      "appId": 4114490,
+      "gameName": "Desktop Golf",
+      "rating": 6,
+      "title": "A Relaxing Desktop Companion for Short Breaks",
+      "text": "Desktop Golf is a fun little desktop companion that does exactly what it's trying to do.\r\n\r\nThe gameplay is simple but satisfying. The physics feel good, and every shot comes down to your own skill rather than luck.\r\n\r\nThere are 100 levels to complete. The game doesn't introduce many new mechanics, but it mixes in different obstacles throughout the campaign. They get reused quite a bit, so some holes can feel a little similar. That said, I don't think this is a game you're supposed to finish in one sitting. It's designed to sit on your desktop so you can play a few holes during a short break before getting back to whatever you were doing.\r\n\r\nThe controls work well overall but I wish there was a bit more freedom and convenience when moving the game window around the desktop.\r\n\r\nThe visuals are very simple, but they fit the concept nicely. The relaxing background music also suits the game's laid-back nature, even if it isn't particularly memorable.\r\n\r\nIt took me a few hours to complete all 100 holes. You can always return to earn three stars on every level or just play a few random courses when you need a quick break, but I personally felt satisfied after finishing everything.\r\n\r\nPerformance was flawless throughout my playtime.\r\n\r\nOverall, if you're looking for a cheap, relaxing desktop game that you can enjoy in short sessions between work or other tasks, Desktop Golf is an easy recommendation.",
+      "date": "2026-07-16",
+      "recommended": true,
+      "pros": [
+        "Fun, skill-based gameplay",
+        "100 handcrafted levels",
+        "Great concept for short gaming breaks",
+        "Affordable price"
+      ],
+      "cons": [
+        "Limited gameplay variety",
+        "Obstacles are reused frequently"
+      ]
     }
   ]
 }

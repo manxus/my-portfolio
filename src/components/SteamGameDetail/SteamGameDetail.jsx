@@ -2,6 +2,13 @@ import { motion } from 'framer-motion';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import styles from './SteamGameDetail.module.css';
 
+function formatHours(hours) {
+  if (hours == null || Number.isNaN(hours)) return null;
+  return Number(hours).toLocaleString(undefined, {
+    maximumFractionDigits: 1,
+  });
+}
+
 export default function SteamGameDetail({ game, onClose, style }) {
   if (!game) return null;
 
@@ -11,7 +18,14 @@ export default function SteamGameDetail({ game, onClose, style }) {
       )
     : null;
 
+  const completionistHours = game.hltb?.completionistHours ?? null;
+  const completionistLabel = formatHours(completionistHours);
+  const playtimeLabel = formatHours(game.playtimeHours);
   const storeUrl = `https://store.steampowered.com/app/${game.appId}`;
+  const hltbUrl =
+    game.hltb?.id != null
+      ? `https://howlongtobeat.com/game/${game.hltb.id}`
+      : 'https://howlongtobeat.com/';
 
   return (
     <motion.div
@@ -58,6 +72,13 @@ export default function SteamGameDetail({ game, onClose, style }) {
               </span>
             )}
 
+            {completionistLabel != null && (
+              <span className={styles.metric}>
+                <span className={styles.metricValue}>~{completionistLabel}h</span>
+                <span className={styles.metricLabel}>100%</span>
+              </span>
+            )}
+
             {game.achievements && (
               <div className={styles.achGroup}>
                 <div className={styles.achTrack}>
@@ -72,6 +93,12 @@ export default function SteamGameDetail({ game, onClose, style }) {
               </div>
             )}
 
+            {completionistLabel != null && playtimeLabel != null && (
+              <span className={styles.hltbProgress} title="Your hours vs HowLongToBeat 100%">
+                {playtimeLabel}h / ~{completionistLabel}h
+              </span>
+            )}
+
             <a
               href={storeUrl}
               target="_blank"
@@ -80,6 +107,18 @@ export default function SteamGameDetail({ game, onClose, style }) {
             >
               STEAM &#8599;
             </a>
+
+            {game.hltb?.id != null && (
+              <a
+                href={hltbUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.hltbLink}
+                title="HowLongToBeat"
+              >
+                HLTB &#8599;
+              </a>
+            )}
           </div>
         </div>
       </div>

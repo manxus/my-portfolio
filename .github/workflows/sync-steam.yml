@@ -22,8 +22,9 @@ jobs:
         id: steam-cache
         with:
           path: scripts/.steam-fetch-cache
-          key: steam-fetch-v1-${{ hashFiles('scripts/fetch-steam-data.js') }}
+          key: steam-fetch-v2-${{ hashFiles('scripts/fetch-steam-data.js', 'scripts/hltb.js') }}
           restore-keys: |
+            steam-fetch-v2-
             steam-fetch-v1-
 
       - name: Fetch Steam data
