@@ -9,6 +9,7 @@ export default function SteamFilters({
   sortOptions,
   /** Reviews tab: only the sort control, no search field. */
   sortOnly = false,
+  placeholder = 'Search games...',
 }) {
   const [sortOpen, setSortOpen] = useState(false);
   const sortPanelRef = useRef(null);
@@ -33,7 +34,7 @@ export default function SteamFilters({
         <input
           type="text"
           className={styles.search}
-          placeholder="Search games..."
+          placeholder={placeholder}
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
         />

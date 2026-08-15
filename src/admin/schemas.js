@@ -390,6 +390,31 @@ export const schemas = {
     { key: 'bggUrl', label: 'BGG URL (BoardGameGeek)', type: 'text' },
   ],
 
+  'cinema.entries': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    { key: 'lookup', label: 'Find on TMDB', type: 'tmdbLookup' },
+    { key: 'title', label: 'Title', type: 'text', required: true },
+    { key: 'mediaType', label: 'Type', type: 'select', options: ['movie', 'tv'] },
+    {
+      key: 'status',
+      label: 'Status',
+      type: 'select',
+      options: ['watched', 'watching', 'dropped', 'watchlist'],
+      required: true,
+    },
+    { key: 'rating', label: 'Rating (1-10)', type: 'number' },
+    { key: 'featured', label: 'Show in favorites', type: 'boolean' },
+    { key: 'year', label: 'Year', type: 'text' },
+    { key: 'seasons', label: 'Seasons (shows)', type: 'number' },
+    { key: 'episodes', label: 'Episodes (shows)', type: 'number' },
+    { key: 'episodesSeen', label: 'Episodes seen (shows)', type: 'number' },
+    { key: 'runtime', label: 'Runtime in minutes', type: 'number' },
+    { key: 'genres', label: 'Genres', type: 'list' },
+    { key: 'overview', label: 'Overview', type: 'textarea' },
+    { key: 'coverUrl', label: 'Poster URL', type: 'text' },
+    { key: 'tmdbUrl', label: 'TMDB URL', type: 'text' },
+  ],
+
   'credits.credits': [
     { key: 'heading', label: 'Heading', type: 'text', required: true },
     { key: 'items', label: 'Items', type: 'list' },

@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { motion } from 'framer-motion';
 import { visibleSchemaFields } from './autoId';
 import TravelLocationPicker from './TravelLocationPicker';
+import CinemaTitlePicker from './CinemaTitlePicker';
 import { useAdminStore } from '../stores/adminStore';
 import { setAdminEditorOpen } from './editorLock';
 import styles from './ContentEditor.module.css';
@@ -551,6 +552,8 @@ export default function ContentEditor({
         empty.lng = '';
         continue;
       }
+      // The picker writes its own keys — no placeholder key of its own.
+      if (field.type === 'tmdbLookup') continue;
       if (field.type === 'boolean') empty[field.key] = false;
       else if (field.type === 'list' || field.type === 'objectList') empty[field.key] = [];
       else if (field.type === 'tiers') empty[field.key] = { S: [], A: [], B: [], C: [], D: [], F: [], unplayed: [] };
@@ -569,6 +572,7 @@ export default function ContentEditor({
   const fields = visibleSchemaFields(schema);
   const isPrimitive = fields.length === 1 && fields[0].key === '_value';
   const hasMapLocation = fields.some((f) => f.type === 'mapLocation');
+  const hasTmdbLookup = fields.some((f) => f.type === 'tmdbLookup');
 
   const handleChange = useCallback((key, value) => {
     if (isPrimitive) {
@@ -614,7 +618,7 @@ export default function ContentEditor({
     >
       <div className={styles.backdropFill} aria-hidden="true" />
       <motion.form
-        className={`${styles.modal}${hasMapLocation ? ` ${styles.modalWide}` : ''}`}
+        className={`${styles.modal}${hasMapLocation || hasTmdbLookup ? ` ${styles.modalWide}` : ''}`}
         initial={{ scale: 0.95, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         exit={{ scale: 0.95, opacity: 0 }}
@@ -653,6 +657,13 @@ export default function ContentEditor({
                         lng: nextLng,
                         ...(locationLabel ? { location: locationLabel } : {}),
                       }));
+                    }}
+                  />
+                ) : field.type === 'tmdbLookup' ? (
+                  <CinemaTitlePicker
+                    value={formData}
+                    onChange={(patch) => {
+                      setFormData((prev) => ({ ...prev, ...patch }));
                     }}
                   />
                 ) : (

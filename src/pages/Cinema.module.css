@@ -1,0 +1,592 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  padding-right: 0.85rem;
+  box-sizing: border-box;
+}
+
+.empty,
+.noResults {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-align: center;
+  padding: 2rem 1rem;
+  opacity: 0.6;
+}
+
+/* ---- Section headings ---- */
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin-bottom: 0.85rem;
+}
+
+.sectionIcon {
+  color: var(--accent-dim);
+  margin-right: 0.4rem;
+}
+
+/* ---- Overview tab ---- */
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.statTile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.9rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+  line-height: 1;
+}
+
+.statLabel {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  color: var(--text-dim);
+}
+
+.topList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.topRow {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.55rem 0.25rem;
+  border-bottom: 1px solid rgba(95, 143, 143, 0.15);
+}
+
+.topRow:last-child {
+  border-bottom: none;
+}
+
+.topTitle {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-primary);
+}
+
+.topMeta {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  opacity: 0.75;
+}
+
+.topRating {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent-bright);
+  white-space: nowrap;
+}
+
+/* ---- List tabs ---- */
+
+.listSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+/* Named rather than :first-child so the type filter can sit ahead of the
+   search + sort block without stealing its flex. */
+/* Below ~300px of room the search + sort block wraps onto its own line rather
+   than squeezing the search field down to the width of its placeholder. */
+.filterMain {
+  flex: 1 1 300px;
+  min-width: 0;
+}
+
+.typeFilter {
+  display: flex;
+  align-items: stretch;
+  flex-shrink: 0;
+  border: 1px solid var(--accent-dim);
+}
+
+.typeBtn {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  background: none;
+  border: none;
+  padding: 0 0.75rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.typeBtn + .typeBtn {
+  border-left: 1px solid var(--accent-dim);
+}
+
+.typeBtn:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+
+.typeBtnActive {
+  color: var(--accent-bright);
+  background: var(--bg-hover);
+}
+
+.typeCount {
+  margin-left: 0.4rem;
+  font-size: 0.55rem;
+  opacity: 0.7;
+}
+
+/* ---- Poster grid ---- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(162px, 1fr));
+  gap: 0.75rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--bg-hover);
+  border: 2px solid transparent;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  transition:
+    border-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.card:hover {
+  border-color: var(--accent-dim);
+  transform: translateY(-2px);
+}
+
+.cardSelected {
+  border-color: var(--accent);
+}
+
+.coverImage,
+.coverPlaceholder {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+  background: var(--bg-secondary);
+}
+
+.coverPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(95, 143, 143, 0.15);
+}
+
+.placeholderText {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.coverDimmed {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+.group + .group {
+  margin-top: 1.75rem;
+}
+
+.groupCount {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  opacity: 0.7;
+  margin-left: 0.5rem;
+}
+
+.favorite {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: #e8c86a;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+.ratingChip {
+  position: absolute;
+  right: 0.4rem;
+  bottom: 3.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--accent-bright);
+  background: rgba(10, 15, 18, 0.85);
+  border: 1px solid var(--accent-dim);
+  padding: 0.1rem 0.3rem;
+}
+
+.cardCaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.45rem 0.5rem 0.55rem;
+  /* Room for a two-line title so one- and two-line cards keep a common floor. */
+  min-height: 3.6rem;
+}
+
+.cardTitleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+/* The shared admin controls only fade in when their direct parent is hovered,
+   and this card's caption strip is a thin target — reveal them from anywhere
+   on the card instead. */
+.card:hover [class*="itemControls"] {
+  opacity: 1;
+}
+
+/* Wrap to two lines instead of cutting every long title off at one. Only a
+   handful in the library run past two lines; those keep the ellipsis, and the
+   full name is on the element's title attribute. */
+.cardTitle {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-primary);
+  line-height: 1.3;
+  min-width: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+/* --text-dim at 0.75 opacity landed around 1.6:1 against the card background —
+   effectively invisible. --text-secondary at full opacity is ~4.3:1. */
+.cardMeta {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cardProgress {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.1rem;
+}
+
+.cardProgressBar {
+  flex: 1;
+  height: 3px;
+  min-width: 0;
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+  overflow: hidden;
+}
+
+.cardProgressFill {
+  height: 100%;
+  background: var(--accent);
+}
+
+.cardProgressLabel {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--accent-bright);
+  white-space: nowrap;
+}
+
+/* ---- Inline detail panel ---- */
+
+.detail {
+  grid-column: 1 / -1;
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+}
+
+.detailInner {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.9rem;
+  align-items: flex-start;
+}
+
+.detailCover {
+  width: 130px;
+  flex-shrink: 0;
+}
+
+.detailBody {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.detailTopRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.detailTitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+  letter-spacing: 0.05em;
+}
+
+.detailYear {
+  color: var(--text-dim);
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.closeBtn {
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  background: none;
+  border: 1px solid rgba(95, 143, 143, 0.15);
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.closeBtn:hover {
+  color: var(--text-primary);
+  border-color: var(--accent);
+}
+
+.detailMetrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.metricValue {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent-bright);
+}
+
+.metricLabel {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+
+.progressWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.progressBar {
+  height: 4px;
+  background: var(--bg-hover);
+  border: 1px solid var(--accent-dim);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--accent);
+}
+
+.progressLabel {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--text-secondary);
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.genre {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.25);
+  padding: 0.15rem 0.4rem;
+}
+
+/* The entry synopsis in the detail panel. Named apart from the .overview tab
+   container above — sharing the name merged both rule sets onto both elements. */
+.synopsis {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.tmdbLink {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent-dim);
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.tmdbLink:hover {
+  color: var(--text-primary);
+  border-color: var(--accent);
+  background: var(--bg-hover);
+}
+
+/* ---- Attribution ---- */
+
+.attribution {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+  opacity: 0.55;
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 1.5;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-bottom: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .detailInner {
+    flex-direction: column;
+  }
+
+  .detailCover {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+    gap: 0.4rem;
+  }
+
+  .filterBar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .filterMain {
+    width: 100%;
+  }
+
+  .typeBtn {
+    flex: 1;
+    padding: 0.4rem 0.5rem;
+  }
+
+  /* Cards are ~96px wide here, so two lines clips a lot of titles. */
+  .cardTitle {
+    font-size: 0.62rem;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
+  .cardCaption {
+    min-height: 4.3rem;
+  }
+
+  .cardMeta {
+    font-size: 0.52rem;
+  }
+}

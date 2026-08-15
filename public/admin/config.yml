@@ -268,6 +268,43 @@ collections:
               - { label: Cover URL, name: coverUrl, widget: string, required: false }
               - { label: BGG URL, name: bggUrl, widget: string, required: false }
 
+      - label: Cinema
+        name: cinema
+        file: src/data/cinema.json
+        fields:
+          - label: Entries
+            name: entries
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: ID, name: id, widget: number, value_type: int }
+              - { label: TMDB ID, name: tmdbId, widget: number, value_type: int, required: false }
+              - { label: Title, name: title, widget: string }
+              - label: Type
+                name: mediaType
+                widget: select
+                options: [movie, tv]
+                required: false
+              - label: Status
+                name: status
+                widget: select
+                options: [watched, watching, dropped, watchlist]
+              - { label: Rating (1-10), name: rating, widget: number, value_type: int, required: false }
+              - { label: Show in favorites, name: featured, widget: boolean, required: false }
+              - { label: Year, name: year, widget: string, required: false }
+              - { label: Seasons, name: seasons, widget: number, value_type: int, required: false }
+              - { label: Episodes, name: episodes, widget: number, value_type: int, required: false }
+              - { label: Episodes seen, name: episodesSeen, widget: number, value_type: int, required: false }
+              - { label: Runtime (minutes), name: runtime, widget: number, value_type: int, required: false }
+              - label: Genres
+                name: genres
+                widget: list
+                required: false
+              - { label: Overview, name: overview, widget: text, required: false }
+              - { label: Poster URL, name: coverUrl, widget: string, required: false }
+              - { label: Backdrop URL, name: backdropUrl, widget: string, required: false }
+              - { label: TMDB URL, name: tmdbUrl, widget: string, required: false }
+
       - label: Credits
         name: credits
         file: src/data/credits.json

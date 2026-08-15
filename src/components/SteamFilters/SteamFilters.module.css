@@ -12,6 +12,9 @@
 
 .search {
   flex: 1;
+  /* Without this an <input> refuses to shrink past its intrinsic width (~165px),
+     so the sort button gets pushed out of the row on narrow screens. */
+  min-width: 0;
   font-family: var(--font-mono);
   font-size: 0.75rem;
   letter-spacing: 0.04em;

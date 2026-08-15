@@ -74,6 +74,12 @@
           "description": "Board games owned, played, and worth revisiting."
         },
         {
+          "id": "cinema",
+          "label": "CINEMA",
+          "path": "/cinema",
+          "description": "Movies and shows watched, dropped, and queued up."
+        },
+        {
           "id": "journey",
           "label": "JOURNEY",
           "path": "/travel-log",

@@ -10,6 +10,7 @@ export const EXTRA_ROUTES = [
   '/music',
   '/books',
   '/tabletop',
+  '/cinema',
   '/travel-log',
   '/livestream',
 ];

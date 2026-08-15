@@ -47,6 +47,7 @@ const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides',
   'media', 'livestream', 'music', 'books', 'tabletop', 'travel', 'credits', 'patchNotes', 'steam-hallofpain',
+  'cinema',
 ]);
 
 async function handleTwitchOembed(req, res) {
@@ -78,6 +79,18 @@ async function handleGeocode(req, res) {
   }
 }
 
+async function handleTmdb(req, res) {
+  try {
+    const tmdbPath = resolve(process.cwd(), 'api/tmdb.cjs');
+    delete require.cache[tmdbPath];
+    const handler = require('./api/tmdb.cjs');
+    await handler(req, res);
+  } catch (err) {
+    console.error('[tmdb dev]', err);
+    return json(res, 502, { error: 'Failed to reach TMDB' });
+  }
+}
+
 export default function adminApiPlugin() {
   return {
     name: 'admin-api',
@@ -90,6 +103,11 @@ export default function adminApiPlugin() {
       server.middlewares.use(async (req, res, next) => {
         if (!req.url?.startsWith('/api/geocode') || req.method !== 'GET') return next();
         return handleGeocode(req, res);
+      });
+
+      server.middlewares.use(async (req, res, next) => {
+        if (!req.url?.startsWith('/api/tmdb') || req.method !== 'GET') return next();
+        return handleTmdb(req, res);
       });
 
       server.middlewares.use(async (req, res, next) => {

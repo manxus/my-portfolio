@@ -18,6 +18,7 @@ import Livestream from './pages/Livestream';
 import Music from './pages/Music';
 import Books from './pages/Books';
 import Tabletop from './pages/Tabletop';
+import Cinema from './pages/Cinema';
 import TravelLog from './pages/TravelLog';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
@@ -43,6 +44,7 @@ const pageRoutes = [
   { path: '/music', title: 'Music', subtitle: 'EXTRA // ON REPEAT', Component: Music },
   { path: '/books', title: 'Library', subtitle: 'EXTRA // CODEX', Component: Books },
   { path: '/tabletop', title: 'Tabletop', subtitle: 'EXTRA // TABLETOP', Component: Tabletop },
+  { path: '/cinema', title: 'Cinema', subtitle: 'EXTRA // SCREENING ROOM', Component: Cinema },
   { path: '/travel-log', title: 'Journey', subtitle: 'EXTRA // WORLD MAP', Component: TravelLog },
   { path: '/settings', title: 'Settings', subtitle: 'SYSTEM CONFIGURATION', Component: Settings },
   { path: '/credits', title: 'Credits', subtitle: 'ACKNOWLEDGMENTS', Component: Credits },
