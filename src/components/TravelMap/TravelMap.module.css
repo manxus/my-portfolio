@@ -9,13 +9,14 @@
 
 .map {
   width: 100%;
-  height: 380px;
+  /* Overridable by the page — the Journey split view gives the map a taller column. */
+  height: var(--travel-map-height, 380px);
   background: #0a0f12;
 }
 
 .empty {
   width: 100%;
-  height: 380px;
+  height: var(--travel-map-height, 380px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,6 +129,6 @@
 @media (max-width: 768px) {
   .map,
   .empty {
-    height: 260px;
+    --travel-map-height: 260px;
   }
 }
