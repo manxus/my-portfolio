@@ -92,3 +92,85 @@
   border-color: rgba(255, 80, 80, 0.4);
   color: #e55;
 }
+
+.confirmBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.82);
+}
+
+.confirmBox {
+  background: var(--color-surface, #1a1a2e);
+  border: 1px solid var(--accent, #5f8f8f);
+  border-radius: 8px;
+  padding: 1.25rem;
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.confirmMsg {
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--color-text, #e0e0e0);
+}
+
+.confirmError {
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: #e55;
+  border-left: 2px solid rgba(255, 80, 80, 0.5);
+  padding-left: 0.6rem;
+}
+
+.confirmActions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.confirmCancel,
+.confirmDelete {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.confirmCancel {
+  background: transparent;
+  color: var(--color-muted, #888);
+}
+
+.confirmCancel:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.confirmDelete {
+  background: rgba(255, 80, 80, 0.18);
+  border-color: rgba(255, 80, 80, 0.45);
+  color: #e55;
+}
+
+.confirmDelete:hover:not(:disabled) {
+  background: rgba(255, 80, 80, 0.3);
+}
+
+.confirmDelete:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

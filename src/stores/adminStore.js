@@ -1,6 +1,25 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
+/**
+ * The dev API signs tokens with a secret regenerated on every server start, so
+ * a tab that outlives a restart keeps rendering the admin UI while every write
+ * comes back 401. Spell that out rather than throwing a generic failure.
+ */
+async function requestError(res, fallback) {
+  if (res.status === 401) {
+    const err = new Error(
+      'Admin session expired — the dev server restarted. Log out and log in again.',
+    );
+    err.status = 401;
+    return err;
+  }
+  const body = await res.json().catch(() => ({}));
+  const err = new Error(body.error || fallback);
+  err.status = res.status;
+  return err;
+}
+
 export const useAdminStore = create(
   persist(
     (set, get) => ({
@@ -57,7 +76,7 @@ export const useAdminStore = create(
       getData: async (collection) => {
         const { authFetch } = get();
         const res = await authFetch(`/api/admin/data/${collection}`);
-        if (!res.ok) throw new Error('Failed to load data');
+        if (!res.ok) throw await requestError(res, 'Failed to load data');
         return res.json();
       },
 
@@ -67,7 +86,7 @@ export const useAdminStore = create(
           method: 'PUT',
           body: JSON.stringify(data),
         });
-        if (!res.ok) throw new Error('Failed to save data');
+        if (!res.ok) throw await requestError(res, 'Failed to save data');
         return res.json();
       },
 
