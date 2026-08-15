@@ -591,6 +591,66 @@
         "Limited gameplay variety",
         "Obstacles are reused frequently"
       ]
+    },
+    {
+      "appId": 1345860,
+      "gameName": "Grapple Dog",
+      "rating": 8,
+      "title": "A Charming Platformer That Never Runs Out of Ideas",
+      "text": "Grapple Dog is a fantastic precision platformer with very enjoyable movement that feels smooth and responsive throughout most of the game.\r\n\r\nThe grappling hook is the star of the game. Building momentum and flying through levels feels incredibly rewarding. However, the general movement can occasionally make precise platforming a bit awkward in certain situations, which is separate from the momentum gained through the grappling hook itself.\r\n\r\nThe level design is excellent throughout. Every chapter introduces new themes and mechanics at a steady pace, so the game always feels fresh. There's also plenty of optional content, including collectibles, time trials, races, gem and combat challenges, giving completionists a lot to do.\r\n\r\nThe difficulty is fair. Finishing the main game isn't overly demanding, while 100% completion offers a satisfying challenge. The checkpoint system works well in the main levels, but in time trials checkpoints are replaced with health pickups. In some levels, you're forced past these pickups without the ability to backtrack, leaving you stuck with low health, which can be a bit frustrating.\r\n\r\nThe colorful pixel art looks great, animations are smooth, and the soundtrack is catchy, upbeat, and perfectly fits the game's atmosphere.\r\n\r\nThe game is well paced, never feels too long, and I didn't experience any technical issues during my playthrough.\r\n\r\nOverall, Grapple Dog is a polished, creative, and consistently fun platformer that I would happily recommend to anyone who enjoys fast-paced 2D platformers.",
+      "date": "2026-08-05",
+      "recommended": true,
+      "pros": [
+        "Excellent grappling hook and satisfying movement",
+        "Creative, varied level design",
+        "New mechanics introduced at a good pace",
+        "Plenty of optional content and replayability",
+        "Beautiful pixel art and smooth animations"
+      ],
+      "cons": [
+        "Momentum can occasionally make precise movement awkward",
+        "Time trials can be frustrating if you miss health pickups"
+      ]
+    },
+    {
+      "appId": 2742710,
+      "gameName": "Cozy Cleaner",
+      "rating": 7,
+      "title": "A Cozy and Satisfying Cleaning Experience",
+      "text": "Cozy Cleaner is a relaxing and satisfying cleaning game that's easy to just sit back and enjoy.\r\n\r\nThe cleaning itself feels pretty nice. A couple of new tools are introduced early on, and you can upgrade them throughout the game to make them faster. Most areas have different looks and layouts, although the actual gameplay remains mostly the same each time.\r\n\r\nThe unique levels that appear between the regular ones were a nice addition and helped break up the repetition. That said, the game did start to feel a little repetitive towards the end.\r\n\r\nThe visuals are quite simple, but they work well for creating the cozy atmosphere the game is going for. The relaxing soundtrack also fits really well and is nice to have playing in the background.\r\n\r\nMy main issue is the amount of content. I feel like the game is a little too short for the full asking price, so I'd recommend picking it up on sale. The game does mention that more content will be added in the future, which is good to see.\r\n\r\nI had a completely clean playthrough with no technical issues.\r\n\r\nOverall, I'd recommend Cozy Cleaner if you're looking for a simple and relaxing game to unwind with. Just keep in mind that the gameplay can become repetitive and the current content feels a little limited.",
+      "date": "2026-08-08",
+      "recommended": true,
+      "pros": [
+        "Satisfying cleaning gameplay",
+        "Tool upgrades add progression",
+        "Unique levels help break up repetition",
+        "Simple but fitting visuals",
+        "Relaxing soundtrack"
+      ],
+      "cons": [
+        "Can become repetitive towards the end",
+        "Relatively short"
+      ]
+    },
+    {
+      "appId": 2058140,
+      "gameName": "Henry Halfhead",
+      "rating": 7,
+      "title": "A Charming Little Possession Puzzle Game",
+      "text": "Henry Halfhead is a charming and creative little puzzle game built around a really fun possession mechanic.\r\n\r\nYou can interact with and control pretty much anything around you, which leads to a lot of fun and creative situations. The puzzles make good use of this ability and there’s a decent mix throughout the game, although most of them are on the easier side. The only thing that occasionally annoyed me was trying to possess one specific item when there were a lot of objects piled together.\r\n\r\nThe visuals are fairly simple but fit the vibe of the game nicely. Henry himself is adorable, and the different areas have a good amount of variation. The character expressions also add some extra charm.\r\n\r\nI enjoyed the humor and overall presentation. Nothing in particular stood out, but the game maintains a fun and playful tone throughout. The music and sound design complement the experience well too.\r\n\r\nI also liked following Henry through his entire life. The way the story is presented is a little different from what you normally see in games, and I thought it worked really well alongside the gameplay. It creates a good balance between the narrative and the puzzles.\r\n\r\nThe game only took me a few hours to finish, which felt like a reasonable length for this experience. However, I think the asking price is a little too high for the amount of content. I’d recommend picking it up on sale instead.\r\n\r\nI had a smooth experience overall without running into any notable technical issues.\r\n\r\nA fun, quirky and creative little game with a great central mechanic. Recommended, especially if you enjoy shorter puzzle games with a lot of personality.",
+      "date": "2026-08-10",
+      "recommended": true,
+      "pros": [
+        "Fun and creative possession mechanic",
+        "Good variety of puzzles and areas",
+        "Charming visual style",
+        "Enjoyable humor and presentation"
+      ],
+      "cons": [
+        "Most puzzles are quite easy",
+        "Possessing specific objects can be frustrating in piles",
+        "Short playtime"
+      ]
     }
   ]
 }

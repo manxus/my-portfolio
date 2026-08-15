@@ -28,3 +28,6 @@ dist-ssr
 
 # Steam fetch script cache (local + CI restored via actions/cache)
 scripts/.steam-fetch-cache
+
+# Claude Code local tooling
+.claude/

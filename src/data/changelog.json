@@ -1,6 +1,54 @@
 {
   "changelog": [
     {
+      "version": "1.6.5",
+      "date": "2026-08-15",
+      "entries": [
+        {
+          "type": "changed",
+          "text": "Journey page — on wide screens the world map and trip log sit side by side, with the map sticky and sized to the viewport so pins stay visible while scrolling the log; narrow layouts still stack"
+        },
+        {
+          "type": "changed",
+          "text": "Dev admin — delete now uses an in-page confirm dialog instead of the browser prompt, and items are re-located by id before removal so a stale index can never delete the wrong row"
+        },
+        {
+          "type": "changed",
+          "text": "Dev admin — expired sessions after a dev server restart report a clear message instead of a generic save failure; item controls can hide reorder arrows on views with their own sort order"
+        },
+        {
+          "type": "added",
+          "text": "Steam written reviews: Grapple Dog, Cozy Cleaner, and Henry Halfhead"
+        },
+        {
+          "type": "added",
+          "text": "QA Portfolio — another undisclosed Gameround playtest under NDA"
+        }
+      ]
+    },
+    {
+      "version": "1.6.4",
+      "date": "2026-08-04",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Cinema page (EXTRA // SCREENING ROOM) — movies and shows tracked as watched, watching, dropped, or watchlisted, with favorites, ratings, season and episode counts, and per-show progress"
+        },
+        {
+          "type": "added",
+          "text": "TMDB title search in the admin editor — picking a result autofills title, year, poster, seasons, episodes, runtime, genres, and overview, so entries no longer need to be typed by hand"
+        },
+        {
+          "type": "added",
+          "text": "Cinema overview tab — title, movie, show, episode, completion, drop, and average-rating stats plus a highest-rated list"
+        },
+        {
+          "type": "changed",
+          "text": "Steam library filter bar accepts a custom search placeholder so the control can be reused across pages"
+        }
+      ]
+    },
+    {
       "version": "1.6.3",
       "date": "2026-07-16",
       "entries": [
