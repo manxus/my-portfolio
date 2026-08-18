@@ -1,6 +1,48 @@
 {
   "changelog": [
     {
+      "version": "1.6.6",
+      "date": "2026-08-19",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Games page (DLCS // DOWNLOAD 03) — a tabbed home for per-game stat pages, starting with Battlefield 4, Counter-Strike 2, and RuneScape"
+        },
+        {
+          "type": "added",
+          "text": "Battlefield 4 service record — rank 118 dossier with K/D, SPM, accuracy and time played, a 16-cell career grid, kits with service stars, and 101 weapons and 37 vehicles behind category filters"
+        },
+        {
+          "type": "added",
+          "text": "Battlefield 4 assignments — all 108 tracked across 6 groups (61 complete) with badge art, per-task progress, rewards, and unlock prerequisites"
+        },
+        {
+          "type": "added",
+          "text": "Counter-Strike 2 career stats — 170,044 kills at 1.39 K/D with headshot, accuracy and ADR tiles, a 16-cell service record, 29 weapons ranked by kills with accuracy and kills-per-shot, 21 maps as win-rate bars, and 14 objective counters"
+        },
+        {
+          "type": "added",
+          "text": "RuneScape profile — 29 skills with virtual levels and XP progress, quest completion broken down by difficulty, and the recent adventurer’s log"
+        },
+        {
+          "type": "added",
+          "text": "Build-time sync scripts and GitHub workflows for all three games, so the pages read committed snapshots and never depend on a third-party API at runtime"
+        },
+        {
+          "type": "added",
+          "text": "Steam written review: Inked: A Tale of Love"
+        },
+        {
+          "type": "changed",
+          "text": "Steam tier list — nine more games placed"
+        },
+        {
+          "type": "changed",
+          "text": "Dev admin — the RuneScape character panel (display name, tagline, note, and image override) is editable in place, and the sync preserves those edits"
+        }
+      ]
+    },
+    {
       "version": "1.6.5",
       "date": "2026-08-15",
       "entries": [

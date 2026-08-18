@@ -364,7 +364,7 @@
     {
       "appId": 923260,
       "gameName": "Golf Peaks",
-      "rating": 7,
+      "rating": 6,
       "title": "A short and clever card-based puzzle climb",
       "text": "Golf Peaks is a short and clever puzzle game with a strong card-based movement system.\n\nInstead of directly controlling the ball, you use cards to decide how it moves. I liked this mechanic a lot, and it reminded me a little of Please, Fix the Road, except here you can choose the cards in any order. That gives the puzzles a nice sense of flexibility.\n\nThe game does a good job of avoiding repetition. Each world is fairly short, and new mechanics are introduced regularly. The difficulty curve also feels fair, as each new world gives you time to learn its mechanic before the puzzles become harder.\n\nSome puzzles toward the end of certain worlds can be quite challenging, and I think a hint button would have been a nice addition. I also would have liked the option to rearrange cards in my hand, and some cards could have been more visually distinct since they can look quite similar.\n\nThe clean minimalist isometric art style fits the game very well, and the mechanics are nicely designed around the themes of each world. The soundtrack is relaxing and works for the atmosphere, although it is not especially memorable.\n\nThe game is short and sweet, which suited it well. It does not overstay its welcome, and I had no technical issues during my playthrough.\n\nOverall, Golf Peaks is an enjoyable and well-designed puzzle game. I would recommend it, especially if you like smaller relaxing puzzle games. Pick it up on sale if you can, but the full price still feels fair.",
       "date": "2026-05-12",
@@ -576,7 +576,7 @@
     {
       "appId": 4114490,
       "gameName": "Desktop Golf",
-      "rating": 6,
+      "rating": 5,
       "title": "A Relaxing Desktop Companion for Short Breaks",
       "text": "Desktop Golf is a fun little desktop companion that does exactly what it's trying to do.\r\n\r\nThe gameplay is simple but satisfying. The physics feel good, and every shot comes down to your own skill rather than luck.\r\n\r\nThere are 100 levels to complete. The game doesn't introduce many new mechanics, but it mixes in different obstacles throughout the campaign. They get reused quite a bit, so some holes can feel a little similar. That said, I don't think this is a game you're supposed to finish in one sitting. It's designed to sit on your desktop so you can play a few holes during a short break before getting back to whatever you were doing.\r\n\r\nThe controls work well overall but I wish there was a bit more freedom and convenience when moving the game window around the desktop.\r\n\r\nThe visuals are very simple, but they fit the concept nicely. The relaxing background music also suits the game's laid-back nature, even if it isn't particularly memorable.\r\n\r\nIt took me a few hours to complete all 100 holes. You can always return to earn three stars on every level or just play a few random courses when you need a quick break, but I personally felt satisfied after finishing everything.\r\n\r\nPerformance was flawless throughout my playtime.\r\n\r\nOverall, if you're looking for a cheap, relaxing desktop game that you can enjoy in short sessions between work or other tasks, Desktop Golf is an easy recommendation.",
       "date": "2026-07-16",
@@ -650,6 +650,26 @@
         "Most puzzles are quite easy",
         "Possessing specific objects can be frustrating in piles",
         "Short playtime"
+      ]
+    },
+    {
+      "appId": 690120,
+      "gameName": "",
+      "rating": 7,
+      "title": "A Charming Puzzle Adventure With A Beautiful Art Style",
+      "text": "The visual style was what initially caught my attention with Inked: A Tale of Love, and thankfully the gameplay was enjoyable enough to keep me interested throughout.\r\n\r\nThe puzzles are one of the strongest parts of the game. There's a good variation between them, they're well balanced, and the environments and mechanics are incorporated nicely into the puzzles.\r\n\r\nThe gameplay generally feels good, and new mechanics are introduced at a good pace as you progress. I wasn't immediately sold on the click-to-move controls, but they felt better the more I played. Moving objects around could sometimes feel a little clunky though.\r\n\r\nVisually, I really liked the ink-and-paper style and the world design. Each chapter has its own unique look and the environments are nicely varied.\r\n\r\nI also enjoyed the story. It strikes a good balance between the narrative and puzzles, and I liked how the creator who is drawing everything is incorporated into the story. You get to experience his story and struggles and see how they affect the world you're playing through.\r\n\r\nThe music is nice and relaxing for the most part, while changing to fit what is happening and the atmosphere of each situation.\r\n\r\nThe game is relatively short, but I think the length is just right for this experience. I wouldn't really want it to be much longer or shorter.\r\n\r\nI did encounter one issue in the final chapter where I spawned outside the playable area after taking a portal and got stuck. I had to restart the entire chapter, but thankfully this was the only major issue I encountered.\r\n\r\nOverall, Inked: A Tale of Love is a charming puzzle adventure with a great visual style, varied puzzles, and a relaxing atmosphere. Recommended if you enjoy story-driven puzzle games. The price is reasonable, although I'd personally wait for a small sale.",
+      "date": "2026-08-15",
+      "recommended": true,
+      "pros": [
+        "Varied and well-balanced puzzles",
+        "New mechanics introduced at a good pace",
+        "Beautiful and distinctive visual style",
+        "Varied environments between chapters",
+        "Enjoyable story"
+      ],
+      "cons": [
+        "Moving objects can feel a little clunky",
+        "Click-to-move takes some getting used to"
       ]
     }
   ]
