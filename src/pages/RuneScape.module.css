@@ -1,0 +1,478 @@
+/* RuneScape palette is scoped to this page so the game look never leaks into the site theme.
+   The bevel is derived from portfolio tokens, so it inverts with the light theme for free. */
+.container {
+  --rs-gold: #ffb000;
+  --rs-gold-dim: #d99a1a;
+  --rs-over-cap: #4ad14a;
+  --rs-tile-face: var(--bg-secondary);
+  --rs-bevel-light: var(--bg-hover);
+  --rs-bevel-dark: var(--bg-deep);
+
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+:global([data-theme='light']) .container {
+  /* #ffb000 fails contrast on a light face. */
+  --rs-gold: #6f4200;
+  --rs-gold-dim: #573200;
+  --rs-over-cap: #1f7a1f;
+  --rs-bevel-light: #ffffff;
+  --rs-bevel-dark: #b3bcc4;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Skills and quests share a row once the container can hold the 420px grid plus a usable
+   panel beside it; below that they stack in the same order. */
+.skillsQuestsRow {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rowSplit {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.skillsColumn,
+.questsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.rowSplit .skillsColumn {
+  flex: 0 0 auto;
+  width: 420px;
+}
+
+.rowSplit .questsColumn {
+  flex: 1 1 auto;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--accent-dim);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sectionIcon {
+  color: var(--accent-bright);
+  font-family: var(--font-mono);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- character panel ---------- */
+
+.characterPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.12);
+}
+
+.characterSplit {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.portrait,
+.portraitPlaceholder {
+  width: 140px;
+  flex-shrink: 0;
+  background: var(--bg-deep);
+  border-top: 1px solid var(--rs-bevel-light);
+  border-left: 1px solid var(--rs-bevel-light);
+  border-bottom: 1px solid var(--rs-bevel-dark);
+  border-right: 1px solid var(--rs-bevel-dark);
+}
+
+.portrait {
+  height: auto;
+  object-fit: contain;
+}
+
+.portraitPlaceholder {
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+
+.portraitGlyph {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  color: var(--text-dim);
+  line-height: 1;
+}
+
+.portraitHint {
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.characterBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-width: 0;
+}
+
+.characterName {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.characterTagline,
+.characterNote {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.syncedAt {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.statRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0.25rem 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--accent-bright);
+}
+
+.statLabel {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  color: var(--text-dim);
+}
+
+/* ---------- skill grid ---------- */
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3px;
+  /* Without a cap the game panel stretches into a banner on a wide monitor. */
+  max-width: 420px;
+  padding: 4px;
+  background: var(--bg-deep);
+  border: 1px solid var(--rs-bevel-dark);
+}
+
+.skillGrid[data-columns='2'] {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.tile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+  padding: 0.3rem 0.45rem;
+  min-height: 42px;
+  overflow: hidden;
+  background: var(--rs-tile-face);
+  border-top: 1px solid var(--rs-bevel-light);
+  border-left: 1px solid var(--rs-bevel-light);
+  border-bottom: 1px solid var(--rs-bevel-dark);
+  border-right: 1px solid var(--rs-bevel-dark);
+  cursor: default;
+  transition: background var(--transition-fast);
+}
+
+.tile:hover {
+  background: var(--bg-hover);
+}
+
+.tileOverCap {
+  background: color-mix(in srgb, var(--rs-over-cap) 10%, var(--rs-tile-face));
+}
+
+.tileOverCap:hover {
+  background: color-mix(in srgb, var(--rs-over-cap) 18%, var(--rs-tile-face));
+}
+
+.tileMaxed .levelTop,
+.tileMaxed .levelBase {
+  color: var(--rs-gold);
+  text-shadow: 0 0 6px color-mix(in srgb, var(--rs-gold) 45%, transparent);
+}
+
+.tileIcon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.tileLevels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
+  line-height: 1;
+}
+
+.levelTop,
+.levelBase {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--rs-gold);
+  line-height: 1;
+}
+
+.levelBase {
+  color: var(--rs-gold-dim);
+}
+
+.tileProgress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: var(--pct, 0%);
+  background: var(--rs-gold-dim);
+  opacity: 0.55;
+}
+
+.tileTotal {
+  justify-content: space-between;
+}
+
+.tileTotalLabel {
+  font-family: var(--font-mono);
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+
+.gridNote {
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+/* ---------- quests ---------- */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1.1rem;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.12);
+}
+
+.questHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.questPoints {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.questPointsValue {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--rs-gold);
+}
+
+.questPointsTotal {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.progressTrack {
+  height: 6px;
+  background: var(--bg-deep);
+  border: 1px solid var(--rs-bevel-dark);
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--rs-gold-dim);
+}
+
+.questCounts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--text-secondary);
+}
+
+.questCounts strong {
+  color: var(--accent-bright);
+  font-weight: 600;
+}
+
+.difficultyList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 0;
+  border-top: 1px solid rgba(95, 143, 143, 0.12);
+}
+
+.difficultyRow {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr 3.5rem;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.difficultyLabel {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+.difficultyTrack {
+  height: 4px;
+  background: var(--bg-deep);
+}
+
+.difficultyFill {
+  display: block;
+  height: 100%;
+  background: var(--accent-dim);
+}
+
+.difficultyCount {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  text-align: right;
+}
+
+/* ---------- adventurer's log ---------- */
+
+.logList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(95, 143, 143, 0.12);
+}
+
+.logEntry {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid rgba(95, 143, 143, 0.08);
+}
+
+.logEntry:last-child {
+  border-bottom: none;
+}
+
+.logDate {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  color: var(--text-dim);
+}
+
+.logText {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  color: var(--rs-gold);
+}
+
+.logDetails {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.attribution {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.06em;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin: 0;
+}

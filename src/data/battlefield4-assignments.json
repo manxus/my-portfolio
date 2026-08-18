@@ -1,0 +1,3136 @@
+{
+  "fetchedAt": "2026-08-18T20:37:36.803Z",
+  "sources": [
+    {
+      "kind": "spreadsheet",
+      "path": "data-sources/battlefield4-assignments.xlsx"
+    },
+    {
+      "kind": "wiki",
+      "page": "Assignment/Battlefield 4",
+      "url": "https://battlefield.fandom.com/wiki/Assignment/Battlefield_4",
+      "license": "CC BY-SA 3.0"
+    }
+  ],
+  "summary": {
+    "total": 108,
+    "done": 61
+  },
+  "groups": [
+    {
+      "name": "Campaign",
+      "label": "CAMPAIGN",
+      "count": 6,
+      "done": 6
+    },
+    {
+      "name": "Bronze",
+      "label": "BRONZE",
+      "count": 40,
+      "done": 35
+    },
+    {
+      "name": "Silver",
+      "label": "SILVER",
+      "count": 32,
+      "done": 16
+    },
+    {
+      "name": "Gold",
+      "label": "GOLD",
+      "count": 21,
+      "done": 4
+    },
+    {
+      "name": "Premium",
+      "label": "PREMIUM",
+      "count": 5,
+      "done": 0
+    },
+    {
+      "name": "Phantom",
+      "label": "PHANTOM",
+      "count": 4,
+      "done": 0
+    }
+  ],
+  "assignments": [
+    {
+      "id": "tombstone-actual",
+      "name": "Tombstone Actual",
+      "group": "Campaign",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [
+        "M412 REX for use in multiplayer"
+      ],
+      "tasks": [
+        {
+          "text": "Complete Baku",
+          "current": null,
+          "target": null,
+          "pct": null
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/tombstone-actual.webp"
+    },
+    {
+      "id": "fang-of-the-underworld",
+      "name": "Fang Of The Underworld",
+      "group": "Campaign",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [
+        "Shank for use in multiplayer"
+      ],
+      "tasks": [
+        {
+          "text": "Complete Kunlun Mountains",
+          "current": null,
+          "target": null,
+          "pct": null
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/fang-of-the-underworld.webp"
+    },
+    {
+      "id": "a-trapped-wolf-will",
+      "name": "A Trapped Wolf Will",
+      "group": "Campaign",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [
+        "Machete for use in multiplayer"
+      ],
+      "tasks": [
+        {
+          "text": "Complete Tashgar",
+          "current": null,
+          "target": null,
+          "pct": null
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/a-trapped-wolf-will.webp"
+    },
+    {
+      "id": "to-valhalla",
+      "name": "To Valhalla",
+      "group": "Campaign",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [
+        "QBZ-95-1 for use in multiplayer"
+      ],
+      "tasks": [
+        {
+          "text": "Make the Final Decision (Do not give C4 to anyone)",
+          "current": null,
+          "target": null,
+          "pct": null
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/to-valhalla.webp"
+    },
+    {
+      "id": "peace-maker",
+      "name": "Peace Maker",
+      "group": "Campaign",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [
+        "P90 for use in multiplayer"
+      ],
+      "tasks": [
+        {
+          "text": "Make the Final Decision (Give the C4 to Hannah)",
+          "current": null,
+          "target": null,
+          "pct": null
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/peace-maker.webp"
+    },
+    {
+      "id": "final-duty",
+      "name": "Final Duty",
+      "group": "Campaign",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [
+        "M249 for use in Multiplayer"
+      ],
+      "tasks": [
+        {
+          "text": "Make the Final Decision (Give the C4 to Irish)",
+          "current": null,
+          "target": null,
+          "pct": null
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/final-duty.webp"
+    },
+    {
+      "id": "assault-basic",
+      "name": "Assault Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 10"
+      ],
+      "reward": [
+        "Assault Basic Dog Tag",
+        "Assault Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 7 kills with any Assault rifle",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 11 Heals",
+          "current": 11,
+          "target": 11,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/assault-basic.webp"
+    },
+    {
+      "id": "engineer-basic",
+      "name": "Engineer Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 10"
+      ],
+      "reward": [
+        "Engineer Basic Dog Tag",
+        "Engineer Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 7 kills with any Carbine",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 16 Repairs",
+          "current": 16,
+          "target": 16,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/engineer-basic.webp"
+    },
+    {
+      "id": "recon-basic",
+      "name": "Recon Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 10"
+      ],
+      "reward": [
+        "Recon Basic Dog Tag",
+        "Recon Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Get 7 kills with any Sniper rifle",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Have 4 squad members spawn on you",
+          "current": 4,
+          "target": 4,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/recon-basic.webp"
+    },
+    {
+      "id": "support-basic",
+      "name": "Support Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 10"
+      ],
+      "reward": [
+        "Support Basic Dog Tag",
+        "Support Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 7 kills with any Light Machine Gun",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 16 Resupplies",
+          "current": 16,
+          "target": 16,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/support-basic.webp"
+    },
+    {
+      "id": "land-vehicle-basic",
+      "name": "Land Vehicle Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 10"
+      ],
+      "reward": [
+        "Land Vehicle Basic Dog Tag",
+        "Land Vehicles Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "In a round, kill 7 enemies with any Land Vehicle",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Destroy 25 vehicles with any Land Vehicle",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/land-vehicle-basic.webp"
+    },
+    {
+      "id": "aircraft-basic",
+      "name": "Aircraft Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 10"
+      ],
+      "reward": [
+        "Aircraft Basic Dog Tag",
+        "Aircraft Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "In a round, kill 7 enemies with any aircraft",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Destroy 25 vehicles with any aircraft",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/aircraft-basic.webp"
+    },
+    {
+      "id": "watercraft-basic",
+      "name": "Watercraft Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 10"
+      ],
+      "reward": [
+        "Watercraft Basic Dog Tag",
+        "Watercraft Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 5 kills with the Fast attack craft",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 watercraft ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/watercraft-basic.webp"
+    },
+    {
+      "id": "carbine-basic",
+      "name": "Carbine Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "Carbine Basic Dog Tag",
+        "Carbine Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 7 kills with any Carbine",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Carbine Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/carbine-basic.webp"
+    },
+    {
+      "id": "pdw-basic",
+      "name": "PDW Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "PDW Basic Dog Tag",
+        "PDW Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 7 kills with any PDW",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 PDW Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/pdw-basic.webp"
+    },
+    {
+      "id": "shotgun-basic",
+      "name": "Shotgun Basic",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "Shotgun Basic Dog Tag",
+        "Shotgun Veteran"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 7 kills with any Shotgun",
+          "current": 7,
+          "target": 7,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Shotgun Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/shotgun-basic.webp"
+    },
+    {
+      "id": "conqueror",
+      "name": "Conqueror",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "Conqueror Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Capture 20 flags in Conquest",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Conquest Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/conqueror.webp"
+    },
+    {
+      "id": "rusher",
+      "name": "Rusher",
+      "group": "Bronze",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "Rusher Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 10 M-COM Attacker Ribbons",
+          "current": 4,
+          "target": 10,
+          "pct": 40
+        },
+        {
+          "text": "Obtain 10 Rush Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/rusher.webp"
+    },
+    {
+      "id": "obliterator",
+      "name": "Obliterator",
+      "group": "Bronze",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "Obliterator Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Pick up 20 bombs",
+          "current": 0,
+          "target": 20,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 10 Obliteration Ribbons",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/obliterator.webp"
+    },
+    {
+      "id": "by-my-command",
+      "name": "By My Command",
+      "group": "Bronze",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "By My Command Dog Tag",
+        "Offensive Commander"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 10 Commander Leadership Ribbons",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 10 Commander Resupply Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/by-my-command.webp"
+    },
+    {
+      "id": "blade-runner",
+      "name": "Blade Runner",
+      "group": "Bronze",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 20"
+      ],
+      "reward": [
+        "Blade Runner Dog Tag",
+        "Stealth Assassin"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 5 kills with the knife",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Melee Ribbons",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/blade-runner.webp"
+    },
+    {
+      "id": "fire-starter",
+      "name": "Fire Starter",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Start 5 fires in Second Assault",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/fire-starter.webp"
+    },
+    {
+      "id": "dead-stop",
+      "name": "Dead Stop",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get a Shotgun Ribbon in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Raise or lower the Caspian Border Gate in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/dead-stop.webp"
+    },
+    {
+      "id": "express-train",
+      "name": "Express Train",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Assault Rifle Ribbon x1",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get 2x Kill Assist Ribbons in a round",
+          "current": 2,
+          "target": 2,
+          "pct": 100
+        },
+        {
+          "text": "Get 10 kills inside the Metro in a round",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/express-train.webp"
+    },
+    {
+      "id": "co-pilot",
+      "name": "Co-Pilot",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Spend 10 minutes in helicopters",
+          "current": 600,
+          "target": 600,
+          "pct": 100
+        },
+        {
+          "text": "Do 10 Squad Repairs",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/co-pilot.webp"
+    },
+    {
+      "id": "dust-devil",
+      "name": "Dust Devil",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get an Anti Vehicle Ribbon in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Destroy 5 vehicles in Gulf of Oman",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/dust-devil.webp"
+    },
+    {
+      "id": "eagle-s-nest",
+      "name": "Eagle's Nest",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get a Sniper Rifle Ribbon in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "In a round, kill 5 players from the Caspian or Firestorm towers",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/eagle-s-nest.webp"
+    },
+    {
+      "id": "safe-raiding",
+      "name": "Safe Raiding",
+      "group": "Bronze",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get a kill with the bombing raid",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/safe-raiding.webp"
+    },
+    {
+      "id": "eyes-in-the-sky",
+      "name": "Eyes In The Sky",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Air Superiority ribbon x1",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Jet Fighter ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/eyes-in-the-sky.webp"
+    },
+    {
+      "id": "open-fire",
+      "name": "Open Fire",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Assault Rifle ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with pistol in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with 40mm grenade in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with the defibrillator in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/open-fire.webp"
+    },
+    {
+      "id": "make-a-dent",
+      "name": "Make A Dent",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Destroy an air vehicle with portable AA",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Anti-Vehicle ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/make-a-dent.webp"
+    },
+    {
+      "id": "powder-keg",
+      "name": "Powder Keg",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 1 Mortar kill",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "LMG ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/powder-keg.webp"
+    },
+    {
+      "id": "need-only-one",
+      "name": "Need Only One",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Sniper Rifle ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with a shotgun in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with a DMR in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with C4 in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/need-only-one.webp"
+    },
+    {
+      "id": "titans-of-steel",
+      "name": "Titans Of Steel",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Destroy an objective in Carrier Assault",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/titans-of-steel.webp"
+    },
+    {
+      "id": "spare-time-sniper",
+      "name": "Spare Time Sniper",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Assault Rifle ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        },
+        {
+          "text": "Get 20 headshots with Assault Rifles",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/spare-time-sniper.webp"
+    },
+    {
+      "id": "packing-a-punch",
+      "name": "Packing A Punch",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Destroy 20 boats",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/packing-a-punch.webp"
+    },
+    {
+      "id": "swiss-cheese",
+      "name": "Swiss Cheese",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "LMG ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        },
+        {
+          "text": "Destroy 3 vehicles as Support",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/swiss-cheese.webp"
+    },
+    {
+      "id": "always-deadly",
+      "name": "Always Deadly",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Sniper Rifle ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        },
+        {
+          "text": "Get 5 kills with C4 on NS maps",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/always-deadly.webp"
+    },
+    {
+      "id": "big-splash",
+      "name": "Big Splash",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Activate the floodgates on the Sunken Dragon map",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get 5 kills while swimming",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/big-splash.webp"
+    },
+    {
+      "id": "lions-and-tigers-and-bears",
+      "name": "Lions And Tigers And Bears",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Kill 10 Support enemies who are also on foot",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Kill 10 Engineer enemies who are also on foot",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Kill 10 Recon enemies who are also on foot",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/lions-and-tigers-and-bears.webp"
+    },
+    {
+      "id": "not-the-weakest-link",
+      "name": "Not The Weakest Link",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "2 PDW Ribbons",
+          "current": 2,
+          "target": 2,
+          "pct": 100
+        },
+        {
+          "text": "Link 10 points in Chainlink",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Get “Squad Order Followed“ 10 times",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/not-the-weakest-link.webp"
+    },
+    {
+      "id": "the-i-in-team",
+      "name": "The 'i' In Team",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "2 Sniper Rifle Ribbons",
+          "current": 2,
+          "target": 2,
+          "pct": 100
+        },
+        {
+          "text": "10 Radio Beacon spawns",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "20 Spot Assists",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/the-i-in-team.webp"
+    },
+    {
+      "id": "vanguard",
+      "name": "Vanguard",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "5 Savior Kills",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        },
+        {
+          "text": "20 Suppresion Assists",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        },
+        {
+          "text": "Destroy 3 explosives",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/vanguard.webp"
+    },
+    {
+      "id": "road-warrior",
+      "name": "Road Warrior",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "10 Capture Point Attacker kills",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "10 Capture Point Defender kills",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "25 kills with shotguns",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/road-warrior.webp"
+    },
+    {
+      "id": "disinformation",
+      "name": "Disinformation",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Affect 10 enemies with M84 Flashbangs",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Get 3 melee kills",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/disinformation.webp"
+    },
+    {
+      "id": "eye-spy",
+      "name": "Eye Spy",
+      "group": "Bronze",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 2 Spotting Ribbons",
+          "current": 2,
+          "target": 2,
+          "pct": 100
+        },
+        {
+          "text": "Get 20 DMR or Carbine kills",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/eye-spy.webp"
+    },
+    {
+      "id": "assault-veteran",
+      "name": "Assault Veteran",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Assault Basic"
+      ],
+      "reward": [
+        "Crimson Woodland Camouflage",
+        "Assault Expert"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 8 kills with any Assault rifle",
+          "current": 8,
+          "target": 8,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 12 Heals",
+          "current": 12,
+          "target": 12,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/assault-veteran.webp"
+    },
+    {
+      "id": "engineer-veteran",
+      "name": "Engineer Veteran",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Engineer Basic"
+      ],
+      "reward": [
+        "TTsKO Blue Camouflage",
+        "Engineer Expert"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 8 kills with any Carbine",
+          "current": 8,
+          "target": 8,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 17 Repairs",
+          "current": 17,
+          "target": 17,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/engineer-veteran.webp"
+    },
+    {
+      "id": "recon-veteran",
+      "name": "Recon Veteran",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Recon Basic"
+      ],
+      "reward": [
+        "Duckweed Camouflage",
+        "Recon Expert"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 8 kills with any Sniper rifle",
+          "current": 8,
+          "target": 8,
+          "pct": 100
+        },
+        {
+          "text": "Have 5 squad members spawn on you",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/recon-veteran.webp"
+    },
+    {
+      "id": "support-veteran",
+      "name": "Support Veteran",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Support Basic"
+      ],
+      "reward": [
+        "Green Underbrush Camouflage",
+        "Support Expert"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 8 kills with any Light machine gun",
+          "current": 8,
+          "target": 8,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 17 Resupplies",
+          "current": 17,
+          "target": 17,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/support-veteran.webp"
+    },
+    {
+      "id": "land-vehicles-veteran",
+      "name": "Land Vehicles Veteran",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Land Vehicle Basic"
+      ],
+      "reward": [
+        "Black Shark Camouflage"
+      ],
+      "tasks": [
+        {
+          "text": "In a round, kill 10 enemies with any Land Vehicle",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Destroy 50 vehicles with any Land Vehicle",
+          "current": 12,
+          "target": 50,
+          "pct": 24
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/land-vehicles-veteran.webp"
+    },
+    {
+      "id": "aircraft-veteran",
+      "name": "Aircraft Veteran",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Aircraft Basic"
+      ],
+      "reward": [
+        "Flanker Camouflage"
+      ],
+      "tasks": [
+        {
+          "text": "In a round, kill 10 enemies with any aircraft",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        },
+        {
+          "text": "Destroy 50 vehicles with any aircraft",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/aircraft-veteran.webp"
+    },
+    {
+      "id": "watercraft-veteran",
+      "name": "Watercraft Veteran",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Watercraft Basic"
+      ],
+      "reward": [
+        "Blue Sky Camouflage"
+      ],
+      "tasks": [
+        {
+          "text": "Get 6 kills with the Fast attack craft",
+          "current": 6,
+          "target": 6,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 20 watercraft ribbons",
+          "current": 5,
+          "target": 20,
+          "pct": 25
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/watercraft-veteran.webp"
+    },
+    {
+      "id": "carbine-veteran",
+      "name": "Carbine Veteran",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Carbine Basic"
+      ],
+      "reward": [
+        "Ripple Camouflage"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 8 kills with any Carbine",
+          "current": 8,
+          "target": 8,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 20 Carbine Ribbons",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/carbine-veteran.webp"
+    },
+    {
+      "id": "pdw-veteran",
+      "name": "PDW Veteran",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete PDW Basic"
+      ],
+      "reward": [
+        "Ink Blotch Camouflage"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 8 kills with any PDW",
+          "current": 8,
+          "target": 8,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 20 PDW Ribbons",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/pdw-veteran.webp"
+    },
+    {
+      "id": "shotgun-veteran",
+      "name": "Shotgun Veteran",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Shotgun Basic"
+      ],
+      "reward": [
+        "Blue Tiger Camouflage"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 8 kills with any Shotgun",
+          "current": 8,
+          "target": 8,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 20 Shotgun Ribbons",
+          "current": 7,
+          "target": 20,
+          "pct": 35
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/shotgun-veteran.webp"
+    },
+    {
+      "id": "tin-foil-hat",
+      "name": "Tin Foil Hat",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 50"
+      ],
+      "reward": [
+        "Tin Foil Hat Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 10 Commander Surveillance Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 30 EMP Bonuses as Commander",
+          "current": 30,
+          "target": 30,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 20 Spotting Ribbons",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/tin-foil-hat.webp"
+    },
+    {
+      "id": "we-ll-meet-again",
+      "name": "We'll Meet Again",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 50"
+      ],
+      "reward": [
+        "We'll Meet Again Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Launch 100 Cruise Missiles",
+          "current": 58,
+          "target": 100,
+          "pct": 58
+        },
+        {
+          "text": "Deploy 50 Early Warnings",
+          "current": 50,
+          "target": 50,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/we-ll-meet-again.webp"
+    },
+    {
+      "id": "leave-no-man-behind",
+      "name": "Leave No Man Behind",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 50"
+      ],
+      "reward": [
+        "Leave No Man Behind Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 25 Squad Savior bonuses",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 25 Squad Avenger bonuses",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        },
+        {
+          "text": "Perform 50 Squad Revives",
+          "current": 50,
+          "target": 50,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/leave-no-man-behind.webp"
+    },
+    {
+      "id": "wrecking-ball",
+      "name": "Wrecking Ball",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 50"
+      ],
+      "reward": [
+        "Wrecking Ball Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 25 Mobility Critical Hits",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 50 Vehicle Destroyed",
+          "current": 50,
+          "target": 50,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/wrecking-ball.webp"
+    },
+    {
+      "id": "stealth-assassin",
+      "name": "Stealth Assassin",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Blade Runner"
+      ],
+      "reward": [
+        "Stealth Assassin Dog Tag",
+        "Melee Expert"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 20 Dog Tags",
+          "current": 0,
+          "target": 20,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 20 Melee Ribbons",
+          "current": 0,
+          "target": 20,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/stealth-assassin.webp"
+    },
+    {
+      "id": "air-mail",
+      "name": "Air Mail",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Transport a flag carrier in a helicopter which results in a capture",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/air-mail.webp"
+    },
+    {
+      "id": "scorched",
+      "name": "Scorched",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get a kill by using the Firestorm tower burnoff",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/scorched.webp"
+    },
+    {
+      "id": "re-mastered",
+      "name": "Re-Mastered",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 25 Kills with the M60-E4",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        },
+        {
+          "text": "Get 25 kills with the F2000",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        },
+        {
+          "text": "Get 25 kills with the DAO-12",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        },
+        {
+          "text": "Get 25 kills with the AS VAL",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        },
+        {
+          "text": "Get 25 kills with the GOL Magnum",
+          "current": 25,
+          "target": 25,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/re-mastered.webp"
+    },
+    {
+      "id": "mother-of-all-bombs",
+      "name": "Mother Of All Bombs",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 15 kills with the bombing raid",
+          "current": 0,
+          "target": 15,
+          "pct": 0
+        },
+        {
+          "text": "Destroy an enemy bomber",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/mother-of-all-bombs.webp"
+    },
+    {
+      "id": "multi-talent",
+      "name": "Multi Talent",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get a kill with a sniper rifle in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with an assault rifle in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with an LMG in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with a hand grenade in a round",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/multi-talent.webp"
+    },
+    {
+      "id": "i-m-dynamite",
+      "name": "I'm Dynamite",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Bomber Delivery ribbon x3",
+          "current": 0,
+          "target": 3,
+          "pct": 0
+        },
+        {
+          "text": "Get 20 UCAV kills",
+          "current": 1,
+          "target": 20,
+          "pct": 5
+        },
+        {
+          "text": "Score a multikill!",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/i-m-dynamite.webp"
+    },
+    {
+      "id": "curve-ball",
+      "name": "Curve Ball",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 10 kills with an Impact Grenade",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/curve-ball.webp"
+    },
+    {
+      "id": "multi-tool",
+      "name": "Multi Tool",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 10 kills with UGL Darts",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Get 10 kills with UGL LVG",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/multi-tool.webp"
+    },
+    {
+      "id": "death-from-below",
+      "name": "Death From Below",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "PDW ribbon x3",
+          "current": 3,
+          "target": 3,
+          "pct": 100
+        },
+        {
+          "text": "Destroy 5 attack air vehicles with Rocket Launchers",
+          "current": 0,
+          "target": 5,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/death-from-below.webp"
+    },
+    {
+      "id": "remote-operator",
+      "name": "Remote Operator",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Destroy a vehicle with the EOD Bot",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        },
+        {
+          "text": "Get 5 kills with the RAWR",
+          "current": 0,
+          "target": 5,
+          "pct": 0
+        },
+        {
+          "text": "Get 10 kills with the Mortar",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Spot 20 targets with the MAV",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/remote-operator.webp"
+    },
+    {
+      "id": "recoil-kinetics",
+      "name": "Recoil Kinetics",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 20 headshots with the Unica 6",
+          "current": 20,
+          "target": 20,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/recoil-kinetics.webp"
+    },
+    {
+      "id": "killjoy",
+      "name": "Killjoy",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 10 kills while under 30 health",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Break 30 enemy links in Chainlink",
+          "current": 0,
+          "target": 30,
+          "pct": 0
+        },
+        {
+          "text": "Win a round of Chainlink with 50 tickets left",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/killjoy.webp"
+    },
+    {
+      "id": "xd-1-deathbringer",
+      "name": "Xd-1 Deathbringer",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 30 kills with the XD-1 Accipiter",
+          "current": 0,
+          "target": 30,
+          "pct": 0
+        },
+        {
+          "text": "Travel 3km in the XD-1 Accipiter",
+          "current": 0,
+          "target": 3000,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/xd-1-deathbringer.webp"
+    },
+    {
+      "id": "snowmobile-slayer",
+      "name": "Snowmobile Slayer",
+      "group": "Silver",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 10 Roadkills with the Snowmobile",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Get 5 minutes of air time in the Snowmobile",
+          "current": 300,
+          "target": 300,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/snowmobile-slayer.webp"
+    },
+    {
+      "id": "hover-tank-harbinger",
+      "name": "Hover Tank Harbinger",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Destroy 15 vehicles with the HT-95 Levkov",
+          "current": 0,
+          "target": 15,
+          "pct": 0
+        },
+        {
+          "text": "Spend 10 minutes in the HT-95 Levkov",
+          "current": 35,
+          "target": 600,
+          "pct": 6
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/hover-tank-harbinger.webp"
+    },
+    {
+      "id": "railgun-rampage",
+      "name": "Railgun Rampage",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Destroy 10 Vehicles with the Rorsch Mk-1",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        },
+        {
+          "text": "Get 25 kills with the Rorsch Mk-1",
+          "current": 0,
+          "target": 25,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/railgun-rampage.webp"
+    },
+    {
+      "id": "mechanized-mayhem",
+      "name": "Mechanized Mayhem",
+      "group": "Silver",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 25 kills with the Schipunov 42",
+          "current": 0,
+          "target": 25,
+          "pct": 0
+        },
+        {
+          "text": "Spend 5 minutes in the air with the Launch Pod",
+          "current": 1,
+          "target": 300,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/mechanized-mayhem.webp"
+    },
+    {
+      "id": "assault-expert",
+      "name": "Assault Expert",
+      "group": "Gold",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Assault Veteran"
+      ],
+      "reward": [
+        "ACE 23"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 Medkit Ribbons",
+          "current": 50,
+          "target": 50,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 200 kills with any Assault rifle",
+          "current": 200,
+          "target": 200,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Assault Rifle Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/assault-expert.webp"
+    },
+    {
+      "id": "engineer-expert",
+      "name": "Engineer Expert",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Engineer Veteran"
+      ],
+      "reward": [
+        "UMP-9"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 10 Carbine Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 50 Repair Tool Ribbons",
+          "current": 42,
+          "target": 50,
+          "pct": 84
+        },
+        {
+          "text": "Get 200 kills with any carbine",
+          "current": 200,
+          "target": 200,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/engineer-expert.webp"
+    },
+    {
+      "id": "recon-expert",
+      "name": "Recon Expert",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Recon Veteran"
+      ],
+      "reward": [
+        "FY-JS"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 Marksman Ribbons",
+          "current": 26,
+          "target": 50,
+          "pct": 52
+        },
+        {
+          "text": "Obtain 200 kills with any Sniper rifle",
+          "current": 200,
+          "target": 200,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Sniper Rifle Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/recon-expert.webp"
+    },
+    {
+      "id": "support-expert",
+      "name": "Support Expert",
+      "group": "Gold",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Support Veteran"
+      ],
+      "reward": [
+        "RPK-12"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 Ammo Ribbons",
+          "current": 50,
+          "target": 50,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 200 kills with any LMG",
+          "current": 200,
+          "target": 200,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Light Machine Gun Ribbons",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/support-expert.webp"
+    },
+    {
+      "id": "offensive-commander",
+      "name": "Offensive Commander",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete By My Command"
+      ],
+      "reward": [
+        "Offensive Commander Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Kill 30 enemies with Cruise Missiles",
+          "current": 0,
+          "target": 30,
+          "pct": 0
+        },
+        {
+          "text": "Designate 10 High Value Targets",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        },
+        {
+          "text": "Deploy 50 Gunships",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/offensive-commander.webp"
+    },
+    {
+      "id": "hitman",
+      "name": "Hitman",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "Hitman Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Perform 10 Squad Wipes",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        },
+        {
+          "text": "Get 5 Kill Streak Stopped",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        },
+        {
+          "text": "Kill 3 Commander-designated High Value Targets",
+          "current": 0,
+          "target": 3,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/hitman.webp"
+    },
+    {
+      "id": "land-warrior",
+      "name": "Land Warrior",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "Land Warrior Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 1 Main Battle Tank Medal",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 1 Infantry Fighting Vehicle Medal",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        },
+        {
+          "text": "Destroy 1 Helicopter with a Main Battle Tank",
+          "current": 1,
+          "target": 1,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/land-warrior.webp"
+    },
+    {
+      "id": "air-warrior",
+      "name": "Air Warrior",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "Air Warrior Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 1 Attack Helicopter Medal",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 1 Jet Fighter Medal",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        },
+        {
+          "text": "Destroy 5 Jets with Attack Helicopters.",
+          "current": 0,
+          "target": 5,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/air-warrior.webp"
+    },
+    {
+      "id": "taxi-driver",
+      "name": "Taxi Driver",
+      "group": "Gold",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "Taxi Driver Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 30 Driver Bonuses",
+          "current": 30,
+          "target": 30,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 10 Squad Vehicle Kill Assist",
+          "current": 10,
+          "target": 10,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/taxi-driver.webp"
+    },
+    {
+      "id": "wall-of-shotgun",
+      "name": "Wall of Shotgun",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "Wall of Shotgun Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 kills with the DBV-12",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 50 kills with the M26 MASS",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 50 kills with the Serbu Shorty",
+          "current": 38,
+          "target": 50,
+          "pct": 76
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/wall-of-shotgun.webp"
+    },
+    {
+      "id": "swedish-steel",
+      "name": "Swedish Steel",
+      "group": "Gold",
+      "done": true,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "Swedish Steel Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 100 kills with the AK 5C carbine",
+          "current": 100,
+          "target": 100,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 50 headshots with the AK 5C carbine",
+          "current": 50,
+          "target": 50,
+          "pct": 100
+        },
+        {
+          "text": "Obtain 100 kills with the CBJ-MS PDW",
+          "current": 100,
+          "target": 100,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/swedish-steel.webp"
+    },
+    {
+      "id": "made-in-china",
+      "name": "Made In China",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "Made In China Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 headshots with the QBU-88 DMR",
+          "current": 1,
+          "target": 50,
+          "pct": 2
+        },
+        {
+          "text": "Obtain 100 kills with the QBS-09  shotgun",
+          "current": 0,
+          "target": 100,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 50 kills with the QSZ-92 handgun",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/made-in-china.webp"
+    },
+    {
+      "id": "from-russia-with-lead",
+      "name": "From Russia With Lead",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "From Russia With Lead Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 headshots with the SKS DMR",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 100 kills with the A-91 carbine",
+          "current": 8,
+          "target": 100,
+          "pct": 8
+        },
+        {
+          "text": "Obtain 50 kills with the MP412 REX handgun",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/from-russia-with-lead.webp"
+    },
+    {
+      "id": "american-classics",
+      "name": "American Classics",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Rank 100"
+      ],
+      "reward": [
+        "American Classics Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 headshots with the M39 DMR",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "Obtain 100 kills with the M4 carbine",
+          "current": 8,
+          "target": 100,
+          "pct": 8
+        },
+        {
+          "text": "Obtain 50 kills with the .44 Magnum handgun",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/american-classics.webp"
+    },
+    {
+      "id": "melee-expert",
+      "name": "Melee Expert",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [
+        "Complete Stealth Assassin"
+      ],
+      "reward": [
+        "Melee Expert Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "Obtain 50 Melee Ribbons",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/melee-expert.webp"
+    },
+    {
+      "id": "perfect-landing",
+      "name": "Perfect Landing",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Play 10 hours of Second Assault",
+          "current": 8,
+          "target": 10,
+          "pct": 80
+        },
+        {
+          "text": "Land on top of the tallest tower in Caspian or Firestorm in a round",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        },
+        {
+          "text": "Get a kill-streak of 10 in a round",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/perfect-landing.webp"
+    },
+    {
+      "id": "middle-king",
+      "name": "Middle King",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Play 10 hours of China Rising",
+          "current": 2,
+          "target": 10,
+          "pct": 20
+        },
+        {
+          "text": "Get a kill streak of 5",
+          "current": 5,
+          "target": 5,
+          "pct": 100
+        },
+        {
+          "text": "Get a kill with SUAV",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/middle-king.webp"
+    },
+    {
+      "id": "scourge-of-the-sea",
+      "name": "Scourge Of The Sea",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Play 10 hours of Naval Strike",
+          "current": 4,
+          "target": 10,
+          "pct": 40
+        },
+        {
+          "text": "Get 1 kill with AA Mine",
+          "current": 0,
+          "target": 1,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/scourge-of-the-sea.webp"
+    },
+    {
+      "id": "giant-slayer",
+      "name": "Giant Slayer",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Win 20 rounds of Carrier Assault",
+          "current": 3,
+          "target": 20,
+          "pct": 15
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/giant-slayer.webp"
+    },
+    {
+      "id": "city-slicker",
+      "name": "City Slicker",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Play 10 hours of Dragon's Teeth",
+          "current": 3,
+          "target": 10,
+          "pct": 30
+        },
+        {
+          "text": "Get 100 kills on Dragon's Teeth maps",
+          "current": 100,
+          "target": 100,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/city-slicker.webp"
+    },
+    {
+      "id": "frostbite",
+      "name": "Frostbite",
+      "group": "Gold",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Play 10 hours of Final Stand",
+          "current": 4,
+          "target": 10,
+          "pct": 40
+        },
+        {
+          "text": "Win 10 rounds on Operation Whiteout",
+          "current": 3,
+          "target": 10,
+          "pct": 30
+        },
+        {
+          "text": "Win 10 rounds on Hammerhead",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        },
+        {
+          "text": "Win 10 rounds on Hangar 21",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        },
+        {
+          "text": "Win 10 rounds on Giants of Karelia",
+          "current": 3,
+          "target": 10,
+          "pct": 30
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/frostbite.webp"
+    },
+    {
+      "id": "ultimate-assault",
+      "name": "Ultimate Assault",
+      "group": "Premium",
+      "done": false,
+      "premium": true,
+      "unlockedBy": [
+        "Rank 20",
+        "Complete Assault Expert Assignment",
+        "Battlefield Premium"
+      ],
+      "reward": [
+        "Ultimate Assault Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "200 kills with Assault Rifles",
+          "current": 0,
+          "target": 200,
+          "pct": 0
+        },
+        {
+          "text": "50 kills with Grenade Launchers",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "100 Heals",
+          "current": 0,
+          "target": 100,
+          "pct": 0
+        },
+        {
+          "text": "50 Revives",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "10 kills with Defibrillator",
+          "current": 0,
+          "target": 10,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/ultimate-assault.webp"
+    },
+    {
+      "id": "ultimate-engineer",
+      "name": "Ultimate Engineer",
+      "group": "Premium",
+      "done": false,
+      "premium": true,
+      "unlockedBy": [
+        "Rank 20",
+        "Complete Engineer Expert Assignment",
+        "Battlefield Premium"
+      ],
+      "reward": [
+        "Ultimate Engineer Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "200 kills with PDWs",
+          "current": 0,
+          "target": 200,
+          "pct": 0
+        },
+        {
+          "text": "75 kills with Rocket Launchers",
+          "current": 0,
+          "target": 75,
+          "pct": 0
+        },
+        {
+          "text": "Destroy 50 vehicles with Rocket Launchers",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "Destroy 25 vehicles with Mines",
+          "current": 0,
+          "target": 25,
+          "pct": 0
+        },
+        {
+          "text": "100 repairs",
+          "current": 0,
+          "target": 100,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/ultimate-engineer.webp"
+    },
+    {
+      "id": "ultimate-support",
+      "name": "Ultimate Support",
+      "group": "Premium",
+      "done": false,
+      "premium": true,
+      "unlockedBy": [
+        "Rank 20",
+        "Complete Support Expert Assignment",
+        "Battlefield Premium"
+      ],
+      "reward": [
+        "Ultimate Support Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "200 kills with LMGs",
+          "current": 0,
+          "target": 200,
+          "pct": 0
+        },
+        {
+          "text": "50 kills with XM25",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "50 kills with C4 or Claymore",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "50 kills with the Mortar or UCAV",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "100 Resupplies",
+          "current": 0,
+          "target": 100,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/ultimate-support.webp"
+    },
+    {
+      "id": "ultimate-recon",
+      "name": "Ultimate Recon",
+      "group": "Premium",
+      "done": false,
+      "premium": true,
+      "unlockedBy": [
+        "Rank 20",
+        "Complete Recon Expert Assignment",
+        "Battlefield Premium"
+      ],
+      "reward": [
+        "Ultimate Recon Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "200 kills with Sniper Rifles",
+          "current": 0,
+          "target": 200,
+          "pct": 0
+        },
+        {
+          "text": "50 kills with C4 or Claymores",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "Spot 100 targets with the MAV or SUAV",
+          "current": 0,
+          "target": 100,
+          "pct": 0
+        },
+        {
+          "text": "Paint 25 vehicles",
+          "current": 0,
+          "target": 25,
+          "pct": 0
+        },
+        {
+          "text": "25 Motion Sensor Assists",
+          "current": 0,
+          "target": 25,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/ultimate-recon.webp"
+    },
+    {
+      "id": "ultimate-commander",
+      "name": "Ultimate Commander",
+      "group": "Premium",
+      "done": false,
+      "premium": true,
+      "unlockedBy": [
+        "Rank 20",
+        "Complete Expert Assignment",
+        "Battlefield Premium"
+      ],
+      "reward": [
+        "Ultimate Commander Dog Tag"
+      ],
+      "tasks": [
+        {
+          "text": "100 Scan Assists",
+          "current": 0,
+          "target": 100,
+          "pct": 0
+        },
+        {
+          "text": "100 EMP Assists",
+          "current": 0,
+          "target": 100,
+          "pct": 0
+        },
+        {
+          "text": "Promote 75 Squads",
+          "current": 0,
+          "target": 75,
+          "pct": 0
+        },
+        {
+          "text": "50 Ammo Drops Used",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        },
+        {
+          "text": "25 Vehicles Used",
+          "current": 0,
+          "target": 25,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/ultimate-commander.webp"
+    },
+    {
+      "id": "phantom-prospect",
+      "name": "Phantom Prospect",
+      "group": "Phantom",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Score 200 kills with Assault rifles",
+          "current": 34,
+          "target": 200,
+          "pct": 17
+        },
+        {
+          "text": "Score 200 kills with Main battle tanks",
+          "current": 0,
+          "target": 200,
+          "pct": 0
+        },
+        {
+          "text": "Get a total of 300 meter headshot",
+          "current": 300,
+          "target": 300,
+          "pct": 100
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/phantom-prospect.webp"
+    },
+    {
+      "id": "phantom-trainee",
+      "name": "Phantom Trainee",
+      "group": "Phantom",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Score 200 kills with pistols",
+          "current": 13,
+          "target": 200,
+          "pct": 7
+        },
+        {
+          "text": "Score 20 kills in a jet",
+          "current": 0,
+          "target": 20,
+          "pct": 0
+        },
+        {
+          "text": "Get 2x Shotgun Ribbons in a round",
+          "current": 0,
+          "target": 2,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/phantom-trainee.webp"
+    },
+    {
+      "id": "phantom-initiate",
+      "name": "Phantom Initiate",
+      "group": "Phantom",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 200 LMG kills",
+          "current": 0,
+          "target": 200,
+          "pct": 0
+        },
+        {
+          "text": "Get 50 kills with explosives",
+          "current": 2,
+          "target": 50,
+          "pct": 4
+        },
+        {
+          "text": "Get 25 roadkills",
+          "current": 4,
+          "target": 25,
+          "pct": 16
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/phantom-initiate.webp"
+    },
+    {
+      "id": "phantom-operative",
+      "name": "Phantom Operative",
+      "group": "Phantom",
+      "done": false,
+      "premium": false,
+      "unlockedBy": [],
+      "reward": [],
+      "tasks": [
+        {
+          "text": "Get 200 kills with the Phantom",
+          "current": 0,
+          "target": 200,
+          "pct": 0
+        },
+        {
+          "text": "Get 50 headshots with the Phantom",
+          "current": 0,
+          "target": 50,
+          "pct": 0
+        }
+      ],
+      "badgeUrl": "/battlefield4/assignments/phantom-operative.webp"
+    }
+  ]
+}

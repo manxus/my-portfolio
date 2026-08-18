@@ -1,0 +1,38 @@
+name: Sync RuneScape Data
+
+on:
+  workflow_dispatch:
+  # Uncomment when actively playing again:
+  # schedule:
+  #   - cron: '0 7 * * 1'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No secrets needed — RuneMetrics is unauthenticated and the display name is public.
+      - name: Fetch RuneScape data
+        env:
+          RS_USER: ${{ vars.RS_USER || 'Manxus' }}
+        run: node scripts/fetch-runescape-data.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/runescape.json public/runescape
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync runescape data"
+            git push
+          else
+            echo "No changes to runescape data, skipping commit."
+          fi

@@ -47,7 +47,7 @@ const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides',
   'media', 'livestream', 'music', 'books', 'tabletop', 'travel', 'credits', 'patchNotes', 'steam-hallofpain',
-  'cinema',
+  'cinema', 'runescape',
 ]);
 
 async function handleTwitchOembed(req, res) {

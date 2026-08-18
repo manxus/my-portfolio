@@ -1,0 +1,39 @@
+name: Sync Battlefield 4 Data
+
+on:
+  workflow_dispatch:
+  # No schedule: the account is retired, so the service record is frozen and a cron would only
+  # burn minutes re-fetching identical numbers.
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # No secrets needed — gametools.network is unauthenticated and the persona is public.
+      # Set the BF4_PERSONA_ID repository variable to skip name resolution entirely.
+      - name: Fetch Battlefield 4 data
+        env:
+          BF4_PERSONA_ID: ${{ vars.BF4_PERSONA_ID }}
+          BF4_USER: ${{ vars.BF4_USER || 'manxuss' }}
+        run: node scripts/fetch-bf4-data.js --icons
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/battlefield4.json public/battlefield4
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync battlefield 4 data"
+            git push
+          else
+            echo "No changes to battlefield 4 data, skipping commit."
+          fi

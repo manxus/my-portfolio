@@ -1,0 +1,767 @@
+{
+  "fetchedAt": "2026-08-18T21:39:25.952Z",
+  "profile": {
+    "steamId": "76561198063836659",
+    "personaName": "Manxus",
+    "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
+    "profileUrl": "https://steamcommunity.com/id/manxuss/",
+    "capsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg"
+  },
+  "summary": {
+    "kills": 170044,
+    "deaths": 122702,
+    "killDeath": 1.386,
+    "secondsPlayed": 8003131,
+    "hoursPlayed": 2223.1,
+    "libraryHours": 3467.8,
+    "accuracy": 21.9,
+    "headshotPct": 44.4,
+    "roundWinPct": 51.9,
+    "matchWinPct": 39.6,
+    "roundsPlayed": 101001,
+    "matchesPlayed": 6027,
+    "mvps": 17179,
+    "adr": 233.8,
+    "killsPerRound": 1.68
+  },
+  "record": [
+    {
+      "key": "total_kills",
+      "label": "Kills",
+      "value": 170044
+    },
+    {
+      "key": "total_deaths",
+      "label": "Deaths",
+      "value": 122702
+    },
+    {
+      "key": "total_kills_headshot",
+      "label": "Headshot kills",
+      "value": 75454
+    },
+    {
+      "key": "total_rounds_played",
+      "label": "Rounds played",
+      "value": 101001
+    },
+    {
+      "key": "total_wins",
+      "label": "Rounds won",
+      "value": 52443
+    },
+    {
+      "key": "total_matches_played",
+      "label": "Matches played",
+      "value": 6027
+    },
+    {
+      "key": "total_matches_won",
+      "label": "Matches won",
+      "value": 2384
+    },
+    {
+      "key": "total_mvps",
+      "label": "MVPs",
+      "value": 17179
+    },
+    {
+      "key": "total_damage_done",
+      "label": "Damage dealt",
+      "value": 23613777
+    },
+    {
+      "key": "total_shots_fired",
+      "label": "Shots fired",
+      "value": 2234512
+    },
+    {
+      "key": "total_shots_hit",
+      "label": "Shots hit",
+      "value": 490132
+    },
+    {
+      "key": "total_money_earned",
+      "label": "Money earned",
+      "value": 289908620
+    },
+    {
+      "key": "total_contribution_score",
+      "label": "Contribution score",
+      "value": 694963
+    },
+    {
+      "key": "total_kills_knife",
+      "label": "Knife kills",
+      "value": 979
+    },
+    {
+      "key": "total_dominations",
+      "label": "Dominations",
+      "value": 3051
+    },
+    {
+      "key": "total_weapons_donated",
+      "label": "Weapons donated",
+      "value": 13832
+    }
+  ],
+  "weaponCategories": [
+    {
+      "name": "Pistols",
+      "count": 7
+    },
+    {
+      "name": "SMGs",
+      "count": 6
+    },
+    {
+      "name": "Rifles",
+      "count": 10
+    },
+    {
+      "name": "Heavy",
+      "count": 6
+    }
+  ],
+  "weapons": [
+    {
+      "slug": "ak47",
+      "name": "AK-47",
+      "category": "Rifles",
+      "kills": 60356,
+      "shots": 821816,
+      "hits": 182983,
+      "accuracy": 22.3,
+      "killsPerShot": 7.34,
+      "iconUrl": "/counterstrike/weapons/ak47.png",
+      "barPct": 100
+    },
+    {
+      "slug": "awp",
+      "name": "AWP",
+      "category": "Rifles",
+      "kills": 21745,
+      "shots": 60291,
+      "hits": 24091,
+      "accuracy": 40,
+      "killsPerShot": 36.07,
+      "iconUrl": "/counterstrike/weapons/awp.png",
+      "barPct": 36
+    },
+    {
+      "slug": "m4a1",
+      "name": "M4A4",
+      "category": "Rifles",
+      "kills": 15964,
+      "shots": 251092,
+      "hits": 61298,
+      "accuracy": 24.4,
+      "killsPerShot": 6.36,
+      "iconUrl": "/counterstrike/weapons/m4a1.png",
+      "barPct": 26
+    },
+    {
+      "slug": "deagle",
+      "name": "Desert Eagle",
+      "category": "Pistols",
+      "kills": 14941,
+      "shots": 101891,
+      "hits": 30791,
+      "accuracy": 30.2,
+      "killsPerShot": 14.66,
+      "iconUrl": "/counterstrike/weapons/deagle.png",
+      "barPct": 25
+    },
+    {
+      "slug": "hkp2000",
+      "name": "P2000",
+      "category": "Pistols",
+      "kills": 6228,
+      "shots": 82253,
+      "hits": 19278,
+      "accuracy": 23.4,
+      "killsPerShot": 7.57,
+      "iconUrl": "/counterstrike/weapons/hkp2000.png",
+      "barPct": 10
+    },
+    {
+      "slug": "p90",
+      "name": "P90",
+      "category": "SMGs",
+      "kills": 5253,
+      "shots": 175441,
+      "hits": 30894,
+      "accuracy": 17.6,
+      "killsPerShot": 2.99,
+      "iconUrl": "/counterstrike/weapons/p90.png",
+      "barPct": 9
+    },
+    {
+      "slug": "glock",
+      "name": "Glock-18",
+      "category": "Pistols",
+      "kills": 4439,
+      "shots": 86639,
+      "hits": 17900,
+      "accuracy": 20.7,
+      "killsPerShot": 5.12,
+      "iconUrl": "/counterstrike/weapons/glock.png",
+      "barPct": 7
+    },
+    {
+      "slug": "galilar",
+      "name": "Galil AR",
+      "category": "Rifles",
+      "kills": 4279,
+      "shots": 37934,
+      "hits": 7928,
+      "accuracy": 20.9,
+      "killsPerShot": 11.28,
+      "iconUrl": "/counterstrike/weapons/galilar.png",
+      "barPct": 7
+    },
+    {
+      "slug": "p250",
+      "name": "P250",
+      "category": "Pistols",
+      "kills": 4150,
+      "shots": 57690,
+      "hits": 14209,
+      "accuracy": 24.6,
+      "killsPerShot": 7.19,
+      "iconUrl": "/counterstrike/weapons/p250.png",
+      "barPct": 7
+    },
+    {
+      "slug": "famas",
+      "name": "FAMAS",
+      "category": "Rifles",
+      "kills": 4027,
+      "shots": 78703,
+      "hits": 17561,
+      "accuracy": 22.3,
+      "killsPerShot": 5.12,
+      "iconUrl": "/counterstrike/weapons/famas.png",
+      "barPct": 7
+    },
+    {
+      "slug": "tec9",
+      "name": "Tec-9",
+      "category": "Pistols",
+      "kills": 3959,
+      "shots": 64697,
+      "hits": 13246,
+      "accuracy": 20.5,
+      "killsPerShot": 6.12,
+      "iconUrl": "/counterstrike/weapons/tec9.png",
+      "barPct": 7
+    },
+    {
+      "slug": "fiveseven",
+      "name": "Five-SeveN",
+      "category": "Pistols",
+      "kills": 3696,
+      "shots": 53788,
+      "hits": 12574,
+      "accuracy": 23.4,
+      "killsPerShot": 6.87,
+      "iconUrl": "/counterstrike/weapons/fiveseven.png",
+      "barPct": 6
+    },
+    {
+      "slug": "aug",
+      "name": "AUG",
+      "category": "Rifles",
+      "kills": 2496,
+      "shots": 42431,
+      "hits": 9528,
+      "accuracy": 22.5,
+      "killsPerShot": 5.88,
+      "iconUrl": "/counterstrike/weapons/aug.png",
+      "barPct": 4
+    },
+    {
+      "slug": "sg556",
+      "name": "SG 553",
+      "category": "Rifles",
+      "kills": 2119,
+      "shots": 33576,
+      "hits": 7246,
+      "accuracy": 21.6,
+      "killsPerShot": 6.31,
+      "iconUrl": "/counterstrike/weapons/sg556.png",
+      "barPct": 4
+    },
+    {
+      "slug": "ssg08",
+      "name": "SSG 08",
+      "category": "Rifles",
+      "kills": 2036,
+      "shots": 12362,
+      "hits": 3771,
+      "accuracy": 30.5,
+      "killsPerShot": 16.47,
+      "iconUrl": "/counterstrike/weapons/ssg08.png",
+      "barPct": 3
+    },
+    {
+      "slug": "ump45",
+      "name": "UMP-45",
+      "category": "SMGs",
+      "kills": 2018,
+      "shots": 25215,
+      "hits": 6097,
+      "accuracy": 24.2,
+      "killsPerShot": 8,
+      "iconUrl": "/counterstrike/weapons/ump45.png",
+      "barPct": 3
+    },
+    {
+      "slug": "negev",
+      "name": "Negev",
+      "category": "Heavy",
+      "kills": 1946,
+      "shots": 23741,
+      "hits": 2390,
+      "accuracy": 10.1,
+      "killsPerShot": 8.2,
+      "iconUrl": "/counterstrike/weapons/negev.png",
+      "barPct": 3
+    },
+    {
+      "slug": "mag7",
+      "name": "MAG-7",
+      "category": "Heavy",
+      "kills": 1494,
+      "shots": 37359,
+      "hits": 9675,
+      "accuracy": 25.9,
+      "killsPerShot": 4,
+      "iconUrl": "/counterstrike/weapons/mag7.png",
+      "barPct": 2
+    },
+    {
+      "slug": "xm1014",
+      "name": "XM1014",
+      "category": "Heavy",
+      "kills": 1373,
+      "shots": 39894,
+      "hits": 9523,
+      "accuracy": 23.9,
+      "killsPerShot": 3.44,
+      "iconUrl": "/counterstrike/weapons/xm1014.png",
+      "barPct": 2
+    },
+    {
+      "slug": "bizon",
+      "name": "PP-Bizon",
+      "category": "SMGs",
+      "kills": 1101,
+      "shots": 38995,
+      "hits": 7570,
+      "accuracy": 19.4,
+      "killsPerShot": 2.82,
+      "iconUrl": "/counterstrike/weapons/bizon.png",
+      "barPct": 2
+    },
+    {
+      "slug": "mac10",
+      "name": "MAC-10",
+      "category": "SMGs",
+      "kills": 838,
+      "shots": 22428,
+      "hits": 4926,
+      "accuracy": 22,
+      "killsPerShot": 3.74,
+      "iconUrl": "/counterstrike/weapons/mac10.png",
+      "barPct": 2
+    },
+    {
+      "slug": "nova",
+      "name": "Nova",
+      "category": "Heavy",
+      "kills": 799,
+      "shots": 25445,
+      "hits": 6133,
+      "accuracy": 24.1,
+      "killsPerShot": 3.14,
+      "iconUrl": "/counterstrike/weapons/nova.png",
+      "barPct": 2
+    },
+    {
+      "slug": "mp7",
+      "name": "MP7",
+      "category": "SMGs",
+      "kills": 608,
+      "shots": 13813,
+      "hits": 3599,
+      "accuracy": 26.1,
+      "killsPerShot": 4.4,
+      "iconUrl": "/counterstrike/weapons/mp7.png",
+      "barPct": 2
+    },
+    {
+      "slug": "sawedoff",
+      "name": "Sawed-Off",
+      "category": "Heavy",
+      "kills": 514,
+      "shots": 15331,
+      "hits": 2927,
+      "accuracy": 19.1,
+      "killsPerShot": 3.35,
+      "iconUrl": "/counterstrike/weapons/sawedoff.png",
+      "barPct": 2
+    },
+    {
+      "slug": "scar20",
+      "name": "SCAR-20",
+      "category": "Rifles",
+      "kills": 456,
+      "shots": 3245,
+      "hits": 923,
+      "accuracy": 28.4,
+      "killsPerShot": 14.05,
+      "iconUrl": "/counterstrike/weapons/scar20.png",
+      "barPct": 2
+    },
+    {
+      "slug": "g3sg1",
+      "name": "G3SG1",
+      "category": "Rifles",
+      "kills": 418,
+      "shots": 2638,
+      "hits": 786,
+      "accuracy": 29.8,
+      "killsPerShot": 15.85,
+      "iconUrl": "/counterstrike/weapons/g3sg1.png",
+      "barPct": 2
+    },
+    {
+      "slug": "elite",
+      "name": "Dual Berettas",
+      "category": "Pistols",
+      "kills": 382,
+      "shots": 7156,
+      "hits": 1692,
+      "accuracy": 23.6,
+      "killsPerShot": 5.34,
+      "iconUrl": "/counterstrike/weapons/elite.png",
+      "barPct": 2
+    },
+    {
+      "slug": "mp9",
+      "name": "MP9",
+      "category": "SMGs",
+      "kills": 363,
+      "shots": 10694,
+      "hits": 2444,
+      "accuracy": 22.9,
+      "killsPerShot": 3.39,
+      "iconUrl": "/counterstrike/weapons/mp9.png",
+      "barPct": 2
+    },
+    {
+      "slug": "m249",
+      "name": "M249",
+      "category": "Heavy",
+      "kills": 299,
+      "shots": 7558,
+      "hits": 1087,
+      "accuracy": 14.4,
+      "killsPerShot": 3.96,
+      "iconUrl": "/counterstrike/weapons/m249.png",
+      "barPct": 2
+    }
+  ],
+  "maps": [
+    {
+      "slug": "de_inferno",
+      "name": "Inferno",
+      "mode": "Defusal",
+      "rounds": 29647,
+      "wins": 15177,
+      "winPct": 51.2,
+      "iconUrl": "/counterstrike/maps/de_inferno.png",
+      "barPct": 100
+    },
+    {
+      "slug": "de_nuke",
+      "name": "Nuke",
+      "mode": "Defusal",
+      "rounds": 13072,
+      "wins": 6882,
+      "winPct": 52.6,
+      "iconUrl": "/counterstrike/maps/de_nuke.png",
+      "barPct": 44
+    },
+    {
+      "slug": "de_dust2",
+      "name": "Dust II",
+      "mode": "Defusal",
+      "rounds": 11127,
+      "wins": 5811,
+      "winPct": 52.2,
+      "iconUrl": "/counterstrike/maps/de_dust2.png",
+      "barPct": 38
+    },
+    {
+      "slug": "de_train",
+      "name": "Train",
+      "mode": "Defusal",
+      "rounds": 2864,
+      "wins": 1457,
+      "winPct": 50.9,
+      "iconUrl": "/counterstrike/maps/de_train.png",
+      "barPct": 10
+    },
+    {
+      "slug": "de_cbble",
+      "name": "Cobblestone",
+      "mode": "Defusal",
+      "rounds": 2405,
+      "wins": 1324,
+      "winPct": 55.1,
+      "iconUrl": null,
+      "barPct": 8
+    },
+    {
+      "slug": "cs_office",
+      "name": "Office",
+      "mode": "Hostage",
+      "rounds": 604,
+      "wins": 311,
+      "winPct": 51.5,
+      "iconUrl": "/counterstrike/maps/cs_office.png",
+      "barPct": 2
+    },
+    {
+      "slug": "de_lake",
+      "name": "Lake",
+      "mode": "Defusal",
+      "rounds": 385,
+      "wins": 210,
+      "winPct": 54.5,
+      "iconUrl": "/counterstrike/maps/de_lake.png",
+      "barPct": 2
+    },
+    {
+      "slug": "de_dust",
+      "name": "Dust",
+      "mode": "Defusal",
+      "rounds": 382,
+      "wins": 184,
+      "winPct": 48.2,
+      "iconUrl": "/counterstrike/maps/de_dust.png",
+      "barPct": 2
+    },
+    {
+      "slug": "cs_assault",
+      "name": "Assault",
+      "mode": "Hostage",
+      "rounds": 329,
+      "wins": 133,
+      "winPct": 40.4,
+      "iconUrl": "/counterstrike/maps/cs_assault.png",
+      "barPct": 2
+    },
+    {
+      "slug": "de_bank",
+      "name": "Bank",
+      "mode": "Defusal",
+      "rounds": 276,
+      "wins": 159,
+      "winPct": 57.6,
+      "iconUrl": "/counterstrike/maps/de_bank.png",
+      "barPct": 2
+    },
+    {
+      "slug": "de_safehouse",
+      "name": "Safehouse",
+      "mode": "Defusal",
+      "rounds": 228,
+      "wins": 127,
+      "winPct": 55.7,
+      "iconUrl": "/counterstrike/maps/de_safehouse.png",
+      "barPct": 2
+    },
+    {
+      "slug": "de_aztec",
+      "name": "Aztec",
+      "mode": "Defusal",
+      "rounds": 224,
+      "wins": 137,
+      "winPct": 61.2,
+      "iconUrl": "/counterstrike/maps/de_aztec.png",
+      "barPct": 2
+    },
+    {
+      "slug": "de_vertigo",
+      "name": "Vertigo",
+      "mode": "Defusal",
+      "rounds": 201,
+      "wins": 94,
+      "winPct": 46.8,
+      "iconUrl": "/counterstrike/maps/de_vertigo.png",
+      "barPct": 2
+    },
+    {
+      "slug": "cs_italy",
+      "name": "Italy",
+      "mode": "Hostage",
+      "rounds": 199,
+      "wins": 127,
+      "winPct": 63.8,
+      "iconUrl": "/counterstrike/maps/cs_italy.png",
+      "barPct": 2
+    },
+    {
+      "slug": "cs_militia",
+      "name": "Militia",
+      "mode": "Hostage",
+      "rounds": 132,
+      "wins": 64,
+      "winPct": 48.5,
+      "iconUrl": "/counterstrike/maps/cs_militia.png",
+      "barPct": 2
+    },
+    {
+      "slug": "de_stmarc",
+      "name": "St. Marc",
+      "mode": "Defusal",
+      "rounds": 103,
+      "wins": 54,
+      "winPct": 52.4,
+      "iconUrl": null,
+      "barPct": 2
+    },
+    {
+      "slug": "ar_shoots",
+      "name": "Shoots",
+      "mode": "Arms Race",
+      "rounds": 72,
+      "wins": 39,
+      "winPct": 54.2,
+      "iconUrl": null,
+      "barPct": 2
+    },
+    {
+      "slug": "de_sugarcane",
+      "name": "Sugarcane",
+      "mode": "Defusal",
+      "rounds": 58,
+      "wins": 38,
+      "winPct": 65.5,
+      "iconUrl": null,
+      "barPct": 2
+    },
+    {
+      "slug": "de_shorttrain",
+      "name": "Shorttrain",
+      "mode": "Defusal",
+      "rounds": 31,
+      "wins": 17,
+      "winPct": 54.8,
+      "iconUrl": null,
+      "barPct": 2
+    },
+    {
+      "slug": "ar_baggage",
+      "name": "Baggage",
+      "mode": "Arms Race",
+      "rounds": 25,
+      "wins": 17,
+      "winPct": 68,
+      "iconUrl": "/counterstrike/maps/ar_baggage.png",
+      "barPct": 2
+    },
+    {
+      "slug": "ar_monastery",
+      "name": "Monastery",
+      "mode": "Arms Race",
+      "rounds": 18,
+      "wins": 12,
+      "winPct": 66.7,
+      "iconUrl": null,
+      "barPct": 2
+    }
+  ],
+  "mapCoverage": {
+    "trackedRounds": 62382,
+    "totalRounds": 101001,
+    "untrackedRounds": 38619,
+    "coveragePct": 61.8
+  },
+  "objectives": [
+    {
+      "key": "total_planted_bombs",
+      "label": "Bombs planted",
+      "value": 2151
+    },
+    {
+      "key": "total_defused_bombs",
+      "label": "Bombs defused",
+      "value": 869
+    },
+    {
+      "key": "total_rescued_hostages",
+      "label": "Hostages rescued",
+      "value": 508
+    },
+    {
+      "key": "total_wins_pistolround",
+      "label": "Pistol rounds won",
+      "value": 3930
+    },
+    {
+      "key": "total_kills_enemy_weapon",
+      "label": "Kills with enemy weapons",
+      "value": 15193
+    },
+    {
+      "key": "total_kills_against_zoomed_sniper",
+      "label": "Kills vs zoomed snipers",
+      "value": 10454
+    },
+    {
+      "key": "total_kills_enemy_blinded",
+      "label": "Kills on blinded enemies",
+      "value": 3965
+    },
+    {
+      "key": "total_kills_knife_fight",
+      "label": "Knife fights won",
+      "value": 354
+    },
+    {
+      "key": "total_domination_overkills",
+      "label": "Overkills",
+      "value": 3650
+    },
+    {
+      "key": "total_revenges",
+      "label": "Revenge kills",
+      "value": 751
+    },
+    {
+      "key": "total_kills_hegrenade",
+      "label": "Grenade kills",
+      "value": 543
+    },
+    {
+      "key": "total_kills_molotov",
+      "label": "Molotov kills",
+      "value": 166
+    },
+    {
+      "key": "total_kills_taser",
+      "label": "Zeus kills",
+      "value": 59
+    },
+    {
+      "key": "total_broken_windows",
+      "label": "Windows broken",
+      "value": 562
+    }
+  ]
+}

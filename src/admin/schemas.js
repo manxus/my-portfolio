@@ -415,6 +415,13 @@ export const schemas = {
     { key: 'tmdbUrl', label: 'TMDB URL', type: 'text' },
   ],
 
+  'runescape.character': [
+    { key: 'displayName', label: 'Display name', type: 'text' },
+    { key: 'tagline', label: 'Tagline', type: 'text' },
+    { key: 'note', label: 'Note', type: 'textarea' },
+    { key: 'imageUrl', label: 'Character image URL (overrides the Jagex render)', type: 'text' },
+  ],
+
   'credits.credits': [
     { key: 'heading', label: 'Heading', type: 'text', required: true },
     { key: 'items', label: 'Items', type: 'list' },

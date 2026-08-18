@@ -1,0 +1,573 @@
+{
+  "fetchedAt": "2026-08-18T10:42:56.767Z",
+  "character": {
+    "displayName": "Manxus",
+    "tagline": "",
+    "note": "",
+    "imageUrl": "",
+    "avatarUrl": null,
+    "bustUrl": null
+  },
+  "profile": {
+    "name": "Manxus",
+    "combatLevel": 127,
+    "totalLevel": 2698,
+    "totalXp": 273712540,
+    "rank": "191,969",
+    "combatXp": {
+      "melee": 139606007,
+      "ranged": 7378436,
+      "magic": 3424752
+    }
+  },
+  "skills": [
+    {
+      "id": 0,
+      "name": "Attack",
+      "slug": "attack",
+      "iconUrl": "/runescape/icons/attack.png",
+      "level": 89,
+      "virtualLevel": 89,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": true,
+      "xp": 4989773,
+      "xpToNext": 356559,
+      "progressPct": 29
+    },
+    {
+      "id": 1,
+      "name": "Defence",
+      "slug": "defence",
+      "iconUrl": "/runescape/icons/defence.png",
+      "level": 90,
+      "virtualLevel": 90,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": true,
+      "xp": 5499474,
+      "xpToNext": 403357,
+      "progressPct": 28
+    },
+    {
+      "id": 2,
+      "name": "Strength",
+      "slug": "strength",
+      "iconUrl": "/runescape/icons/strength.png",
+      "level": 89,
+      "virtualLevel": 89,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": true,
+      "xp": 4856159,
+      "xpToNext": 490173,
+      "progressPct": 3
+    },
+    {
+      "id": 3,
+      "name": "Constitution",
+      "slug": "constitution",
+      "iconUrl": "/runescape/icons/constitution.png",
+      "level": 93,
+      "virtualLevel": 93,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": true,
+      "xp": 7378437,
+      "xpToNext": 566177,
+      "progressPct": 24
+    },
+    {
+      "id": 4,
+      "name": "Ranged",
+      "slug": "ranged",
+      "iconUrl": "/runescape/icons/ranged.png",
+      "level": 83,
+      "virtualLevel": 83,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": true,
+      "xp": 2794768,
+      "xpToNext": 156605,
+      "progressPct": 44
+    },
+    {
+      "id": 5,
+      "name": "Prayer",
+      "slug": "prayer",
+      "iconUrl": "/runescape/icons/prayer.png",
+      "level": 85,
+      "virtualLevel": 85,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": true,
+      "xp": 3424753,
+      "xpToNext": 173039,
+      "progressPct": 49
+    },
+    {
+      "id": 6,
+      "name": "Magic",
+      "slug": "magic",
+      "iconUrl": "/runescape/icons/magic.png",
+      "level": 85,
+      "virtualLevel": 85,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": true,
+      "xp": 3375357,
+      "xpToNext": 222435,
+      "progressPct": 34
+    },
+    {
+      "id": 7,
+      "name": "Cooking",
+      "slug": "cooking",
+      "iconUrl": "/runescape/icons/cooking.png",
+      "level": 87,
+      "virtualLevel": 87,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 4012659,
+      "xpToNext": 373117,
+      "progressPct": 10
+    },
+    {
+      "id": 8,
+      "name": "Woodcutting",
+      "slug": "woodcutting",
+      "iconUrl": "/runescape/icons/woodcutting.png",
+      "level": 92,
+      "virtualLevel": 92,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 6655686,
+      "xpToNext": 539943,
+      "progressPct": 20
+    },
+    {
+      "id": 9,
+      "name": "Fletching",
+      "slug": "fletching",
+      "iconUrl": "/runescape/icons/fletching.png",
+      "level": 87,
+      "virtualLevel": 87,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 4335065,
+      "xpToNext": 50711,
+      "progressPct": 88
+    },
+    {
+      "id": 10,
+      "name": "Fishing",
+      "slug": "fishing",
+      "iconUrl": "/runescape/icons/fishing.png",
+      "level": 99,
+      "virtualLevel": 100,
+      "maxLevel": 99,
+      "isMaxed": true,
+      "combat": false,
+      "xp": 14431189,
+      "xpToNext": 1457920,
+      "progressPct": 3
+    },
+    {
+      "id": 11,
+      "name": "Firemaking",
+      "slug": "firemaking",
+      "iconUrl": "/runescape/icons/firemaking.png",
+      "level": 99,
+      "virtualLevel": 99,
+      "maxLevel": 99,
+      "isMaxed": true,
+      "combat": false,
+      "xp": 13070333,
+      "xpToNext": 1320827,
+      "progressPct": 3
+    },
+    {
+      "id": 12,
+      "name": "Crafting",
+      "slug": "crafting",
+      "iconUrl": "/runescape/icons/crafting.png",
+      "level": 99,
+      "virtualLevel": 99,
+      "maxLevel": 99,
+      "isMaxed": true,
+      "combat": false,
+      "xp": 13058528,
+      "xpToNext": 1332632,
+      "progressPct": 2
+    },
+    {
+      "id": 13,
+      "name": "Smithing",
+      "slug": "smithing",
+      "iconUrl": "/runescape/icons/smithing.png",
+      "level": 100,
+      "virtualLevel": 100,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 14604184,
+      "xpToNext": 1284925,
+      "progressPct": 14
+    },
+    {
+      "id": 14,
+      "name": "Mining",
+      "slug": "mining",
+      "iconUrl": "/runescape/icons/mining.png",
+      "level": 99,
+      "virtualLevel": 99,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 13879346,
+      "xpToNext": 511814,
+      "progressPct": 62
+    },
+    {
+      "id": 15,
+      "name": "Herblore",
+      "slug": "herblore",
+      "iconUrl": "/runescape/icons/herblore.png",
+      "level": 94,
+      "virtualLevel": 94,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 8428291,
+      "xpToNext": 343267,
+      "progressPct": 58
+    },
+    {
+      "id": 16,
+      "name": "Agility",
+      "slug": "agility",
+      "iconUrl": "/runescape/icons/agility.png",
+      "level": 99,
+      "virtualLevel": 99,
+      "maxLevel": 99,
+      "isMaxed": true,
+      "combat": false,
+      "xp": 13744486,
+      "xpToNext": 646674,
+      "progressPct": 52
+    },
+    {
+      "id": 17,
+      "name": "Thieving",
+      "slug": "thieving",
+      "iconUrl": "/runescape/icons/thieving.png",
+      "level": 92,
+      "virtualLevel": 92,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 6785533,
+      "xpToNext": 410096,
+      "progressPct": 40
+    },
+    {
+      "id": 18,
+      "name": "Slayer",
+      "slug": "slayer",
+      "iconUrl": "/runescape/icons/slayer.png",
+      "level": 93,
+      "virtualLevel": 93,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 7210263,
+      "xpToNext": 734351,
+      "progressPct": 2
+    },
+    {
+      "id": 19,
+      "name": "Farming",
+      "slug": "farming",
+      "iconUrl": "/runescape/icons/farming.png",
+      "level": 94,
+      "virtualLevel": 94,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 8103166,
+      "xpToNext": 668392,
+      "progressPct": 19
+    },
+    {
+      "id": 20,
+      "name": "Runecrafting",
+      "slug": "runecrafting",
+      "iconUrl": "/runescape/icons/runecrafting.png",
+      "level": 90,
+      "virtualLevel": 90,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 5385340,
+      "xpToNext": 517491,
+      "progressPct": 7
+    },
+    {
+      "id": 21,
+      "name": "Hunter",
+      "slug": "hunter",
+      "iconUrl": "/runescape/icons/hunter.png",
+      "level": 99,
+      "virtualLevel": 99,
+      "maxLevel": 99,
+      "isMaxed": true,
+      "combat": false,
+      "xp": 14084651,
+      "xpToNext": 306509,
+      "progressPct": 77
+    },
+    {
+      "id": 22,
+      "name": "Construction",
+      "slug": "construction",
+      "iconUrl": "/runescape/icons/construction.png",
+      "level": 94,
+      "virtualLevel": 94,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 8468562,
+      "xpToNext": 302996,
+      "progressPct": 63
+    },
+    {
+      "id": 23,
+      "name": "Summoning",
+      "slug": "summoning",
+      "iconUrl": "/runescape/icons/summoning.png",
+      "level": 89,
+      "virtualLevel": 89,
+      "maxLevel": 99,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 4987807,
+      "xpToNext": 358525,
+      "progressPct": 29
+    },
+    {
+      "id": 24,
+      "name": "Dungeoneering",
+      "slug": "dungeoneering",
+      "iconUrl": "/runescape/icons/dungeoneering.png",
+      "level": 85,
+      "virtualLevel": 85,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 3401303,
+      "xpToNext": 196489,
+      "progressPct": 42
+    },
+    {
+      "id": 25,
+      "name": "Divination",
+      "slug": "divination",
+      "iconUrl": "/runescape/icons/divination.png",
+      "level": 99,
+      "virtualLevel": 99,
+      "maxLevel": 99,
+      "isMaxed": true,
+      "combat": false,
+      "xp": 13921260,
+      "xpToNext": 469900,
+      "progressPct": 65
+    },
+    {
+      "id": 26,
+      "name": "Invention",
+      "slug": "invention",
+      "iconUrl": "/runescape/icons/invention.png",
+      "level": 100,
+      "virtualLevel": 100,
+      "maxLevel": 150,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 38096138,
+      "xpToNext": null,
+      "progressPct": null
+    },
+    {
+      "id": 27,
+      "name": "Archaeology",
+      "slug": "archaeology",
+      "iconUrl": "/runescape/icons/archaeology.png",
+      "level": 101,
+      "virtualLevel": 101,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 16859562,
+      "xpToNext": 683414,
+      "progressPct": 59
+    },
+    {
+      "id": 28,
+      "name": "Necromancy",
+      "slug": "necromancy",
+      "iconUrl": "/runescape/icons/necromancy.png",
+      "level": 93,
+      "virtualLevel": 93,
+      "maxLevel": 120,
+      "isMaxed": false,
+      "combat": false,
+      "xp": 7870476,
+      "xpToNext": 74138,
+      "progressPct": 90
+    }
+  ],
+  "quests": {
+    "points": 276,
+    "pointsTotal": 473,
+    "completed": 199,
+    "started": 21,
+    "notStarted": 143,
+    "total": 363,
+    "byDifficulty": [
+      {
+        "label": "Novice",
+        "completed": 81,
+        "total": 105
+      },
+      {
+        "label": "Intermediate",
+        "completed": 60,
+        "total": 97
+      },
+      {
+        "label": "Experienced",
+        "completed": 34,
+        "total": 73
+      },
+      {
+        "label": "Master",
+        "completed": 17,
+        "total": 52
+      },
+      {
+        "label": "Grandmaster",
+        "completed": 4,
+        "total": 32
+      },
+      {
+        "label": "Special",
+        "completed": 3,
+        "total": 4
+      }
+    ]
+  },
+  "activities": [
+    {
+      "date": "08-Dec-2024 14:54",
+      "text": "Levelled up Strength.",
+      "details": "I levelled my Strength skill, I am now level 89."
+    },
+    {
+      "date": "08-Dec-2024 14:14",
+      "text": "Quest complete: Olaf's Quest",
+      "details": "I fought and puzzled my way through the brine rat caves to help Olaf Hradson live up to his great ancestors."
+    },
+    {
+      "date": "08-Dec-2024 14:01",
+      "text": "Quest complete: Holy Grail",
+      "details": "I defeated the Black Knight Titan and restored peace and happiness to the Fisher King's kingdom. I also found the Holy Grail."
+    },
+    {
+      "date": "08-Dec-2024 00:46",
+      "text": "Quest complete: Dream Mentor",
+      "details": "I met Cyrisus and travelled the strange dream land again. Hopefully, he's still off adventuring."
+    },
+    {
+      "date": "08-Dec-2024 00:07",
+      "text": "Levelled all skills over 83",
+      "details": "By levelling up my Ranged skill, I achieved at least level 83 in all skills."
+    },
+    {
+      "date": "08-Dec-2024 00:07",
+      "text": "Levelled up Ranged.",
+      "details": "I levelled my Ranged skill, I am now level 83."
+    },
+    {
+      "date": "07-Dec-2024 21:43",
+      "text": "Quest complete: Soul Searching",
+      "details": "I worked with Icthlarin to gain access to the Sanctum of Rebirth; a strange temple in the Underworld."
+    },
+    {
+      "date": "07-Dec-2024 21:29",
+      "text": "270 Quest Points obtained",
+      "details": "Completing Osseous Rex has given me enough Quest Points to pass the 270 QP milestone."
+    },
+    {
+      "date": "07-Dec-2024 21:29",
+      "text": "Quest complete: Osseous Rex",
+      "details": "I located the resting place of Osseous and watched as the old pile of bones were resurrected."
+    },
+    {
+      "date": "07-Dec-2024 20:58",
+      "text": "Quest complete: Housing of Parliament",
+      "details": "I cleaned up the City of Um's owlery, and enticed some owls back to the city."
+    },
+    {
+      "date": "07-Dec-2024 20:31",
+      "text": "Quest complete: A Christmas Reunion",
+      "details": "I helped Diango to get his workshop ready for toy production in the Christmas Village."
+    },
+    {
+      "date": "07-Dec-2024 15:54",
+      "text": "I killed 10 King Black Dragons.",
+      "details": "I killed 10 King Black Dragons, which were once the biggest, meanest dragons around."
+    },
+    {
+      "date": "07-Dec-2024 15:26",
+      "text": "Levelled up Prayer.",
+      "details": "I levelled my Prayer skill, I am now level 85."
+    },
+    {
+      "date": "03-Dec-2024 23:16",
+      "text": "Levelled up Prayer.",
+      "details": "I levelled my Prayer skill, I am now level 84."
+    },
+    {
+      "date": "02-Dec-2024 22:17",
+      "text": "Levelled up Necromancy.",
+      "details": "I levelled my Necromancy skill, I am now level 93."
+    },
+    {
+      "date": "02-Dec-2024 17:48",
+      "text": "Quest complete: It's Snow Bother",
+      "details": "I worked with the snow imps to help Santa bring back Christmas spirit to Gielinor."
+    },
+    {
+      "date": "01-Dec-2024 22:00",
+      "text": "Levelled up Necromancy.",
+      "details": "I levelled my Necromancy skill, I am now level 92."
+    },
+    {
+      "date": "01-Dec-2024 15:33",
+      "text": "Levelled up Necromancy.",
+      "details": "I levelled my Necromancy skill, I am now level 91."
+    },
+    {
+      "date": "01-Dec-2024 12:07",
+      "text": "I killed 25 King Black Dragons.",
+      "details": "I killed 25 King Black Dragons, which were once the biggest, meanest dragons around."
+    },
+    {
+      "date": "01-Dec-2024 10:52",
+      "text": "Levelled up Slayer.",
+      "details": "I levelled my Slayer skill, I am now level 93."
+    }
+  ]
+}

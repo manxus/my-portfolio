@@ -20,6 +20,7 @@ import Books from './pages/Books';
 import Tabletop from './pages/Tabletop';
 import Cinema from './pages/Cinema';
 import TravelLog from './pages/TravelLog';
+import Games from './pages/Games';
 import Settings from './pages/Settings';
 import Credits from './pages/Credits';
 import PatchNotes from './pages/PatchNotes';
@@ -38,6 +39,7 @@ const pageRoutes = [
   { path: '/steam-library', title: 'Steam Library', subtitle: 'STORY // CHAPTER 02', Component: SteamLibrary },
   { path: '/resume', title: 'Resume', subtitle: 'DLCS // DOWNLOAD 01', Component: Resume },
   { path: '/side-projects', title: 'Side Projects', subtitle: 'DLCS // DOWNLOAD 02', Component: SideProjects },
+  { path: '/games', title: 'Games', subtitle: 'DLCS // DOWNLOAD 03', Component: Games },
   { path: '/tech', title: 'Tech Loadout', subtitle: 'STORY // CHAPTER 03', Component: Tech },
   { path: '/media', title: 'Media', subtitle: 'EXTRA // REPLAY VAULT', Component: Media },
   { path: '/livestream', title: 'Livestream', subtitle: 'EXTRA // BONUS CONTENT', Component: Livestream },

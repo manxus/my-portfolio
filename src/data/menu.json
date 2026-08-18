@@ -41,6 +41,12 @@
           "label": "SIDE PROJECTS",
           "path": "/side-projects",
           "description": "Personal builds, experiments, and passion projects."
+        },
+        {
+          "id": "games",
+          "label": "GAMES",
+          "path": "/games",
+          "description": "Per-game stat pages — Battlefield 4 service record, Counter-Strike 2 career stats and RuneScape skills."
         }
       ]
     },
