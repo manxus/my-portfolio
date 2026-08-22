@@ -1,19 +1,20 @@
-import { useState, useRef, useEffect, useCallback } from 'react';
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import runescapeData from '../data/runescape.json';
+import {
+  useContainerLayout,
+  formatNumber,
+  formatScore as formatXp,
+  fadeUp,
+  stagger,
+  StatSection,
+  gameStyles,
+} from '../components/GameStats';
+// Not re-exported from the barrel, and worth sharing rather than restating as a literal.
+import { COMPACT_ROW_WIDTH } from '../components/GameStats/useContainerLayout';
 import { useAdminStore } from '../stores/adminStore';
 import EditableSection from '../admin/EditableSection';
 import styles from './RuneScape.module.css';
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 12 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.3 } },
-};
-
-const stagger = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.05 } },
-};
 
 // 29 tiles is a lot to stagger; 0.05 each would take a second and a half.
 const tileStagger = {
@@ -47,45 +48,15 @@ const TWO_COLUMN_WIDTH = 440;
 /** The grid is capped at 420px, so the quest panel fits beside it once there is room for both. */
 const SIDE_BY_SIDE_WIDTH = 760;
 
-// The page renders inside two shells with very different content widths (the desktop split-view
-// reserves 420px for the menu), so a window media query would be wrong in both directions.
-function useContainerLayout(ref) {
-  const [layout, setLayout] = useState({ isSplit: false, isSideBySide: false, columns: 3 });
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return undefined;
-
-    const update = () => {
-      const width = el.offsetWidth;
-      setLayout({
-        isSplit: width >= SPLIT_MIN_WIDTH,
-        isSideBySide: width >= SIDE_BY_SIDE_WIDTH,
-        columns: width >= TWO_COLUMN_WIDTH ? 3 : 2,
-      });
-    };
-
-    update();
-    const observer = new ResizeObserver(update);
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  return layout;
-}
-
-function formatNumber(value) {
-  const n = Number(value);
-  return Number.isFinite(n) ? n.toLocaleString('en-US') : '0';
-}
-
-function formatXp(value) {
-  const n = Number(value);
-  if (!Number.isFinite(n)) return '0';
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${Math.round(n / 1_000)}K`;
-  return String(n);
-}
+/** The skill grid breaks at its own widths, so this page measures itself rather than the stat-list
+    breakpoints the shooter pages share. */
+const measureLayout = (width) => ({
+  isSplit: width >= SPLIT_MIN_WIDTH,
+  isSideBySide: width >= SIDE_BY_SIDE_WIDTH,
+  columns: width >= TWO_COLUMN_WIDTH ? 3 : 2,
+  // The quest log uses the shared stat rows, so it needs the shared row breakpoint too.
+  isCompact: width < COMPACT_ROW_WIDTH,
+});
 
 function skillTooltip(skill) {
   const parts = [`${skill.name} — level ${skill.level}`, `${formatNumber(skill.xp)} XP`];
@@ -273,21 +244,176 @@ function QuestPanel({ quests }) {
   );
 }
 
-function AdventurersLog({ activities }) {
-  if (activities.length === 0) return null;
+/**
+ * A quest sits in exactly one bucket, which is what the shared filter chips expect. Splitting
+ * "not started" by `eligible` is the useful cut: it separates what the account can actually start
+ * today from what is still gated behind requirements.
+ */
+const QUEST_BUCKETS = ['COMPLETE', 'IN PROGRESS', 'AVAILABLE', 'LOCKED'];
+
+function questBucket(quest) {
+  if (quest.status === 'COMPLETED') return 'COMPLETE';
+  if (quest.status === 'STARTED') return 'IN PROGRESS';
+  return quest.eligible ? 'AVAILABLE' : 'LOCKED';
+}
+
+
+/** The detail that will not fit a fixed-width stat column, surfaced on hover instead. */
+function questDetail(quest) {
+  const parts = [quest.bucket.toLowerCase()];
+  if (quest.series) {
+    parts.push(quest.seriesIndex ? `${quest.series} #${quest.seriesIndex}` : quest.series);
+  }
+  if (quest.area) parts.push(quest.area);
+  if (quest.combat) parts.push(`combat ${quest.combat}`);
+  if (quest.members) parts.push('members');
+  return `${quest.title} — ${parts.join(' · ')}`;
+}
+
+/**
+ * Built from the shared row classes rather than <StatRow> because a quest has no progress to
+ * draw: RuneMetrics reports only started / not started, so a bar could only ever show a made-up
+ * figure. Everything else matches the sibling pages.
+ */
+function QuestRow({ quest, isCompact }) {
+  return (
+    <motion.li
+      variants={fadeUp}
+      className={`${gameStyles.equipRow} ${gameStyles.equipRowNoIcon}${
+        isCompact ? ` ${gameStyles.equipRowCompact}` : ''
+      }`}
+      title={questDetail(quest)}
+    >
+      <div className={gameStyles.equipMain}>
+        <div className={gameStyles.equipHeader}>
+          <span className={gameStyles.equipName}>
+            {/* Sits outside the link so it is not underlined on hover, and first so the name's
+                ellipsis never eats it. */}
+            <img
+              className={styles.memberIcon}
+              src={quest.members ? '/runescape/icons/members.png' : '/runescape/icons/free-to-play.png'}
+              alt={quest.members ? 'Members' : 'Free to play'}
+              title={quest.members ? 'Members' : 'Free to play'}
+              width={16}
+              height={16}
+            />
+            <a
+              className={styles.questLink}
+              data-status={quest.bucket}
+              href={quest.wikiUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {quest.title}
+              {/* Colour carries the status for sighted readers; this carries it for everyone else. */}
+              <span className={styles.srOnly}>{` — ${quest.bucket.toLowerCase()}`}</span>
+            </a>
+          </span>
+          {/* Difficulty is a word, so it takes the flexible headline slot; the fixed 3.6rem stat
+              columns below only ever hold short figures. */}
+          <span className={gameStyles.equipValue}>{quest.difficultyLabel}</span>
+        </div>
+      </div>
+
+      <dl className={gameStyles.equipStats} style={{ '--game-stat-columns': 1 }}>
+        <div>
+          <dt>QP</dt>
+          <dd>{quest.questPoints > 0 ? quest.questPoints : '—'}</dd>
+        </div>
+      </dl>
+    </motion.li>
+  );
+}
+
+function QuestLog({ quests, isCompact }) {
+  const items = useMemo(() => {
+    const withBucket = (quests.items ?? []).map((quest) => ({
+      ...quest,
+      bucket: questBucket(quest),
+    }));
+    // Alphabetical, case- and accent-insensitive, so the list reads like the in-game quest journal
+    // and a title is findable without knowing when it came out.
+    return withBucket.sort((a, b) => a.title.localeCompare(b.title, 'en', { sensitivity: 'base' }));
+  }, [quests.items]);
+
+  const filters = useMemo(
+    () =>
+      QUEST_BUCKETS.map((name) => ({
+        name,
+        count: items.filter((quest) => quest.bucket === name).length,
+      })).filter((option) => option.count > 0),
+    [items],
+  );
+
+  if (items.length === 0) return null;
 
   return (
-    <ul className={styles.logList}>
-      {activities.map((entry, index) => (
-        <li key={`${entry.date}-${index}`} className={styles.logEntry}>
-          <span className={styles.logDate}>{entry.date}</span>
-          <span className={styles.logText}>{entry.text}</span>
-          {entry.details && entry.details !== entry.text && (
-            <span className={styles.logDetails}>{entry.details}</span>
-          )}
-        </li>
-      ))}
-    </ul>
+    <>
+      <p className={gameStyles.sectionNote}>
+        Every quest RuneMetrics reports, A&ndash;Z. <strong>Available</strong> are the ones whose
+        requirements this account already meets. Titles link to the wiki.
+      </p>
+      <StatSection
+        items={items}
+        filters={filters}
+        filterKey="bucket"
+        allLabel="ALL"
+        renderRow={(quest) => (
+          <QuestRow key={quest.title} quest={quest} isCompact={isCompact} />
+        )}
+      />
+    </>
+  );
+}
+
+/** Entries revealed per click. RuneMetrics returns 20, so this opens in four steps. */
+const LOG_PAGE_SIZE = 5;
+
+function AdventurersLog({ activities }) {
+  const [visibleCount, setVisibleCount] = useState(LOG_PAGE_SIZE);
+  const expanderRef = useRef(null);
+
+  if (activities.length === 0) return null;
+
+  const shown = activities.slice(0, visibleCount);
+  const remaining = activities.length - shown.length;
+  const isFullyShown = remaining === 0 && activities.length > LOG_PAGE_SIZE;
+
+  const showMore = () =>
+    setVisibleCount((count) => Math.min(count + LOG_PAGE_SIZE, activities.length));
+
+  const collapse = () => {
+    setVisibleCount(LOG_PAGE_SIZE);
+    // Collapsing drops rows from above the button, so the reader would otherwise be left staring
+    // at whatever the page shifted up into their viewport.
+    requestAnimationFrame(() => expanderRef.current?.scrollIntoView({ block: 'nearest' }));
+  };
+
+  return (
+    <>
+      <ul className={styles.logList}>
+        {shown.map((entry, index) => (
+          <li key={`${entry.date}-${index}`} className={styles.logEntry}>
+            <span className={styles.logDate}>{entry.date}</span>
+            <span className={styles.logText}>{entry.text}</span>
+            {entry.details && entry.details !== entry.text && (
+              <span className={styles.logDetails}>{entry.details}</span>
+            )}
+          </li>
+        ))}
+      </ul>
+
+      {(remaining > 0 || isFullyShown) && (
+        <button
+          ref={expanderRef}
+          type="button"
+          className={gameStyles.expander}
+          onClick={isFullyShown ? collapse : showMore}
+        >
+          {isFullyShown ? 'SHOW LESS' : `SHOW ${Math.min(LOG_PAGE_SIZE, remaining)} MORE`}
+        </button>
+      )}
+    </>
   );
 }
 
@@ -298,7 +424,7 @@ export default function RuneScape() {
 
   const [adminCharacter, setAdminCharacter] = useState(null);
   const containerRef = useRef(null);
-  const { isSplit, isSideBySide, columns } = useContainerLayout(containerRef);
+  const { isSplit, isSideBySide, columns, isCompact } = useContainerLayout(containerRef, measureLayout);
 
   // Only the character block is hand-editable; skills and quests are regenerated by the sync
   // script and would be overwritten on the next run.
@@ -372,6 +498,13 @@ export default function RuneScape() {
 
       <motion.section variants={fadeUp} className={styles.section}>
         <h2 className={styles.sectionTitle}>
+          <span className={styles.sectionIcon}>&gt;</span> QUEST LOG
+        </h2>
+        <QuestLog quests={quests} isCompact={isCompact} />
+      </motion.section>
+
+      <motion.section variants={fadeUp} className={styles.section}>
+        <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> ADVENTURER&apos;S LOG
         </h2>
         <AdventurersLog activities={activities} />
@@ -379,7 +512,7 @@ export default function RuneScape() {
 
       <motion.p variants={fadeUp} className={styles.attribution}>
         RuneScape is a trademark of Jagex Ltd. Skill icons &copy; Jagex, used under fair use. Data
-        via RuneMetrics.
+        via RuneMetrics. Quest details from the RuneScape Wiki (CC BY-NC-SA 3.0).
       </motion.p>
     </motion.div>
   );

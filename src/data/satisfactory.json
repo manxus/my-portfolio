@@ -1,0 +1,343 @@
+{
+  "fetchedAt": "2026-08-21T11:47:34.378Z",
+  "profile": {
+    "steamId": "76561198063836659",
+    "personaName": "Manxus",
+    "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
+    "profileUrl": "https://steamcommunity.com/id/manxuss/",
+    "capsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/8968499686cff74b539c70ca1b44d671562d63dc/library_capsule_2x.jpg",
+    "libraryHours": 528.8
+  },
+  "summary": {
+    "beltMetres": 111349,
+    "foundations": 61832,
+    "milestones": 27,
+    "altRecipes": 52,
+    "hardDrives": 54,
+    "phasesComplete": 2,
+    "hoursPlayed": 528.8,
+    "pavedHectares": 395.7
+  },
+  "sections": [
+    {
+      "id": "construction",
+      "title": "CONSTRUCTION",
+      "entries": [
+        {
+          "key": "NUM_FOUNDATION_PLACED",
+          "label": "Foundations placed",
+          "value": 61832,
+          "kind": "count"
+        },
+        {
+          "key": "LENGTH_BELT_BUILT",
+          "label": "Conveyor belt built",
+          "value": 111349,
+          "kind": "distance"
+        },
+        {
+          "key": "LENGTH_PIPELINE_PLACED",
+          "label": "Pipeline laid",
+          "value": 18501,
+          "kind": "distance"
+        },
+        {
+          "key": "LENGTH_RAILWAY_PLACED",
+          "label": "Railway laid",
+          "value": 14080,
+          "kind": "distance"
+        },
+        {
+          "key": "NUM_BUILT_MANUFACTURERS",
+          "label": "Manufacturers built",
+          "value": 52,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_BUILT_SPACEELEVATOR",
+          "label": "Space elevators built",
+          "value": 2,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PLACED_PORTABLE_MINER",
+          "label": "Portable miners placed",
+          "value": 65,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_FUSE_RESET",
+          "label": "Fuses reset",
+          "value": 21,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_SAVED_TIMETABLE",
+          "label": "Train timetables saved",
+          "value": 2,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "progression",
+      "title": "PROGRESSION",
+      "entries": [
+        {
+          "key": "NUM_UNLOCKED_MILESTONES",
+          "label": "Milestones unlocked",
+          "value": 27,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_FINISHED_RESEARCH_TREE",
+          "label": "Research trees finished",
+          "value": 5,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_UNLOCKED_ALT_RECIPE",
+          "label": "Alternate recipes unlocked",
+          "value": 52,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_HARDDRIVE",
+          "label": "Hard drives recovered",
+          "value": 54,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PRINTED_COUPONS",
+          "label": "AWESOME coupons printed",
+          "value": 551,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_GAME_PHASE1_COMPLETE",
+          "label": "Phase 1 complete",
+          "value": 1,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_GAME_PHASE2_COMPLETE",
+          "label": "Phase 2 complete",
+          "value": 1,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_ONBOARDING_COMPLETED",
+          "label": "Onboarding completed",
+          "value": 1,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "exploration",
+      "title": "EXPLORATION",
+      "entries": [
+        {
+          "key": "NUM_VISIT_GRASSFIELDS",
+          "label": "Grass Fields visits",
+          "value": 3344,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_VISIT_ROCKYDESERT",
+          "label": "Rocky Desert visits",
+          "value": 174,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_VISIT_DUNEDESERT",
+          "label": "Dune Desert visits",
+          "value": 23,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_VISIT_NORTHERNFOREST",
+          "label": "Northern Forest visits",
+          "value": 11,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_STARTING_AREAS_VISITED",
+          "label": "Starting areas visited",
+          "value": 4,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_HIGHEST_PEAK_VISITED",
+          "label": "Highest peak reached",
+          "value": 1,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_FOLIAGE",
+          "label": "Foliage harvested",
+          "value": 3656,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_BERYL",
+          "label": "Beryl nuts picked",
+          "value": 1490,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_BERRY",
+          "label": "Paleberries picked",
+          "value": 296,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_BACON",
+          "label": "Bacon agaric picked",
+          "value": 161,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_EDIBLE_TYPES",
+          "label": "Edible types found",
+          "value": 3,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_BLUESLUG",
+          "label": "Blue power slugs",
+          "value": 132,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_YELLOWSLUG",
+          "label": "Yellow power slugs",
+          "value": 74,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_PURPLESLUG",
+          "label": "Purple power slugs",
+          "value": 27,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_SLUG_TYPES",
+          "label": "Slug types found",
+          "value": 3,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_SOMERSLOOP",
+          "label": "Somersloops recovered",
+          "value": 19,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_MERCER",
+          "label": "Mercer spheres recovered",
+          "value": 118,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_PICKED_UP_BOOMTAPE",
+          "label": "Boom tape recovered",
+          "value": 8,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "anomalies",
+      "title": "FICSIT ANOMALIES",
+      "entries": [
+        {
+          "key": "NUM_DRINK_COFFEE",
+          "label": "Coffee drunk",
+          "value": 304,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_TAMED_DOGGO",
+          "label": "Lizard doggos tamed",
+          "value": 2,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_MANTA_PETTED",
+          "label": "Mantas petted",
+          "value": 5,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_JUMPED_SPACEGIRAFFE",
+          "label": "Space giraffe jumps",
+          "value": 17,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_FLOOR_IS_LAVA",
+          "label": "Floor-is-lava runs",
+          "value": 21,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_TOO_FAST",
+          "label": "Went too fast",
+          "value": 1,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_SURVIVED_FALL",
+          "label": "Survived a fall",
+          "value": 1,
+          "kind": "count"
+        },
+        {
+          "key": "NUM_CREATURE_KNOCKED_OVER",
+          "label": "Creatures knocked over",
+          "value": 1,
+          "kind": "count"
+        }
+      ]
+    }
+  ],
+  "tiers": [
+    {
+      "key": "tier-1",
+      "name": "Tier 1",
+      "unlocked": 3,
+      "barPct": 50
+    },
+    {
+      "key": "tier-2",
+      "name": "Tier 2",
+      "unlocked": 4,
+      "barPct": 67
+    },
+    {
+      "key": "tier-3",
+      "name": "Tier 3",
+      "unlocked": 4,
+      "barPct": 67
+    },
+    {
+      "key": "tier-4",
+      "name": "Tier 4",
+      "unlocked": 5,
+      "barPct": 83
+    },
+    {
+      "key": "tier-5",
+      "name": "Tier 5",
+      "unlocked": 5,
+      "barPct": 83
+    },
+    {
+      "key": "tier-6",
+      "name": "Tier 6",
+      "unlocked": 6,
+      "barPct": 100
+    }
+  ]
+}

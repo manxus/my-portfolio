@@ -1,0 +1,502 @@
+/* Small-caption readability: the mono captions under every figure were drawn in --text-dim, which
+   lands around 2.1:1 against the panel face -- under half the 4.5:1 AA floor, and at 8px. They use
+   --text-secondary instead (about 4.9:1) and the very smallest of them are a step larger, so the
+   label under a number is actually readable rather than just present. */
+
+/* Structure and chrome shared by every per-game stat page. Each page composes `.container`, then
+   supplies only its own signal colours -- the neutral tokens below are derived from portfolio
+   theme variables, so the light theme inverts for free. */
+.container {
+  --game-face: var(--bg-secondary);
+  --game-hairline: rgba(95, 143, 143, 0.12);
+  --game-track: var(--bg-deep);
+
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+:global([data-theme='light']) .container {
+  /* Tracks sit on the panel face, not the page, so they have to be darker than the panel to read
+     as an empty bar at all. */
+  --game-track: #c2cad1;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--accent-dim);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sectionIcon {
+  color: var(--accent-bright);
+  font-family: var(--font-mono);
+}
+
+/* One line of explanation for bars that encode two things at once. */
+.sectionNote {
+  margin-top: -0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+
+/* A caveat that changes how the whole section should be read, so it sits above the list with a rule
+   against it rather than being tucked into the page footer. */
+.sectionWarning {
+  padding: 0.5rem 0.7rem;
+  border-left: 2px solid var(--game-signal-dim);
+  background: var(--game-face);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  line-height: 1.65;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+}
+
+/* ---------- shared bars ---------- */
+
+.barTrack {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: var(--game-track);
+  overflow: hidden;
+}
+
+.barFill {
+  display: block;
+  height: 100%;
+  background: var(--game-signal);
+  transition: width var(--transition-normal);
+}
+
+.barFillDone {
+  background: var(--game-done);
+}
+
+/* ---------- shared icons ---------- */
+
+.iconWrap {
+  flex-shrink: 0;
+  width: 44px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Battlefield ships line art in two variants and swaps them by theme; every other game ships one
+   full-colour asset and renders `.icon` alone. */
+.iconDark {
+  display: block;
+}
+
+.iconLight {
+  display: none;
+}
+
+:global([data-theme='light']) .iconDark {
+  display: none;
+}
+
+:global([data-theme='light']) .iconLight {
+  display: block;
+}
+
+.iconFallback {
+  flex-shrink: 0;
+  width: 44px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  background: var(--game-track);
+}
+
+/* ---------- dossier ---------- */
+
+.dossier {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  background: var(--game-face);
+  border: 1px solid var(--game-hairline);
+}
+
+/* Steam's library capsule is a 2:3 poster. Capping the width rather than the height keeps it from
+   dominating the dossier while still letting it set its own aspect. */
+.capsule {
+  flex-shrink: 0;
+  width: 96px;
+}
+
+.capsuleImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--game-hairline);
+}
+
+.dossierBody {
+  flex: 1 1 260px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.playerName {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  letter-spacing: 0.06em;
+  color: var(--text-primary);
+}
+
+.avatar {
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--game-hairline);
+}
+
+.subtitle {
+  margin-top: 0.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--game-signal);
+}
+
+.platform {
+  color: var(--text-secondary);
+}
+
+.statRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.statValue {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.statLabel {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+}
+
+.syncedAt {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+}
+
+/* ---------- record grid ---------- */
+
+.recordGrid {
+  display: grid;
+  gap: 1px;
+  background: var(--game-hairline);
+  border: 1px solid var(--game-hairline);
+}
+
+.recordGrid[data-columns='4'] {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.recordGrid[data-columns='2'] {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.recordCell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  background: var(--game-face);
+}
+
+.recordValue {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.recordLabel {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+/* ---------- stat lists ---------- */
+
+.chipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.55rem;
+  background: transparent;
+  border: 1px solid var(--game-hairline);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.chip:hover {
+  border-color: var(--game-signal-dim);
+  color: var(--text-primary);
+}
+
+/* No fill: --game-signal is tuned to read against the page and panel backgrounds, and lifting the
+   chip onto --bg-hover cost about a third of that contrast (Counter-Strike's amber fell to 3.7:1 in
+   the light theme). The border and text colour already mark the active chip clearly enough. */
+.chipActive {
+  border-color: var(--game-signal);
+  color: var(--game-signal);
+}
+
+.chipCount {
+  color: var(--text-secondary);
+}
+
+/* The dimmed signal on the active chip's hover-lit background lands at 1.9:1. The count is only a
+   few pixels tall, so it takes the full signal colour -- the chip's active state is already carried
+   by its border and background, not by dimming the number inside it. */
+.chipActive .chipCount {
+  color: var(--game-signal);
+}
+
+.equipList {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  list-style: none;
+  background: var(--game-hairline);
+  border: 1px solid var(--game-hairline);
+  /* The expander adds rows in bulk; without this the browser anchors on content below the list and
+     scrolls to compensate, hiding everything it just added. The list restores the offset itself. */
+  overflow-anchor: none;
+}
+
+.equipRow {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.55rem 0.75rem;
+  background: var(--game-face);
+}
+
+.equipMain {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.equipHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.equipName {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.equipValue {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  color: var(--game-signal);
+  white-space: nowrap;
+}
+
+/* Fixed columns, not flex: the values vary in width ("36.1%" against "7.3%"), so an auto-sized row
+   would put each row's columns at a different x and nothing would line up vertically. The column
+   count is a variable because not every game has three trailing stats to show. */
+.equipStats {
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--game-stat-columns, 3), 3.6rem);
+  text-align: right;
+}
+
+.equipStats dt {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.equipStats dd {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+/* Redundant with the bar colour rather than the only signal, so colour is never load-bearing. */
+.statUp {
+  color: var(--game-done);
+}
+
+/* Narrow containers drop the trailing stats under the bar instead of squeezing the name. */
+.equipRowCompact {
+  flex-wrap: wrap;
+}
+
+.equipRowCompact .equipStats {
+  width: 100%;
+  grid-template-columns: repeat(var(--game-stat-columns, 3), 4.2rem);
+  padding-left: calc(44px + 0.85rem);
+  text-align: left;
+}
+
+.equipRowNoIcon.equipRowCompact .equipStats {
+  padding-left: 0;
+}
+
+.expander {
+  align-self: flex-start;
+  padding: 0.35rem 0.7rem;
+  background: transparent;
+  border: 1px solid var(--accent-dim);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.expander:hover {
+  border-color: var(--accent-bright);
+  color: var(--accent-bright);
+}
+
+/* ---------- panels ---------- */
+
+.panel {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 0.9rem;
+  background: var(--game-face);
+  border: 1px solid var(--game-hairline);
+}
+
+.tallyList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Fourteen label/value pairs in one column leaves a long thin ribbon down a wide panel, so past the
+   side-by-side width they pair up instead. Grid rather than CSS columns: column-count would let a
+   row break across the gap. */
+.tallyList[data-columns='2'] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2rem;
+}
+
+.tallyRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.tallyLabel {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.tallyValue {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+/* ---------- footer ---------- */
+
+.attribution {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}

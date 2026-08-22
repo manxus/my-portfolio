@@ -1,15 +1,30 @@
+/* Seven tabs outrun the content width long before the viewport gets small -- the desktop split-view
+   reserves 420px for the menu -- so the bar scrolls at every width rather than only on mobile. */
 .tabs {
   display: flex;
   gap: 0;
   border-bottom: 1px solid var(--accent-dim);
   margin-bottom: 1.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tab {
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .tab {
   font-family: var(--font-mono);
   font-size: 0.72rem;
   letter-spacing: 0.12em;
-  color: var(--text-dim);
+  /* --text-dim puts an inactive tab at 2.5:1 on the dark theme, which is not readable at 11px. */
+  color: var(--text-secondary);
   padding: 0.6rem 1.25rem;
   background: none;
   border: none;
@@ -22,29 +37,20 @@
 }
 
 .tab:hover {
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
+/* The accent tokens have no light-theme override, so --accent-bright on a light background lands at
+   1.8:1. The underline still carries the accent; the label itself takes the primary text colour so
+   it reads in both themes. */
 .tab.active {
-  color: var(--accent-bright);
+  color: var(--text-primary);
   border-bottom-color: var(--accent-bright);
 }
 
 @media (max-width: 480px) {
-  .tabs {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-
-  .tabs::-webkit-scrollbar {
-    display: none;
-  }
-
   .tab {
     font-size: 0.62rem;
     padding: 0.5rem 0.85rem;
-    white-space: nowrap;
-    flex-shrink: 0;
   }
 }

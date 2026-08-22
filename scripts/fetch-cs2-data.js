@@ -27,6 +27,11 @@
  * categories and art come from the community-maintained CSGO-API mirror, keyed on the same short
  * names Valve uses in the stat keys -- all 29 weapons that appear in the stats resolve.
  *
+ * Maps have no art of their own, so each one borrows its weapon collection's emblem from the same
+ * mirror. That has to come from the collections list rather than the game's shipped set icons: the
+ * shipped icons only cover collections still in rotation, which leaves retired maps like
+ * Cobblestone and St. Marc with nothing. 20 of the 21 tracked maps resolve; see MAP_COLLECTIONS.
+ *
  * Like the other game pages this is a committed snapshot: the JSON and the art live in the repo so
  * the page keeps working when Steam or the icon mirror does not.
  */
@@ -44,8 +49,8 @@ const APP_ID = 730;
 const STEAM_API = 'https://api.steampowered.com';
 const WEAPON_DB =
   'https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/base_weapons.json';
-const MAP_ICON_BASE =
-  'https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons';
+const COLLECTION_DB =
+  'https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/collections.json';
 
 /**
  * Steam's economy CDN resizes on demand via a suffix. The mirror links the 512x384 master, which is
@@ -76,14 +81,39 @@ if (!API_KEY || !STEAM_ID) {
  */
 const CATEGORY_ORDER = ['Pistols', 'SMGs', 'Rifles', 'Heavy'];
 
-/** Maps whose collection icon is published under a name that is not just the map's own slug. */
-const MAP_ICONS = {
-  de_dust2: 'set_dust_2',
-  cs_assault: 'set_assault',
-  cs_italy: 'set_italy',
-  cs_office: 'set_office',
-  cs_militia: 'set_militia',
-  ar_baggage: 'set_baggage',
+/**
+ * Each map's weapon collection, whose emblem stands in as the map's icon.
+ *
+ * Spelled out rather than derived from the slug, because the relationship is not mechanical:
+ * ar_shoots is The Rising Sun Collection and ar_monastery is The Gods and Monsters Collection,
+ * neither of which any slug transform would reach. de_shorttrain deliberately borrows Train's
+ * emblem, since that is what it is a short version of.
+ *
+ * de_sugarcane is absent on purpose: Valve never published a Sugarcane collection -- the name
+ * appears nowhere in the mirror's collections, crates, skins, stickers or tools -- so it falls
+ * through to the initials tile. Do not add a guess here.
+ */
+const MAP_COLLECTIONS = {
+  cs_assault: 'assault',
+  cs_italy: 'italy',
+  cs_militia: 'militia',
+  cs_office: 'office',
+  de_aztec: 'aztec',
+  de_bank: 'bank',
+  de_cbble: 'cobblestone',
+  de_dust: 'dust',
+  de_dust2: 'dust-2',
+  de_inferno: 'inferno',
+  de_lake: 'lake',
+  de_nuke: 'nuke',
+  de_safehouse: 'safehouse',
+  de_shorttrain: 'train',
+  de_stmarc: 'stmarc',
+  de_train: 'train',
+  de_vertigo: 'vertigo',
+  ar_baggage: 'baggage',
+  ar_monastery: 'gods-and-monsters',
+  ar_shoots: 'kimono',
 };
 
 /** Valve never shipped display names for the maps, and the slugs read badly in a bar chart. */
@@ -250,7 +280,7 @@ async function downloadIcon(sources, target) {
   return 'missing';
 }
 
-async function downloadIcons(weaponArt, mapSlugs) {
+async function downloadIcons(weaponArt, mapArt) {
   const tally = { downloaded: 0, skipped: 0, missing: 0 };
 
   const groups = [
@@ -261,13 +291,9 @@ async function downloadIcons(weaponArt, mapSlugs) {
         image ? [image + WEAPON_IMAGE_SIZE, image] : [],
       ]),
     ],
-    [
-      'maps',
-      mapSlugs.map((slug) => [
-        slug,
-        [`${MAP_ICON_BASE}/${MAP_ICONS[slug] ?? `set_${slug.replace(/^(de|cs|ar)_/, '')}`}_png.png`],
-      ]),
-    ],
+    // Collection emblems are already 256x198, and the CDN has no resized variant cached for them,
+    // so unlike the weapon renders these take the full-size URL as-is.
+    ['maps', mapArt.map(({ slug, image }) => [slug, image ? [image] : []])],
   ];
 
   for (const [kind, entries] of groups) {
@@ -493,13 +519,14 @@ function assertSanity(summary, weapons, maps, stats) {
 async function main() {
   console.log('Fetching Counter-Strike 2 stats...');
 
-  const [raw, schema, weaponList] = await Promise.all([
+  const [raw, schema, weaponList, collectionList] = await Promise.all([
     fetchJson(
       `${STEAM_API}/ISteamUserStats/GetUserStatsForGame/v0002/?appid=${APP_ID}` +
         `&key=${API_KEY}&steamid=${STEAM_ID}`,
     ),
     fetchJson(`${STEAM_API}/ISteamUserStats/GetSchemaForGame/v2/?appid=${APP_ID}&key=${API_KEY}`),
     fetchJson(WEAPON_DB),
+    fetchJson(COLLECTION_DB),
   ]);
 
   const stats = toStatMap(raw?.playerstats?.stats);
@@ -530,13 +557,23 @@ async function main() {
     weaponDb[slug] = record;
   }
 
+  // Collections are keyed "collection-set-cobblestone"; MAP_COLLECTIONS holds the bare suffix.
+  const collectionsById = {};
+  for (const entry of Object.values(collectionList ?? {})) {
+    const id = String(entry.id ?? '').replace('collection-set-', '');
+    if (id) collectionsById[id] = entry;
+  }
+
   // Art first: iconPath() only emits a URL for a file already on disk, so the download has to
   // happen before anything is derived.
   if (WANT_ICONS) {
     console.log('Downloading art...');
     await downloadIcons(
       usedWeaponSlugs(stats, weaponDb).map((slug) => weaponDb[slug]),
-      usedMapSlugs(stats),
+      usedMapSlugs(stats).map((slug) => ({
+        slug,
+        image: collectionsById[MAP_COLLECTIONS[slug]]?.image ?? null,
+      })),
     );
   }
 

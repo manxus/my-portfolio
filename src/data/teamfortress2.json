@@ -1,0 +1,252 @@
+{
+  "fetchedAt": "2026-08-21T11:47:00.202Z",
+  "profile": {
+    "steamId": "76561198063836659",
+    "personaName": "Manxus",
+    "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
+    "profileUrl": "https://steamcommunity.com/id/manxuss/",
+    "capsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/library_600x900_2x.jpg",
+    "libraryHours": 98.1
+  },
+  "summary": {
+    "kills": 4019,
+    "damage": 780136,
+    "points": 5454,
+    "assists": 991,
+    "dominations": 159,
+    "hoursPlayed": 45.7,
+    "libraryHours": 98.1,
+    "trackedPct": 46.6
+  },
+  "record": [
+    {
+      "key": "iNumberOfKills",
+      "label": "Kills",
+      "value": 4019
+    },
+    {
+      "key": "iDamageDealt",
+      "label": "Damage dealt",
+      "value": 780136
+    },
+    {
+      "key": "iPointsScored",
+      "label": "Points scored",
+      "value": 5454
+    },
+    {
+      "key": "iKillAssists",
+      "label": "Kill assists",
+      "value": 991
+    },
+    {
+      "key": "iPointCaptures",
+      "label": "Point captures",
+      "value": 77
+    },
+    {
+      "key": "iPointDefenses",
+      "label": "Point defenses",
+      "value": 102
+    },
+    {
+      "key": "iDominations",
+      "label": "Dominations",
+      "value": 159
+    },
+    {
+      "key": "iRevenge",
+      "label": "Revenge kills",
+      "value": 136
+    },
+    {
+      "key": "iBuildingsDestroyed",
+      "label": "Buildings destroyed",
+      "value": 265
+    },
+    {
+      "key": "iBuildingsBuilt",
+      "label": "Buildings built",
+      "value": 129
+    },
+    {
+      "key": "iNumTeleports",
+      "label": "Teleports taken",
+      "value": 39
+    },
+    {
+      "key": "iFireDamage",
+      "label": "Fire damage",
+      "value": 55615
+    }
+  ],
+  "classes": [
+    {
+      "slug": "scout",
+      "name": "Scout",
+      "kills": 1185,
+      "damage": 230064,
+      "secondsPlayed": 46863,
+      "bestKills": 13,
+      "damagePerMinute": 294.6,
+      "barPct": 100,
+      "timeSharePct": 28.5,
+      "mvmSkewed": false
+    },
+    {
+      "slug": "sniper",
+      "name": "Sniper",
+      "kills": 839,
+      "damage": 146428,
+      "secondsPlayed": 36620,
+      "bestKills": 10,
+      "damagePerMinute": 239.9,
+      "barPct": 71,
+      "timeSharePct": 22.3,
+      "mvmSkewed": false
+    },
+    {
+      "slug": "soldier",
+      "name": "Soldier",
+      "kills": 470,
+      "damage": 118157,
+      "secondsPlayed": 31209,
+      "bestKills": 7,
+      "damagePerMinute": 227.2,
+      "barPct": 40,
+      "timeSharePct": 19,
+      "mvmSkewed": false
+    },
+    {
+      "slug": "heavy",
+      "name": "Heavy",
+      "kills": 401,
+      "damage": 72739,
+      "secondsPlayed": 4260,
+      "bestKills": 206,
+      "damagePerMinute": 1024.5,
+      "barPct": 34,
+      "timeSharePct": 2.6,
+      "mvmSkewed": true
+    },
+    {
+      "slug": "spy",
+      "name": "Spy",
+      "kills": 368,
+      "damage": 56810,
+      "secondsPlayed": 18619,
+      "bestKills": 11,
+      "damagePerMinute": 183.1,
+      "barPct": 31,
+      "timeSharePct": 11.3,
+      "mvmSkewed": false
+    },
+    {
+      "slug": "engineer",
+      "name": "Engineer",
+      "kills": 362,
+      "damage": 71483,
+      "secondsPlayed": 7241,
+      "bestKills": 102,
+      "damagePerMinute": 592.3,
+      "barPct": 31,
+      "timeSharePct": 4.4,
+      "mvmSkewed": true
+    },
+    {
+      "slug": "pyro",
+      "name": "Pyro",
+      "kills": 287,
+      "damage": 60068,
+      "secondsPlayed": 12063,
+      "bestKills": 7,
+      "damagePerMinute": 298.8,
+      "barPct": 24,
+      "timeSharePct": 7.3,
+      "mvmSkewed": false
+    },
+    {
+      "slug": "demoman",
+      "name": "Demoman",
+      "kills": 60,
+      "damage": 15199,
+      "secondsPlayed": 3331,
+      "bestKills": 7,
+      "damagePerMinute": 273.8,
+      "barPct": 5,
+      "timeSharePct": 2,
+      "mvmSkewed": false
+    },
+    {
+      "slug": "medic",
+      "name": "Medic",
+      "kills": 47,
+      "damage": 9188,
+      "secondsPlayed": 4328,
+      "bestKills": 5,
+      "damagePerMinute": 127.4,
+      "barPct": 4,
+      "timeSharePct": 2.6,
+      "mvmSkewed": false
+    }
+  ],
+  "specialities": [
+    {
+      "key": "iHeadshots",
+      "label": "Headshots",
+      "value": 434,
+      "classes": [
+        "Sniper"
+      ]
+    },
+    {
+      "key": "iBackstabs",
+      "label": "Backstabs",
+      "value": 281,
+      "classes": [
+        "Spy"
+      ]
+    },
+    {
+      "key": "iHealthPointsHealed",
+      "label": "Health healed",
+      "value": 28499,
+      "classes": [
+        "Medic"
+      ]
+    },
+    {
+      "key": "iNumInvulnerable",
+      "label": "ÜberCharges deployed",
+      "value": 10,
+      "classes": [
+        "Medic"
+      ]
+    },
+    {
+      "key": "iHealthPointsLeached",
+      "label": "Health leached",
+      "value": 600,
+      "classes": [
+        "Spy"
+      ]
+    }
+  ],
+  "mvm": [
+    {
+      "key": "TF_MVM_KILL_ROBOT_GRIND_STAT",
+      "label": "Robots destroyed",
+      "value": 1539
+    },
+    {
+      "key": "TF_MVM_COLLECT_MONEY_GRIND_STAT",
+      "label": "Credits collected",
+      "value": 10617
+    },
+    {
+      "key": "TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND_STAT",
+      "label": "Mannhattan bomb bots stopped",
+      "value": 40
+    }
+  ]
+}

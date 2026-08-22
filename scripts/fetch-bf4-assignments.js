@@ -68,6 +68,15 @@ const SHEET_TIER_BOUNDARIES = [
   { upTo: Infinity, tier: 'Gold' },
 ];
 
+/** Tabs that name a paid expansion. Singleplayer, Multiplayer and Premium are not DLC markers. */
+const EXPANSIONS = new Set([
+  'China Rising',
+  'Second Assault',
+  'Naval Strike',
+  "Dragon's Teeth",
+  'Final Stand',
+]);
+
 /** Groups in display order, with the expected size of each as a drift check. */
 const GROUPS = [
   { name: 'Campaign', expected: 6 },
@@ -313,8 +322,25 @@ function parseWorkbook() {
 function parseImageMap(wikitext) {
   const map = new Map();
 
-  for (const table of wikitext.split(/^\{\|/m).slice(1)) {
-    const rows = table.split(/^\|\}/m)[0].split(/^\|-\s*$/m);
+  // The page groups its tables in a <tabber>, one tab per expansion, so the tab a row sits under is
+  // what says which DLC an assignment came with -- nothing in the row itself carries that.
+  const tabs = [...wikitext.matchAll(/^(?:\|-\|)?\s*([A-Za-z0-9' ]{3,30})\s*=\s*$/gm)].map(
+    (match) => ({ label: match[1].trim(), at: match.index }),
+  );
+  const tabAt = (position) => {
+    let current = null;
+    for (const tab of tabs) {
+      if (tab.at > position) break;
+      current = tab.label;
+    }
+    return current;
+  };
+
+  const tableStart = /^\{\|/gm;
+  let match;
+  while ((match = tableStart.exec(wikitext)) !== null) {
+    const expansion = EXPANSIONS.has(tabAt(match.index)) ? tabAt(match.index) : null;
+    const rows = wikitext.slice(match.index).split(/^\|\}/m)[0].split(/^\|-\s*$/m);
     const header = splitCells(rows[0]).map((cell) => clean(cell).toLowerCase());
 
     const nameCol = header.indexOf('name');
@@ -327,7 +353,7 @@ function parseImageMap(wikitext) {
 
       const name = clean(cells[nameCol]);
       const file = cells[imageCol].match(/\[\[File:([^\]|]+)/);
-      if (name && file) map.set(nameKey(name), file[1].trim());
+      if (name && file) map.set(nameKey(name), { file: file[1].trim(), expansion });
     }
   }
 
@@ -360,8 +386,8 @@ async function resolveBadges(assignments, imageMap) {
   const unmatched = [];
 
   for (const assignment of assignments) {
-    const file = imageMap.get(nameKey(assignment.name));
-    if (file) chosen.set(assignment.id, file);
+    const entry = imageMap.get(nameKey(assignment.name));
+    if (entry?.file) chosen.set(assignment.id, entry.file);
     else unmatched.push(assignment.name);
   }
 
@@ -420,7 +446,7 @@ async function downloadBadges(badges) {
 
 // ---------------------------------------------------------------------------- merge
 
-function merge(sheetAssignments, wikiTiers, wikiCampaign) {
+function merge(sheetAssignments, wikiTiers, wikiCampaign, imageMap) {
   const wikiByName = new Map(wikiTiers.map((entry) => [nameKey(entry.name), entry]));
   const matched = new Set();
 
@@ -436,6 +462,7 @@ function merge(sheetAssignments, wikiTiers, wikiCampaign) {
       group: assignment.group,
       done: assignment.done,
       premium: wiki?.premium ?? false,
+      expansion: imageMap.get(key)?.expansion ?? null,
       unlockedBy: wiki?.unlockedBy ?? [],
       reward: wiki?.reward ?? [],
       // The spreadsheet's phrasing is kept over the wiki's: only its lines carry progress figures.
@@ -449,6 +476,7 @@ function merge(sheetAssignments, wikiTiers, wikiCampaign) {
     id: slugify(entry.name),
     name: entry.name,
     group: 'Campaign',
+    expansion: null,
     // The spreadsheet tracks multiplayer only; the campaign unlocks are all complete, which is
     // what makes its 55 and Battlelog's 61 agree.
     done: true,
@@ -549,10 +577,11 @@ async function main() {
   const wikiCampaign = parseSection(wikitext, WIKI_CAMPAIGN);
   console.log(`  ${wikiTiers.length} tier entries, ${wikiCampaign.length} campaign unlocks.`);
 
-  const { assignments, matched } = merge(sheetAssignments, wikiTiers, wikiCampaign);
+  const imageMap = parseImageMap(wikitext);
+  const { assignments, matched } = merge(sheetAssignments, wikiTiers, wikiCampaign, imageMap);
 
   console.log('Resolving assignment badges...');
-  const badges = await resolveBadges(assignments, parseImageMap(wikitext));
+  const badges = await resolveBadges(assignments, imageMap);
   console.log(`  ${badges.size}/${assignments.length} badges found on the wiki.`);
   if (WANT_BADGES) await downloadBadges(badges);
 

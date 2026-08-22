@@ -1,29 +1,18 @@
 /* Battlelog's palette is scoped to this page so the game look never leaks into the site theme.
-   Everything but the signal orange is derived from portfolio tokens, so the light theme inverts
-   for free. */
+   Structure comes from the shared game-page module; only the signal colours are local. */
 .container {
-  --bf-signal: #ff9e2c;
-  --bf-signal-dim: #b96f14;
-  --bf-done: #4ad14a;
-  --bf-face: var(--bg-secondary);
-  --bf-hairline: rgba(95, 143, 143, 0.12);
-  --bf-track: var(--bg-deep);
+  composes: container from '../components/GameStats/gamePage.module.css';
 
-  max-width: 1100px;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding-bottom: 3rem;
+  --game-signal: #ff9e2c;
+  --game-signal-dim: #b96f14;
+  --game-done: #4ad14a;
 }
 
 :global([data-theme='light']) .container {
   /* #ff9e2c fails contrast on a light face. */
-  --bf-signal: #a3560a;
-  --bf-signal-dim: #7a3f06;
-  --bf-done: #1f7a1f;
-  /* Tracks sit on the panel face, not the page, so they have to be darker than the panel to read
-     as an empty bar at all. */
-  --bf-track: #c2cad1;
+  --game-signal: #96500a;
+  --game-signal-dim: #7a3f06;
+  --game-done: #1f7a1f;
 }
 
 .section {
@@ -68,64 +57,22 @@
   display: block;
   height: 4px;
   width: 100%;
-  background: var(--bf-track);
+  background: var(--game-track);
   overflow: hidden;
 }
 
 .barFill {
   display: block;
   height: 100%;
-  background: var(--bf-signal);
+  background: var(--game-signal);
   transition: width var(--transition-normal);
 }
 
 .barFillDone {
-  background: var(--bf-done);
+  background: var(--game-done);
 }
 
 /* ---------- shared icons ---------- */
-
-/* Both line-art variants ship; CSS keeps the one that reads against the current theme. */
-.iconWrap {
-  flex-shrink: 0;
-  width: 44px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.iconLight {
-  display: none;
-}
-
-:global([data-theme='light']) .iconDark {
-  display: none;
-}
-
-:global([data-theme='light']) .iconLight {
-  display: block;
-}
-
-.iconFallback {
-  flex-shrink: 0;
-  width: 44px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-mono);
-  font-size: 0.55rem;
-  letter-spacing: 0.06em;
-  color: var(--text-dim);
-  background: var(--bf-track);
-}
 
 /* ---------- dossier ---------- */
 
@@ -135,9 +82,9 @@
   align-items: flex-start;
   gap: 1.25rem;
   padding: 1.25rem;
-  background: var(--bf-face);
-  border: 1px solid var(--bf-hairline);
-  border-left: 2px solid var(--bf-signal);
+  background: var(--game-face);
+  border: 1px solid var(--game-hairline);
+  border-left: 2px solid var(--game-signal);
 }
 
 .rankBadge {
@@ -163,15 +110,15 @@
   justify-content: center;
   font-family: var(--font-heading);
   font-size: 1.8rem;
-  color: var(--bf-signal);
-  background: var(--bf-track);
+  color: var(--game-signal);
+  background: var(--game-track);
 }
 
 .rankCaption {
   font-family: var(--font-mono);
-  font-size: 0.55rem;
+  font-size: 0.6rem;
   letter-spacing: 0.12em;
-  color: var(--text-dim);
+  color: var(--text-secondary);
 }
 
 .dossierBody {
@@ -206,12 +153,12 @@
   font-family: var(--font-mono);
   font-size: 0.7rem;
   letter-spacing: 0.1em;
-  color: var(--bf-signal);
+  color: var(--game-signal);
   text-transform: uppercase;
 }
 
 .platform {
-  color: var(--text-dim);
+  color: var(--text-secondary);
 }
 
 .statRow {
@@ -221,41 +168,12 @@
   margin-top: 0.5rem;
 }
 
-.stat {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-}
-
-.statValue {
-  font-family: var(--font-heading);
-  font-size: 1.15rem;
-  color: var(--text-primary);
-  line-height: 1;
-}
-
-.statLabel {
-  font-family: var(--font-mono);
-  font-size: 0.55rem;
-  letter-spacing: 0.12em;
-  color: var(--text-dim);
-}
-
 .syncedAt {
   margin-top: 0.35rem;
   font-family: var(--font-mono);
   font-size: 0.55rem;
   letter-spacing: 0.12em;
-  color: var(--text-dim);
-}
-
-/* ---------- service record ---------- */
-
-.recordGrid {
-  display: grid;
-  gap: 1px;
-  background: var(--bf-hairline);
-  border: 1px solid var(--bf-hairline);
+  color: var(--text-secondary);
 }
 
 .recordGrid[data-columns='4'] {
@@ -266,52 +184,15 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.recordCell {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  padding: 0.75rem;
-  background: var(--bf-face);
-}
-
-.recordValue {
-  font-family: var(--font-heading);
-  font-size: 1.05rem;
-  color: var(--text-primary);
-  line-height: 1;
-}
-
-.recordLabel {
-  font-family: var(--font-mono);
-  font-size: 0.5rem;
-  letter-spacing: 0.12em;
-  color: var(--text-dim);
-}
-
 /* ---------- kits ---------- */
 
 .kitList,
-.equipList {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  list-style: none;
-  background: var(--bf-hairline);
-  border: 1px solid var(--bf-hairline);
-}
-
-/* The expander adds rows in bulk; without this the browser anchors on content below the list and
-   scrolls to compensate, hiding everything it just added. The page restores the offset itself. */
-.equipList {
-  overflow-anchor: none;
-}
-
 .kitRow {
   display: flex;
   align-items: center;
   gap: 0.85rem;
   padding: 0.7rem 0.75rem;
-  background: var(--bf-face);
+  background: var(--game-face);
 }
 
 .kitBody {
@@ -339,7 +220,7 @@
 .kitStars {
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  color: var(--bf-signal);
+  color: var(--game-signal);
   white-space: nowrap;
 }
 
@@ -348,153 +229,19 @@
   flex-wrap: wrap;
   gap: 0.85rem;
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.62rem;
   letter-spacing: 0.06em;
-  color: var(--text-dim);
-}
-
-/* ---------- equipment lists ---------- */
-
-.chipRow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-}
-
-.chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.3rem 0.55rem;
-  background: transparent;
-  border: 1px solid var(--bf-hairline);
   color: var(--text-secondary);
-  font-family: var(--font-mono);
-  font-size: 0.58rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-}
-
-.chip:hover {
-  border-color: var(--bf-signal-dim);
-  color: var(--text-primary);
-}
-
-.chipActive {
-  border-color: var(--bf-signal);
-  color: var(--bf-signal);
-  background: var(--bg-hover);
-}
-
-.chipCount {
-  color: var(--text-dim);
-}
-
-.chipActive .chipCount {
-  color: var(--bf-signal-dim);
-}
-
-.equipRow {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-  padding: 0.55rem 0.75rem;
-  background: var(--bf-face);
-}
-
-.equipMain {
-  flex: 1 1 auto;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.equipHeader {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
-.equipName {
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-  color: var(--text-primary);
-  text-transform: uppercase;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.equipKills {
-  font-family: var(--font-heading);
-  font-size: 0.9rem;
-  color: var(--bf-signal);
-  white-space: nowrap;
-}
-
-/* Fixed columns, not flex: the values vary in width ("4h 33m" against "58m"), so an auto-sized
-   row would put each row's columns at a different x and nothing would line up vertically. */
-.equipStats {
-  flex-shrink: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 3.6rem);
-  text-align: right;
-}
-
-.equipStats dt {
-  font-family: var(--font-mono);
-  font-size: 0.48rem;
-  letter-spacing: 0.12em;
-  color: var(--text-dim);
-}
-
-.equipStats dd {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--text-secondary);
-}
-
-/* Narrow containers drop the trailing stats under the bar instead of squeezing the name. */
-.equipRowCompact {
-  flex-wrap: wrap;
-}
-
-.equipRowCompact .equipStats {
-  width: 100%;
-  grid-template-columns: repeat(3, 4.2rem);
-  padding-left: calc(44px + 0.85rem);
-  text-align: left;
-}
-
-.expander {
-  align-self: flex-start;
-  padding: 0.35rem 0.7rem;
-  background: transparent;
-  border: 1px solid var(--accent-dim);
-  color: var(--accent);
-  font-family: var(--font-mono);
-  font-size: 0.58rem;
-  letter-spacing: 0.12em;
-  cursor: pointer;
-  transition: all var(--transition-fast);
-}
-
-.expander:hover {
-  border-color: var(--accent-bright);
-  color: var(--accent-bright);
 }
 
 /* ---------- assignments ---------- */
 
+/* Groups are separated on the page's own section rhythm, so a tier heading never crowds the tiles
+   of the tier above it. */
 .assignmentGroups {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .assignmentGroup {
@@ -526,7 +273,7 @@
 }
 
 .groupName[data-tier='gold'] {
-  color: var(--bf-signal);
+  color: var(--game-signal);
 }
 
 .groupName[data-tier='premium'] {
@@ -550,14 +297,14 @@
 }
 
 .groupCount {
-  color: var(--text-dim);
+  color: var(--text-secondary);
 }
 
 /* The group's own completion, so the split sections still show progress at a glance. */
 .groupTrack {
   flex: 1 1 auto;
   height: 2px;
-  background: var(--bf-track);
+  background: var(--game-track);
   overflow: hidden;
 }
 
@@ -576,8 +323,8 @@
   justify-content: center;
   aspect-ratio: 1;
   padding: 0.5rem 0.5rem 0.7rem;
-  background: var(--bf-face);
-  border: 1px solid var(--bf-hairline);
+  background: var(--game-face);
+  border: 1px solid var(--game-hairline);
   cursor: pointer;
   transition:
     border-color var(--transition-fast),
@@ -585,12 +332,12 @@
 }
 
 .assignmentTile:hover {
-  border-color: var(--bf-signal-dim);
+  border-color: var(--game-signal-dim);
   background: var(--bg-hover);
 }
 
 .assignmentTileSelected {
-  border-color: var(--bf-signal);
+  border-color: var(--game-signal);
   background: var(--bg-hover);
 }
 
@@ -611,12 +358,44 @@
   font-family: var(--font-mono);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
-  color: var(--text-dim);
+  color: var(--text-secondary);
 }
 
 /* An unearned badge is greyed in-game too, so the page borrows that read. */
 .assignmentTile:not(.assignmentDone) .tileBadge {
   filter: grayscale(0.85) opacity(0.55);
+}
+
+/* ---------- expansion marks ---------- */
+
+/* The game's own icons, so no plate or tint behind them -- they ship as finished 17px squares and
+   sit at native size, which is also why there is no per-expansion colour table any more. */
+.tileExpansion {
+  position: absolute;
+  right: 4px;
+  bottom: 7px;
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+
+.expansionTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.1rem 0.35rem 0.1rem 0.15rem;
+  border: 1px solid var(--game-hairline);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.48rem;
+  letter-spacing: 0.12em;
+  white-space: nowrap;
+}
+
+.expansionTagIcon {
+  display: block;
+  width: 17px;
+  height: 17px;
 }
 
 /* The progress sliver sits along the bottom edge, as it does on Battlelog's own tiles. */
@@ -626,7 +405,7 @@
   right: 0;
   bottom: 0;
   height: 3px;
-  background: var(--bf-track);
+  background: var(--game-track);
   overflow: hidden;
 }
 
@@ -635,7 +414,7 @@
 .assignmentDetail {
   grid-column: 1 / -1;
   background: var(--bg-secondary);
-  border: 1px solid var(--bf-signal-dim);
+  border: 1px solid var(--game-signal-dim);
 }
 
 .assignmentDetailInner {
@@ -663,7 +442,7 @@
   background: none;
   border: none;
   padding: 0 0 0 0.35rem;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   font-family: var(--font-mono);
   font-size: 0.7rem;
   cursor: pointer;
@@ -700,7 +479,7 @@
 .doneTag,
 .pendingTag {
   font-family: var(--font-mono);
-  font-size: 0.48rem;
+  font-size: 0.55rem;
   letter-spacing: 0.12em;
   padding: 0.15rem 0.35rem;
   border: 1px solid currentColor;
@@ -717,7 +496,7 @@
 }
 
 .tierTag[data-tier='gold'] {
-  color: var(--bf-signal);
+  color: var(--game-signal);
 }
 
 :global([data-theme='light']) .tierTag[data-tier='bronze'] {
@@ -733,11 +512,11 @@
 }
 
 .doneTag {
-  color: var(--bf-done);
+  color: var(--game-done);
 }
 
 .pendingTag {
-  color: var(--text-dim);
+  color: var(--text-secondary);
 }
 
 .tierTag[data-tier='campaign'] {
@@ -758,9 +537,9 @@
 
 .microLabel {
   font-family: var(--font-mono);
-  font-size: 0.48rem;
+  font-size: 0.55rem;
   letter-spacing: 0.12em;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   margin-right: 0.4rem;
 }
 
@@ -773,7 +552,7 @@
 }
 
 .assignmentReward {
-  color: var(--bf-signal);
+  color: var(--game-signal);
 }
 
 .criteriaList {
@@ -808,7 +587,7 @@
 
 .criteriaCount {
   flex-shrink: 0;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   white-space: nowrap;
 }
 
@@ -817,7 +596,7 @@
   display: block;
   height: 2px;
   margin-top: 0.2rem;
-  background: var(--bf-track);
+  background: var(--game-track);
   overflow: hidden;
 }
 
@@ -853,8 +632,8 @@
   flex-direction: column;
   gap: 0.7rem;
   padding: 0.9rem;
-  background: var(--bf-face);
-  border: 1px solid var(--bf-hairline);
+  background: var(--game-face);
+  border: 1px solid var(--game-hairline);
 }
 
 .barList {
@@ -882,7 +661,7 @@
 .barValue {
   font-family: var(--font-mono);
   font-size: 0.65rem;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   white-space: nowrap;
 }
 
@@ -894,8 +673,8 @@
 
 .attribution {
   font-family: var(--font-mono);
-  font-size: 0.55rem;
+  font-size: 0.6rem;
   line-height: 1.6;
   letter-spacing: 0.06em;
-  color: var(--text-dim);
+  color: var(--text-secondary);
 }

@@ -1,146 +1,27 @@
-import { useState, useRef, useEffect, useLayoutEffect, useMemo } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import battlefieldData from '../data/battlefield4.json';
 import assignmentData from '../data/battlefield4-assignments.json';
+import {
+  useContainerLayout,
+  formatNumber,
+  formatScore,
+  formatPct,
+  formatDuration,
+  fadeUp,
+  stagger,
+  GameIcon,
+  Stat,
+  RecordGrid,
+  StatRow,
+  StatSection,
+} from '../components/GameStats';
 import styles from './Battlefield4.module.css';
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 12 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.3 } },
-};
-
-const stagger = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.05 } },
-};
 
 const rowStagger = {
   hidden: {},
   show: { transition: { staggerChildren: 0.02 } },
 };
-
-/**
- * Rows appended to a list whose entrance already finished inherit the hidden variant and never play,
- * so the expander has to remount the list rather than grow it. Remounting means the full list also
- * re-staggers -- at 0.02s a 100-row list would take two seconds to finish, which reads as broken --
- * so the expanded view drops the stagger and lands at once.
- */
-const listVariants = (staggerChildren) => ({
-  hidden: {},
-  show: { transition: { staggerChildren } },
-});
-
-/** Below this an equipment row drops its trailing stats onto a second line. */
-const COMPACT_ROW_WIDTH = 560;
-/** The gamemode and progress panels only sit side by side once both stay readable. */
-const SIDE_BY_SIDE_WIDTH = 720;
-/** Below this the service-record grid drops from four columns to two. */
-const WIDE_GRID_WIDTH = 620;
-
-/** How many rows an equipment list shows before the expander. */
-const VISIBLE_ROWS = 12;
-
-// The page renders inside two shells with very different content widths (the desktop split-view
-// reserves 420px for the menu), so a window media query would be wrong in both directions.
-function useContainerLayout(ref) {
-  const [layout, setLayout] = useState({ isCompact: false, isSideBySide: false, statColumns: 2 });
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return undefined;
-
-    const update = () => {
-      const width = el.offsetWidth;
-      setLayout({
-        isCompact: width < COMPACT_ROW_WIDTH,
-        isSideBySide: width >= SIDE_BY_SIDE_WIDTH,
-        statColumns: width >= WIDE_GRID_WIDTH ? 4 : 2,
-      });
-    };
-
-    update();
-    const observer = new ResizeObserver(update);
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [ref]);
-
-  return layout;
-}
-
-function formatNumber(value) {
-  const n = Number(value);
-  return Number.isFinite(n) ? n.toLocaleString('en-US') : '0';
-}
-
-function formatScore(value) {
-  const n = Number(value);
-  if (!Number.isFinite(n)) return '0';
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${Math.round(n / 1_000)}K`;
-  return String(n);
-}
-
-function formatPct(value, digits = 1) {
-  const n = Number(value);
-  return Number.isFinite(n) ? `${n.toFixed(digits)}%` : '0%';
-}
-
-/** 2177050 -> "25d 4h". The API's own "25 days, 4:44:10" is too wide for a stat tile. */
-function formatDuration(seconds) {
-  const total = Number(seconds);
-  if (!Number.isFinite(total) || total <= 0) return '0h';
-
-  const days = Math.floor(total / 86400);
-  const hours = Math.floor((total % 86400) / 3600);
-  if (days > 0) return `${days}d ${hours}h`;
-
-  const minutes = Math.floor((total % 3600) / 60);
-  return hours > 0 ? `${hours}h ${minutes}m` : `${minutes}m`;
-}
-
-/**
- * gametools ships each icon as white and black line art. Both are committed, and CSS picks the one
- * that reads against the current theme -- at under a kilobyte each the second request is cheaper
- * than wiring the page to theme state. A few assets 404 on the CDN, so the script nulls those and
- * the initials stand in.
- */
-function EquipmentIcon({ name, iconUrl, iconUrlLight }) {
-  if (!iconUrl && !iconUrlLight) {
-    return (
-      <span className={styles.iconFallback} aria-hidden="true">
-        {String(name ?? '?')
-          .replace(/[^a-zA-Z0-9]/g, '')
-          .slice(0, 3)
-          .toUpperCase()}
-      </span>
-    );
-  }
-
-  return (
-    <span className={styles.iconWrap}>
-      {iconUrl && (
-        <img src={iconUrl} alt="" className={`${styles.icon} ${styles.iconDark}`} loading="lazy" />
-      )}
-      {iconUrlLight && (
-        <img
-          src={iconUrlLight}
-          alt=""
-          className={`${styles.icon} ${styles.iconLight}`}
-          loading="lazy"
-        />
-      )}
-    </span>
-  );
-}
-
-function Stat({ value, label, title }) {
-  return (
-    <div className={styles.stat} title={title}>
-      <span className={styles.statValue}>{value}</span>
-      <span className={styles.statLabel}>{label}</span>
-    </div>
-  );
-}
 
 /** The same field carries a platoon emblem and a soldier's own emblem; only `type` tells them apart. */
 function emblemLabel(platoon, userName) {
@@ -224,24 +105,15 @@ function ServiceRecord({ profile, columns }) {
     { label: 'SAVIOR KILLS', value: formatNumber(profile.saviorKills) },
     { label: 'DOG TAGS TAKEN', value: formatNumber(profile.dogtagsTaken) },
     { label: 'SQUAD SCORE', value: formatScore(profile.squadScore) },
-  ];
+  ].map((entry) => ({ ...entry, key: entry.label, display: entry.value }));
 
-  return (
-    <div className={styles.recordGrid} data-columns={columns}>
-      {entries.map((entry) => (
-        <div key={entry.label} className={styles.recordCell}>
-          <span className={styles.recordValue}>{entry.value}</span>
-          <span className={styles.recordLabel}>{entry.label}</span>
-        </div>
-      ))}
-    </div>
-  );
+  return <RecordGrid entries={entries} columns={columns} />;
 }
 
 function KitRow({ kit }) {
   return (
     <motion.li variants={fadeUp} className={styles.kitRow}>
-      <EquipmentIcon name={kit.name} iconUrl={kit.iconUrl} iconUrlLight={kit.iconUrlLight} />
+      <GameIcon name={kit.name} iconUrl={kit.iconUrl} iconUrlLight={kit.iconUrlLight} />
 
       <div className={styles.kitBody}>
         <div className={styles.kitHeader}>
@@ -263,199 +135,39 @@ function KitRow({ kit }) {
   );
 }
 
-function FilterChips({ options, active, onSelect, allLabel, allCount }) {
-  return (
-    <div className={styles.chipRow} role="group" aria-label="Filter by category">
-      <button
-        type="button"
-        className={`${styles.chip}${active === null ? ` ${styles.chipActive}` : ''}`}
-        aria-pressed={active === null}
-        onClick={() => onSelect(null)}
-      >
-        {allLabel} <span className={styles.chipCount}>{allCount}</span>
-      </button>
-      {options.map((option) => (
-        <button
-          key={option.name}
-          type="button"
-          className={`${styles.chip}${active === option.name ? ` ${styles.chipActive}` : ''}`}
-          aria-pressed={active === option.name}
-          onClick={() => onSelect(option.name)}
-        >
-          {option.label ?? option.name} <span className={styles.chipCount}>{option.count}</span>
-        </button>
-      ))}
-    </div>
-  );
-}
-
 function WeaponRow({ weapon, isCompact }) {
   return (
-    <motion.li
-      variants={fadeUp}
-      className={`${styles.equipRow}${isCompact ? ` ${styles.equipRowCompact}` : ''}`}
-    >
-      <EquipmentIcon
-        name={weapon.name}
-        iconUrl={weapon.iconUrl}
-        iconUrlLight={weapon.iconUrlLight}
-      />
-
-      <div className={styles.equipMain}>
-        <div className={styles.equipHeader}>
-          <span className={styles.equipName}>{weapon.name}</span>
-          <span className={styles.equipKills}>{formatNumber(weapon.kills)}</span>
-        </div>
-        <span className={styles.barTrack} aria-hidden="true">
-          <span className={styles.barFill} style={{ width: `${weapon.barPct}%` }} />
-        </span>
-      </div>
-
-      <dl className={styles.equipStats}>
-        <div>
-          <dt>KPM</dt>
-          <dd>{weapon.killsPerMinute.toFixed(2)}</dd>
-        </div>
-        <div>
-          <dt>ACC</dt>
-          <dd>{formatPct(weapon.accuracy, 0)}</dd>
-        </div>
-        <div>
-          <dt>HS</dt>
-          <dd>{formatPct(weapon.headshots, 0)}</dd>
-        </div>
-      </dl>
-    </motion.li>
+    <StatRow
+      name={weapon.name}
+      iconUrl={weapon.iconUrl}
+      iconUrlLight={weapon.iconUrlLight}
+      value={formatNumber(weapon.kills)}
+      barPct={weapon.barPct}
+      isCompact={isCompact}
+      stats={[
+        { label: 'KPM', value: weapon.killsPerMinute.toFixed(2) },
+        { label: 'ACC', value: formatPct(weapon.accuracy, 0) },
+        { label: 'HS', value: formatPct(weapon.headshots, 0) },
+      ]}
+    />
   );
 }
 
 function VehicleRow({ vehicle, isCompact }) {
   return (
-    <motion.li
-      variants={fadeUp}
-      className={`${styles.equipRow}${isCompact ? ` ${styles.equipRowCompact}` : ''}`}
-    >
-      <EquipmentIcon
-        name={vehicle.name}
-        iconUrl={vehicle.iconUrl}
-        iconUrlLight={vehicle.iconUrlLight}
-      />
-
-      <div className={styles.equipMain}>
-        <div className={styles.equipHeader}>
-          <span className={styles.equipName}>{vehicle.name}</span>
-          <span className={styles.equipKills}>{formatNumber(vehicle.kills)}</span>
-        </div>
-        <span className={styles.barTrack} aria-hidden="true">
-          <span className={styles.barFill} style={{ width: `${vehicle.barPct}%` }} />
-        </span>
-      </div>
-
-      <dl className={styles.equipStats}>
-        <div>
-          <dt>KPM</dt>
-          <dd>{vehicle.killsPerMinute.toFixed(2)}</dd>
-        </div>
-        <div>
-          <dt>DEST</dt>
-          <dd>{formatNumber(vehicle.destroyed)}</dd>
-        </div>
-        <div>
-          <dt>TIME</dt>
-          <dd>{formatDuration(vehicle.secondsIn)}</dd>
-        </div>
-      </dl>
-    </motion.li>
-  );
-}
-
-/**
- * The page scrolls in the window on its own route but inside `.contentInline` in the desktop
- * split-view, so the element to restore has to be found rather than assumed.
- */
-function scrollParent(el) {
-  for (let node = el?.parentElement; node; node = node.parentElement) {
-    const { overflowY } = getComputedStyle(node);
-    if ((overflowY === 'auto' || overflowY === 'scroll') && node.scrollHeight > node.clientHeight) {
-      return node;
-    }
-  }
-  return null;
-}
-
-/** Shared shell for the two equipment lists: filter chips, a capped list, and an expander. */
-function EquipmentSection({ items, filters, filterKey, allLabel, renderRow }) {
-  const [active, setActive] = useState(null);
-  const [expanded, setExpanded] = useState(false);
-  const listRef = useRef(null);
-  const expanderRef = useRef(null);
-  const restore = useRef(null);
-
-  const filtered = useMemo(
-    () => (active === null ? items : items.filter((item) => item[filterKey] === active)),
-    [items, active, filterKey],
-  );
-
-  const visible = expanded ? filtered : filtered.slice(0, VISIBLE_ROWS);
-  const hidden = filtered.length - visible.length;
-
-  // Expanding inserts ~90 rows above the button that was just clicked. Left alone the browser
-  // anchors on something below that insertion and scrolls down to compensate, which dumps the whole
-  // new list above the viewport -- it reads as the list opening upwards. Holding the scroll offset
-  // across the commit keeps everything above the list still, so the rows appear where the button
-  // was and it behaves like a dropdown.
-  const toggleExpanded = () => {
-    const scroller = scrollParent(listRef.current);
-    restore.current = { scroller, top: scroller ? scroller.scrollTop : window.scrollY };
-    setExpanded((value) => !value);
-  };
-
-  useLayoutEffect(() => {
-    const saved = restore.current;
-    if (!saved) return;
-    restore.current = null;
-
-    if (saved.scroller) saved.scroller.scrollTop = saved.top;
-    else window.scrollTo(0, saved.top);
-
-    // Collapsing removes more height than there is scroll left, so the restore clamps and strands
-    // the reader at the foot of the page; pull the button back into view instead.
-    if (!expanded) expanderRef.current?.scrollIntoView({ block: 'nearest' });
-  }, [expanded]);
-
-  return (
-    <>
-      <FilterChips
-        options={filters}
-        active={active}
-        onSelect={(next) => {
-          setActive(next);
-          setExpanded(false);
-        }}
-        allLabel={allLabel}
-        allCount={items.length}
-      />
-
-      <motion.ul
-        ref={listRef}
-        className={styles.equipList}
-        variants={listVariants(expanded ? 0 : 0.02)}
-        // The expanded list renders straight at its final state: the rows are already on screen, so
-        // there is nothing to animate in, and skipping it means a hundred rows can never be left
-        // sitting at opacity 0 if the entrance does not fire.
-        initial={expanded ? false : 'hidden'}
-        animate="show"
-        key={`${active ?? 'all'}-${expanded}`}
-      >
-        {visible.map(renderRow)}
-      </motion.ul>
-
-      {(hidden > 0 || expanded) && (
-        <button ref={expanderRef} type="button" className={styles.expander} onClick={toggleExpanded}>
-          {expanded ? 'SHOW LESS' : `SHOW ALL ${filtered.length}`}
-        </button>
-      )}
-    </>
+    <StatRow
+      name={vehicle.name}
+      iconUrl={vehicle.iconUrl}
+      iconUrlLight={vehicle.iconUrlLight}
+      value={formatNumber(vehicle.kills)}
+      barPct={vehicle.barPct}
+      isCompact={isCompact}
+      stats={[
+        { label: 'KPM', value: vehicle.killsPerMinute.toFixed(2) },
+        { label: 'DEST', value: formatNumber(vehicle.destroyed) },
+        { label: 'TIME', value: formatDuration(vehicle.secondsIn) },
+      ]}
+    />
   );
 }
 
@@ -519,6 +231,36 @@ function AssignmentTask({ task }) {
   );
 }
 
+/**
+ * Battlelog stamped a small expansion mark in the corner of every DLC assignment tile. These are
+ * the game's own 17px icons, committed alongside the badges, and they carry their own colour --
+ * hence no per-expansion palette here.
+ */
+const EXPANSIONS = {
+  'China Rising': 'china-rising',
+  'Second Assault': 'second-assault',
+  'Naval Strike': 'naval-strike',
+  "Dragon's Teeth": 'dragons-teeth',
+  'Final Stand': 'final-stand',
+};
+
+function ExpansionIcon({ expansion, className, decorative = false }) {
+  const slug = EXPANSIONS[expansion];
+  if (!slug) return null;
+
+  return (
+    <img
+      src={`/battlefield4/dlc/${slug}.png`}
+      // Drawn at its native 17px, so it stays as crisp as it was in Battlelog.
+      width={17}
+      height={17}
+      className={className}
+      alt={decorative ? '' : expansion}
+      title={decorative ? undefined : expansion}
+    />
+  );
+}
+
 /** Overall progress across an assignment's tasks, for the sliver under each tile. */
 function assignmentPct(assignment) {
   if (assignment.done) return 100;
@@ -556,6 +298,8 @@ function AssignmentTile({ assignment, selected, onSelect, order }) {
         }`}
       </span>
 
+      <ExpansionIcon expansion={assignment.expansion} className={styles.tileExpansion} />
+
       <span className={styles.tileTrack} aria-hidden="true">
         <span
           className={`${styles.barFill}${assignment.done ? ` ${styles.barFillDone}` : ''}`}
@@ -590,6 +334,16 @@ function AssignmentDetail({ assignment, onClose, order }) {
               <span className={styles.tierTag} data-tier={assignment.group.toLowerCase()}>
                 {assignment.group.toUpperCase()}
               </span>
+              {assignment.expansion && (
+                <span className={styles.expansionTag}>
+                  <ExpansionIcon
+                    expansion={assignment.expansion}
+                    className={styles.expansionTagIcon}
+                    decorative
+                  />
+                  {assignment.expansion.toUpperCase()}
+                </span>
+              )}
               <span className={assignment.done ? styles.doneTag : styles.pendingTag}>
                 {assignment.done ? '✔ DONE' : 'IN PROGRESS'}
               </span>
@@ -788,7 +542,7 @@ export default function Battlefield4() {
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> WEAPONS
         </h2>
-        <EquipmentSection
+        <StatSection
           items={weapons}
           filters={weaponCategories}
           filterKey="category"
@@ -803,7 +557,7 @@ export default function Battlefield4() {
         <h2 className={styles.sectionTitle}>
           <span className={styles.sectionIcon}>&gt;</span> VEHICLES
         </h2>
-        <EquipmentSection
+        <StatSection
           items={vehicles}
           filters={vehicleFamilies}
           filterKey="family"

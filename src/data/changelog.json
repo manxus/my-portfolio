@@ -1,6 +1,64 @@
 {
   "changelog": [
     {
+      "version": "1.6.7",
+      "date": "2026-08-22",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Team Fortress 2 career record — all nine classes ranked by kills with damage, damage-per-minute, time in class and share of that time; a 12-cell career grid over 4,019 kills and 780,136 damage; the class specialities only one or two classes ever move (28,499 health healed, 434 headshots, 281 backstabs, 10 ÜberCharges); and Mann vs Machine at 1,539 robots and 10,617 credits"
+        },
+        {
+          "type": "added",
+          "text": "PAYDAY 2 CRIME.NET record — level 100 with 693 of 964 heists completed at 71.9%, $1.2M offshore, 66 weapons ranked by kills with accuracy and shots, 49 enemy types over 67,588 kills, the spread across all seven difficulty tiers, and 30 melee weapons and throwables"
+        },
+        {
+          "type": "added",
+          "text": "Satisfactory pioneer record — 111.3km of conveyor belt, 61,832 foundations (about 396 hectares paved), 18.5km of pipeline and 14.1km of railway, 27 milestones broken down by tier, 52 alternate recipes, and the FICSIT anomalies down to 304 coffees and two tamed lizard doggos"
+        },
+        {
+          "type": "added",
+          "text": "Deep Rock Galactic mission log — 201 missions and 196 milestones, 39,195 weakspots hit, 65 dreadnaughts and 1,535 lootbugs, hazard no-fail streaks, and the Rock and Stone counters including 76 jukebox songs and 4,603 seconds spent dancing"
+        },
+        {
+          "type": "added",
+          "text": "Build-time sync scripts and GitHub workflows for all four games, staggered through Monday morning so they never contend for the Steam API key, plus a shared helper module the four scripts read Steam through"
+        },
+        {
+          "type": "added",
+          "text": "RuneScape quest log enriched from the RuneScape Wiki, with a local cache so repeat syncs only fetch titles it has not seen, plus free-to-play and members icons"
+        },
+        {
+          "type": "added",
+          "text": "Counter-Strike 2 map icons — each map borrows its weapon collection’s emblem, which covers retired maps like Cobblestone and St. Marc that the game’s shipped set icons leave blank; 20 of the 21 tracked maps resolve"
+        },
+        {
+          "type": "added",
+          "text": "Battlefield 4 assignments tagged by paid expansion, with the DLC badge art for China Rising, Second Assault, Naval Strike, Dragon’s Teeth and Final Stand"
+        },
+        {
+          "type": "changed",
+          "text": "Games page — seven tabs now come from a single registry and load on demand, so opening it no longer downloads every game’s stats at once"
+        },
+        {
+          "type": "changed",
+          "text": "Battlefield 4, Counter-Strike 2 and RuneScape share one game-page toolkit — the container-width layout hook, number formatting, filter chips, stat rows and record grids live in one place instead of a copy per page"
+        },
+        {
+          "type": "fixed",
+          "text": "Small caption text under every figure was drawn in a colour barely above its background (about 2:1 against a 4.5:1 readable floor) at 8px — the labels now use the supporting text colour and a larger size across all seven game pages, and the tab bar and active filter chips were corrected the same way"
+        },
+        {
+          "type": "fixed",
+          "text": "Record grids whose last row did not fill the width showed a bare block of the panel’s gap colour where the missing cells were"
+        },
+        {
+          "type": "fixed",
+          "text": "Main menu no longer scrolls independently of the page beside it — the split view had two nested scrollbars, and reaching the end of the inner one carried on scrolling the outer one past the content"
+        }
+      ]
+    },
+    {
       "version": "1.6.6",
       "date": "2026-08-19",
       "entries": [

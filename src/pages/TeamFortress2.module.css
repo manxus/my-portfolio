@@ -1,0 +1,19 @@
+/* Team Fortress's palette is scoped to this page so the game look never leaks into the site theme.
+   Structure comes from the shared game-page module; only the signal colours are local. RED team's
+   red rather than another amber, so the tab reads as a different game at a glance. */
+.container {
+  composes: container from '../components/GameStats/gamePage.module.css';
+
+  /* A touch brighter than RED team's own #cf4d3f, which came in at 4.4:1 against the page -- just
+     under the readable floor for the small mono captions drawn in it. */
+  --game-signal: #d9594a;
+  --game-signal-dim: #9b382d;
+  --game-done: #4ad14a;
+}
+
+:global([data-theme='light']) .container {
+  /* #cf4d3f fails contrast on a light face. */
+  --game-signal: #96271b;
+  --game-signal-dim: #741c13;
+  --game-done: #1f7a1f;
+}

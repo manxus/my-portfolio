@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T20:37:36.803Z",
+  "fetchedAt": "2026-08-22T12:51:14.427Z",
   "sources": [
     {
       "kind": "spreadsheet",
@@ -59,6 +59,7 @@
       "id": "tombstone-actual",
       "name": "Tombstone Actual",
       "group": "Campaign",
+      "expansion": null,
       "done": true,
       "premium": false,
       "unlockedBy": [],
@@ -79,6 +80,7 @@
       "id": "fang-of-the-underworld",
       "name": "Fang Of The Underworld",
       "group": "Campaign",
+      "expansion": null,
       "done": true,
       "premium": false,
       "unlockedBy": [],
@@ -99,6 +101,7 @@
       "id": "a-trapped-wolf-will",
       "name": "A Trapped Wolf Will",
       "group": "Campaign",
+      "expansion": null,
       "done": true,
       "premium": false,
       "unlockedBy": [],
@@ -119,6 +122,7 @@
       "id": "to-valhalla",
       "name": "To Valhalla",
       "group": "Campaign",
+      "expansion": null,
       "done": true,
       "premium": false,
       "unlockedBy": [],
@@ -139,6 +143,7 @@
       "id": "peace-maker",
       "name": "Peace Maker",
       "group": "Campaign",
+      "expansion": null,
       "done": true,
       "premium": false,
       "unlockedBy": [],
@@ -159,6 +164,7 @@
       "id": "final-duty",
       "name": "Final Duty",
       "group": "Campaign",
+      "expansion": null,
       "done": true,
       "premium": false,
       "unlockedBy": [],
@@ -181,6 +187,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 10"
       ],
@@ -210,6 +217,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 10"
       ],
@@ -239,6 +247,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 10"
       ],
@@ -268,6 +277,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 10"
       ],
@@ -297,6 +307,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 10"
       ],
@@ -326,6 +337,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 10"
       ],
@@ -355,6 +367,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 10"
       ],
@@ -384,6 +397,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -413,6 +427,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -442,6 +457,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -471,6 +487,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -499,6 +516,7 @@
       "group": "Bronze",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -527,6 +545,7 @@
       "group": "Bronze",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -555,6 +574,7 @@
       "group": "Bronze",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -584,6 +604,7 @@
       "group": "Bronze",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20"
       ],
@@ -613,6 +634,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -631,6 +653,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -655,6 +678,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -685,6 +709,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -709,6 +734,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -733,6 +759,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -757,6 +784,7 @@
       "group": "Bronze",
       "done": false,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -775,6 +803,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -799,6 +828,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -835,6 +865,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -859,6 +890,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -883,6 +915,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -919,6 +952,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -937,6 +971,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -961,6 +996,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -979,6 +1015,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1003,6 +1040,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1027,6 +1065,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1051,6 +1090,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1081,6 +1121,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1111,6 +1152,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1141,6 +1183,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1171,6 +1214,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1201,6 +1245,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1225,6 +1270,7 @@
       "group": "Bronze",
       "done": true,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1249,6 +1295,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Assault Basic"
       ],
@@ -1278,6 +1325,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Engineer Basic"
       ],
@@ -1307,6 +1355,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Recon Basic"
       ],
@@ -1336,6 +1385,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Support Basic"
       ],
@@ -1365,6 +1415,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Land Vehicle Basic"
       ],
@@ -1393,6 +1444,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Aircraft Basic"
       ],
@@ -1421,6 +1473,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Watercraft Basic"
       ],
@@ -1449,6 +1502,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Carbine Basic"
       ],
@@ -1477,6 +1531,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete PDW Basic"
       ],
@@ -1505,6 +1560,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Shotgun Basic"
       ],
@@ -1533,6 +1589,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 50"
       ],
@@ -1567,6 +1624,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 50"
       ],
@@ -1595,6 +1653,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 50"
       ],
@@ -1629,6 +1688,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 50"
       ],
@@ -1657,6 +1717,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Blade Runner"
       ],
@@ -1686,6 +1747,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1704,6 +1766,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1722,6 +1785,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1764,6 +1828,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1788,6 +1853,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1824,6 +1890,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1854,6 +1921,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1872,6 +1940,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1896,6 +1965,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1920,6 +1990,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1956,6 +2027,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -1974,6 +2046,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2004,6 +2077,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2028,6 +2102,7 @@
       "group": "Silver",
       "done": true,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2052,6 +2127,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2076,6 +2152,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2100,6 +2177,7 @@
       "group": "Silver",
       "done": false,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2124,6 +2202,7 @@
       "group": "Gold",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Assault Veteran"
       ],
@@ -2158,6 +2237,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Engineer Veteran"
       ],
@@ -2192,6 +2272,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Recon Veteran"
       ],
@@ -2226,6 +2307,7 @@
       "group": "Gold",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Support Veteran"
       ],
@@ -2260,6 +2342,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete By My Command"
       ],
@@ -2294,6 +2377,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2328,6 +2412,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2362,6 +2447,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2396,6 +2482,7 @@
       "group": "Gold",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2424,6 +2511,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2458,6 +2546,7 @@
       "group": "Gold",
       "done": true,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2492,6 +2581,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2526,6 +2616,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2560,6 +2651,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Rank 100"
       ],
@@ -2594,6 +2686,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [
         "Complete Stealth Assassin"
       ],
@@ -2616,6 +2709,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": "Second Assault",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2646,6 +2740,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": "China Rising",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2676,6 +2771,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2700,6 +2796,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": "Naval Strike",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2718,6 +2815,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": "Dragon's Teeth",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2742,6 +2840,7 @@
       "group": "Gold",
       "done": false,
       "premium": false,
+      "expansion": "Final Stand",
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -2784,6 +2883,7 @@
       "group": "Premium",
       "done": false,
       "premium": true,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20",
         "Complete Assault Expert Assignment",
@@ -2832,6 +2932,7 @@
       "group": "Premium",
       "done": false,
       "premium": true,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20",
         "Complete Engineer Expert Assignment",
@@ -2880,6 +2981,7 @@
       "group": "Premium",
       "done": false,
       "premium": true,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20",
         "Complete Support Expert Assignment",
@@ -2928,6 +3030,7 @@
       "group": "Premium",
       "done": false,
       "premium": true,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20",
         "Complete Recon Expert Assignment",
@@ -2976,6 +3079,7 @@
       "group": "Premium",
       "done": false,
       "premium": true,
+      "expansion": null,
       "unlockedBy": [
         "Rank 20",
         "Complete Expert Assignment",
@@ -3024,6 +3128,7 @@
       "group": "Phantom",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -3054,6 +3159,7 @@
       "group": "Phantom",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -3084,6 +3190,7 @@
       "group": "Phantom",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [],
       "reward": [],
       "tasks": [
@@ -3114,6 +3221,7 @@
       "group": "Phantom",
       "done": false,
       "premium": false,
+      "expansion": null,
       "unlockedBy": [],
       "reward": [],
       "tasks": [

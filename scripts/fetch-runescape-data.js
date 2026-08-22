@@ -5,6 +5,7 @@
  *   node scripts/fetch-runescape-data.js                # normal sync
  *   node scripts/fetch-runescape-data.js --icons        # one-time: download the 29 wiki skill icons
  *   node scripts/fetch-runescape-data.js --no-avatar    # skip the Jagex character render
+ *   node scripts/fetch-runescape-data.js --no-wiki      # skip RuneScape Wiki quest enrichment
  *   node scripts/fetch-runescape-data.js --force        # re-download icons that already exist
  *   node scripts/fetch-runescape-data.js --user=Zezima  # override the account
  *
@@ -15,6 +16,9 @@
  *   src/data/runescape.json
  *   public/runescape/icons/<slug>.png   (--icons only, committed once)
  *   public/runescape/character.png      (only when Jagex has a real render cached)
+ *
+ * Cache: scripts/.runescape-cache/quests-wiki.json (gitignored) -- quest metadata is static, so
+ *        only titles absent from the cache are refetched. --force refetches everything.
  *
  * The official hiscores 404 for accounts outside the ranked population, so RuneMetrics is the
  * source of truth. It has no CORS headers and sits behind Cloudflare, hence the build-time
@@ -29,11 +33,19 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '../src/data/runescape.json');
 const PUBLIC_DIR = resolve(__dirname, '../public/runescape');
 const ICONS_DIR = join(PUBLIC_DIR, 'icons');
+const CACHE_DIR = resolve(__dirname, '.runescape-cache');
+const WIKI_CACHE_PATH = join(CACHE_DIR, 'quests-wiki.json');
 
 const PROFILE_API = 'https://apps.runescape.com/runemetrics/profile/profile';
 const QUESTS_API = 'https://apps.runescape.com/runemetrics/quests';
 const AVATAR_BASE = 'https://secure.runescape.com/m=avatar-rs';
 const WIKI_IMAGES = 'https://runescape.wiki/images';
+const WIKI_API = 'https://runescape.wiki/api.php';
+const WIKI_ARTICLE = 'https://runescape.wiki/w';
+
+/** MediaWiki caps anonymous multi-title queries at 50, so 363 quests is 8 requests. */
+const WIKI_BATCH_SIZE = 50;
+const WIKI_BATCH_DELAY_MS = 300;
 
 // Jagex and the wiki both sit behind Cloudflare and 403 generic fetchers.
 const UA =
@@ -41,6 +53,7 @@ const UA =
 
 const ICONS_ONLY = process.argv.includes('--icons');
 const NO_AVATAR = process.argv.includes('--no-avatar');
+const NO_WIKI = process.argv.includes('--no-wiki');
 const FORCE = process.argv.includes('--force');
 const USER_FLAG = process.argv.find((a) => a.startsWith('--user='));
 const RS_USER = (USER_FLAG ? USER_FLAG.slice('--user='.length) : process.env.RS_USER) || 'Manxus';
@@ -155,30 +168,45 @@ async function fetchAvatar(user, filename, variant) {
   return `/runescape/${filename}`;
 }
 
+/** Membership markers for the quest log. Wiki filenames differ from the `<Name>-icon.png` pattern. */
+const EXTRA_ICONS = [
+  { slug: 'members', file: 'P2P_icon.png' },
+  { slug: 'free-to-play', file: 'F2P_icon.png' },
+];
+
 async function downloadIcons() {
   mkdirSync(ICONS_DIR, { recursive: true });
   let downloaded = 0;
   let skipped = 0;
 
-  for (const skill of SKILLS) {
-    const target = join(ICONS_DIR, `${slugOf(skill.name)}.png`);
+  const wanted = [
+    ...SKILLS.map((skill) => ({
+      slug: slugOf(skill.name),
+      file: `${skill.name}-icon.png`,
+      label: skill.name,
+    })),
+    ...EXTRA_ICONS.map((icon) => ({ ...icon, label: icon.slug })),
+  ];
+
+  for (const icon of wanted) {
+    const target = join(ICONS_DIR, `${icon.slug}.png`);
     if (existsSync(target) && !FORCE) {
       skipped += 1;
       continue;
     }
 
-    const url = `${WIKI_IMAGES}/${skill.name}-icon.png`;
+    const url = `${WIKI_IMAGES}/${icon.file}`;
     const res = await fetch(url, { headers: { 'User-Agent': UA } });
     if (!res.ok) {
-      throw new Error(`Icon download failed for ${skill.name} (HTTP ${res.status}) -- ${url}`);
+      throw new Error(`Icon download failed for ${icon.label} (HTTP ${res.status}) -- ${url}`);
     }
     writeFileSync(target, Buffer.from(await res.arrayBuffer()));
     downloaded += 1;
-    console.log(`  ${skill.name.padEnd(14)} ok`);
+    console.log(`  ${icon.label.padEnd(14)} ok`);
     await new Promise((r) => setTimeout(r, 250));
   }
 
-  console.log(`Icons: ${downloaded} downloaded, ${skipped} already present (${SKILLS.length} total).`);
+  console.log(`Icons: ${downloaded} downloaded, ${skipped} already present (${wanted.length} total).`);
 }
 
 function deriveSkills(skillvalues) {
@@ -214,7 +242,147 @@ function deriveSkills(skillvalues) {
   });
 }
 
-function deriveQuests(payload) {
+const MONTHS = [
+  'january', 'february', 'march', 'april', 'may', 'june',
+  'july', 'august', 'september', 'october', 'november', 'december',
+];
+
+/** Wiki release dates look like "[[15 May]] [[2007]]". Returns ISO date or null. */
+function parseWikiDate(raw) {
+  const plain = String(raw ?? '').replace(/\[\[|\]\]/g, ' ').replace(/\s+/g, ' ').trim();
+  const match = plain.match(/(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})/);
+  if (!match) return null;
+  const month = MONTHS.indexOf(match[2].toLowerCase());
+  if (month < 0) return null;
+  const day = Number(match[1]);
+  const year = Number(match[3]);
+  return `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+}
+
+/** The wiki uses Yes/yes/No/no inconsistently across templates. */
+function wikiBool(raw) {
+  const value = String(raw ?? '').trim().toLowerCase();
+  if (value === 'yes') return true;
+  if (value === 'no') return false;
+  return null;
+}
+
+/** "none" is the wiki's null for series and combat level. */
+function wikiOptional(raw) {
+  const value = String(raw ?? '').trim();
+  return !value || value.toLowerCase() === 'none' ? null : value;
+}
+
+function titleCase(raw) {
+  const value = wikiOptional(raw);
+  if (!value) return null;
+  return value.replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function wikiUrlFor(title) {
+  return `${WIKI_ARTICLE}/${encodeURIComponent(String(title).replace(/ /g, '_'))}`;
+}
+
+/**
+ * Quest, Miniquest and Subquest infoboxes share one field shape, so a single parser covers
+ * all three. Returns a flat key/value map of the first matching infobox.
+ */
+function parseInfobox(wikitext) {
+  const match = String(wikitext ?? '').match(/\{\{Infobox (?:Quest|Miniquest|Subquest)([\s\S]*?)\n\}\}/i);
+  if (!match) return null;
+
+  const fields = {};
+  for (const line of match[1].split(/\n\|/).slice(1)) {
+    const eq = line.indexOf('=');
+    if (eq < 0) continue;
+    const key = line.slice(0, eq).trim();
+    const value = line.slice(eq + 1).trim();
+    if (key && value) fields[key] = value;
+  }
+  return fields;
+}
+
+function shapeWikiQuest(fields, wikiTitle) {
+  const seriesIndex = Number(fields.series_nth);
+  const questNumber = Number(fields.number);
+
+  return {
+    wikiTitle,
+    wikiUrl: wikiUrlFor(wikiTitle),
+    series: wikiOptional(fields.main_series),
+    seriesIndex: Number.isFinite(seriesIndex) ? seriesIndex : null,
+    area: wikiOptional(fields.area),
+    combat: wikiOptional(fields.combat),
+    recommended: wikiBool(fields.recommended),
+    age: titleCase(fields.age),
+    releaseDate: parseWikiDate(fields.release),
+    releaseRaw: String(fields.release ?? '').replace(/\[\[|\]\]/g, '').trim() || null,
+    questNumber: Number.isFinite(questNumber) ? questNumber : null,
+    difficultyLabel: wikiOptional(fields.difficulty),
+  };
+}
+
+function readWikiCache() {
+  if (FORCE || !existsSync(WIKI_CACHE_PATH)) return {};
+  try {
+    return JSON.parse(readFileSync(WIKI_CACHE_PATH, 'utf8'));
+  } catch {
+    console.warn('Warning: wiki quest cache is unreadable, refetching.');
+    return {};
+  }
+}
+
+function writeWikiCache(cache) {
+  mkdirSync(CACHE_DIR, { recursive: true });
+  writeFileSync(WIKI_CACHE_PATH, `${JSON.stringify(cache, null, 2)}\n`);
+}
+
+/**
+ * Enriches quest titles with RuneScape Wiki infobox metadata, keyed by the ORIGINAL RuneMetrics
+ * title. The response's `normalized` and `redirects` arrays have to be replayed to map a requested
+ * title onto the page that actually answered — 10 of the 363 quests only resolve via a redirect.
+ */
+async function fetchQuestWiki(titles) {
+  const cache = readWikiCache();
+  const pending = titles.filter((t) => !(t in cache));
+
+  if (pending.length === 0) {
+    console.log(`Quest wiki: ${titles.length} titles served from cache.`);
+    return cache;
+  }
+
+  for (let i = 0; i < pending.length; i += WIKI_BATCH_SIZE) {
+    const chunk = pending.slice(i, i + WIKI_BATCH_SIZE);
+    const url =
+      `${WIKI_API}?action=query&prop=revisions&rvprop=content&rvslots=main&redirects=1` +
+      `&format=json&formatversion=2&titles=${encodeURIComponent(chunk.join('|'))}`;
+
+    const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+    if (!res.ok) throw new Error(`Wiki query failed (HTTP ${res.status})`);
+    const data = await res.json();
+    const query = data.query ?? {};
+
+    const normalized = new Map((query.normalized ?? []).map((n) => [n.from, n.to]));
+    const redirects = new Map((query.redirects ?? []).map((r) => [r.from, r.to]));
+    const pages = new Map((query.pages ?? []).filter((p) => !p.missing).map((p) => [p.title, p]));
+
+    for (const title of chunk) {
+      let resolved = normalized.get(title) ?? title;
+      resolved = redirects.get(resolved) ?? resolved;
+      const page = pages.get(resolved);
+      const fields = page ? parseInfobox(page.revisions?.[0]?.slots?.main?.content) : null;
+      // null is a real cached answer: this title has no parseable infobox, do not retry it.
+      cache[title] = fields ? shapeWikiQuest(fields, resolved) : null;
+    }
+
+    await new Promise((r) => setTimeout(r, WIKI_BATCH_DELAY_MS));
+  }
+
+  writeWikiCache(cache);
+  return cache;
+}
+
+function deriveQuests(payload, wikiByTitle = {}) {
   const quests = Array.isArray(payload?.quests) ? payload.quests : [];
   const isDone = (q) => q.status === 'COMPLETED';
 
@@ -235,6 +403,28 @@ function deriveQuests(payload) {
     });
   }
 
+  const difficultyLabels = new Map(QUEST_DIFFICULTIES.map((d) => [d.key, d.label]));
+
+  const items = quests.map((q) => {
+    const wiki = wikiByTitle[q.title] ?? null;
+    return {
+      title: q.title,
+      status: q.status,
+      difficulty: q.difficulty,
+      // The wiki label and the RuneMetrics code agree; the wiki also names code 250 as "Special".
+      difficultyLabel: difficultyLabels.get(q.difficulty) ?? wiki?.difficultyLabel ?? 'Other',
+      members: q.members === true,
+      questPoints: q.questPoints ?? 0,
+      eligible: q.userEligible === true,
+      series: wiki?.series ?? null,
+      seriesIndex: wiki?.seriesIndex ?? null,
+      area: wiki?.area ?? null,
+      combat: wiki?.combat ?? null,
+      releaseDate: wiki?.releaseDate ?? null,
+      wikiUrl: wiki?.wikiUrl ?? wikiUrlFor(q.title),
+    };
+  });
+
   return {
     points: quests.filter(isDone).reduce((sum, q) => sum + (q.questPoints ?? 0), 0),
     pointsTotal: quests.reduce((sum, q) => sum + (q.questPoints ?? 0), 0),
@@ -243,6 +433,7 @@ function deriveQuests(payload) {
     notStarted: quests.filter((q) => q.status === 'NOT_STARTED').length,
     total: quests.length,
     byDifficulty,
+    items,
   };
 }
 
@@ -290,7 +481,26 @@ async function main() {
   const [profile, questPayload] = await Promise.all([fetchProfile(RS_USER), fetchQuests(RS_USER)]);
 
   const skills = deriveSkills(profile.skillvalues);
-  const quests = deriveQuests(questPayload);
+
+  let wikiByTitle = {};
+  if (!NO_WIKI) {
+    const titles = (questPayload?.quests ?? []).map((q) => q.title);
+    try {
+      wikiByTitle = await fetchQuestWiki(titles);
+      const enriched = titles.filter((t) => wikiByTitle[t]).length;
+      const missing = titles.filter((t) => !wikiByTitle[t]);
+      console.log(
+        `Quest wiki: ${enriched}/${titles.length} enriched` +
+          (missing.length ? ` (no infobox: ${missing.join(', ')})` : ''),
+      );
+    } catch (err) {
+      // Enrichment is a bonus; never let the wiki block a sync.
+      console.warn(`Warning: wiki enrichment failed (${err.message}) -- continuing without it.`);
+      wikiByTitle = {};
+    }
+  }
+
+  const quests = deriveQuests(questPayload, wikiByTitle);
 
   console.log(
     `Profile: ${profile.name} -- combat ${profile.combatlevel}, total level ` +

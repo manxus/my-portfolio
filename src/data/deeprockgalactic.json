@@ -1,0 +1,247 @@
+{
+  "fetchedAt": "2026-08-21T11:47:33.983Z",
+  "profile": {
+    "steamId": "76561198063836659",
+    "personaName": "Manxus",
+    "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
+    "profileUrl": "https://steamcommunity.com/id/manxuss/",
+    "capsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/library_600x900_2x.jpg",
+    "libraryHours": 120.3
+  },
+  "summary": {
+    "missionsCompleted": 201,
+    "soloMissions": 34,
+    "hostedMissions": 132,
+    "milestones": 196,
+    "weakspotsHit": 39195,
+    "dreadnaughts": 65,
+    "promotions": 3,
+    "hoursPlayed": 120.3,
+    "hostedPct": 65.7,
+    "minutesPerMission": 35.9
+  },
+  "sections": [
+    {
+      "id": "missions",
+      "title": "MISSION RECORD",
+      "entries": [
+        {
+          "key": "MissionsCompleted",
+          "label": "Missions completed",
+          "value": 201,
+          "kind": "count"
+        },
+        {
+          "key": "HostedMissionsCompleted",
+          "label": "Hosted missions",
+          "value": 132,
+          "kind": "count"
+        },
+        {
+          "key": "SoloMissionsCompleted",
+          "label": "Solo missions",
+          "value": 34,
+          "kind": "count"
+        },
+        {
+          "key": "MilestonesCompleted",
+          "label": "Milestones completed",
+          "value": 196,
+          "kind": "count"
+        },
+        {
+          "key": "LowerRankMissionsCompleted",
+          "label": "Missions carrying rookies",
+          "value": 74,
+          "kind": "count"
+        },
+        {
+          "key": "MissionsPlayedWithoutKicking",
+          "label": "Missions without a kick",
+          "value": 2,
+          "kind": "count"
+        },
+        {
+          "key": "DeepDivesCompleted",
+          "label": "Deep Dives completed",
+          "value": 3,
+          "kind": "count"
+        },
+        {
+          "key": "SupplyDropsCalled",
+          "label": "Supply drops called",
+          "value": 450,
+          "kind": "count"
+        },
+        {
+          "key": "LongestMissionTime",
+          "label": "Longest mission",
+          "value": 2351,
+          "kind": "duration"
+        },
+        {
+          "key": "MutatorsPlayed",
+          "label": "Mutators played",
+          "value": 56,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "combat",
+      "title": "COMBAT",
+      "entries": [
+        {
+          "key": "AmountOfWeakspotsHit",
+          "label": "Weakspots hit",
+          "value": 39195,
+          "kind": "count"
+        },
+        {
+          "key": "KilledDreadnaughts",
+          "label": "Dreadnaughts killed",
+          "value": 65,
+          "kind": "count"
+        },
+        {
+          "key": "BulkDetonatorsKilled",
+          "label": "Bulk detonators killed",
+          "value": 30,
+          "kind": "count"
+        },
+        {
+          "key": "LootBugsKilled",
+          "label": "Lootbugs killed",
+          "value": 1535,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "hazard",
+      "title": "HAZARD STREAKS",
+      "entries": [
+        {
+          "key": "Haz3NoFailStreak",
+          "label": "Hazard 3 no-fail streak",
+          "value": 1,
+          "kind": "count"
+        },
+        {
+          "key": "Haz4NoFailStreak",
+          "label": "Hazard 4 no-fail streak",
+          "value": 12,
+          "kind": "count"
+        },
+        {
+          "key": "Haz5NoFailStreak",
+          "label": "Hazard 5 no-fail streak",
+          "value": 14,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "salvage",
+      "title": "SALVAGE",
+      "entries": [
+        {
+          "key": "BittergemsCollected",
+          "label": "Bittergems",
+          "value": 5,
+          "kind": "count"
+        },
+        {
+          "key": "ErrorCubesCollected",
+          "label": "Error cubes",
+          "value": 9,
+          "kind": "count"
+        },
+        {
+          "key": "CompressedGoldCollected",
+          "label": "Compressed gold",
+          "value": 23,
+          "kind": "count"
+        },
+        {
+          "key": "PerksUnlocked",
+          "label": "Perks unlocked",
+          "value": 78,
+          "kind": "count"
+        },
+        {
+          "key": "NumberOfPromotedClasses",
+          "label": "Classes promoted",
+          "value": 3,
+          "kind": "count"
+        },
+        {
+          "key": "MiniMulesRepaired",
+          "label": "Mini-M.U.L.E.s repaired",
+          "value": 55,
+          "kind": "count"
+        },
+        {
+          "key": "BetCRepaired",
+          "label": "Bet-C repaired",
+          "value": 12,
+          "kind": "count"
+        }
+      ]
+    },
+    {
+      "id": "rockandstone",
+      "title": "ROCK AND STONE",
+      "entries": [
+        {
+          "key": "TotalDancingTime",
+          "label": "Time spent dancing",
+          "value": 4603,
+          "kind": "duration"
+        },
+        {
+          "key": "SongsPlayed",
+          "label": "Jukebox songs played",
+          "value": 76,
+          "kind": "count"
+        },
+        {
+          "key": "BarRoundsOrdered",
+          "label": "Rounds bought at the bar",
+          "value": 41,
+          "kind": "count"
+        },
+        {
+          "key": "MoustachesBought",
+          "label": "Moustaches bought",
+          "value": 9,
+          "kind": "count"
+        },
+        {
+          "key": "HighestBarrelScorePer100Barrels",
+          "label": "Best barrel-kicking score",
+          "value": 3045,
+          "kind": "count"
+        },
+        {
+          "key": "HighestHoopGameStreak",
+          "label": "Best hoop streak",
+          "value": 32,
+          "kind": "count"
+        },
+        {
+          "key": "LongestMollyRideTime",
+          "label": "Longest Molly ride",
+          "value": 30,
+          "kind": "duration"
+        },
+        {
+          "key": "LongestSilicateRideTime",
+          "label": "Longest Silicate ride",
+          "value": 72,
+          "kind": "duration"
+        }
+      ]
+    }
+  ]
+}

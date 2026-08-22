@@ -1,0 +1,23 @@
+/* PAYDAY's palette is scoped to this page so the game look never leaks into the site theme.
+   Structure comes from the shared game-page module; only the signal colours are local. CRIME.NET's
+   green, which also keeps this tab distinct from the four warm-toned shooter pages. */
+.container {
+  composes: container from '../components/GameStats/gamePage.module.css';
+
+  --game-signal: #6cab3e;
+  --game-signal-dim: #4a7628;
+  --game-done: #4ad14a;
+}
+
+:global([data-theme='light']) .container {
+  /* #6cab3e fails contrast on a light face. */
+  --game-signal: #3d6b1a;
+  --game-signal-dim: #2d5012;
+  --game-done: #1f7a1f;
+}
+
+/* The stat notes name internal ids; a monospace run keeps them from reading as prose. */
+.container code {
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+}

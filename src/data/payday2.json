@@ -1,0 +1,1593 @@
+{
+  "fetchedAt": "2026-08-22T18:56:36.553Z",
+  "profile": {
+    "steamId": "76561198063836659",
+    "personaName": "Manxus",
+    "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
+    "profileUrl": "https://steamcommunity.com/id/manxuss/",
+    "capsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/library_600x900_2x.jpg",
+    "libraryHours": 554.5
+  },
+  "summary": {
+    "level": 100,
+    "cash": 1203210,
+    "heistsSucceeded": 693,
+    "heistsFailed": 271,
+    "heistsPlayed": 964,
+    "successPct": 71.9,
+    "enemyKills": 67588,
+    "accuracy": 35.9,
+    "hoursPlayed": 554.5,
+    "killsPerHeist": 70.1
+  },
+  "record": [
+    {
+      "key": "level",
+      "label": "Infamy level",
+      "value": 100
+    },
+    {
+      "key": "cash",
+      "label": "Offshore cash",
+      "value": 1203210
+    },
+    {
+      "key": "success",
+      "label": "Heists completed",
+      "value": 693
+    },
+    {
+      "key": "failed",
+      "label": "Heists failed",
+      "value": 271
+    },
+    {
+      "key": "kills",
+      "label": "Enemies killed",
+      "value": 67588
+    },
+    {
+      "key": "shots",
+      "label": "Shots fired",
+      "value": 370497
+    },
+    {
+      "key": "hits",
+      "label": "Shots hit",
+      "value": 133076
+    },
+    {
+      "key": "hostages",
+      "label": "Hostages rescued",
+      "value": 116
+    }
+  ],
+  "weapons": [
+    {
+      "slug": "x_mac10",
+      "name": "Akimbo MAC10",
+      "value": 13380,
+      "shots": 136119,
+      "hits": 39716,
+      "splash": false,
+      "used": 119,
+      "accuracy": 29.2,
+      "akimbo": true,
+      "barPct": 100,
+      "kills": 13380
+    },
+    {
+      "slug": "x_b92fs",
+      "name": "Akimbo B92FS",
+      "value": 13277,
+      "shots": 70065,
+      "hits": 24556,
+      "splash": false,
+      "used": 78,
+      "accuracy": 35,
+      "akimbo": true,
+      "barPct": 99,
+      "kills": 13277
+    },
+    {
+      "slug": "baka",
+      "name": "Baka",
+      "value": 4753,
+      "shots": 63622,
+      "hits": 21518,
+      "splash": false,
+      "used": 115,
+      "accuracy": 33.8,
+      "akimbo": false,
+      "barPct": 36,
+      "kills": 4753
+    },
+    {
+      "slug": "x_basset",
+      "name": "Akimbo Basset",
+      "value": 3126,
+      "shots": 14202,
+      "hits": 12330,
+      "splash": false,
+      "used": 11,
+      "accuracy": 86.8,
+      "akimbo": true,
+      "barPct": 23,
+      "kills": 3126
+    },
+    {
+      "slug": "ppk",
+      "name": "PPK",
+      "value": 2597,
+      "shots": 3250,
+      "hits": 1039,
+      "splash": false,
+      "used": 320,
+      "accuracy": 32,
+      "akimbo": false,
+      "barPct": 19,
+      "kills": 2597
+    },
+    {
+      "slug": "g36",
+      "name": "G36",
+      "value": 2362,
+      "shots": 4717,
+      "hits": 1596,
+      "splash": false,
+      "used": 123,
+      "accuracy": 33.8,
+      "akimbo": false,
+      "barPct": 18,
+      "kills": 2362
+    },
+    {
+      "slug": "akm",
+      "name": "AKM",
+      "value": 2121,
+      "shots": 8988,
+      "hits": 4156,
+      "splash": false,
+      "used": 21,
+      "accuracy": 46.2,
+      "akimbo": false,
+      "barPct": 16,
+      "kills": 2121
+    },
+    {
+      "slug": "schakal",
+      "name": "Schakal",
+      "value": 1918,
+      "shots": 9173,
+      "hits": 3601,
+      "splash": false,
+      "used": 23,
+      "accuracy": 39.3,
+      "akimbo": false,
+      "barPct": 14,
+      "kills": 1918
+    },
+    {
+      "slug": "new_m14",
+      "name": "M14",
+      "value": 1639,
+      "shots": 2932,
+      "hits": 1737,
+      "splash": false,
+      "used": 28,
+      "accuracy": 59.2,
+      "akimbo": false,
+      "barPct": 12,
+      "kills": 1639
+    },
+    {
+      "slug": "x_akmsu",
+      "name": "Akimbo Akmsu",
+      "value": 1448,
+      "shots": 8903,
+      "hits": 3046,
+      "splash": false,
+      "used": 12,
+      "accuracy": 34.2,
+      "akimbo": true,
+      "barPct": 11,
+      "kills": 1448
+    },
+    {
+      "slug": "m1928",
+      "name": "M1928",
+      "value": 1383,
+      "shots": 5467,
+      "hits": 1523,
+      "splash": false,
+      "used": 34,
+      "accuracy": 27.9,
+      "akimbo": false,
+      "barPct": 10,
+      "kills": 1383
+    },
+    {
+      "slug": "mp7",
+      "name": "MP7",
+      "value": 1090,
+      "shots": 8169,
+      "hits": 2544,
+      "splash": false,
+      "used": 14,
+      "accuracy": 31.1,
+      "akimbo": false,
+      "barPct": 8,
+      "kills": 1090
+    },
+    {
+      "slug": "r93",
+      "name": "R93",
+      "value": 819,
+      "shots": 1115,
+      "hits": 1001,
+      "splash": false,
+      "used": 14,
+      "accuracy": 89.8,
+      "akimbo": false,
+      "barPct": 6,
+      "kills": 819
+    },
+    {
+      "slug": "judge",
+      "name": "Judge",
+      "value": 807,
+      "shots": 1050,
+      "hits": 651,
+      "splash": false,
+      "used": 37,
+      "accuracy": 62,
+      "akimbo": false,
+      "barPct": 6,
+      "kills": 807
+    },
+    {
+      "slug": "g3",
+      "name": "G3",
+      "value": 746,
+      "shots": 819,
+      "hits": 319,
+      "splash": false,
+      "used": 1,
+      "accuracy": 38.9,
+      "akimbo": false,
+      "barPct": 6,
+      "kills": 746
+    },
+    {
+      "slug": "usp",
+      "name": "USP",
+      "value": 688,
+      "shots": 946,
+      "hits": 453,
+      "splash": false,
+      "used": 4,
+      "accuracy": 47.9,
+      "akimbo": false,
+      "barPct": 5,
+      "kills": 688
+    },
+    {
+      "slug": "b92fs",
+      "name": "B92FS",
+      "value": 687,
+      "shots": 731,
+      "hits": 236,
+      "splash": false,
+      "used": 44,
+      "accuracy": 32.3,
+      "akimbo": false,
+      "barPct": 5,
+      "kills": 687
+    },
+    {
+      "slug": "asval",
+      "name": "Asval",
+      "value": 642,
+      "shots": 1428,
+      "hits": 332,
+      "splash": false,
+      "used": 18,
+      "accuracy": 23.2,
+      "akimbo": false,
+      "barPct": 5,
+      "kills": 642
+    },
+    {
+      "slug": "akm_gold",
+      "name": "AKM Gold",
+      "value": 637,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 3,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 5,
+      "kills": 637
+    },
+    {
+      "slug": "x_sko12",
+      "name": "Akimbo SKO12",
+      "value": 633,
+      "shots": 2399,
+      "hits": 1387,
+      "splash": false,
+      "used": 6,
+      "accuracy": 57.8,
+      "akimbo": true,
+      "barPct": 5,
+      "kills": 633
+    },
+    {
+      "slug": "s552",
+      "name": "S552",
+      "value": 612,
+      "shots": 4108,
+      "hits": 1547,
+      "splash": false,
+      "used": 34,
+      "accuracy": 37.7,
+      "akimbo": false,
+      "barPct": 5,
+      "kills": 612
+    },
+    {
+      "slug": "deagle",
+      "name": "Deagle",
+      "value": 602,
+      "shots": 1497,
+      "hits": 843,
+      "splash": false,
+      "used": 46,
+      "accuracy": 56.3,
+      "akimbo": false,
+      "barPct": 4,
+      "kills": 602
+    },
+    {
+      "slug": "corgi",
+      "name": "Corgi",
+      "value": 579,
+      "shots": 4414,
+      "hits": 1310,
+      "splash": false,
+      "used": 2,
+      "accuracy": 29.7,
+      "akimbo": false,
+      "barPct": 4,
+      "kills": 579
+    },
+    {
+      "slug": "par",
+      "name": "PAR",
+      "value": 541,
+      "shots": 5581,
+      "hits": 1666,
+      "splash": false,
+      "used": 2,
+      "accuracy": 29.9,
+      "akimbo": false,
+      "barPct": 4,
+      "kills": 541
+    },
+    {
+      "slug": "glock_17",
+      "name": "Glock 17",
+      "value": 514,
+      "shots": 79,
+      "hits": 29,
+      "splash": false,
+      "used": 115,
+      "accuracy": 36.7,
+      "akimbo": false,
+      "barPct": 4,
+      "kills": 514
+    },
+    {
+      "slug": "m95",
+      "name": "M95",
+      "value": 385,
+      "shots": 492,
+      "hits": 434,
+      "splash": false,
+      "used": 12,
+      "accuracy": 88.2,
+      "akimbo": false,
+      "barPct": 3,
+      "kills": 385
+    },
+    {
+      "slug": "sko12",
+      "name": "SKO12",
+      "value": 379,
+      "shots": 971,
+      "hits": 903,
+      "splash": false,
+      "used": 1,
+      "accuracy": 93,
+      "akimbo": false,
+      "barPct": 3,
+      "kills": 379
+    },
+    {
+      "slug": "serbu",
+      "name": "Serbu",
+      "value": 364,
+      "shots": 648,
+      "hits": 475,
+      "splash": false,
+      "used": 25,
+      "accuracy": 73.3,
+      "akimbo": false,
+      "barPct": 3,
+      "kills": 364
+    },
+    {
+      "slug": "msr",
+      "name": "MSR",
+      "value": 350,
+      "shots": 329,
+      "hits": 303,
+      "splash": false,
+      "used": 11,
+      "accuracy": 92.1,
+      "akimbo": false,
+      "barPct": 3,
+      "kills": 350
+    },
+    {
+      "slug": "coal",
+      "name": "Coal",
+      "value": 320,
+      "shots": 1439,
+      "hits": 490,
+      "splash": false,
+      "used": 3,
+      "accuracy": 34.1,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 320
+    },
+    {
+      "slug": "famas",
+      "name": "Famas",
+      "value": 263,
+      "shots": 1877,
+      "hits": 679,
+      "splash": false,
+      "used": 1,
+      "accuracy": 36.2,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 263
+    },
+    {
+      "slug": "colt_1911",
+      "name": "Colt 1911",
+      "value": 262,
+      "shots": 55,
+      "hits": 31,
+      "splash": false,
+      "used": 1,
+      "accuracy": 56.4,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 262
+    },
+    {
+      "slug": "ray",
+      "name": "RAY",
+      "value": 246,
+      "shots": 316,
+      "hits": 482,
+      "splash": true,
+      "used": 14,
+      "accuracy": null,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 246
+    },
+    {
+      "slug": "akmsu",
+      "name": "Akmsu",
+      "value": 239,
+      "shots": 1087,
+      "hits": 415,
+      "splash": false,
+      "used": 6,
+      "accuracy": 38.2,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 239
+    },
+    {
+      "slug": "galil",
+      "name": "Galil",
+      "value": 226,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 226
+    },
+    {
+      "slug": "sub2000",
+      "name": "SUB2000",
+      "value": 181,
+      "shots": 1070,
+      "hits": 594,
+      "splash": false,
+      "used": 16,
+      "accuracy": 55.5,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 181
+    },
+    {
+      "slug": "polymer",
+      "name": "Polymer",
+      "value": 176,
+      "shots": 549,
+      "hits": 171,
+      "splash": false,
+      "used": 1,
+      "accuracy": 31.1,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 176
+    },
+    {
+      "slug": "ak5",
+      "name": "AK5",
+      "value": 144,
+      "shots": 497,
+      "hits": 195,
+      "splash": false,
+      "used": 3,
+      "accuracy": 39.2,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 144
+    },
+    {
+      "slug": "m32",
+      "name": "M32",
+      "value": 130,
+      "shots": 47,
+      "hits": 101,
+      "splash": true,
+      "used": 3,
+      "accuracy": null,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 130
+    },
+    {
+      "slug": "china",
+      "name": "China",
+      "value": 126,
+      "shots": 50,
+      "hits": 85,
+      "splash": true,
+      "used": 3,
+      "accuracy": null,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 126
+    },
+    {
+      "slug": "p226",
+      "name": "P226",
+      "value": 117,
+      "shots": 59,
+      "hits": 24,
+      "splash": false,
+      "used": 2,
+      "accuracy": 40.7,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 117
+    },
+    {
+      "slug": "scar",
+      "name": "Scar",
+      "value": 103,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 103
+    },
+    {
+      "slug": "p90",
+      "name": "P90",
+      "value": 102,
+      "shots": 566,
+      "hits": 194,
+      "splash": false,
+      "used": 1,
+      "accuracy": 34.3,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 102
+    },
+    {
+      "slug": "lemming",
+      "name": "Lemming",
+      "value": 88,
+      "shots": 186,
+      "hits": 117,
+      "splash": false,
+      "used": 2,
+      "accuracy": 62.9,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 88
+    },
+    {
+      "slug": "mosin",
+      "name": "Mosin",
+      "value": 71,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 71
+    },
+    {
+      "slug": "desertfox",
+      "name": "Desertfox",
+      "value": 69,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 69
+    },
+    {
+      "slug": "rpk",
+      "name": "RPK",
+      "value": 42,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 42
+    },
+    {
+      "slug": "m45",
+      "name": "M45",
+      "value": 39,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 2,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 39
+    },
+    {
+      "slug": "mg42",
+      "name": "MG42",
+      "value": 39,
+      "shots": 113,
+      "hits": 9,
+      "splash": false,
+      "used": 1,
+      "accuracy": 8,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 39
+    },
+    {
+      "slug": "m134",
+      "name": "M134",
+      "value": 38,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 38
+    },
+    {
+      "slug": "amcar",
+      "name": "Amcar",
+      "value": 37,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 11,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 37
+    },
+    {
+      "slug": "ranc_heavy_machine_gun",
+      "name": "Ranc Heavy Machine GUN",
+      "value": 37,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 37
+    },
+    {
+      "slug": "peacemaker",
+      "name": "Peacemaker",
+      "value": 36,
+      "shots": 1,
+      "hits": 1,
+      "splash": false,
+      "used": 1,
+      "accuracy": 100,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 36
+    },
+    {
+      "slug": "rpg7",
+      "name": "RPG7",
+      "value": 35,
+      "shots": 68,
+      "hits": 83,
+      "splash": true,
+      "used": 3,
+      "accuracy": null,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 35
+    },
+    {
+      "slug": "bessy",
+      "name": "Bessy",
+      "value": 23,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 23
+    },
+    {
+      "slug": "plainsrider",
+      "name": "Plainsrider",
+      "value": 22,
+      "shots": 19,
+      "hits": 3,
+      "splash": false,
+      "used": 5,
+      "accuracy": 15.8,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 22
+    },
+    {
+      "slug": "new_m4",
+      "name": "M4",
+      "value": 21,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 42,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 21
+    },
+    {
+      "slug": "hajk",
+      "name": "Hajk",
+      "value": 19,
+      "shots": 211,
+      "hits": 91,
+      "splash": false,
+      "used": 3,
+      "accuracy": 43.1,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 19
+    },
+    {
+      "slug": "flint",
+      "name": "Flint",
+      "value": 15,
+      "shots": 16,
+      "hits": 5,
+      "splash": false,
+      "used": 1,
+      "accuracy": 31.3,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 15
+    },
+    {
+      "slug": "huntsman",
+      "name": "Huntsman",
+      "value": 12,
+      "shots": 21,
+      "hits": 21,
+      "splash": false,
+      "used": 1,
+      "accuracy": 100,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 12
+    },
+    {
+      "slug": "wa2000",
+      "name": "WA2000",
+      "value": 11,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 11
+    },
+    {
+      "slug": "model70",
+      "name": "MODEL70",
+      "value": 11,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 11
+    },
+    {
+      "slug": "gre_m79",
+      "name": "GRE M79",
+      "value": 5,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 5
+    },
+    {
+      "slug": "striker",
+      "name": "Striker",
+      "value": 4,
+      "shots": 30,
+      "hits": 30,
+      "splash": false,
+      "used": 1,
+      "accuracy": 100,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 4
+    },
+    {
+      "slug": "b682",
+      "name": "B682",
+      "value": 3,
+      "shots": 6,
+      "hits": 4,
+      "splash": false,
+      "used": 2,
+      "accuracy": 66.7,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 3
+    },
+    {
+      "slug": "saw_secondary",
+      "name": "SAW Secondary",
+      "value": 1,
+      "shots": 0,
+      "hits": 0,
+      "splash": false,
+      "used": 0,
+      "accuracy": 0,
+      "akimbo": false,
+      "barPct": 2,
+      "kills": 1
+    }
+  ],
+  "enemies": [
+    {
+      "slug": "fbi_heavy_swat",
+      "name": "FBI Heavy SWAT",
+      "value": 16935,
+      "barPct": 100,
+      "kills": 16935
+    },
+    {
+      "slug": "fbi_swat",
+      "name": "FBI SWAT",
+      "value": 14250,
+      "barPct": 84,
+      "kills": 14250
+    },
+    {
+      "slug": "city_swat",
+      "name": "City SWAT",
+      "value": 7160,
+      "barPct": 42,
+      "kills": 7160
+    },
+    {
+      "slug": "medic",
+      "name": "Medic",
+      "value": 3528,
+      "barPct": 21,
+      "kills": 3528
+    },
+    {
+      "slug": "swat",
+      "name": "SWAT",
+      "value": 3203,
+      "barPct": 19,
+      "kills": 3203
+    },
+    {
+      "slug": "shield",
+      "name": "Shield",
+      "value": 3191,
+      "barPct": 19,
+      "kills": 3191
+    },
+    {
+      "slug": "taser",
+      "name": "Taser",
+      "value": 3053,
+      "barPct": 18,
+      "kills": 3053
+    },
+    {
+      "slug": "heavy_swat",
+      "name": "Heavy SWAT",
+      "value": 2621,
+      "barPct": 15,
+      "kills": 2621
+    },
+    {
+      "slug": "security",
+      "name": "Security guard",
+      "value": 2376,
+      "barPct": 14,
+      "kills": 2376
+    },
+    {
+      "slug": "spooc",
+      "name": "Cloaker",
+      "value": 1424,
+      "barPct": 8,
+      "kills": 1424
+    },
+    {
+      "slug": "civilian",
+      "name": "Civilian",
+      "value": 1223,
+      "barPct": 7,
+      "kills": 1223
+    },
+    {
+      "slug": "murkywater",
+      "name": "Murkywater guard",
+      "value": 1156,
+      "barPct": 7,
+      "kills": 1156
+    },
+    {
+      "slug": "tank_green",
+      "name": "Bulldozer (green)",
+      "value": 1144,
+      "barPct": 7,
+      "kills": 1144
+    },
+    {
+      "slug": "cop",
+      "name": "Cop",
+      "value": 1099,
+      "barPct": 6,
+      "kills": 1099
+    },
+    {
+      "slug": "gangster",
+      "name": "Gangster",
+      "value": 1006,
+      "barPct": 6,
+      "kills": 1006
+    },
+    {
+      "slug": "tank_black",
+      "name": "Bulldozer (black)",
+      "value": 816,
+      "barPct": 5,
+      "kills": 816
+    },
+    {
+      "slug": "sniper",
+      "name": "Sniper",
+      "value": 812,
+      "barPct": 5,
+      "kills": 812
+    },
+    {
+      "slug": "civilian_female",
+      "name": "Civilian (female)",
+      "value": 489,
+      "barPct": 3,
+      "kills": 489
+    },
+    {
+      "slug": "bolivian",
+      "name": "Bolivian",
+      "value": 374,
+      "barPct": 2,
+      "kills": 374
+    },
+    {
+      "slug": "fbi",
+      "name": "FBI agent",
+      "value": 279,
+      "barPct": 2,
+      "kills": 279
+    },
+    {
+      "slug": "biker",
+      "name": "Biker",
+      "value": 257,
+      "barPct": 2,
+      "kills": 257
+    },
+    {
+      "slug": "mobster",
+      "name": "Mobster",
+      "value": 254,
+      "barPct": 2,
+      "kills": 254
+    },
+    {
+      "slug": "tank_hw",
+      "name": "Bulldozer (Titan)",
+      "value": 212,
+      "barPct": 2,
+      "kills": 212
+    },
+    {
+      "slug": "phalanx_minion",
+      "name": "Captain Winters' guard",
+      "value": 179,
+      "barPct": 2,
+      "kills": 179
+    },
+    {
+      "slug": "tank_skull",
+      "name": "Bulldozer (skull)",
+      "value": 110,
+      "barPct": 2,
+      "kills": 110
+    },
+    {
+      "slug": "gensec",
+      "name": "GenSec guard",
+      "value": 98,
+      "barPct": 2,
+      "kills": 98
+    },
+    {
+      "slug": "security_mex",
+      "name": "Security guard (Mexico)",
+      "value": 64,
+      "barPct": 2,
+      "kills": 64
+    },
+    {
+      "slug": "marshal_marksman",
+      "name": "Marshal marksman",
+      "value": 60,
+      "barPct": 2,
+      "kills": 60
+    },
+    {
+      "slug": "triad",
+      "name": "Triad",
+      "value": 49,
+      "barPct": 2,
+      "kills": 49
+    },
+    {
+      "slug": "bolivian_indoors_mex",
+      "name": "Bolivian (indoors)",
+      "value": 36,
+      "barPct": 2,
+      "kills": 36
+    },
+    {
+      "slug": "marshal_shield",
+      "name": "Marshal shield",
+      "value": 28,
+      "barPct": 2,
+      "kills": 28
+    },
+    {
+      "slug": "tank",
+      "name": "Bulldozer",
+      "value": 27,
+      "barPct": 2,
+      "kills": 27
+    },
+    {
+      "slug": "cop_female",
+      "name": "Cop (female)",
+      "value": 21,
+      "barPct": 2,
+      "kills": 21
+    },
+    {
+      "slug": "bank_manager",
+      "name": "Bank manager",
+      "value": 9,
+      "barPct": 2,
+      "kills": 9
+    },
+    {
+      "slug": "marshal_shield_break",
+      "name": "Marshal shield (broken)",
+      "value": 8,
+      "barPct": 2,
+      "kills": 8
+    },
+    {
+      "slug": "swat_turret",
+      "name": "SWAT turret",
+      "value": 6,
+      "barPct": 2,
+      "kills": 6
+    },
+    {
+      "slug": "hector_boss_no_armor",
+      "name": "Hector (unarmoured)",
+      "value": 5,
+      "barPct": 2,
+      "kills": 5
+    },
+    {
+      "slug": "chavez_boss",
+      "name": "Chavez",
+      "value": 5,
+      "barPct": 2,
+      "kills": 5
+    },
+    {
+      "slug": "security_undominatable",
+      "name": "Security guard (undominatable)",
+      "value": 4,
+      "barPct": 2,
+      "kills": 4
+    },
+    {
+      "slug": "mobster_boss",
+      "name": "Mobster boss",
+      "value": 3,
+      "barPct": 2,
+      "kills": 3
+    },
+    {
+      "slug": "drug_lord_boss_stealth",
+      "name": "Drug lord (stealth)",
+      "value": 3,
+      "barPct": 2,
+      "kills": 3
+    },
+    {
+      "slug": "drug_lord_boss",
+      "name": "Drug lord",
+      "value": 2,
+      "barPct": 2,
+      "kills": 2
+    },
+    {
+      "slug": "security_mex_no_pager",
+      "name": "Security guard (Mexico, no pager)",
+      "value": 2,
+      "barPct": 2,
+      "kills": 2
+    },
+    {
+      "slug": "civilian_no_penalty",
+      "name": "Civilian (no penalty)",
+      "value": 2,
+      "barPct": 2,
+      "kills": 2
+    },
+    {
+      "slug": "hector_boss",
+      "name": "Hector",
+      "value": 1,
+      "barPct": 2,
+      "kills": 1
+    },
+    {
+      "slug": "biker_boss",
+      "name": "Biker boss",
+      "value": 1,
+      "barPct": 2,
+      "kills": 1
+    },
+    {
+      "slug": "mute_security_undominatable",
+      "name": "Security guard (silent)",
+      "value": 1,
+      "barPct": 2,
+      "kills": 1
+    },
+    {
+      "slug": "civilian_mariachi",
+      "name": "Civilian (mariachi)",
+      "value": 1,
+      "barPct": 2,
+      "kills": 1
+    },
+    {
+      "slug": "triad_boss_no_armor",
+      "name": "Triad boss",
+      "value": 1,
+      "barPct": 2,
+      "kills": 1
+    }
+  ],
+  "gear": [
+    {
+      "slug": "frag",
+      "name": "Frag grenade",
+      "value": 545,
+      "kills": 530,
+      "kind": "Throwable",
+      "barPct": 100,
+      "used": 545
+    },
+    {
+      "slug": "zeus",
+      "name": "Zeus",
+      "value": 259,
+      "kills": 58,
+      "kind": "Melee",
+      "barPct": 48,
+      "used": 259
+    },
+    {
+      "slug": "brass_knuckles",
+      "name": "Brass knuckles",
+      "value": 159,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 29,
+      "used": 159
+    },
+    {
+      "slug": "gerber",
+      "name": "Gerber",
+      "value": 119,
+      "kills": 63,
+      "kind": "Melee",
+      "barPct": 22,
+      "used": 119
+    },
+    {
+      "slug": "wpn_prj_ace",
+      "name": "ACE",
+      "value": 113,
+      "kills": 97,
+      "kind": "Throwable",
+      "barPct": 21,
+      "used": 113
+    },
+    {
+      "slug": "cqc",
+      "name": "CQC knife",
+      "value": 96,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 18,
+      "used": 96
+    },
+    {
+      "slug": "boxing_gloves",
+      "name": "Boxing gloves",
+      "value": 95,
+      "kills": 1,
+      "kind": "Melee",
+      "barPct": 17,
+      "used": 95
+    },
+    {
+      "slug": "rambo",
+      "name": "Rambo",
+      "value": 83,
+      "kills": 13,
+      "kind": "Melee",
+      "barPct": 15,
+      "used": 83
+    },
+    {
+      "slug": "dynamite",
+      "name": "Dynamite",
+      "value": 64,
+      "kills": 144,
+      "kind": "Throwable",
+      "barPct": 12,
+      "used": 64
+    },
+    {
+      "slug": "wpn_prj_four",
+      "name": "Four",
+      "value": 52,
+      "kills": 31,
+      "kind": "Throwable",
+      "barPct": 10,
+      "used": 52
+    },
+    {
+      "slug": "fairbair",
+      "name": "Fairbairn-Sykes knife",
+      "value": 29,
+      "kills": 27,
+      "kind": "Melee",
+      "barPct": 5,
+      "used": 29
+    },
+    {
+      "slug": "iceaxe",
+      "name": "Ice axe",
+      "value": 28,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 5,
+      "used": 28
+    },
+    {
+      "slug": "sandsteel",
+      "name": "Sandsteel",
+      "value": 25,
+      "kills": 166,
+      "kind": "Melee",
+      "barPct": 5,
+      "used": 25
+    },
+    {
+      "slug": "weapon",
+      "name": "Weapon butt",
+      "value": 22,
+      "kills": 1,
+      "kind": "Melee",
+      "barPct": 4,
+      "used": 22
+    },
+    {
+      "slug": "molotov",
+      "name": "Molotov",
+      "value": 19,
+      "kills": 0,
+      "kind": "Throwable",
+      "barPct": 3,
+      "used": 19
+    },
+    {
+      "slug": "brick",
+      "name": "Brick",
+      "value": 12,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 12
+    },
+    {
+      "slug": "fists",
+      "name": "Fists",
+      "value": 9,
+      "kills": 55,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 9
+    },
+    {
+      "slug": "shovel",
+      "name": "Shovel",
+      "value": 8,
+      "kills": 159,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 8
+    },
+    {
+      "slug": "wpn_prj_hur",
+      "name": "HUR",
+      "value": 8,
+      "kills": 4,
+      "kind": "Throwable",
+      "barPct": 2,
+      "used": 8
+    },
+    {
+      "slug": "taser",
+      "name": "Taser",
+      "value": 6,
+      "kills": 3,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 6
+    },
+    {
+      "slug": "fork",
+      "name": "Fork",
+      "value": 4,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 4
+    },
+    {
+      "slug": "push",
+      "name": "Push",
+      "value": 3,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 3
+    },
+    {
+      "slug": "moneybundle",
+      "name": "Money bundle",
+      "value": 2,
+      "kills": 1,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 2
+    },
+    {
+      "slug": "kabartanto",
+      "name": "Ka-Bar tanto",
+      "value": 2,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 2
+    },
+    {
+      "slug": "spoon",
+      "name": "Spoon",
+      "value": 2,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 2
+    },
+    {
+      "slug": "wpn_prj_jav",
+      "name": "JAV",
+      "value": 2,
+      "kills": 1,
+      "kind": "Throwable",
+      "barPct": 2,
+      "used": 2
+    },
+    {
+      "slug": "toothbrush",
+      "name": "Toothbrush",
+      "value": 1,
+      "kills": 14,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 1
+    },
+    {
+      "slug": "great",
+      "name": "Great",
+      "value": 1,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 1
+    },
+    {
+      "slug": "oxide",
+      "name": "Oxide",
+      "value": 1,
+      "kills": 0,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 1
+    },
+    {
+      "slug": "piggy_hammer",
+      "name": "Piggy hammer",
+      "value": 1,
+      "kills": 295,
+      "kind": "Melee",
+      "barPct": 2,
+      "used": 1
+    }
+  ],
+  "difficulties": [
+    {
+      "slug": "difficulty_normal",
+      "name": "Normal",
+      "value": 90,
+      "plays": 90,
+      "barPct": 28
+    },
+    {
+      "slug": "difficulty_hard",
+      "name": "Hard",
+      "value": 130,
+      "plays": 130,
+      "barPct": 40
+    },
+    {
+      "slug": "difficulty_overkill",
+      "name": "Very Hard",
+      "value": 113,
+      "plays": 113,
+      "barPct": 35
+    },
+    {
+      "slug": "difficulty_overkill_145",
+      "name": "Overkill",
+      "value": 321,
+      "plays": 321,
+      "barPct": 100
+    },
+    {
+      "slug": "difficulty_easy_wish",
+      "name": "Mayhem",
+      "value": 61,
+      "plays": 61,
+      "barPct": 19
+    },
+    {
+      "slug": "difficulty_overkill_290",
+      "name": "Death Wish",
+      "value": 219,
+      "plays": 219,
+      "barPct": 68
+    },
+    {
+      "slug": "difficulty_sm_wish",
+      "name": "Death Sentence",
+      "value": 123,
+      "plays": 123,
+      "barPct": 38
+    }
+  ]
+}

@@ -26,4 +26,12 @@ export default defineConfig([
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
   },
+  {
+    // The build-time sync scripts and the dev admin plugin run in Node, not the browser, so they
+    // legitimately reach for `process` and `Buffer`.
+    files: ['scripts/**/*.js', 'vite-plugin-admin-api.js'],
+    languageOptions: {
+      globals: globals.node,
+    },
+  },
 ])

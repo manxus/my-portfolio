@@ -1,0 +1,17 @@
+/* Deep Rock's palette is scoped to this page so the game look never leaks into the site theme.
+   Structure comes from the shared game-page module; only the signal colours are local. A hot
+   vermilion rather than the amber the other Steam pages use, so the tabs stay tellable apart. */
+.container {
+  composes: container from '../components/GameStats/gamePage.module.css';
+
+  --game-signal: #e2562a;
+  --game-signal-dim: #a03a17;
+  --game-done: #4ad14a;
+}
+
+:global([data-theme='light']) .container {
+  /* #e2562a fails contrast on a light face. */
+  --game-signal: #9c3312;
+  --game-signal-dim: #7a270c;
+  --game-done: #1f7a1f;
+}

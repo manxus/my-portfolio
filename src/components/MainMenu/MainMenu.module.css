@@ -258,7 +258,10 @@
 }
 
 .contentPanelPage {
-  overflow-y: auto;
+  /* PageShell.contentInline is the scroller for a page. Leaving this one scrollable too gave the
+     split view two nested scrollbars, and scrolling the inner one to its end chained into the
+     outer one, running off past the content into blank space. */
+  overflow: hidden;
   padding: 0;
 }
 

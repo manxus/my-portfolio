@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T21:39:25.952Z",
+  "fetchedAt": "2026-08-20T12:24:44.632Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
@@ -8,19 +8,19 @@
     "capsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg"
   },
   "summary": {
-    "kills": 170044,
-    "deaths": 122702,
+    "kills": 170063,
+    "deaths": 122722,
     "killDeath": 1.386,
-    "secondsPlayed": 8003131,
-    "hoursPlayed": 2223.1,
-    "libraryHours": 3467.8,
+    "secondsPlayed": 8004754,
+    "hoursPlayed": 2223.5,
+    "libraryHours": 3468.8,
     "accuracy": 21.9,
     "headshotPct": 44.4,
     "roundWinPct": 51.9,
-    "matchWinPct": 39.6,
-    "roundsPlayed": 101001,
-    "matchesPlayed": 6027,
-    "mvps": 17179,
+    "matchWinPct": 39.5,
+    "roundsPlayed": 101025,
+    "matchesPlayed": 6028,
+    "mvps": 17181,
     "adr": 233.8,
     "killsPerRound": 1.68
   },
@@ -28,32 +28,32 @@
     {
       "key": "total_kills",
       "label": "Kills",
-      "value": 170044
+      "value": 170063
     },
     {
       "key": "total_deaths",
       "label": "Deaths",
-      "value": 122702
+      "value": 122722
     },
     {
       "key": "total_kills_headshot",
       "label": "Headshot kills",
-      "value": 75454
+      "value": 75460
     },
     {
       "key": "total_rounds_played",
       "label": "Rounds played",
-      "value": 101001
+      "value": 101025
     },
     {
       "key": "total_wins",
       "label": "Rounds won",
-      "value": 52443
+      "value": 52454
     },
     {
       "key": "total_matches_played",
       "label": "Matches played",
-      "value": 6027
+      "value": 6028
     },
     {
       "key": "total_matches_won",
@@ -63,17 +63,17 @@
     {
       "key": "total_mvps",
       "label": "MVPs",
-      "value": 17179
+      "value": 17181
     },
     {
       "key": "total_damage_done",
       "label": "Damage dealt",
-      "value": 23613777
+      "value": 23616538
     },
     {
       "key": "total_shots_fired",
       "label": "Shots fired",
-      "value": 2234512
+      "value": 2234700
     },
     {
       "key": "total_shots_hit",
@@ -83,12 +83,12 @@
     {
       "key": "total_money_earned",
       "label": "Money earned",
-      "value": 289908620
+      "value": 289980870
     },
     {
       "key": "total_contribution_score",
       "label": "Contribution score",
-      "value": 694963
+      "value": 695004
     },
     {
       "key": "total_kills_knife",
@@ -103,7 +103,7 @@
     {
       "key": "total_weapons_donated",
       "label": "Weapons donated",
-      "value": 13832
+      "value": 13834
     }
   ],
   "weaponCategories": [
@@ -129,9 +129,9 @@
       "slug": "ak47",
       "name": "AK-47",
       "category": "Rifles",
-      "kills": 60356,
-      "shots": 821816,
-      "hits": 182983,
+      "kills": 60361,
+      "shots": 821891,
+      "hits": 182998,
       "accuracy": 22.3,
       "killsPerShot": 7.34,
       "iconUrl": "/counterstrike/weapons/ak47.png",
@@ -141,9 +141,9 @@
       "slug": "awp",
       "name": "AWP",
       "category": "Rifles",
-      "kills": 21745,
-      "shots": 60291,
-      "hits": 24091,
+      "kills": 21751,
+      "shots": 60308,
+      "hits": 24097,
       "accuracy": 40,
       "killsPerShot": 36.07,
       "iconUrl": "/counterstrike/weapons/awp.png",
@@ -153,9 +153,9 @@
       "slug": "m4a1",
       "name": "M4A4",
       "category": "Rifles",
-      "kills": 15964,
-      "shots": 251092,
-      "hits": 61298,
+      "kills": 15967,
+      "shots": 251141,
+      "hits": 61308,
       "accuracy": 24.4,
       "killsPerShot": 6.36,
       "iconUrl": "/counterstrike/weapons/m4a1.png",
@@ -165,9 +165,9 @@
       "slug": "deagle",
       "name": "Desert Eagle",
       "category": "Pistols",
-      "kills": 14941,
-      "shots": 101891,
-      "hits": 30791,
+      "kills": 14944,
+      "shots": 101919,
+      "hits": 30801,
       "accuracy": 30.2,
       "killsPerShot": 14.66,
       "iconUrl": "/counterstrike/weapons/deagle.png",
@@ -178,8 +178,8 @@
       "name": "P2000",
       "category": "Pistols",
       "kills": 6228,
-      "shots": 82253,
-      "hits": 19278,
+      "shots": 82257,
+      "hits": 19279,
       "accuracy": 23.4,
       "killsPerShot": 7.57,
       "iconUrl": "/counterstrike/weapons/hkp2000.png",
@@ -202,7 +202,7 @@
       "name": "Glock-18",
       "category": "Pistols",
       "kills": 4439,
-      "shots": 86639,
+      "shots": 86643,
       "hits": 17900,
       "accuracy": 20.7,
       "killsPerShot": 5.12,
@@ -238,8 +238,8 @@
       "name": "FAMAS",
       "category": "Rifles",
       "kills": 4027,
-      "shots": 78703,
-      "hits": 17561,
+      "shots": 78712,
+      "hits": 17562,
       "accuracy": 22.3,
       "killsPerShot": 5.12,
       "iconUrl": "/counterstrike/weapons/famas.png",
@@ -297,11 +297,11 @@
       "slug": "ssg08",
       "name": "SSG 08",
       "category": "Rifles",
-      "kills": 2036,
-      "shots": 12362,
-      "hits": 3771,
+      "kills": 2038,
+      "shots": 12364,
+      "hits": 3773,
       "accuracy": 30.5,
-      "killsPerShot": 16.47,
+      "killsPerShot": 16.48,
       "iconUrl": "/counterstrike/weapons/ssg08.png",
       "barPct": 3
     },
@@ -522,7 +522,7 @@
       "rounds": 2405,
       "wins": 1324,
       "winPct": 55.1,
-      "iconUrl": null,
+      "iconUrl": "/counterstrike/maps/de_cbble.png",
       "barPct": 8
     },
     {
@@ -632,7 +632,7 @@
       "rounds": 103,
       "wins": 54,
       "winPct": 52.4,
-      "iconUrl": null,
+      "iconUrl": "/counterstrike/maps/de_stmarc.png",
       "barPct": 2
     },
     {
@@ -642,7 +642,7 @@
       "rounds": 72,
       "wins": 39,
       "winPct": 54.2,
-      "iconUrl": null,
+      "iconUrl": "/counterstrike/maps/ar_shoots.png",
       "barPct": 2
     },
     {
@@ -662,7 +662,7 @@
       "rounds": 31,
       "wins": 17,
       "winPct": 54.8,
-      "iconUrl": null,
+      "iconUrl": "/counterstrike/maps/de_shorttrain.png",
       "barPct": 2
     },
     {
@@ -682,15 +682,15 @@
       "rounds": 18,
       "wins": 12,
       "winPct": 66.7,
-      "iconUrl": null,
+      "iconUrl": "/counterstrike/maps/ar_monastery.png",
       "barPct": 2
     }
   ],
   "mapCoverage": {
     "trackedRounds": 62382,
-    "totalRounds": 101001,
-    "untrackedRounds": 38619,
-    "coveragePct": 61.8
+    "totalRounds": 101025,
+    "untrackedRounds": 38643,
+    "coveragePct": 61.7
   },
   "objectives": [
     {
@@ -711,12 +711,12 @@
     {
       "key": "total_wins_pistolround",
       "label": "Pistol rounds won",
-      "value": 3930
+      "value": 3931
     },
     {
       "key": "total_kills_enemy_weapon",
       "label": "Kills with enemy weapons",
-      "value": 15193
+      "value": 15199
     },
     {
       "key": "total_kills_against_zoomed_sniper",
@@ -726,7 +726,7 @@
     {
       "key": "total_kills_enemy_blinded",
       "label": "Kills on blinded enemies",
-      "value": 3965
+      "value": 3966
     },
     {
       "key": "total_kills_knife_fight",
