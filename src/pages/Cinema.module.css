@@ -4,6 +4,10 @@
   padding-bottom: 3rem;
   padding-right: 0.85rem;
   box-sizing: border-box;
+  /* Card metrics live here so the collection layout can size its sections from
+     the same numbers the grid tracks use. */
+  --card-w: 162px;
+  --card-gap: 0.75rem;
 }
 
 .empty,
@@ -181,8 +185,39 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(162px, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr));
+  gap: var(--card-gap);
+}
+
+/* Collection sort: sections are sized to their contents and flow side by side,
+   so a three-film franchise no longer reserves a whole row. Tracks are fixed
+   rather than 1fr here, otherwise cards would be a different size in every
+   section depending on how wide that section happened to be. */
+.groupsPacked {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.75rem var(--card-gap);
+}
+
+.groupsPacked .group {
+  flex: 0 1 auto;
+  width: calc(var(--span) * var(--card-w) + (var(--span) - 1) * var(--card-gap));
+  max-width: 100%;
+}
+
+.groupsPacked .group + .group {
+  margin-top: 0;
+}
+
+.groupsPacked .grid {
+  grid-template-columns: repeat(auto-fill, var(--card-w));
+}
+
+/* Lets the detail panel below respond to the width of the section it opens in
+   rather than the viewport. */
+.grid {
+  container-type: inline-size;
 }
 
 .card {
@@ -279,16 +314,21 @@
   flex-direction: column;
   gap: 0.2rem;
   padding: 0.45rem 0.5rem 0.55rem;
+  /* Absorb the card's leftover height so the caption can pin its own contents. */
+  flex: 1;
   /* Room for a two-line title so one- and two-line cards keep a common floor. */
   min-height: 3.6rem;
 }
 
+/* Title stays put at the top; the slack lands here so the meta line and progress
+   bar sit on the card's floor whether the title runs to one line or three. */
 .cardTitleRow {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 0.35rem;
   min-width: 0;
+  margin-bottom: auto;
 }
 
 /* The shared admin controls only fade in when their direct parent is hovered,
@@ -372,6 +412,18 @@
 .detailCover {
   width: 130px;
   flex-shrink: 0;
+}
+
+/* A two-film franchise section is only ~336px wide — far too narrow for a
+   cover sitting beside the text, so stack them at that size. */
+@container (max-width: 540px) {
+  .detailInner {
+    flex-direction: column;
+  }
+
+  .detailCover {
+    width: 110px;
+  }
 }
 
 .detailBody {
@@ -531,8 +583,8 @@
 /* ---- Responsive ---- */
 
 @media (max-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  .container {
+    --card-w: 130px;
   }
 }
 
@@ -541,9 +593,9 @@
     padding-bottom: 2rem;
   }
 
-  .grid {
-    grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
-    gap: 0.5rem;
+  .container {
+    --card-w: 112px;
+    --card-gap: 0.5rem;
   }
 
   .detailInner {
@@ -556,9 +608,9 @@
 }
 
 @media (max-width: 480px) {
-  .grid {
-    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
-    gap: 0.4rem;
+  .container {
+    --card-w: 96px;
+    --card-gap: 0.4rem;
   }
 
   .filterBar {
@@ -589,4 +641,8 @@
   .cardMeta {
     font-size: 0.52rem;
   }
+}
+
+.resumeAt {
+  color: var(--accent-bright);
 }

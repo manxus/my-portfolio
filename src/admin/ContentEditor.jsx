@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { visibleSchemaFields } from './autoId';
 import TravelLocationPicker from './TravelLocationPicker';
 import CinemaTitlePicker from './CinemaTitlePicker';
+import CinemaEpisodePicker from './CinemaEpisodePicker';
 import { useAdminStore } from '../stores/adminStore';
 import { setAdminEditorOpen } from './editorLock';
 import styles from './ContentEditor.module.css';
@@ -552,8 +553,8 @@ export default function ContentEditor({
         empty.lng = '';
         continue;
       }
-      // The picker writes its own keys — no placeholder key of its own.
-      if (field.type === 'tmdbLookup') continue;
+      // These pickers write their own keys — no placeholder key of their own.
+      if (field.type === 'tmdbLookup' || field.type === 'episodeTracker') continue;
       if (field.type === 'boolean') empty[field.key] = false;
       else if (field.type === 'list' || field.type === 'objectList') empty[field.key] = [];
       else if (field.type === 'tiers') empty[field.key] = { S: [], A: [], B: [], C: [], D: [], F: [], unplayed: [] };
@@ -572,7 +573,9 @@ export default function ContentEditor({
   const fields = visibleSchemaFields(schema);
   const isPrimitive = fields.length === 1 && fields[0].key === '_value';
   const hasMapLocation = fields.some((f) => f.type === 'mapLocation');
-  const hasTmdbLookup = fields.some((f) => f.type === 'tmdbLookup');
+  const hasTmdbLookup = fields.some(
+    (f) => f.type === 'tmdbLookup' || f.type === 'episodeTracker',
+  );
 
   const handleChange = useCallback((key, value) => {
     if (isPrimitive) {
@@ -661,6 +664,13 @@ export default function ContentEditor({
                   />
                 ) : field.type === 'tmdbLookup' ? (
                   <CinemaTitlePicker
+                    value={formData}
+                    onChange={(patch) => {
+                      setFormData((prev) => ({ ...prev, ...patch }));
+                    }}
+                  />
+                ) : field.type === 'episodeTracker' ? (
+                  <CinemaEpisodePicker
                     value={formData}
                     onChange={(patch) => {
                       setFormData((prev) => ({ ...prev, ...patch }));

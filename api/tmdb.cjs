@@ -31,6 +31,48 @@ function toNumberOrNull(value) {
   return Number.isFinite(n) && n > 0 ? n : null;
 }
 
+/**
+ * Franchise name for a movie. Mirrors src/utils/collections.js, which the page
+ * and the backfill script share — this file is CommonJS and can't import it.
+ *
+ * belongs_to_collection files the MCU under seven separate collections, so the
+ * shared-universe keyword wins where TMDB provides one.
+ */
+const UNIVERSE_NAMES = {
+  'marvel cinematic universe (mcu)': 'Marvel Cinematic Universe',
+  'dc extended universe (dceu)': 'DC Extended Universe',
+};
+
+function collectionName(item) {
+  const keywords = (item.keywords && item.keywords.keywords) || [];
+  const universe = keywords
+    .map((k) => String(k.name ?? ''))
+    .find((name) => /cinematic universe|extended universe/i.test(name));
+
+  const raw = universe || (item.belongs_to_collection ? item.belongs_to_collection.name : '');
+  const value = String(raw).trim();
+  if (!value) return '';
+  if (UNIVERSE_NAMES[value.toLowerCase()]) return UNIVERSE_NAMES[value.toLowerCase()];
+
+  const stripped = value.replace(/\s+Collection$/i, '').trim();
+  return stripped === stripped.toLowerCase()
+    ? stripped.replace(/\b[a-z]/g, (c) => c.toUpperCase())
+    : stripped;
+}
+
+/**
+ * Episodes per season, index 0 = season 1. Season 0 is TMDB's specials bucket and
+ * is excluded from `number_of_episodes`, so dropping it here keeps this array
+ * summing to the show's stated total.
+ */
+function seasonEpisodeCounts(item) {
+  if (!Array.isArray(item.seasons)) return [];
+  return item.seasons
+    .filter((s) => Number(s.season_number) > 0)
+    .sort((a, b) => Number(a.season_number) - Number(b.season_number))
+    .map((s) => Number(s.episode_count) || 0);
+}
+
 /** Compact shape for the search dropdown. */
 function mapSearchResult(item) {
   const mediaType = item.media_type === 'tv' ? 'tv' : 'movie';
@@ -65,11 +107,13 @@ function mapDetails(item, mediaType) {
   if (mediaType === 'tv') {
     patch.seasons = toNumberOrNull(item.number_of_seasons);
     patch.episodes = toNumberOrNull(item.number_of_episodes);
+    patch.seasonEpisodes = seasonEpisodeCounts(item);
     patch.runtime = toNumberOrNull(
       Array.isArray(item.episode_run_time) ? item.episode_run_time[0] : null,
     );
   } else {
     patch.runtime = toNumberOrNull(item.runtime);
+    patch.collection = collectionName(item);
   }
 
   return patch;
@@ -135,7 +179,8 @@ module.exports = async (req, res) => {
     }
 
     try {
-      const data = await fetchTmdb(`/${type}/${id}`, {}, apiKey);
+      // keywords carry the shared-universe tag that groups the MCU together.
+      const data = await fetchTmdb(`/${type}/${id}`, { append_to_response: 'keywords' }, apiKey);
       res.statusCode = 200;
       return res.end(JSON.stringify(mapDetails(data, type)));
     } catch (err) {

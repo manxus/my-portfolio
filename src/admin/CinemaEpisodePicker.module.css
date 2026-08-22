@@ -1,0 +1,114 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hint {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--color-muted, #888);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.hint code {
+  color: var(--accent, #5f8f8f);
+  font-size: 0.62rem;
+}
+
+.summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.summaryCount {
+  font-size: 0.8rem;
+  color: var(--color-text, #e0e0e0);
+}
+
+.summaryNext {
+  font-size: 0.65rem;
+  color: var(--accent, #5f8f8f);
+  letter-spacing: 0.08em;
+}
+
+.seasons {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 0.35rem;
+}
+
+.season {
+  border-radius: 3px;
+}
+
+.seasonHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.4rem;
+  cursor: pointer;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--color-text, #e0e0e0);
+  border-radius: 3px;
+}
+
+.seasonHeader:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.seasonName {
+  flex: 1;
+  min-width: 0;
+}
+
+.seasonCount {
+  font-size: 0.65rem;
+  color: var(--color-muted, #888);
+}
+
+.caret {
+  width: 12px;
+  text-align: center;
+  color: var(--color-muted, #888);
+  font-size: 0.6rem;
+}
+
+.episodes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(74px, 1fr));
+  gap: 0.15rem 0.35rem;
+  padding: 0.35rem 0.4rem 0.5rem 1.7rem;
+}
+
+.episode {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--color-muted, #888);
+  cursor: pointer;
+}
+
+.episode:hover {
+  color: var(--color-text, #e0e0e0);
+}
+
+.box {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  accent-color: var(--accent, #5f8f8f);
+  cursor: pointer;
+  margin: 0;
+}

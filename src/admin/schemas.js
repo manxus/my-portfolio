@@ -407,6 +407,8 @@ export const schemas = {
     { key: 'year', label: 'Year', type: 'text' },
     { key: 'seasons', label: 'Seasons (shows)', type: 'number' },
     { key: 'episodes', label: 'Episodes (shows)', type: 'number' },
+    { key: 'seasonTracker', label: 'Seasons', type: 'episodeTracker' },
+    // Fallback for shows with no seasonEpisodes yet; the tracker overwrites it.
     { key: 'episodesSeen', label: 'Episodes seen (shows)', type: 'number' },
     { key: 'runtime', label: 'Runtime in minutes', type: 'number' },
     { key: 'genres', label: 'Genres', type: 'list' },

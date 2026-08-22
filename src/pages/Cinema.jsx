@@ -12,6 +12,13 @@ import EditableSection, { EditableItemControls } from '../admin/EditableSection'
 import CinemaTabs from '../components/CinemaTabs/CinemaTabs';
 import SteamFilters from '../components/SteamFilters/SteamFilters';
 import { useAdminStore } from '../stores/adminStore';
+import {
+  countWatched,
+  formatEpisodeCode,
+  nextEpisode,
+  totalEpisodes as sumSeasons,
+} from '../utils/episodes';
+import { groupByCollection } from '../utils/collections';
 import styles from './Cinema.module.css';
 
 const defaultEntries = cinemaData.entries || [];
@@ -33,15 +40,20 @@ const SORT_OPTIONS = [
   { key: 'rating', label: 'Rating (Highest)' },
   { key: 'year', label: 'Year (Newest)' },
   { key: 'episodes', label: 'Episodes (Most)', showsOnly: true },
+  { key: 'collection', label: 'Collection', moviesOnly: true },
 ];
 
 const DEFAULT_SORT = 'title';
 
-/** Sorting by episode count is meaningless in a grid with no shows in it. */
+/** Offer only the sorts that mean something for what the grid actually holds. */
 function sortOptionsFor(tab, watchlistType) {
   const showsPossible =
     tab !== 'movies' && !(tab === 'watchlist' && watchlistType === 'movies');
-  return showsPossible ? SORT_OPTIONS : SORT_OPTIONS.filter((o) => !o.showsOnly);
+  const moviesPossible =
+    tab !== 'shows' && !(tab === 'watchlist' && watchlistType === 'shows');
+  return SORT_OPTIONS.filter(
+    (o) => (showsPossible || !o.showsOnly) && (moviesPossible || !o.moviesOnly),
+  );
 }
 
 function toCount(value) {
@@ -104,7 +116,9 @@ function matchesSearch(entry, query) {
  * Empty sections are dropped, and anything with an unrecognised status still
  * gets a home rather than vanishing from the tab.
  */
-function groupForTab(tab, list) {
+function groupForTab(tab, list, sortBy) {
+  // The collection sort carries its own sectioning, on any tab that holds movies.
+  if (sortBy === 'collection') return groupByCollection(list);
   if (tab !== 'shows') return [{ id: 'all', label: '', items: list }];
 
   const known = new Set(SHOW_GROUPS.map((g) => g.id));
@@ -119,17 +133,28 @@ function groupForTab(tab, list) {
   return groups.filter((g) => g.items.length > 0);
 }
 
-/** Episodes actually seen — falls back to the full run for finished shows. */
+/**
+ * Episodes actually seen. The per-episode record wins where it exists; otherwise
+ * fall back to the stored total, which still covers shows that were never synced.
+ */
 function episodesSeen(entry) {
   if (!isShow(entry)) return 0;
+  if (entry.watchedEpisodes) return countWatched(entry.watchedEpisodes);
   const seen = toCount(entry.episodesSeen);
   if (seen > 0) return seen;
   return entry.status === 'watched' ? toCount(entry.episodes) : 0;
 }
 
+/** The episode to resume on, for shows tracked episode by episode. */
+function resumePoint(entry) {
+  if (!isShow(entry) || !entry.watchedEpisodes) return null;
+  return nextEpisode(entry.seasonEpisodes, entry.watchedEpisodes);
+}
+
 /** Episode progress for a show that has been started, or null when it doesn't apply. */
 function watchProgress(entry) {
-  const total = toCount(entry.episodes);
+  // Prefer the per-season sum: it is the total the episode record can address.
+  const total = sumSeasons(entry.seasonEpisodes) || toCount(entry.episodes);
   const seen = episodesSeen(entry);
   if (total <= 0 || seen <= 0) return null;
   return { seen, total, percent: Math.min(100, Math.round((seen / total) * 100)) };
@@ -144,6 +169,12 @@ function sortEntries(list, sortBy) {
       return sorted.sort((a, b) => toCount(b.year) - toCount(a.year));
     case 'episodes':
       return sorted.sort((a, b) => toCount(b.episodes) - toCount(a.episodes));
+    case 'collection':
+      // Within a franchise, oldest first — the order you'd watch them in.
+      return sorted.sort(
+        (a, b) =>
+          toCount(a.year) - toCount(b.year) || String(a.title).localeCompare(String(b.title)),
+      );
     case 'title':
     default:
       return sorted.sort((a, b) => String(a.title).localeCompare(String(b.title)));
@@ -187,6 +218,7 @@ function EntryCard({ entry, index, selected, style, onSelect }) {
   // Only the in-flight shows carry a bar; a finished or queued one has nothing
   // to report that the section heading doesn't already say.
   const progress = entry.status === 'watching' ? watchProgress(entry) : null;
+  const resume = progress ? resumePoint(entry) : null;
 
   return (
     <div
@@ -225,7 +257,9 @@ function EntryCard({ entry, index, selected, style, onSelect }) {
         {progress && (
           <div
             className={styles.cardProgress}
-            title={`${progress.seen} of ${progress.total} episodes watched`}
+            title={`${progress.seen} of ${progress.total} episodes watched${
+              resume ? ` — resume at ${formatEpisodeCode(resume)}` : ''
+            }`}
           >
             <div className={styles.cardProgressBar}>
               <div
@@ -234,7 +268,7 @@ function EntryCard({ entry, index, selected, style, onSelect }) {
               />
             </div>
             <span className={styles.cardProgressLabel}>
-              {progress.seen}/{progress.total}
+              {resume ? `NEXT ${formatEpisodeCode(resume)}` : `${progress.seen}/${progress.total}`}
             </span>
           </div>
         )}
@@ -247,6 +281,7 @@ function EntryDetail({ entry, onClose, style }) {
   const hasLink = Boolean(resolveExternalUrl(entry.tmdbUrl));
   const total = toCount(entry.episodes);
   const progress = watchProgress(entry);
+  const resume = resumePoint(entry);
 
   return (
     <motion.div
@@ -314,6 +349,12 @@ function EntryDetail({ entry, onClose, style }) {
               </div>
               <span className={styles.progressLabel}>
                 {progress.seen} / {progress.total} episodes ({progress.percent}%)
+                {resume && (
+                  <span className={styles.resumeAt}>
+                    {' '}
+                    · next up {formatEpisodeCode(resume)}
+                  </span>
+                )}
               </span>
             </div>
           )}
@@ -578,9 +619,13 @@ export default function Cinema() {
   }, [entries, activeTab, search, sortBy, watchlistType]);
 
   const groups = useMemo(
-    () => groupForTab(activeTab, visibleEntries),
-    [activeTab, visibleEntries],
+    () => groupForTab(activeTab, visibleEntries, sortBy),
+    [activeTab, visibleEntries, sortBy],
   );
+
+  // Franchise sections are mostly two or three films; stacking them full-width
+  // wastes most of every row, so they flow side by side instead.
+  const packedGroups = sortBy === 'collection';
 
   const adminIndexOf = useCallback(
     (entry) => entries.findIndex((e) => e.id === entry.id),
@@ -697,23 +742,30 @@ export default function Cinema() {
               </div>
             </div>
 
-            {groups.map((group) => (
-              <div key={group.id} className={styles.group}>
-                {group.label && (
-                  <h2 className={styles.sectionTitle}>
-                    <span className={styles.sectionIcon}>&gt;</span> {group.label}
-                    <span className={styles.groupCount}>{group.items.length}</span>
-                  </h2>
-                )}
-                <EntryGrid
-                  items={group.items}
-                  selectedId={selectedId}
-                  adminIndexOf={adminIndexOf}
-                  onSelect={toggleSelected}
-                  onCloseDetail={clearSelected}
-                />
-              </div>
-            ))}
+            <div className={packedGroups ? styles.groupsPacked : undefined}>
+              {groups.map((group) => (
+                <div
+                  key={group.id}
+                  className={styles.group}
+                  // --span drives the section's width in the packed layout.
+                  style={packedGroups ? { '--span': group.items.length } : undefined}
+                >
+                  {group.label && (
+                    <h2 className={styles.sectionTitle}>
+                      <span className={styles.sectionIcon}>&gt;</span> {group.label}
+                      <span className={styles.groupCount}>{group.items.length}</span>
+                    </h2>
+                  )}
+                  <EntryGrid
+                    items={group.items}
+                    selectedId={selectedId}
+                    adminIndexOf={adminIndexOf}
+                    onSelect={toggleSelected}
+                    onCloseDetail={clearSelected}
+                  />
+                </div>
+              ))}
+            </div>
 
             {visibleEntries.length === 0 && (
               <p className={styles.noResults}>
