@@ -4,6 +4,7 @@ import steamReviewsData from '../../data/steam-reviews.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import SteamFilters from '../SteamFilters/SteamFilters';
+import ReviewModal from './ReviewModal';
 import { trackSteamCuratorClick } from '../../hooks/useVisitorTracking';
 import styles from './SteamReviews.module.css';
 
@@ -12,7 +13,8 @@ const { reviews } = steamReviewsData;
 const STEAM_CURATOR_URL =
   'https://store.steampowered.com/curator/33245545/';
 
-const REVIEWS_PER_PAGE = 10;
+/** A grid fits far more per screen than the list this replaced. */
+const REVIEWS_PER_PAGE = 24;
 
 const SORT_OPTIONS = [
   { key: 'date', label: 'Date (newest)' },
@@ -49,6 +51,17 @@ function sortReviewRows(rows, sortBy, getGameName) {
   return out;
 }
 
+/** "2026-08-19" -> "19 Aug 2026" — the card has no room for the long form. */
+function formatShortDate(value) {
+  const date = new Date(`${value}T00:00:00`);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  });
+}
+
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
   show: { opacity: 1, y: 0, transition: { duration: 0.3 } },
@@ -56,14 +69,14 @@ const fadeUp = {
 
 const stagger = {
   hidden: {},
-  show: { transition: { staggerChildren: 0.07 } },
+  show: { transition: { staggerChildren: 0.04 } },
 };
 
 export default function SteamReviews({ games }) {
   const [sortBy, setSortBy] = useState('date');
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(1);
-  const [expanded, setExpanded] = useState(() => new Set());
+  const [selected, setSelected] = useState(null);
 
   const gameMap = useMemo(() => {
     const m = {};
@@ -80,30 +93,23 @@ export default function SteamReviews({ games }) {
     [gameMap],
   );
 
+  const closeModal = useCallback(() => setSelected(null), []);
+
   const handleSearchChange = useCallback((value) => {
     setSearch(value);
     setPage(1);
-    setExpanded(new Set());
+    setSelected(null);
   }, []);
 
   const handleSortChange = useCallback((key) => {
     setSortBy(key);
     setPage(1);
-    setExpanded(new Set());
+    setSelected(null);
   }, []);
 
   const handlePageChange = useCallback((next) => {
     setPage(next);
-    setExpanded(new Set());
-  }, []);
-
-  const toggleExpanded = useCallback((key) => {
-    setExpanded((prev) => {
-      const next = new Set(prev);
-      if (next.has(key)) next.delete(key);
-      else next.add(key);
-      return next;
-    });
+    setSelected(null);
   }, []);
 
   const filtered = useMemo(() => {
@@ -153,6 +159,7 @@ export default function SteamReviews({ games }) {
             sortBy={sortBy}
             onSortChange={handleSortChange}
             sortOptions={SORT_OPTIONS}
+            placeholder="Search reviews..."
           />
         </div>
 
@@ -161,7 +168,7 @@ export default function SteamReviews({ games }) {
         ) : (
           <motion.div
             key={`${sortBy}-${search}-${safePage}`}
-            className={styles.list}
+            className={styles.grid}
             variants={stagger}
             initial="hidden"
             animate="show"
@@ -169,35 +176,35 @@ export default function SteamReviews({ games }) {
             {pagedReviews.map((review) => {
               const appId = Number(review.appId);
               const game = gameMap[appId];
-              const pct = review.rating * 10;
+              // Index into the untouched source array — sorting and paging must
+              // not change which entry the admin controls edit.
               const originalIndex = reviews.indexOf(review);
-              const displayName =
-                game?.name ?? review.gameName ?? `App ${appId}`;
+              const displayName = getGameName(review);
               const key = `${appId}-${review.date}-${originalIndex}`;
-              const isOpen = expanded.has(key);
+              // Never inferred from the rating: a 6/10 can still be a negative review.
+              const recommended = Boolean(review.recommended);
 
               return (
                 <motion.article
                   key={key}
-                  className={`${styles.card} ${isOpen ? styles.cardOpen : ''}`}
+                  className={styles.card}
                   variants={fadeUp}
+                  role="button"
+                  tabIndex={0}
+                  aria-label={`${displayName} review`}
+                  onClick={() => setSelected(review)}
+                  onKeyDown={(e) => {
+                    if (e.target !== e.currentTarget) return;
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      setSelected(review);
+                    }
+                  }}
                 >
-                  <div
-                    className={styles.summary}
-                    role="button"
-                    tabIndex={0}
-                    aria-expanded={isOpen}
-                    onClick={() => toggleExpanded(key)}
-                    onKeyDown={(e) => {
-                      if (e.target !== e.currentTarget) return;
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        toggleExpanded(key);
-                      }
-                    }}
-                  >
+                  <div className={styles.cover}>
                     <SteamGameCover
-                      variant="banner"
+                      fill
+                      variant="cover"
                       appId={appId}
                       title={displayName}
                       headerUrl={game?.headerUrl}
@@ -206,90 +213,38 @@ export default function SteamReviews({ games }) {
                       iconUrl={game?.iconUrl}
                       alt={displayName}
                       rootClassName={styles.coverRoot}
-                      imageClassName={styles.coverImage}
+                      imageClassName={styles.coverImg}
                     />
-
-                    <div className={styles.summaryBody}>
-                      <div className={styles.titleRow}>
-                        <h3 className={styles.title}>
-                          {displayName}
-                          <EditableItemControls index={originalIndex} />
-                        </h3>
-                        <span
-                          className={`${styles.badge} ${review.recommended ? styles.recommended : styles.notRecommended}`}
-                        >
-                          {review.recommended ? 'RECOMMENDED' : 'NOT RECOMMENDED'}
-                        </span>
-                      </div>
-
-                      <div className={styles.ratingRow}>
-                        <span className={styles.ratingValue}>
-                          {review.rating}/10
-                        </span>
-                        <div className={styles.ratingTrack}>
-                          <div
-                            className={styles.ratingFill}
-                            style={{ width: `${pct}%` }}
-                          />
-                        </div>
-                        <span className={styles.date}>{review.date}</span>
-                      </div>
-                    </div>
-
                     <span
-                      className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`}
-                      aria-hidden="true"
+                      className={`${styles.badge} ${
+                        recommended ? styles.recommended : styles.notRecommended
+                      }`}
                     >
-                      &#9662;
+                      {recommended ? 'RECOMMENDED' : 'NOT RECOMMENDED'}
                     </span>
                   </div>
 
-                  <AnimatePresence initial={false}>
-                    {isOpen && (
-                      <motion.div
-                        className={styles.detail}
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.25, ease: 'easeInOut' }}
-                      >
-                        <div className={styles.detailInner}>
-                          <h4 className={styles.reviewTitle}>{review.title}</h4>
-                          <p className={styles.text}>{review.text}</p>
+                  <div className={styles.info}>
+                    <p className={styles.name} title={displayName}>
+                      {displayName}
+                    </p>
+                    <div className={styles.meta}>
+                      <span className={styles.score}>{review.rating}/10</span>
+                      <span className={styles.date}>
+                        {formatShortDate(review.date)}
+                      </span>
+                    </div>
+                  </div>
 
-                          {(review.pros?.length > 0 ||
-                            review.cons?.length > 0) && (
-                            <div className={styles.proscons}>
-                              {review.pros?.length > 0 && (
-                                <div className={styles.column}>
-                                  <span className={styles.columnLabel}>
-                                    + PROS
-                                  </span>
-                                  <ul className={styles.bulletList}>
-                                    {review.pros.map((p, i) => (
-                                      <li key={i}>{p}</li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              )}
-                              {review.cons?.length > 0 && (
-                                <div className={styles.column}>
-                                  <span className={styles.columnLabel}>
-                                    - CONS
-                                  </span>
-                                  <ul className={styles.bulletList}>
-                                    {review.cons.map((c, i) => (
-                                      <li key={i}>{c}</li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              )}
-                            </div>
-                          )}
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+                  {/* Editing a review shouldn't also pop the reader open. */}
+                  <span
+                    className={styles.adminControls}
+                    onClick={(e) => e.stopPropagation()}
+                    onKeyDown={(e) => e.stopPropagation()}
+                    role="presentation"
+                  >
+                    <EditableItemControls index={originalIndex} />
+                  </span>
                 </motion.article>
               );
             })}
@@ -320,6 +275,17 @@ export default function SteamReviews({ games }) {
             </button>
           </div>
         )}
+
+        <AnimatePresence>
+          {selected && (
+            <ReviewModal
+              review={selected}
+              game={gameMap[Number(selected.appId)]}
+              displayName={getGameName(selected)}
+              onClose={closeModal}
+            />
+          )}
+        </AnimatePresence>
       </>
     </EditableSection>
   );

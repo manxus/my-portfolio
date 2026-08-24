@@ -6,7 +6,7 @@
   margin-bottom: 1rem;
 }
 
-/* SteamFilters (search + sort) fills the space next to the curator link. */
+/* Lets SteamFilters take the room the curator link doesn't need. */
 .sortBar > div {
   flex: 1;
   min-width: 0;
@@ -38,12 +38,6 @@
   background: var(--bg-hover);
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
 .empty {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -52,222 +46,128 @@
   padding: 3rem 1rem;
 }
 
-/* ---- Review card (collapsible) ---- */
+/* ---------- grid ---------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1.1rem 0.9rem;
+}
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   background: var(--bg-secondary);
   border: 1px solid rgba(95, 143, 143, 0.1);
-  transition: border-color var(--transition-fast);
-}
-
-.cardOpen {
-  border-color: var(--accent-dim);
-}
-
-/* ---- Summary row (always visible, clickable) ---- */
-
-.summary {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  width: 100%;
-  padding: 0.75rem 0.9rem;
-  background: none;
-  border: none;
-  text-align: left;
   cursor: pointer;
-  transition: background var(--transition-fast);
+  transition:
+    border-color var(--transition-fast),
+    transform var(--transition-fast);
 }
 
-.summary:hover {
-  background: var(--bg-hover);
+.card:hover,
+.card:focus-visible {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.cover {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
 }
 
 .coverRoot {
-  width: 130px;
-  aspect-ratio: 460 / 215;
-  align-self: center;
-  flex-shrink: 0;
-  border: 1px solid rgba(95, 143, 143, 0.1);
+  position: absolute;
+  inset: 0;
 }
 
-.coverImage {
+.coverImg {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 
-.summaryBody {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.titleRow {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.title {
-  font-family: var(--font-heading);
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  letter-spacing: 0.03em;
-}
-
+/* Verdict sits on the art so it reads before anything else. currentColor drives
+   text and border together, so each state only declares one colour. */
 .badge {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  display: inline-block;
   font-family: var(--font-mono);
   font-size: 0.5rem;
-  letter-spacing: 0.1em;
-  padding: 0.15rem 0.45rem;
-  border: 1px solid;
-  flex-shrink: 0;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid currentColor;
+  background: var(--bg-gradient-shadow);
+  backdrop-filter: blur(2px);
 }
 
+/* Teal / red is the site's positive-negative pair — there is no green token,
+   and both survive the light-theme switch. */
 .recommended {
   color: var(--accent-bright);
-  border-color: var(--accent-dim);
 }
 
 .notRecommended {
   color: var(--danger);
-  border-color: var(--danger-dim);
 }
 
-/* ---- Rating (in summary row) ---- */
-
-.ratingRow {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.ratingValue {
-  font-family: var(--font-heading);
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--accent-bright);
-  flex-shrink: 0;
-}
-
-.ratingTrack {
-  flex: 1;
-  height: 4px;
-  background: var(--bg-hover);
-  overflow: hidden;
-  max-width: 200px;
-}
-
-.ratingFill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--accent-dim), var(--accent-bright));
-  transition: width 0.6s ease-out;
-}
-
-.date {
-  font-family: var(--font-mono);
-  font-size: 0.55rem;
-  color: var(--text-dim);
-  letter-spacing: 0.06em;
-  flex-shrink: 0;
-}
-
-.chevron {
-  flex-shrink: 0;
-  align-self: center;
-  color: var(--accent);
-  font-size: 0.7rem;
-  line-height: 1;
-  transition: transform var(--transition-fast);
-}
-
-.chevronOpen {
-  transform: rotate(180deg);
-}
-
-/* ---- Collapsible detail ---- */
-
-.detail {
-  overflow: hidden;
-}
-
-.detailInner {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  padding: 0.85rem 0.9rem 1rem;
-  border-top: 1px solid rgba(95, 143, 143, 0.1);
-}
-
-.reviewTitle {
-  font-family: var(--font-heading);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  letter-spacing: 0.03em;
-}
-
-/* ---- Text ---- */
-
-.text {
-  font-family: var(--font-body);
-  font-size: 0.78rem;
-  color: var(--text-secondary);
-  line-height: 1.65;
-  white-space: pre-line;
-}
-
-/* ---- Pros / Cons ---- */
-
-.proscons {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.column {
+.info {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  padding: 0.5rem 0.55rem 0.6rem;
+  flex: 1;
 }
 
-.columnLabel {
+.name {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+  margin: 0 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.score {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+}
+
+/* --text-dim fails contrast at this size; the Cinema grid made the same call. */
+.date {
   font-family: var(--font-mono);
   font-size: 0.55rem;
-  letter-spacing: 0.12em;
-  color: var(--accent);
-}
-
-.bulletList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-}
-
-.bulletList li {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
+  letter-spacing: 0.06em;
   color: var(--text-secondary);
-  padding-left: 0.85rem;
-  position: relative;
 }
 
-.bulletList li::before {
-  content: '>';
+/* Admin edit/move/delete, revealed on hover like the Cinema cards. */
+.adminControls {
   position: absolute;
-  left: 0;
-  color: var(--accent-dim);
+  top: 0.4rem;
+  right: 0.4rem;
 }
 
-/* ---- Pagination ---- */
+/* ---------- pagination ---------- */
 
 .pagination {
   display: flex;
@@ -316,16 +216,13 @@
 }
 
 @media (max-width: 768px) {
-  .summary {
-    flex-wrap: wrap;
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 0.8rem 0.6rem;
   }
 
-  .coverRoot {
-    width: 96px;
-  }
-
-  .proscons {
-    gap: 1rem;
+  .name {
+    font-size: 0.72rem;
   }
 
   .pagination {

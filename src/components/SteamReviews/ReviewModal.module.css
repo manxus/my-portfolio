@@ -1,0 +1,256 @@
+/* Shell mirrors PatchModal so the popup reads as the same furniture. */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  width: 100%;
+  max-width: 660px;
+  /* Bodies run to ~2600 characters, so the panel scrolls rather than the page. */
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 1.5rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  /* Comfortable target, and clear of the artwork below. */
+  min-width: 32px;
+  min-height: 32px;
+  cursor: pointer;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.closeButton:hover {
+  color: var(--accent-bright);
+  border-color: var(--accent-dim);
+}
+
+/* ---------- header: art + verdict ---------- */
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  /* Room for the close button. */
+  padding-right: 2.5rem;
+}
+
+.coverRoot {
+  width: 190px;
+  aspect-ratio: 460 / 215;
+  flex-shrink: 0;
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  overflow: hidden;
+}
+
+.coverImage {
+  object-fit: cover;
+}
+
+.verdict {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.gameName {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.verdictLine {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+/* Teal / red is the site's established positive-negative pair — there is no
+   green token, and both sides survive the light-theme switch. */
+.recommended {
+  color: var(--accent-bright);
+}
+
+.notRecommended {
+  color: var(--danger);
+}
+
+.hours {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(95, 143, 143, 0.15);
+}
+
+/* ---------- body ---------- */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.reviewTitle {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* ---------- rating + pros/cons ---------- */
+
+.ratingRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.ratingValue {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+}
+
+.ratingTrack {
+  flex: 1;
+  height: 4px;
+  max-width: 200px;
+  background: var(--bg-hover);
+  overflow: hidden;
+}
+
+.ratingFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-dim), var(--accent-bright));
+}
+
+.proscons {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.columnLabel {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+
+.bulletList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bulletList li {
+  position: relative;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  padding-left: 0.85rem;
+}
+
+.bulletList li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: var(--accent-dim);
+}
+
+/* ---------- footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 0.25rem;
+}
+
+.posted,
+.escHint {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+@media (max-width: 560px) {
+  .overlay {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .modal {
+    padding: 1.1rem;
+    gap: 0.7rem;
+  }
+
+  /* The banner would squeeze the verdict into a sliver at this width. */
+  .header {
+    flex-direction: column;
+    padding-right: 2rem;
+  }
+
+  .coverRoot {
+    width: 100%;
+  }
+
+  .proscons {
+    gap: 1rem;
+  }
+}

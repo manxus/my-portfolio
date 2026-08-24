@@ -184,7 +184,7 @@
       ]
     },
     {
-      "appId": 1390250,
+      "appId": 1390350,
       "gameName": "Webbed",
       "rating": 8,
       "title": "Charming, Creative, and Surprisingly Clever",
@@ -670,6 +670,28 @@
       "cons": [
         "Moving objects can feel a little clunky",
         "Click-to-move takes some getting used to"
+      ]
+    },
+    {
+      "appId": 1087760,
+      "gameName": "The Gunk",
+      "rating": 7,
+      "title": "A Beautiful World Worth Cleaning Up",
+      "text": "The Gunk is a fun exploration game with a satisfying cleaning mechanic and a beautiful world.\r\n\r\nThe general gameplay feels solid, with smooth and responsive movement. Exploring is rewarding thanks to optional paths that lead to extra resources, which can be used to build upgrades. The upgrades aren't anything too crazy, but they feel meaningful and progression moves at a good pace. I also liked that you can backtrack.\r\n\r\nThe scanning mechanic was more mixed for me. Since scanning unique things unlocks upgrades, I often found myself scanning everything because I didn't want to miss anything. It took me a while to realize there are icons showing whether something has already been scanned, and the short scanning range meant I still had to get fairly close to objects to check them.\r\n\r\nCleaning up the Gunk is mostly satisfying, especially when you see the environment transform back into something more colorful and full of life. It can get a little slow and repetitive at times, though.\r\n\r\nThe puzzles are alright and generally quite easy, but I think they have a good balance and don't take too much focus away from the story. I also liked how they use the game's mechanics and environments.\r\n\r\nThe game looks beautiful and has a great atmosphere. There is some variation between areas, although most of them naturally have a similar vibe since you're exploring the same planet. Seeing the world change as you clean it was a highlight.\r\n\r\nThe story kept me engaged throughout, although I found the characters themselves less interesting. The music, sound design, and voice acting are all good and contribute nicely to the atmosphere.\r\n\r\nIt's a little short, but the pacing is good throughout, so I didn't mind the length.\r\n\r\nI did encounter a spot where I became completely stuck and had to reload the latest checkpoint. Luckily, it wasn't far back. Towards the end, I also experienced a huge performance drop on the large elevator, with the framerate dropping to around 10 FPS.\r\n\r\nOverall, I really enjoyed The Gunk and would definitely recommend it.",
+      "date": "2026-08-19",
+      "recommended": true,
+      "pros": [
+        "Smooth and responsive controls",
+        "Fun exploration with optional paths",
+        "Meaningful progression and upgrades",
+        "Satisfying world restoration",
+        "Beautiful visuals and atmosphere"
+      ],
+      "cons": [
+        "Short scanning range",
+        "Cleaning can feel repetitive at times",
+        "Some performance issues",
+        ""
       ]
     }
   ]
