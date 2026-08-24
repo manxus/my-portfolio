@@ -1,28 +1,102 @@
 {
   "changelog": [
     {
-      "version": "1.6.7",
+      "version": "1.12.0",
+      "date": "2026-08-24",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Cinema recommendations (dev admin) — a RECOMMENDED tab surfacing titles that are on none of the lists yet, drawn from new releases, your favourites and watch history, acclaimed older films, and your most-watched genres, with one-click add to watchlist and a not-interested list"
+        },
+        {
+          "type": "added",
+          "text": "Cinema franchise gaps — the same tab suggests films missing from collections already part-watched, with the Marvel and DC shared universes enumerated by keyword since neither exists as a TMDB collection"
+        },
+        {
+          "type": "added",
+          "text": "Cinema watchlist — a FINISHING filter for queued films that would carry a franchise you have started further along, grouped by franchise with progress in each heading"
+        },
+        {
+          "type": "added",
+          "text": "Steam review reader — opening a review shows cover art, the verdict, hours on record, the full write-up, the score and the pros and cons"
+        },
+        {
+          "type": "changed",
+          "text": "Steam Library reviews are a grid of cover art with the verdict on every card, replacing the list of expanding rows"
+        },
+        {
+          "type": "changed",
+          "text": "Patch notes renumbered so the version reflects the size of a release — new pages, tabs and systems move the middle number, content and fixes the last. The two Games releases are merged into one, and the per-game entries no longer list every individual stat"
+        },
+        {
+          "type": "changed",
+          "text": "Tabletop covers sit in a square frame, so the mostly-square box art fills the card instead of leaving a strip of empty space above and below"
+        },
+        {
+          "type": "changed",
+          "text": "Main menu — Side Projects is now Projects"
+        },
+        {
+          "type": "fixed",
+          "text": "Battlefield 4 kits were laid out as one non-wrapping row roughly 900px wide: four of the five were off-screen and unreachable on a phone, and the last was cut off in the desktop split view"
+        },
+        {
+          "type": "fixed",
+          "text": "Cinema filter bar left a tall empty gap under the search box on phones — the block kept a 300px flex basis that became a height once the bar stacked"
+        },
+        {
+          "type": "fixed",
+          "text": "Journey map never applied its zoom and pan limits; the call that set them threw, which also skipped the fit-to-pins that followed it"
+        },
+        {
+          "type": "fixed",
+          "text": "Steam review for Webbed showed another game’s artwork — the stored app id was one digit out and pointed at a different title"
+        }
+      ]
+    },
+    {
+      "version": "1.11.0",
       "date": "2026-08-22",
       "entries": [
         {
           "type": "added",
-          "text": "Team Fortress 2 career record — all nine classes ranked by kills with damage, damage-per-minute, time in class and share of that time; a 12-cell career grid over 4,019 kills and 780,136 damage; the class specialities only one or two classes ever move (28,499 health healed, 434 headshots, 281 backstabs, 10 ÜberCharges); and Mann vs Machine at 1,539 robots and 10,617 credits"
+          "text": "Games page (DLCS // DOWNLOAD 03) — a tabbed home for per-game stat pages, covering seven games"
         },
         {
           "type": "added",
-          "text": "PAYDAY 2 CRIME.NET record — level 100 with 693 of 964 heists completed at 71.9%, $1.2M offshore, 66 weapons ranked by kills with accuracy and shots, 49 enemy types over 67,588 kills, the spread across all seven difficulty tiers, and 30 melee weapons and throwables"
+          "text": "Battlefield 4 service record — a rank dossier, career grid, kits with service stars, and weapons and vehicles behind category filters"
         },
         {
           "type": "added",
-          "text": "Satisfactory pioneer record — 111.3km of conveyor belt, 61,832 foundations (about 396 hectares paved), 18.5km of pipeline and 14.1km of railway, 27 milestones broken down by tier, 52 alternate recipes, and the FICSIT anomalies down to 304 coffees and two tamed lizard doggos"
+          "text": "Battlefield 4 assignments — all 108 tracked with badge art, per-task progress, rewards and unlock prerequisites, tagged by paid expansion with the DLC badge art"
         },
         {
           "type": "added",
-          "text": "Deep Rock Galactic mission log — 201 missions and 196 milestones, 39,195 weakspots hit, 65 dreadnaughts and 1,535 lootbugs, hazard no-fail streaks, and the Rock and Stone counters including 76 jukebox songs and 4,603 seconds spent dancing"
+          "text": "Counter-Strike 2 career stats — headline tiles, a service record, weapons ranked by kills, maps as win-rate bars, and objective counters"
         },
         {
           "type": "added",
-          "text": "Build-time sync scripts and GitHub workflows for all four games, staggered through Monday morning so they never contend for the Steam API key, plus a shared helper module the four scripts read Steam through"
+          "text": "RuneScape profile — skills with virtual levels and XP progress, quest completion broken down by difficulty, and the recent adventurer’s log"
+        },
+        {
+          "type": "added",
+          "text": "Team Fortress 2 career record — all nine classes ranked by kills, a career grid, the class specialities, and Mann vs Machine totals"
+        },
+        {
+          "type": "added",
+          "text": "PAYDAY 2 CRIME.NET record — heist completion and offshore balance, weapons ranked by kills, enemy types, and the spread across difficulty tiers"
+        },
+        {
+          "type": "added",
+          "text": "Satisfactory pioneer record — belt, foundation, pipeline and railway totals, milestones broken down by tier, alternate recipes, and the FICSIT anomalies"
+        },
+        {
+          "type": "added",
+          "text": "Deep Rock Galactic mission log — missions and milestones, weakspots, dreadnaughts and lootbugs, hazard no-fail streaks, and the Rock and Stone counters"
+        },
+        {
+          "type": "added",
+          "text": "Build-time sync scripts and GitHub workflows for all seven games, staggered through Monday morning so they never contend for the Steam API key, plus a shared helper module the scripts read Steam through"
         },
         {
           "type": "added",
@@ -34,7 +108,7 @@
         },
         {
           "type": "added",
-          "text": "Battlefield 4 assignments tagged by paid expansion, with the DLC badge art for China Rising, Second Assault, Naval Strike, Dragon’s Teeth and Final Stand"
+          "text": "Steam written review: Inked: A Tale of Love"
         },
         {
           "type": "changed",
@@ -43,6 +117,14 @@
         {
           "type": "changed",
           "text": "Battlefield 4, Counter-Strike 2 and RuneScape share one game-page toolkit — the container-width layout hook, number formatting, filter chips, stat rows and record grids live in one place instead of a copy per page"
+        },
+        {
+          "type": "changed",
+          "text": "Steam tier list — nine more games placed"
+        },
+        {
+          "type": "changed",
+          "text": "Dev admin — the RuneScape character panel (display name, tagline, note, and image override) is editable in place, and the sync preserves those edits"
         },
         {
           "type": "fixed",
@@ -59,49 +141,7 @@
       ]
     },
     {
-      "version": "1.6.6",
-      "date": "2026-08-19",
-      "entries": [
-        {
-          "type": "added",
-          "text": "Games page (DLCS // DOWNLOAD 03) — a tabbed home for per-game stat pages, starting with Battlefield 4, Counter-Strike 2, and RuneScape"
-        },
-        {
-          "type": "added",
-          "text": "Battlefield 4 service record — rank 118 dossier with K/D, SPM, accuracy and time played, a 16-cell career grid, kits with service stars, and 101 weapons and 37 vehicles behind category filters"
-        },
-        {
-          "type": "added",
-          "text": "Battlefield 4 assignments — all 108 tracked across 6 groups (61 complete) with badge art, per-task progress, rewards, and unlock prerequisites"
-        },
-        {
-          "type": "added",
-          "text": "Counter-Strike 2 career stats — 170,044 kills at 1.39 K/D with headshot, accuracy and ADR tiles, a 16-cell service record, 29 weapons ranked by kills with accuracy and kills-per-shot, 21 maps as win-rate bars, and 14 objective counters"
-        },
-        {
-          "type": "added",
-          "text": "RuneScape profile — 29 skills with virtual levels and XP progress, quest completion broken down by difficulty, and the recent adventurer’s log"
-        },
-        {
-          "type": "added",
-          "text": "Build-time sync scripts and GitHub workflows for all three games, so the pages read committed snapshots and never depend on a third-party API at runtime"
-        },
-        {
-          "type": "added",
-          "text": "Steam written review: Inked: A Tale of Love"
-        },
-        {
-          "type": "changed",
-          "text": "Steam tier list — nine more games placed"
-        },
-        {
-          "type": "changed",
-          "text": "Dev admin — the RuneScape character panel (display name, tagline, note, and image override) is editable in place, and the sync preserves those edits"
-        }
-      ]
-    },
-    {
-      "version": "1.6.5",
+      "version": "1.10.1",
       "date": "2026-08-15",
       "entries": [
         {
@@ -127,7 +167,7 @@
       ]
     },
     {
-      "version": "1.6.4",
+      "version": "1.10.0",
       "date": "2026-08-04",
       "entries": [
         {
@@ -149,7 +189,7 @@
       ]
     },
     {
-      "version": "1.6.3",
+      "version": "1.9.1",
       "date": "2026-07-16",
       "entries": [
         {
@@ -175,7 +215,7 @@
       ]
     },
     {
-      "version": "1.6.2",
+      "version": "1.9.0",
       "date": "2026-07-15",
       "entries": [
         {
@@ -217,7 +257,7 @@
       ]
     },
     {
-      "version": "1.6.1",
+      "version": "1.8.0",
       "date": "2026-07-14",
       "entries": [
         {
@@ -255,7 +295,7 @@
       ]
     },
     {
-      "version": "1.6.0",
+      "version": "1.7.0",
       "date": "2026-07-09",
       "entries": [
         {
@@ -285,7 +325,7 @@
       ]
     },
     {
-      "version": "1.5.0",
+      "version": "1.6.0",
       "date": "2026-07-05",
       "entries": [
         {
@@ -311,7 +351,7 @@
       ]
     },
     {
-      "version": "1.4.0",
+      "version": "1.5.0",
       "date": "2026-07-05",
       "entries": [
         {
@@ -325,7 +365,7 @@
       ]
     },
     {
-      "version": "1.3.0",
+      "version": "1.4.0",
       "date": "2026-07-04",
       "entries": [
         {
@@ -367,7 +407,7 @@
       ]
     },
     {
-      "version": "1.2.1",
+      "version": "1.3.0",
       "date": "2026-07-02",
       "entries": [
         {
@@ -411,7 +451,7 @@
       ]
     },
     {
-      "version": "1.1.6",
+      "version": "1.1.1",
       "date": "2026-06-23",
       "entries": [
         {
@@ -425,7 +465,7 @@
       ]
     },
     {
-      "version": "1.1.5",
+      "version": "1.1.0",
       "date": "2026-05-15",
       "entries": [
         {
@@ -443,7 +483,7 @@
       ]
     },
     {
-      "version": "1.1.4",
+      "version": "1.0.5",
       "date": "2026-05-01",
       "entries": [
         {
@@ -469,7 +509,7 @@
       ]
     },
     {
-      "version": "1.1.3",
+      "version": "1.0.4",
       "date": "2026-04-18",
       "entries": [
         {
@@ -491,7 +531,7 @@
       ]
     },
     {
-      "version": "1.1.2",
+      "version": "1.0.3",
       "date": "2026-04-11",
       "entries": [
         {
@@ -517,7 +557,7 @@
       ]
     },
     {
-      "version": "1.1.1",
+      "version": "1.0.2",
       "date": "2026-04-02",
       "entries": [
         {
@@ -531,7 +571,7 @@
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "1.0.1",
       "date": "2026-04-01",
       "entries": [
         {
@@ -549,7 +589,7 @@
       ]
     },
     {
-      "version": "1.0",
+      "version": "1.0.0",
       "date": "2026-03-29",
       "entries": [
         {

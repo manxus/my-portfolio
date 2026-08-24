@@ -14,19 +14,6 @@
       "id": 1
     },
     {
-      "title": " Heroes of Might and Magic III: The Board Game",
-      "designer": "Kamil Białkowski, Jakub S. Olekszyk",
-      "featured": false,
-      "owned": true,
-      "wins": "",
-      "losses": "",
-      "playerCount": "1-3",
-      "description": "",
-      "coverUrl": "https://cf.geekdo-images.com/oI8jrUmwBtlWyCiIuYH6YQ__itemrep/img/zTojsO6Ou7Si2iUOffU6eDGl7pY=/fit-in/246x300/filters:strip_icc()/pic8107311.jpg",
-      "bggUrl": "https://boardgamegeek.com/boardgame/355326/heroes-of-might-and-magic-iii-the-board-game",
-      "id": 2
-    },
-    {
       "title": "Catan",
       "designer": "Klaus Teuber",
       "featured": true,
@@ -79,6 +66,19 @@
       "id": 6
     },
     {
+      "title": " Heroes of Might and Magic III: The Board Game",
+      "designer": "Kamil Białkowski, Jakub S. Olekszyk",
+      "featured": false,
+      "owned": true,
+      "wins": "",
+      "losses": "",
+      "playerCount": "1-3",
+      "description": "",
+      "coverUrl": "https://cf.geekdo-images.com/oI8jrUmwBtlWyCiIuYH6YQ__itemrep/img/zTojsO6Ou7Si2iUOffU6eDGl7pY=/fit-in/246x300/filters:strip_icc()/pic8107311.jpg",
+      "bggUrl": "https://boardgamegeek.com/boardgame/355326/heroes-of-might-and-magic-iii-the-board-game",
+      "id": 2
+    },
+    {
       "title": "Fallout",
       "designer": "Andrew Fischer, Nathan I. Hajek",
       "featured": false,
@@ -90,19 +90,6 @@
       "coverUrl": "https://cf.geekdo-images.com/9gjrMWDqLCBb-G0AYbKuSQ__itemrep/img/lBuJZXb41_h_CQsAfIshMiTNHKg=/fit-in/246x300/filters:strip_icc()/pic3728149.jpg",
       "bggUrl": "https://boardgamegeek.com/boardgame/232918/fallout",
       "id": 7
-    },
-    {
-      "title": "Coup",
-      "designer": "Rikki Tahta",
-      "featured": false,
-      "owned": true,
-      "wins": "",
-      "losses": "",
-      "playerCount": "2-6",
-      "description": "",
-      "coverUrl": "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__itemrep/img/QRw3T5XGsrRs-QKCSpzwE7nFqOg=/fit-in/246x300/filters:strip_icc()/pic2016054.jpg",
-      "bggUrl": "https://boardgamegeek.com/boardgame/131357/coup",
-      "id": 8
     },
     {
       "title": "Ticket to Ride: Europe",
@@ -131,6 +118,19 @@
       "id": 10
     },
     {
+      "title": "Deep Rock Galactic: The Board Game",
+      "designer": "Ole Steiness",
+      "featured": false,
+      "owned": true,
+      "wins": "",
+      "losses": "",
+      "playerCount": "1–4",
+      "description": "",
+      "coverUrl": "https://cf.geekdo-images.com/LlbizD6pMEMBm2pzYg8QVA__itemrep/img/MgpXtdMdslEkaWRCmeg1_lHpbu0=/fit-in/246x300/filters:strip_icc()/pic6653293.jpg",
+      "bggUrl": "https://boardgamegeek.com/boardgame/348220/deep-rock-galactic-the-board-game",
+      "id": 12
+    },
+    {
       "title": "Munchkin",
       "designer": "Steve Jackson",
       "featured": false,
@@ -144,17 +144,17 @@
       "id": 11
     },
     {
-      "title": "Deep Rock Galactic: The Board Game",
-      "designer": "Ole Steiness",
+      "title": "Coup",
+      "designer": "Rikki Tahta",
       "featured": false,
       "owned": true,
       "wins": "",
       "losses": "",
-      "playerCount": "1–4",
+      "playerCount": "2-6",
       "description": "",
-      "coverUrl": "https://cf.geekdo-images.com/LlbizD6pMEMBm2pzYg8QVA__itemrep/img/MgpXtdMdslEkaWRCmeg1_lHpbu0=/fit-in/246x300/filters:strip_icc()/pic6653293.jpg",
-      "bggUrl": "https://boardgamegeek.com/boardgame/348220/deep-rock-galactic-the-board-game",
-      "id": 12
+      "coverUrl": "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__itemrep/img/QRw3T5XGsrRs-QKCSpzwE7nFqOg=/fit-in/246x300/filters:strip_icc()/pic2016054.jpg",
+      "bggUrl": "https://boardgamegeek.com/boardgame/131357/coup",
+      "id": 8
     },
     {
       "title": "Carcassonne",
