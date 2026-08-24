@@ -38,7 +38,7 @@ const pageRoutes = [
   { path: '/qa-portfolio', title: 'QA Portfolio', subtitle: 'STORY // CHAPTER 01', Component: QAPortfolio },
   { path: '/steam-library', title: 'Steam Library', subtitle: 'STORY // CHAPTER 02', Component: SteamLibrary },
   { path: '/resume', title: 'Resume', subtitle: 'DLCS // DOWNLOAD 01', Component: Resume },
-  { path: '/side-projects', title: 'Side Projects', subtitle: 'DLCS // DOWNLOAD 02', Component: SideProjects },
+  { path: '/side-projects', title: 'Projects', subtitle: 'DLCS // DOWNLOAD 02', Component: SideProjects },
   { path: '/games', title: 'Games', subtitle: 'DLCS // DOWNLOAD 03', Component: Games },
   { path: '/tech', title: 'Tech Loadout', subtitle: 'STORY // CHAPTER 03', Component: Tech },
   { path: '/media', title: 'Media', subtitle: 'EXTRA // REPLAY VAULT', Component: Media },

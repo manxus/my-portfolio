@@ -118,7 +118,11 @@
 
 .imageWrap {
   position: relative;
-  aspect-ratio: 246 / 300;
+  /* Twelve of fifteen covers are square 246x246; the old 246/300 box left a
+     strip of dead space above and below each one. Tall covers (Carcassonne,
+     Munchkin, Coup, around 201x300) now fit by height instead, so they simply
+     sit a little smaller inside the same square. */
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   background: var(--bg-hover);
   display: flex;

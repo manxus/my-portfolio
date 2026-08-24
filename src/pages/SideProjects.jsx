@@ -23,8 +23,8 @@ export default function SideProjects() {
         <div className={styles.icon}>&#x1F6A7;</div>
         <h3 className={styles.heading}>UNDER CONSTRUCTION</h3>
         <p className={styles.message}>
-          Side projects are being compiled. Check back soon for personal builds,
-          experiments, and passion projects.
+          Projects are being compiled. Check back soon for personal builds,
+          experiments, and passion pieces.
         </p>
         <div className={styles.statusBar}>
           <span className={styles.statusDot} />
