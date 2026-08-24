@@ -186,7 +186,16 @@
 
 /* ---------- kits ---------- */
 
-.kitList,
+/* The five kits need ~900px side by side, so a fixed row pushed all but the first past the
+   viewport on a phone. auto-fit lets the column count fall out of the container width and
+   collapses to a single stack when only one kit fits. */
+.kitList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.85rem;
+  list-style: none;
+}
+
 .kitRow {
   display: flex;
   align-items: center;

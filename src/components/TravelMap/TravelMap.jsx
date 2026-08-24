@@ -75,7 +75,6 @@ function applyViewportLimits(map, trips, home, hasHome) {
   const fillZoom = getFillZoom(map);
 
   map.setMaxBounds(LATITUDE_MAX_BOUNDS);
-  map.setMaxBoundsViscosity(1);
   map.setMaxZoom(MAX_ZOOM);
   map.setMinZoom(fillZoom);
 
@@ -229,6 +228,7 @@ export default function TravelMap({ trips, home, selectedId, onSelectTrip, onSel
         zoom={3}
         minZoom={2}
         maxZoom={MAX_ZOOM}
+        maxBoundsViscosity={1}
         className={styles.map}
         scrollWheelZoom
         worldCopyJump
