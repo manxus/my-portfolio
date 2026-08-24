@@ -48,6 +48,9 @@ const ALLOWED_FILES = new Set([
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides',
   'media', 'livestream', 'music', 'books', 'tabletop', 'travel', 'credits', 'patchNotes', 'steam-hallofpain',
   'cinema', 'runescape',
+  // Admin-only, and deliberately never imported by a page: keeping the
+  // "not interested" list out of the bundle keeps it out of public view.
+  'cinema-dismissed',
 ]);
 
 async function handleTwitchOembed(req, res) {

@@ -73,9 +73,15 @@ function seasonEpisodeCounts(item) {
     .map((s) => Number(s.episode_count) || 0);
 }
 
-/** Compact shape for the search dropdown. */
-function mapSearchResult(item) {
-  const mediaType = item.media_type === 'tv' ? 'tv' : 'movie';
+/**
+ * Compact shape for the search dropdown and the recommendation grid.
+ *
+ * /discover and the curated lists carry no media_type, so callers that already
+ * know which endpoint they hit pass `forcedType` rather than letting the
+ * media_type check quietly settle on 'movie'.
+ */
+function mapSearchResult(item, forcedType) {
+  const mediaType = forcedType || (item.media_type === 'tv' ? 'tv' : 'movie');
   return {
     tmdbId: item.id,
     mediaType,
@@ -83,6 +89,8 @@ function mapSearchResult(item) {
     year: yearOf(releaseDateOf(item)),
     posterUrl: imageUrl(item.poster_path, POSTER_SIZE),
     overview: String(item.overview ?? '').trim(),
+    voteAverage: Number(item.vote_average) || 0,
+    voteCount: Number(item.vote_count) || 0,
   };
 }
 
@@ -133,6 +141,172 @@ async function fetchTmdb(path, params, apiKey) {
   return upstream.json();
 }
 
+/* ---------- discovery (the admin-only RECOMMENDED tab) ---------- */
+
+const DISCOVERY_LIMIT = 20;
+
+/**
+ * Curated lists, allowlisted per type so `list` can never be used to reach an
+ * arbitrary path under /movie or /tv.
+ */
+const CURATED_LISTS = {
+  movie: new Set(['now_playing', 'upcoming', 'top_rated', 'popular']),
+  tv: new Set(['on_the_air', 'airing_today', 'top_rated', 'popular']),
+};
+
+/**
+ * TMDB genre ids, keyed by the genre names it returns — cinema.json stores the
+ * names, so this is what turns a taste profile back into a discover query.
+ * Movies and shows use different vocabularies (a show has no "Science Fiction",
+ * it has "Sci-Fi & Fantasy"), hence two maps.
+ */
+const GENRE_IDS = {
+  movie: {
+    Action: 28, Adventure: 12, Animation: 16, Comedy: 35, Crime: 80,
+    Documentary: 99, Drama: 18, Family: 10751, Fantasy: 14, History: 36,
+    Horror: 27, Music: 10402, Mystery: 9648, Romance: 10749,
+    'Science Fiction': 878, 'TV Movie': 10770, Thriller: 53, War: 10752,
+    Western: 37,
+  },
+  tv: {
+    'Action & Adventure': 10759, Animation: 16, Comedy: 35, Crime: 80,
+    Documentary: 99, Drama: 18, Family: 10751, Kids: 10762, Mystery: 9648,
+    News: 10763, Reality: 10764, 'Sci-Fi & Fantasy': 10765, Soap: 10766,
+    Talk: 10767, 'War & Politics': 10768, Western: 37,
+  },
+};
+
+/** Movie-only genre names mapped onto their nearest show equivalent. */
+const TV_GENRE_ALIASES = {
+  Action: 'Action & Adventure',
+  Adventure: 'Action & Adventure',
+  'Science Fiction': 'Sci-Fi & Fantasy',
+  Fantasy: 'Sci-Fi & Fantasy',
+  War: 'War & Politics',
+};
+
+function genreIdsFor(names, type) {
+  const table = GENRE_IDS[type];
+  const ids = [];
+  for (const raw of names) {
+    const name = String(raw ?? '').trim();
+    if (!name) continue;
+    const key = type === 'tv' && !table[name] ? TV_GENRE_ALIASES[name] : name;
+    const id = table[key];
+    if (id && !ids.includes(id)) ids.push(id);
+  }
+  return ids;
+}
+
+/** The release-date field discover uses differs per type. */
+function dateKeys(type) {
+  return type === 'tv'
+    ? ['first_air_date.gte', 'first_air_date.lte']
+    : ['primary_release_date.gte', 'primary_release_date.lte'];
+}
+
+function discoverParams(searchParams, type) {
+  const params = {
+    include_adult: 'false',
+    page: '1',
+    sort_by: (searchParams.get('sort') || '').trim() === 'rating'
+      ? 'vote_average.desc'
+      : 'popularity.desc',
+  };
+
+  const genres = (searchParams.get('genres') || '')
+    .split(',')
+    .map((g) => g.trim())
+    .filter(Boolean);
+  const ids = genreIdsFor(genres, type);
+  if (ids.length > 0) params.with_genres = ids.join('|');
+
+  const [gte, lte] = dateKeys(type);
+  const from = (searchParams.get('from') || '').trim();
+  const to = (searchParams.get('to') || '').trim();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(from)) params[gte] = from;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(to)) params[lte] = to;
+
+  // A vote floor is what separates an acclaimed film from one with a single
+  // 10/10 rating; sort_by=vote_average.desc is meaningless without it.
+  const minVotes = Number(searchParams.get('minVotes'));
+  params['vote_count.gte'] = String(Number.isFinite(minVotes) && minVotes > 0 ? minVotes : 300);
+
+  const minRating = Number(searchParams.get('minRating'));
+  if (Number.isFinite(minRating) && minRating > 0) {
+    params['vote_average.gte'] = String(minRating);
+  }
+
+  return params;
+}
+
+/* ---------- franchise gaps ---------- */
+
+const GENRE_DOCUMENTARY = 99;
+/** Keyword results carry shorts and making-ofs; a collection is already curated. */
+const KEYWORD_MIN_VOTES = 200;
+const COLLECTION_MIN_VOTES = 50;
+
+function today() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+/**
+ * Something you could actually watch tonight. Franchises are full of announced
+ * sequels with no date ("Untitled Jurassic World Rebirth Sequel"), tie-in
+ * documentaries, and Marvel's one-shot shorts — none of them a film to suggest.
+ */
+function releasedFeature(item, minVotes) {
+  const date = String(item.release_date || '').trim();
+  if (!date || date > today()) return false;
+  if (Array.isArray(item.genre_ids) && item.genre_ids.includes(GENRE_DOCUMENTARY)) return false;
+  return Number(item.vote_count) >= minVotes;
+}
+
+/**
+ * Every film in a seed film's collection.
+ *
+ * Resolving from a film the library already holds is exact. Matching on the
+ * stored franchise name would not be: tidyCollectionName strips the trailing
+ * " Collection", and names like "The Hunger Games – New Trilogy" would never
+ * round-trip through /search/collection.
+ */
+async function franchiseBySeed(seedId, apiKey) {
+  const movie = await fetchTmdb(`/movie/${seedId}`, {}, apiKey);
+  const collection = movie && movie.belongs_to_collection;
+  // Most films belong to no collection at all — an empty answer, not a failure.
+  if (!collection) return [];
+
+  const data = await fetchTmdb(`/collection/${collection.id}`, {}, apiKey);
+  return (Array.isArray(data.parts) ? data.parts : [])
+    .filter((part) => releasedFeature(part, COLLECTION_MIN_VOTES))
+    .map((part) => mapSearchResult(part, 'movie'));
+}
+
+/**
+ * Shared universes (the MCU, the DCEU) are named after a TMDB *keyword*, not a
+ * collection, so they have to be enumerated the same way they were named.
+ */
+async function franchiseByKeyword(keywordId, apiKey) {
+  const data = await fetchTmdb(
+    '/discover/movie',
+    {
+      with_keywords: keywordId,
+      sort_by: 'popularity.desc',
+      'release_date.lte': today(),
+      'vote_count.gte': String(KEYWORD_MIN_VOTES),
+      without_genres: String(GENRE_DOCUMENTARY),
+      include_adult: 'false',
+      page: '1',
+    },
+    apiKey,
+  );
+
+  return (Array.isArray(data.results) ? data.results : []).map((item) =>
+    mapSearchResult(item, 'movie'),
+  );
+}
+
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -165,6 +339,86 @@ module.exports = async (req, res) => {
   const q = (requestUrl.searchParams.get('q') || '').trim();
 
   res.setHeader('Content-Type', 'application/json');
+
+  // Discovery modes, for the admin-only RECOMMENDED tab. Checked before the
+  // details mode because `recommendations` carries an id of its own. All three
+  // return the same compact { results } shape the search dropdown consumes.
+  const mode = (requestUrl.searchParams.get('mode') || '').trim();
+  if (mode) {
+    const type = (requestUrl.searchParams.get('type') || '').trim();
+    if (type !== 'movie' && type !== 'tv') {
+      res.statusCode = 400;
+      return res.end(JSON.stringify({ error: 'type must be "movie" or "tv"' }));
+    }
+
+    // Franchise gaps take two upstream calls and a bespoke filter, so they are
+    // resolved here rather than through the single-fetch path below.
+    if (mode === 'franchise') {
+      const keyword = (requestUrl.searchParams.get('keyword') || '').trim();
+      if (keyword && !/^\d+$/.test(keyword)) {
+        res.statusCode = 400;
+        return res.end(JSON.stringify({ error: 'Invalid keyword' }));
+      }
+      if (!keyword && !/^\d+$/.test(id)) {
+        res.statusCode = 400;
+        return res.end(JSON.stringify({ error: 'franchise needs an id or a keyword' }));
+      }
+
+      try {
+        const results = keyword
+          ? await franchiseByKeyword(keyword, apiKey)
+          : await franchiseBySeed(id, apiKey);
+        res.statusCode = 200;
+        return res.end(JSON.stringify({ results }));
+      } catch (err) {
+        console.error('[tmdb]', err);
+        res.statusCode = 502;
+        return res.end(JSON.stringify({ error: 'Failed to load franchise' }));
+      }
+    }
+
+    let path;
+    let params;
+
+    if (mode === 'list') {
+      const list = (requestUrl.searchParams.get('list') || '').trim();
+      if (!CURATED_LISTS[type].has(list)) {
+        res.statusCode = 400;
+        return res.end(JSON.stringify({ error: `Unknown list for ${type}` }));
+      }
+      path = `/${type}/${list}`;
+      params = { page: '1' };
+    } else if (mode === 'recommendations') {
+      if (!/^\d+$/.test(id)) {
+        res.statusCode = 400;
+        return res.end(JSON.stringify({ error: 'Invalid id' }));
+      }
+      path = `/${type}/${id}/recommendations`;
+      params = { page: '1' };
+    } else if (mode === 'discover') {
+      path = `/discover/${type}`;
+      params = discoverParams(requestUrl.searchParams, type);
+    } else {
+      res.statusCode = 400;
+      return res.end(JSON.stringify({ error: 'Unknown mode' }));
+    }
+
+    try {
+      const data = await fetchTmdb(path, params, apiKey);
+      const results = (Array.isArray(data.results) ? data.results : [])
+        .map((item) => mapSearchResult(item, type))
+        // A recommendation card is mostly its poster, so drop the artless ones.
+        .filter((item) => item.title && item.posterUrl)
+        .slice(0, DISCOVERY_LIMIT);
+
+      res.statusCode = 200;
+      return res.end(JSON.stringify({ results }));
+    } catch (err) {
+      console.error('[tmdb]', err);
+      res.statusCode = 502;
+      return res.end(JSON.stringify({ error: 'Failed to load recommendations' }));
+    }
+  }
 
   // Details mode: /api/tmdb?id=<tmdbId>&type=<movie|tv>
   if (id) {
@@ -210,7 +464,8 @@ module.exports = async (req, res) => {
 
     const results = (Array.isArray(data.results) ? data.results : [])
       .filter((item) => item.media_type === 'movie' || item.media_type === 'tv')
-      .map(mapSearchResult)
+      // Not a bare .map(mapSearchResult) — that hands the array index to forcedType.
+      .map((item) => mapSearchResult(item))
       .filter((item) => item.title)
       .slice(0, SEARCH_LIMIT);
 

@@ -5,6 +5,8 @@ import {
   useLayoutEffect,
   useMemo,
   useCallback,
+  lazy,
+  Suspense,
 } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import cinemaData from '../data/cinema.json';
@@ -18,10 +20,23 @@ import {
   nextEpisode,
   totalEpisodes as sumSeasons,
 } from '../utils/episodes';
-import { groupByCollection } from '../utils/collections';
+import {
+  franchiseProgress,
+  groupByCollection,
+  unfinishedFranchiseIds,
+} from '../utils/collections';
 import styles from './Cinema.module.css';
 
 const defaultEntries = cinemaData.entries || [];
+
+/**
+ * Admin-only, so it is pulled in behind a DEV check rather than imported at the
+ * top: a static import would ship the panel and its TMDB discovery code to
+ * every visitor, even though nobody could ever reach the tab in production.
+ */
+const CinemaRecommendations = import.meta.env.DEV
+  ? lazy(() => import('../components/CinemaRecommendations/CinemaRecommendations'))
+  : null;
 
 const stagger = {
   hidden: {},
@@ -98,11 +113,21 @@ const TAB_FILTERS = {
   watchlist: isQueued,
 };
 
-/** Media-type filter offered on the WATCHLIST tab. */
+/**
+ * Filters offered on the WATCHLIST tab.
+ *
+ * FINISHING needs to know about the rest of the library, not just the entry in
+ * front of it, so predicates take the set of loose-end ids as a second argument.
+ */
 const WATCHLIST_TYPES = [
   { id: 'all', label: 'ALL', match: () => true },
   { id: 'movies', label: 'MOVIES', match: (e) => !isShow(e) },
   { id: 'shows', label: 'SHOWS', match: isShow },
+  {
+    id: 'finishing',
+    label: 'FINISHING',
+    match: (e, unfinishedIds) => unfinishedIds.has(e.tmdbId),
+  },
 ];
 
 const DEFAULT_WATCHLIST_TYPE = 'all';
@@ -116,6 +141,37 @@ function matchesSearch(entry, query) {
  * Empty sections are dropped, and anything with an unrecognised status still
  * gets a home rather than vanishing from the tab.
  */
+/**
+ * Franchise sections for the FINISHING filter, closest to complete first, each
+ * headed with how far along it is — the point of the view is "two more and this
+ * one is done", which a bare franchise name doesn't convey.
+ */
+function groupByFranchiseProgress(list, progress) {
+  const buckets = new Map();
+
+  for (const entry of list) {
+    const name = String(entry.collection ?? '').trim();
+    if (!name) continue;
+    if (!buckets.has(name)) buckets.set(name, []);
+    buckets.get(name).push(entry);
+  }
+
+  return [...buckets.entries()]
+    .map(([name, items]) => {
+      const { watched = 0, total = 0 } = progress.get(name) || {};
+      return {
+        id: `finishing:${name}`,
+        label: name.toUpperCase(),
+        // Rendered on its own line, so a long franchise name can't push the
+        // progress onto a third line and shove this section's cards down.
+        meta: `${watched}/${total} watched`,
+        items,
+        remaining: total - watched,
+      };
+    })
+    .sort((a, b) => a.remaining - b.remaining || a.label.localeCompare(b.label));
+}
+
 function groupForTab(tab, list, sortBy) {
   // The collection sort carries its own sectioning, on any tab that holds movies.
   if (sortBy === 'collection') return groupByCollection(list);
@@ -544,13 +600,17 @@ export default function Cinema() {
   const isAdminUi = import.meta.env.DEV && isAuthenticated;
 
   const [adminEntries, setAdminEntries] = useState(null);
-  const [activeTab, setActiveTab] = useState('overview');
+  const [chosenTab, setActiveTab] = useState('overview');
   const [selectedId, setSelectedId] = useState(null);
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState('title');
   const [watchlistType, setWatchlistType] = useState(DEFAULT_WATCHLIST_TYPE);
 
   const entries = isAdminUi && adminEntries ? adminEntries : defaultEntries;
+
+  // Derived rather than corrected in an effect: logging out with the admin-only
+  // tab open would otherwise strand the page on a tab that no longer exists.
+  const activeTab = !isAdminUi && chosenTab === 'recommended' ? 'overview' : chosenTab;
 
   const refreshAdminEntries = useCallback(async () => {
     try {
@@ -584,8 +644,10 @@ export default function Cinema() {
       { id: 'movies', label: 'MOVIES', count: entries.filter(TAB_FILTERS.movies).length },
       { id: 'shows', label: 'SHOWS', count: entries.filter(TAB_FILTERS.shows).length },
       { id: 'watchlist', label: 'WATCHLIST', count: entries.filter(TAB_FILTERS.watchlist).length },
+      // Countless, like OVERVIEW — the total only settles once TMDB answers.
+      ...(isAdminUi ? [{ id: 'recommended', label: 'RECOMMENDED' }] : []),
     ],
-    [entries],
+    [entries, isAdminUi],
   );
 
   /** Watchlist entries matching the search box, before the type filter. */
@@ -595,12 +657,20 @@ export default function Cinema() {
     return entries.filter((e) => TAB_FILTERS.watchlist(e) && matchesSearch(e, q));
   }, [entries, activeTab, search]);
 
+  /** Queued films that would carry a franchise you have already started further along. */
+  const unfinishedIds = useMemo(() => unfinishedFranchiseIds(entries), [entries]);
+  const progress = useMemo(() => franchiseProgress(entries), [entries]);
+
   const watchlistCounts = useMemo(
     () =>
       Object.fromEntries(
-        WATCHLIST_TYPES.map((t) => [t.id, watchlistSearched.filter(t.match).length]),
+        // Not a bare .filter(t.match) — that hands the array index to the second argument.
+        WATCHLIST_TYPES.map((t) => [
+          t.id,
+          watchlistSearched.filter((e) => t.match(e, unfinishedIds)).length,
+        ]),
       ),
-    [watchlistSearched],
+    [watchlistSearched, unfinishedIds],
   );
 
   const visibleEntries = useMemo(() => {
@@ -612,20 +682,26 @@ export default function Cinema() {
 
     if (activeTab === 'watchlist') {
       const type = WATCHLIST_TYPES.find((t) => t.id === watchlistType);
-      if (type) filtered = filtered.filter(type.match);
+      if (type) filtered = filtered.filter((e) => type.match(e, unfinishedIds));
     }
 
     return sortEntries(filtered, sortBy);
-  }, [entries, activeTab, search, sortBy, watchlistType]);
+  }, [entries, activeTab, search, sortBy, watchlistType, unfinishedIds]);
+
+  // FINISHING is a franchise view, so it sections by franchise whatever the sort.
+  const finishingView = activeTab === 'watchlist' && watchlistType === 'finishing';
 
   const groups = useMemo(
-    () => groupForTab(activeTab, visibleEntries, sortBy),
-    [activeTab, visibleEntries, sortBy],
+    () =>
+      finishingView
+        ? groupByFranchiseProgress(visibleEntries, progress)
+        : groupForTab(activeTab, visibleEntries, sortBy),
+    [finishingView, activeTab, visibleEntries, sortBy, progress],
   );
 
   // Franchise sections are mostly two or three films; stacking them full-width
   // wastes most of every row, so they flow side by side instead.
-  const packedGroups = sortBy === 'collection';
+  const packedGroups = sortBy === 'collection' || finishingView;
 
   const adminIndexOf = useCallback(
     (entry) => entries.findIndex((e) => e.id === entry.id),
@@ -702,6 +778,12 @@ export default function Cinema() {
               onCloseDetail={clearSelected}
             />
           </motion.div>
+        ) : activeTab === 'recommended' && CinemaRecommendations ? (
+          // Ahead of the generic list branch, which assumes a TAB_FILTERS entry
+          // and would otherwise render this tab as an empty grid.
+          <Suspense fallback={<p className={styles.empty}>Loading recommendations…</p>}>
+            <CinemaRecommendations key="recommended" entries={entries} />
+          </Suspense>
         ) : (
           <motion.div
             key={activeTab}
@@ -751,9 +833,19 @@ export default function Cinema() {
                   style={packedGroups ? { '--span': group.items.length } : undefined}
                 >
                   {group.label && (
-                    <h2 className={styles.sectionTitle}>
-                      <span className={styles.sectionIcon}>&gt;</span> {group.label}
-                      <span className={styles.groupCount}>{group.items.length}</span>
+                    <h2
+                      className={`${styles.sectionTitle}${
+                        group.meta ? ` ${styles.progressTitle}` : ''
+                      }`}
+                    >
+                      <span className={group.meta ? styles.progressName : undefined}>
+                        <span className={styles.sectionIcon}>&gt;</span> {group.label}
+                      </span>
+                      {group.meta ? (
+                        <span className={styles.groupMeta}>{group.meta}</span>
+                      ) : (
+                        <span className={styles.groupCount}>{group.items.length}</span>
+                      )}
                     </h2>
                   )}
                   <EntryGrid

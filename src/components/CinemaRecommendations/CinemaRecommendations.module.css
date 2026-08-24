@@ -1,0 +1,275 @@
+.container {
+  --card-w: 162px;
+  --card-gap: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* ---------- toolbar ---------- */
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.summary {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.profile {
+  color: var(--text-dim);
+}
+
+.refreshBtn {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-bright);
+  background: transparent;
+  border: 1px solid var(--accent-dim);
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.refreshBtn:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.refreshBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.error {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: #d98f8f;
+  border-left: 2px solid #d98f8f;
+  padding-left: 0.6rem;
+  margin: 0;
+}
+
+/* ---------- sections ---------- */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin: 0;
+}
+
+.sectionIcon {
+  color: var(--accent-dim);
+}
+
+.sectionCount {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.sectionBlurb {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin: 0 0 0.5rem;
+}
+
+.empty {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+/* ---------- grid + cards ---------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr));
+  gap: var(--card-gap);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-hover);
+  border: 2px solid transparent;
+  transition: border-color var(--transition-fast);
+}
+
+.card:hover {
+  border-color: var(--accent-dim);
+}
+
+.coverWrap {
+  position: relative;
+}
+
+.coverImage,
+.coverPlaceholder {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.coverPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background: var(--bg-secondary);
+  text-align: center;
+}
+
+.placeholderText {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+.typeBadge {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.52rem;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+  background: rgba(17, 26, 32, 0.85);
+  padding: 0.15rem 0.35rem;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.5rem 0.5rem 0.35rem;
+  flex: 1;
+}
+
+.title {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-primary);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+/* --text-dim fails contrast at this size; the Cinema grid made the same call. */
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-secondary);
+}
+
+.via {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+}
+
+/* ---------- actions ---------- */
+
+.actions {
+  display: flex;
+  gap: 0.3rem;
+  padding: 0 0.5rem 0.5rem;
+}
+
+.addBtn {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  color: var(--accent-bright);
+  background: transparent;
+  border: 1px solid var(--accent-dim);
+  padding: 0.45rem 0.3rem;
+  /* Comfortable touch target — these are the tab's primary action. */
+  min-height: 32px;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.addBtn:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: rgba(95, 143, 143, 0.12);
+}
+
+.dismissBtn {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  background: transparent;
+  border: 1px solid var(--accent-dim);
+  /* 32px minimum so it stays a comfortable touch target. */
+  min-width: 32px;
+  min-height: 32px;
+  padding: 0.45rem 0.3rem;
+  cursor: pointer;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.dismissBtn:hover:not(:disabled) {
+  color: #d98f8f;
+  border-color: #d98f8f;
+}
+
+.addBtn:disabled,
+.dismissBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.attribution {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+  margin: 0.5rem 0 0;
+}
+
+@media (max-width: 480px) {
+  .container {
+    --card-w: 108px;
+    --card-gap: 0.4rem;
+  }
+
+  /* Only the letter-spacing gives way here. Shrinking the label further put it
+     at ~8px, the same unreadable size the game pages were corrected away from. */
+  .addBtn {
+    letter-spacing: 0.02em;
+  }
+}

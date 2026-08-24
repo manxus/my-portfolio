@@ -287,6 +287,39 @@
   margin-left: 0.5rem;
 }
 
+/* Franchise-progress headings sit above narrow columns, so a name like "THE
+   FAST AND THE FURIOUS" wraps where "DIE HARD" does not. Left alone that starts
+   each section's posters at a different height and the row reads as ragged, so
+   the heading always occupies two name lines plus the count. */
+.progressTitle {
+  display: flex;
+  flex-direction: column;
+  min-height: 3.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.progressName {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.25;
+}
+
+/* Pinned to the bottom of the reserved space so the counts line up across the
+   row whether the name above took one line or two. */
+.groupMeta {
+  margin-top: auto;
+  padding-top: 0.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
 .favorite {
   position: absolute;
   top: 0.4rem;
@@ -618,13 +651,40 @@
     gap: 0.5rem;
   }
 
+  /* The bar stacks here, so the 300px basis would size the block vertically and
+     leave a gap under the search field. */
   .filterMain {
     width: 100%;
+    flex-basis: auto;
   }
 
   .typeBtn {
     flex: 1;
     padding: 0.4rem 0.5rem;
+  }
+
+  /* Side-by-side franchise sections need room the phone hasn't got: a one-film
+     section is a 96px column, too narrow to hold "THE FAST AND THE FURIOUS"
+     without clipping it. Stack them full-width instead — with one section per
+     row there is nothing left to align, so the reserved heading height goes too. */
+  .groupsPacked {
+    display: block;
+  }
+
+  .groupsPacked .group {
+    width: auto;
+  }
+
+  .groupsPacked .group + .group {
+    margin-top: 1.75rem;
+  }
+
+  .groupsPacked .grid {
+    grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr));
+  }
+
+  .progressTitle {
+    min-height: 0;
   }
 
   /* Cards are ~96px wide here, so two lines clips a lot of titles. */

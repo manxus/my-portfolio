@@ -3,6 +3,7 @@ import { AnimatePresence } from 'framer-motion';
 import { useAdminStore } from '../stores/adminStore';
 import { schemas } from './schemas';
 import { applyAutoId } from './autoId';
+import { notifyAdminCollectionSaved } from './adminEvents';
 import ContentEditor from './ContentEditor';
 import ConfirmDialog from './ConfirmDialog';
 import {
@@ -13,11 +14,6 @@ import styles from './EditableSection.module.css';
 
 const EditableItemsContext = createContext(null);
 
-function notifyAdminCollectionSaved(collection) {
-  window.dispatchEvent(
-    new CustomEvent('admin-collection-saved', { detail: { collection } }),
-  );
-}
 
 export default function EditableSection({
   collection,
