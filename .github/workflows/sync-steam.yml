@@ -22,8 +22,12 @@ jobs:
         id: steam-cache
         with:
           path: scripts/.steam-fetch-cache
-          key: steam-fetch-v2-${{ hashFiles('scripts/fetch-steam-data.js', 'scripts/hltb.js') }}
+          # The run id keeps the primary key unique per run. actions/cache skips
+          # saving on an exact key hit, so a static key froze the HLTB cache at
+          # its first 400 entries and re-fetched the same games every night.
+          key: steam-fetch-v2-${{ hashFiles('scripts/fetch-steam-data.js', 'scripts/hltb.js') }}-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
+            steam-fetch-v2-${{ hashFiles('scripts/fetch-steam-data.js', 'scripts/hltb.js') }}-
             steam-fetch-v2-
             steam-fetch-v1-
 
