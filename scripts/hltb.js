@@ -1,7 +1,9 @@
 /**
  * HowLongToBeat enrichment helpers for the Steam library fetch pipeline.
  *
- * Uses HLTB's unofficial search API (endpoint name rotates; currently /api/bleed).
+ * Uses HLTB's unofficial search API (endpoint name rotates; currently /api/search/site).
+ * The endpoint is rediscovered from the site bundles each run, so a rotation is
+ * self-healing; if it can't be resolved, enrichment is skipped rather than fatal.
  * Results are cached on disk keyed by Steam appId so CI/daily runs only fill gaps.
  */
 
@@ -13,7 +15,21 @@ const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 
 /** Known search bases, newest first. Fallback if homepage scrape fails. */
-const KNOWN_SEARCH_BASES = ['/api/bleed', '/api/find', '/api/locate', '/api/seek', '/api/finder', '/api/search'];
+const KNOWN_SEARCH_BASES = [
+  '/api/search/site',
+  '/api/bleed',
+  '/api/find',
+  '/api/locate',
+  '/api/seek',
+  '/api/finder',
+  '/api/search',
+];
+
+/** API areas that are never the search endpoint (admin, account, forums, public data). */
+const IGNORED_API_PREFIXES = /^\/api\/(admin|moderator|user|forum|play|stats|steam|discord|v\d+)(\/|$)/;
+
+/** How many scraped candidates to probe before falling back to the known list. */
+const MAX_SCRAPED_CANDIDATES = 5;
 
 const AUTH_ONLY_PATHS = new Set([
   '/api/login',
@@ -169,12 +185,41 @@ export function loadHltbCache(cacheDir) {
   }
 }
 
+/**
+ * Write cached HLTB times onto `games`. Mutates `games`; safe to call after a
+ * failed enrichment so an HLTB outage never strips times already committed.
+ */
+export function applyHltbCache(games, cache) {
+  let applied = 0;
+  let withCompletionist = 0;
+  for (const game of games) {
+    const prev = cache[String(game.appId)];
+    if (!prev) {
+      // Not fetched yet — omit the field so the committed JSON stays lean.
+      delete game.hltb;
+      continue;
+    }
+    game.hltb = prev.hltb
+      ? {
+          id: prev.hltb.id ?? null,
+          mainHours: prev.hltb.mainHours ?? null,
+          mainExtraHours: prev.hltb.mainExtraHours ?? null,
+          completionistHours: prev.hltb.completionistHours ?? null,
+          matchedName: prev.hltb.matchedName ?? null,
+        }
+      : null;
+    applied += 1;
+    if (game.hltb?.completionistHours != null) withCompletionist += 1;
+  }
+  return { applied, withCompletionist };
+}
+
 export function saveHltbCache(cacheDir, cache) {
   mkdirSync(cacheDir, { recursive: true });
   writeFileSync(join(cacheDir, 'hltb.json'), JSON.stringify(cache, null, 0));
 }
 
-async function scrapeSearchBase() {
+async function scrapeSearchBases() {
   try {
     const home = await fetch(`${HLTB_ORIGIN}/`, {
       headers: { 'User-Agent': UA, Accept: 'text/html' },
@@ -191,20 +236,34 @@ async function scrapeSearchBase() {
       });
       if (!res.ok) continue;
       const js = await res.text();
-      for (const m of js.matchAll(/["'`](\/api\/[a-zA-Z]+)["'`]/g)) {
+      // Paths can have several segments — /api/search/site, not just /api/bleed.
+      for (const m of js.matchAll(/["'`](\/api\/[a-zA-Z0-9]+(?:\/[a-zA-Z0-9]+)*)["'`]/g)) {
         const path = m[1];
-        if (!AUTH_ONLY_PATHS.has(path)) found.add(path);
+        if (AUTH_ONLY_PATHS.has(path) || IGNORED_API_PREFIXES.test(path)) continue;
+        found.add(path);
       }
     }
-    // Prefer paths that look like search verbs / short opaque names used historically.
-    const ranked = [...found].sort((a, b) => {
-      const score = (p) =>
-        (/bleed|find|locate|seek|finder|search/.test(p) ? 10 : 0) + (p.length <= 12 ? 1 : 0);
-      return score(b) - score(a);
-    });
-    return ranked[0] || null;
+
+    // The token handshake lives at `<base>/init`, so a scraped ".../init" names its base.
+    const initParents = new Set();
+    for (const path of found) {
+      if (path.endsWith('/init')) initParents.add(path.slice(0, -'/init'.length));
+    }
+    for (const base of initParents) found.add(base);
+
+    // Prefer bases that have a matching /init, then search verbs / short opaque names.
+    const ranked = [...found]
+      .filter((path) => !path.endsWith('/init'))
+      .sort((a, b) => {
+        const score = (p) =>
+          (initParents.has(p) ? 100 : 0) +
+          (/bleed|find|locate|seek|finder|search/.test(p) ? 10 : 0) +
+          (p.length <= 12 ? 1 : 0);
+        return score(b) - score(a);
+      });
+    return ranked.slice(0, MAX_SCRAPED_CANDIDATES);
   } catch {
-    return null;
+    return [];
   }
 }
 
@@ -229,20 +288,26 @@ async function initToken(searchBase) {
 }
 
 async function resolveSearchBase() {
-  const scraped = await scrapeSearchBase();
-  const candidates = [
-    ...(scraped ? [scraped] : []),
-    ...KNOWN_SEARCH_BASES.filter((b) => b !== scraped),
-  ];
+  const scraped = await scrapeSearchBases();
+  const seen = new Set();
+  const candidates = [...scraped, ...KNOWN_SEARCH_BASES].filter((base) => {
+    if (seen.has(base)) return false;
+    seen.add(base);
+    return true;
+  });
+
+  const errors = [];
   for (const base of candidates) {
     try {
       const tok = await initToken(base);
       return { searchBase: base, tokenData: tok };
-    } catch {
-      // try next
+    } catch (e) {
+      errors.push(`${base}: ${e.message}`);
     }
   }
-  throw new Error('Could not resolve a working HowLongToBeat search endpoint');
+  throw new Error(
+    `Could not resolve a working HowLongToBeat search endpoint — tried ${errors.join('; ')}`,
+  );
 }
 
 async function searchHltb(searchBase, tokenData, title) {
@@ -349,30 +414,7 @@ export async function enrichGamesWithHltb(games, {
   let matched = 0;
   let failed = 0;
 
-  const applyCache = () => {
-    let applied = 0;
-    let withCompletionist = 0;
-    for (const game of games) {
-      const prev = cache[String(game.appId)];
-      if (!prev) {
-        // Not fetched yet — omit the field so the committed JSON stays lean.
-        delete game.hltb;
-        continue;
-      }
-      game.hltb = prev.hltb
-        ? {
-            id: prev.hltb.id ?? null,
-            mainHours: prev.hltb.mainHours ?? null,
-            mainExtraHours: prev.hltb.mainExtraHours ?? null,
-            completionistHours: prev.hltb.completionistHours ?? null,
-            matchedName: prev.hltb.matchedName ?? null,
-          }
-        : null;
-      applied += 1;
-      if (game.hltb?.completionistHours != null) withCompletionist += 1;
-    }
-    return { applied, withCompletionist };
-  };
+  const applyCache = () => applyHltbCache(games, cache);
 
   if (toFetch.length > 0) {
     console.log(
@@ -382,8 +424,22 @@ export async function enrichGamesWithHltb(games, {
           : '') +
         '...',
     );
-    await ensureSession();
-    console.log(`HLTB: using endpoint ${session.searchBase}`);
+    try {
+      await ensureSession();
+      console.log(`HLTB: using endpoint ${session.searchBase}`);
+    } catch (e) {
+      // HLTB rotates its endpoint without notice. Keep the cached times we already
+      // have and let the rest of the sync finish rather than failing the whole run.
+      console.warn(`HLTB: skipping enrichment — ${e.message}`);
+      const skipped = applyCache();
+      return {
+        fetched: 0,
+        matched: 0,
+        failed: 0,
+        ...skipped,
+        unavailable: true,
+      };
+    }
   } else {
     console.log('HLTB: cache warm, no new lookups needed');
   }
@@ -396,7 +452,13 @@ export async function enrichGamesWithHltb(games, {
         results = await searchHltb(session.searchBase, session.tokenData, game.name);
       } catch (e) {
         if (e.code === 'HLTB_AUTH') {
-          session = await resolveSearchBase();
+          try {
+            session = await resolveSearchBase();
+          } catch (reErr) {
+            const lost = new Error(`endpoint lost mid-run (${reErr.message})`);
+            lost.code = 'HLTB_SESSION_LOST';
+            throw lost;
+          }
           results = await searchHltb(session.searchBase, session.tokenData, game.name);
         } else {
           throw e;
@@ -415,6 +477,12 @@ export async function enrichGamesWithHltb(games, {
     } catch (e) {
       failed += 1;
       console.warn(`HLTB: failed for ${game.name} (${game.appId}): ${e.message}`);
+      if (e.code === 'HLTB_SESSION_LOST') {
+        // Re-resolving costs a full bundle scrape; don't repeat it for every
+        // remaining game. Keep what we have and pick the rest up next run.
+        console.warn('HLTB: stopping enrichment early, remaining games deferred.');
+        break;
+      }
     }
 
     if ((fetched + failed) % 50 === 0) {

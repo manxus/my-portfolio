@@ -21,7 +21,7 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { dirname, resolve, join } from 'path';
 import { fileURLToPath } from 'url';
-import { enrichGamesWithHltb } from './hltb.js';
+import { enrichGamesWithHltb, applyHltbCache, loadHltbCache } from './hltb.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '../src/data/steam-library.json');
@@ -595,7 +595,14 @@ async function main() {
   });
   console.log(`Wishlist: ${wishlist.length} items`);
 
-  await applyHltb(games);
+  // HowLongToBeat is a third-party scrape and rotates its endpoint without notice.
+  // A bad day there must not throw away a successful Steam fetch.
+  try {
+    await applyHltb(games);
+  } catch (e) {
+    console.warn(`HLTB: enrichment failed, keeping cached times — ${e.message}`);
+    applyHltbCache(games, loadHltbCache(CACHE_DIR));
+  }
 
   saveCache(cache);
 
