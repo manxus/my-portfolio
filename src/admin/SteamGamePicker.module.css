@@ -1,0 +1,223 @@
+.picker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.search,
+.raw {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.2);
+  padding: 0.45rem 0.6rem;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search:focus,
+.raw:focus {
+  border-color: var(--accent);
+}
+
+.results,
+.selected {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.resultsBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.resultsCount {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
+.addAll {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid rgba(95, 143, 143, 0.25);
+  padding: 0.15rem 0.4rem;
+  cursor: pointer;
+}
+
+.addAll:hover {
+  color: var(--accent-bright);
+  border-color: var(--accent);
+}
+
+.results {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid rgba(95, 143, 143, 0.15);
+  padding: 0.2rem;
+}
+
+.selected {
+  border-top: 1px solid rgba(95, 143, 143, 0.12);
+  padding-top: 0.35rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 1px solid transparent;
+  padding: 0.25rem 0.35rem;
+  box-sizing: border-box;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.row:hover {
+  background: var(--bg-hover);
+  border-color: rgba(95, 143, 143, 0.25);
+}
+
+/* The first game leads its collection card, so it is worth calling out. */
+.rowLead {
+  border-color: rgba(232, 193, 90, 0.35);
+  background: rgba(232, 193, 90, 0.06);
+}
+
+.rowMain {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+}
+
+.reorder {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 1px;
+}
+
+.moveBtn {
+  font-size: 0.5rem;
+  line-height: 1;
+  color: var(--text-dim);
+  background: none;
+  border: 1px solid rgba(95, 143, 143, 0.18);
+  padding: 0.08rem 0.22rem;
+  cursor: pointer;
+}
+
+.moveBtn:hover {
+  color: var(--accent-bright);
+  border-color: var(--accent);
+}
+
+.leadTag {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.48rem;
+  letter-spacing: 0.08em;
+  color: #e8c15a;
+  border: 1px solid rgba(232, 193, 90, 0.4);
+  padding: 0.05rem 0.22rem;
+}
+
+.thumb {
+  position: relative;
+  flex-shrink: 0;
+  width: 64px;
+  aspect-ratio: 460 / 215;
+  overflow: hidden;
+  border: 1px solid rgba(95, 143, 143, 0.15);
+}
+
+.thumbRoot {
+  position: absolute;
+  inset: 0;
+}
+
+.thumbImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.rowName {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  color: var(--text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rowId {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  color: var(--text-dim);
+}
+
+.rowAction {
+  flex-shrink: 0;
+  width: 1.1rem;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+
+.rowUnknown .rowName {
+  color: #d67a5c;
+  font-style: italic;
+}
+
+.noResults {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.rawToggle {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  background: none;
+  border: none;
+  padding: 0.1rem 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.rawToggle:hover {
+  color: var(--accent);
+}

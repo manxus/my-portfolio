@@ -217,7 +217,7 @@ export const schemas = {
   ],
 
   'steam-reviews.reviews': [
-    { key: 'appId', label: 'Steam App ID', type: 'number', required: true },
+    { key: 'appId', label: 'Game', type: 'appId', required: true },
     {
       key: 'gameName',
       label: 'Game name (if not in your library JSON)',
@@ -228,8 +228,6 @@ export const schemas = {
     { key: 'text', label: 'Review Text', type: 'textarea', required: true },
     { key: 'date', label: 'Date (YYYY-MM-DD)', type: 'text', required: true },
     { key: 'recommended', label: 'Recommended', type: 'boolean' },
-    { key: 'pros', label: 'Pros', type: 'list' },
-    { key: 'cons', label: 'Cons', type: 'list' },
   ],
 
   'steam-tierlist.tierLists': [
@@ -237,8 +235,27 @@ export const schemas = {
     { key: 'tiers', label: 'Tiers (S–F + Unplayed)', type: 'tiers' },
   ],
 
+  'steam-collections.collections': [
+    { key: 'name', label: 'Series Name', type: 'text', required: true },
+    // Achievement-only: a series showcase is built on 100% completions, so a
+    // game Steam tracks nothing for can never contribute to one.
+    {
+      key: 'appIds',
+      label: 'Games in this series',
+      type: 'appIds',
+      achievementsOnly: true,
+    },
+    {
+      key: 'ignoreAppIds',
+      label: 'Ignored duplicates (owned but not counted)',
+      type: 'appIds',
+      achievementsOnly: true,
+    },
+    { key: 'note', label: 'Note', type: 'text' },
+  ],
+
   'steam-hallofpain.entries': [
-    { key: 'appId', label: 'Steam App ID', type: 'number', required: true },
+    { key: 'appId', label: 'Game', type: 'appId', required: true },
     {
       key: 'status',
       label: 'Status',

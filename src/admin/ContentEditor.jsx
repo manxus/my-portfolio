@@ -7,6 +7,7 @@ import CinemaTitlePicker from './CinemaTitlePicker';
 import CinemaEpisodePicker from './CinemaEpisodePicker';
 import { useAdminStore } from '../stores/adminStore';
 import { setAdminEditorOpen } from './editorLock';
+import SteamGamePicker from './SteamGamePicker';
 import styles from './ContentEditor.module.css';
 
 const ADMIN_PORTAL = () => document.getElementById('admin-portal') ?? document.body;
@@ -157,50 +158,6 @@ function TextAreaInput({ value, onChange, className, rows = 3 }) {
 async function pasteClipboardValue(onChange) {
   const text = await readClipboardText();
   if (text) onChange(text.trim());
-}
-
-function parseTierIdsFromInput(s) {
-  return String(s)
-    .split(',')
-    .map((x) => x.trim())
-    .filter((x) => x !== '')
-    .map(Number)
-    .filter((n) => !isNaN(n));
-}
-
-/** Controlled by a local draft so trailing commas and spacing survive while typing. */
-function TierAppIdsInput({ ids, onChange }) {
-  const idsSerialized = JSON.stringify(ids ?? []);
-  const [draft, setDraft] = useState(() => (ids ?? []).join(', '));
-  const focusedRef = useRef(false);
-
-  useEffect(() => {
-    if (!focusedRef.current) {
-      setDraft((ids ?? []).join(', '));
-    }
-  }, [idsSerialized]);
-
-  return (
-    <input
-      className={styles.input}
-      value={draft}
-      onFocus={() => {
-        focusedRef.current = true;
-      }}
-      onBlur={() => {
-        focusedRef.current = false;
-        const parsed = parseTierIdsFromInput(draft);
-        onChange(parsed);
-        setDraft(parsed.join(', '));
-      }}
-      onChange={(e) => {
-        const v = e.target.value;
-        setDraft(v);
-        onChange(parseTierIdsFromInput(v));
-      }}
-      placeholder="App IDs (comma separated)"
-    />
-  );
 }
 
 function FileField({ field, value, onChange }) {
@@ -497,6 +454,27 @@ function FieldInput({ field, value, onChange, formData }) {
     );
   }
 
+  if (field.type === 'appIds') {
+    return (
+      <SteamGamePicker
+        value={value || []}
+        onChange={onChange}
+        achievementsOnly={Boolean(field.achievementsOnly)}
+      />
+    );
+  }
+
+  if (field.type === 'appId') {
+    return (
+      <SteamGamePicker
+        single
+        value={value}
+        onChange={onChange}
+        achievementsOnly={Boolean(field.achievementsOnly)}
+      />
+    );
+  }
+
   if (field.type === 'tiers') {
     const tierOrder = ['S', 'A', 'B', 'C', 'D', 'F', 'unplayed'];
     const tiers = value || {};
@@ -509,8 +487,8 @@ function FieldInput({ field, value, onChange, formData }) {
               <span className={styles.tierLabel}>
                 {tier === 'unplayed' ? '?' : tier}
               </span>
-              <TierAppIdsInput
-                ids={ids}
+              <SteamGamePicker
+                value={ids}
                 onChange={(parsed) => {
                   const next = { ...tiers };
                   next[tier] = parsed;
@@ -556,7 +534,9 @@ export default function ContentEditor({
       // These pickers write their own keys — no placeholder key of their own.
       if (field.type === 'tmdbLookup' || field.type === 'episodeTracker') continue;
       if (field.type === 'boolean') empty[field.key] = false;
-      else if (field.type === 'list' || field.type === 'objectList') empty[field.key] = [];
+      else if (field.type === 'list' || field.type === 'objectList' || field.type === 'appIds')
+        empty[field.key] = [];
+      else if (field.type === 'appId') empty[field.key] = null;
       else if (field.type === 'tiers') empty[field.key] = { S: [], A: [], B: [], C: [], D: [], F: [], unplayed: [] };
       else if (field.type === 'select' && field.tagSingleton) empty[field.key] = [];
       else empty[field.key] = '';

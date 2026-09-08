@@ -1,0 +1,434 @@
+{
+  "collections": [
+    {
+      "name": "Call of Duty",
+      "appIds": [
+        10180,
+        42700,
+        393080,
+        476600,
+        2000950,
+        292730,
+        476620,
+        42710
+      ],
+      "ignoreAppIds": [
+        10190,
+        393100
+      ],
+      "note": ""
+    },
+    {
+      "name": "We Were Here",
+      "appIds": [
+        582500,
+        677160,
+        865360,
+        1341290,
+        2296990
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Portal",
+      "appIds": [
+        400,
+        620,
+        317400,
+        601360
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "The Room",
+      "appIds": [
+        288160,
+        425580,
+        456750,
+        1361320
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Dirt",
+      "appIds": [
+        201700,
+        321040,
+        421020,
+        1038250,
+        310560,
+        690790
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Lego",
+      "appIds": [
+        1898290,
+        1544360,
+        352400,
+        818320,
+        332310,
+        578330,
+        313690,
+        267530,
+        881320,
+        640590,
+        214510,
+        249130,
+        285160,
+        405310,
+        438640,
+        647830,
+        829110,
+        920210,
+        1451810
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Crysis",
+      "appIds": [
+        1715130,
+        2096600,
+        2096610
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Just Cause",
+      "appIds": [
+        8190,
+        225540,
+        517630
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Cat Quest",
+      "appIds": [
+        593280,
+        914710,
+        2305840
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Dishonored",
+      "appIds": [
+        205100,
+        403640,
+        614570
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Frog Detective",
+      "appIds": [
+        963000,
+        1047220,
+        1171320
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Metro",
+      "appIds": [
+        286690,
+        287390,
+        1449560
+      ],
+      "ignoreAppIds": [
+        43160,
+        412020
+      ],
+      "note": ""
+    },
+    {
+      "name": "Wolfenstein",
+      "appIds": [
+        201810,
+        350080,
+        612880,
+        1056960
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Borderlands",
+      "appIds": [
+        8980,
+        49520,
+        397540,
+        261640,
+        1286680,
+        729040
+      ],
+      "ignoreAppIds": [
+        991260
+      ],
+      "note": ""
+    },
+    {
+      "name": "Worms",
+      "appIds": [
+        233840,
+        200170,
+        327030,
+        1186040
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Monument Valley",
+      "appIds": [
+        1927720,
+        1927740,
+        3132930
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Viscera Cleanup Detail",
+      "appIds": [
+        246900,
+        265210,
+        255520
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "FAR",
+      "appIds": [
+        1570010,
+        609320
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Figment",
+      "appIds": [
+        493540,
+        1085220
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Ghostrunner",
+      "appIds": [
+        1139900,
+        2144740
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "LostWinds",
+      "appIds": [
+        447780,
+        447800
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Overcooked!",
+      "appIds": [
+        448510,
+        728880
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Turnip Boy",
+      "appIds": [
+        1205450,
+        2097230
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Counter-Strike",
+      "appIds": [
+        730,
+        240
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Battlefield",
+      "appIds": [
+        1238820,
+        1238860,
+        1238810,
+        1238840
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Payday",
+      "appIds": [
+        24240,
+        218620,
+        1272080
+      ],
+      "ignoreAppIds": [
+        2478210
+      ],
+      "note": ""
+    },
+    {
+      "name": "Hotline Miami",
+      "appIds": [
+        219150,
+        274170
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Insurgency",
+      "appIds": [
+        222880,
+        581320
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "The Forest",
+      "appIds": [
+        242760,
+        1326470
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "SUPERHOT",
+      "appIds": [
+        322500,
+        617830,
+        690040
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Half-Life",
+      "appIds": [
+        220,
+        546560,
+        362890
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Dead rising",
+      "appIds": [
+        427190,
+        45740,
+        45770,
+        543460
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Dead Island",
+      "appIds": [
+        383150,
+        383180,
+        934700
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Assassin's Creed",
+      "appIds": [
+        208480,
+        201870,
+        354380,
+        2208920
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Far Cry",
+      "appIds": [
+        220240,
+        298110,
+        552520,
+        371660,
+        939960,
+        233270
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "The Binding of Isaac",
+      "appIds": [
+        113200,
+        250900
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Killing Floor",
+      "appIds": [
+        1250,
+        232090,
+        690810
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Mafia",
+      "appIds": [
+        1030840,
+        1030830,
+        360430
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Flatout",
+      "appIds": [
+        6220,
+        2990,
+        201510,
+        402130,
+        12360
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    }
+  ]
+}

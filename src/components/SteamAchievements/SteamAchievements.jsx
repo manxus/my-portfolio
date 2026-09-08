@@ -1,12 +1,14 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import AchievementCard from './AchievementCard';
-import SteamGameCover from '../SteamGameCover/SteamGameCover';
-import { buildAchievementData } from './achievementShared';
+import GameBanner from './GameBanner';
+import SteamCollections from './SteamCollections';
+import { buildAchievementData, fmtDate } from './achievementShared';
 import styles from './SteamAchievements.module.css';
 
 const SUB_TABS = [
   { id: 'showcase', label: 'SHOWCASE' },
+  { id: 'collections', label: 'COLLECTIONS' },
   { id: 'browse', label: 'BROWSE' },
 ];
 
@@ -26,31 +28,6 @@ const stagger = {
   hidden: {},
   show: { transition: { staggerChildren: 0.02 } },
 };
-
-function PerfectGameBanner({ game }) {
-  return (
-    <>
-      <SteamGameCover
-        fill
-        variant="banner"
-        appId={game.appId}
-        title={game.name}
-        headerUrl={game.headerUrl}
-        libraryHeaderUrl={game.libraryHeaderUrl}
-        iconUrl={game.iconUrl}
-        alt={game.name}
-        rootClassName={styles.coverRoot}
-        imageClassName={styles.coverImg}
-      />
-      <div className={styles.coverOverlay}>
-        <span className={styles.coverName}>{game.name}</span>
-        <span className={styles.coverCount}>
-          {game.achievements.total}/{game.achievements.total}
-        </span>
-      </div>
-    </>
-  );
-}
 
 export default function SteamAchievements({ games }) {
   const [subTab, setSubTab] = useState('showcase');
@@ -190,7 +167,9 @@ export default function SteamAchievements({ games }) {
                 <h2 className={styles.blockTitle}>
                   PERFECT GAMES · {perfectGames.length}
                 </h2>
-                <p className={styles.blockHint}>100% of tracked achievements</p>
+                <p className={styles.blockHint}>
+                  100% of tracked achievements — most recently completed first
+                </p>
               </div>
               <div className={styles.coverStrip}>
                 {perfectGames.slice(0, 24).map((g) => (
@@ -198,14 +177,30 @@ export default function SteamAchievements({ games }) {
                     key={g.appId}
                     variants={fadeUp}
                     className={styles.coverItem}
-                    title={`${g.name} — ${g.achievements.total}/${g.achievements.total}`}
+                    title={`${g.name} — ${g.achievements.total}/${g.achievements.total}${
+                      fmtDate(g.perfectedAt) ? ` — completed ${fmtDate(g.perfectedAt)}` : ''
+                    }`}
                   >
-                    <PerfectGameBanner game={g} />
+                    <GameBanner
+                      game={g}
+                      count={fmtDate(g.perfectedAt) || `${g.achievements.total}/${g.achievements.total}`}
+                    />
                   </motion.div>
                 ))}
               </div>
             </section>
           )}
+        </motion.div>
+      )}
+
+      {subTab === 'collections' && (
+        <motion.div
+          key="collections"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <SteamCollections games={games} />
         </motion.div>
       )}
 

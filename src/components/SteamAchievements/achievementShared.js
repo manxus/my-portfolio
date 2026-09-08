@@ -1,6 +1,11 @@
 // Shared achievement helpers + derived-data builder used by the Achievements
 // and Overview tabs so the flattening/labeling logic lives in one place.
 
+import { isPerfected, completionPct } from '../../utils/steamAchievements';
+
+// Re-exported so achievement consumers have one import site for all of this.
+export { isPerfected, completionPct };
+
 // Ordered ascending by max percent; first match wins.
 export const RARITY_BUCKETS = [
   { label: 'Ultra Rare', max: 1 },
@@ -37,11 +42,27 @@ export function rarityLabel(pct) {
   return bucket ? bucket.label : 'Very Common';
 }
 
+
+/**
+ * When a game hit 100%: the moment its last achievement fell.
+ *
+ * Steam reports unlockTime 0 for achievements earned before it started
+ * recording timestamps, so an old game can be perfected with no date at all.
+ * Those sort to the back rather than jumping to the front as epoch zero.
+ */
+export function perfectedAt(game) {
+  let latest = 0;
+  for (const item of game.achievements?.items || []) {
+    if (item.unlocked && item.unlockTime > latest) latest = item.unlockTime;
+  }
+  return latest;
+}
+
 /**
  * Derive the shared achievement collections from the raw games list:
  * - gamesWithItems: games that carry full per-achievement detail
  * - unlockedAch: every unlocked achievement, annotated with appId + gameName
- * - perfectGames: 100%-completed games, sorted by achievement count desc
+ * - perfectGames: 100%-completed games, most recently completed first
  */
 export function buildAchievementData(games) {
   const gamesWithItems = (games || []).filter(
@@ -58,12 +79,9 @@ export function buildAchievementData(games) {
   }
 
   const perfectGames = gamesWithItems
-    .filter(
-      (g) =>
-        g.achievements.total > 0 &&
-        g.achievements.unlocked === g.achievements.total,
-    )
-    .sort((a, b) => b.achievements.total - a.achievements.total);
+    .filter(isPerfected)
+    .map((g) => ({ ...g, perfectedAt: perfectedAt(g) }))
+    .sort((a, b) => b.perfectedAt - a.perfectedAt);
 
   return { gamesWithItems, unlockedAch, perfectGames };
 }

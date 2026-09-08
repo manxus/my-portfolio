@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
+import { completionPct } from '../../utils/steamAchievements';
 import styles from './SteamGameDetail.module.css';
 
 function formatHours(hours) {
@@ -12,11 +13,8 @@ function formatHours(hours) {
 export default function SteamGameDetail({ game, onClose, style }) {
   if (!game) return null;
 
-  const pct = game.achievements
-    ? Math.round(
-        (game.achievements.unlocked / game.achievements.total) * 100,
-      )
-    : null;
+  const fraction = completionPct(game);
+  const pct = fraction == null ? null : Math.round(fraction * 100);
 
   const completionistHours = game.hltb?.completionistHours ?? null;
   const completionistLabel = formatHours(completionistHours);

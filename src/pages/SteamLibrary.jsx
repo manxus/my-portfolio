@@ -16,6 +16,7 @@ import SteamMilestones from '../components/SteamMilestones/SteamMilestones';
 import SteamHallOfPain from '../components/SteamHallOfPain/SteamHallOfPain';
 import SteamAchievements from '../components/SteamAchievements/SteamAchievements';
 import { trackSteamAchievementsTab } from '../hooks/useVisitorTracking';
+import { completionPct } from '../utils/steamAchievements';
 import SteamGameCover from '../components/SteamGameCover/SteamGameCover';
 import styles from './SteamLibrary.module.css';
 
@@ -67,10 +68,8 @@ function sortGames(list, sortBy) {
     case 'name':
       return sorted.sort((a, b) => a.name.localeCompare(b.name));
     case 'achievements': {
-      const pct = (g) => {
-        if (!g.achievements || g.achievements.total === 0) return -1;
-        return g.achievements.unlocked / g.achievements.total;
-      };
+      // Games tracking nothing sort below 0%, not alongside it.
+      const pct = (g) => completionPct(g) ?? -1;
       return sorted.sort((a, b) => pct(b) - pct(a));
     }
     case 'hltb100':
