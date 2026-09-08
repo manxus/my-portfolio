@@ -90,6 +90,31 @@ export const useAdminStore = create(
         return res.json();
       },
 
+      listSyncTargets: async () => {
+        const { authFetch } = get();
+        const res = await authFetch('/api/admin/sync');
+        if (!res.ok) throw await requestError(res, 'Failed to load sync targets');
+        return res.json();
+      },
+
+      /**
+       * Runs a game's fetch script on the dev server. Resolves with `changed: false` when the
+       * snapshot's timestamp did not move, which is the normal answer for a game nobody has
+       * played since the last sync.
+       */
+      runSync: async (id) => {
+        const { authFetch } = get();
+        const res = await authFetch(`/api/admin/sync/${id}`, { method: 'POST' });
+        const body = await res.json().catch(() => ({}));
+        if (!res.ok) {
+          const err = new Error(body.error || 'Sync failed');
+          err.status = res.status;
+          err.output = body.output;
+          throw err;
+        }
+        return body;
+      },
+
       uploadFile: async (file) => {
         const { authFetch } = get();
         const buffer = await file.arrayBuffer();

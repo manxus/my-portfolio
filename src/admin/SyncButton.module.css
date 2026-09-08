@@ -1,0 +1,50 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 1rem 0;
+  font-family: var(--font-mono, 'Share Tech Mono', monospace);
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--accent-dim, #3d6363);
+  border-radius: 4px;
+  color: var(--accent-bright, #82bfbf);
+  font-family: inherit;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.6rem;
+  cursor: pointer;
+  transition: background var(--transition-fast, 150ms ease);
+  white-space: nowrap;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--accent-glow, rgba(95, 143, 143, 0.12));
+}
+
+.btn:disabled {
+  cursor: progress;
+  opacity: 0.6;
+}
+
+.status {
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  color: var(--text-dim, #68848e);
+}
+
+.error {
+  color: var(--danger, #c45050);
+}
+
+.warning {
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  color: #d0a24c;
+  max-width: 46ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

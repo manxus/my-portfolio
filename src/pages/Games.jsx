@@ -1,5 +1,6 @@
 import { useState, Suspense } from 'react';
 import GamesTabs from '../components/GamesTabs/GamesTabs';
+import SyncButton from '../admin/SyncButton';
 import { GAMES, DEFAULT_GAME } from './games/registry';
 
 /**
@@ -15,6 +16,10 @@ export default function Games() {
   return (
     <div>
       <GamesTabs activeTab={active.id} onTabChange={setActiveTab} />
+
+      {/* Keyed by game so switching tabs remounts it with a clean status line. Renders nothing
+          outside the dev server's admin session. */}
+      <SyncButton key={active.id} gameId={active.id} />
 
       {/* No spinner: the chunks are small and a flash of loading chrome on every tab press reads
           worse than the tab simply taking a beat to paint. */}
