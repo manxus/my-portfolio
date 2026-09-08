@@ -178,31 +178,6 @@ export default function ReviewModal({ review, game, displayName, onClose }) {
           </div>
         </div>
 
-        {(review.pros?.length > 0 || review.cons?.length > 0) && (
-          <div className={styles.proscons}>
-            {review.pros?.length > 0 && (
-              <div className={styles.column}>
-                <span className={styles.columnLabel}>+ PROS</span>
-                <ul className={styles.bulletList}>
-                  {review.pros.map((p, i) => (
-                    <li key={i}>{p}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {review.cons?.length > 0 && (
-              <div className={styles.column}>
-                <span className={styles.columnLabel}>- CONS</span>
-                <ul className={styles.bulletList}>
-                  {review.cons.map((c, i) => (
-                    <li key={i}>{c}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        )}
-
         <footer className={styles.footer}>
           <span className={styles.posted}>Posted {formatPosted(review.date)}</span>
           <span className={styles.escHint}>ESC to close</span>

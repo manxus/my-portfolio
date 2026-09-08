@@ -273,3 +273,10 @@
     border-width: 3px;
   }
 }
+
+/* Card-hover reveal, same as the other editable grids; without it the only
+   hover target is the invisible control box itself. */
+.card:hover :global([class*='itemControls']),
+.card:focus-within :global([class*='itemControls']) {
+  opacity: 1;
+}

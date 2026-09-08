@@ -239,3 +239,11 @@
     font-size: 0.55rem;
   }
 }
+
+/* Reveal the edit controls whenever the card is hovered, not only when the
+   pointer lands on the controls themselves -- they start invisible, so that
+   made them impossible to find. Matches Cinema, Books, Media and the rest. */
+.card:hover :global([class*='itemControls']),
+.card:focus-within :global([class*='itemControls']) {
+  opacity: 1;
+}

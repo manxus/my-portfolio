@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import hallOfPainFile from '../../data/steam-hallofpain.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
+import { isPerfected } from '../../utils/steamAchievements';
 import { useAdminStore } from '../../stores/adminStore';
 import styles from './SteamHallOfPain.module.css';
 
@@ -14,11 +15,6 @@ const STATUS_META = {
   bleeding: { label: 'STILL BLEEDING', className: 'statusBleeding' },
   dreading: { label: 'DREADING IT', className: 'statusDreading' },
 };
-
-function isPerfected(game) {
-  const ach = game?.achievements;
-  return Boolean(ach && ach.total > 0 && ach.unlocked === ach.total);
-}
 
 export default function SteamHallOfPain({ games }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
