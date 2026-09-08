@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T15:16:41.585Z",
+  "fetchedAt": "2026-09-08T10:20:28.746Z",
   "profile": {
     "personaId": "855142898",
     "userName": "manxuss",
@@ -7,48 +7,48 @@
     "rank": 118,
     "rankName": "Brigadier General IX",
     "rankImageUrl": "/battlefield4/ranks/118.png",
-    "skill": 226,
-    "scorePerMinute": 1525.95,
+    "skill": 257,
+    "scorePerMinute": 1504.92,
     "killsPerMinute": 0.83,
-    "killDeath": 1.05,
-    "winPercent": 47.92,
-    "quitPercent": 20.12,
-    "accuracy": 13.1,
-    "headshotPercent": 19.48,
-    "secondsPlayed": 569761,
-    "timePlayed": "6 days, 14:16:01",
-    "kills": 7916,
-    "deaths": 7560,
-    "wins": 196,
-    "losses": 213,
-    "roundsPlayed": 512,
+    "killDeath": 1.04,
+    "winPercent": 48.2,
+    "quitPercent": 20.11,
+    "accuracy": 13,
+    "headshotPercent": 19.66,
+    "secondsPlayed": 582728,
+    "timePlayed": "6 days, 17:52:08",
+    "kills": 8043,
+    "deaths": 7721,
+    "wins": 201,
+    "losses": 216,
+    "roundsPlayed": 522,
     "bestClass": "Assault",
     "longestHeadShot": 363.41,
     "highestKillStreak": 25,
-    "headShots": 1542,
-    "killAssists": 638,
-    "revives": 456,
-    "heals": 2090,
-    "repairs": 531,
+    "headShots": 1581,
+    "killAssists": 655,
+    "revives": 468,
+    "heals": 2141,
+    "repairs": 546,
     "resupplies": 663,
-    "avengerKills": 724,
-    "saviorKills": 597,
+    "avengerKills": 732,
+    "saviorKills": 607,
     "dogtagsTaken": 26,
-    "awardScore": 7042800,
-    "bonusScore": 252268,
-    "squadScore": 578417
+    "awardScore": 7079300,
+    "bonusScore": 256173,
+    "squadScore": 583038
   },
   "weaponCategories": [
     {
       "name": "Assault Rifles",
       "label": "Assault Rifles",
-      "kills": 2085,
+      "kills": 2130,
       "count": 13
     },
     {
       "name": "Carbines",
       "label": "Carbines",
-      "kills": 1752,
+      "kills": 1790,
       "count": 7
     },
     {
@@ -66,7 +66,7 @@
     {
       "name": "DMRs",
       "label": "DMRs",
-      "kills": 440,
+      "kills": 470,
       "count": 3
     },
     {
@@ -78,19 +78,19 @@
     {
       "name": "Shotguns",
       "label": "Shotguns",
-      "kills": 263,
+      "kills": 265,
       "count": 6
     },
     {
       "name": "Handguns",
       "label": "Handguns",
-      "kills": 288,
+      "kills": 291,
       "count": 16
     },
     {
       "name": "Rocket Launchers",
       "label": "Rocket Launchers",
-      "kills": 136,
+      "kills": 137,
       "count": 5
     },
     {
@@ -137,10 +137,10 @@
       "category": "Carbines",
       "iconUrl": "/battlefield4/weapons/Galil_ACE52CQB_lineart.png",
       "iconUrlLight": "/battlefield4/weapons/Galil_ACE52CQB_lineart-light.png",
-      "kills": 1015,
-      "killsPerMinute": 1.55,
-      "accuracy": 16.42,
-      "headshots": 21.77,
+      "kills": 1039,
+      "killsPerMinute": 1.53,
+      "accuracy": 16.28,
+      "headshots": 21.94,
       "barPct": 100
     },
     {
@@ -173,11 +173,23 @@
       "category": "DMRs",
       "iconUrl": "/battlefield4/weapons/mk11_lineart.png",
       "iconUrlLight": "/battlefield4/weapons/mk11_lineart-light.png",
-      "kills": 324,
-      "killsPerMinute": 1.47,
-      "accuracy": 19.36,
-      "headshots": 27.78,
+      "kills": 354,
+      "killsPerMinute": 1.43,
+      "accuracy": 19.65,
+      "headshots": 29.66,
       "barPct": 100
+    },
+    {
+      "name": "an-94",
+      "slug": "an-94",
+      "category": "Assault Rifles",
+      "iconUrl": "/battlefield4/weapons/AN94_lineart.png",
+      "iconUrlLight": "/battlefield4/weapons/AN94_lineart-light.png",
+      "kills": 258,
+      "killsPerMinute": 1.51,
+      "accuracy": 21.43,
+      "headshots": 15.12,
+      "barPct": 19
     },
     {
       "name": "m240b",
@@ -190,18 +202,6 @@
       "accuracy": 14.32,
       "headshots": 20.25,
       "barPct": 42
-    },
-    {
-      "name": "an-94",
-      "slug": "an-94",
-      "category": "Assault Rifles",
-      "iconUrl": "/battlefield4/weapons/AN94_lineart.png",
-      "iconUrlLight": "/battlefield4/weapons/AN94_lineart-light.png",
-      "kills": 213,
-      "killsPerMinute": 1.67,
-      "accuracy": 23.1,
-      "headshots": 14.08,
-      "barPct": 16
     },
     {
       "name": "cbj-ms",
@@ -240,6 +240,18 @@
       "barPct": 13
     },
     {
+      "name": "shorty-12g",
+      "slug": "shorty-12g",
+      "category": "Shotguns",
+      "iconUrl": "/battlefield4/weapons/SHORTY12g_lineart.png",
+      "iconUrlLight": "/battlefield4/weapons/SHORTY12g_lineart-light.png",
+      "kills": 166,
+      "killsPerMinute": 2.39,
+      "accuracy": 96.64,
+      "headshots": 10.24,
+      "barPct": 100
+    },
+    {
       "name": "sv-98",
       "slug": "sv-98",
       "category": "Sniper Rifles",
@@ -249,18 +261,6 @@
       "killsPerMinute": 0.8,
       "accuracy": 28.49,
       "headshots": 66.06,
-      "barPct": 100
-    },
-    {
-      "name": "shorty-12g",
-      "slug": "shorty-12g",
-      "category": "Shotguns",
-      "iconUrl": "/battlefield4/weapons/SHORTY12g_lineart.png",
-      "iconUrlLight": "/battlefield4/weapons/SHORTY12g_lineart-light.png",
-      "kills": 164,
-      "killsPerMinute": 2.37,
-      "accuracy": 95.95,
-      "headshots": 9.76,
       "barPct": 100
     },
     {
@@ -333,7 +333,7 @@
       "killsPerMinute": 0.88,
       "accuracy": 23.93,
       "headshots": 23.47,
-      "barPct": 30
+      "barPct": 28
     },
     {
       "name": "p226",
@@ -377,7 +377,7 @@
       "category": "Rocket Launchers",
       "iconUrl": "/battlefield4/weapons/FGM172_sraw_lineart.png",
       "iconUrlLight": "/battlefield4/weapons/FGM172_sraw_lineart-light.png",
-      "kills": 73,
+      "kills": 74,
       "killsPerMinute": 0.76,
       "accuracy": 33,
       "headshots": 0,
@@ -390,8 +390,8 @@
       "iconUrl": "/battlefield4/weapons/RGO_impact_lineart.png",
       "iconUrlLight": "/battlefield4/weapons/RGO_impact_lineart-light.png",
       "kills": 68,
-      "killsPerMinute": 6.94,
-      "accuracy": 58.4,
+      "killsPerMinute": 6.86,
+      "accuracy": 58.15,
       "headshots": 0,
       "barPct": 100
     },
@@ -453,7 +453,7 @@
       "killsPerMinute": 2.15,
       "accuracy": 83.63,
       "headshots": 7.14,
-      "barPct": 26
+      "barPct": 25
     },
     {
       "name": "ump-45",
@@ -489,7 +489,19 @@
       "killsPerMinute": 0.78,
       "accuracy": 29.63,
       "headshots": 0,
-      "barPct": 51
+      "barPct": 50
+    },
+    {
+      "name": "a-91",
+      "slug": "a-91",
+      "category": "Carbines",
+      "iconUrl": "/battlefield4/weapons/a91_lineart.png",
+      "iconUrlLight": "/battlefield4/weapons/a91_lineart-light.png",
+      "kills": 33,
+      "killsPerMinute": 1.5,
+      "accuracy": 21.37,
+      "headshots": 18.18,
+      "barPct": 3
     },
     {
       "name": "gol-magnum",
@@ -528,6 +540,18 @@
       "barPct": 37
     },
     {
+      "name": "deagle-44",
+      "slug": "deagle-44",
+      "category": "Handguns",
+      "iconUrl": "/battlefield4/weapons/DesertEagle_lineart.png",
+      "iconUrlLight": "/battlefield4/weapons/DesertEagle_lineart-light.png",
+      "kills": 26,
+      "killsPerMinute": 1.09,
+      "accuracy": 31.58,
+      "headshots": 38.46,
+      "barPct": 33
+    },
+    {
       "name": "l115",
       "slug": "l115",
       "category": "Sniper Rifles",
@@ -538,18 +562,6 @@
       "accuracy": 36.47,
       "headshots": 29.17,
       "barPct": 15
-    },
-    {
-      "name": "deagle-44",
-      "slug": "deagle-44",
-      "category": "Handguns",
-      "iconUrl": "/battlefield4/weapons/DesertEagle_lineart.png",
-      "iconUrlLight": "/battlefield4/weapons/DesertEagle_lineart-light.png",
-      "kills": 23,
-      "killsPerMinute": 1.93,
-      "accuracy": 30.88,
-      "headshots": 30.43,
-      "barPct": 29
     },
     {
       "name": "saiga-12k",
@@ -588,18 +600,6 @@
       "barPct": 100
     },
     {
-      "name": "a-91",
-      "slug": "a-91",
-      "category": "Carbines",
-      "iconUrl": "/battlefield4/weapons/a91_lineart.png",
-      "iconUrlLight": "/battlefield4/weapons/a91_lineart-light.png",
-      "kills": 19,
-      "killsPerMinute": 2.04,
-      "accuracy": 27.37,
-      "headshots": 15.79,
-      "barPct": 2
-    },
-    {
       "name": "qbu-88",
       "slug": "qbu-88",
       "category": "DMRs",
@@ -609,7 +609,7 @@
       "killsPerMinute": 2.43,
       "accuracy": 33.21,
       "headshots": 5.56,
-      "barPct": 6
+      "barPct": 5
     },
     {
       "name": "qbz-95-1",
@@ -750,7 +750,7 @@
       "iconUrl": "/battlefield4/weapons/M67_grenade_lineart.png",
       "iconUrlLight": "/battlefield4/weapons/M67_grenade_lineart-light.png",
       "kills": 11,
-      "killsPerMinute": 5.5,
+      "killsPerMinute": 5.28,
       "accuracy": 41.1,
       "headshots": 0,
       "barPct": 16
@@ -1337,21 +1337,21 @@
       "name": "Land",
       "kills": 546,
       "destroyed": 67,
-      "secondsIn": 49078,
+      "secondsIn": 49378,
       "count": 22
     },
     {
       "name": "Air",
-      "kills": 80,
+      "kills": 92,
       "destroyed": 27,
-      "secondsIn": 6880,
-      "count": 6
+      "secondsIn": 8227,
+      "count": 9
     },
     {
       "name": "Sea",
-      "kills": 108,
+      "kills": 112,
       "destroyed": 25,
-      "secondsIn": 10695,
+      "secondsIn": 11519,
       "count": 3
     },
     {
@@ -1410,9 +1410,9 @@
       "iconUrl": "/battlefield4/vehicles/M1A2_lineart.png",
       "iconUrlLight": "/battlefield4/vehicles/M1A2_lineart-light.png",
       "kills": 69,
-      "killsPerMinute": 0.75,
+      "killsPerMinute": 0.74,
       "destroyed": 4,
-      "secondsIn": 5526,
+      "secondsIn": 5608,
       "barPct": 77
     },
     {
@@ -1422,10 +1422,10 @@
       "family": "Sea",
       "iconUrl": "/battlefield4/vehicles/DV15_lineart.png",
       "iconUrlLight": "/battlefield4/vehicles/DV15_lineart-light.png",
-      "kills": 60,
-      "killsPerMinute": 0.7,
+      "kills": 64,
+      "killsPerMinute": 0.64,
       "destroyed": 12,
-      "secondsIn": 5170,
+      "secondsIn": 5994,
       "barPct": 100
     },
     {
@@ -1436,9 +1436,9 @@
       "iconUrl": "/battlefield4/vehicles/ZBD09_lineart.png",
       "iconUrlLight": "/battlefield4/vehicles/ZBD09_lineart-light.png",
       "kills": 55,
-      "killsPerMinute": 0.71,
+      "killsPerMinute": 0.7,
       "destroyed": 10,
-      "secondsIn": 4634,
+      "secondsIn": 4713,
       "barPct": 61
     },
     {
@@ -1465,7 +1465,7 @@
       "killsPerMinute": 0.46,
       "destroyed": 10,
       "secondsIn": 4526,
-      "barPct": 58
+      "barPct": 55
     },
     {
       "name": "UH-1Y-VENOM1",
@@ -1527,9 +1527,9 @@
       "iconUrl": "/battlefield4/vehicles/KA60_lineart.png",
       "iconUrlLight": "/battlefield4/vehicles/KA60_lineart-light.png",
       "kills": 14,
-      "killsPerMinute": 0.72,
+      "killsPerMinute": 0.7,
       "destroyed": 3,
-      "secondsIn": 1174,
+      "secondsIn": 1194,
       "barPct": 16
     },
     {
@@ -1556,7 +1556,7 @@
       "killsPerMinute": 0.78,
       "destroyed": 3,
       "secondsIn": 999,
-      "barPct": 22
+      "barPct": 20
     },
     {
       "name": "AH-1Z-VIPER",
@@ -1676,6 +1676,45 @@
       "barPct": 6
     },
     {
+      "name": "BOMBER",
+      "slug": "bomber",
+      "type": "Air",
+      "family": "Air",
+      "iconUrl": null,
+      "iconUrlLight": null,
+      "kills": 4,
+      "killsPerMinute": 0.53,
+      "destroyed": 0,
+      "secondsIn": 449,
+      "barPct": 15
+    },
+    {
+      "name": "BOMBER1",
+      "slug": "bomber1",
+      "type": "Air",
+      "family": "Air",
+      "iconUrl": null,
+      "iconUrlLight": null,
+      "kills": 4,
+      "killsPerMinute": 0.53,
+      "destroyed": 0,
+      "secondsIn": 449,
+      "barPct": 15
+    },
+    {
+      "name": "BOMBER2",
+      "slug": "bomber2",
+      "type": "Air",
+      "family": "Air",
+      "iconUrl": null,
+      "iconUrlLight": null,
+      "kills": 4,
+      "killsPerMinute": 0.53,
+      "destroyed": 0,
+      "secondsIn": 449,
+      "barPct": 15
+    },
+    {
       "name": "QUAD-BIKE",
       "slug": "quad-bike",
       "type": "Transport",
@@ -1696,9 +1735,9 @@
       "iconUrl": "/battlefield4/vehicles/GROWLER_lineart.png",
       "iconUrlLight": "/battlefield4/vehicles/GROWLER_lineart-light.png",
       "kills": 3,
-      "killsPerMinute": 0.35,
+      "killsPerMinute": 0.31,
       "destroyed": 0,
-      "secondsIn": 516,
+      "secondsIn": 581,
       "barPct": 3
     },
     {
@@ -1711,7 +1750,7 @@
       "kills": 3,
       "killsPerMinute": 0.11,
       "destroyed": 0,
-      "secondsIn": 1639,
+      "secondsIn": 1677,
       "barPct": 3
     },
     {
@@ -1802,7 +1841,7 @@
       "kills": 1,
       "killsPerMinute": 0.13,
       "destroyed": 0,
-      "secondsIn": 452,
+      "secondsIn": 464,
       "barPct": 2
     },
     {
@@ -1815,7 +1854,7 @@
       "kills": 1,
       "killsPerMinute": 0.05,
       "destroyed": 0,
-      "secondsIn": 1315,
+      "secondsIn": 1319,
       "barPct": 2
     },
     {
@@ -1851,10 +1890,10 @@
       "slug": "assault",
       "iconUrl": "/battlefield4/classes/Assault.png",
       "iconUrlLight": "/battlefield4/classes/Assault-light.png",
-      "score": 2218160,
-      "secondsPlayed": 100260,
+      "score": 2245370,
+      "secondsPlayed": 102928,
       "serviceStars": 14,
-      "serviceStarProgress": 31.07,
+      "serviceStarProgress": 48.63,
       "sharePct": 37
     },
     {
@@ -1862,10 +1901,10 @@
       "slug": "engineer",
       "iconUrl": "/battlefield4/classes/Engineer.png",
       "iconUrlLight": "/battlefield4/classes/Engineer-light.png",
-      "score": 1908260,
-      "secondsPlayed": 95427,
+      "score": 1941070,
+      "secondsPlayed": 97713,
       "serviceStars": 14,
-      "serviceStarProgress": 56.69,
+      "serviceStarProgress": 81.73,
       "sharePct": 32
     },
     {
@@ -1877,17 +1916,17 @@
       "secondsPlayed": 61923,
       "serviceStars": 7,
       "serviceStarProgress": 43.84,
-      "sharePct": 17
+      "sharePct": 16
     },
     {
       "name": "Recon",
       "slug": "recon",
       "iconUrl": "/battlefield4/classes/Recon.png",
       "iconUrlLight": "/battlefield4/classes/Recon-light.png",
-      "score": 547497,
-      "secondsPlayed": 51097,
+      "score": 571189,
+      "secondsPlayed": 53614,
       "serviceStars": 5,
-      "serviceStarProgress": 26.44,
+      "serviceStarProgress": 49.22,
       "sharePct": 9
     },
     {
@@ -1906,7 +1945,7 @@
     {
       "name": "Conquest",
       "slug": "conquest",
-      "score": 3184070,
+      "score": 3233020,
       "sharePct": 97
     },
     {
@@ -1970,9 +2009,9 @@
     {
       "name": "Assignments",
       "slug": "assignments",
-      "current": 61,
+      "current": 62,
       "total": 108,
-      "pct": 56,
+      "pct": 57,
       "complete": false
     },
     {
@@ -1986,9 +2025,9 @@
     {
       "name": "Ribbons",
       "slug": "ribbons",
-      "current": 45,
+      "current": 46,
       "total": 54,
-      "pct": 83,
+      "pct": 85,
       "complete": false
     },
     {
