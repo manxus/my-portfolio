@@ -12,7 +12,7 @@
  *   STEAM_ID        64-bit SteamID
  */
 
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync } from 'fs';
 import { dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -141,42 +141,9 @@ export function readLibraryEntry(appId) {
   }
 }
 
-export function readExisting(outputPath) {
-  if (!existsSync(outputPath)) return null;
-  try {
-    return JSON.parse(readFileSync(outputPath, 'utf8'));
-  } catch {
-    console.warn(`Warning: existing ${outputPath} is unreadable, starting fresh.`);
-    return null;
-  }
-}
-
-/**
- * Holds `fetchedAt` still when nothing else changed, so a scheduled sync that finds no movement
- * leaves the file byte-identical and the workflow has nothing to commit.
- */
-export function withStableTimestamp(output, existing) {
-  if (!existing) return output;
-
-  const sameData =
-    JSON.stringify({ ...output, fetchedAt: null }) ===
-    JSON.stringify({ ...existing, fetchedAt: null });
-
-  return sameData ? { ...output, fetchedAt: existing.fetchedAt } : output;
-}
-
-/** Writes the snapshot and reports whether anything actually moved. */
-export function writeSnapshot(outputPath, output, summaryLine) {
-  const existing = readExisting(outputPath);
-  const final = withStableTimestamp(output, existing);
-
-  writeFileSync(outputPath, `${JSON.stringify(final, null, 2)}\n`);
-  console.log(summaryLine);
-  if (existing && final.fetchedAt === existing.fetchedAt) {
-    console.log('  No counters moved since the last sync; the file is unchanged.');
-  }
-  return final;
-}
+// Snapshot writing is provider-neutral and lives in snapshot.js; re-exported here so the per-game
+// Steam scripts keep importing everything they need from one module.
+export { readExisting, withStableTimestamp, writeSnapshot } from './snapshot.js';
 
 /** The profile block every game page's dossier renders. */
 export function buildProfile(appId, { profile, game }) {

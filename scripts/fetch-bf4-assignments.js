@@ -27,6 +27,7 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { dirname, resolve, join } from 'path';
 import { fileURLToPath } from 'url';
+import { writeSnapshot } from './snapshot.js';
 import { readWorkbookRows } from './xlsx-reader.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -623,8 +624,7 @@ async function main() {
     assignments,
   };
 
-  writeFileSync(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Wrote ${OUTPUT_PATH}`);
+  writeSnapshot(OUTPUT_PATH, output, `Wrote ${OUTPUT_PATH}`);
 }
 
 main().catch((err) => {

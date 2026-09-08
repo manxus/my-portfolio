@@ -39,6 +39,7 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { dirname, resolve, join } from 'path';
 import { fileURLToPath } from 'url';
+import { writeSnapshot } from './snapshot.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '../src/data/counterstrike.json');
@@ -440,31 +441,6 @@ function deriveEntries(keys, stats, schemaLabels) {
     .map((key) => ({ key, label: labelFor(key, schemaLabels), value: stats[key] }));
 }
 
-function readExisting() {
-  if (!existsSync(OUTPUT_PATH)) return null;
-  try {
-    return JSON.parse(readFileSync(OUTPUT_PATH, 'utf8'));
-  } catch {
-    console.warn('Warning: existing counterstrike.json is unreadable, starting fresh.');
-    return null;
-  }
-}
-
-/**
- * Keeps the previous timestamp when nothing else moved, so the weekly sync leaves the file
- * byte-identical and the workflow's "commit if changed" check has something to be false about. A
- * fresh fetchedAt on every run would otherwise put a commit in the history every Monday whether or
- * not a single round had been played.
- */
-function withStableTimestamp(output, existing) {
-  if (!existing) return output;
-
-  const sameData = JSON.stringify({ ...output, fetchedAt: null }) ===
-    JSON.stringify({ ...existing, fetchedAt: null });
-
-  return sameData ? { ...output, fetchedAt: existing.fetchedAt } : output;
-}
-
 /** The appid 730 row already carries the store art and Steam's own playtime figure. */
 function readLibraryEntry() {
   if (!existsSync(LIBRARY_PATH)) return { profile: {}, game: {} };
@@ -632,17 +608,12 @@ async function main() {
 
   assertSanity(summary, weapons, maps, stats);
 
-  const existing = readExisting();
-  const final = withStableTimestamp(output, existing);
-
-  writeFileSync(OUTPUT_PATH, `${JSON.stringify(final, null, 2)}\n`);
-  console.log(
+  writeSnapshot(
+    OUTPUT_PATH,
+    output,
     `Wrote src/data/counterstrike.json -- ${weapons.length} weapons, ${maps.length} maps, ` +
       `${summary.kills.toLocaleString('en-US')} kills at ${summary.killDeath} K/D.`,
   );
-  if (existing && final.fetchedAt === existing.fetchedAt) {
-    console.log('  No counters moved since the last sync; the file is unchanged.');
-  }
 }
 
 main().catch((err) => {

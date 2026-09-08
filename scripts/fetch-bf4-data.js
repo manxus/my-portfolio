@@ -31,6 +31,7 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { dirname, resolve, join, basename } from 'path';
 import { fileURLToPath } from 'url';
+import { writeSnapshot } from './snapshot.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '../src/data/battlefield4.json');
@@ -665,8 +666,7 @@ async function main() {
     platoon,
   };
 
-  writeFileSync(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Wrote ${OUTPUT_PATH}`);
+  writeSnapshot(OUTPUT_PATH, output, `Wrote ${OUTPUT_PATH}`, existing);
 }
 
 main().catch((err) => {

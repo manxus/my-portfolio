@@ -28,6 +28,7 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { dirname, resolve, join } from 'path';
 import { fileURLToPath } from 'url';
+import { writeSnapshot } from './snapshot.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '../src/data/runescape.json');
@@ -561,8 +562,7 @@ async function main() {
     })),
   };
 
-  writeFileSync(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Wrote ${OUTPUT_PATH}`);
+  writeSnapshot(OUTPUT_PATH, output, `Wrote ${OUTPUT_PATH}`, existing);
 }
 
 main().catch((err) => {
