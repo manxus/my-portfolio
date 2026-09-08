@@ -7,7 +7,12 @@
 
   --text-primary: #d0dce3;
   --text-secondary: #7a9099;
-  --text-dim: #3e555e;
+  /* Contrast against --bg-secondary, the panel background these labels sit on.
+     Was #3e555e at 2.09:1, well under the 4.5:1 AA floor for small text. This
+     is 4.14:1 and still reads as a step below --text-secondary (4.92:1);
+     going all the way to AA needs #6b8a94, which is close enough to secondary
+     that the two tiers stop being distinguishable. */
+  --text-dim: #68848e;
 
   --accent: #5f8f8f;
   --accent-bright: #82bfbf;
@@ -44,7 +49,10 @@
 
   --text-primary: #1a2a32;
   --text-secondary: #3e5560;
-  --text-dim: #8a9ea6;
+  /* Same problem on light: #8a9ea6 was 2.10:1. Secondary is much darker here
+     (5.92:1), leaving room to clear AA at 4.62:1 and still stay a clear tier
+     lighter. */
+  --text-dim: #50656d;
 
   --accent-glow: rgba(95, 143, 143, 0.15);
 
