@@ -1,6 +1,60 @@
 {
   "changelog": [
     {
+      "version": "1.13.0",
+      "date": "2026-09-08",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Steam series showcase — a COLLECTIONS tab grouping the library into series and ranking them by how much of each is perfected, with membership kept in its own file because Steam exposes no franchise field of its own"
+        },
+        {
+          "type": "added",
+          "text": "Steam achievement changes — developers patch new achievements into games already owned, which used to make a completion percentage drop with nothing to explain it; each schema change is now recorded as a readable event on the library page"
+        },
+        {
+          "type": "added",
+          "text": "Steam overview — a year of achievement unlocks as a weekday-aligned heatmap, alongside a rarity breakdown and the five games with the most hours on record"
+        },
+        {
+          "type": "added",
+          "text": "Cinema season sync — a weekly job re-reads every tracked show from TMDB, so a show that gains a season comes back with everything watched still ticked and the new episodes not, moving it from watched to watching on its own"
+        },
+        {
+          "type": "added",
+          "text": "Dev admin — a SYNC NOW button on each game tab runs that game's fetch scripts on demand and says whether anything actually moved, instead of a trip to GitHub to dispatch the workflow by hand"
+        },
+        {
+          "type": "added",
+          "text": "Dev admin — the Battlefield 4 sync also rebuilds the assignment list, and surfaces drift it cannot fix itself, such as an assignment Battlelog counts as done that the tracking spreadsheet does not"
+        },
+        {
+          "type": "added",
+          "text": "Dev admin — Steam reviews and collections pick their game by name from the library rather than asking for a raw Steam App ID"
+        },
+        {
+          "type": "changed",
+          "text": "Cinema — a show's status is derived from its episode record instead of the hand-typed field, so ticking the last episode finishes a show and a new season reopens one, from a single rule shared by the page, the episode picker and the sync script"
+        },
+        {
+          "type": "changed",
+          "text": "Dev admin — the Steam review and Hall of Pain grids re-read their file after a save, so an edit shows up without reloading the page"
+        },
+        {
+          "type": "changed",
+          "text": "Battlefield 4, Counter-Strike 2, RuneScape and the assignment list hold their timestamp still when a sync finds nothing new, so an unchanged snapshot no longer lands a commit and a redeploy on every scheduled run"
+        },
+        {
+          "type": "fixed",
+          "text": "Dimmed label text failed WCAG AA contrast in both themes — 2.09:1 on dark and 2.10:1 on light, against a 4.5:1 floor for small text — and is now raised as far as it can go while staying a visible tier below secondary text"
+        },
+        {
+          "type": "fixed",
+          "text": "Admin credentials set in .env were ignored by the dev API, which fell back to admin/admin and rejected the real ones"
+        }
+      ]
+    },
+    {
       "version": "1.12.0",
       "date": "2026-08-24",
       "entries": [

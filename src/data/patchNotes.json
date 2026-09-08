@@ -4,6 +4,7 @@
     "In-browser content editing (Decap CMS) is wired for local development; the public site is static",
     "Some CRT and motion effects are heavy on low-end devices — use Settings to tone them down",
     "Admin CV upload and PASTE URL require the local dev server (npm run dev); production edits use Decap CMS or JSON",
-    "Counter-Strike per-map stats only cover the original CS:GO map pool — Valve never added counters for Mirage, Overpass, Cache, Anubis, or Ancient"
+    "Counter-Strike per-map stats only cover the original CS:GO map pool — Valve never added counters for Mirage, Overpass, Cache, Anubis, or Ancient",
+    "Battlefield 4 assignment completion comes from a hand-kept spreadsheet — no public API exposes it, so a newly unlocked assignment needs the sheet updated before the site shows it"
   ]
 }
