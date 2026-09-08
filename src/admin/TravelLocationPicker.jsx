@@ -8,6 +8,8 @@ import styles from './TravelLocationPicker.module.css';
 const DEFAULT_CENTER = [59.3293, 18.0686];
 const DEFAULT_ZOOM = 4;
 const SEARCH_DEBOUNCE_MS = 450;
+/** Deepest zoom Esri serves for this basemap; Leaflet upscales past it. */
+const ESRI_MAX_NATIVE_ZOOM = 16;
 
 function isValidCoord(n) {
   return typeof n === 'number' && !Number.isNaN(n);
@@ -178,8 +180,14 @@ export default function TravelLocationPicker({ lat, lng, onChange }) {
           scrollWheelZoom
         >
           <TileLayer
-            attribution='&copy; OpenStreetMap &copy; CARTO'
-            url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+            attribution='Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+            maxNativeZoom={ESRI_MAX_NATIVE_ZOOM}
+          />
+          {/* Base has country labels only; this overlay adds place names for precise pin placement. */}
+          <TileLayer
+            url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+            maxNativeZoom={ESRI_MAX_NATIVE_ZOOM}
           />
           <MapResizeFix />
           <MapFlyTo lat={lat} lng={lng} flyKey={flyKey} />

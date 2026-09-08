@@ -30,6 +30,16 @@
   line-height: 1.5;
 }
 
+/*
+ * Esri's Dark Gray canvas is lighter than the CARTO basemap it replaced
+ * (land rgb(63,63,65) vs rgb(38,38,38)), which read as a bright slab against
+ * the near-black page. Darken the tiles only — markers, popups and controls
+ * live in sibling panes and keep their full-strength accent colours.
+ */
+.map :global(.leaflet-tile-pane) {
+  filter: brightness(0.6) saturate(0.85);
+}
+
 .markerIconRoot {
   background: transparent !important;
   border: none !important;

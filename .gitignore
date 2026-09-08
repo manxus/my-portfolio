@@ -29,6 +29,7 @@ dist-ssr
 # Data sync script caches (local + CI restored via actions/cache)
 scripts/.steam-fetch-cache
 scripts/.runescape-cache
+scripts/.wikidata-cache
 
 # Claude Code local tooling
 .claude/

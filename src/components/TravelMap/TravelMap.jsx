@@ -41,6 +41,8 @@ const FIT_PADDING = [48, 48];
 const SINGLE_PIN_ZOOM = 6;
 const MAX_ZOOM = 12;
 const TILE_SIZE = 256;
+/** Deepest zoom Esri serves for this basemap; Leaflet upscales past it. */
+const ESRI_MAX_NATIVE_ZOOM = 16;
 
 function collectPinPoints(trips, home, hasHome) {
   const points = trips.map((t) => [t.lat, t.lng]);
@@ -234,8 +236,9 @@ export default function TravelMap({ trips, home, selectedId, onSelectTrip, onSel
         worldCopyJump
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          attribution='Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors'
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+          maxNativeZoom={ESRI_MAX_NATIVE_ZOOM}
         />
         <MapController trips={validTrips} home={home} selectedId={selectedId} />
         {hasHome && (
