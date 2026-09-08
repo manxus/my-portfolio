@@ -9,6 +9,7 @@ import {
   totalEpisodes,
   watchedInSeason,
 } from '../utils/episodes';
+import { derivedStatus } from '../utils/watchStatus';
 import styles from './CinemaEpisodePicker.module.css';
 
 /** Real checkbox so the browser handles focus and keys; ref sets the mixed state. */
@@ -96,7 +97,11 @@ export default function CinemaEpisodePicker({ value, onChange }) {
   const next = nextEpisode(seasonEpisodes, watchedEpisodes);
 
   const commit = (nextWatched) => {
-    onChange({ watchedEpisodes: nextWatched, episodesSeen: countWatched(nextWatched) });
+    const patch = { watchedEpisodes: nextWatched, episodesSeen: countWatched(nextWatched) };
+    // Status follows the ticks: finishing the last episode marks the show
+    // watched, unticking one puts it back to watching. Same rule the page reads
+    // by, so the file stops disagreeing with what the Cinema page shows.
+    onChange({ ...patch, status: derivedStatus({ ...value, ...patch }) });
   };
 
   const handleSetSeason = (season, length, watched) => {
@@ -138,6 +143,9 @@ export default function CinemaEpisodePicker({ value, onChange }) {
         </span>
         <span className={styles.summaryNext}>
           {next ? `next ${formatEpisodeCode(next)}` : 'complete'}
+          {/* The status the ticks imply, so the flip is visible before saving. */}
+          {' · '}
+          {derivedStatus(value)}
         </span>
       </div>
 

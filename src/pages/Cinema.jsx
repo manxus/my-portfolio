@@ -14,12 +14,13 @@ import EditableSection, { EditableItemControls } from '../admin/EditableSection'
 import CinemaTabs from '../components/CinemaTabs/CinemaTabs';
 import SteamFilters from '../components/SteamFilters/SteamFilters';
 import { useAdminStore } from '../stores/adminStore';
+import { formatEpisodeCode, nextEpisode } from '../utils/episodes';
 import {
-  countWatched,
-  formatEpisodeCode,
-  nextEpisode,
-  totalEpisodes as sumSeasons,
-} from '../utils/episodes';
+  derivedStatus,
+  episodesWatched,
+  isShow,
+  watchProgress,
+} from '../utils/watchStatus';
 import {
   franchiseProgress,
   groupByCollection,
@@ -93,10 +94,6 @@ function openExternalUrl(url) {
   window.open(resolved, '_blank', 'noopener,noreferrer');
 }
 
-function isShow(entry) {
-  return entry.mediaType === 'tv';
-}
-
 function isQueued(entry) {
   return entry.status === 'watchlist';
 }
@@ -131,6 +128,18 @@ const WATCHLIST_TYPES = [
 ];
 
 const DEFAULT_WATCHLIST_TYPE = 'all';
+
+/**
+ * Cards a packed section needs before its own column is wide enough to hold the
+ * detail panel. Four cards clear the 540px the panel wants for a cover beside
+ * the text (4 × 162px + 3 × 24px of gap); three fall just short of it.
+ *
+ * Below that the panel is lifted out and laid across the row instead — a
+ * one-film franchise is a 162px strip. Above it the panel stays in the section,
+ * where it opens under the row that was clicked rather than under a franchise
+ * that can run to forty films.
+ */
+const PACKED_INLINE_MIN_SPAN = 4;
 
 function matchesSearch(entry, query) {
   return !query || String(entry.title).toLowerCase().includes(query);
@@ -189,31 +198,10 @@ function groupForTab(tab, list, sortBy) {
   return groups.filter((g) => g.items.length > 0);
 }
 
-/**
- * Episodes actually seen. The per-episode record wins where it exists; otherwise
- * fall back to the stored total, which still covers shows that were never synced.
- */
-function episodesSeen(entry) {
-  if (!isShow(entry)) return 0;
-  if (entry.watchedEpisodes) return countWatched(entry.watchedEpisodes);
-  const seen = toCount(entry.episodesSeen);
-  if (seen > 0) return seen;
-  return entry.status === 'watched' ? toCount(entry.episodes) : 0;
-}
-
 /** The episode to resume on, for shows tracked episode by episode. */
 function resumePoint(entry) {
   if (!isShow(entry) || !entry.watchedEpisodes) return null;
   return nextEpisode(entry.seasonEpisodes, entry.watchedEpisodes);
-}
-
-/** Episode progress for a show that has been started, or null when it doesn't apply. */
-function watchProgress(entry) {
-  // Prefer the per-season sum: it is the total the episode record can address.
-  const total = sumSeasons(entry.seasonEpisodes) || toCount(entry.episodes);
-  const seen = episodesSeen(entry);
-  if (total <= 0 || seen <= 0) return null;
-  return { seen, total, percent: Math.min(100, Math.round((seen / total) * 100)) };
 }
 
 function sortEntries(list, sortBy) {
@@ -333,7 +321,7 @@ function EntryCard({ entry, index, selected, style, onSelect }) {
   );
 }
 
-function EntryDetail({ entry, onClose, style }) {
+function EntryDetail({ entry, onClose, style, className }) {
   const hasLink = Boolean(resolveExternalUrl(entry.tmdbUrl));
   const total = toCount(entry.episodes);
   const progress = watchProgress(entry);
@@ -341,7 +329,7 @@ function EntryDetail({ entry, onClose, style }) {
 
   return (
     <motion.div
-      className={styles.detail}
+      className={`${styles.detail}${className ? ` ${className}` : ''}`}
       initial={{ height: 0, opacity: 0 }}
       animate={{ height: 'auto', opacity: 1 }}
       exit={{ height: 0, opacity: 0 }}
@@ -478,10 +466,21 @@ function useGridColumns() {
  * it at the end of the selected card's row, so it only renders in the grid that
  * actually holds the selection. Each grid measures its own columns — sections
  * are separate grids and must not share one count.
+ *
+ * `inlineDetail` is off in the narrow packed sections, where the section is only
+ * as wide as its own handful of cards: there the caller renders the panel across
+ * the whole row instead, since a one-film franchise column has no room for it.
  */
-function EntryGrid({ items, selectedId, adminIndexOf, onSelect, onCloseDetail }) {
+function EntryGrid({
+  items,
+  selectedId,
+  adminIndexOf,
+  onSelect,
+  onCloseDetail,
+  inlineDetail = true,
+}) {
   const [gridRef, cols] = useGridColumns();
-  const selectedIndex = items.findIndex((e) => e.id === selectedId);
+  const selectedIndex = inlineDetail ? items.findIndex((e) => e.id === selectedId) : -1;
   const selectedEntry = selectedIndex >= 0 ? items[selectedIndex] : null;
   const detailOrder =
     selectedIndex < 0
@@ -529,7 +528,7 @@ function Overview({ entries, selectedId, adminIndexOf, onSelect, onCloseDetail }
   const shows = entries.filter(isShow);
   const watched = entries.filter((e) => e.status === 'watched');
   const dropped = entries.filter((e) => e.status === 'dropped');
-  const totalEpisodes = shows.reduce((sum, e) => sum + episodesSeen(e), 0);
+  const totalEpisodes = shows.reduce((sum, e) => sum + episodesWatched(e), 0);
 
   const rated = entries.filter((e) => toCount(e.rating) > 0);
   const avgRating =
@@ -606,7 +605,27 @@ export default function Cinema() {
   const [sortBy, setSortBy] = useState('title');
   const [watchlistType, setWatchlistType] = useState(DEFAULT_WATCHLIST_TYPE);
 
-  const entries = isAdminUi && adminEntries ? adminEntries : defaultEntries;
+  const source = isAdminUi && adminEntries ? adminEntries : defaultEntries;
+
+  /**
+   * Status comes off the episode record rather than the stored field, so a show
+   * whose last episode is ticked moves to WATCHED and one that has gained a
+   * season moves back to WATCHING without waiting for the file to be corrected.
+   * Doing it once here means every filter, section and stat downstream agrees.
+   *
+   * The entry object is only replaced where the status actually differs, so the
+   * untouched ones keep their identity and the memos below stay cheap. Nothing
+   * here leaks into the admin editor: it re-reads the file through getData and
+   * indexes into that copy, and this map is 1:1 so the indexes still line up.
+   */
+  const entries = useMemo(
+    () =>
+      source.map((entry) => {
+        const status = derivedStatus(entry);
+        return status === entry.status ? entry : { ...entry, status };
+      }),
+    [source],
+  );
 
   // Derived rather than corrected in an effect: logging out with the admin-only
   // tab open would otherwise strand the page on a tab that no longer exists.
@@ -702,6 +721,20 @@ export default function Cinema() {
   // Franchise sections are mostly two or three films; stacking them full-width
   // wastes most of every row, so they flow side by side instead.
   const packedGroups = sortBy === 'collection' || finishingView;
+
+  // A packed section too narrow to hold the panel hands it to the row instead.
+  // Ordered right after that section, a full-width flex item breaks the line
+  // there and the sections that followed reflow underneath it.
+  const selectedGroupIndex = packedGroups
+    ? groups.findIndex(
+        (g) =>
+          g.items.length < PACKED_INLINE_MIN_SPAN && g.items.some((e) => e.id === selectedId),
+      )
+    : -1;
+  const packedDetailEntry =
+    selectedGroupIndex >= 0
+      ? groups[selectedGroupIndex].items.find((e) => e.id === selectedId)
+      : null;
 
   const adminIndexOf = useCallback(
     (entry) => entries.findIndex((e) => e.id === entry.id),
@@ -825,12 +858,15 @@ export default function Cinema() {
             </div>
 
             <div className={packedGroups ? styles.groupsPacked : undefined}>
-              {groups.map((group) => (
+              {groups.map((group, i) => (
                 <div
                   key={group.id}
                   className={styles.group}
-                  // --span drives the section's width in the packed layout.
-                  style={packedGroups ? { '--span': group.items.length } : undefined}
+                  // --span drives the section's width in the packed layout, and
+                  // the order leaves the odd slots free for the detail panel.
+                  style={
+                    packedGroups ? { '--span': group.items.length, order: i * 2 } : undefined
+                  }
                 >
                   {group.label && (
                     <h2
@@ -854,9 +890,22 @@ export default function Cinema() {
                     adminIndexOf={adminIndexOf}
                     onSelect={toggleSelected}
                     onCloseDetail={clearSelected}
+                    inlineDetail={!packedGroups || group.items.length >= PACKED_INLINE_MIN_SPAN}
                   />
                 </div>
               ))}
+
+              <AnimatePresence>
+                {packedDetailEntry && (
+                  <EntryDetail
+                    key={packedDetailEntry.id}
+                    entry={packedDetailEntry}
+                    onClose={clearSelected}
+                    className={styles.detailPacked}
+                    style={{ order: selectedGroupIndex * 2 + 1 }}
+                  />
+                )}
+              </AnimatePresence>
             </div>
 
             {visibleEntries.length === 0 && (

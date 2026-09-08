@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cinema:refresh": "node --env-file=.env scripts/refresh-cinema-shows.js"
   },
   "dependencies": {
     "framer-motion": "^12.34.3",

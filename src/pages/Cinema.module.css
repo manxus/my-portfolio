@@ -214,6 +214,15 @@
   grid-template-columns: repeat(auto-fill, var(--card-w));
 }
 
+/* The detail panel of a narrow franchise is lifted out of its section, because a
+   section is only as wide as its own cards — a one-film franchise is a single
+   162px column, which turned the panel into a tall strip. Full width breaks the
+   flex line, so it opens under the section it was clicked in. */
+.groupsPacked .detailPacked {
+  flex: 0 0 100%;
+  container-type: inline-size;
+}
+
 /* Lets the detail panel below respond to the width of the section it opens in
    rather than the viewport. */
 .grid {
@@ -447,8 +456,11 @@
   flex-shrink: 0;
 }
 
-/* A two-film franchise section is only ~336px wide — far too narrow for a
-   cover sitting beside the text, so stack them at that size. */
+/* Narrow enough that a cover beside the text would leave nothing for the text —
+   a phone, or a lone grid on a small window — so stack them at that size. In the
+   packed layouts the panel carries its own container (.detailPacked) rather than
+   inheriting the franchise column's, so a one-film section no longer counts as
+   narrow just for holding one card. */
 @container (max-width: 540px) {
   .detailInner {
     flex-direction: column;
@@ -666,17 +678,29 @@
   /* Side-by-side franchise sections need room the phone hasn't got: a one-film
      section is a 96px column, too narrow to hold "THE FAST AND THE FURIOUS"
      without clipping it. Stack them full-width instead — with one section per
-     row there is nothing left to align, so the reserved heading height goes too. */
+     row there is nothing left to align, so the reserved heading height goes too.
+     A column flex rather than a block, so the detail panel's `order` still
+     places it under the section it belongs to. The row layout's other three
+     properties all have to be undone for that: wrapping would break the stack
+     into columns and stretch every item to fill them, and flex-start would
+     shrink each section to its own content instead of the full width. The
+     container's row gap spaces them, so no margin here. */
   .groupsPacked {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
   }
 
   .groupsPacked .group {
     width: auto;
   }
 
-  .groupsPacked .group + .group {
-    margin-top: 1.75rem;
+  /* flex-basis follows the main axis, which is vertical once the sections stack:
+     the row layout's 100% would size the panel to the full height of the list
+     rather than the full width of it. Stretch already gives it the width. */
+  .groupsPacked .detailPacked {
+    flex: 0 0 auto;
   }
 
   .groupsPacked .grid {

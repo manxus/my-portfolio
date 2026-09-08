@@ -34,28 +34,11 @@ import {
   nextEpisode,
   totalEpisodes,
 } from '../src/utils/episodes.js';
+import { fetchShow, seasonEpisodeCounts } from './tmdb-shows.js';
 
 const DATA_PATH = resolve(process.cwd(), 'src/data/cinema.json');
 const REQUEST_GAP_MS = 120;
 const dryRun = process.argv.includes('--dry');
-
-function seasonEpisodeCounts(show) {
-  if (!Array.isArray(show.seasons)) return [];
-  return show.seasons
-    .filter((s) => Number(s.season_number) > 0)
-    .sort((a, b) => Number(a.season_number) - Number(b.season_number))
-    .map((s) => Number(s.episode_count) || 0);
-}
-
-async function fetchShow(tmdbId, apiKey) {
-  const url = `https://api.themoviedb.org/3/tv/${tmdbId}?${new URLSearchParams({
-    api_key: apiKey,
-    language: 'en-US',
-  })}`;
-  const res = await fetch(url, { headers: { Accept: 'application/json' } });
-  if (!res.ok) throw new Error(`TMDB ${res.status}`);
-  return res.json();
-}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
