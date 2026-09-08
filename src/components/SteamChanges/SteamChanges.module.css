@@ -1,0 +1,122 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.18);
+  padding: 0.85rem 1.1rem;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(95, 143, 143, 0.15);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.4rem 0.55rem;
+  background: var(--bg-primary);
+  border: 1px solid rgba(95, 143, 143, 0.08);
+  min-width: 0;
+}
+
+.row:hover {
+  background: var(--bg-hover);
+}
+
+.cover {
+  position: relative;
+  flex: 0 0 auto;
+  width: 56px;
+  height: 26px;
+  overflow: hidden;
+  background: var(--bg-deep);
+}
+
+.text {
+  margin: 0;
+  min-width: 0;
+  /* basis 0, not auto: the sentence is long, and an auto basis makes the row
+     wrap the cover onto its own line once the viewport narrows. */
+  flex: 1 1 0;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.game {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.change {
+  color: var(--accent-bright);
+}
+
+.when {
+  flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.expander {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  background: none;
+  border: none;
+  padding: 0.15rem 0;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.expander:hover {
+  color: var(--accent-bright);
+}
+
+@media (max-width: 640px) {
+  .banner {
+    padding: 0.7rem 0.8rem;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    row-gap: 0.2rem;
+  }
+
+  .when {
+    /* Cover and title keep the first line; the date drops beneath them rather
+       than squeezing the title into a two-character column. */
+    flex-basis: 100%;
+    margin-left: calc(56px + 0.7rem);
+  }
+}

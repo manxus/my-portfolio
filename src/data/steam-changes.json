@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-09-04T22:07:38.382Z",
+  "events": [
+    {
+      "appId": 714010,
+      "name": "Aimlabs",
+      "added": 14,
+      "total": 114,
+      "date": "2026-09-04"
+    },
+    {
+      "appId": 3694480,
+      "name": "A Game About Feeding A Black Hole",
+      "added": 1,
+      "total": 37,
+      "date": "2026-09-04"
+    },
+    {
+      "appId": 813780,
+      "name": "Age of Empires II: Definitive Edition",
+      "added": 13,
+      "total": 370,
+      "date": "2026-09-02"
+    },
+    {
+      "appId": 269210,
+      "name": "Hero Siege",
+      "added": 33,
+      "total": 145,
+      "date": "2026-08-22"
+    },
+    {
+      "appId": 3527290,
+      "name": "PEAK",
+      "added": 10,
+      "total": 64,
+      "date": "2026-08-12"
+    },
+    {
+      "appId": 306020,
+      "name": "Bloons TD5",
+      "added": 10,
+      "total": 135,
+      "date": "2026-07-30"
+    },
+    {
+      "appId": 3694480,
+      "name": "A Game About Feeding A Black Hole",
+      "added": 1,
+      "total": 36,
+      "date": "2026-06-13"
+    },
+    {
+      "appId": 1127500,
+      "name": "Mini Motorways",
+      "added": 5,
+      "total": 165,
+      "date": "2026-06-10"
+    }
+  ]
+}

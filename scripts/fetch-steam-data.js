@@ -22,6 +22,18 @@ import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { dirname, resolve, join } from 'path';
 import { fileURLToPath } from 'url';
 import { enrichGamesWithHltb, applyHltbCache, loadHltbCache } from './hltb.js';
+import {
+  diffTotals,
+  extractTotals,
+  formatEvent,
+  mergeEvents,
+  readBaselines,
+  readChanges,
+  toDateKey,
+  updateBaselines,
+  writeBaselines,
+  writeChanges,
+} from './steam-changes.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '../src/data/steam-library.json');
@@ -612,6 +624,21 @@ async function main() {
     games,
     wishlist,
   };
+
+  // Record any game whose achievement list grew since the last sync. Only the
+  // full-fetch path reaches here -- --hltb-only and --wishlist-only return above
+  // and never populate game.achievements, so there is nothing to compare there.
+  const totals = extractTotals(output);
+  const baselines = readBaselines();
+  const events = diffTotals(baselines, totals, toDateKey(output.fetchedAt));
+  writeChanges(mergeEvents(readChanges(), events));
+  writeBaselines(updateBaselines(baselines, totals));
+  if (events.length === 0) {
+    console.log('Achievement changes: none');
+  } else {
+    console.log(`Achievement changes: ${events.length} game(s)`);
+    events.forEach((e) => console.log(`  ${formatEvent(e)}`));
+  }
 
   mkdirSync(dirname(OUTPUT_PATH), { recursive: true });
   writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2));
