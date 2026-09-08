@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import SteamStats from '../SteamStats/SteamStats';
+import SteamChanges from '../SteamChanges/SteamChanges';
 import AchievementCard from '../SteamAchievements/AchievementCard';
 import {
   buildAchievementData,
@@ -21,13 +22,21 @@ const MONTH_NAMES = [
 
 export default function SteamOverview({ games, profile, wishlist }) {
   const [selectedDay, setSelectedDay] = useState(null);
-
-  const wishlistItems = wishlist || [];
+  const [now] = useState(() => Date.now());
 
   const { gamesWithItems, unlockedAch, perfectGames } = useMemo(
     () => buildAchievementData(games),
     [games],
   );
+
+  // `games` arrives unsorted from SteamLibrary (only the library tab gets the
+  // sorted copy), so order the top five explicitly rather than trusting the JSON.
+  const { topPlayed, maxHours } = useMemo(() => {
+    const sorted = [...games]
+      .sort((a, b) => (b.playtimeHours || 0) - (a.playtimeHours || 0))
+      .slice(0, 5);
+    return { topPlayed: sorted, maxHours: sorted[0]?.playtimeHours || 1 };
+  }, [games]);
 
   const rarity = useMemo(() => {
     const buckets = RARITY_BUCKETS.map((b) => ({ label: b.label, count: 0 }));
@@ -37,7 +46,10 @@ export default function SteamOverview({ games, profile, wishlist }) {
       if (idx >= 0) buckets[idx].count += 1;
     }
     const maxBucket = Math.max(1, ...buckets.map((b) => b.count));
-    return { buckets, maxBucket };
+    // RARITY_BUCKETS runs rarest-first because `rarityLabel` relies on that
+    // order; the panel reads better the other way round, so flip a copy rather
+    // than reordering the shared constant.
+    return { buckets: [...buckets].reverse(), maxBucket };
   }, [unlockedAch]);
 
   // Per-day unlock details + games perfected (hit 100%) on a given day.
@@ -71,7 +83,7 @@ export default function SteamOverview({ games, profile, wishlist }) {
     return { items, perfected };
   }, [unlockedAch, perfectGames]);
 
-  // Last 365 days of unlock activity as one weekday-aligned grid per month.
+  // Last 365 days of unlock activity as one continuous weekday-aligned grid.
   const calendar = useMemo(() => {
     const dayCounts = new Map();
     for (const a of unlockedAch) {
@@ -87,65 +99,67 @@ export default function SteamOverview({ games, profile, wishlist }) {
     const windowStart = new Date(today);
     windowStart.setDate(windowStart.getDate() - 364);
 
-    const months = [];
+    // Start on the Sunday at or before the window so every column is a full week.
+    const cursor = new Date(windowStart);
+    cursor.setDate(cursor.getDate() - cursor.getDay());
+
+    const weeks = [];
     let maxCount = 0;
     let yearTotal = 0;
-    let prevYear = null;
 
-    const monthCursor = new Date(
-      windowStart.getFullYear(),
-      windowStart.getMonth(),
-      1,
-    );
-    const monthEnd = new Date(today.getFullYear(), today.getMonth(), 1);
-
-    while (monthCursor <= monthEnd) {
-      const y = monthCursor.getFullYear();
-      const m = monthCursor.getMonth();
-      const firstOfMonth = new Date(y, m, 1);
-      const lastOfMonth = new Date(y, m + 1, 0);
-      const start = firstOfMonth < windowStart ? new Date(windowStart) : firstOfMonth;
-      const end = lastOfMonth > today ? new Date(today) : lastOfMonth;
-
+    while (cursor <= today) {
       const cells = [];
-      for (let i = 0; i < start.getDay(); i += 1) cells.push(null);
-
-      const d = new Date(start);
-      while (d <= end) {
-        const key = dayKey(d);
-        const count = dayCounts.get(key) || 0;
-        if (count > maxCount) maxCount = count;
-        yearTotal += count;
-        cells.push({
-          key,
-          count,
-          label: d.toLocaleDateString(undefined, {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-          }),
-        });
-        d.setDate(d.getDate() + 1);
+      for (let i = 0; i < 7; i += 1) {
+        if (cursor < windowStart || cursor > today) {
+          cells.push(null);
+        } else {
+          const key = dayKey(cursor);
+          const count = dayCounts.get(key) || 0;
+          if (count > maxCount) maxCount = count;
+          yearTotal += count;
+          cells.push({
+            key,
+            count,
+            month: cursor.getMonth(),
+            year: cursor.getFullYear(),
+            label: cursor.toLocaleDateString(undefined, {
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+            }),
+          });
+        }
+        cursor.setDate(cursor.getDate() + 1);
       }
-      while (cells.length % 7 !== 0) cells.push(null);
-
-      const weeks = [];
-      for (let i = 0; i < cells.length; i += 7) {
-        weeks.push(cells.slice(i, i + 7));
-      }
-
-      const showYear = prevYear !== y;
-      prevYear = y;
-      months.push({
-        key: `${y}-${String(m + 1).padStart(2, '0')}`,
-        label: showYear ? `${MONTH_NAMES[m]} '${String(y).slice(2)}` : MONTH_NAMES[m],
-        weeks,
-      });
-
-      monthCursor.setMonth(monthCursor.getMonth() + 1);
+      weeks.push(cells);
     }
 
-    return { months, maxCount, yearTotal };
+    // One label per run of columns starting in the same month, so labels sit
+    // above the weeks they describe rather than over separate blocks.
+    const monthSpans = [];
+    let prevYear = null;
+    for (const week of weeks) {
+      const first = week.find(Boolean);
+      if (!first) continue;
+      const open = monthSpans[monthSpans.length - 1];
+      if (open && open.month === first.month && open.year === first.year) {
+        open.span += 1;
+        continue;
+      }
+      const showYear = prevYear !== first.year;
+      prevYear = first.year;
+      monthSpans.push({
+        key: `${first.year}-${String(first.month + 1).padStart(2, '0')}`,
+        label: showYear
+          ? `${MONTH_NAMES[first.month]} '${String(first.year).slice(2)}`
+          : MONTH_NAMES[first.month],
+        month: first.month,
+        year: first.year,
+        span: 1,
+      });
+    }
+
+    return { weeks, monthSpans, maxCount, yearTotal };
   }, [unlockedAch]);
 
   const heatLevel = (count) => {
@@ -172,11 +186,11 @@ export default function SteamOverview({ games, profile, wishlist }) {
   }, []);
 
   const wishlistStats = useMemo(() => {
-    const count = wishlistItems.length;
-    const cutoff = Date.now() / 1000 - 30 * 24 * 60 * 60;
-    const recent = wishlistItems.filter((w) => (w.dateAdded || 0) >= cutoff).length;
-    return { count, recent };
-  }, [wishlistItems]);
+    const items = wishlist || [];
+    const cutoff = now / 1000 - 30 * 24 * 60 * 60;
+    const recent = items.filter((w) => (w.dateAdded || 0) >= cutoff).length;
+    return { count: items.length, recent };
+  }, [wishlist, now]);
 
   const tierStats = useMemo(() => {
     const categories = tierLists.length;
@@ -196,67 +210,96 @@ export default function SteamOverview({ games, profile, wishlist }) {
     <div className={styles.container}>
       <SteamStats games={games} profile={profile} />
 
-      <section className={styles.block}>
-        <div className={styles.blockHead}>
-          <h2 className={styles.blockTitle}>COLLECTION</h2>
-          <p className={styles.blockHint}>
-            Reviews, wishlist and tier-list activity at a glance
-          </p>
+      <div
+        className={styles.chartRow}
+        data-single={gamesWithItems.length === 0 ? 'true' : undefined}
+      >
+        <div className={styles.panel}>
+          <p className={styles.panelLabel}>MOST PLAYED</p>
+          <div className={styles.chartRows}>
+            {topPlayed.map((game) => (
+              <div key={game.appId} className={styles.playRow}>
+                <div className={styles.playMain}>
+                  <span className={styles.playName}>{game.name}</span>
+                  <div className={styles.barTrack}>
+                    <div
+                      className={styles.barFill}
+                      style={{
+                        width: `${(game.playtimeHours / maxHours) * 100}%`,
+                      }}
+                    />
+                  </div>
+                </div>
+                <span className={styles.playValue}>
+                  {game.playtimeHours.toLocaleString()}h
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className={styles.snapshotGrid}>
-          <div className={styles.snapshotCard}>
-            <span className={styles.snapshotLabel}>REVIEWS</span>
-            <span className={styles.snapshotValue}>{reviewStats.count}</span>
-            <span className={styles.snapshotMeta}>
+
+        {gamesWithItems.length > 0 && (
+          <div className={styles.panel}>
+            <p className={styles.panelLabel}>ACHIEVEMENT RARITY</p>
+            <div className={styles.chartRows}>
+              {rarity.buckets.map((b) => (
+                <div key={b.label} className={styles.rarityRow}>
+                  <div className={styles.rarityMain}>
+                    <span className={styles.rarityLabel}>{b.label}</span>
+                    <div className={styles.barTrack}>
+                      <div
+                        className={styles.barFill}
+                        style={{ width: `${(b.count / rarity.maxBucket) * 100}%` }}
+                      />
+                    </div>
+                  </div>
+                  <span className={styles.rarityValue}>
+                    {b.count.toLocaleString()}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className={styles.collectionStrip}>
+        <div className={styles.collectionCell}>
+          <span className={styles.collectionLabel}>REVIEWS</span>
+          <div className={styles.collectionFigures}>
+            <span className={styles.collectionValue}>{reviewStats.count}</span>
+            <span className={styles.collectionMeta}>
               avg {reviewStats.avg.toFixed(1)}/10 · {reviewStats.recommendedPct}%
               recommended
             </span>
           </div>
-          <div className={styles.snapshotCard}>
-            <span className={styles.snapshotLabel}>WISHLIST</span>
-            <span className={styles.snapshotValue}>
+        </div>
+        <div className={styles.collectionCell}>
+          <span className={styles.collectionLabel}>WISHLIST</span>
+          <div className={styles.collectionFigures}>
+            <span className={styles.collectionValue}>
               {wishlistStats.count.toLocaleString()}
             </span>
-            <span className={styles.snapshotMeta}>
+            <span className={styles.collectionMeta}>
               {wishlistStats.recent} added in last 30 days
             </span>
           </div>
-          <div className={styles.snapshotCard}>
-            <span className={styles.snapshotLabel}>TIER LIST</span>
-            <span className={styles.snapshotValue}>{tierStats.ranked}</span>
-            <span className={styles.snapshotMeta}>
+        </div>
+        <div className={styles.collectionCell}>
+          <span className={styles.collectionLabel}>TIER LIST</span>
+          <div className={styles.collectionFigures}>
+            <span className={styles.collectionValue}>{tierStats.ranked}</span>
+            <span className={styles.collectionMeta}>
               ranked across {tierStats.categories} categor
               {tierStats.categories === 1 ? 'y' : 'ies'}
             </span>
           </div>
         </div>
-      </section>
+      </div>
+
+      <SteamChanges games={games} />
 
       {gamesWithItems.length > 0 && (
-        <>
-          <section className={styles.block}>
-            <div className={styles.blockHead}>
-              <h2 className={styles.blockTitle}>RARITY DISTRIBUTION</h2>
-              <p className={styles.blockHint}>
-                Unlocked achievements grouped by global rarity
-              </p>
-            </div>
-            <div className={styles.barList}>
-              {rarity.buckets.map((b) => (
-                <div key={b.label} className={styles.barRow}>
-                  <span className={styles.barLabel}>{b.label}</span>
-                  <div className={styles.barTrack}>
-                    <div
-                      className={styles.barFill}
-                      style={{ width: `${(b.count / rarity.maxBucket) * 100}%` }}
-                    />
-                  </div>
-                  <span className={styles.barValue}>{b.count}</span>
-                </div>
-              ))}
-            </div>
-          </section>
-
           <section className={styles.block}>
             <div className={styles.blockHead}>
               <h2 className={styles.blockTitle}>UNLOCK ACTIVITY</h2>
@@ -266,63 +309,61 @@ export default function SteamOverview({ games, profile, wishlist }) {
                   : 'Achievements earned per day over the last year'}
               </p>
             </div>
-            <div className={styles.calendarScroll}>
-              <div className={styles.calMonths}>
-                {calendar.months.map((month) => (
-                  <div key={month.key} className={styles.calMonthBlock}>
-                    <span className={styles.calMonthLabel}>{month.label}</span>
-                    <div className={styles.calGrid}>
-                      {month.weeks.map((week, wi) => (
-                        <div key={wi} className={styles.calWeek}>
-                          {week.map((day, di) => {
-                            if (!day) {
-                              return (
-                                <div
-                                  key={`empty-${wi}-${di}`}
-                                  className={styles.calDayEmpty}
-                                />
-                              );
-                            }
-                            const perfected = dayDetails.perfected.has(day.key);
-                            const cellTitle = `${day.count} unlocked · ${day.label}${perfected ? ' · perfected a game' : ''}`;
-                            if (day.count === 0) {
-                              return (
-                                <div
-                                  key={day.key}
-                                  className={styles.calDay}
-                                  data-level={0}
-                                  title={cellTitle}
-                                />
-                              );
-                            }
-                            return (
-                              <button
-                                key={day.key}
-                                type="button"
-                                className={styles.calDay}
-                                data-level={heatLevel(day.count)}
-                                data-perfected={perfected ? 'true' : undefined}
-                                data-selected={
-                                  selectedDay?.key === day.key ? 'true' : undefined
-                                }
-                                title={cellTitle}
-                                onClick={() =>
-                                  setSelectedDay((cur) =>
-                                    cur?.key === day.key ? null : day,
-                                  )
-                                }
-                              >
-                                <span className={styles.calDayNum}>
-                                  {day.count}
-                                </span>
-                              </button>
-                            );
-                          })}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+            <div
+              className={styles.calendarWrap}
+              style={{ '--cal-weeks': calendar.weeks.length }}
+            >
+              <div className={styles.calMonthRow}>
+                {calendar.monthSpans.map((month) => (
+                  <span
+                    key={month.key}
+                    className={styles.calMonthLabel}
+                    style={{ '--cal-span': month.span }}
+                  >
+                    {month.span >= 3 ? month.label : ''}
+                  </span>
                 ))}
+              </div>
+              <div className={styles.calGrid}>
+                {calendar.weeks.flat().map((day, i) => {
+                  if (!day) {
+                    return (
+                      <div key={`empty-${i}`} className={styles.calDayEmpty} />
+                    );
+                  }
+                  const perfected = dayDetails.perfected.has(day.key);
+                  const cellTitle = `${day.count} unlocked · ${day.label}${perfected ? ' · perfected a game' : ''}`;
+                  if (day.count === 0) {
+                    return (
+                      <div
+                        key={day.key}
+                        className={styles.calDay}
+                        data-level={0}
+                        title={cellTitle}
+                      />
+                    );
+                  }
+                  return (
+                    <button
+                      key={day.key}
+                      type="button"
+                      className={styles.calDay}
+                      data-level={heatLevel(day.count)}
+                      data-perfected={perfected ? 'true' : undefined}
+                      data-selected={
+                        selectedDay?.key === day.key ? 'true' : undefined
+                      }
+                      title={cellTitle}
+                      onClick={() =>
+                        setSelectedDay((cur) =>
+                          cur?.key === day.key ? null : day,
+                        )
+                      }
+                    >
+                      <span className={styles.calDayNum}>{day.count}</span>
+                    </button>
+                  );
+                })}
               </div>
             </div>
 
@@ -365,7 +406,6 @@ export default function SteamOverview({ games, profile, wishlist }) {
               </motion.div>
             )}
           </section>
-        </>
       )}
     </div>
   );
