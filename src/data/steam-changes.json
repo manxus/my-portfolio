@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-09-04T22:07:38.382Z",
+  "generatedAt": "2026-09-09T10:45:33.094Z",
   "events": [
+    {
+      "appId": 3673060,
+      "name": "How to Train Your Cock",
+      "added": 6,
+      "total": 24,
+      "date": "2026-09-09"
+    },
     {
       "appId": 714010,
       "name": "Aimlabs",
@@ -49,13 +56,6 @@
       "added": 1,
       "total": 36,
       "date": "2026-06-13"
-    },
-    {
-      "appId": 1127500,
-      "name": "Mini Motorways",
-      "added": 5,
-      "total": 165,
-      "date": "2026-06-10"
     }
   ]
 }
