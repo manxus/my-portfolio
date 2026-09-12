@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-09-11T10:35:05.891Z",
+  "generatedAt": "2026-09-12T10:05:59.412Z",
   "events": [
+    {
+      "appId": 218620,
+      "name": "PAYDAY 2",
+      "added": 14,
+      "total": 1342,
+      "date": "2026-09-12"
+    },
+    {
+      "appId": 3809940,
+      "name": "Drill Bird",
+      "added": 7,
+      "total": 20,
+      "date": "2026-09-12"
+    },
     {
       "appId": 3673060,
       "name": "How to Train Your Cock",
@@ -49,13 +63,6 @@
       "added": 10,
       "total": 135,
       "date": "2026-07-30"
-    },
-    {
-      "appId": 3694480,
-      "name": "A Game About Feeding A Black Hole",
-      "added": 1,
-      "total": 36,
-      "date": "2026-06-13"
     }
   ]
 }
