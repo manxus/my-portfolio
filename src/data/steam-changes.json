@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-09-15T11:00:59.860Z",
+  "generatedAt": "2026-09-16T10:50:24.304Z",
   "events": [
+    {
+      "appId": 1127500,
+      "name": "Mini Motorways",
+      "added": 5,
+      "total": 170,
+      "date": "2026-09-16"
+    },
     {
       "appId": 477160,
       "name": "Human Fall Flat",
