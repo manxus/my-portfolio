@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-09-25T11:07:54.452Z",
+  "generatedAt": "2026-09-26T10:48:40.953Z",
   "events": [
+    {
+      "appId": 3108510,
+      "name": "FlyKnight",
+      "added": 1,
+      "total": 6,
+      "date": "2026-09-26"
+    },
     {
       "appId": 1127500,
       "name": "Mini Motorways",
