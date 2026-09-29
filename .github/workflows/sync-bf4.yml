@@ -12,11 +12,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 24
 
       # No secrets needed — gametools.network is unauthenticated and the persona is public.
       # Set the BF4_PERSONA_ID repository variable to skip name resolution entirely.

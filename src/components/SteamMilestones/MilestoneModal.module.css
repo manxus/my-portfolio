@@ -6,12 +6,11 @@
   position: fixed;
   inset: 0;
   z-index: 200;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1.5rem 1rem;
-  backdrop-filter: blur(4px);
 }
 
 .panel {

@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react';
 import { useSettingsStore } from '../../stores/settingsStore';
 import { useReducedMotion } from '../../hooks/useReducedMotion';
+import { isAdminEditorOpen } from '../../admin/editorLock';
 import styles from './MenuBackground.module.css';
 
 const PARTICLE_COUNT = 40;
@@ -106,12 +107,23 @@ export default function MenuBackground() {
         }
       }
 
-      if (!reduceMotion) animRef.current = requestAnimationFrame(draw);
+      if (!reduceMotion && !isAdminEditorOpen()) animRef.current = requestAnimationFrame(draw);
     }
 
     resize();
     createParticles();
     draw();
+
+    // A popup covers the canvas, and every frame drawn under one makes the
+    // browser redo the popup's full-screen dimming, which can stall the whole
+    // machine. Popups raise the editor-lock flag on <body>, so the loop stops
+    // while it is set and picks up again once it clears.
+    const observer = new MutationObserver(() => {
+      if (reduceMotion || isAdminEditorOpen()) return;
+      cancelAnimationFrame(animRef.current);
+      animRef.current = requestAnimationFrame(draw);
+    });
+    observer.observe(document.body, { attributes: true, attributeFilter: ['data-admin-editor-open'] });
 
     const onResize = () => {
       resize();
@@ -121,6 +133,7 @@ export default function MenuBackground() {
     window.addEventListener('resize', onResize);
 
     return () => {
+      observer.disconnect();
       if (animRef.current) cancelAnimationFrame(animRef.current);
       window.removeEventListener('resize', onResize);
     };
