@@ -58,6 +58,10 @@
         },
         {
           "type": "fixed",
+          "text": "Opening a popup could stall the whole computer — its full-screen blur was redone every frame over the animated menu background; the background now pauses while a popup is open, and popups dim the page instead of blurring it"
+        },
+        {
+          "type": "fixed",
           "text": "Reduce motion now also follows the operating system setting, and the boot sequence shows its log at once instead of typing it out"
         },
         {
