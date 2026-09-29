@@ -68,7 +68,7 @@ function useGridColumnCount(containerRef) {
     const observer = new ResizeObserver(update);
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [containerRef]);
 
   return columns;
 }

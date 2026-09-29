@@ -455,10 +455,6 @@ export const schemas = {
     ]},
   ],
 
-  'patchNotes.knownIssues': [
-    { key: '_value', label: 'Issue Description', type: 'text', required: true },
-  ],
-
   'menu.menuItems': [
     { key: 'id', label: 'ID', type: 'text', required: true },
     { key: 'label', label: 'Label', type: 'text', required: true },

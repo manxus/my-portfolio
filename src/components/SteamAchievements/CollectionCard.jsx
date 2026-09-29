@@ -12,7 +12,7 @@ import styles from './SteamCollections.module.css';
 /**
  * Beyond three the covers are thin slivers you cannot identify, which defeats
  * the point of showing art at all. The rest of the series is one click away in
- * the detail panel.
+ * the popup.
  */
 const MAX_TILES = 3;
 
@@ -79,7 +79,7 @@ function arrangeFromCentre(list) {
   return out;
 }
 
-export default function CollectionCard({ row, expanded, onToggle, children }) {
+export default function CollectionCard({ row, onOpen, children }) {
   const chosen = row.games.slice(0, MAX_TILES);
   const tiles = arrangeFromCentre(chosen);
   const complete = row.complete;
@@ -89,13 +89,13 @@ export default function CollectionCard({ row, expanded, onToggle, children }) {
     <div
       className={`${styles.card} ${complete ? styles.cardComplete : ''} ${
         row.invalid ? styles.cardInvalid : ''
-      } ${expanded ? styles.cardExpanded : ''}`}
+      }`}
     >
       <button
         type="button"
         className={styles.cardMain}
-        onClick={onToggle}
-        aria-expanded={expanded}
+        onClick={onOpen}
+        aria-haspopup="dialog"
       >
         <span
           className={styles.shelf}

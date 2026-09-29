@@ -119,31 +119,31 @@ function MapController({ trips, home, selectedId }) {
   const minZoomRef = useRef(2);
   const selectedIdRef = useRef(selectedId);
   selectedIdRef.current = selectedId;
+  // Read pins through refs so the viewport sync only re-runs when the pins
+  // actually move — not on every re-render (e.g. selecting a trip), which
+  // would snap back to fit-all bounds mid-flight.
+  const pinsRef = useRef({ trips, home, hasHome });
+  pinsRef.current = { trips, home, hasHome };
+  const pinsKey = JSON.stringify([
+    trips.map((t) => [t.id, t.lat, t.lng]),
+    hasHome ? [home.lat, home.lng] : null,
+  ]);
 
   useEffect(() => {
     map.setMinZoom(minZoomRef.current);
   }, [map]);
 
-  const syncViewport = useCallback(() => {
-    const minZoom = applyViewportLimits(map, trips, home, hasHome);
+  const runSyncAndFly = useCallback(() => {
+    const { trips: t, home: h, hasHome: hh } = pinsRef.current;
+    const minZoom = applyViewportLimits(map, t, h, hh);
     if (minZoom == null) return false;
 
     minZoomRef.current = minZoom;
+    flyToSelection(map, selectedIdRef.current, t, h, hh, minZoom);
     return true;
-  }, [map, trips, home, hasHome]);
-
-  const runSyncAndFly = useCallback(() => {
-    if (!syncViewport()) return false;
-    flyToSelection(
-      map,
-      selectedIdRef.current,
-      trips,
-      home,
-      hasHome,
-      minZoomRef.current,
-    );
-    return true;
-  }, [map, syncViewport, trips, home, hasHome]);
+    // pinsKey re-creates this (and re-runs the sync effect) only when pins change.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [map, pinsKey]);
 
   useEffect(() => {
     let cancelled = false;
@@ -197,9 +197,9 @@ function MapController({ trips, home, selectedId }) {
   }, [map]);
 
   useEffect(() => {
-    if (minZoomRef.current == null) return;
-    flyToSelection(map, selectedId, trips, home, hasHome, minZoomRef.current);
-  }, [map, selectedId, trips, home, hasHome]);
+    const { trips: t, home: h, hasHome: hh } = pinsRef.current;
+    flyToSelection(map, selectedId, t, h, hh, minZoomRef.current);
+  }, [map, selectedId]);
 
   return null;
 }

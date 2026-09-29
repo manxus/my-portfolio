@@ -37,12 +37,13 @@
 
 /* ---- Series heading ---- */
 
+/* Rollups only ever sit on the card's dark scrim, so their colours are fixed. */
 .rollup {
   flex-shrink: 0;
   font-family: var(--font-mono);
   font-size: 0.58rem;
   letter-spacing: 0.08em;
-  color: var(--text-dim);
+  color: var(--scrim-text-dim);
   border: 1px solid rgba(95, 143, 143, 0.2);
   padding: 0.15rem 0.45rem;
 }
@@ -53,12 +54,6 @@
   color: #e8c15a;
   border-color: rgba(232, 193, 90, 0.55);
   background: rgba(232, 193, 90, 0.08);
-}
-
-/* ---- Covers ---- */
-
-.itemPerfect {
-  border-color: rgba(232, 193, 90, 0.4);
 }
 
 @media (max-width: 640px) {
@@ -79,7 +74,7 @@
 
 .summaryBroken {
   font-weight: 600;
-  color: #d67a5c;
+  color: var(--warn);
 }
 
 /* ---- Card grid ---- */
@@ -91,7 +86,7 @@
   align-items: start;
 }
 
-/* Measured to work out the column count; also the card's grid cell. */
+/* The card's grid cell. */
 .gridItem {
   min-width: 0;
 }
@@ -113,10 +108,6 @@
 
 .cardComplete {
   border-color: rgba(232, 193, 90, 0.4);
-}
-
-.cardExpanded {
-  border-color: var(--accent-bright);
 }
 
 .cardInvalid {
@@ -229,7 +220,7 @@
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.06em;
-  color: var(--text-primary);
+  color: var(--scrim-text);
   line-height: 1.2;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -243,44 +234,6 @@
   top: 0.35rem;
   left: 0.35rem;
   z-index: 3;
-}
-
-/* ---- Expanded detail ---- */
-
-.detail {
-  /* Full-width row inside the card grid, inserted after the clicked card's
-     row so it opens directly beneath it. */
-  grid-column: 1 / -1;
-  border: 1px solid rgba(95, 143, 143, 0.2);
-  border-left: 2px solid var(--accent);
-  padding: 0.85rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-}
-
-.detailHead {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-
-.detailClose {
-  flex-shrink: 0;
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  line-height: 1;
-  color: var(--text-dim);
-  background: none;
-  border: 1px solid rgba(95, 143, 143, 0.2);
-  padding: 0.1rem 0.4rem;
-  cursor: pointer;
-}
-
-.detailClose:hover {
-  color: var(--accent-bright);
-  border-color: var(--accent);
 }
 
 /* Card-hover reveal, same as the other editable grids; without it the only

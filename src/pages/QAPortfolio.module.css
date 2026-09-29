@@ -243,13 +243,13 @@
 }
 
 .playtestTypeOverlay {
-  color: var(--accent);
+  color: var(--scrim-accent);
   border: 1px solid var(--accent-dim);
   background: rgba(10, 14, 14, 0.82);
 }
 
 .playtestPrivateOverlay {
-  color: var(--text-dim);
+  color: var(--scrim-text-dim);
   border: 1px solid rgba(95, 143, 143, 0.25);
   background: rgba(10, 14, 14, 0.82);
 }

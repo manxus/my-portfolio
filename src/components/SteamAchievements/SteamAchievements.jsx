@@ -3,7 +3,12 @@ import { motion } from 'framer-motion';
 import AchievementCard from './AchievementCard';
 import GameBanner from './GameBanner';
 import SteamCollections from './SteamCollections';
-import { buildAchievementData, fmtDate } from './achievementShared';
+import {
+  buildAchievementData,
+  fmtDate,
+  fmtPct,
+  NEAR_COMPLETE_MIN,
+} from './achievementShared';
 import styles from './SteamAchievements.module.css';
 
 const SUB_TABS = [
@@ -18,6 +23,9 @@ const BROWSE_SORTS = [
   { key: 'locked', label: 'Locked First' },
   { key: 'name', label: 'Alphabetical' },
 ];
+
+/** Almost There shows the closest few; the heading carries the full count. */
+const NEAR_COMPLETE_SHOWN = 12;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
@@ -35,7 +43,7 @@ export default function SteamAchievements({ games }) {
   const [browseSort, setBrowseSort] = useState('rarity');
   const [browseSearch, setBrowseSearch] = useState('');
 
-  const { gamesWithItems, unlockedAch, perfectGames } = useMemo(
+  const { gamesWithItems, unlockedAch, perfectGames, nearComplete } = useMemo(
     () => buildAchievementData(games),
     [games],
   );
@@ -160,6 +168,41 @@ export default function SteamAchievements({ games }) {
               ))}
             </div>
           </section>
+
+          {nearComplete.length > 0 && (
+            <section className={styles.block}>
+              <div className={styles.blockHead}>
+                <h2 className={styles.blockTitle}>
+                  ALMOST THERE · {nearComplete.length}
+                </h2>
+                <p className={styles.blockHint}>
+                  {Math.round(NEAR_COMPLETE_MIN * 100)}%+ complete, closest first
+                </p>
+              </div>
+              <div className={styles.coverStrip}>
+                {nearComplete.slice(0, NEAR_COMPLETE_SHOWN).map((g) => {
+                  const { unlocked, total } = g.achievements;
+                  const hardest = g.hardestLeft
+                    ? ` — hardest left: ${g.hardestLeft.name} (${fmtPct(g.hardestLeft.globalPct)})`
+                    : '';
+                  return (
+                    <motion.div
+                      key={g.appId}
+                      variants={fadeUp}
+                      className={styles.coverItem}
+                      title={`${g.name} — ${unlocked}/${total}${hardest}`}
+                    >
+                      <GameBanner
+                        game={g}
+                        count={`${unlocked}/${total} · ${g.left} left`}
+                        progress={g.pct}
+                      />
+                    </motion.div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
 
           {perfectGames.length > 0 && (
             <section className={styles.block}>

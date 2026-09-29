@@ -1,7 +1,6 @@
 import {
   useState,
   useRef,
-  useEffect,
   useLayoutEffect,
   useMemo,
   useCallback,
@@ -14,6 +13,7 @@ import EditableSection, { EditableItemControls } from '../admin/EditableSection'
 import CinemaTabs from '../components/CinemaTabs/CinemaTabs';
 import SteamFilters from '../components/SteamFilters/SteamFilters';
 import { useAdminStore } from '../stores/adminStore';
+import { useAdminCollection } from '../hooks/useAdminCollection';
 import { formatEpisodeCode, nextEpisode } from '../utils/episodes';
 import {
   derivedStatus,
@@ -595,17 +595,19 @@ function Overview({ entries, selectedId, adminIndexOf, onSelect, onCloseDetail }
 
 export default function Cinema() {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const getData = useAdminStore((s) => s.getData);
   const isAdminUi = import.meta.env.DEV && isAuthenticated;
 
-  const [adminEntries, setAdminEntries] = useState(null);
+  const [adminFile] = useAdminCollection('cinema', isAdminUi);
   const [chosenTab, setActiveTab] = useState('overview');
   const [selectedId, setSelectedId] = useState(null);
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState('title');
   const [watchlistType, setWatchlistType] = useState(DEFAULT_WATCHLIST_TYPE);
 
-  const source = isAdminUi && adminEntries ? adminEntries : defaultEntries;
+  const source = useMemo(
+    () => (adminFile ? adminFile.entries || [] : defaultEntries),
+    [adminFile],
+  );
 
   /**
    * Status comes off the episode record rather than the stored field, so a show
@@ -630,32 +632,6 @@ export default function Cinema() {
   // Derived rather than corrected in an effect: logging out with the admin-only
   // tab open would otherwise strand the page on a tab that no longer exists.
   const activeTab = !isAdminUi && chosenTab === 'recommended' ? 'overview' : chosenTab;
-
-  const refreshAdminEntries = useCallback(async () => {
-    try {
-      const data = await getData('cinema');
-      setAdminEntries(data.entries || []);
-    } catch (err) {
-      console.error('Failed to load cinema entries:', err);
-    }
-  }, [getData]);
-
-  useEffect(() => {
-    // No clear on logout needed — `entries` falls back to the bundled file
-    // whenever isAdminUi is false.
-    if (!isAdminUi) return;
-    refreshAdminEntries();
-  }, [isAdminUi, refreshAdminEntries]);
-
-  useEffect(() => {
-    if (!isAdminUi) return undefined;
-    const onSaved = (e) => {
-      if (e.detail?.collection !== 'cinema') return;
-      refreshAdminEntries();
-    };
-    window.addEventListener('admin-collection-saved', onSaved);
-    return () => window.removeEventListener('admin-collection-saved', onSaved);
-  }, [isAdminUi, refreshAdminEntries]);
 
   const tabs = useMemo(
     () => [

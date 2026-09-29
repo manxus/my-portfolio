@@ -73,3 +73,11 @@ ul, ol {
   background: var(--accent-dim);
   color: var(--text-primary);
 }
+
+/* One keyboard focus ring for everything that doesn't draw its own. Mouse
+   clicks don't trigger :focus-visible on buttons, so this only shows for
+   keyboard users. */
+:focus-visible {
+  outline: 1px solid var(--accent-bright);
+  outline-offset: 2px;
+}

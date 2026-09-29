@@ -1,8 +1,7 @@
-import { useState, useCallback, useRef, useEffect, useMemo } from 'react';
+import { useState, useCallback, useRef, useEffect, useMemo, lazy, Suspense } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import techData from '../data/tech.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
-import ContentEditor from '../admin/ContentEditor';
 import {
   getTechItemSchemaForCategoryId,
   TECH_BUILDS_CATEGORY_ID,
@@ -14,6 +13,10 @@ import {
 import { useAdminStore } from '../stores/adminStore';
 import editableStyles from '../admin/EditableSection.module.css';
 import styles from './Tech.module.css';
+
+// Admin-only, and it pulls in the Steam game picker with the whole library
+// snapshot; a static import made every visitor to this page download it.
+const ContentEditor = lazy(() => import('../admin/ContentEditor'));
 
 const { techCategories } = techData;
 
@@ -574,6 +577,7 @@ export default function Tech() {
         </div>
       </EditableSection>
 
+      <Suspense fallback={null}>
       <AnimatePresence>
         {itemEdit && (
           <ContentEditor
@@ -602,6 +606,7 @@ export default function Tech() {
           />
         ) : null}
       </AnimatePresence>
+      </Suspense>
     </motion.div>
   );
 }

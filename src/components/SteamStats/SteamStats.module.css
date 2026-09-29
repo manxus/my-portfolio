@@ -53,10 +53,12 @@
   flex: none;
 }
 
+/* Centred: labels are often wider than their number (ACHIEVEMENTS, AVG
+   COMPLETION), and right-aligning left each stat lopsided. */
 .profileStat {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   gap: 0.15rem;
 }
 
@@ -73,49 +75,9 @@
   font-size: 0.5rem;
   color: var(--text-dim);
   letter-spacing: 0.12em;
-}
-
-/* ---- Achievement ring ---- */
-
-.ringCell {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.ring {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: none;
-}
-
-.ringInner {
-  width: 31px;
-  height: 31px;
-  border-radius: 50%;
-  background: var(--bg-secondary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ringPct {
-  font-family: var(--font-heading);
-  font-size: 0.58rem;
-  font-weight: 600;
-  color: var(--accent-bright);
-}
-
-.ringLabel {
-  font-family: var(--font-mono);
-  font-size: 0.5rem;
-  color: var(--text-dim);
-  letter-spacing: 0.12em;
-  line-height: 1.5;
+  /* letter-spacing also trails the last glyph; pull it back so the label
+     centres on its letters, not on letters plus a gap. */
+  margin-right: -0.12em;
 }
 
 /* ---- Responsive ---- */

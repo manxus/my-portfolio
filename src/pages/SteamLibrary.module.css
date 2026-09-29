@@ -61,7 +61,6 @@
   color: var(--text-dim);
   text-align: center;
   padding: 2rem 1rem;
-  opacity: 0.6;
 }
 
 .statsToggle {
@@ -86,46 +85,12 @@
   background: var(--bg-hover);
 }
 
-/* ---- Game grid (portrait, image-only cards) ---- */
+/* ---- Game grid (portrait cards) ---- */
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(162px, 1fr));
   gap: 0.75rem;
-}
-
-.gameCard {
-  position: relative;
-  aspect-ratio: 2 / 3;
-  overflow: hidden;
-  background: var(--bg-hover);
-  border: 2px solid transparent;
-  padding: 0;
-  cursor: pointer;
-  transition:
-    border-color var(--transition-fast),
-    transform var(--transition-fast);
-}
-
-.gameCoverRoot {
-  position: absolute;
-  inset: 0;
-}
-
-.gameCard:hover {
-  border-color: var(--accent-dim);
-  transform: translateY(-2px);
-}
-
-.gameSelected {
-  border-color: var(--accent);
-}
-
-.gameImage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
 }
 
 /* ---- Slide-out overlay (narrow screens) ---- */
@@ -198,7 +163,6 @@
   color: var(--text-dim);
   text-align: center;
   padding: 1rem;
-  opacity: 0.6;
 }
 
 .hint code {
@@ -239,7 +203,7 @@
 }
 
 .pageBtn:disabled {
-  opacity: 0.3;
+  opacity: 0.45;
   cursor: default;
 }
 
@@ -252,8 +216,8 @@
 
 .pageCount {
   color: var(--text-dim);
-  opacity: 0.6;
 }
+
 
 /* ---- Responsive: tablet ---- */
 

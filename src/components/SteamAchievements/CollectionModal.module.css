@@ -1,0 +1,118 @@
+/* Shell mirrors DayDetailModal and ReviewModal so every popup on the Steam
+   page reads as the same furniture. */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  width: 100%;
+  /* Three 200px+ banners across on a desktop. */
+  max-width: 820px;
+  max-height: 100%;
+  padding: 1.5rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  min-width: 32px;
+  min-height: 32px;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.closeButton:hover {
+  color: var(--accent-bright);
+  border-color: var(--accent-dim);
+}
+
+.header {
+  /* Room for the close button. */
+  padding-right: 2.5rem;
+  border-left: 2px solid var(--accent-bright);
+  padding-left: 0.6rem;
+}
+
+/* A swept series keeps the gilded edge its card has in the grid. */
+.headerComplete {
+  border-left-color: #e5b94e;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.sub {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  margin: 0.2rem 0 0;
+}
+
+/* A long series scrolls; the heading and ESC hint stay put. */
+.body {
+  overflow-y: auto;
+  min-height: 0;
+  padding-right: 0.25rem;
+}
+
+.itemPerfect {
+  border-color: rgba(232, 193, 90, 0.4);
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.escHint {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+@media (max-width: 640px) {
+  .overlay {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .modal {
+    padding: 1.1rem 0.9rem;
+  }
+
+  /* The hint names a key a phone doesn't have; the close button is the way out. */
+  .footer {
+    display: none;
+  }
+}

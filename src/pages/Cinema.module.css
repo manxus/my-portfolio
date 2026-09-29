@@ -17,7 +17,6 @@
   color: var(--text-dim);
   text-align: center;
   padding: 2rem 1rem;
-  opacity: 0.6;
 }
 
 /* ---- Section headings ---- */
@@ -32,7 +31,7 @@
 }
 
 .sectionIcon {
-  color: var(--accent-dim);
+  color: var(--accent);
   margin-right: 0.4rem;
 }
 
@@ -105,7 +104,6 @@
   font-family: var(--font-mono);
   font-size: 0.62rem;
   color: var(--text-dim);
-  opacity: 0.75;
 }
 
 .topRating {
@@ -178,7 +176,6 @@
 .typeCount {
   margin-left: 0.4rem;
   font-size: 0.55rem;
-  opacity: 0.7;
 }
 
 /* ---- Poster grid ---- */
@@ -292,7 +289,6 @@
   font-family: var(--font-mono);
   font-size: 0.6rem;
   color: var(--text-dim);
-  opacity: 0.7;
   margin-left: 0.5rem;
 }
 
@@ -345,7 +341,7 @@
   bottom: 3.4rem;
   font-family: var(--font-mono);
   font-size: 0.6rem;
-  color: var(--accent-bright);
+  color: var(--scrim-accent);
   background: rgba(10, 15, 18, 0.85);
   border: 1px solid var(--accent-dim);
   padding: 0.1rem 0.3rem;
@@ -619,7 +615,6 @@
   font-family: var(--font-mono);
   font-size: 0.55rem;
   color: var(--text-dim);
-  opacity: 0.55;
   text-align: center;
   padding-top: 2rem;
   line-height: 1.5;

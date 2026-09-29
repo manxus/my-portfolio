@@ -1,14 +1,15 @@
-import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useMemo, useCallback } from 'react';
+import { useSearchParams } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import steamData from '../data/steam-library.json';
 import steamOverridesData from '../data/steam-overrides.json';
 import { useAdminStore } from '../stores/adminStore';
 
 const { gameOverrides } = steamOverridesData;
 import SteamTabs from '../components/SteamTabs/SteamTabs';
+import { TABS } from '../components/SteamTabs/tabs';
 import SteamFilters from '../components/SteamFilters/SteamFilters';
 import SteamOverview from '../components/SteamOverview/SteamOverview';
-import SteamGameDetail from '../components/SteamGameDetail/SteamGameDetail';
 import SteamReviews from '../components/SteamReviews/SteamReviews';
 import SteamTierList from '../components/SteamTierList/SteamTierList';
 import SteamWishlist from '../components/SteamWishlist/SteamWishlist';
@@ -16,8 +17,8 @@ import SteamMilestones from '../components/SteamMilestones/SteamMilestones';
 import SteamHallOfPain from '../components/SteamHallOfPain/SteamHallOfPain';
 import SteamAchievements from '../components/SteamAchievements/SteamAchievements';
 import { trackSteamAchievementsTab } from '../hooks/useVisitorTracking';
-import { completionPct } from '../utils/steamAchievements';
-import SteamGameCover from '../components/SteamGameCover/SteamGameCover';
+import { achievementIconUrl, completionPct } from '../utils/steamAchievements';
+import SteamGameCard from '../components/SteamGameCard/SteamGameCard';
 import styles from './SteamLibrary.module.css';
 
 const stagger = {
@@ -30,8 +31,25 @@ const fadeUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.3 } },
 };
 
+// Steam stores achievement icons as a file stem (see achievementIconUrl);
+// expand them once here so every tab below can keep reading item.iconUrl.
+function withIconUrls(game) {
+  const items = game.achievements?.items;
+  if (!items) return game;
+  return {
+    ...game,
+    achievements: {
+      ...game.achievements,
+      items: items.map((item) =>
+        item.iconUrl ? item : { ...item, iconUrl: achievementIconUrl(game.appId, item) },
+      ),
+    },
+  };
+}
+
 function mergeOverrides(games) {
-  return games.map((g) => {
+  return games.map((raw) => {
+    const g = withIconUrls(raw);
     const ov = gameOverrides[g.appId];
     if (!ov) return g;
     return {
@@ -45,22 +63,16 @@ function mergeOverrides(games) {
 
 const GAMES_PER_PAGE = 100;
 
+const TAB_IDS = new Set(TABS.map((t) => t.id));
+
 const SORT_OPTIONS = [
   { key: 'hours', label: 'Hours Played' },
   { key: 'name', label: 'Alphabetical' },
   { key: 'achievements', label: 'Achievement %' },
-  { key: 'hltb100', label: 'HLTB 100% (Longest)' },
-  { key: 'hltb100asc', label: 'HLTB 100% (Shortest)' },
 ];
 
-function compareHltb100(a, b, ascending) {
-  const ah = a.hltb?.completionistHours;
-  const bh = b.hltb?.completionistHours;
-  if (ah == null && bh == null) return 0;
-  if (ah == null) return 1;
-  if (bh == null) return -1;
-  return ascending ? ah - bh : bh - ah;
-}
+/** Params left at these values are dropped, so the bare page URL stays clean. */
+const DEFAULTS = { tab: 'overview', q: '', sort: 'hours', page: '1' };
 
 function sortGames(list, sortBy) {
   const sorted = [...list];
@@ -72,10 +84,6 @@ function sortGames(list, sortBy) {
       const pct = (g) => completionPct(g) ?? -1;
       return sorted.sort((a, b) => pct(b) - pct(a));
     }
-    case 'hltb100':
-      return sorted.sort((a, b) => compareHltb100(a, b, false));
-    case 'hltb100asc':
-      return sorted.sort((a, b) => compareHltb100(a, b, true));
     case 'hours':
     default:
       return sorted.sort((a, b) => (b.playtimeHours || 0) - (a.playtimeHours || 0));
@@ -84,30 +92,51 @@ function sortGames(list, sortBy) {
 
 export default function SteamLibrary() {
   const isAdmin = useAdminStore((s) => s.isAuthenticated);
-  const [activeTab, setActiveTab] = useState('overview');
-  const [selectedGame, setSelectedGame] = useState(null);
-  const [search, setSearch] = useState('');
-  const [sortBy, setSortBy] = useState('hours');
-  const [page, setPage] = useState(1);
+  const [params, setParams] = useSearchParams();
 
   const { profile, wishlist } = steamData;
   const games = useMemo(() => mergeOverrides(steamData.games), []);
-  const wishlistCount = wishlist?.length || 0;
 
-  const gridRef = useRef(null);
-  const [cols, setCols] = useState(3);
+  // Everything below is read from the URL, and anything off-list falls back to
+  // its default, so a hand-edited or stale link can't wedge the page.
+  const pick = (key, valid) => {
+    const v = params.get(key);
+    return v != null && valid(v) ? v : DEFAULTS[key];
+  };
+  const activeTab = pick('tab', (v) => TAB_IDS.has(v));
+  const search = params.get('q') ?? '';
+  const sortBy = pick('sort', (v) => SORT_OPTIONS.some((o) => o.key === v));
+  const page = Math.max(1, Number.parseInt(params.get('page'), 10) || 1);
 
-  const handleSearchChange = useCallback((value) => {
-    setSearch(value);
-    setPage(1);
-    setSelectedGame(null);
-  }, []);
+  // Search, sort and page changes replace the history entry, or every keystroke
+  // in the search box would be its own back step. Tab switches (below) push.
+  const updateParams = useCallback(
+    (patch) => {
+      setParams(
+        (prev) => {
+          const next = new URLSearchParams(prev);
+          for (const [key, value] of Object.entries(patch)) {
+            const str = value == null ? '' : String(value);
+            if (str === '' || str === DEFAULTS[key]) next.delete(key);
+            else next.set(key, str);
+          }
+          return next;
+        },
+        { replace: true },
+      );
+    },
+    [setParams],
+  );
 
-  const handleSortChange = useCallback((key) => {
-    setSortBy(key);
-    setPage(1);
-    setSelectedGame(null);
-  }, []);
+  const handleSearchChange = useCallback(
+    (value) => updateParams({ q: value, page: null }),
+    [updateParams],
+  );
+
+  const handleSortChange = useCallback(
+    (key) => updateParams({ sort: key, page: null }),
+    [updateParams],
+  );
 
   const filteredGames = useMemo(() => {
     let list = games;
@@ -125,51 +154,17 @@ export default function SteamLibrary() {
     safePage * GAMES_PER_PAGE,
   );
 
-  useEffect(() => {
-    const grid = gridRef.current;
-    if (!grid || activeTab !== 'library') return;
-
-    // Derive column count from card width vs grid width. Parsing
-    // gridTemplateColumns was unreliable with auto-fill and left `cols`
-    // stuck at the default (3) while the grid showed 6 — so the detail
-    // panel inserted mid-row and left a gap beside the selected cover.
-    const measure = () => {
-      const card = grid.querySelector(`.${styles.gameCard}`);
-      if (!card) return;
-      const gap =
-        parseFloat(getComputedStyle(grid).columnGap || getComputedStyle(grid).gap) ||
-        0;
-      const cardWidth = card.getBoundingClientRect().width;
-      if (cardWidth <= 0) return;
-      const count = Math.max(
-        1,
-        Math.round((grid.clientWidth + gap) / (cardWidth + gap)),
-      );
-      setCols(count);
-    };
-
-    measure();
-    const observer = new ResizeObserver(measure);
-    observer.observe(grid);
-    return () => observer.disconnect();
-  }, [activeTab, pagedGames.length, safePage]);
-
-  const selectedIndex = pagedGames.findIndex(
-    (g) => g.appId === selectedGame,
+  // Library filters only mean something on the Library tab, so a tab switch
+  // starts clean rather than carrying ?q= onto the Overview. It pushes, so
+  // back/forward walks between tabs.
+  const handleTabChange = useCallback(
+    (tab) => {
+      if (tab === activeTab) return;
+      if (tab === 'achievements') trackSteamAchievementsTab();
+      setParams(tab === DEFAULTS.tab ? {} : { tab });
+    },
+    [activeTab, setParams],
   );
-  const selectedGameData = selectedIndex >= 0 ? pagedGames[selectedIndex] : null;
-
-  const detailOrder = useMemo(() => {
-    if (selectedIndex < 0) return -1;
-    const row = Math.floor(selectedIndex / cols);
-    return Math.min((row + 1) * cols, pagedGames.length) * 2 - 1;
-  }, [selectedIndex, cols, pagedGames.length]);
-
-  const handleTabChange = useCallback((tab) => {
-    if (tab === 'achievements') trackSteamAchievementsTab();
-    setActiveTab(tab);
-    setSelectedGame(null);
-  }, []);
 
   return (
     <motion.div
@@ -214,44 +209,10 @@ export default function SteamLibrary() {
                 />
               </div>
 
-              <div className={styles.grid} ref={gridRef}>
-                {pagedGames.map((game, i) => (
-                  <button
-                    key={game.appId}
-                    style={{ order: i * 2 }}
-                    className={`${styles.gameCard} ${selectedGame === game.appId ? styles.gameSelected : ''}`}
-                    onClick={() =>
-                      setSelectedGame(
-                        selectedGame === game.appId ? null : game.appId,
-                      )
-                    }
-                  >
-                    <SteamGameCover
-                      fill
-                      variant="cover"
-                      appId={game.appId}
-                      title={game.name}
-                      headerUrl={game.headerUrl}
-                      libraryCapsuleUrl={game.libraryCapsuleUrl}
-                      libraryHeaderUrl={game.libraryHeaderUrl}
-                      iconUrl={game.iconUrl}
-                      alt={game.name}
-                      rootClassName={styles.gameCoverRoot}
-                      imageClassName={styles.gameImage}
-                    />
-                  </button>
+              <div className={styles.grid}>
+                {pagedGames.map((game) => (
+                  <SteamGameCard key={game.appId} game={game} />
                 ))}
-
-                <AnimatePresence>
-                  {selectedGameData && (
-                    <SteamGameDetail
-                      key={selectedGame}
-                      game={selectedGameData}
-                      onClose={() => setSelectedGame(null)}
-                      style={{ order: detailOrder }}
-                    />
-                  )}
-                </AnimatePresence>
               </div>
 
               {filteredGames.length === 0 && (
@@ -263,7 +224,7 @@ export default function SteamLibrary() {
                   <button
                     className={styles.pageBtn}
                     disabled={safePage <= 1}
-                    onClick={() => { setPage(safePage - 1); setSelectedGame(null); }}
+                    onClick={() => updateParams({ page: safePage - 1 })}
                   >
                     &laquo; PREV
                   </button>
@@ -276,7 +237,7 @@ export default function SteamLibrary() {
                   <button
                     className={styles.pageBtn}
                     disabled={safePage >= totalPages}
-                    onClick={() => { setPage(safePage + 1); setSelectedGame(null); }}
+                    onClick={() => updateParams({ page: safePage + 1 })}
                   >
                     NEXT &raquo;
                   </button>
@@ -345,7 +306,7 @@ export default function SteamLibrary() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
         >
-          <SteamMilestones games={games} wishlistCount={wishlistCount} />
+          <SteamMilestones games={games} wishlist={wishlist || []} />
         </motion.div>
       )}
 

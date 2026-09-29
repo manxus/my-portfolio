@@ -6,7 +6,7 @@ import styles from './SteamAchievements.module.css';
  * Shared by the showcase's perfect-games strip and the collections rows, which
  * differ only in whether unperfected members are dimmed.
  */
-export default function GameBanner({ game, count, dim = false }) {
+export default function GameBanner({ game, count, dim = false, progress }) {
   return (
     <>
       <SteamGameCover
@@ -25,6 +25,14 @@ export default function GameBanner({ game, count, dim = false }) {
         <span className={styles.coverName}>{game.name}</span>
         {count && <span className={styles.coverCount}>{count}</span>}
       </div>
+      {progress != null && (
+        <div className={styles.coverProgress} aria-hidden="true">
+          <div
+            className={styles.coverProgressFill}
+            style={{ width: `${Math.round(progress * 1000) / 10}%` }}
+          />
+        </div>
+      )}
     </>
   );
 }

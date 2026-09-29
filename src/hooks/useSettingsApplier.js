@@ -1,12 +1,13 @@
 import { useEffect } from 'react';
 import { useSettingsStore, ACCENT_PALETTE } from '../stores/settingsStore';
 import { CURSOR_STYLES } from '../utils/cursors';
+import { useReducedMotion } from './useReducedMotion';
 
 export function useSettingsApplier() {
   const theme = useSettingsStore((s) => s.theme);
   const accentColor = useSettingsStore((s) => s.accentColor);
   const fontSize = useSettingsStore((s) => s.fontSize);
-  const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const reduceMotion = useReducedMotion();
   const colorblindMode = useSettingsStore((s) => s.colorblindMode);
   const monochrome = useSettingsStore((s) => s.monochrome);
   const cursorStyle = useSettingsStore((s) => s.cursorStyle);
@@ -15,21 +16,25 @@ export function useSettingsApplier() {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
 
+  // Inline on <html>, so these beat theme.css; the light set has to be chosen
+  // here rather than in the stylesheet.
   useEffect(() => {
     const root = document.documentElement.style;
     const palette = ACCENT_PALETTE[accentColor];
-    root.setProperty('--accent', accentColor);
-    if (palette) {
-      root.setProperty('--accent-bright', palette.bright);
-      root.setProperty('--accent-dim', palette.dim);
-    }
+    const shades =
+      theme === 'light' && palette?.light
+        ? palette.light
+        : { accent: accentColor, bright: palette?.bright ?? accentColor, dim: palette?.dim };
+    root.setProperty('--accent', shades.accent);
+    root.setProperty('--accent-bright', shades.bright);
+    if (shades.dim) root.setProperty('--accent-dim', shades.dim);
     root.setProperty(
       '--accent-glow',
       `${accentColor}1f`,
     );
-    root.setProperty('--terminal', accentColor);
-    root.setProperty('--terminal-bright', palette?.bright ?? accentColor);
-  }, [accentColor]);
+    root.setProperty('--terminal', shades.accent);
+    root.setProperty('--terminal-bright', shades.bright);
+  }, [accentColor, theme]);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-font-size', fontSize);

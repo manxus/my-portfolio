@@ -1,8 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useSettingsStore } from '../stores/settingsStore';
 import { useSound } from '../hooks/useSound';
+import { useSystemReducedMotion } from '../hooks/useReducedMotion';
 import { trackSettingsChange, trackSettingsReset } from '../hooks/useVisitorTracking';
-import { useVisitorStore } from '../stores/visitorStore';
 import { CURSOR_STYLES } from '../utils/cursors';
 import styles from './Settings.module.css';
 
@@ -41,6 +41,11 @@ const SOUND_THEMES = [
   { value: 'scifi', label: 'Sci-Fi' },
 ];
 
+const THEMES = [
+  { value: 'dark', label: 'Dark' },
+  { value: 'light', label: 'Light' },
+];
+
 const COLORBLIND_MODES = [
   { value: 'none', label: 'None' },
   { value: 'protanopia', label: 'Protanopia' },
@@ -64,6 +69,7 @@ export default function Settings() {
     colorblindMode,
     monochrome,
     cursorStyle,
+    skipIntro,
     setTheme,
     setAccentColor,
     setSoundEnabled,
@@ -78,11 +84,13 @@ export default function Settings() {
     setColorblindMode,
     setMonochrome,
     setCursorStyle,
+    setSkipIntro,
     resetAll,
   } = useSettingsStore();
 
   const { play } = useSound();
-  const setDrawerOpen = useVisitorStore((s) => s.setDrawerOpen);
+  const systemReducedMotion = useSystemReducedMotion();
+  const [confirmingReset, setConfirmingReset] = useState(false);
   const settingsInitialized = useRef(false);
 
   useEffect(() => {
@@ -106,11 +114,29 @@ export default function Settings() {
     colorblindMode,
     monochrome,
     cursorStyle,
+    skipIntro,
   ]);
 
   const previewSound = (themeValue) => {
     setSoundTheme(themeValue);
     setTimeout(() => play('select'), 50);
+  };
+
+  // Reset asks for a second click within a few seconds before wiping everything.
+  useEffect(() => {
+    if (!confirmingReset) return;
+    const timer = setTimeout(() => setConfirmingReset(false), 3000);
+    return () => clearTimeout(timer);
+  }, [confirmingReset]);
+
+  const handleReset = () => {
+    if (!confirmingReset) {
+      setConfirmingReset(true);
+      return;
+    }
+    setConfirmingReset(false);
+    trackSettingsReset();
+    resetAll();
   };
 
   return (
@@ -121,33 +147,38 @@ export default function Settings() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>ACCESSIBILITY</h3>
           <div className={styles.setting}>
-            <label className={styles.label}>Colorblind Mode</label>
-            <div className={styles.segmented}>
-              {COLORBLIND_MODES.map((cm) => (
-                <button
-                  key={cm.value}
-                  className={`${styles.segmentBtn} ${colorblindMode === cm.value ? styles.segmentActive : ''} ${monochrome ? styles.segmentDisabled : ''}`}
-                  onClick={() => setColorblindMode(cm.value)}
-                  disabled={monochrome}
-                >
-                  {cm.label.toUpperCase()}
-                </button>
-              ))}
-            </div>
+            <SettingLabel id="set-colorblind">Colorblind Mode</SettingLabel>
+            <Segmented
+              labelledBy="set-colorblind"
+              options={COLORBLIND_MODES}
+              value={colorblindMode}
+              onChange={setColorblindMode}
+              disabled={monochrome}
+            />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>
+            <SettingLabel id="set-monochrome" hint="Full grayscale filter">
               Monochrome
-              <span className={styles.hint}>Full grayscale filter</span>
-            </label>
-            <Toggle value={monochrome} onChange={setMonochrome} />
+            </SettingLabel>
+            <Toggle labelledBy="set-monochrome" value={monochrome} onChange={setMonochrome} />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>
+            <SettingLabel
+              id="set-reduce-motion"
+              hint={
+                systemReducedMotion
+                  ? 'Enabled by your system setting'
+                  : 'Disables transitions & animations'
+              }
+            >
               Reduce Motion
-              <span className={styles.hint}>Disables transitions &amp; animations</span>
-            </label>
-            <Toggle value={reduceMotion} onChange={setReduceMotion} />
+            </SettingLabel>
+            <Toggle
+              labelledBy="set-reduce-motion"
+              value={reduceMotion || systemReducedMotion}
+              onChange={setReduceMotion}
+              disabled={systemReducedMotion}
+            />
           </div>
         </section>
 
@@ -155,11 +186,13 @@ export default function Settings() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>AUDIO</h3>
           <div className={styles.setting}>
-            <label className={styles.label}>Sound Effects</label>
-            <Toggle value={soundEnabled} onChange={setSoundEnabled} />
+            <SettingLabel id="set-sound">Sound Effects</SettingLabel>
+            <Toggle labelledBy="set-sound" value={soundEnabled} onChange={setSoundEnabled} />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>Volume</label>
+            <SettingLabel id="set-volume" hint="Release to hear the level">
+              Volume
+            </SettingLabel>
             <div className={styles.sliderRow}>
               <input
                 type="range"
@@ -169,30 +202,28 @@ export default function Settings() {
                 step="0.05"
                 value={soundVolume}
                 onChange={(e) => setSoundVolume(parseFloat(e.target.value))}
+                onPointerUp={() => play('select')}
+                onKeyUp={() => play('select')}
                 disabled={!soundEnabled}
+                aria-labelledby="set-volume"
+                aria-valuetext={`${Math.round(soundVolume * 100)}%`}
               />
-              <span className={styles.sliderValue}>
+              <span className={styles.sliderValue} aria-hidden="true">
                 {Math.round(soundVolume * 100)}%
               </span>
             </div>
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>
+            <SettingLabel id="set-sound-theme" hint="Click to preview each theme">
               Sound Theme
-              <span className={styles.hint}>Click to preview each theme</span>
-            </label>
-            <div className={styles.segmented}>
-              {SOUND_THEMES.map((st) => (
-                <button
-                  key={st.value}
-                  className={`${styles.segmentBtn} ${soundTheme === st.value ? styles.segmentActive : ''} ${!soundEnabled ? styles.segmentDisabled : ''}`}
-                  onClick={() => previewSound(st.value)}
-                  disabled={!soundEnabled}
-                >
-                  {st.label.toUpperCase()}
-                </button>
-              ))}
-            </div>
+            </SettingLabel>
+            <Segmented
+              labelledBy="set-sound-theme"
+              options={SOUND_THEMES}
+              value={soundTheme}
+              onChange={previewSound}
+              disabled={!soundEnabled}
+            />
           </div>
         </section>
 
@@ -200,66 +231,45 @@ export default function Settings() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>DISPLAY</h3>
           <div className={styles.setting}>
-            <label className={styles.label}>Theme</label>
-            <div className={styles.segmented}>
-              <button
-                className={`${styles.segmentBtn} ${theme === 'dark' ? styles.segmentActive : ''}`}
-                onClick={() => setTheme('dark')}
-              >
-                DARK
-              </button>
-              <button
-                className={`${styles.segmentBtn} ${theme === 'light' ? styles.segmentActive : ''}`}
-                onClick={() => setTheme('light')}
-              >
-                LIGHT
-              </button>
-            </div>
+            <SettingLabel id="set-theme">Theme</SettingLabel>
+            <Segmented labelledBy="set-theme" options={THEMES} value={theme} onChange={setTheme} />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>Font Size</label>
-            <div className={styles.segmented}>
-              {FONT_SIZES.map((fs) => (
-                <button
-                  key={fs.value}
-                  className={`${styles.segmentBtn} ${fontSize === fs.value ? styles.segmentActive : ''}`}
-                  onClick={() => setFontSize(fs.value)}
-                >
-                  {fs.label.toUpperCase()}
-                </button>
-              ))}
-            </div>
+            <SettingLabel id="set-font-size">Font Size</SettingLabel>
+            <Segmented
+              labelledBy="set-font-size"
+              options={FONT_SIZES}
+              value={fontSize}
+              onChange={setFontSize}
+            />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>Accent Color</label>
-            <div className={styles.colorPicker}>
+            <SettingLabel id="set-accent">Accent Color</SettingLabel>
+            <div className={styles.colorPicker} role="group" aria-labelledby="set-accent">
               {ACCENT_COLORS.map((c) => (
                 <button
                   key={c.value}
+                  type="button"
                   className={`${styles.colorSwatch} ${accentColor === c.value ? styles.colorActive : ''}`}
                   style={{ '--swatch': c.value }}
                   onClick={() => setAccentColor(c.value)}
                   title={c.label}
+                  aria-label={c.label}
+                  aria-pressed={accentColor === c.value}
                 />
               ))}
             </div>
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>
+            <SettingLabel id="set-cursor" hint="Custom pointer tinted to accent color">
               Cursor Style
-              <span className={styles.hint}>Custom pointer tinted to accent color</span>
-            </label>
-            <div className={styles.segmented}>
-              {CURSOR_OPTIONS.map((cs) => (
-                <button
-                  key={cs.value}
-                  className={`${styles.segmentBtn} ${cursorStyle === cs.value ? styles.segmentActive : ''}`}
-                  onClick={() => setCursorStyle(cs.value)}
-                >
-                  {cs.label.toUpperCase()}
-                </button>
-              ))}
-            </div>
+            </SettingLabel>
+            <Segmented
+              labelledBy="set-cursor"
+              options={CURSOR_OPTIONS}
+              value={cursorStyle}
+              onChange={setCursorStyle}
+            />
           </div>
         </section>
 
@@ -267,42 +277,38 @@ export default function Settings() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>EFFECTS</h3>
           <div className={styles.setting}>
-            <label className={styles.label}>
+            <SettingLabel id="set-effects" hint="Master toggle for all visual effects">
               Visual Effects
-              <span className={styles.hint}>Master toggle for all visual effects</span>
-            </label>
-            <Toggle value={effectsEnabled} onChange={setEffectsEnabled} />
+            </SettingLabel>
+            <Toggle labelledBy="set-effects" value={effectsEnabled} onChange={setEffectsEnabled} />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>CRT Scanline Filter</label>
+            <SettingLabel id="set-crt">CRT Scanline Filter</SettingLabel>
             <Toggle
+              labelledBy="set-crt"
               value={crtFilter}
               onChange={setCrtFilter}
               disabled={!effectsEnabled}
             />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>Particle Effects</label>
+            <SettingLabel id="set-particles">Particle Effects</SettingLabel>
             <Toggle
+              labelledBy="set-particles"
               value={particlesEnabled}
               onChange={setParticlesEnabled}
               disabled={!effectsEnabled}
             />
           </div>
           <div className={styles.setting}>
-            <label className={styles.label}>Particle Speed</label>
-            <div className={styles.segmented}>
-              {PARTICLE_SPEEDS.map((ps) => (
-                <button
-                  key={ps.value}
-                  className={`${styles.segmentBtn} ${particleSpeed === ps.value ? styles.segmentActive : ''} ${!effectsEnabled || !particlesEnabled ? styles.segmentDisabled : ''}`}
-                  onClick={() => setParticleSpeed(ps.value)}
-                  disabled={!effectsEnabled || !particlesEnabled}
-                >
-                  {ps.label.toUpperCase()}
-                </button>
-              ))}
-            </div>
+            <SettingLabel id="set-particle-speed">Particle Speed</SettingLabel>
+            <Segmented
+              labelledBy="set-particle-speed"
+              options={PARTICLE_SPEEDS}
+              value={particleSpeed}
+              onChange={setParticleSpeed}
+              disabled={!effectsEnabled || !particlesEnabled}
+            />
           </div>
         </section>
 
@@ -310,23 +316,19 @@ export default function Settings() {
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>SYSTEM</h3>
           <div className={styles.setting}>
-            <button
-              type="button"
-              className={styles.medalsLink}
-              onClick={() => setDrawerOpen(true)}
-            >
-              VIEW ACHIEVEMENTS
-            </button>
+            <SettingLabel id="set-skip-intro" hint="Go straight to the main menu on load">
+              Skip Intro
+            </SettingLabel>
+            <Toggle labelledBy="set-skip-intro" value={skipIntro} onChange={setSkipIntro} />
           </div>
           <div className={styles.setting}>
             <button
-              className={styles.resetButton}
-              onClick={() => {
-                trackSettingsReset();
-                resetAll();
-              }}
+              type="button"
+              className={`${styles.resetButton} ${confirmingReset ? styles.resetConfirming : ''}`}
+              onClick={handleReset}
+              onBlur={() => setConfirmingReset(false)}
             >
-              RESET TO DEFAULTS
+              {confirmingReset ? 'CONFIRM RESET?' : 'RESET TO DEFAULTS'}
             </button>
           </div>
         </section>
@@ -336,17 +338,47 @@ export default function Settings() {
   );
 }
 
-function Toggle({ value, onChange, disabled }) {
+function SettingLabel({ id, hint, children }) {
+  return (
+    <span id={id} className={styles.label}>
+      {children}
+      {hint && <span className={styles.hint}>{hint}</span>}
+    </span>
+  );
+}
+
+function Segmented({ labelledBy, options, value, onChange, disabled }) {
+  return (
+    <div className={styles.segmented} role="group" aria-labelledby={labelledBy}>
+      {options.map((opt) => (
+        <button
+          key={opt.value}
+          type="button"
+          className={`${styles.segmentBtn} ${value === opt.value ? styles.segmentActive : ''} ${disabled ? styles.segmentDisabled : ''}`}
+          onClick={() => onChange(opt.value)}
+          disabled={disabled}
+          aria-pressed={value === opt.value}
+        >
+          {opt.label.toUpperCase()}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function Toggle({ labelledBy, value, onChange, disabled }) {
   return (
     <button
+      type="button"
       className={`${styles.toggle} ${value ? styles.toggleOn : ''} ${disabled ? styles.toggleDisabled : ''}`}
-      onClick={() => !disabled && onChange(!value)}
+      onClick={() => onChange(!value)}
       role="switch"
       aria-checked={value}
-      aria-disabled={disabled}
+      aria-labelledby={labelledBy}
+      disabled={disabled}
     >
       <span className={styles.toggleThumb} />
-      <span className={styles.toggleLabel}>{value ? 'ON' : 'OFF'}</span>
+      <span className={styles.toggleLabel} aria-hidden="true">{value ? 'ON' : 'OFF'}</span>
     </button>
   );
 }

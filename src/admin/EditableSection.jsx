@@ -1,16 +1,20 @@
-import { useState, createContext, useContext } from 'react';
+import { useState, createContext, useContext, lazy, Suspense } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { useAdminStore } from '../stores/adminStore';
 import { schemas } from './schemas';
 import { applyAutoId } from './autoId';
 import { notifyAdminCollectionSaved } from './adminEvents';
-import ContentEditor from './ContentEditor';
 import ConfirmDialog from './ConfirmDialog';
 import {
   flattenPersonalInfoForEditor,
   nestPersonalInfoFromEditor,
 } from '../utils/availability';
 import styles from './EditableSection.module.css';
+
+// Admin-only, and it pulls in the Steam game picker with the whole library
+// snapshot. EditableSection sits under the main menu, so a static import put
+// that snapshot in the boot chunk for every visitor.
+const ContentEditor = lazy(() => import('./ContentEditor'));
 
 const EditableItemsContext = createContext(null);
 
@@ -187,23 +191,21 @@ export default function EditableSection({
         )}
       </AnimatePresence>
 
-      <AnimatePresence>
-        {editState && (
-          <ContentEditor
-            title={editState.mode === 'add' ? `Add ${dataKey}` : `Edit ${dataKey}`}
-            schema={schema}
-            initialData={editState.data}
-            onSave={handleSave}
-            onClose={() => setEditState(null)}
-          />
-        )}
-      </AnimatePresence>
+      <Suspense fallback={null}>
+        <AnimatePresence>
+          {editState && (
+            <ContentEditor
+              title={editState.mode === 'add' ? `Add ${dataKey}` : `Edit ${dataKey}`}
+              schema={schema}
+              initialData={editState.data}
+              onSave={handleSave}
+              onClose={() => setEditState(null)}
+            />
+          )}
+        </AnimatePresence>
+      </Suspense>
     </div>
   );
-}
-
-export function useEditableItem() {
-  return useContext(EditableItemsContext);
 }
 
 export function EditableItemControls({

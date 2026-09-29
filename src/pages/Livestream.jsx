@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import livestreamData from '../data/livestream.json';
@@ -9,6 +9,7 @@ import {
 } from '../utils/youtube';
 import { parseTwitchClipSlug, parseTwitchVideoId, twitchClipEmbedUrl, twitchVideoEmbedUrl } from '../utils/twitch';
 import { useHighlightThumbnail } from '../hooks/useHighlightThumbnail';
+import { useModalDialog } from '../hooks/useModalDialog';
 import styles from './Livestream.module.css';
 
 const TWITCH_CHANNEL = livestreamData.twitchChannel;
@@ -74,6 +75,9 @@ function HighlightCard({ item, fullIndex, onOpen }) {
 }
 
 function HighlightLightbox({ item, parentDomain, onClose }) {
+  const panelRef = useRef(null);
+  const closeRef = useRef(null);
+  useModalDialog({ onClose, panelRef, initialFocusRef: closeRef });
   const thumbSrc = useHighlightThumbnail(item);
 
   let media = null;
@@ -139,7 +143,11 @@ function HighlightLightbox({ item, parentDomain, onClose }) {
       onClick={onClose}
     >
       <motion.div
+        ref={panelRef}
         className={styles.lightboxContent}
+        role="dialog"
+        aria-modal="true"
+        aria-label={item.title}
         initial={{ scale: 0.9 }}
         animate={{ scale: 1 }}
         exit={{ scale: 0.9 }}
@@ -150,7 +158,13 @@ function HighlightLightbox({ item, parentDomain, onClose }) {
           <h3>{item.title}</h3>
           {item.description && <p>{item.description}</p>}
         </div>
-        <button type="button" className={styles.lightboxClose} onClick={onClose}>
+        <button
+          ref={closeRef}
+          type="button"
+          className={styles.lightboxClose}
+          onClick={onClose}
+          aria-label="Close"
+        >
           &times;
         </button>
       </motion.div>

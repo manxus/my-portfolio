@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { useSettingsStore } from '../../stores/settingsStore';
+import { useReducedMotion } from '../../hooks/useReducedMotion';
 import styles from './MenuBackground.module.css';
 
 const PARTICLE_COUNT = 40;
@@ -25,6 +26,7 @@ export default function MenuBackground() {
   const effectsEnabled = useSettingsStore((s) => s.effectsEnabled);
   const accentColor = useSettingsStore((s) => s.accentColor);
   const particleSpeed = useSettingsStore((s) => s.particleSpeed);
+  const reduceMotion = useReducedMotion();
   const settingsRef = useRef({ accentColor, particleSpeed });
 
   useEffect(() => {
@@ -70,7 +72,8 @@ export default function MenuBackground() {
     function draw() {
       ctx.clearRect(0, 0, width, height);
       const rgb = hexToRgb(settingsRef.current.accentColor);
-      const speed = settingsRef.current.particleSpeed;
+      // Reduced motion paints one still frame instead of animating.
+      const speed = reduceMotion ? 0 : settingsRef.current.particleSpeed;
 
       for (const p of particles) {
         p.x += p.baseVx * speed;
@@ -103,7 +106,7 @@ export default function MenuBackground() {
         }
       }
 
-      animRef.current = requestAnimationFrame(draw);
+      if (!reduceMotion) animRef.current = requestAnimationFrame(draw);
     }
 
     resize();
@@ -113,6 +116,7 @@ export default function MenuBackground() {
     const onResize = () => {
       resize();
       createParticles();
+      if (reduceMotion) draw();
     };
     window.addEventListener('resize', onResize);
 
@@ -120,7 +124,7 @@ export default function MenuBackground() {
       if (animRef.current) cancelAnimationFrame(animRef.current);
       window.removeEventListener('resize', onResize);
     };
-  }, [visible]);
+  }, [visible, reduceMotion]);
 
   if (!visible) return null;
 

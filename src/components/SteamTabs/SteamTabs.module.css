@@ -1,8 +1,25 @@
+/* The baseline lives on the wrapper rather than the scrolling nav: a scroll
+   container clips its overflow, which would cut off the active underline
+   where it overlaps the line. */
+.wrap {
+  position: relative;
+  border-bottom: 1px solid var(--accent-dim);
+  margin-bottom: 1.5rem;
+}
+
 .tabs {
   display: flex;
   gap: 0;
-  border-bottom: 1px solid var(--accent-dim);
-  margin-bottom: 1.5rem;
+  /* Pull the tabs down over the wrapper's border so the active underline
+     covers the baseline, as before. */
+  margin-bottom: -1px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .tab {
@@ -15,10 +32,12 @@
   border: none;
   border-bottom: 2px solid transparent;
   cursor: pointer;
+  /* Never squash or wrap a label; overflow scrolls instead. */
+  white-space: nowrap;
+  flex-shrink: 0;
   transition:
     color var(--transition-fast),
     border-color var(--transition-fast);
-  margin-bottom: -1px;
 }
 
 .tab:hover {
@@ -30,21 +49,47 @@
   border-bottom-color: var(--accent-bright);
 }
 
+/* ---- Overflow hints ---- */
+
+.edge {
+  position: absolute;
+  top: 0;
+  /* Stop short of the baseline so the line stays continuous under the fade. */
+  bottom: 1px;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.35rem;
+  border: none;
+  font-size: 1.15rem;
+  line-height: 1;
+  color: var(--accent-bright);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
+}
+
+.edge[data-visible='true'] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.edgeLeft {
+  left: 0;
+  justify-content: flex-start;
+  background: linear-gradient(to right, var(--bg-deep) 35%, transparent);
+}
+
+.edgeRight {
+  right: 0;
+  justify-content: flex-end;
+  background: linear-gradient(to left, var(--bg-deep) 35%, transparent);
+}
+
 @media (max-width: 480px) {
-  .tabs {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-  }
-
-  .tabs::-webkit-scrollbar {
-    display: none;
-  }
-
   .tab {
     font-size: 0.62rem;
     padding: 0.5rem 0.85rem;
-    white-space: nowrap;
-    flex-shrink: 0;
   }
 }

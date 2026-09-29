@@ -58,11 +58,29 @@ export function perfectedAt(game) {
   return latest;
 }
 
+/** Completion at or above which an unfinished game counts as "almost there". */
+export const NEAR_COMPLETE_MIN = 0.75;
+
+/**
+ * The locked achievement fewest owners have, i.e. what probably stands between
+ * this game and 100%. Null when the item list has no locked entries with a
+ * known rarity (some games report more achievements than their schema lists).
+ */
+function hardestLeft(game) {
+  let hardest = null;
+  for (const item of game.achievements?.items || []) {
+    if (item.unlocked || item.globalPct == null) continue;
+    if (!hardest || item.globalPct < hardest.globalPct) hardest = item;
+  }
+  return hardest;
+}
+
 /**
  * Derive the shared achievement collections from the raw games list:
  * - gamesWithItems: games that carry full per-achievement detail
  * - unlockedAch: every unlocked achievement, annotated with appId + gameName
  * - perfectGames: 100%-completed games, most recently completed first
+ * - nearComplete: unfinished games at NEAR_COMPLETE_MIN or above, closest first
  */
 export function buildAchievementData(games) {
   const gamesWithItems = (games || []).filter(
@@ -83,5 +101,18 @@ export function buildAchievementData(games) {
     .map((g) => ({ ...g, perfectedAt: perfectedAt(g) }))
     .sort((a, b) => b.perfectedAt - a.perfectedAt);
 
-  return { gamesWithItems, unlockedAch, perfectGames };
+  // Built from the counts, so a game still qualifies without per-achievement
+  // detail; it just can't name its hardest achievement left.
+  const nearComplete = (games || [])
+    .map((g) => ({ game: g, pct: completionPct(g) }))
+    .filter(({ pct }) => pct != null && pct >= NEAR_COMPLETE_MIN && pct < 1)
+    .map(({ game, pct }) => ({
+      ...game,
+      pct,
+      left: game.achievements.total - game.achievements.unlocked,
+      hardestLeft: hardestLeft(game),
+    }))
+    .sort((a, b) => b.pct - a.pct || a.left - b.left);
+
+  return { gamesWithItems, unlockedAch, perfectGames, nearComplete };
 }

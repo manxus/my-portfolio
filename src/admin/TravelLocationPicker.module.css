@@ -134,7 +134,7 @@
 .mapFrame :global(.leaflet-control-attribution) {
   font-size: 0.5rem;
   background: rgba(10, 15, 18, 0.8);
-  color: #3e555e;
+  color: var(--scrim-text-dim);
 }
 
 .coordRow {

@@ -3,7 +3,7 @@ const TWITCH_OEMBED = 'https://api.twitch.tv/oembed';
 function isAllowedTwitchUrl(url) {
   try {
     const parsed = new URL(url);
-    return parsed.hostname.endsWith('twitch.tv');
+    return parsed.hostname === 'twitch.tv' || parsed.hostname.endsWith('.twitch.tv');
   } catch {
     return false;
   }
@@ -23,8 +23,6 @@ async function fetchTwitchOembed(pageUrl) {
 }
 
 module.exports = async (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=604800');
 
   if (req.method === 'OPTIONS') {

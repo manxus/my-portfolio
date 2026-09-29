@@ -9,8 +9,14 @@
   min-width: 0;
 }
 
-.achLocked {
+/* Locked cards fade the art and step the name down a tier, but keep the text
+   opaque: fading the whole card put the date and status under 2.5:1. */
+.achLocked .achIconWrap {
   opacity: 0.55;
+}
+
+.achLocked .achName {
+  color: var(--text-secondary);
 }
 
 .achIconWrap {
@@ -89,7 +95,7 @@
 
 .achRarity[data-tier='Ultra Rare'],
 .achRarity[data-tier='Very Rare'] {
-  color: #d98adb;
+  color: var(--rare);
 }
 
 .achDate {

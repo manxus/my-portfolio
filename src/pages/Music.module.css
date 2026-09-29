@@ -104,7 +104,7 @@
 .physicalBadge {
   font-family: var(--font-mono);
   font-size: 0.55rem;
-  color: var(--text-primary);
+  color: var(--scrim-text);
   background: rgba(10, 15, 18, 0.82);
   border: 1px solid var(--accent-dim);
   padding: 0.15rem 0.5rem;

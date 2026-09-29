@@ -57,10 +57,17 @@ function MapFlyTo({ lat, lng, flyKey }) {
 
 export default function TravelLocationPicker({ lat, lng, onChange }) {
   const [searchQuery, setSearchQuery] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
   const [searchOpen, setSearchOpen] = useState(false);
-  const [searching, setSearching] = useState(false);
-  const [searchError, setSearchError] = useState('');
+  // The last answer, tagged with the query it answers. Everything else is
+  // derived from it: a query with no answer yet is still searching, and one too
+  // short to search shows nothing, with no effect resetting four setters.
+  const [answer, setAnswer] = useState({ q: '', results: [], error: '' });
+  const trimmedQuery = searchQuery.trim();
+  const canSearch = trimmedQuery.length >= 2;
+  const answered = answer.q === trimmedQuery;
+  const searching = canSearch && !answered;
+  const searchResults = canSearch && answered ? answer.results : [];
+  const searchError = canSearch && answered ? answer.error : '';
   const [flyKey, setFlyKey] = useState(0);
   const searchWrapRef = useRef(null);
 
@@ -76,34 +83,25 @@ export default function TravelLocationPicker({ lat, lng, onChange }) {
   );
 
   useEffect(() => {
-    const q = searchQuery.trim();
-    if (q.length < 2) {
-      setSearchResults([]);
-      setSearching(false);
-      setSearchError('');
-      return undefined;
-    }
-
+    if (!canSearch) return undefined;
+    const q = trimmedQuery;
     const controller = new AbortController();
-    setSearching(true);
-    setSearchError('');
 
     const timer = setTimeout(() => {
       searchPlaces(q, controller.signal)
         .then((results) => {
-          setSearchResults(results);
+          setAnswer({
+            q,
+            results,
+            error: results.length
+              ? ''
+              : 'No English results — try adding a country (e.g. "Ko Lanta, Thailand").',
+          });
           setSearchOpen(true);
-          if (results.length === 0) {
-            setSearchError('No English results — try adding a country (e.g. "Ko Lanta, Thailand").');
-          }
         })
         .catch((err) => {
           if (err.name === 'AbortError') return;
-          setSearchResults([]);
-          setSearchError('Search failed — try again.');
-        })
-        .finally(() => {
-          if (!controller.signal.aborted) setSearching(false);
+          setAnswer({ q, results: [], error: 'Search failed — try again.' });
         });
     }, SEARCH_DEBOUNCE_MS);
 
@@ -111,7 +109,7 @@ export default function TravelLocationPicker({ lat, lng, onChange }) {
       clearTimeout(timer);
       controller.abort();
     };
-  }, [searchQuery]);
+  }, [canSearch, trimmedQuery]);
 
   useEffect(() => {
     const onDocClick = (e) => {
@@ -126,7 +124,7 @@ export default function TravelLocationPicker({ lat, lng, onChange }) {
   const handleSearchSelect = (result) => {
     handlePick(result.lat, result.lng, result.label);
     setSearchQuery(result.label);
-    setSearchResults([]);
+    setAnswer({ q: result.label.trim(), results: [], error: '' });
     setSearchOpen(false);
     setFlyKey((k) => k + 1);
   };

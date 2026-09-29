@@ -429,6 +429,27 @@
       ],
       "ignoreAppIds": [],
       "note": ""
+    },
+    {
+      "name": "Bioshock",
+      "appIds": [
+        409710,
+        409720,
+        8870
+      ],
+      "ignoreAppIds": [],
+      "note": ""
+    },
+    {
+      "name": "Saints Row",
+      "appIds": [
+        55230,
+        206420,
+        301910,
+        742420
+      ],
+      "ignoreAppIds": [],
+      "note": ""
     }
   ]
 }

@@ -1,5 +1,8 @@
 const NOMINATIM = 'https://nominatim.openstreetmap.org/search';
-const USER_AGENT = 'BuildVerifiedPortfolio/1.0';
+// Nominatim's usage policy asks for contact details in the User-Agent.
+const USER_AGENT = process.env.NOMINATIM_CONTACT
+  ? `BuildVerifiedPortfolio/1.0 (${process.env.NOMINATIM_CONTACT})`
+  : 'BuildVerifiedPortfolio/1.0';
 const ACCEPT_LANGUAGE = 'en';
 
 /** Scripts we hide from search labels when an English alternative exists */
@@ -109,8 +112,6 @@ function buildEnglishLabel(item) {
 }
 
 module.exports = async (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Cache-Control', 'public, s-maxage=3600, stale-while-revalidate=86400');
 
   if (req.method === 'OPTIONS') {

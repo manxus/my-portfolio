@@ -2,7 +2,8 @@ import { fmtDate, fmtPct, rarityLabel } from './achievementShared';
 import styles from './AchievementCard.module.css';
 
 export default function AchievementCard({ ach }) {
-  const icon = ach.unlocked ? ach.iconUrl : ach.iconGrayUrl || ach.iconUrl;
+  // Locked icons are greyed by .achLocked in CSS; the snapshot has no grey variant.
+  const icon = ach.iconUrl;
   const date = fmtDate(ach.unlockTime);
   const tier = rarityLabel(ach.globalPct);
   return (

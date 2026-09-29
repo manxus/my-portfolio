@@ -145,28 +145,22 @@ function PerformanceList({ performances }) {
 
 function AutoCover({ coverUrl, listenUrl, alt, imageClassName, placeholderClassName }) {
   const manualCover = typeof coverUrl === 'string' ? coverUrl.trim() : '';
-  const [autoCover, setAutoCover] = useState('');
+  const resolved = manualCover ? '' : resolveListenUrl(listenUrl);
+  // Tagged with the link it was looked up for, so it can't outlive a change.
+  const [auto, setAuto] = useState({ url: '', cover: '' });
 
   useEffect(() => {
-    if (manualCover) {
-      setAutoCover('');
-      return undefined;
-    }
-
-    const resolved = resolveListenUrl(listenUrl);
     if (!resolved) return undefined;
-
     let cancelled = false;
     fetchSpotifyThumbnailUrl(resolved).then((thumb) => {
-      if (!cancelled && thumb) setAutoCover(thumb);
+      if (!cancelled && thumb) setAuto({ url: resolved, cover: thumb });
     });
-
     return () => {
       cancelled = true;
     };
-  }, [manualCover, listenUrl]);
+  }, [resolved]);
 
-  const cover = manualCover || autoCover;
+  const cover = manualCover || (resolved && auto.url === resolved ? auto.cover : '');
 
   if (cover) {
     return (

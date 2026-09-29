@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import steamReviewsData from '../../data/steam-reviews.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
@@ -6,6 +6,7 @@ import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import SteamFilters from '../SteamFilters/SteamFilters';
 import ReviewModal from './ReviewModal';
 import { useAdminStore } from '../../stores/adminStore';
+import { useAdminCollection } from '../../hooks/useAdminCollection';
 import { trackSteamCuratorClick } from '../../hooks/useVisitorTracking';
 import styles from './SteamReviews.module.css';
 
@@ -75,10 +76,9 @@ const stagger = {
 
 export default function SteamReviews({ games }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const getData = useAdminStore((s) => s.getData);
   const isAdminUi = import.meta.env.DEV && isAuthenticated;
 
-  const [adminReviews, setAdminReviews] = useState(null);
+  const [adminFile] = useAdminCollection('steam-reviews', isAdminUi);
   const [sortBy, setSortBy] = useState('date');
   const [search, setSearch] = useState('');
   const [page, setPage] = useState(1);
@@ -87,34 +87,10 @@ export default function SteamReviews({ games }) {
   // The static import is a build-time snapshot, so a save left the grid showing
   // the old copy until a reload. Admins read the file back instead, the same
   // way the collections and Hall of Pain tabs do.
-  const reviews = isAdminUi && adminReviews ? adminReviews : defaultReviews;
-
-  const refreshAdminReviews = useCallback(async () => {
-    try {
-      const data = await getData('steam-reviews');
-      setAdminReviews(data.reviews || []);
-    } catch (err) {
-      console.error('Failed to load Steam reviews:', err);
-    }
-  }, [getData]);
-
-  useEffect(() => {
-    if (!isAdminUi) {
-      setAdminReviews(null);
-      return;
-    }
-    refreshAdminReviews();
-  }, [isAdminUi, refreshAdminReviews]);
-
-  useEffect(() => {
-    if (!isAdminUi) return undefined;
-    const onSaved = (e) => {
-      if (e.detail?.collection !== 'steam-reviews') return;
-      refreshAdminReviews();
-    };
-    window.addEventListener('admin-collection-saved', onSaved);
-    return () => window.removeEventListener('admin-collection-saved', onSaved);
-  }, [isAdminUi, refreshAdminReviews]);
+  const reviews = useMemo(
+    () => (adminFile ? adminFile.reviews || [] : defaultReviews),
+    [adminFile],
+  );
 
   const gameMap = useMemo(() => {
     const m = {};

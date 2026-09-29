@@ -51,7 +51,6 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  outline: none;
   transition:
     color var(--transition-fast),
     border-color var(--transition-fast),
@@ -120,5 +119,4 @@
   text-transform: uppercase;
   text-align: right;
   margin-top: 1.5rem;
-  opacity: 0.5;
 }

@@ -9,6 +9,8 @@ import {
   youtubeEmbedUrl,
   youtubeThumbnailUrl,
 } from '../utils/youtube';
+import { useModalDialog } from '../hooks/useModalDialog';
+import { useAdminCollection } from '../hooks/useAdminCollection';
 import styles from './TravelLog.module.css';
 
 const fadeUp = {
@@ -38,7 +40,7 @@ function useSplitLayout(ref) {
     const observer = new ResizeObserver(update);
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [ref]);
 
   return isSplit;
 }
@@ -167,12 +169,12 @@ function TripTimelineBody({ trip, isSelected, onSelectPhoto }) {
 }
 
 export default function TravelLog() {
-  const getData = useAdminStore((s) => s.getData);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
   const isAdminUi = import.meta.env.DEV && isAuthenticated;
 
-  const [travel, setTravel] = useState(defaultTravelData);
-  const trips = travel.trips ?? [];
+  const [adminTravel] = useAdminCollection('travel', isAdminUi);
+  const travel = adminTravel ?? defaultTravelData;
+  const trips = useMemo(() => travel.trips ?? [], [travel.trips]);
   const home = travel.home ?? defaultTravelData.home;
 
   const sortedTrips = useMemo(
@@ -185,53 +187,27 @@ export default function TravelLog() {
     [sortedTrips],
   );
 
-  const [selectedId, setSelectedId] = useState(null);
+  const [chosenId, setSelectedId] = useState(null);
+  // Derived rather than cleared in an effect: a trip deleted in the editor just
+  // stops being selectable, with no extra render to reset the state.
+  const selectedId =
+    chosenId === HOME_PIN_ID || sortedTrips.some((t) => t.id === chosenId)
+      ? chosenId
+      : null;
   const [lightboxPhoto, setLightboxPhoto] = useState(null);
+  const lightboxRef = useRef(null);
+  const lightboxCloseRef = useRef(null);
+  useModalDialog({
+    open: Boolean(lightboxPhoto),
+    onClose: () => setLightboxPhoto(null),
+    panelRef: lightboxRef,
+    initialFocusRef: lightboxCloseRef,
+  });
 
   const tripItemRefs = useRef(new Map());
 
   const splitRef = useRef(null);
   const isSplit = useSplitLayout(splitRef);
-
-  const refreshTravel = useCallback(async () => {
-    if (!import.meta.env.DEV) return;
-    try {
-      const data = await getData('travel');
-      setTravel(data);
-    } catch (err) {
-      console.error('Failed to load travel data:', err);
-    }
-  }, [getData]);
-
-  useEffect(() => {
-    if (!isAdminUi) {
-      setTravel(defaultTravelData);
-      return;
-    }
-    refreshTravel();
-  }, [isAdminUi, refreshTravel]);
-
-  useEffect(() => {
-    if (!isAdminUi) return undefined;
-    const onSaved = (e) => {
-      if (e.detail?.collection !== 'travel') return;
-      refreshTravel();
-    };
-    window.addEventListener('admin-collection-saved', onSaved);
-    return () => window.removeEventListener('admin-collection-saved', onSaved);
-  }, [isAdminUi, refreshTravel]);
-
-  useEffect(() => {
-    if (selectedId == null) return;
-    if (selectedId === HOME_PIN_ID) return;
-    if (sortedTrips.length === 0) {
-      setSelectedId(null);
-      return;
-    }
-    if (!sortedTrips.some((t) => t.id === selectedId)) {
-      setSelectedId(null);
-    }
-  }, [sortedTrips, selectedId]);
 
   useEffect(() => {
     if (selectedId == null || selectedId === HOME_PIN_ID) return;
@@ -398,7 +374,11 @@ export default function TravelLog() {
             onClick={() => setLightboxPhoto(null)}
           >
             <motion.div
+              ref={lightboxRef}
               className={styles.lightboxContent}
+              role="dialog"
+              aria-modal="true"
+              aria-label={lightboxPhoto.caption || 'Photo'}
               initial={{ scale: 0.92 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.92 }}
@@ -415,9 +395,11 @@ export default function TravelLog() {
                 </div>
               )}
               <button
+                ref={lightboxCloseRef}
                 type="button"
                 className={styles.lightboxClose}
                 onClick={() => setLightboxPhoto(null)}
+                aria-label="Close"
               >
                 &times;
               </button>

@@ -139,7 +139,7 @@
   font-family: var(--font-mono);
   font-size: 0.48rem;
   letter-spacing: 0.08em;
-  color: #e8c15a;
+  color: var(--gold);
   border: 1px solid rgba(232, 193, 90, 0.4);
   padding: 0.05rem 0.22rem;
 }
@@ -193,7 +193,7 @@
 }
 
 .rowUnknown .rowName {
-  color: #d67a5c;
+  color: var(--warn);
   font-style: italic;
 }
 

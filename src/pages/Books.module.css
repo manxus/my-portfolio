@@ -116,7 +116,7 @@
 .readBadge {
   font-family: var(--font-mono);
   font-size: 0.55rem;
-  color: var(--accent-bright);
+  color: var(--scrim-accent);
   background: rgba(10, 15, 18, 0.82);
   border: 1px solid var(--accent-dim);
   padding: 0.15rem 0.5rem;
@@ -130,7 +130,7 @@
   font-family: var(--font-mono);
   font-size: 0.65rem;
   line-height: 1;
-  color: var(--accent-bright);
+  color: var(--scrim-accent);
   background: rgba(10, 15, 18, 0.82);
   border: 1px solid var(--accent-dim);
   padding: 0.15rem 0.4rem;
@@ -139,7 +139,7 @@
 .formatBadge {
   font-family: var(--font-mono);
   font-size: 0.55rem;
-  color: var(--text-primary);
+  color: var(--scrim-text);
   background: rgba(10, 15, 18, 0.82);
   border: 1px solid var(--accent-dim);
   padding: 0.15rem 0.5rem;

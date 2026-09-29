@@ -124,7 +124,7 @@
 
 .mapFrame :global(.leaflet-control-attribution) {
   background: rgba(10, 15, 18, 0.75);
-  color: #3e555e;
+  color: var(--scrim-text-dim);
   font-size: 0.55rem;
 }
 

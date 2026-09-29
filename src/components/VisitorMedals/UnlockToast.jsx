@@ -1,7 +1,7 @@
 import { useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useVisitorStore } from '../../stores/visitorStore';
-import { useSettingsStore } from '../../stores/settingsStore';
+import { useReducedMotion } from '../../hooks/useReducedMotion';
 import { useSound } from '../../hooks/useSound';
 import styles from './UnlockToast.module.css';
 
@@ -9,7 +9,7 @@ export default function UnlockToast() {
   const pendingUnlock = useVisitorStore((s) => s.pendingUnlock);
   const clearPendingUnlock = useVisitorStore((s) => s.clearPendingUnlock);
   const setDrawerOpen = useVisitorStore((s) => s.setDrawerOpen);
-  const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const reduceMotion = useReducedMotion();
   const { play } = useSound();
   const timerRef = useRef(null);
 

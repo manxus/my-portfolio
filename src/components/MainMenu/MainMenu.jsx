@@ -12,9 +12,12 @@ import AvailabilityBadge from '../AvailabilityBadge/AvailabilityBadge';
 import HiddenTrigger from '../../admin/HiddenTrigger';
 import { trackExitModal, trackKeyboardNav } from '../../hooks/useVisitorTracking';
 import { useVisitorStore, hasAllAchievementsUnlocked } from '../../stores/visitorStore';
-import { useSettingsStore } from '../../stores/settingsStore';
+import { useReducedMotion } from '../../hooks/useReducedMotion';
 import EditableSection from '../../admin/EditableSection';
 import styles from './MainMenu.module.css';
+
+/** Where the menu's arrow/Enter handling applies; see useKeyboardNav. */
+const MENU_SCOPE = '[data-menu-nav]';
 
 const { menuItems } = menuData;
 
@@ -47,7 +50,7 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
   const isDesktop = desktopContent !== undefined;
   const setDrawerOpen = useVisitorStore((s) => s.setDrawerOpen);
   const unlocked = useVisitorStore((s) => s.unlocked);
-  const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const reduceMotion = useReducedMotion();
   const allAchievementsUnlocked = hasAllAchievementsUnlocked(unlocked);
 
   const flatItems = useMemo(() => {
@@ -78,11 +81,9 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
       }
       if (item.children) {
         pendingFocusId.current = item.id;
-        setExpandedItem((prev) => {
-          const next = prev === item.id ? null : item.id;
-          play(next ? 'expand' : 'collapse');
-          return next;
-        });
+        const next = expandedItem === item.id ? null : item.id;
+        play(next ? 'expand' : 'collapse');
+        setExpandedItem(next);
         return;
       }
       if (item.path) {
@@ -90,7 +91,7 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
         navigate(item.path);
       }
     },
-    [navigate, play, setDrawerOpen],
+    [navigate, play, setDrawerOpen, expandedItem],
   );
 
   const handleSelect = useCallback(
@@ -112,11 +113,14 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
   const { focusIndex, setFocusIndex } = useKeyboardNav(flatItems.length, {
     onSelect: handleSelect,
     enabled: !showExit,
+    scopeSelector: MENU_SCOPE,
   });
 
   useEffect(() => {
     const handler = (e) => {
-      if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+      if (e.key !== 'ArrowUp' && e.key !== 'ArrowDown') return;
+      const t = e.target;
+      if (t === document.body || (t instanceof Element && t.closest(MENU_SCOPE))) {
         keyboardActive.current = true;
       }
     };
@@ -137,7 +141,7 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
     if (pendingFocusId.current) {
       const idx = flatItems.findIndex((fi) => fi.id === pendingFocusId.current);
       if (idx >= 0) {
-        setFocusIndex(idx);
+        setFocusIndex(idx, { keepArmed: true });
       }
       pendingFocusId.current = null;
     }
@@ -239,7 +243,7 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
           </EditableSection>
         </header>
 
-        <nav className={styles.nav}>
+        <nav className={styles.nav} data-menu-nav>
           {menuItems.map((item) => {
             const idx = getFlatIndex();
             const isExpanded = expandedItem === item.id;

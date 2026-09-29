@@ -53,8 +53,8 @@
 .error {
   font-family: var(--font-mono);
   font-size: 0.66rem;
-  color: #d98f8f;
-  border-left: 2px solid #d98f8f;
+  color: var(--danger);
+  border-left: 2px solid var(--danger);
   padding-left: 0.6rem;
   margin: 0;
 }
@@ -80,7 +80,7 @@
 }
 
 .sectionIcon {
-  color: var(--accent-dim);
+  color: var(--accent);
 }
 
 .sectionCount {
@@ -159,7 +159,7 @@
   font-family: var(--font-mono);
   font-size: 0.52rem;
   letter-spacing: 0.1em;
-  color: var(--text-primary);
+  color: var(--scrim-text);
   background: rgba(17, 26, 32, 0.85);
   padding: 0.15rem 0.35rem;
 }
@@ -244,8 +244,8 @@
 }
 
 .dismissBtn:hover:not(:disabled) {
-  color: #d98f8f;
-  border-color: #d98f8f;
+  color: var(--danger);
+  border-color: var(--danger);
 }
 
 .addBtn:disabled,

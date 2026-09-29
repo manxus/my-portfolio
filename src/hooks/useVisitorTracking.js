@@ -2,15 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useVisitorStore } from '../stores/visitorStore';
 import { useSettingsStore } from '../stores/settingsStore';
-
-function getSessionStart() {
-  let start = sessionStorage.getItem('bv_session_start');
-  if (!start) {
-    start = String(Date.now());
-    sessionStorage.setItem('bv_session_start', start);
-  }
-  return Number(start);
-}
+import { getSessionStart } from '../utils/session';
 
 export function useVisitorTracking() {
   const location = useLocation();

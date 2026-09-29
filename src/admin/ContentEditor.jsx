@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { motion } from 'framer-motion';
 import { visibleSchemaFields } from './autoId';
@@ -43,14 +43,10 @@ function insertTextAtSelection(el, current, text, onCommit) {
 }
 
 function TextInput({ value, onChange, className, placeholder }) {
-  const [draft, setDraft] = useState(() => String(value ?? ''));
-  const focusedRef = useRef(false);
-
-  useEffect(() => {
-    if (!focusedRef.current) {
-      setDraft(String(value ?? ''));
-    }
-  }, [value]);
+  // A local draft exists only while the field has focus; otherwise the field
+  // shows the prop, so outside edits land without an effect copying them in.
+  const [draft, setDraft] = useState(null);
+  const shown = draft ?? String(value ?? '');
 
   const commit = (next) => {
     setDraft(next);
@@ -62,7 +58,7 @@ function TextInput({ value, onChange, className, placeholder }) {
     e.preventDefault();
     const text = await readClipboardText(e);
     if (!text) return;
-    insertTextAtSelection(e.target, draft, text, commit);
+    insertTextAtSelection(e.target, shown, text, commit);
   };
 
   const handlePasteShortcut = async (e) => {
@@ -71,21 +67,19 @@ function TextInput({ value, onChange, className, placeholder }) {
     e.preventDefault();
     const text = await readClipboardText();
     if (!text) return;
-    insertTextAtSelection(e.target, draft, text, commit);
+    insertTextAtSelection(e.target, shown, text, commit);
   };
 
   return (
     <input
       className={className}
       type="text"
-      value={draft}
+      value={shown}
       placeholder={placeholder}
-      onFocus={() => {
-        focusedRef.current = true;
-      }}
+      onFocus={() => setDraft(String(value ?? ''))}
       onBlur={() => {
-        focusedRef.current = false;
-        onChange(draft);
+        onChange(shown);
+        setDraft(null);
       }}
       onChange={(e) => commit(e.target.value)}
       onKeyDown={(e) => {
@@ -100,14 +94,10 @@ function TextInput({ value, onChange, className, placeholder }) {
 }
 
 function TextAreaInput({ value, onChange, className, rows = 3 }) {
-  const [draft, setDraft] = useState(() => String(value ?? ''));
-  const focusedRef = useRef(false);
-
-  useEffect(() => {
-    if (!focusedRef.current) {
-      setDraft(String(value ?? ''));
-    }
-  }, [value]);
+  // A local draft exists only while the field has focus; otherwise the field
+  // shows the prop, so outside edits land without an effect copying them in.
+  const [draft, setDraft] = useState(null);
+  const shown = draft ?? String(value ?? '');
 
   const commit = (next) => {
     setDraft(next);
@@ -119,7 +109,7 @@ function TextAreaInput({ value, onChange, className, rows = 3 }) {
     e.preventDefault();
     const text = await readClipboardText(e);
     if (!text) return;
-    insertTextAtSelection(e.target, draft, text, commit);
+    insertTextAtSelection(e.target, shown, text, commit);
   };
 
   const handlePasteShortcut = async (e) => {
@@ -128,20 +118,18 @@ function TextAreaInput({ value, onChange, className, rows = 3 }) {
     e.preventDefault();
     const text = await readClipboardText();
     if (!text) return;
-    insertTextAtSelection(e.target, draft, text, commit);
+    insertTextAtSelection(e.target, shown, text, commit);
   };
 
   return (
     <textarea
       className={className}
-      value={draft}
+      value={shown}
       rows={rows}
-      onFocus={() => {
-        focusedRef.current = true;
-      }}
+      onFocus={() => setDraft(String(value ?? ''))}
       onBlur={() => {
-        focusedRef.current = false;
-        onChange(draft);
+        onChange(shown);
+        setDraft(null);
       }}
       onChange={(e) => commit(e.target.value)}
       onKeyDown={(e) => {

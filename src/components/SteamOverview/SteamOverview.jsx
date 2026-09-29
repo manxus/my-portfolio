@@ -1,8 +1,8 @@
 import { useState, useMemo } from 'react';
-import { motion } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import SteamStats from '../SteamStats/SteamStats';
 import SteamChanges from '../SteamChanges/SteamChanges';
-import AchievementCard from '../SteamAchievements/AchievementCard';
+import DayDetailModal from './DayDetailModal';
 import {
   buildAchievementData,
   dayKey,
@@ -20,9 +20,13 @@ const MONTH_NAMES = [
   'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',
 ];
 
+// Weeks start on Sunday (see the calendar cursor below).
+const WEEKDAY_INITIALS = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+
 export default function SteamOverview({ games, profile, wishlist }) {
   const [selectedDay, setSelectedDay] = useState(null);
   const [now] = useState(() => Date.now());
+  const [year, setYear] = useState(() => new Date().getFullYear());
 
   const { gamesWithItems, unlockedAch, perfectGames } = useMemo(
     () => buildAchievementData(games),
@@ -83,7 +87,17 @@ export default function SteamOverview({ games, profile, wishlist }) {
     return { items, perfected };
   }, [unlockedAch, perfectGames]);
 
-  // Last 365 days of unlock activity as one continuous weekday-aligned grid.
+  // Every year with at least one unlock, newest first. The current year is
+  // always offered so the default selection is never missing from the list.
+  const years = useMemo(() => {
+    const set = new Set([new Date().getFullYear()]);
+    for (const a of unlockedAch) {
+      if (a.unlockTime) set.add(new Date(a.unlockTime * 1000).getFullYear());
+    }
+    return [...set].sort((a, b) => b - a);
+  }, [unlockedAch]);
+
+  // One calendar year (Jan–Dec) of unlock activity as a weekday-aligned grid.
   const calendar = useMemo(() => {
     const dayCounts = new Map();
     for (const a of unlockedAch) {
@@ -96,8 +110,8 @@ export default function SteamOverview({ games, profile, wishlist }) {
 
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    const windowStart = new Date(today);
-    windowStart.setDate(windowStart.getDate() - 364);
+    const windowStart = new Date(year, 0, 1);
+    const windowEnd = new Date(year, 11, 31);
 
     // Start on the Sunday at or before the window so every column is a full week.
     const cursor = new Date(windowStart);
@@ -107,19 +121,23 @@ export default function SteamOverview({ games, profile, wishlist }) {
     let maxCount = 0;
     let yearTotal = 0;
 
-    while (cursor <= today) {
+    while (cursor <= windowEnd) {
       const cells = [];
       for (let i = 0; i < 7; i += 1) {
-        if (cursor < windowStart || cursor > today) {
+        if (cursor < windowStart || cursor > windowEnd) {
           cells.push(null);
         } else {
           const key = dayKey(cursor);
           const count = dayCounts.get(key) || 0;
+          // Days still to come in the current year keep their slot so the
+          // year reads as a whole, but render as blanks.
+          const future = cursor > today;
           if (count > maxCount) maxCount = count;
           yearTotal += count;
           cells.push({
             key,
             count,
+            future,
             month: cursor.getMonth(),
             year: cursor.getFullYear(),
             label: cursor.toLocaleDateString(undefined, {
@@ -137,7 +155,6 @@ export default function SteamOverview({ games, profile, wishlist }) {
     // One label per run of columns starting in the same month, so labels sit
     // above the weeks they describe rather than over separate blocks.
     const monthSpans = [];
-    let prevYear = null;
     for (const week of weeks) {
       const first = week.find(Boolean);
       if (!first) continue;
@@ -146,13 +163,9 @@ export default function SteamOverview({ games, profile, wishlist }) {
         open.span += 1;
         continue;
       }
-      const showYear = prevYear !== first.year;
-      prevYear = first.year;
       monthSpans.push({
         key: `${first.year}-${String(first.month + 1).padStart(2, '0')}`,
-        label: showYear
-          ? `${MONTH_NAMES[first.month]} '${String(first.year).slice(2)}`
-          : MONTH_NAMES[first.month],
+        label: MONTH_NAMES[first.month],
         month: first.month,
         year: first.year,
         span: 1,
@@ -160,7 +173,7 @@ export default function SteamOverview({ games, profile, wishlist }) {
     }
 
     return { weeks, monthSpans, maxCount, yearTotal };
-  }, [unlockedAch]);
+  }, [unlockedAch, year]);
 
   const heatLevel = (count) => {
     if (!count) return 0;
@@ -302,109 +315,120 @@ export default function SteamOverview({ games, profile, wishlist }) {
       {gamesWithItems.length > 0 && (
           <section className={styles.block}>
             <div className={styles.blockHead}>
-              <h2 className={styles.blockTitle}>UNLOCK ACTIVITY</h2>
+              <div className={styles.blockTitleRow}>
+                <h2 className={styles.blockTitle}>UNLOCK ACTIVITY</h2>
+                {years.length > 1 && (
+                  <select
+                    className={styles.yearSelect}
+                    value={year}
+                    aria-label="Year"
+                    onChange={(e) => {
+                      setYear(Number(e.target.value));
+                      setSelectedDay(null);
+                    }}
+                  >
+                    {years.map((y) => (
+                      <option key={y} value={y}>
+                        {y}
+                      </option>
+                    ))}
+                  </select>
+                )}
+              </div>
               <p className={styles.blockHint}>
                 {unlockedAch.length > 0
-                  ? `${yearTotal.toLocaleString()} achievements unlocked in the last year · click a day for details`
-                  : 'Achievements earned per day over the last year'}
+                  ? `${yearTotal.toLocaleString()} achievements unlocked in ${year} · click a day for details`
+                  : `Achievements earned per day in ${year}`}
               </p>
             </div>
             <div
               className={styles.calendarWrap}
               style={{ '--cal-weeks': calendar.weeks.length }}
             >
-              <div className={styles.calMonthRow}>
-                {calendar.monthSpans.map((month) => (
-                  <span
-                    key={month.key}
-                    className={styles.calMonthLabel}
-                    style={{ '--cal-span': month.span }}
-                  >
-                    {month.span >= 3 ? month.label : ''}
-                  </span>
-                ))}
-              </div>
-              <div className={styles.calGrid}>
-                {calendar.weeks.flat().map((day, i) => {
-                  if (!day) {
-                    return (
-                      <div key={`empty-${i}`} className={styles.calDayEmpty} />
-                    );
-                  }
-                  const perfected = dayDetails.perfected.has(day.key);
-                  const cellTitle = `${day.count} unlocked · ${day.label}${perfected ? ' · perfected a game' : ''}`;
-                  if (day.count === 0) {
-                    return (
-                      <div
-                        key={day.key}
-                        className={styles.calDay}
-                        data-level={0}
-                        title={cellTitle}
-                      />
-                    );
-                  }
-                  return (
-                    <button
-                      key={day.key}
-                      type="button"
-                      className={styles.calDay}
-                      data-level={heatLevel(day.count)}
-                      data-perfected={perfected ? 'true' : undefined}
-                      data-selected={
-                        selectedDay?.key === day.key ? 'true' : undefined
-                      }
-                      title={cellTitle}
-                      onClick={() =>
-                        setSelectedDay((cur) =>
-                          cur?.key === day.key ? null : day,
-                        )
-                      }
+              <div className={styles.calendarInner}>
+                <div className={styles.calWeekdayRow} aria-hidden="true">
+                  {WEEKDAY_INITIALS.map((d, i) => (
+                    <span key={i} className={styles.calWeekdayLabel}>
+                      {d}
+                    </span>
+                  ))}
+                </div>
+                <div className={styles.calMonthRow}>
+                  {calendar.monthSpans.map((month) => (
+                    <span
+                      key={month.key}
+                      className={styles.calMonthLabel}
+                      style={{ '--cal-span': month.span }}
+                      data-short={month.span < 3 ? 'true' : undefined}
                     >
-                      <span className={styles.calDayNum}>{day.count}</span>
-                    </button>
-                  );
-                })}
+                      {month.label}
+                    </span>
+                  ))}
+                </div>
+                <div className={styles.calGrid}>
+                  {calendar.weeks.flat().map((day, i) => {
+                    if (!day) {
+                      return (
+                        <div key={`empty-${i}`} className={styles.calDayEmpty} />
+                      );
+                    }
+                    const perfected = dayDetails.perfected.has(day.key);
+                    const cellTitle = `${day.count} unlocked · ${day.label}${perfected ? ' · perfected a game' : ''}`;
+                    if (day.future) {
+                      return (
+                        <div
+                          key={day.key}
+                          className={styles.calDay}
+                          data-future="true"
+                          title={day.label}
+                        />
+                      );
+                    }
+                    if (day.count === 0) {
+                      return (
+                        <div
+                          key={day.key}
+                          className={styles.calDay}
+                          data-level={0}
+                          title={cellTitle}
+                        />
+                      );
+                    }
+                    return (
+                      <button
+                        key={day.key}
+                        type="button"
+                        className={styles.calDay}
+                        data-level={heatLevel(day.count)}
+                        data-perfected={perfected ? 'true' : undefined}
+                        data-selected={
+                          selectedDay?.key === day.key ? 'true' : undefined
+                        }
+                        title={cellTitle}
+                        onClick={() =>
+                          setSelectedDay((cur) =>
+                            cur?.key === day.key ? null : day,
+                          )
+                        }
+                      >
+                        <span className={styles.calDayNum}>{day.count}</span>
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             </div>
 
-            {selectedDay && (
-              <motion.div
-                key={selectedDay.key}
-                className={styles.dayPanel}
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.2 }}
-              >
-                <div className={styles.dayPanelHead}>
-                  <div>
-                    <p className={styles.dayPanelDate}>{selectedDay.label}</p>
-                    <p className={styles.dayPanelSub}>
-                      {selectedDay.count} achievement
-                      {selectedDay.count === 1 ? '' : 's'} unlocked
-                    </p>
-                  </div>
-                  <button
-                    type="button"
-                    className={styles.dayPanelClose}
-                    onClick={() => setSelectedDay(null)}
-                    aria-label="Close"
-                  >
-                    &#10005;
-                  </button>
-                </div>
-                {dayDetails.perfected.get(selectedDay.key) && (
-                  <p className={styles.dayPerfect}>
-                    <span className={styles.dayPerfectStar}>&#9733;</span>
-                    Perfected: {dayDetails.perfected.get(selectedDay.key).join(', ')}
-                  </p>
-                )}
-                <div className={styles.achGrid}>
-                  {(dayDetails.items.get(selectedDay.key) || []).map((a) => (
-                    <AchievementCard key={`${a.appId}-${a.apiName}`} ach={a} />
-                  ))}
-                </div>
-              </motion.div>
-            )}
+            <AnimatePresence>
+              {selectedDay && (
+                <DayDetailModal
+                  day={selectedDay}
+                  items={dayDetails.items.get(selectedDay.key) || []}
+                  perfected={dayDetails.perfected.get(selectedDay.key)}
+                  onClose={() => setSelectedDay(null)}
+                />
+              )}
+            </AnimatePresence>
           </section>
       )}
     </div>

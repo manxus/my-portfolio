@@ -22,8 +22,21 @@
   --terminal: #5f8f8f;
   --terminal-bright: #82bfbf;
 
-  --danger: #c45050;
+  /* 4.95:1 on --bg-secondary; the old #c45050 was 3.6:1. */
+  --danger: #dc6a6a;
   --danger-dim: #8a3535;
+
+  /* Status hues for text on themed panels: perfected / rare / needs attention. */
+  --gold: #e8c15a;
+  --rare: #d98adb;
+  --warn: #d67a5c;
+
+  /* Text on fixed dark scrims over cover art and photos. The scrim doesn't
+     change with the theme, so neither may this; never override in light. */
+  --scrim-text: #d0dce3;
+  --scrim-text-dim: #9fb3bb;
+  --scrim-accent: #82bfbf;
+  --scrim-danger: #e87777;
 
   --bg-gradient-accent: rgba(95, 143, 143, 0.04);
   --bg-gradient-shadow: rgba(10, 15, 18, 0.8);
@@ -54,12 +67,20 @@
      lighter. */
   --text-dim: #50656d;
 
+  /* The default teal's light set; useSettingsApplier overwrites these inline
+     from ACCENT_PALETTE (settingsStore.js), which explains the values. */
+  --accent: #456868;
+  --accent-bright: #385454;
+  --accent-dim: #a3bfbf;
   --accent-glow: rgba(95, 143, 143, 0.15);
 
   --terminal: var(--accent);
   --terminal-bright: var(--accent-bright);
 
-  --danger: #b83c3c;
+  --danger: #a83434;
+  --gold: #7a5c0e;
+  --rare: #8a3f8c;
+  --warn: #9a4a2e;
   --danger-dim: rgba(184, 60, 60, 0.15);
 
   --bg-gradient-accent: rgba(95, 143, 143, 0.06);

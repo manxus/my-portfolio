@@ -108,7 +108,7 @@
 
 .submitBtn {
   background: var(--accent, #5f8f8f);
-  color: #fff;
+  color: var(--bg-deep, #0a0f12);
   border-color: var(--accent, #5f8f8f);
 }
 

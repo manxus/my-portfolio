@@ -1,7 +1,71 @@
+/* Milestones tab.
+   One row per ladder, whose bar carries every rung as a marker. Section
+   identity is a hue (--ms-hue) plus a glyph; progress state reads from a small
+   token set. The hue is kept off the state chrome so gold still means
+   "complete" exactly as it does in SteamGameCard and SteamHallOfPain. */
+
+/* ---- Tokens -------------------------------------------------------------
+   On .scope rather than .wrapper because the rung popup is portalled to
+   <body>, outside the tab; MilestoneModal.module.css composes this class onto
+   its overlay so the popup reads the same tokens and hues. */
+
+.scope {
+  /* The one place the "conquered" gold is written down. */
+  --ms-gold: #e8c15a;
+  --ms-gold-rgb: 232, 193, 90;
+  --ms-next: var(--accent);
+  --ms-next-soft: rgba(95, 143, 143, 0.28);
+  --ms-track: rgba(95, 143, 143, 0.14);
+
+  /* Defaults for the shared meter; state blocks override them. */
+  --ms-tint: var(--ms-next);
+  --ms-tint-soft: rgba(95, 143, 143, 0.18);
+  --ms-fill-a: var(--accent-dim);
+  --ms-fill-b: var(--accent-bright);
+}
+
+:global([data-theme='light']) .scope {
+  /* #e8c15a is a light-on-dark colour; on the light face it washes out. This
+     carries dates and labels, so it has to clear AA as small text. */
+  --ms-gold: #75560c;
+  --ms-gold-rgb: 117, 86, 12;
+  /* --accent is the same #5f8f8f in both themes, 2.72:1 on the light face. */
+  --ms-next: #356565;
+  --ms-next-soft: rgba(53, 101, 101, 0.25);
+  --ms-track: rgba(62, 85, 96, 0.18);
+  --ms-tint-soft: rgba(53, 101, 101, 0.18);
+}
+
+/* Low saturation so nine hues can sit together without breaking the CRT
+   palette, and clear of the 40-60deg gold band the complete state owns.
+   Hall of Pain is deliberately the only drained one. */
+.scope [data-section='library'] { --ms-hue: #6f9ba8; }
+.scope [data-section='hours'] { --ms-hue: #7d8fb5; }
+.scope [data-section='single'] { --ms-hue: #9a86b5; }
+.scope [data-section='perfect'] { --ms-hue: #b1849e; }
+.scope [data-section='achievements'] { --ms-hue: #b0937a; }
+.scope [data-section='rare'] { --ms-hue: #b8847f; }
+.scope [data-section='wishlist'] { --ms-hue: #84ad92; }
+.scope [data-section='reviews'] { --ms-hue: #6fa8a0; }
+.scope [data-section='hallofpain'] { --ms-hue: #8f8f9e; }
+
+/* Darkened for the light face, same approach as the per-game --game-signal
+   overrides on the game pages. */
+:global([data-theme='light']) .scope [data-section='library'] { --ms-hue: #3c6b78; }
+:global([data-theme='light']) .scope [data-section='hours'] { --ms-hue: #4a5c82; }
+:global([data-theme='light']) .scope [data-section='single'] { --ms-hue: #665283; }
+:global([data-theme='light']) .scope [data-section='perfect'] { --ms-hue: #7d506a; }
+:global([data-theme='light']) .scope [data-section='achievements'] { --ms-hue: #7d6048; }
+:global([data-theme='light']) .scope [data-section='rare'] { --ms-hue: #7d4a45; }
+:global([data-theme='light']) .scope [data-section='wishlist'] { --ms-hue: #4e7a5d; }
+:global([data-theme='light']) .scope [data-section='reviews'] { --ms-hue: #326e66; }
+:global([data-theme='light']) .scope [data-section='hallofpain'] { --ms-hue: #4e4e5c; }
+
 .wrapper {
+  composes: scope;
   display: flex;
   flex-direction: column;
-  gap: 2.25rem;
+  gap: 1.75rem;
   width: 100%;
   max-width: min(1200px, 100%);
   box-sizing: border-box;
@@ -22,6 +86,8 @@
   padding: 3rem 1rem;
   line-height: 1.6;
 }
+
+/* ---- Band headings (the shared .block idiom) ---- */
 
 .block {
   display: flex;
@@ -52,247 +118,288 @@
   color: var(--text-dim);
   margin: 0;
   letter-spacing: 0.04em;
-  opacity: 0.85;
   line-height: 1.4;
 }
 
-.milestoneList {
+/* ---- Ladder rows -------------------------------------------------------- */
+
+.flightList {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 0.65rem 1rem;
-  align-items: stretch;
+  gap: 0.5rem;
 }
 
-.milestone {
-  background: var(--bg-secondary);
-  border: 1px solid rgba(95, 143, 143, 0.1);
-  padding: 0.75rem 0.9rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  width: 100%;
-  box-sizing: border-box;
-  transition:
-    border-color var(--transition-fast),
-    box-shadow var(--transition-fast),
-    transform var(--transition-fast);
-}
-
-.milestone:hover {
-  transform: translateY(-2px);
-  border-color: var(--accent-dim);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.milestoneComplete {
-  background: linear-gradient(
-    145deg,
-    rgba(110, 90, 36, 0.22) 0%,
-    rgba(58, 47, 18, 0.14) 55%,
-    var(--bg-secondary) 100%
-  );
-  border-color: rgba(232, 193, 90, 0.25);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 236, 180, 0.08),
-    inset 0 0 0 1px rgba(232, 193, 90, 0.12);
-}
-
-.milestoneComplete:hover {
-  border-color: rgba(232, 193, 90, 0.45);
-  box-shadow:
-    0 4px 14px rgba(0, 0, 0, 0.18),
-    0 0 16px rgba(232, 193, 90, 0.12),
-    inset 0 1px 0 rgba(255, 236, 180, 0.12),
-    inset 0 0 0 1px rgba(232, 193, 90, 0.2);
-}
-
-.milestoneNext {
-  border-color: var(--accent);
-  box-shadow:
-    0 0 0 1px rgba(95, 143, 143, 0.08),
-    0 0 18px rgba(95, 143, 143, 0.12);
-}
-
-.milestoneNext:hover {
-  border-color: var(--accent-bright);
-  box-shadow:
-    0 4px 14px rgba(0, 0, 0, 0.18),
-    0 0 22px rgba(95, 143, 143, 0.18);
-}
-
-.milestoneNext .milestoneTitle {
-  color: var(--accent-bright);
-}
-
-.milestoneFuture {
-  opacity: 0.55;
-}
-
-.milestoneFuture:hover {
-  transform: none;
-  border-color: rgba(95, 143, 143, 0.1);
-  box-shadow: none;
-}
-
-.thresholdBadge {
-  font-family: var(--font-mono);
-  font-size: 0.52rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-  line-height: 1;
-}
-
-.milestoneTop {
+.flight {
+  position: relative;
   display: flex;
   align-items: flex-start;
+  gap: 0.85rem;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  border-left: 2px solid var(--ms-hue);
+  padding: 0.7rem 0.95rem 0.75rem;
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
+}
+
+.flight:hover {
+  border-color: var(--ms-tint);
+  border-left-color: var(--ms-hue);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.18),
+    0 0 18px var(--ms-tint-soft);
+}
+
+/* A cleared ladder fills gold, the same signal as a cleared rung. */
+.flight[data-complete] {
+  --ms-tint: var(--ms-gold);
+  --ms-tint-soft: rgba(var(--ms-gold-rgb), 0.2);
+}
+
+.flightGlyph {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin-top: 0.1rem;
+  color: var(--ms-hue);
+}
+
+.flightMain {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.flightTop {
+  display: flex;
+  align-items: baseline;
   justify-content: space-between;
   gap: 0.75rem;
 }
 
-.milestoneTitle {
+/* The whole row is one click target. The title is the real button (so the
+   row has a proper accessible name and a single tab stop); its ::after is
+   stretched over the entire card. The rung markers sit above that overlay
+   (see .ladder) so each still opens its own rung. Buttons cannot nest, which
+   is why this is an overlay rather than a <button> wrapping the row. */
+.flightTitle {
   font-family: var(--font-heading);
-  font-size: 0.88rem;
+  font-size: 0.92rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin: 0;
   line-height: 1.25;
+  padding: 0;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 3px;
+  transition: text-decoration-color var(--transition-fast);
 }
 
-.doneMark {
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
-  font-size: 0.78rem;
-  line-height: 1;
-  color: var(--bg-primary);
-  background: var(--accent-bright);
-  box-shadow:
-    0 0 0 2px rgba(232, 193, 90, 0.35),
-    0 0 10px rgba(232, 193, 90, 0.25);
-  animation: doneMarkIn 0.35s ease-out;
+.flightTitle::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 
-@keyframes doneMarkIn {
-  from {
-    transform: scale(0.6);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
+.flight:hover .flightTitle {
+  text-decoration-color: var(--ms-hue);
 }
 
-.captionBlock {
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  min-width: 0;
+/* The focus ring goes round the whole card, since the whole card is the target. */
+.flightTitle:focus-visible {
+  outline: none;
 }
 
-.progressCaption {
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
-  color: var(--text-dim);
-  margin: 0;
-  letter-spacing: 0.04em;
-  line-height: 1.4;
+.flightTitle:focus-visible::after {
+  outline: 2px solid var(--accent-bright);
+  outline-offset: 2px;
 }
 
-.doneCaption {
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
-  color: var(--accent);
-  margin: 0;
-  letter-spacing: 0.04em;
-  line-height: 1.4;
-  opacity: 0.85;
-}
-
-.captionGame {
+.flightBadge {
+  flex: none;
   font-family: var(--font-mono);
   font-size: 0.55rem;
-  color: var(--text-secondary);
-  margin: 0;
-  letter-spacing: 0.03em;
-  line-height: 1.3;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
 }
 
-.progressRow {
+.flightMeter {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
+/* The ladder: one equal cell per rung, so the bar is the ladder itself.
+   Above the title's stretched overlay (z-index) so each cell stays clickable;
+   the strip lets clicks through (pointer-events), so the gaps between cells
+   open the row like the rest of the card does. */
+.ladder {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+  flex: 1;
+  min-width: 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* The button is the full-height hit area; the visible 12px cell is ::before,
+   and the current rung's progress fill is ::after. */
+.cell {
+  pointer-events: auto;
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.cell::before,
+.cell::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 12px;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+}
+
+/* Future rungs: an outline in --text-dim at full strength. It clears the 3:1
+   minimum for a control's outline (4.14:1 dark, 4.62:1 light); fading it
+   with opacity would not. */
+.cell::before {
+  right: 0;
+  border: 1px solid var(--text-dim);
+  transition: outline-color var(--transition-fast);
+}
+
+.cell[data-state='complete']::before {
+  background: var(--ms-gold);
+  border-color: var(--ms-gold);
+}
+
+.cell[data-state='next']::before {
+  border: 1.5px solid var(--ms-next);
+}
+
+/* --frac is set inline on the current rung only: how far between the previous
+   threshold and this one. */
+.cell[data-state='next']::after {
+  width: var(--frac, 0%);
+  background: var(--ms-next);
+}
+
+.cell:hover::before {
+  outline: 1px solid var(--text-secondary);
+  outline-offset: 2px;
+}
+
+.cell:focus-visible {
+  outline: none;
+}
+
+.cell:focus-visible::before {
+  outline: 2px solid var(--accent-bright);
+  outline-offset: 2px;
+}
+
+.flightFoot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.04em;
+}
+
+.flightCurrent {
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.flightToGo {
+  flex: none;
+  color: var(--ms-tint);
+}
+
+/* ---- Shared meter -------------------------------------------------------
+   Segmented: the track draws the empty ticks, the fill is masked to the same
+   rhythm so the two always line up. Also used by the popup. */
+
 .progressTrack {
   flex: 1;
   min-width: 0;
-  height: 8px;
-  background: rgba(95, 143, 143, 0.12);
-  border-radius: 2px;
+  height: 7px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--ms-track) 0 6px,
+    transparent 6px 8px
+  );
   overflow: hidden;
 }
 
 .progressFill {
   height: 100%;
-  background: linear-gradient(
+  background: linear-gradient(90deg, var(--ms-fill-a), var(--ms-fill-b));
+  -webkit-mask-image: repeating-linear-gradient(
     90deg,
-    var(--accent-dim),
-    var(--accent-bright)
+    #000 0 6px,
+    transparent 6px 8px
   );
-  border-radius: inherit;
+  mask-image: repeating-linear-gradient(
+    90deg,
+    #000 0 6px,
+    transparent 6px 8px
+  );
   transition: width 0.35s ease-out;
 }
 
-.milestoneComplete .progressFill {
-  background: linear-gradient(
-    90deg,
-    rgba(232, 193, 90, 0.65),
-    rgba(232, 193, 90, 0.95)
-  );
-}
-
 .pctLabel {
-  flex-shrink: 0;
+  flex: none;
   font-family: var(--font-mono);
-  font-size: 0.55rem;
+  font-size: 0.58rem;
   letter-spacing: 0.06em;
-  color: var(--text-dim);
-  min-width: 2rem;
+  color: var(--ms-tint);
+  min-width: 2.2rem;
   text-align: right;
 }
 
-.milestoneComplete .pctLabel {
-  color: rgba(232, 193, 90, 0.85);
-}
-
-.milestoneNext .pctLabel {
-  color: var(--accent);
-}
-
-@media (min-width: 560px) {
-  .milestoneList {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  }
-}
+/* ---- Responsive --------------------------------------------------------- */
 
 @media (max-width: 480px) {
-  .milestoneTitle {
-    font-size: 0.8rem;
+  .flightTitle {
+    font-size: 0.84rem;
   }
 
-  .milestone {
-    padding: 0.65rem 0.75rem;
+  .flight {
+    padding: 0.6rem 0.75rem 0.65rem;
+    gap: 0.6rem;
+  }
+
+  .flightFoot {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  /* Tighter gaps keep the 13- and 14-rung ladders' cells a usable width. */
+  .ladder {
+    gap: 2px;
   }
 }

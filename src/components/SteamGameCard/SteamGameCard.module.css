@@ -1,0 +1,115 @@
+.card {
+  position: relative;
+  display: block;
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  background: var(--bg-hover);
+  border: 1px solid rgba(95, 143, 143, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    border-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.coverRoot {
+  position: absolute;
+  inset: 0;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ---- Stats burned into the bottom of the poster ---- */
+
+.meta {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem;
+  padding: 1.75rem 0.5rem 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  /* Scrim so the numbers stay readable over any cover art. */
+  background: linear-gradient(
+    to top,
+    rgba(10, 15, 18, 0.92) 0%,
+    rgba(10, 15, 18, 0.75) 45%,
+    rgba(10, 15, 18, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.hours {
+  color: #cfe3e3;
+}
+
+.unit {
+  color: #8fb0b0;
+  font-size: 0.62rem;
+  margin-left: 0.08em;
+}
+
+.pct {
+  color: var(--scrim-accent);
+}
+
+.pctPerfect {
+  color: #e8c15a;
+}
+
+/* ---- Achievement progress along the bottom edge ---- */
+
+.track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: rgba(10, 15, 18, 0.7);
+  pointer-events: none;
+}
+
+.fill {
+  height: 100%;
+  background: var(--scrim-accent);
+}
+
+.fillPerfect {
+  background: #e8c15a;
+}
+
+@media (max-width: 768px) {
+  .meta {
+    padding: 1.4rem 0.4rem 0.35rem;
+    font-size: 0.64rem;
+  }
+
+  .unit {
+    font-size: 0.56rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .meta {
+    padding: 1.2rem 0.35rem 0.3rem;
+    font-size: 0.58rem;
+    gap: 0.25rem;
+  }
+}

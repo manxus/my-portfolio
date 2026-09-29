@@ -94,7 +94,6 @@
   color: var(--text-dim);
   margin: 0;
   letter-spacing: 0.04em;
-  opacity: 0.85;
   line-height: 1.4;
 }
 
@@ -175,7 +174,7 @@
   font-family: var(--font-heading);
   font-size: 0.72rem;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--scrim-text);
   line-height: 1.15;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -189,7 +188,22 @@
   font-family: var(--font-mono);
   font-size: 0.55rem;
   letter-spacing: 0.04em;
-  color: var(--accent-bright);
+  color: var(--scrim-accent);
+}
+
+/* Completion bar along the banner's bottom edge (Almost There strip). */
+.coverProgress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: rgba(10, 15, 18, 0.7);
+}
+
+.coverProgressFill {
+  height: 100%;
+  background: var(--scrim-accent);
 }
 
 /* ---- Browse tab ---- */

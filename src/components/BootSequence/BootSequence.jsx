@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useSound } from '../../hooks/useSound';
 import { trackBootSkip } from '../../hooks/useVisitorTracking';
+import { useReducedMotion } from '../../hooks/useReducedMotion';
 import styles from './BootSequence.module.css';
 
 const BOOT_LINES = [
@@ -25,30 +25,35 @@ const BOOT_LINES = [
   { text: 'BUILD VERIFIED — SYSTEM READY.', delay: 600, speed: 40, highlight: true },
 ];
 
+const ALL_LINES = BOOT_LINES.map((l) => ({
+  text: l.text,
+  highlight: l.highlight || false,
+}));
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 export default function BootSequence({ onComplete }) {
-  const [displayedLines, setDisplayedLines] = useState([]);
+  // Reduced motion shows the whole log at once rather than typing it out.
+  const reduceMotion = useReducedMotion();
+  const [displayedLines, setDisplayedLines] = useState(() => (reduceMotion ? ALL_LINES : []));
   const [typingText, setTypingText] = useState('');
-  const [showPrompt, setShowPrompt] = useState(false);
-  const [isTyping, setIsTyping] = useState(true);
-  const abortRef = useRef(false);
-  const unmountedRef = useRef(false);
+  const [showPrompt, setShowPrompt] = useState(reduceMotion);
+  const [isTyping, setIsTyping] = useState(!reduceMotion);
+  const abortRef = useRef(reduceMotion);
 
   useEffect(() => {
-    return () => {
-      unmountedRef.current = true;
-    };
-  }, []);
+    // Local to this run: StrictMode mounts twice in dev, and a shared ref set by
+    // the first cleanup would also stop the second, real run.
+    let cancelled = false;
+    const stopped = () => cancelled || abortRef.current;
 
-  useEffect(() => {
     async function runSequence() {
       for (const line of BOOT_LINES) {
-        if (abortRef.current || unmountedRef.current) return;
+        if (stopped()) return;
         await sleep(line.delay || 0);
-        if (abortRef.current || unmountedRef.current) return;
+        if (stopped()) return;
 
         if (!line.text) {
           setDisplayedLines((prev) => [...prev, { text: '', highlight: false }]);
@@ -56,11 +61,11 @@ export default function BootSequence({ onComplete }) {
         }
 
         for (let i = 1; i <= line.text.length; i++) {
-          if (abortRef.current || unmountedRef.current) return;
+          if (stopped()) return;
           setTypingText(line.text.slice(0, i));
           await sleep(line.speed || 20);
         }
-        if (abortRef.current || unmountedRef.current) return;
+        if (stopped()) return;
 
         setDisplayedLines((prev) => [
           ...prev,
@@ -69,26 +74,24 @@ export default function BootSequence({ onComplete }) {
         setTypingText('');
       }
 
-      if (!unmountedRef.current) {
+      if (!cancelled) {
         setIsTyping(false);
         await sleep(600);
-        if (!unmountedRef.current) setShowPrompt(true);
+        if (!cancelled) setShowPrompt(true);
       }
     }
 
     runSequence();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const skipToEnd = useCallback(() => {
     trackBootSkip();
     abortRef.current = true;
     setTypingText('');
-    setDisplayedLines(
-      BOOT_LINES.map((l) => ({
-        text: l.text,
-        highlight: l.highlight || false,
-      })),
-    );
+    setDisplayedLines(ALL_LINES);
     setIsTyping(false);
     setShowPrompt(true);
   }, []);
@@ -103,7 +106,9 @@ export default function BootSequence({ onComplete }) {
 
   useEffect(() => {
     const onKey = (e) => {
-      e.preventDefault();
+      // Leave browser shortcuts (reload, tab switching, devtools) alone.
+      if (e.ctrlKey || e.metaKey || e.altKey || e.key === 'Tab' || /^F\d+$/.test(e.key)) return;
+      if (e.key === ' ' || e.key === 'Enter') e.preventDefault();
       handleInteraction();
     };
     const onClick = () => handleInteraction();

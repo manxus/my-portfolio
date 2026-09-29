@@ -108,14 +108,18 @@ function addSessionRoute(path) {
   }
 }
 
+const SPEEDRUN_WINDOW_MS = 120_000;
+
 function recordRouteTimestamp(path) {
   if (!path || path === '/') return;
   try {
     const raw = sessionStorage.getItem(SESSION_ROUTE_TIMES_KEY);
     const entries = raw ? JSON.parse(raw) : [];
+    // Only the speedrun window is ever read back, so drop anything older.
+    const cutoff = Date.now() - SPEEDRUN_WINDOW_MS;
     sessionStorage.setItem(
       SESSION_ROUTE_TIMES_KEY,
-      JSON.stringify([...entries, { path, t: Date.now() }]),
+      JSON.stringify([...entries.filter((e) => e.t >= cutoff), { path, t: Date.now() }]),
     );
   } catch {
     /* ignore */
@@ -126,7 +130,7 @@ function isSpeedrunComplete() {
   try {
     const raw = sessionStorage.getItem(SESSION_ROUTE_TIMES_KEY);
     const entries = raw ? JSON.parse(raw) : [];
-    const cutoff = Date.now() - 120_000;
+    const cutoff = Date.now() - SPEEDRUN_WINDOW_MS;
     const recent = entries.filter((e) => e.t >= cutoff);
     const unique = new Set(recent.map((e) => e.path));
     return unique.size >= 5;

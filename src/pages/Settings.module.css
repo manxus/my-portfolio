@@ -22,7 +22,6 @@
   letter-spacing: 0.1em;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--accent-dim);
-  opacity: 0.8;
 }
 
 .setting {
@@ -86,7 +85,7 @@
 }
 
 .segmentDisabled {
-  opacity: 0.3;
+  opacity: 0.45;
   cursor: not-allowed;
   pointer-events: none;
 }
@@ -160,7 +159,7 @@
   font-family: var(--font-mono);
   font-size: 0.55rem;
   letter-spacing: 0.08em;
-  color: var(--text-dim);
+  color: var(--text-secondary);
   pointer-events: none;
 }
 
@@ -174,7 +173,7 @@
 }
 
 .toggleDisabled {
-  opacity: 0.3;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
@@ -211,7 +210,7 @@
 }
 
 .slider:disabled {
-  opacity: 0.3;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
@@ -224,26 +223,6 @@
 }
 
 /* ---- Reset ---- */
-
-.medalsLink {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  color: var(--text-secondary);
-  padding: 0.5rem 1.2rem;
-  border: 1px solid var(--accent-dim);
-  width: 100%;
-  outline: none;
-  transition:
-    color var(--transition-fast),
-    background var(--transition-fast),
-    border-color var(--transition-fast);
-}
-
-.medalsLink:hover {
-  color: var(--accent-bright);
-  border-color: var(--accent-bright);
-}
 
 .resetButton {
   font-family: var(--font-mono);
@@ -262,6 +241,24 @@
   background: var(--danger-dim);
   color: var(--text-primary);
   border-color: var(--danger);
+}
+
+.resetConfirming,
+.resetConfirming:hover {
+  background: var(--danger);
+  color: var(--text-primary);
+  border-color: var(--danger);
+}
+
+/* ---- Keyboard focus ---- */
+
+.segmentBtn:focus-visible,
+.colorSwatch:focus-visible,
+.toggle:focus-visible,
+.slider:focus-visible,
+.resetButton:focus-visible {
+  outline: 1px solid var(--accent-bright);
+  outline-offset: 2px;
 }
 
 @media (max-width: 768px) {

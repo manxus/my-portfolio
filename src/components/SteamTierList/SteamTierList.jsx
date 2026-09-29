@@ -4,6 +4,7 @@ import defaultTierlistFile from '../../data/steam-tierlist.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import { useAdminStore } from '../../stores/adminStore';
+import { useScrollOverflow } from '../../hooks/useScrollOverflow';
 import styles from './SteamTierList.module.css';
 
 const defaultTierLists = defaultTierlistFile.tierLists;
@@ -67,6 +68,83 @@ function moveAppIdToTier(tiers, fromTier, fromIndex, toTier, targetBeforeId) {
   }
   toArr.splice(insertAt, 0, movedId);
   return next;
+}
+
+/**
+ * One tier's games on a single line. Every tier keeps the same height however
+ * many games it holds; overflow scrolls sideways, with fades that double as
+ * arrow buttons for mouse users, the same pattern as the Steam tab strip.
+ */
+function TierStrip({
+  tier,
+  entries,
+  contentKey,
+  dndReady,
+  dragOver,
+  onDragOver,
+  onDrop,
+  onDragStart,
+  onDragEnd,
+}) {
+  const { ref, overflow, onScroll, scrollByPage } = useScrollOverflow(contentKey);
+
+  const edge = (dir, visible, label, glyph) => (
+    <button
+      type="button"
+      className={`${styles.edge} ${dir < 0 ? styles.edgeLeft : styles.edgeRight}`}
+      data-visible={visible ? 'true' : undefined}
+      onClick={() => scrollByPage(dir)}
+      // Thumbnails aren't focusable, so these are the only keyboard route to
+      // the hidden games; hidden arrows drop out of the tab order.
+      tabIndex={visible ? 0 : -1}
+      aria-hidden={visible ? undefined : true}
+      aria-label={label}
+    >
+      {glyph}
+    </button>
+  );
+
+  return (
+    <div className={`${styles.tierGamesWrap} ${dragOver ? styles.tierGamesDragOver : ''}`}>
+      <div
+        ref={ref}
+        className={styles.tierGames}
+        data-tier-key={tier}
+        onScroll={onScroll}
+        onDragOver={onDragOver}
+        onDrop={onDrop}
+      >
+        {entries.length === 0 && <span className={styles.tierEmpty}>---</span>}
+        {entries.map(({ id, idx, game }) => (
+          <div
+            key={id}
+            className={styles.gameThumb}
+            title={dndReady ? `${game.name} — drag to reorder or move tiers` : game.name}
+            draggable={dndReady}
+            data-tier-appid={id}
+            onDragStart={(e) => onDragStart(e, idx)}
+            onDragEnd={onDragEnd}
+          >
+            <SteamGameCover
+              fill
+              variant="cover"
+              appId={game.appId}
+              title={game.name}
+              headerUrl={game.headerUrl}
+              libraryCapsuleUrl={game.libraryCapsuleUrl}
+              libraryHeaderUrl={game.libraryHeaderUrl}
+              iconUrl={game.iconUrl}
+              alt={game.name}
+              rootClassName={styles.coverRoot}
+              imageClassName={styles.gameImg}
+            />
+          </div>
+        ))}
+      </div>
+      {edge(-1, overflow.left, 'Scroll tier left', '‹')}
+      {edge(1, overflow.right, 'Scroll tier right', '›')}
+    </div>
+  );
 }
 
 export default function SteamTierList({ games }) {
@@ -253,10 +331,18 @@ export default function SteamTierList({ games }) {
           >
             {TIER_ORDER.map((tier) => {
               const appIds = activeTierList.tiers[tier] || [];
+              // Keep each game's index in appIds: drag-and-drop moves by that
+              // index, and ids missing from the library would shift it.
+              const entries = appIds
+                .map((id, idx) => ({ id, idx, game: gameMap[id] }))
+                .filter((e) => e.game);
+              const isUnranked = tier === 'unplayed';
+              if (isUnranked && entries.length === 0 && !dndReady) return null;
               return (
                 <motion.div
                   key={tier}
                   className={styles.tierRow}
+                  data-tier={tier}
                   variants={fadeUp}
                   aria-label={tierHintTitle(tier)}
                 >
@@ -264,50 +350,25 @@ export default function SteamTierList({ games }) {
                     className={styles.tierLabel}
                     data-tier={tier}
                   >
-                    {tierLabelText(tier)}
+                    <span>{tierLabelText(tier)}</span>
+                    {entries.length > 0 && (
+                      <span className={styles.tierCount}>{entries.length}</span>
+                    )}
                   </div>
                   <div className={styles.tierDesc} data-tier={tier}>
                     {TIER_HINTS[tier]}
                   </div>
-                  <div
-                    className={`${styles.tierGames} ${dragOverTier === tier ? styles.tierGamesDragOver : ''}`}
-                    data-tier-key={tier}
+                  <TierStrip
+                    tier={tier}
+                    entries={entries}
+                    contentKey={`${activeCategory}:${appIds.join(',')}`}
+                    dndReady={dndReady}
+                    dragOver={dragOverTier === tier}
                     onDragOver={(e) => handleDragOverTier(e, tier)}
                     onDrop={(e) => handleDropOnTier(e, tier)}
-                  >
-                    {appIds.length === 0 && (
-                      <span className={styles.tierEmpty}>---</span>
-                    )}
-                    {appIds.map((id, idx) => {
-                      const game = gameMap[id];
-                      if (!game) return null;
-                      return (
-                        <div
-                          key={id}
-                          className={styles.gameThumb}
-                          title={dndReady ? `${game.name} — drag to reorder or move tiers` : game.name}
-                          draggable={dndReady}
-                          data-tier-appid={id}
-                          onDragStart={(e) => handleDragStart(e, tier, idx)}
-                          onDragEnd={handleDragEnd}
-                        >
-                          <SteamGameCover
-                            fill
-                            variant="cover"
-                            appId={game.appId}
-                            title={game.name}
-                            headerUrl={game.headerUrl}
-                            libraryCapsuleUrl={game.libraryCapsuleUrl}
-                            libraryHeaderUrl={game.libraryHeaderUrl}
-                            iconUrl={game.iconUrl}
-                            alt={game.name}
-                            rootClassName={styles.coverRoot}
-                            imageClassName={styles.gameImg}
-                          />
-                        </div>
-                      );
-                    })}
-                  </div>
+                    onDragStart={(e, idx) => handleDragStart(e, tier, idx)}
+                    onDragEnd={handleDragEnd}
+                  />
                 </motion.div>
               );
             })}

@@ -1,0 +1,144 @@
+/* Shell mirrors ReviewModal so both popups on this page read as the same
+   furniture. */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  width: 100%;
+  /* Wider than the review popup: the cards below are a 240px grid, so this
+     fits three across on a desktop and still centres on a laptop. */
+  max-width: 820px;
+  max-height: 100%;
+  padding: 1.5rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--accent-dim);
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  min-width: 32px;
+  min-height: 32px;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.closeButton:hover {
+  color: var(--accent-bright);
+  border-color: var(--accent-dim);
+}
+
+.header {
+  /* Room for the close button. */
+  padding-right: 2.5rem;
+  border-left: 2px solid var(--accent-bright);
+  padding-left: 0.6rem;
+}
+
+.date {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.sub {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  margin: 0.2rem 0 0;
+}
+
+.perfect {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.03em;
+  color: var(--gold);
+  margin: 0;
+  padding: 0.4rem 0.55rem;
+  background: rgba(229, 185, 78, 0.08);
+  border: 1px solid rgba(229, 185, 78, 0.3);
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.perfectStar {
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+/* A busy day runs to 40+ cards, so the card list scrolls and the date, the
+   perfected line and the ESC hint stay put. */
+.body {
+  overflow-y: auto;
+  min-height: 0;
+  /* Clear of the scrollbar the list can raise. */
+  padding-right: 0.25rem;
+}
+
+.achGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.65rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.escHint {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+@media (max-width: 640px) {
+  .overlay {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .modal {
+    padding: 1.1rem 0.9rem;
+  }
+
+  /* One column below the 240px track width, rather than a card that overflows. */
+  .achGrid {
+    grid-template-columns: 1fr;
+  }
+
+  /* The hint names a key a phone doesn't have; the close button is the way out. */
+  .footer {
+    display: none;
+  }
+}

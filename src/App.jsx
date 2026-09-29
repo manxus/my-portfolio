@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, lazy, Suspense } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, MotionConfig } from 'framer-motion';
 import { useSettingsStore } from './stores/settingsStore';
@@ -8,31 +8,36 @@ import MainMenu from './components/MainMenu/MainMenu';
 import PageShell from './components/PageShell/PageShell';
 import CrtOverlay from './components/CrtOverlay/CrtOverlay';
 import VisionFilters from './components/VisionFilters/VisionFilters';
-import QAPortfolio from './pages/QAPortfolio';
-import SteamLibrary from './pages/SteamLibrary';
-import Resume from './pages/Resume';
-import SideProjects from './pages/SideProjects';
-import Tech from './pages/Tech';
-import Media from './pages/Media';
-import Livestream from './pages/Livestream';
-import Music from './pages/Music';
-import Books from './pages/Books';
-import Tabletop from './pages/Tabletop';
-import Cinema from './pages/Cinema';
-import TravelLog from './pages/TravelLog';
-import Games from './pages/Games';
-import Settings from './pages/Settings';
-import Credits from './pages/Credits';
-import PatchNotes from './pages/PatchNotes';
 import CardContactShell from './pages/CardContactShell';
 import LoginModal from './admin/LoginModal';
 import AdminToolbar from './admin/AdminToolbar';
 import { useMediaQuery } from './hooks/useMediaQuery';
 import { useSettingsApplier } from './hooks/useSettingsApplier';
+import { useReducedMotion } from './hooks/useReducedMotion';
 import { useVisitorTracking, trackBootComplete } from './hooks/useVisitorTracking';
 import UnlockToast from './components/VisitorMedals/UnlockToast';
 import VisitorMedalsDrawer from './components/VisitorMedals/VisitorMedalsDrawer';
 import { useVisitorStore } from './stores/visitorStore';
+import { sessionGet, sessionSet } from './utils/session';
+
+// Pages load on demand: the Steam page alone carries a multi-megabyte data
+// snapshot that has no business in the chunk every visitor downloads at boot.
+const QAPortfolio = lazy(() => import('./pages/QAPortfolio'));
+const SteamLibrary = lazy(() => import('./pages/SteamLibrary'));
+const Resume = lazy(() => import('./pages/Resume'));
+const SideProjects = lazy(() => import('./pages/SideProjects'));
+const Tech = lazy(() => import('./pages/Tech'));
+const Media = lazy(() => import('./pages/Media'));
+const Livestream = lazy(() => import('./pages/Livestream'));
+const Music = lazy(() => import('./pages/Music'));
+const Books = lazy(() => import('./pages/Books'));
+const Tabletop = lazy(() => import('./pages/Tabletop'));
+const Cinema = lazy(() => import('./pages/Cinema'));
+const TravelLog = lazy(() => import('./pages/TravelLog'));
+const Games = lazy(() => import('./pages/Games'));
+const Settings = lazy(() => import('./pages/Settings'));
+const Credits = lazy(() => import('./pages/Credits'));
+const PatchNotes = lazy(() => import('./pages/PatchNotes'));
 
 const pageRoutes = [
   { path: '/qa-portfolio', title: 'QA Portfolio', subtitle: 'STORY // CHAPTER 01', Component: QAPortfolio },
@@ -60,13 +65,13 @@ export default function App() {
   const drawerOpen = useVisitorStore((s) => s.drawerOpen);
   const setDrawerOpen = useVisitorStore((s) => s.setDrawerOpen);
   const isDesktop = useMediaQuery('(min-width: 1200px)');
-  const reduceMotion = useSettingsStore((s) => s.reduceMotion);
+  const reduceMotion = useReducedMotion();
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
   const verifyToken = useAdminStore((s) => s.verifyToken);
   const [showLogin, setShowLogin] = useState(false);
 
   useEffect(() => {
-    if (sessionStorage.getItem('bv_boot') === 'done') {
+    if (useSettingsStore.getState().skipIntro || sessionGet('bv_boot') === 'done') {
       trackBootComplete();
     }
   }, []);
@@ -76,19 +81,23 @@ export default function App() {
     setShowLogin(true);
   }, [isAuthenticated]);
 
+  // Once per load: re-check a token restored from the last session. Logging in
+  // later mints a fresh one, which needs no check.
   useEffect(() => {
     if (import.meta.env.DEV && isAuthenticated) {
       verifyToken();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [bootComplete, setBootComplete] = useState(() => {
     if (location.pathname !== '/') return true;
-    return sessionStorage.getItem('bv_boot') === 'done';
+    if (useSettingsStore.getState().skipIntro) return true;
+    return sessionGet('bv_boot') === 'done';
   });
 
   const handleBootComplete = () => {
-    sessionStorage.setItem('bv_boot', 'done');
+    sessionSet('bv_boot', 'done');
     trackBootComplete();
     setBootComplete(true);
   };
@@ -105,7 +114,9 @@ export default function App() {
             path={path}
             element={
               <PageShell title={title} subtitle={subtitle} inline>
-                <Component />
+                <Suspense fallback={null}>
+                  <Component />
+                </Suspense>
               </PageShell>
             }
           />
@@ -150,7 +161,9 @@ export default function App() {
                 path={path}
                 element={
                   <PageShell title={title} subtitle={subtitle}>
-                    <Component />
+                    <Suspense fallback={null}>
+                      <Component />
+                    </Suspense>
                   </PageShell>
                 }
               />

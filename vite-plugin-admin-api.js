@@ -1,4 +1,4 @@
-import { createHmac } from 'node:crypto';
+import { createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 import { createRequire } from 'node:module';
 import { spawn } from 'node:child_process';
 import { existsSync } from 'node:fs';
@@ -7,7 +7,9 @@ import { basename, extname, resolve } from 'node:path';
 
 const require = createRequire(import.meta.url);
 
-const TOKEN_SECRET = 'bv-admin-' + Date.now();
+// Random per server start: a clock-derived secret could be guessed from the
+// server's start time, and anyone holding it can mint tokens.
+const TOKEN_SECRET = randomBytes(32);
 const TOKEN_TTL = 1000 * 60 * 60 * 8; // 8 hours
 
 function makeToken(username) {
@@ -18,23 +20,42 @@ function makeToken(username) {
   return `${ts}:${sig}`;
 }
 
+/** Constant-time string compare, so response timing can't leak a prefix. */
+function safeEqual(a, b) {
+  const x = Buffer.from(String(a));
+  const y = Buffer.from(String(b));
+  return x.length === y.length && timingSafeEqual(x, y);
+}
+
 function verifyToken(token) {
-  if (!token) return false;
+  const adminUser = process.env.ADMIN_USER;
+  if (!token || !adminUser) return false;
   const [tsStr, sig] = token.split(':');
   const ts = Number(tsStr);
-  if (Date.now() - ts > TOKEN_TTL) return false;
+  if (!Number.isFinite(ts) || Date.now() - ts > TOKEN_TTL) return false;
 
-  const adminUser = process.env.ADMIN_USER || 'admin';
   const expected = createHmac('sha256', TOKEN_SECRET)
     .update(`${adminUser}:${ts}`)
     .digest('hex');
-  return sig === expected;
+  return safeEqual(sig, expected);
 }
+
+// Uploads arrive base64-encoded in JSON, so this leaves room for a ~15 MB file.
+const MAX_BODY_BYTES = 20 * 1024 * 1024;
 
 function readBody(req) {
   return new Promise((resolve, reject) => {
     const chunks = [];
-    req.on('data', (c) => chunks.push(c));
+    let size = 0;
+    req.on('data', (c) => {
+      size += c.length;
+      if (size > MAX_BODY_BYTES) {
+        reject(new Error('Request body too large'));
+        req.destroy();
+        return;
+      }
+      chunks.push(c);
+    });
     req.on('end', () => resolve(Buffer.concat(chunks).toString()));
     req.on('error', reject);
   });
@@ -48,7 +69,7 @@ function json(res, status, data) {
 const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides', 'steam-collections',
-  'media', 'livestream', 'music', 'books', 'tabletop', 'travel', 'credits', 'patchNotes', 'steam-hallofpain',
+  'media', 'livestream', 'music', 'books', 'tabletop', 'travel', 'credits', 'steam-hallofpain',
   'cinema', 'runescape',
   // Admin-only, and deliberately never imported by a page: keeping the
   // "not interested" list out of the bundle keeps it out of public view.
@@ -191,9 +212,9 @@ async function handleTwitchOembed(req, res) {
 
 async function handleGeocode(req, res) {
   try {
-    const geocodePath = resolve(process.cwd(), 'api/geocode.cjs');
+    const geocodePath = resolve(process.cwd(), 'dev-api/geocode.cjs');
     delete require.cache[geocodePath];
-    const handler = require('./api/geocode.cjs');
+    const handler = require('./dev-api/geocode.cjs');
     await handler(req, res);
   } catch (err) {
     console.error('[geocode dev]', err);
@@ -203,9 +224,9 @@ async function handleGeocode(req, res) {
 
 async function handleTmdb(req, res) {
   try {
-    const tmdbPath = resolve(process.cwd(), 'api/tmdb.cjs');
+    const tmdbPath = resolve(process.cwd(), 'dev-api/tmdb.cjs');
     delete require.cache[tmdbPath];
-    const handler = require('./api/tmdb.cjs');
+    const handler = require('./dev-api/tmdb.cjs');
     await handler(req, res);
   } catch (err) {
     console.error('[tmdb dev]', err);
@@ -235,22 +256,32 @@ export default function adminApiPlugin() {
       server.middlewares.use(async (req, res, next) => {
         if (!req.url.startsWith('/api/admin')) return next();
 
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-        res.setHeader('Access-Control-Allow-Methods', 'GET, PUT, POST, OPTIONS');
-
-        if (req.method === 'OPTIONS') {
-          res.writeHead(204);
-          return res.end();
+        // Same-origin only. No CORS headers, and a request another site's page
+        // sends to localhost (which still arrives, just unreadable) is refused
+        // before it can touch a file or a sync script.
+        const origin = req.headers.origin;
+        if (origin) {
+          let sameOrigin = false;
+          try {
+            sameOrigin = new URL(origin).host === req.headers.host;
+          } catch {
+            /* malformed Origin */
+          }
+          if (!sameOrigin) return json(res, 403, { error: 'Cross-origin request refused' });
         }
 
         try {
           if (req.url === '/api/admin/login' && req.method === 'POST') {
             const body = JSON.parse(await readBody(req));
-            const adminUser = process.env.ADMIN_USER || 'admin';
-            const adminPass = process.env.ADMIN_PASS || 'admin';
+            const adminUser = process.env.ADMIN_USER;
+            const adminPass = process.env.ADMIN_PASS;
+            if (!adminUser || !adminPass) {
+              return json(res, 503, {
+                error: 'Admin login is disabled: set ADMIN_USER and ADMIN_PASS in .env and restart.',
+              });
+            }
 
-            if (body.username === adminUser && body.password === adminPass) {
+            if (safeEqual(body.username, adminUser) && safeEqual(body.password, adminPass)) {
               return json(res, 200, { token: makeToken(body.username) });
             }
             return json(res, 401, { error: 'Invalid credentials' });

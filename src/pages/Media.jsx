@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import mediaData from '../data/media.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
@@ -7,6 +7,7 @@ import {
   youtubeEmbedUrl,
   youtubeThumbnailUrl,
 } from '../utils/youtube';
+import { useModalDialog } from '../hooks/useModalDialog';
 import styles from './Media.module.css';
 
 function galleryThumbnailSrc(item) {
@@ -33,6 +34,14 @@ const fadeUp = {
 export default function Media() {
   const [filter, setFilter] = useState('All');
   const [lightbox, setLightbox] = useState(null);
+  const lightboxRef = useRef(null);
+  const lightboxCloseRef = useRef(null);
+  useModalDialog({
+    open: Boolean(lightbox),
+    onClose: () => setLightbox(null),
+    panelRef: lightboxRef,
+    initialFocusRef: lightboxCloseRef,
+  });
 
   const filtered =
     filter === 'All'
@@ -127,7 +136,11 @@ export default function Media() {
             onClick={() => setLightbox(null)}
           >
             <motion.div
+              ref={lightboxRef}
               className={styles.lightboxContent}
+              role="dialog"
+              aria-modal="true"
+              aria-label={lightbox.title}
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}
@@ -168,8 +181,10 @@ export default function Media() {
                 <p>{lightbox.description}</p>
               </div>
               <button
+                ref={lightboxCloseRef}
                 className={styles.lightboxClose}
                 onClick={() => setLightbox(null)}
+                aria-label="Close"
               >
                 &times;
               </button>

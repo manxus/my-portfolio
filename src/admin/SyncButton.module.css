@@ -42,7 +42,7 @@
 .warning {
   font-size: 0.65rem;
   letter-spacing: 0.04em;
-  color: #d0a24c;
+  color: var(--gold);
   max-width: 46ch;
   overflow: hidden;
   text-overflow: ellipsis;

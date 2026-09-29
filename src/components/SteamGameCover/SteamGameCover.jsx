@@ -30,31 +30,20 @@ export default function SteamGameCover({
   const id = Number(appId);
   const resolvedHeader = headerUrl || defaultHeaderUrl(id);
 
-  const [resolvedAssets, setResolvedAssets] = useState({
-    libraryCapsuleUrl: libraryCapsuleUrl || null,
-    libraryHeaderUrl: libraryHeaderUrl || null,
-  });
+  // Looked-up art is stored with the appId it belongs to, so a different game
+  // never shows the previous one's art while its own lookup is in flight.
+  const [fetched, setFetched] = useState({ id: null, assets: null });
+  const fetchedAssets = fetched.id === id ? fetched.assets : null;
+  const resolvedAssets = {
+    libraryCapsuleUrl: libraryCapsuleUrl || fetchedAssets?.libraryCapsuleUrl || null,
+    libraryHeaderUrl: libraryHeaderUrl || fetchedAssets?.libraryHeaderUrl || null,
+  };
 
   useEffect(() => {
+    if (libraryCapsuleUrl && libraryHeaderUrl) return undefined;
     let cancelled = false;
-    const fromProps = {
-      libraryCapsuleUrl: libraryCapsuleUrl || null,
-      libraryHeaderUrl: libraryHeaderUrl || null,
-    };
-    setResolvedAssets(fromProps);
-
-    if (fromProps.libraryCapsuleUrl && fromProps.libraryHeaderUrl) {
-      return undefined;
-    }
-
     fetchSteamLibraryAssets(id).then((assets) => {
-      if (cancelled) return;
-      setResolvedAssets({
-        libraryCapsuleUrl:
-          fromProps.libraryCapsuleUrl || assets.libraryCapsuleUrl,
-        libraryHeaderUrl:
-          fromProps.libraryHeaderUrl || assets.libraryHeaderUrl,
-      });
+      if (!cancelled) setFetched({ id, assets });
     });
     return () => {
       cancelled = true;
@@ -98,17 +87,14 @@ export default function SteamGameCover({
     useIconFallback,
   ]);
 
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    setIndex(0);
-  }, [sources]);
-
+  // Failed-image count for this exact source list; a new list starts at 0.
+  const [failures, setFailures] = useState({ sources: null, count: 0 });
+  const index = failures.sources === sources ? failures.count : 0;
   const src = sources[index];
   const showImage = index < sources.length;
 
   const advance = () => {
-    setIndex((i) => i + 1);
+    setFailures((f) => ({ sources, count: (f.sources === sources ? f.count : 0) + 1 }));
   };
 
   return (

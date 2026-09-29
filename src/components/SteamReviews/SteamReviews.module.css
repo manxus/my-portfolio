@@ -102,18 +102,18 @@
   letter-spacing: 0.08em;
   padding: 0.2rem 0.4rem;
   border: 1px solid currentColor;
-  background: var(--bg-gradient-shadow);
+  background: rgba(10, 15, 18, 0.88);
   backdrop-filter: blur(2px);
 }
 
 /* Teal / red is the site's positive-negative pair — there is no green token,
    and both survive the light-theme switch. */
 .recommended {
-  color: var(--accent-bright);
+  color: var(--scrim-accent);
 }
 
 .notRecommended {
-  color: var(--danger);
+  color: var(--scrim-danger);
 }
 
 .info {
@@ -199,7 +199,7 @@
 }
 
 .pageBtn:disabled {
-  opacity: 0.3;
+  opacity: 0.45;
   cursor: default;
 }
 
@@ -212,7 +212,6 @@
 
 .pageCount {
   color: var(--text-dim);
-  opacity: 0.6;
 }
 
 @media (max-width: 768px) {

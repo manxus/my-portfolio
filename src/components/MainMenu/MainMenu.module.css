@@ -134,7 +134,6 @@
   letter-spacing: 0.06em;
   text-align: left;
   position: relative;
-  outline: none;
   transition:
     color var(--transition-fast),
     background var(--transition-fast);
@@ -197,7 +196,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: left;
-  outline: none;
   transition: color var(--transition-fast);
 }
 
@@ -243,7 +241,6 @@
   color: var(--text-dim);
   letter-spacing: 0.08em;
   margin-top: 0.6rem;
-  opacity: 0.6;
 }
 
 /* ---- Right content panel ---- */

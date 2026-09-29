@@ -54,37 +54,61 @@
   gap: 0.5rem;
 }
 
+/* Each tier gets its own hue so the ladder reads at a glance; --tier drives
+   the letter, the hint and the row's left edge. */
+.tierRow[data-tier='S'] { --tier: #d9b44a; }
+.tierRow[data-tier='A'] { --tier: #6fbf73; }
+.tierRow[data-tier='B'] { --tier: var(--accent); }
+.tierRow[data-tier='C'] { --tier: #5b8fd1; }
+.tierRow[data-tier='D'] { --tier: #9a73c9; }
+.tierRow[data-tier='F'] { --tier: var(--danger); }
+.tierRow[data-tier='unplayed'] { --tier: var(--text-dim); }
+
+/* The dark-theme hues wash out on the light background. */
+:global([data-theme='light']) .tierRow[data-tier='S'] { --tier: #74580e; }
+:global([data-theme='light']) .tierRow[data-tier='A'] { --tier: #27692c; }
+:global([data-theme='light']) .tierRow[data-tier='C'] { --tier: #2c5d9b; }
+:global([data-theme='light']) .tierRow[data-tier='D'] { --tier: #6a449a; }
+/* The shaded description cell would push these under 4.5:1 on light. */
+:global([data-theme='light']) .tierDesc { background: none; }
+
 .tierRow {
   display: flex;
   gap: 0;
-  min-height: 90px;
+  /* Cover width; the strip height follows it, so every tier is exactly one
+     cover tall whether it holds ten games or none. */
+  --thumb-w: 72px;
   background: var(--bg-secondary);
   border: 1px solid rgba(95, 143, 143, 0.08);
+  border-left: 3px solid var(--tier, var(--text-dim));
 }
 
 .tierLabel {
   width: 48px;
   flex-shrink: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 0.15rem;
   font-family: var(--font-heading);
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.04em;
+  color: var(--tier);
   border-right: 1px solid rgba(95, 143, 143, 0.1);
 }
 
-.tierLabel[data-tier='S'] { color: var(--accent-bright); }
-.tierLabel[data-tier='A'] { color: var(--accent); }
-.tierLabel[data-tier='B'] { color: var(--text-secondary); }
-.tierLabel[data-tier='C'] { color: var(--text-dim); }
-.tierLabel[data-tier='D'] { color: var(--text-dim); opacity: 0.7; }
-.tierLabel[data-tier='F'] { color: var(--danger); }
 .tierLabel[data-tier='unplayed'] {
-  color: var(--text-dim);
-  opacity: 0.85;
   font-size: 1.1rem;
+}
+
+.tierCount {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
 }
 
 .tierDesc {
@@ -99,23 +123,37 @@
   line-height: 1.35;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--text-dim);
+  color: var(--tier);
   background: rgba(0, 0, 0, 0.12);
   border-right: 1px solid rgba(95, 143, 143, 0.1);
 }
 
-.tierDesc[data-tier='S'] { color: var(--accent-bright); opacity: 0.9; }
-.tierDesc[data-tier='A'] { color: var(--accent); opacity: 0.9; }
-.tierDesc[data-tier='F'] { color: var(--danger); opacity: 0.85; }
+/* The wrapper holds the arrows; the inner strip is what scrolls, so the
+   arrows stay pinned to the row's edges instead of scrolling away. */
+.tierGamesWrap {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+}
 
 .tierGames {
   flex: 1;
+  min-width: 0;
   display: flex;
   align-items: center;
   gap: 0.4rem;
   padding: 0.35rem 0.5rem;
-  flex-wrap: wrap;
-  min-height: 0;
+  flex-wrap: nowrap;
+  /* One cover (2:3 plus its 1px border) and the vertical padding. */
+  min-height: calc(var(--thumb-w) * 1.5 + 2px + 0.7rem);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.tierGames::-webkit-scrollbar {
+  display: none;
 }
 
 .tierGamesDragOver {
@@ -128,15 +166,51 @@
   font-family: var(--font-mono);
   font-size: 0.6rem;
   color: var(--text-dim);
-  opacity: 0.4;
   padding: 0 0.25rem;
+}
+
+/* ---- Overflow arrows ---- */
+
+.edge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2.75rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.4rem;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--tier, var(--accent-bright));
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
+}
+
+.edge[data-visible='true'] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.edgeLeft {
+  left: 0;
+  justify-content: flex-start;
+  background: linear-gradient(to right, var(--bg-secondary) 40%, transparent);
+}
+
+.edgeRight {
+  right: 0;
+  justify-content: flex-end;
+  background: linear-gradient(to left, var(--bg-secondary) 40%, transparent);
 }
 
 /* ---- Game thumbnails ---- */
 
 .gameThumb {
   position: relative;
-  width: 58px;
+  width: var(--thumb-w);
   aspect-ratio: 2 / 3;
   overflow: hidden;
   flex-shrink: 0;
@@ -170,7 +244,7 @@
 
 @media (max-width: 768px) {
   .tierRow {
-    min-height: 78px;
+    --thumb-w: 52px;
   }
 
   .tierLabel {
@@ -182,9 +256,5 @@
     width: 72px;
     font-size: 0.5rem;
     padding: 0.3rem 0.35rem;
-  }
-
-  .gameThumb {
-    width: 46px;
   }
 }

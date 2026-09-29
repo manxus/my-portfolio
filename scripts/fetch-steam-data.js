@@ -5,23 +5,15 @@
  *   STEAM_API_KEY=<key> STEAM_ID=<id> node scripts/fetch-steam-data.js
  *   node scripts/fetch-steam-data.js --force   # ignore Steam disk cache
  *   node scripts/fetch-steam-data.js --wishlist-only   # update wishlist in existing JSON only
- *   node scripts/fetch-steam-data.js --hltb-only   # enrich existing JSON with HowLongToBeat times
- *   node scripts/fetch-steam-data.js --hltb-force  # re-query HLTB even when cached
- *   node scripts/fetch-steam-data.js --hltb-all    # no per-run HLTB fetch cap
- *
- * Env:
- *   HLTB_MAX_FETCH  Max new HLTB lookups per run (default 400; ignored with --hltb-all)
- *   HLTB_DELAY_MS   Delay between HLTB requests (default 1000)
  *
  * Outputs JSON to src/data/steam-library.json
  *
- * Cache: scripts/.steam-fetch-cache/cache.json + hltb.json (gitignored)
+ * Cache: scripts/.steam-fetch-cache/cache.json (gitignored)
  */
 
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { dirname, resolve, join } from 'path';
 import { fileURLToPath } from 'url';
-import { enrichGamesWithHltb, applyHltbCache, loadHltbCache } from './hltb.js';
 import {
   diffTotals,
   extractTotals,
@@ -34,6 +26,7 @@ import {
   writeBaselines,
   writeChanges,
 } from './steam-changes.js';
+import { achievementIconStem } from '../src/utils/steamAchievements.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, '../src/data/steam-library.json');
@@ -42,30 +35,13 @@ const CACHE_PATH = join(CACHE_DIR, 'cache.json');
 
 const FORCE = process.argv.includes('--force');
 const WISHLIST_ONLY = process.argv.includes('--wishlist-only');
-const HLTB_ONLY = process.argv.includes('--hltb-only');
-const HLTB_FORCE = process.argv.includes('--hltb-force');
-const HLTB_ALL = process.argv.includes('--hltb-all');
 
 const API_KEY = process.env.STEAM_API_KEY;
 const STEAM_ID = process.env.STEAM_ID;
 
-function hltbMaxFetches() {
-  if (HLTB_ALL) return Infinity;
-  const raw = process.env.HLTB_MAX_FETCH;
-  if (raw === undefined || raw === '') return 400;
-  const n = Number(raw);
-  return Number.isFinite(n) && n >= 0 ? n : 400;
-}
-
-function hltbDelayMs() {
-  const n = Number(process.env.HLTB_DELAY_MS);
-  return Number.isFinite(n) && n >= 0 ? n : 1000;
-}
-
-if (!HLTB_ONLY && (!API_KEY || !STEAM_ID)) {
+if (!API_KEY || !STEAM_ID) {
   console.error('Missing STEAM_API_KEY or STEAM_ID environment variables.');
   console.error('Usage: STEAM_API_KEY=<key> STEAM_ID=<id> node scripts/fetch-steam-data.js');
-  console.error('Or: node scripts/fetch-steam-data.js --hltb-only');
   process.exit(1);
 }
 
@@ -112,14 +88,17 @@ const HARDWARE_LABELS = new Set([
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Error text lands in CI logs, so the API key must never appear in it.
+const redact = (url) => String(url).replace(/([?&]key=)[^&]+/i, '$1REDACTED');
+
 async function fetchJSON(url) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}: ${redact(url)}`);
   const text = await res.text();
   try {
     return JSON.parse(text);
   } catch {
-    throw new Error(`Invalid JSON from ${url}`);
+    throw new Error(`Invalid JSON from ${redact(url)}`);
   }
 }
 
@@ -300,8 +279,14 @@ async function getGlobalPercentages(appId) {
   }
 }
 
+function iconField(appId, url) {
+  if (!url) return {};
+  const stem = achievementIconStem(appId, url);
+  return stem ? { icon: stem } : { iconUrl: url };
+}
+
 /** Merge player unlock state + static schema + global rarity into a display-ready item list. */
-function buildAchievementItems(player, schema, globalPct) {
+function buildAchievementItems(appId, player, schema, globalPct) {
   if (!Array.isArray(schema) || schema.length === 0) return null;
   const playerMap = {};
   for (const p of player || []) playerMap[p.apiName] = p;
@@ -311,8 +296,9 @@ function buildAchievementItems(player, schema, globalPct) {
       apiName: meta.apiName,
       name: meta.name,
       description: meta.description,
-      iconUrl: meta.iconUrl,
-      iconGrayUrl: meta.iconGrayUrl,
+      // Stem only; the client rebuilds the URL (achievementIconUrl). Locked
+      // icons are greyed in CSS, so the separate grey icon is not shipped.
+      ...iconField(appId, meta.iconUrl),
       hidden: meta.hidden,
       unlocked: Boolean(p?.achieved),
       unlockTime: p?.achieved ? p.unlockTime : 0,
@@ -442,49 +428,7 @@ async function mainWishlistOnly() {
   console.log(`Written to ${OUTPUT_PATH}`);
 }
 
-async function applyHltb(games, { onCheckpoint } = {}) {
-  await enrichGamesWithHltb(games, {
-    cacheDir: CACHE_DIR,
-    force: HLTB_FORCE,
-    delayMs: hltbDelayMs(),
-    maxFetches: hltbMaxFetches(),
-    onCheckpoint,
-  });
-}
-
-async function mainHltbOnly() {
-  if (!existsSync(OUTPUT_PATH)) {
-    console.error(`Missing ${OUTPUT_PATH}; run a full fetch first.`);
-    process.exit(1);
-  }
-  console.log('HLTB-only enrichment...');
-  if (HLTB_FORCE) console.log('(--hltb-force: re-querying cached titles)');
-
-  const existing = JSON.parse(readFileSync(OUTPUT_PATH, 'utf8'));
-  const games = existing.games || [];
-
-  const writeOutput = () => {
-    existing.games = games;
-    existing.fetchedAt = new Date().toISOString();
-    writeFileSync(OUTPUT_PATH, JSON.stringify(existing, null, 2));
-  };
-
-  await applyHltb(games, {
-    onCheckpoint: async () => {
-      writeOutput();
-      console.log(`  checkpoint written to ${OUTPUT_PATH}`);
-    },
-  });
-  writeOutput();
-  console.log(`Written to ${OUTPUT_PATH}`);
-}
-
 async function main() {
-  if (HLTB_ONLY) {
-    await mainHltbOnly();
-    return;
-  }
-
   if (WISHLIST_ONLY) {
     await mainWishlistOnly();
     return;
@@ -492,7 +436,6 @@ async function main() {
 
   console.log('Fetching Steam data...');
   if (FORCE) console.log('(--force: ignoring disk cache)');
-  if (HLTB_FORCE) console.log('(--hltb-force: re-querying HowLongToBeat)');
 
   const cache = loadCache();
   const profile = await getPlayerSummary();
@@ -563,7 +506,7 @@ async function main() {
         !FORCE && prev.achGlobalPct && typeof prev.achGlobalPct === 'object'
           ? prev.achGlobalPct
           : await getGlobalPercentages(game.appId);
-      items = buildAchievementItems(ach.player, schema, globalPct);
+      items = buildAchievementItems(game.appId, ach.player, schema, globalPct);
       cache.games[id] = {
         ...cache.games[id],
         achSchema: schema,
@@ -607,15 +550,6 @@ async function main() {
   });
   console.log(`Wishlist: ${wishlist.length} items`);
 
-  // HowLongToBeat is a third-party scrape and rotates its endpoint without notice.
-  // A bad day there must not throw away a successful Steam fetch.
-  try {
-    await applyHltb(games);
-  } catch (e) {
-    console.warn(`HLTB: enrichment failed, keeping cached times — ${e.message}`);
-    applyHltbCache(games, loadHltbCache(CACHE_DIR));
-  }
-
   saveCache(cache);
 
   const output = {
@@ -626,8 +560,8 @@ async function main() {
   };
 
   // Record any game whose achievement list grew since the last sync. Only the
-  // full-fetch path reaches here -- --hltb-only and --wishlist-only return above
-  // and never populate game.achievements, so there is nothing to compare there.
+  // full-fetch path reaches here -- --wishlist-only returns above and never
+  // populates game.achievements, so there is nothing to compare there.
   const totals = extractTotals(output);
   const baselines = readBaselines();
   const events = diffTotals(baselines, totals, toDateKey(output.fetchedAt));

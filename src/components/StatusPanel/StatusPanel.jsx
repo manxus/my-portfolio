@@ -8,6 +8,7 @@ const { changelog } = changelogData;
 import PatchModal from '../PatchModal/PatchModal';
 import CommsPanel from '../CommsPanel/CommsPanel';
 import AvailabilityBadge from '../AvailabilityBadge/AvailabilityBadge';
+import { getSessionStart } from '../../utils/session';
 import styles from './StatusPanel.module.css';
 
 function getClientInfo() {
@@ -52,15 +53,6 @@ function getConnectionType() {
   return (conn.effectiveType || 'online').toUpperCase();
 }
 
-function getSessionStart() {
-  let start = sessionStorage.getItem('bv_session_start');
-  if (!start) {
-    start = String(Date.now());
-    sessionStorage.setItem('bv_session_start', start);
-  }
-  return Number(start);
-}
-
 function formatUptime(seconds) {
   const h = String(Math.floor(seconds / 3600)).padStart(2, '0');
   const m = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
@@ -100,14 +92,14 @@ function randomBars() {
 
 export default function StatusPanel() {
   const [showModal, setShowModal] = useState(false);
-  const sessionStart = useMemo(getSessionStart, []);
+  const sessionStart = useMemo(() => getSessionStart(), []);
   const [uptime, setUptime] = useState(() =>
     Math.floor((Date.now() - sessionStart) / 1000),
   );
   const [localTime, setLocalTime] = useState(() => new Date());
   const [bars, setBars] = useState(randomBars);
-  const clientInfo = useMemo(getClientInfo, []);
-  const connectionType = useMemo(getConnectionType, []);
+  const clientInfo = useMemo(() => getClientInfo(), []);
+  const connectionType = useMemo(() => getConnectionType(), []);
   const latest = changelog[0];
   const availability = resumeData.personalInfo?.availability;
   const showAvailability = resolveAvailability(availability);

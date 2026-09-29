@@ -17,7 +17,9 @@
   flex-direction: column;
   padding: 1.25rem;
   border: 1px solid rgba(95, 143, 143, 0.12);
-  background: rgba(17, 26, 32, 0.6);
+  /* --bg-primary as glass, so it follows the theme; a fixed dark tint went
+     mid-grey under dark text on light. */
+  background: color-mix(in srgb, var(--bg-primary) 60%, transparent);
 }
 
 .windowTitle {
@@ -173,7 +175,6 @@
   margin-top: auto;
   padding-top: 0.75rem;
   border-top: 1px solid rgba(95, 143, 143, 0.08);
-  outline: none;
   transition: color var(--transition-fast);
 }
 

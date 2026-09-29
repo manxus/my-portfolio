@@ -1,6 +1,84 @@
 {
   "changelog": [
     {
+      "version": "1.14.0",
+      "date": "2026-09-29",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Steam milestones — every rung opens a popup naming the exact unlock, game or review that crossed it and the day it happened, with the ladder's context alongside"
+        },
+        {
+          "type": "added",
+          "text": "Steam overview — the unlock heatmap picks a calendar year from every year with activity, and clicking a day lists everything unlocked on it, including any game perfected that day"
+        },
+        {
+          "type": "added",
+          "text": "Steam collections — a series opens in its own popup listing every game in it with its completion"
+        },
+        {
+          "type": "added",
+          "text": "Steam Library remembers its tab, search, sort and page in the URL, so a filtered view can be linked or reloaded and back/forward walks between tabs"
+        },
+        {
+          "type": "changed",
+          "text": "Steam Library grid — portrait cards with playtime and achievement completion on the cover, linking straight to the store page in place of the inline detail panel"
+        },
+        {
+          "type": "changed",
+          "text": "Hall of Pain — hung as a gallery with a wing per status, each frame tilted slightly crooked and the same way on every visit"
+        },
+        {
+          "type": "changed",
+          "text": "Steam tier list — each tier is one row that scrolls sideways, so every tier stays the same height however many games it holds"
+        },
+        {
+          "type": "changed",
+          "text": "Steam tab strip scrolls on narrow screens, with edge fades that double as arrow buttons and the active tab kept in view"
+        },
+        {
+          "type": "changed",
+          "text": "Settings — segmented controls and switches that screen readers announce by name, and Reset asks for a second click before wiping everything"
+        },
+        {
+          "type": "changed",
+          "text": "Accent colours have a light-theme set, so the chosen accent keeps readable contrast on the light greys"
+        },
+        {
+          "type": "changed",
+          "text": "Pages load on demand, so the multi-megabyte Steam snapshot is no longer part of the download every visitor gets at boot"
+        },
+        {
+          "type": "changed",
+          "text": "New favicon"
+        },
+        {
+          "type": "removed",
+          "text": "HowLongToBeat times and sorts — the third-party scrape broke without notice and made the nightly Steam sync unreliable"
+        },
+        {
+          "type": "fixed",
+          "text": "Reduce motion now also follows the operating system setting, and the boot sequence shows its log at once instead of typing it out"
+        },
+        {
+          "type": "fixed",
+          "text": "Popups on the Steam, Livestream, Journey and patch pages close on Escape, keep focus inside while open and return it on close, instead of Escape jumping back to the main menu"
+        },
+        {
+          "type": "fixed",
+          "text": "Main menu arrow keys no longer steal input from the page beside it, and Enter only opens an item picked with the keyboard, not one left highlighted by the mouse"
+        },
+        {
+          "type": "fixed",
+          "text": "Journey map no longer snaps back to the full view when a trip is selected mid-flight"
+        },
+        {
+          "type": "fixed",
+          "text": "The site no longer crashes when the browser blocks session storage, as in some private modes"
+        }
+      ]
+    },
+    {
       "version": "1.13.0",
       "date": "2026-09-08",
       "entries": [
@@ -21,24 +99,8 @@
           "text": "Cinema season sync — a weekly job re-reads every tracked show from TMDB, so a show that gains a season comes back with everything watched still ticked and the new episodes not, moving it from watched to watching on its own"
         },
         {
-          "type": "added",
-          "text": "Dev admin — a SYNC NOW button on each game tab runs that game's fetch scripts on demand and says whether anything actually moved, instead of a trip to GitHub to dispatch the workflow by hand"
-        },
-        {
-          "type": "added",
-          "text": "Dev admin — the Battlefield 4 sync also rebuilds the assignment list, and surfaces drift it cannot fix itself, such as an assignment Battlelog counts as done that the tracking spreadsheet does not"
-        },
-        {
-          "type": "added",
-          "text": "Dev admin — Steam reviews and collections pick their game by name from the library rather than asking for a raw Steam App ID"
-        },
-        {
           "type": "changed",
           "text": "Cinema — a show's status is derived from its episode record instead of the hand-typed field, so ticking the last episode finishes a show and a new season reopens one, from a single rule shared by the page, the episode picker and the sync script"
-        },
-        {
-          "type": "changed",
-          "text": "Dev admin — the Steam review and Hall of Pain grids re-read their file after a save, so an edit shows up without reloading the page"
         },
         {
           "type": "changed",
@@ -47,10 +109,6 @@
         {
           "type": "fixed",
           "text": "Dimmed label text failed WCAG AA contrast in both themes — 2.09:1 on dark and 2.10:1 on light, against a 4.5:1 floor for small text — and is now raised as far as it can go while staying a visible tier below secondary text"
-        },
-        {
-          "type": "fixed",
-          "text": "Admin credentials set in .env were ignored by the dev API, which fell back to admin/admin and rejected the real ones"
         }
       ]
     },
@@ -58,14 +116,6 @@
       "version": "1.12.0",
       "date": "2026-08-24",
       "entries": [
-        {
-          "type": "added",
-          "text": "Cinema recommendations (dev admin) — a RECOMMENDED tab surfacing titles that are on none of the lists yet, drawn from new releases, your favourites and watch history, acclaimed older films, and your most-watched genres, with one-click add to watchlist and a not-interested list"
-        },
-        {
-          "type": "added",
-          "text": "Cinema franchise gaps — the same tab suggests films missing from collections already part-watched, with the Marvel and DC shared universes enumerated by keyword since neither exists as a TMDB collection"
-        },
         {
           "type": "added",
           "text": "Cinema watchlist — a FINISHING filter for queued films that would carry a franchise you have started further along, grouped by franchise with progress in each heading"
@@ -177,10 +227,6 @@
           "text": "Steam tier list — nine more games placed"
         },
         {
-          "type": "changed",
-          "text": "Dev admin — the RuneScape character panel (display name, tagline, note, and image override) is editable in place, and the sync preserves those edits"
-        },
-        {
           "type": "fixed",
           "text": "Small caption text under every figure was drawn in a colour barely above its background (about 2:1 against a 4.5:1 readable floor) at 8px — the labels now use the supporting text colour and a larger size across all seven game pages, and the tab bar and active filter chips were corrected the same way"
         },
@@ -203,14 +249,6 @@
           "text": "Journey page — on wide screens the world map and trip log sit side by side, with the map sticky and sized to the viewport so pins stay visible while scrolling the log; narrow layouts still stack"
         },
         {
-          "type": "changed",
-          "text": "Dev admin — delete now uses an in-page confirm dialog instead of the browser prompt, and items are re-located by id before removal so a stale index can never delete the wrong row"
-        },
-        {
-          "type": "changed",
-          "text": "Dev admin — expired sessions after a dev server restart report a clear message instead of a generic save failure; item controls can hide reorder arrows on views with their own sort order"
-        },
-        {
           "type": "added",
           "text": "Steam written reviews: Grapple Dog, Cozy Cleaner, and Henry Halfhead"
         },
@@ -227,10 +265,6 @@
         {
           "type": "added",
           "text": "Cinema page (EXTRA // SCREENING ROOM) — movies and shows tracked as watched, watching, dropped, or watchlisted, with favorites, ratings, season and episode counts, and per-show progress"
-        },
-        {
-          "type": "added",
-          "text": "TMDB title search in the admin editor — picking a result autofills title, year, poster, seasons, episodes, runtime, genres, and overview, so entries no longer need to be typed by hand"
         },
         {
           "type": "added",
@@ -278,7 +312,7 @@
         },
         {
           "type": "added",
-          "text": "Resume CV download — editable PDF link on the Resume page with CMS and local admin support, including file upload to public/uploads"
+          "text": "Resume CV download — PDF link on the Resume page"
         },
         {
           "type": "added",
@@ -287,18 +321,6 @@
         {
           "type": "added",
           "text": "PlaytestCover component — custom cover URL with Steam art fallback for portfolio playtest tiles"
-        },
-        {
-          "type": "added",
-          "text": "Admin file upload API — dev server endpoint for PDF and image uploads used by the CV field and content editor"
-        },
-        {
-          "type": "fixed",
-          "text": "Admin content editor — paste, Ctrl+V, and PASTE URL now work reliably in personal info and other text fields (Chromium clipboard and backdrop-filter issues)"
-        },
-        {
-          "type": "fixed",
-          "text": "Admin editor isolation — modal renders outside filtered app layers; menu keyboard shortcuts pause while editing"
         },
         {
           "type": "changed",
@@ -320,11 +342,7 @@
         },
         {
           "type": "added",
-          "text": "Tabletop CMS support — editable via local admin and Decap CMS"
-        },
-        {
-          "type": "added",
-          "text": "Main menu availability badge — CMS-editable hiring status under BUILD VERIFIED with pulsing status dot, optional custom label and note, and matching row in System Telemetry on the desktop home screen"
+          "text": "Main menu availability badge — hiring status under BUILD VERIFIED with pulsing status dot, optional custom label and note, and matching row in System Telemetry on the desktop home screen"
         },
         {
           "type": "added",
@@ -358,10 +376,6 @@
         },
         {
           "type": "added",
-          "text": "Music performances CMS support — editable via local admin and Decap CMS"
-        },
-        {
-          "type": "added",
           "text": "Journey trip log — trips grouped by year with animated expand/collapse and scroll-to-selected when picking a map pin"
         },
         {
@@ -384,7 +398,7 @@
       "entries": [
         {
           "type": "added",
-          "text": "Library page — book shelf with READ and favorite badges, favorites sorted first, and CMS support via local admin and Decap CMS"
+          "text": "Library page — book shelf with READ and favorite badges, favorites sorted first"
         },
         {
           "type": "added",
@@ -393,10 +407,6 @@
         {
           "type": "changed",
           "text": "EXTRA menu — Library and Journey added; Livestream moved to the bottom; Media and Music subtitles updated (EXTRA // REPLAY VAULT, EXTRA // ON REPEAT)"
-        },
-        {
-          "type": "changed",
-          "text": "Dev admin — content editor modal renders via portal above page UI; travel location picker with geocode search for Journey pins"
         },
         {
           "type": "fixed",
@@ -411,10 +421,6 @@
         {
           "type": "added",
           "text": "Journey page — interactive dark world map with trip pins, selectable trip cards, highlights, photo lightbox, and embedded YouTube travel videos; seeded with Thailand and Midsummer trips"
-        },
-        {
-          "type": "added",
-          "text": "Journey CMS support — editable home base and trips (lat/lng, photos, highlights) via local admin and Decap CMS"
         }
       ]
     },
@@ -428,7 +434,7 @@
         },
         {
           "type": "added",
-          "text": "Livestream: flexible “When I Stream” note replaces the fixed weekly schedule; optional schedule slots still supported via CMS if you add them later"
+          "text": "Livestream: flexible “When I Stream” note replaces the fixed weekly schedule"
         },
         {
           "type": "added",
@@ -453,10 +459,6 @@
         {
           "type": "changed",
           "text": "Steam fetch script extended for additional library metadata used by cover art and milestones"
-        },
-        {
-          "type": "changed",
-          "text": "Decap CMS and dev admin schemas updated for livestream, music, and related content fields"
         }
       ]
     },
@@ -470,7 +472,7 @@
         },
         {
           "type": "added",
-          "text": "Hall of Pain: games with 100% achievements are automatically shown as Conquered; incomplete entries render in grayscale until conquered; dev admin can add, edit, reorder, and remove entries"
+          "text": "Hall of Pain: games with 100% achievements are automatically shown as Conquered; incomplete entries render in grayscale until conquered"
         },
         {
           "type": "added",
@@ -528,7 +530,7 @@
         },
         {
           "type": "changed",
-          "text": "Tech Loadout: expanded page layout and styles; Content Editor, schemas, and EditableSection updated for richer items and admin saves"
+          "text": "Tech Loadout: expanded page layout and styles"
         },
         {
           "type": "changed",
@@ -542,15 +544,11 @@
       "entries": [
         {
           "type": "added",
-          "text": "QA portfolio playtests: optional store or page URL (e.g. Steam); linked game titles on the page when a URL is set; field in dev admin and Decap CMS"
+          "text": "QA portfolio playtests: optional store or page URL (e.g. Steam); linked game titles on the page when a URL is set"
         },
         {
           "type": "added",
           "text": "Tech Loadout: component inventory category with quantity and notes, hardware tag checkboxes for builds and inventory rows, and matching grid layout styling"
-        },
-        {
-          "type": "changed",
-          "text": "Content editor and tech schemas refactored for per-category item fields and nested editors"
         },
         {
           "type": "changed",
@@ -567,14 +565,6 @@
       "date": "2026-04-18",
       "entries": [
         {
-          "type": "added",
-          "text": "Steam tier list (dev admin): drag-and-drop to reorder games within a tier or move them between tiers; changes persist to steam-tierlist.json"
-        },
-        {
-          "type": "changed",
-          "text": "EditableSection: fires admin-collection-saved after save, delete, and reorder so linked views (e.g. tier list) refresh without a reload"
-        },
-        {
           "type": "changed",
           "text": "Steam tier thumbnails use SteamGameCover with a text-only fallback path for cleaner tiles when library art fails"
         },
@@ -589,16 +579,12 @@
       "date": "2026-04-11",
       "entries": [
         {
-          "type": "fixed",
-          "text": "Dev admin: removing a tag row in the tech item editor (red X) works reliably; list fields are no longer wrapped in a label that intercepted the control"
-        },
-        {
           "type": "changed",
           "text": "QA Portfolio: removed the empty Certificates block and simplified portfolio data; main menu descriptions updated"
         },
         {
           "type": "changed",
-          "text": "Tech Loadout: richer category sections in tech data (platforms, testing, game engines, and more); duplicate standalone skills block removed from the page and CMS"
+          "text": "Tech Loadout: richer category sections in tech data (platforms, testing, game engines, and more); duplicate standalone skills block removed from the page"
         },
         {
           "type": "added",
@@ -631,10 +617,6 @@
         {
           "type": "added",
           "text": "Media gallery: YouTube links in Video URL open as an embedded player in the lightbox; optional auto thumbnail when no image URL is set"
-        },
-        {
-          "type": "fixed",
-          "text": "Media gallery: in dev admin mode, per-item edit / reorder / delete controls work again (gallery tiles are no longer nested buttons)"
         },
         {
           "type": "changed",

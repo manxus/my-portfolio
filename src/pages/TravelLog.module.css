@@ -197,7 +197,7 @@
 
 .tripChevron {
   font-size: 0.75rem;
-  color: var(--accent-dim);
+  color: var(--accent);
   transition: transform var(--transition-fast);
   flex-shrink: 0;
 }
@@ -315,7 +315,7 @@
   content: '>';
   position: absolute;
   left: 0;
-  color: var(--accent-dim);
+  color: var(--accent);
 }
 
 .videoHint {
@@ -424,8 +424,8 @@
   right: 0.75rem;
   z-index: 2;
   font-size: 1.5rem;
-  color: var(--text-secondary);
-  background: rgba(0, 0, 0, 0.4);
+  color: var(--scrim-text-dim);
+  background: rgba(0, 0, 0, 0.6);
   width: 32px;
   height: 32px;
   display: flex;
@@ -435,5 +435,5 @@
 }
 
 .lightboxClose:hover {
-  color: var(--text-primary);
+  color: var(--scrim-text);
 }

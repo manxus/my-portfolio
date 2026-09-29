@@ -92,22 +92,15 @@ export default function SteamStats({ games, profile, className }) {
             <span className={styles.profileStatLabel}>GAMES</span>
           </div>
           <span className={styles.metricDivider} />
-          <div className={styles.ringCell}>
-            <div
-              className={styles.ring}
-              style={{
-                background: `conic-gradient(var(--accent-bright) ${metrics.achPct * 3.6}deg, var(--bg-hover) 0deg)`,
-              }}
-            >
-              <div className={styles.ringInner}>
-                <span className={styles.ringPct}>{metrics.achPct}%</span>
-              </div>
-            </div>
-            <span className={styles.ringLabel}>
-              ACH
-              <br />
-              RATE
-            </span>
+          {/* Steam's "average game completion rate": the mean of each game's
+              unlocked share, over games with at least one unlock. Not a share
+              of every achievement owned, hence the tooltip. */}
+          <div
+            className={styles.profileStat}
+            title="Average completion across games with at least one achievement unlocked"
+          >
+            <span className={styles.profileStatValue}>{metrics.achPct}%</span>
+            <span className={styles.profileStatLabel}>AVG COMPLETION</span>
           </div>
         </div>
       </div>

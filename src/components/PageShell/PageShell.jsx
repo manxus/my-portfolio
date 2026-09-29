@@ -53,6 +53,7 @@ export default function PageShell({
               className={styles.closeButton}
               onClick={() => navigate('/')}
               title="Close (ESC)"
+              aria-label="Close page"
             >
               &#10005;
             </button>

@@ -1,5 +1,6 @@
-import { useEffect, useCallback } from 'react';
+import { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { useModalDialog } from '../../hooks/useModalDialog';
 import styles from './PatchModal.module.css';
 
 const TAG_LABELS = {
@@ -18,17 +19,9 @@ function formatDate(dateStr) {
 }
 
 export default function PatchModal({ patch, onClose }) {
-  const handleKeyDown = useCallback(
-    (e) => {
-      if (e.key === 'Escape') onClose();
-    },
-    [onClose],
-  );
-
-  useEffect(() => {
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleKeyDown]);
+  const panelRef = useRef(null);
+  const closeRef = useRef(null);
+  useModalDialog({ open: Boolean(patch), onClose, panelRef, initialFocusRef: closeRef });
 
   if (!patch) return null;
 
@@ -42,7 +35,11 @@ export default function PatchModal({ patch, onClose }) {
       onClick={onClose}
     >
       <motion.div
+        ref={panelRef}
         className={styles.modal}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="patch-modal-title"
         initial={{ opacity: 0, scale: 0.95, y: 10 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.95, y: 10 }}
@@ -51,10 +48,16 @@ export default function PatchModal({ patch, onClose }) {
       >
         <header className={styles.header}>
           <div>
-            <h2 className={styles.title}>v{patch.version}</h2>
+            <h2 id="patch-modal-title" className={styles.title}>v{patch.version}</h2>
             <p className={styles.date}>{formatDate(patch.date)}</p>
           </div>
-          <button className={styles.closeButton} onClick={onClose} title="Close (ESC)">
+          <button
+            ref={closeRef}
+            className={styles.closeButton}
+            onClick={onClose}
+            title="Close (ESC)"
+            aria-label="Close"
+          >
             &#10005;
           </button>
         </header>

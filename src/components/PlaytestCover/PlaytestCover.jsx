@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import coverStyles from '../SteamGameCover/SteamGameCover.module.css';
 import styles from './PlaytestCover.module.css';
@@ -10,14 +10,12 @@ export default function PlaytestCover({
   rootClassName = '',
   imageClassName = '',
 }) {
-  const [customFailed, setCustomFailed] = useState(false);
+  // Remembers which URL failed, so a new coverUrl gets its own attempt without
+  // an effect resetting a boolean.
+  const [failedUrl, setFailedUrl] = useState(null);
   const id = Number(appId);
   const hasSteamId = Number.isFinite(id) && id > 0;
-  const showCustom = coverUrl && !customFailed;
-
-  useEffect(() => {
-    setCustomFailed(false);
-  }, [coverUrl]);
+  const showCustom = coverUrl && failedUrl !== coverUrl;
 
   if (showCustom) {
     return (
@@ -27,7 +25,7 @@ export default function PlaytestCover({
           alt={title}
           className={`${coverStyles.image} ${imageClassName}`.trim()}
           loading="lazy"
-          onError={() => setCustomFailed(true)}
+          onError={() => setFailedUrl(coverUrl)}
         />
       </div>
     );
