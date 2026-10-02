@@ -1,17 +1,14 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
-import { motion } from 'framer-motion';
 import defaultTierlistFile from '../../data/steam-tierlist.json';
 import EditableSection, { EditableItemControls } from '../../admin/EditableSection';
 import SteamGameCover from '../SteamGameCover/SteamGameCover';
+import TierBoard, { TierCategoryBar } from '../TierBoard/TierBoard';
 import { useAdminStore } from '../../stores/adminStore';
-import { useScrollOverflow } from '../../hooks/useScrollOverflow';
-import styles from './SteamTierList.module.css';
+import styles from '../TierBoard/TierBoard.module.css';
 
 const defaultTierLists = defaultTierlistFile.tierLists;
 
 const TIER_ORDER = ['S', 'A', 'B', 'C', 'D', 'F', 'unplayed'];
-
-const DND_PAYLOAD_TYPE = 'application/x-steam-tier-dnd';
 
 const tierLabelText = (tier) => (tier === 'unplayed' ? '?' : tier);
 
@@ -25,127 +22,7 @@ const TIER_HINTS = {
   unplayed: 'Owned but not ranked yet',
 };
 
-const tierHintTitle = (tier) => TIER_HINTS[tier] ?? `Tier ${tier}`;
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 12 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.3 } },
-};
-
-const stagger = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.05 } },
-};
-
-function cloneTiers(tiers) {
-  const next = {};
-  for (const t of TIER_ORDER) {
-    next[t] = [...(tiers[t] || [])];
-  }
-  return next;
-}
-
-/**
- * Remove from fromTier at fromIndex, insert into toTier before targetBeforeId
- * (or append if targetBeforeId is null). Returns null if no change.
- */
-function moveAppIdToTier(tiers, fromTier, fromIndex, toTier, targetBeforeId) {
-  const next = cloneTiers(tiers);
-  const fromArr = next[fromTier];
-  if (fromIndex < 0 || fromIndex >= fromArr.length) return null;
-
-  const movedId = fromArr[fromIndex];
-  if (targetBeforeId != null && targetBeforeId === movedId) {
-    return null;
-  }
-
-  fromArr.splice(fromIndex, 1);
-  const toArr = next[toTier];
-  let insertAt = toArr.length;
-  if (targetBeforeId != null) {
-    insertAt = toArr.indexOf(targetBeforeId);
-    if (insertAt === -1) insertAt = toArr.length;
-  }
-  toArr.splice(insertAt, 0, movedId);
-  return next;
-}
-
-/**
- * One tier's games on a single line. Every tier keeps the same height however
- * many games it holds; overflow scrolls sideways, with fades that double as
- * arrow buttons for mouse users, the same pattern as the Steam tab strip.
- */
-function TierStrip({
-  tier,
-  entries,
-  contentKey,
-  dndReady,
-  dragOver,
-  onDragOver,
-  onDrop,
-  onDragStart,
-  onDragEnd,
-}) {
-  const { ref, overflow, onScroll, scrollByPage } = useScrollOverflow(contentKey);
-
-  const edge = (dir, visible, label, glyph) => (
-    <button
-      type="button"
-      className={`${styles.edge} ${dir < 0 ? styles.edgeLeft : styles.edgeRight}`}
-      data-visible={visible ? 'true' : undefined}
-      onClick={() => scrollByPage(dir)}
-      // Thumbnails aren't focusable, so these are the only keyboard route to
-      // the hidden games; hidden arrows drop out of the tab order.
-      tabIndex={visible ? 0 : -1}
-      aria-hidden={visible ? undefined : true}
-      aria-label={label}
-    >
-      {glyph}
-    </button>
-  );
-
-  return (
-    <div className={`${styles.tierGamesWrap} ${dragOver ? styles.tierGamesDragOver : ''}`}>
-      <div
-        ref={ref}
-        className={styles.tierGames}
-        data-tier-key={tier}
-        onScroll={onScroll}
-        onDragOver={onDragOver}
-        onDrop={onDrop}
-      >
-        {entries.length === 0 && <span className={styles.tierEmpty}>---</span>}
-        {entries.map(({ id, idx, game }) => (
-          <div
-            key={id}
-            className={styles.gameThumb}
-            title={dndReady ? `${game.name} — drag to reorder or move tiers` : game.name}
-            draggable={dndReady}
-            data-tier-appid={id}
-            onDragStart={(e) => onDragStart(e, idx)}
-            onDragEnd={onDragEnd}
-          >
-            <SteamGameCover
-              fill
-              variant="cover"
-              appId={game.appId}
-              title={game.name}
-              headerUrl={game.headerUrl}
-              libraryCapsuleUrl={game.libraryCapsuleUrl}
-              libraryHeaderUrl={game.libraryHeaderUrl}
-              iconUrl={game.iconUrl}
-              alt={game.name}
-              rootClassName={styles.coverRoot}
-              imageClassName={styles.gameImg}
-            />
-          </div>
-        ))}
-      </div>
-      {edge(-1, overflow.left, 'Scroll tier left', '‹')}
-      {edge(1, overflow.right, 'Scroll tier right', '›')}
-    </div>
-  );
-}
+const tierHint = (tier) => TIER_HINTS[tier];
 
 export default function SteamTierList({ games }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
@@ -157,7 +34,6 @@ export default function SteamTierList({ games }) {
   const [activeCategory, setActiveCategory] = useState(
     defaultTierLists[0]?.category || '',
   );
-  const [dragOverTier, setDragOverTier] = useState(null);
 
   const tierLists = isAdminUi && adminTierLists ? adminTierLists : defaultTierLists;
   const dndReady = isAdminUi && adminTierLists !== null;
@@ -190,12 +66,6 @@ export default function SteamTierList({ games }) {
   }, [isAdminUi, refreshAdminTierLists]);
 
   useEffect(() => {
-    const clearOver = () => setDragOverTier(null);
-    document.addEventListener('dragend', clearOver);
-    return () => document.removeEventListener('dragend', clearOver);
-  }, []);
-
-  useEffect(() => {
     if (tierLists.length === 0) return;
     if (!tierLists.some((t) => t.category === activeCategory)) {
       setActiveCategory(tierLists[0].category);
@@ -209,6 +79,32 @@ export default function SteamTierList({ games }) {
   }, [games]);
 
   const activeTierList = tierLists.find((t) => t.category === activeCategory);
+
+  const resolveGame = useCallback(
+    (id) => {
+      const game = gameMap[id];
+      if (!game) return null;
+      return {
+        title: game.name,
+        node: (
+          <SteamGameCover
+            fill
+            variant="cover"
+            appId={game.appId}
+            title={game.name}
+            headerUrl={game.headerUrl}
+            libraryCapsuleUrl={game.libraryCapsuleUrl}
+            libraryHeaderUrl={game.libraryHeaderUrl}
+            iconUrl={game.iconUrl}
+            alt={game.name}
+            rootClassName={styles.coverRoot}
+            imageClassName={styles.gameImg}
+          />
+        ),
+      };
+    },
+    [gameMap],
+  );
 
   const persistTierMutation = useCallback(
     async (nextTiersForActiveList) => {
@@ -241,63 +137,6 @@ export default function SteamTierList({ games }) {
     [activeCategory, getData, refreshAdminTierLists, saveData],
   );
 
-  const handleDragStart = (e, fromTier, fromIndex) => {
-    if (!dndReady || !activeTierList) return;
-    const ids = activeTierList.tiers[fromTier] || [];
-    const appId = ids[fromIndex];
-    if (appId == null) return;
-    e.dataTransfer.setData(
-      DND_PAYLOAD_TYPE,
-      JSON.stringify({ fromTier, fromIndex, appId }),
-    );
-    e.dataTransfer.effectAllowed = 'move';
-    e.currentTarget.classList.add(styles.gameThumbDragging);
-  };
-
-  const handleDragEnd = (e) => {
-    e.currentTarget.classList.remove(styles.gameThumbDragging);
-  };
-
-  const handleDragOverTier = (e, tierKey) => {
-    if (!dndReady) return;
-    e.preventDefault();
-    e.dataTransfer.dropEffect = 'move';
-    setDragOverTier(tierKey);
-  };
-
-  const handleDropOnTier = (e, toTier) => {
-    if (!dndReady || !activeTierList) return;
-    e.preventDefault();
-    setDragOverTier(null);
-
-    let payload;
-    try {
-      payload = JSON.parse(e.dataTransfer.getData(DND_PAYLOAD_TYPE) || '{}');
-    } catch {
-      return;
-    }
-    const { fromTier, fromIndex } = payload;
-    if (fromTier == null || fromIndex == null) return;
-
-    const thumb = e.target.closest('[data-tier-appid]');
-    const rawTarget = thumb?.getAttribute('data-tier-appid');
-    const targetBeforeId =
-      rawTarget != null && thumb?.closest(`.${styles.tierGames}`)?.dataset.tierKey === toTier
-        ? Number(rawTarget)
-        : null;
-
-    const nextTiers = moveAppIdToTier(
-      activeTierList.tiers,
-      fromTier,
-      fromIndex,
-      toTier,
-      targetBeforeId,
-    );
-    if (!nextTiers) return;
-
-    persistTierMutation(nextTiers);
-  };
-
   if (tierLists.length === 0) {
     return (
       <p className={styles.empty}>No tier lists yet. Check back soon.</p>
@@ -307,72 +146,25 @@ export default function SteamTierList({ games }) {
   return (
     <EditableSection collection="steam-tierlist" dataKey="tierLists">
       <div className={styles.container}>
-        <div className={styles.categoryBar}>
-          {tierLists.map((tl, i) => (
-            <button
-              key={tl.category}
-              type="button"
-              className={`${styles.categoryBtn} ${activeCategory === tl.category ? styles.categoryActive : ''}`}
-              onClick={() => setActiveCategory(tl.category)}
-            >
-              {tl.category.toUpperCase()}
-              <EditableItemControls index={i} />
-            </button>
-          ))}
-        </div>
+        <TierCategoryBar
+          categories={tierLists.map((tl) => tl.category)}
+          active={activeCategory}
+          onSelect={setActiveCategory}
+          renderControls={(i) => <EditableItemControls index={i} />}
+        />
 
         {activeTierList && (
-          <motion.div
-            key={activeCategory}
-            className={styles.tierGrid}
-            variants={stagger}
-            initial="hidden"
-            animate="show"
-          >
-            {TIER_ORDER.map((tier) => {
-              const appIds = activeTierList.tiers[tier] || [];
-              // Keep each game's index in appIds: drag-and-drop moves by that
-              // index, and ids missing from the library would shift it.
-              const entries = appIds
-                .map((id, idx) => ({ id, idx, game: gameMap[id] }))
-                .filter((e) => e.game);
-              const isUnranked = tier === 'unplayed';
-              if (isUnranked && entries.length === 0 && !dndReady) return null;
-              return (
-                <motion.div
-                  key={tier}
-                  className={styles.tierRow}
-                  data-tier={tier}
-                  variants={fadeUp}
-                  aria-label={tierHintTitle(tier)}
-                >
-                  <div
-                    className={styles.tierLabel}
-                    data-tier={tier}
-                  >
-                    <span>{tierLabelText(tier)}</span>
-                    {entries.length > 0 && (
-                      <span className={styles.tierCount}>{entries.length}</span>
-                    )}
-                  </div>
-                  <div className={styles.tierDesc} data-tier={tier}>
-                    {TIER_HINTS[tier]}
-                  </div>
-                  <TierStrip
-                    tier={tier}
-                    entries={entries}
-                    contentKey={`${activeCategory}:${appIds.join(',')}`}
-                    dndReady={dndReady}
-                    dragOver={dragOverTier === tier}
-                    onDragOver={(e) => handleDragOverTier(e, tier)}
-                    onDrop={(e) => handleDropOnTier(e, tier)}
-                    onDragStart={(e, idx) => handleDragStart(e, tier, idx)}
-                    onDragEnd={handleDragEnd}
-                  />
-                </motion.div>
-              );
-            })}
-          </motion.div>
+          <TierBoard
+            boardKey={activeCategory}
+            tierOrder={TIER_ORDER}
+            tiers={activeTierList.tiers}
+            resolveItem={resolveGame}
+            labelFor={tierLabelText}
+            hintFor={tierHint}
+            hiddenWhenEmpty={['unplayed']}
+            dndReady={dndReady}
+            onMove={persistTierMutation}
+          />
         )}
       </div>
     </EditableSection>

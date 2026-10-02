@@ -1,0 +1,182 @@
+.container {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-bottom: 3rem;
+}
+
+.intro {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+  color: var(--text-dim);
+}
+
+/* ---- Item tiles ---- */
+
+/* Product shots are usually cut out on transparency, so they sit whole in
+   the tile instead of being cropped to fill it like a game cover. */
+.itemImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.itemFallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.5rem;
+  line-height: 1.2;
+  text-align: center;
+  word-break: break-word;
+  color: var(--text-secondary);
+}
+
+.itemControls {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.itemBtn {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 0.6rem;
+  line-height: 1;
+  color: var(--text-primary);
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid var(--accent-dim);
+  cursor: pointer;
+}
+
+.itemBtn:hover {
+  border-color: var(--accent);
+}
+
+.itemBtnDanger:hover {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+/* ---- Admin ---- */
+
+.adminBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.adminMeta {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.itemForm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--bg-secondary);
+  border: 1px dashed var(--accent-dim);
+}
+
+.formTitle {
+  flex-basis: 100%;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--accent-bright);
+}
+
+.formInput {
+  flex: 1 1 12rem;
+  min-width: 0;
+  padding: 0.35rem 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(95, 143, 143, 0.25);
+  outline: none;
+}
+
+.formInput:focus {
+  border-color: var(--accent);
+}
+
+.formFile {
+  flex: 1 1 12rem;
+  min-width: 0;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-secondary);
+}
+
+.formBtn,
+.formBtnGhost {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  transition:
+    color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.formBtn {
+  color: var(--accent-bright);
+  background: rgba(95, 143, 143, 0.1);
+}
+
+.formBtn:hover:not(:disabled) {
+  background: rgba(95, 143, 143, 0.2);
+}
+
+.formBtn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.formBtnGhost {
+  color: var(--text-dim);
+  background: none;
+  border-color: rgba(95, 143, 143, 0.2);
+}
+
+.formHint,
+.formError {
+  flex-basis: 100%;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+}
+
+.formHint {
+  color: var(--text-dim);
+}
+
+.formError {
+  color: var(--danger);
+}

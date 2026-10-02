@@ -11,6 +11,7 @@ export const EXTRA_ROUTES = [
   '/books',
   '/tabletop',
   '/cinema',
+  '/rankings',
   '/travel-log',
   '/livestream',
 ];

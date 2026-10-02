@@ -33,6 +33,7 @@ const Music = lazy(() => import('./pages/Music'));
 const Books = lazy(() => import('./pages/Books'));
 const Tabletop = lazy(() => import('./pages/Tabletop'));
 const Cinema = lazy(() => import('./pages/Cinema'));
+const Rankings = lazy(() => import('./pages/Rankings'));
 const TravelLog = lazy(() => import('./pages/TravelLog'));
 const Games = lazy(() => import('./pages/Games'));
 const Settings = lazy(() => import('./pages/Settings'));
@@ -52,6 +53,7 @@ const pageRoutes = [
   { path: '/books', title: 'Library', subtitle: 'EXTRA // CODEX', Component: Books },
   { path: '/tabletop', title: 'Tabletop', subtitle: 'EXTRA // TABLETOP', Component: Tabletop },
   { path: '/cinema', title: 'Cinema', subtitle: 'EXTRA // SCREENING ROOM', Component: Cinema },
+  { path: '/rankings', title: 'Rankings', subtitle: 'EXTRA // TIER LISTS', Component: Rankings },
   { path: '/travel-log', title: 'Journey', subtitle: 'EXTRA // WORLD MAP', Component: TravelLog },
   { path: '/settings', title: 'Settings', subtitle: 'SYSTEM CONFIGURATION', Component: Settings },
   { path: '/credits', title: 'Credits', subtitle: 'ACKNOWLEDGMENTS', Component: Credits },

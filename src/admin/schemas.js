@@ -4,6 +4,23 @@ export const TECH_BUILDS_CATEGORY_ID = 'builds';
 /** Spare parts / on-hand hardware below Computer Builds */
 export const TECH_COMPONENT_INVENTORY_CATEGORY_ID = 'component-inventory';
 
+/** Peripherals and desk gear, shown with the builds */
+export const TECH_SETUP_CATEGORY_ID = 'setup';
+
+/** Software & Tools, the one section split into purpose groups */
+export const TECH_SOFTWARE_CATEGORY_ID = 'software';
+
+/** Purpose groups for Software & Tools, in display order */
+export const TECH_SOFTWARE_GROUPS = [
+  'QA & Tracking',
+  'Development & Design',
+  'Content Creation',
+  'Communication & Productivity',
+];
+
+/** Proficiency levels, strongest first; the page draws them as 3/2/1 pips */
+export const TECH_PROFICIENCY_LEVELS = ['Daily use', 'Comfortable', 'Familiar'];
+
 /** In-app tech editor: Builds use multi-tag checkboxes; inventory uses one category */
 export const TECH_HARDWARE_TAG_OPTIONS = [
   'GPU',
@@ -26,7 +43,15 @@ const TECH_ITEM_NAME_FIELD = {
 const TECH_ITEM_PROFICIENCY_FIELD = {
   key: 'proficiency',
   label: 'Proficiency',
-  type: 'text',
+  type: 'select',
+  options: TECH_PROFICIENCY_LEVELS,
+};
+
+const TECH_SOFTWARE_GROUP_FIELD = {
+  key: 'group',
+  label: 'Group',
+  type: 'select',
+  options: TECH_SOFTWARE_GROUPS,
 };
 
 export function techItemTagsFieldForCategoryId(categoryId) {
@@ -66,13 +91,26 @@ export const TECH_BUILD_ITEM_EXTRA_SCHEMA = [
   { key: 'cpu', label: 'CPU', type: 'text' },
   { key: 'gpu', label: 'GPU', type: 'text' },
   { key: 'ram', label: 'RAM', type: 'text' },
-  { key: 'storage', label: 'Storage', type: 'text' },
+  { key: 'storage', label: 'Storage (one drive per line)', type: 'textarea' },
   { key: 'motherboard', label: 'Motherboard', type: 'text' },
   { key: 'psu', label: 'PSU', type: 'text' },
   { key: 'case', label: 'Case', type: 'text' },
   { key: 'cooling', label: 'Cooling', type: 'text' },
   { key: 'extras', label: 'Other / Notes', type: 'textarea' },
   { key: 'specs', label: 'Free-form specs (legacy)', type: 'textarea' },
+];
+
+/** Shown only when category id is `setup` */
+export const TECH_SETUP_ITEM_EXTRA_SCHEMA = [
+  { key: 'monitor', label: 'Monitor (one per line)', type: 'textarea' },
+  { key: 'keyboard', label: 'Keyboard', type: 'text' },
+  { key: 'mouse', label: 'Mouse', type: 'text' },
+  { key: 'headset', label: 'Headset', type: 'text' },
+  { key: 'microphone', label: 'Microphone', type: 'text' },
+  { key: 'webcam', label: 'Webcam', type: 'text' },
+  { key: 'chair', label: 'Chair', type: 'text' },
+  { key: 'desk', label: 'Desk', type: 'text' },
+  { key: 'extras', label: 'Other / Notes', type: 'textarea' },
 ];
 
 /** Use for category id component-inventory (quantity + notes) */
@@ -110,6 +148,12 @@ export function getTechItemSchemaForCategoryId(categoryId) {
   }
   if (categoryId === TECH_COMPONENT_INVENTORY_CATEGORY_ID) {
     return [...base, ...TECH_INVENTORY_ITEM_EXTRA_SCHEMA];
+  }
+  if (categoryId === TECH_SETUP_CATEGORY_ID) {
+    return [...base, ...TECH_SETUP_ITEM_EXTRA_SCHEMA];
+  }
+  if (categoryId === TECH_SOFTWARE_CATEGORY_ID) {
+    return [base[0], TECH_SOFTWARE_GROUP_FIELD, ...base.slice(1)];
   }
   return base;
 }
@@ -233,6 +277,18 @@ export const schemas = {
   'steam-tierlist.tierLists': [
     { key: 'category', label: 'Category Name', type: 'text', required: true },
     { key: 'tiers', label: 'Tiers (S–F + Unplayed)', type: 'tiers' },
+  ],
+
+  'tierlists.tierLists': [
+    { key: 'id', label: 'ID', type: 'number', autoId: true },
+    { key: 'category', label: 'Category Name', type: 'text', required: true },
+    {
+      key: 'aspect',
+      label: 'Thumbnail shape',
+      type: 'select',
+      options: ['tall', 'cover'],
+    },
+    { key: 'tiers', label: 'Tiers, top to bottom (the last one holds unranked items)', type: 'list' },
   ],
 
   'steam-collections.collections': [

@@ -70,7 +70,7 @@ const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
   'changelog', 'steam-tierlist', 'menu', 'steam-overrides', 'steam-collections',
   'media', 'livestream', 'music', 'books', 'tabletop', 'travel', 'credits', 'steam-hallofpain',
-  'cinema', 'runescape',
+  'cinema', 'runescape', 'tierlists',
   // Admin-only, and deliberately never imported by a page: keeping the
   // "not interested" list out of the bundle keeps it out of public view.
   'cinema-dismissed',

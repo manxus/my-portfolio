@@ -61,14 +61,17 @@
 .tierRow[data-tier='B'] { --tier: var(--accent); }
 .tierRow[data-tier='C'] { --tier: #5b8fd1; }
 .tierRow[data-tier='D'] { --tier: #9a73c9; }
+.tierRow[data-tier='E'] { --tier: #c46a9e; }
 .tierRow[data-tier='F'] { --tier: var(--danger); }
-.tierRow[data-tier='unplayed'] { --tier: var(--text-dim); }
+.tierRow[data-tier='unplayed'],
+.tierRow[data-tier='?'] { --tier: var(--text-dim); }
 
 /* The dark-theme hues wash out on the light background. */
 :global([data-theme='light']) .tierRow[data-tier='S'] { --tier: #74580e; }
 :global([data-theme='light']) .tierRow[data-tier='A'] { --tier: #27692c; }
 :global([data-theme='light']) .tierRow[data-tier='C'] { --tier: #2c5d9b; }
 :global([data-theme='light']) .tierRow[data-tier='D'] { --tier: #6a449a; }
+:global([data-theme='light']) .tierRow[data-tier='E'] { --tier: #8e3468; }
 /* The shaded description cell would push these under 4.5:1 on light. */
 :global([data-theme='light']) .tierDesc { background: none; }
 
@@ -78,6 +81,8 @@
   /* Cover width; the strip height follows it, so every tier is exactly one
      cover tall whether it holds ten games or none. */
   --thumb-w: 72px;
+  /* Thumbnail height as a multiple of its width: 2:3 covers by default. */
+  --thumb-tall: 1.5;
   background: var(--bg-secondary);
   border: 1px solid rgba(95, 143, 143, 0.08);
   border-left: 3px solid var(--tier, var(--text-dim));
@@ -99,7 +104,8 @@
   border-right: 1px solid rgba(95, 143, 143, 0.1);
 }
 
-.tierLabel[data-tier='unplayed'] {
+.tierLabel[data-tier='unplayed'],
+.tierLabel[data-tier='?'] {
   font-size: 1.1rem;
 }
 
@@ -145,8 +151,8 @@
   gap: 0.4rem;
   padding: 0.35rem 0.5rem;
   flex-wrap: nowrap;
-  /* One cover (2:3 plus its 1px border) and the vertical padding. */
-  min-height: calc(var(--thumb-w) * 1.5 + 2px + 0.7rem);
+  /* One thumbnail (plus its 1px border) and the vertical padding. */
+  min-height: calc(var(--thumb-w) * var(--thumb-tall) + 2px + 0.7rem);
   overflow-x: auto;
   overscroll-behavior-x: contain;
   scrollbar-width: none;
@@ -167,6 +173,12 @@
   font-size: 0.6rem;
   color: var(--text-dim);
   padding: 0 0.25rem;
+}
+
+/* Drink cans and other tall product shots. */
+.tierGrid[data-aspect='tall'] .tierRow {
+  --thumb-w: 44px;
+  --thumb-tall: 2.6;
 }
 
 /* ---- Overflow arrows ---- */
@@ -211,7 +223,7 @@
 .gameThumb {
   position: relative;
   width: var(--thumb-w);
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 1 / var(--thumb-tall);
   overflow: hidden;
   flex-shrink: 0;
   border: 1px solid rgba(95, 143, 143, 0.1);
@@ -245,6 +257,10 @@
 @media (max-width: 768px) {
   .tierRow {
     --thumb-w: 52px;
+  }
+
+  .tierGrid[data-aspect='tall'] .tierRow {
+    --thumb-w: 34px;
   }
 
   .tierLabel {

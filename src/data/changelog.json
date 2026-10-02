@@ -1,6 +1,32 @@
 {
   "changelog": [
     {
+      "version": "1.15.0",
+      "date": "2026-10-02",
+      "entries": [
+        {
+          "type": "added",
+          "text": "Rankings — a new page of tier lists for everything that isn't a game, starting with 60+ Monster Energy flavours ranked S to F"
+        },
+        {
+          "type": "added",
+          "text": "Tech Loadout — a Desk Setup section for peripherals alongside the computer builds"
+        },
+        {
+          "type": "changed",
+          "text": "Tech Loadout — software grouped by purpose, proficiency shown as a level meter on every card, and only inventory categories that hold parts are listed"
+        },
+        {
+          "type": "changed",
+          "text": "Steam achievements — Almost There orders games by fewest achievements left instead of highest completion, and shows 24 games, matching Perfect Games"
+        },
+        {
+          "type": "fixed",
+          "text": "Tier list category tabs no longer nest buttons inside buttons, which raised console errors in admin mode"
+        }
+      ]
+    },
+    {
       "version": "1.14.0",
       "date": "2026-09-29",
       "entries": [

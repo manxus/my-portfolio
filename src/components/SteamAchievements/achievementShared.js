@@ -80,7 +80,8 @@ function hardestLeft(game) {
  * - gamesWithItems: games that carry full per-achievement detail
  * - unlockedAch: every unlocked achievement, annotated with appId + gameName
  * - perfectGames: 100%-completed games, most recently completed first
- * - nearComplete: unfinished games at NEAR_COMPLETE_MIN or above, closest first
+ * - nearComplete: unfinished games at NEAR_COMPLETE_MIN or above, fewest
+ *   achievements left first (ties go to the higher completion)
  */
 export function buildAchievementData(games) {
   const gamesWithItems = (games || []).filter(
@@ -112,7 +113,7 @@ export function buildAchievementData(games) {
       left: game.achievements.total - game.achievements.unlocked,
       hardestLeft: hardestLeft(game),
     }))
-    .sort((a, b) => b.pct - a.pct || a.left - b.left);
+    .sort((a, b) => a.left - b.left || b.pct - a.pct);
 
   return { gamesWithItems, unlockedAch, perfectGames, nearComplete };
 }

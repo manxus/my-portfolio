@@ -2,11 +2,16 @@ import { useState, useCallback, useRef, useEffect, useMemo, lazy, Suspense } fro
 import { motion, AnimatePresence } from 'framer-motion';
 import techData from '../data/tech.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
+import ConfirmDialog from '../admin/ConfirmDialog';
 import {
   getTechItemSchemaForCategoryId,
   TECH_BUILDS_CATEGORY_ID,
   TECH_COMPONENT_INVENTORY_CATEGORY_ID,
   TECH_HARDWARE_TAG_OPTIONS,
+  TECH_PROFICIENCY_LEVELS,
+  TECH_SETUP_CATEGORY_ID,
+  TECH_SOFTWARE_CATEGORY_ID,
+  TECH_SOFTWARE_GROUPS,
   TECH_INVENTORY_SUBGROUP_ROW_SCHEMA_HARDWARE,
   TECH_INVENTORY_SUBGROUP_ROW_SCHEMA_OTHER,
 } from '../admin/schemas';
@@ -20,27 +25,72 @@ const ContentEditor = lazy(() => import('../admin/ContentEditor'));
 
 const { techCategories } = techData;
 
-const BUILD_SPEC_KEYS = [
-  ['cpu', 'CPU'],
-  ['gpu', 'GPU'],
-  ['ram', 'RAM'],
-  ['storage', 'Storage'],
-  ['motherboard', 'Motherboard'],
-  ['psu', 'PSU'],
-  ['case', 'Case'],
-  ['cooling', 'Cooling'],
-];
+/** Spec-list fields per category; cards in these categories get the wide layout. */
+const SPEC_KEYS_BY_CATEGORY = {
+  [TECH_BUILDS_CATEGORY_ID]: [
+    ['cpu', 'CPU'],
+    ['gpu', 'GPU'],
+    ['ram', 'RAM'],
+    ['storage', 'Storage'],
+    ['motherboard', 'Motherboard'],
+    ['psu', 'PSU'],
+    ['case', 'Case'],
+    ['cooling', 'Cooling'],
+  ],
+  [TECH_SETUP_CATEGORY_ID]: [
+    ['monitor', 'Monitor'],
+    ['keyboard', 'Keyboard'],
+    ['mouse', 'Mouse'],
+    ['headset', 'Headset'],
+    ['microphone', 'Mic'],
+    ['webcam', 'Webcam'],
+    ['chair', 'Chair'],
+    ['desk', 'Desk'],
+  ],
+};
 
-function buildSpecLines(item) {
+/** A value may hold several entries, one per line (each drive, each monitor). */
+function specValues(v) {
+  if (v == null) return [];
+  return String(v)
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean);
+}
+
+function buildSpecLines(item, categoryId) {
   const lines = [];
-  for (const [key, label] of BUILD_SPEC_KEYS) {
-    const v = item[key];
-    if (v != null && String(v).trim()) lines.push({ key, label, value: String(v).trim() });
+  for (const [key, label] of SPEC_KEYS_BY_CATEGORY[categoryId] || []) {
+    const values = specValues(item[key]);
+    if (values.length > 0) lines.push({ key, label, values });
   }
-  if (item.extras != null && String(item.extras).trim()) {
-    lines.push({ key: 'extras', label: 'Other', value: String(item.extras).trim() });
-  }
+  const extras = specValues(item.extras);
+  if (extras.length > 0) lines.push({ key: 'extras', label: 'Other', values: extras });
   return lines;
+}
+
+/**
+ * Proficiency as filled pips: Daily use 3, Comfortable 2, Familiar 1. A value
+ * outside the scale (older free text) shows as plain text, without pips.
+ */
+function ProficiencyMeter({ value }) {
+  const text = value != null ? String(value).trim() : '';
+  if (!text) return null;
+  const rank = TECH_PROFICIENCY_LEVELS.findIndex(
+    (level) => level.toLowerCase() === text.toLowerCase(),
+  );
+  if (rank < 0) return <span className={styles.proficiency}>{text}</span>;
+  const filled = TECH_PROFICIENCY_LEVELS.length - rank;
+  return (
+    <span className={styles.proficiency}>
+      <span className={styles.pips} aria-hidden>
+        {TECH_PROFICIENCY_LEVELS.map((level, i) => (
+          <span key={level} className={`${styles.pip} ${i < filled ? styles.pipOn : ''}`} />
+        ))}
+      </span>
+      {TECH_PROFICIENCY_LEVELS[rank]}
+    </span>
+  );
 }
 
 function TechItemToolbar({
@@ -108,18 +158,22 @@ function TechItemToolbar({
 }
 
 function TechItemSpecs({ item, categoryId }) {
-  if (categoryId !== TECH_BUILDS_CATEGORY_ID) return null;
-  const lines = buildSpecLines(item);
+  if (!SPEC_KEYS_BY_CATEGORY[categoryId]) return null;
+  const lines = buildSpecLines(item, categoryId);
   const legacy = item.specs && String(item.specs).trim();
   if (lines.length === 0 && !legacy) return null;
   return (
     <>
       {lines.length > 0 && (
         <dl className={styles.specsList}>
-          {lines.map(({ key, label, value }) => (
+          {lines.map(({ key, label, values }) => (
             <div key={key} className={styles.specRow}>
               <dt>{label}</dt>
-              <dd>{value}</dd>
+              <dd>
+                {values.map((v, i) => (
+                  <span key={i} className={styles.specValue}>{v}</span>
+                ))}
+              </dd>
             </div>
           ))}
         </dl>
@@ -255,9 +309,7 @@ function TechInventoryItemCard({
           <span key={`${idx}-${tag}`} className={styles.tag}>{tag}</span>
         ))}
       </div>
-      {item.proficiency ? (
-        <span className={styles.proficiency}>{item.proficiency}</span>
-      ) : null}
+      <ProficiencyMeter value={item.proficiency} />
       <TechInventoryDetails item={item} />
     </div>
   );
@@ -346,8 +398,9 @@ function TechInventoryDropdownPanel({
     if (uncategorized.length > 0) {
       base.push({ label: 'Other', entries: uncategorized });
     }
-    return base;
-  }, [byCat, uncategorized]);
+    // Admin keeps the empty buckets: their edit button is how parts get added.
+    return showItemChrome ? base : base.filter((r) => r.entries.length > 0);
+  }, [byCat, uncategorized, showItemChrome]);
 
   return (
     <div className={styles.inventoryAccordionPanel}>
@@ -369,6 +422,69 @@ function TechInventoryDropdownPanel({
   );
 }
 
+function TechItemCard({ item, i, ci, categoryId, itemCount, showItemChrome, actions }) {
+  return (
+    <div className={`${styles.item} ${showItemChrome ? styles.itemWithAdmin : ''}`}>
+      <TechItemToolbar
+        itemIndex={i}
+        itemCount={itemCount}
+        onEdit={() => actions.openItemEdit(ci, i)}
+        onDelete={() => actions.handleItemDelete(ci, i)}
+        onMoveUp={() => actions.handleItemMove(ci, i, -1)}
+        onMoveDown={() => actions.handleItemMove(ci, i, 1)}
+      />
+      <h4 className={styles.itemName}>{item.name}</h4>
+      <div className={styles.tags}>
+        {(item.tags || []).map((tag) => (
+          <span key={tag} className={styles.tag}>{tag}</span>
+        ))}
+      </div>
+      <ProficiencyMeter value={item.proficiency} />
+      <TechItemSpecs item={item} categoryId={categoryId} />
+    </div>
+  );
+}
+
+/**
+ * Software split into purpose groups, in TECH_SOFTWARE_GROUPS order; anything
+ * without a known group lands under Other. Cards keep their index in the full
+ * list, which is what the admin move/edit/delete buttons act on.
+ */
+function SoftwareGroups({ cat, ci, showItemChrome, actions }) {
+  const groups = useMemo(() => {
+    const byGroup = new Map([...TECH_SOFTWARE_GROUPS, 'Other'].map((g) => [g, []]));
+    cat.items.forEach((item, i) => {
+      const key = TECH_SOFTWARE_GROUPS.includes(item.group) ? item.group : 'Other';
+      byGroup.get(key).push({ item, i });
+    });
+    return [...byGroup].filter(([, entries]) => entries.length > 0);
+  }, [cat.items]);
+
+  return (
+    <div className={styles.groups}>
+      {groups.map(([group, entries]) => (
+        <div key={group} className={styles.group}>
+          <h3 className={styles.groupTitle}>{group}</h3>
+          <div className={styles.itemList}>
+            {entries.map(({ item, i }) => (
+              <TechItemCard
+                key={`${cat.id}-${i}`}
+                item={item}
+                i={i}
+                ci={ci}
+                categoryId={cat.id}
+                itemCount={cat.items.length}
+                showItemChrome={showItemChrome}
+                actions={actions}
+              />
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 const stagger = {
   hidden: {},
   show: { transition: { staggerChildren: 0.06 } },
@@ -382,6 +498,7 @@ const fadeUp = {
 export default function Tech() {
   const [itemEdit, setItemEdit] = useState(null);
   const [inventorySubgroupEdit, setInventorySubgroupEdit] = useState(null);
+  const [pendingDelete, setPendingDelete] = useState(null);
   const itemEditPosRef = useRef({ ci: -1, ii: -1 });
   const inventorySubgroupEditRef = useRef({ ci: -1, rowLabel: '' });
   const getData = useAdminStore((s) => s.getData);
@@ -434,19 +551,34 @@ export default function Tech() {
     [getData, saveData],
   );
 
-  const handleItemDelete = useCallback(
-    async (ci, ii) => {
-      if (!confirm('Delete this entry?')) return;
-      try {
-        const fileData = await getData('tech');
-        fileData.techCategories[ci].items.splice(ii, 1);
-        await saveData('tech', fileData);
-      } catch (e) {
-        console.error(e);
+  const handleItemDelete = useCallback((ci, ii) => {
+    setPendingDelete({ ci, ii, name: techCategories[ci]?.items[ii]?.name, busy: false, error: '' });
+  }, []);
+
+  const confirmDelete = async () => {
+    const { ci, ii, name } = pendingDelete;
+    setPendingDelete((prev) => ({ ...prev, busy: true, error: '' }));
+    try {
+      const fileData = await getData('tech');
+      const items = fileData.techCategories[ci]?.items;
+      // The index came from the bundled copy, which can trail the file; only
+      // delete when it still points at the same entry.
+      if (!items || items[ii]?.name !== name) {
+        setPendingDelete((prev) => ({
+          ...prev,
+          busy: false,
+          error: 'That entry has moved in the file. Reload the page and try again.',
+        }));
+        return;
       }
-    },
-    [getData, saveData],
-  );
+      items.splice(ii, 1);
+      await saveData('tech', fileData);
+      setPendingDelete(null);
+    } catch (e) {
+      console.error(e);
+      setPendingDelete((prev) => ({ ...prev, busy: false, error: e.message }));
+    }
+  };
 
   const handleItemMove = useCallback(
     async (ci, fromIdx, delta) => {
@@ -508,6 +640,8 @@ export default function Tech() {
     [getData, saveData],
   );
 
+  const actions = { openItemEdit, handleItemDelete, handleItemMove };
+
   return (
     <motion.div
       className={styles.container}
@@ -517,7 +651,10 @@ export default function Tech() {
     >
       <EditableSection collection="tech" dataKey="techCategories">
         <div>
-          {techCategories.map((cat, ci) => (
+          {techCategories.map((cat, ci) => {
+            // Empty sections stay visible to admin, so they can be filled in.
+            if (cat.items.length === 0 && !showItemChrome) return null;
+            return (
             <motion.section key={cat.id} variants={fadeUp} className={styles.section}>
               <h2 className={styles.sectionTitle}>
                 <span className={styles.sectionIcon}>&gt;</span> {cat.title}
@@ -537,43 +674,42 @@ export default function Tech() {
                   handleItemDelete={handleItemDelete}
                   handleItemMove={handleItemMove}
                 />
+              ) : cat.id === TECH_SOFTWARE_CATEGORY_ID ? (
+                <SoftwareGroups
+                  cat={cat}
+                  ci={ci}
+                  showItemChrome={showItemChrome}
+                  actions={actions}
+                />
+              ) : cat.items.length === 0 ? (
+                <p className={styles.inventoryEmpty}>
+                  Nothing here yet. Add entries with the section&apos;s edit button.
+                </p>
               ) : (
                 <div
                   className={
-                    cat.id === TECH_BUILDS_CATEGORY_ID
+                    SPEC_KEYS_BY_CATEGORY[cat.id]
                       ? `${styles.itemList} ${styles.itemListBuilds}`
                       : styles.itemList
                   }
                 >
                   {cat.items.map((item, i) => (
-                    <div
+                    <TechItemCard
                       key={`${cat.id}-${i}`}
-                      className={`${styles.item} ${showItemChrome ? styles.itemWithAdmin : ''}`}
-                    >
-                      <TechItemToolbar
-                        itemIndex={i}
-                        itemCount={cat.items.length}
-                        onEdit={() => openItemEdit(ci, i)}
-                        onDelete={() => handleItemDelete(ci, i)}
-                        onMoveUp={() => handleItemMove(ci, i, -1)}
-                        onMoveDown={() => handleItemMove(ci, i, 1)}
-                      />
-                      <h4 className={styles.itemName}>{item.name}</h4>
-                      <div className={styles.tags}>
-                        {(item.tags || []).map((tag) => (
-                          <span key={tag} className={styles.tag}>{tag}</span>
-                        ))}
-                      </div>
-                      {item.proficiency && (
-                        <span className={styles.proficiency}>{item.proficiency}</span>
-                      )}
-                      <TechItemSpecs item={item} categoryId={cat.id} />
-                    </div>
+                      item={item}
+                      i={i}
+                      ci={ci}
+                      categoryId={cat.id}
+                      itemCount={cat.items.length}
+                      showItemChrome={showItemChrome}
+                      actions={actions}
+                    />
                   ))}
                 </div>
               )}
             </motion.section>
-          ))}
+            );
+          })}
         </div>
       </EditableSection>
 
@@ -607,6 +743,18 @@ export default function Tech() {
         ) : null}
       </AnimatePresence>
       </Suspense>
+
+      <AnimatePresence>
+        {pendingDelete && (
+          <ConfirmDialog
+            message={pendingDelete.name ? `Delete "${pendingDelete.name}"?` : 'Delete this entry?'}
+            error={pendingDelete.error}
+            busy={pendingDelete.busy}
+            onConfirm={confirmDelete}
+            onCancel={() => setPendingDelete(null)}
+          />
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 }

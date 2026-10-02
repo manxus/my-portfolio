@@ -99,10 +99,53 @@
 }
 
 .proficiency {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   font-family: var(--font-mono);
   font-size: 0.62rem;
   color: var(--text-secondary);
   letter-spacing: 0.03em;
+}
+
+/* Proficiency level: 3 pips, filled from the left. */
+.pips {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.pip {
+  width: 12px;
+  height: 4px;
+  border: 1px solid var(--accent-dim);
+}
+
+.pipOn {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ---- Software purpose groups ---- */
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.groupTitle {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
 }
 
 .specs {
@@ -153,6 +196,11 @@
   color: var(--text-secondary);
   overflow-wrap: break-word;
   word-break: normal;
+}
+
+/* One line per entry when a spec lists several (each drive, each monitor). */
+.specValue {
+  display: block;
 }
 
 .inventoryQty {

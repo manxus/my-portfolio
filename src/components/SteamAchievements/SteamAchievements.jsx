@@ -24,8 +24,8 @@ const BROWSE_SORTS = [
   { key: 'name', label: 'Alphabetical' },
 ];
 
-/** Almost There shows the closest few; the heading carries the full count. */
-const NEAR_COMPLETE_SHOWN = 12;
+/** How many games Almost There and Perfect Games show; each heading carries the full count. */
+const COVER_STRIP_SHOWN = 24;
 
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
@@ -176,11 +176,11 @@ export default function SteamAchievements({ games }) {
                   ALMOST THERE · {nearComplete.length}
                 </h2>
                 <p className={styles.blockHint}>
-                  {Math.round(NEAR_COMPLETE_MIN * 100)}%+ complete, closest first
+                  {Math.round(NEAR_COMPLETE_MIN * 100)}%+ complete, fewest achievements left first
                 </p>
               </div>
               <div className={styles.coverStrip}>
-                {nearComplete.slice(0, NEAR_COMPLETE_SHOWN).map((g) => {
+                {nearComplete.slice(0, COVER_STRIP_SHOWN).map((g) => {
                   const { unlocked, total } = g.achievements;
                   const hardest = g.hardestLeft
                     ? ` — hardest left: ${g.hardestLeft.name} (${fmtPct(g.hardestLeft.globalPct)})`
@@ -215,7 +215,7 @@ export default function SteamAchievements({ games }) {
                 </p>
               </div>
               <div className={styles.coverStrip}>
-                {perfectGames.slice(0, 24).map((g) => (
+                {perfectGames.slice(0, COVER_STRIP_SHOWN).map((g) => (
                   <motion.div
                     key={g.appId}
                     variants={fadeUp}

@@ -1,0 +1,354 @@
+{
+  "tierLists": [
+    {
+      "id": 1,
+      "category": "Monster Energy",
+      "aspect": "tall",
+      "tiers": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "?"
+      ],
+      "items": {
+        "ultra": {
+          "name": "Ultra",
+          "image": "/uploads/tier-monster-energy-ultra.png?v=1790892750083"
+        },
+        "mango-loco": {
+          "name": "Mango Loco",
+          "image": "/uploads/tier-monster-energy-mango-loco.png?v=1790892808058"
+        },
+        "ultra-gold": {
+          "name": "Ultra Gold",
+          "image": "/uploads/tier-monster-energy-ultra-gold.png?v=1790892845098"
+        },
+        "ultra-watermelon": {
+          "name": "Ultra Watermelon",
+          "image": "/uploads/tier-monster-energy-ultra-watermelon.png?v=1790892870836"
+        },
+        "pipeline-punch": {
+          "name": "Pipeline Punch",
+          "image": "/uploads/tier-monster-energy-pipeline-punch.png?v=1790892921084"
+        },
+        "ultra-rosa": {
+          "name": "Ultra Rosá",
+          "image": "/uploads/tier-monster-energy-ultra-rosa.png?v=1790893008924"
+        },
+        "reserve-white-pineapple": {
+          "name": "Reserve White Pineapple",
+          "image": "/uploads/tier-monster-energy-reserve-white-pineapple.png?v=1790893045547"
+        },
+        "ultra-peachy-keen": {
+          "name": "Ultra Peachy Keen",
+          "image": "/uploads/tier-monster-energy-ultra-peachy-keen.png?v=1790893078943"
+        },
+        "ultra-blue-hawaiian": {
+          "name": "Ultra Blue Hawaiian",
+          "image": "/uploads/tier-monster-energy-ultra-blue-hawaiian.png?v=1790893114315"
+        },
+        "ultra-red-white-blue-razz": {
+          "name": "Ultra Red White & Blue Razz",
+          "image": "/uploads/tier-monster-energy-ultra-red-white-blue-razz.png?v=1790893150614"
+        },
+        "ultra-paradise": {
+          "name": "Ultra Paradise",
+          "image": "/uploads/tier-monster-energy-ultra-paradise.png?v=1790893185781"
+        },
+        "ultra-mango-fiesta": {
+          "name": "Ultra Mango Fiesta",
+          "image": "/uploads/tier-monster-energy-ultra-mango-fiesta.png?v=1790893251100"
+        },
+        "pacific-punch": {
+          "name": "Pacific Punch",
+          "image": "/uploads/tier-monster-energy-pacific-punch.png?v=1790893305398"
+        },
+        "ultra-red": {
+          "name": "Ultra Red",
+          "image": "/uploads/tier-monster-energy-ultra-red.png?v=1790893348682"
+        },
+        "strawberry-dreams": {
+          "name": "Strawberry Dreams",
+          "image": "/uploads/tier-monster-energy-strawberry-dreams.png?v=1790893381355"
+        },
+        "rio-punch": {
+          "name": "Rio Punch",
+          "image": "/uploads/tier-monster-energy-rio-punch.png?v=1790893424608"
+        },
+        "viking-berry": {
+          "name": "Viking Berry",
+          "image": "/uploads/tier-monster-energy-viking-berry.png?v=1790893458299"
+        },
+        "fantasy-ruby-red": {
+          "name": "Fantasy Ruby Red",
+          "image": "/uploads/tier-monster-energy-fantasy-ruby-red.png?v=1790893486788"
+        },
+        "ultra-blue": {
+          "name": "Ultra Blue",
+          "image": "/uploads/tier-monster-energy-ultra-blue.webp?v=1790898046874"
+        },
+        "original": {
+          "name": "Original",
+          "image": "/uploads/tier-monster-energy-original.png?v=1790893642389"
+        },
+        "khaotic": {
+          "name": "Khaotic",
+          "image": "/uploads/tier-monster-energy-khaotic.png?v=1790893675003"
+        },
+        "ripper": {
+          "name": "Ripper",
+          "image": "/uploads/tier-monster-energy-ripper.png?v=1790894283375"
+        },
+        "ultra-sunrise": {
+          "name": "Ultra Sunrise",
+          "image": "/uploads/tier-monster-energy-ultra-sunrise.png?v=1790894319916"
+        },
+        "khoas": {
+          "name": "Khoas",
+          "image": "/uploads/tier-monster-energy-khoas.webp?v=1790894497914"
+        },
+        "lewis-hamilton": {
+          "name": "Lewis Hamilton",
+          "image": "/uploads/tier-monster-energy-lewis-hamilton.png?v=1790894550338"
+        },
+        "aussie-lemonade": {
+          "name": "Aussie Lemonade",
+          "image": "/uploads/tier-monster-energy-aussie-lemonade.png?v=1790894584454"
+        },
+        "rehab-lemon-tea": {
+          "name": "Rehab Lemon Tea",
+          "image": "/uploads/tier-monster-energy-rehab-lemon-tea.webp?v=1790894625244"
+        },
+        "original-zero-sugar": {
+          "name": "Original Zero Sugar",
+          "image": "/uploads/tier-monster-energy-original-zero-sugar.png?v=1790894655912"
+        },
+        "bad-apple": {
+          "name": "Bad Apple",
+          "image": "/uploads/tier-monster-energy-bad-apple.png?v=1790894697351"
+        },
+        "ultra-black": {
+          "name": "Ultra Black",
+          "image": "/uploads/tier-monster-energy-ultra-black.webp?v=1790894746302"
+        },
+        "lewis-hamilton-2": {
+          "name": "Lewis Hamilton",
+          "image": "/uploads/tier-monster-energy-lewis-hamilton-2.png?v=1790894786701"
+        },
+        "ultra-citron": {
+          "name": "Ultra Citron",
+          "image": "/uploads/tier-monster-energy-ultra-citron.png?v=1790894807962"
+        },
+        "assault": {
+          "name": "Assault",
+          "image": "/uploads/tier-monster-energy-assault.webp?v=1790896621234"
+        },
+        "cuba-libre": {
+          "name": "Cuba Libre",
+          "image": "/uploads/tier-monster-energy-cuba-libre.png?v=1790896650586"
+        },
+        "m3": {
+          "name": "M3",
+          "image": "/uploads/tier-monster-energy-m3.webp?v=1790896691045"
+        },
+        "monarch": {
+          "name": "Monarch",
+          "image": "/uploads/tier-monster-energy-monarch.png?v=1790896711615"
+        },
+        "reserve-watermelon": {
+          "name": "Reserve Watermelon",
+          "image": "/uploads/tier-monster-energy-reserve-watermelon.png?v=1790896735636"
+        },
+        "rehab-peach-tea": {
+          "name": "Rehab Peach Tea",
+          "image": "/uploads/tier-monster-energy-rehab-peach-tea.png?v=1790896769110"
+        },
+        "chinese-dragon-tea": {
+          "name": "Chinese Dragon Tea",
+          "image": "/uploads/tier-monster-energy-chinese-dragon-tea.png?v=1790897019835"
+        },
+        "nitro-cosmic-peach": {
+          "name": "Nitro Cosmic Peach",
+          "image": "/uploads/tier-monster-energy-nitro-cosmic-peach.png?v=1790897042886"
+        },
+        "vr46": {
+          "name": "VR46",
+          "image": "/uploads/tier-monster-energy-vr46.png?v=1790897067938"
+        },
+        "strawberry-lemonade": {
+          "name": "Strawberry Lemonade",
+          "image": "/uploads/tier-monster-energy-strawberry-lemonade.png?v=1790897090757"
+        },
+        "orange-dreamsicle": {
+          "name": "Orange Dreamsicle",
+          "image": "/uploads/tier-monster-energy-orange-dreamsicle.png?v=1790897112977"
+        },
+        "the-doctor": {
+          "name": "The Doctor",
+          "image": "/uploads/tier-monster-energy-the-doctor.png?v=1790897135928"
+        },
+        "baller-s-blend": {
+          "name": "Baller's Blend",
+          "image": "/uploads/tier-monster-energy-baller-s-blend.png?v=1790897162470"
+        },
+        "nitro": {
+          "name": "Nitro",
+          "image": "/uploads/tier-monster-energy-nitro.png?v=1790897187964"
+        },
+        "lando-norris": {
+          "name": "Lando Norris",
+          "image": "/uploads/tier-monster-energy-lando-norris.webp?v=1790897212342"
+        },
+        "java-mean-bean": {
+          "name": "Java Mean Bean",
+          "image": "/uploads/tier-monster-energy-java-mean-bean.png?v=1790897259348"
+        },
+        "irish-creme": {
+          "name": "Irish Crème",
+          "image": "/uploads/tier-monster-energy-irish-creme.png?v=1790897296863"
+        },
+        "ultra-violet": {
+          "name": "Ultra Violet",
+          "image": "/uploads/tier-monster-energy-ultra-violet.webp?v=1790897337590"
+        },
+        "vanilla-espresso": {
+          "name": "Espresso Vanilla",
+          "image": "/uploads/tier-monster-energy-vanilla-espresso.webp?v=1790897428793"
+        },
+        "espresso-milk": {
+          "name": "Espresso & Milk",
+          "image": "/uploads/tier-monster-energy-espresso-milk.png?v=1790897464261"
+        },
+        "espresso-salted-caramel": {
+          "name": "Espresso Salted Caramel",
+          "image": "/uploads/tier-monster-energy-espresso-salted-caramel.png?v=1790897533714"
+        },
+        "java-swiss-chocolate": {
+          "name": "Java Swiss Chocolate",
+          "image": "/uploads/tier-monster-energy-java-swiss-chocolate.webp?v=1790897595702"
+        },
+        "zero-sugar": {
+          "name": "Zero Sugar",
+          "image": "/uploads/tier-monster-energy-zero-sugar.png?v=1790897629253"
+        },
+        "gronk": {
+          "name": "Gronk",
+          "image": "/uploads/tier-monster-energy-gronk.png?v=1790897660329"
+        },
+        "mixxd": {
+          "name": "Mixxd",
+          "image": "/uploads/tier-monster-energy-mixxd.png?v=1790897686271"
+        },
+        "dragon-green-tea": {
+          "name": "Dragon Tea Green Tea",
+          "image": "/uploads/tier-monster-energy-dragon-green-tea.png?v=1790897735856"
+        },
+        "dragon-white-tea": {
+          "name": "Dragon Tea White Tea",
+          "image": "/uploads/tier-monster-energy-dragon-white-tea.png?v=1790897773239"
+        },
+        "dragon-tea-yerba-mate": {
+          "name": "Dragon Tea Yerba Mate",
+          "image": "/uploads/tier-monster-energy-dragon-tea-yerba-mate.png?v=1790897838666"
+        },
+        "mule": {
+          "name": "Mule",
+          "image": "/uploads/tier-monster-energy-mule.png?v=1790897883440"
+        },
+        "rehab-raspberry-tea": {
+          "name": "Rehab Raspberry Tea",
+          "image": "/uploads/tier-monster-energy-rehab-raspberry-tea.png?v=1790897903012"
+        },
+        "ultra-vice-guava": {
+          "name": "Ultra Vice Guava",
+          "image": "/uploads/tier-monster-energy-ultra-vice-guava.png?v=1790897930751"
+        }
+      },
+      "placement": {
+        "S": [
+          "ultra",
+          "mango-loco"
+        ],
+        "A": [
+          "ultra-gold",
+          "ultra-watermelon",
+          "pipeline-punch",
+          "ultra-rosa",
+          "reserve-white-pineapple",
+          "ultra-peachy-keen",
+          "ultra-blue-hawaiian",
+          "ultra-red-white-blue-razz"
+        ],
+        "B": [
+          "ultra-paradise",
+          "ultra-mango-fiesta",
+          "pacific-punch",
+          "ultra-red",
+          "strawberry-dreams",
+          "rio-punch",
+          "viking-berry",
+          "fantasy-ruby-red"
+        ],
+        "C": [
+          "original",
+          "original-zero-sugar",
+          "ultra-blue",
+          "khaotic",
+          "ripper",
+          "ultra-sunrise",
+          "khoas",
+          "lewis-hamilton",
+          "aussie-lemonade",
+          "rehab-lemon-tea",
+          "bad-apple"
+        ],
+        "D": [
+          "ultra-black",
+          "lewis-hamilton-2",
+          "ultra-citron",
+          "assault",
+          "cuba-libre",
+          "m3",
+          "monarch",
+          "reserve-watermelon",
+          "rehab-peach-tea",
+          "chinese-dragon-tea",
+          "nitro-cosmic-peach",
+          "vr46",
+          "strawberry-lemonade",
+          "orange-dreamsicle"
+        ],
+        "E": [
+          "the-doctor",
+          "baller-s-blend",
+          "nitro",
+          "lando-norris"
+        ],
+        "F": [
+          "ultra-violet",
+          "vanilla-espresso",
+          "espresso-milk",
+          "espresso-salted-caramel",
+          "java-mean-bean",
+          "irish-creme",
+          "java-swiss-chocolate"
+        ],
+        "?": [
+          "zero-sugar",
+          "gronk",
+          "mixxd",
+          "dragon-green-tea",
+          "dragon-white-tea",
+          "dragon-tea-yerba-mate",
+          "mule",
+          "rehab-raspberry-tea",
+          "ultra-vice-guava"
+        ]
+      }
+    }
+  ]
+}

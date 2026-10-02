@@ -86,6 +86,12 @@
           "description": "Movies and shows watched, dropped, and queued up."
         },
         {
+          "id": "rankings",
+          "label": "RANKINGS",
+          "path": "/rankings",
+          "description": "Tier lists for everything that isn't a game."
+        },
+        {
           "id": "journey",
           "label": "JOURNEY",
           "path": "/travel-log",
