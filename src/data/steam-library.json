@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-10-01T12:25:25.528Z",
+  "fetchedAt": "2026-10-02T11:54:58.055Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1790819192
+    "lastLogoff": 1790907332
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3492,
+      "playtimeHours": 3493.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -41617,6 +41617,555 @@
       }
     },
     {
+      "appId": 892970,
+      "name": "Valheim",
+      "playtimeHours": 147.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/f1e8baf786351dc0f6ebafe4c774f861caf6ca4a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/764753d82eba34b3ca8044f86b00ea7a575ea74c/library_header_2x.jpg",
+      "achievements": {
+        "total": 53,
+        "unlocked": 16,
+        "items": [
+          {
+            "apiName": "BuildHigh",
+            "name": "Mighty Halls",
+            "description": "Raise a very tall structure.",
+            "icon": "c67946326d7a3cfa190e23c092abcb6203d4b48d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "BuildHighWorld",
+            "name": "Top of the World",
+            "description": "Build something very high up.",
+            "icon": "80dcbeb36d0a38c48b59366c65a510607b2f3976",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "DeathByAllTypes",
+            "name": "Are You Alright?",
+            "description": "Die in every way possible.",
+            "icon": "df80631637ec0de3c4d7017f3d25a7a0f9c2a4e4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllBosses",
+            "name": "The Viking",
+            "description": "Defeat all bosses on any difficulty.",
+            "icon": "190dea63a8f7f82a7688f764416e7843b36062c2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllMiniBosses",
+            "name": "Odin is Pleased",
+            "description": "Defeat all minibosses.",
+            "icon": "7f3f3cd06e079bc2a00507f97429a81c4bda6ddf",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "Arrived",
+            "name": "I Have Arrived!",
+            "description": "",
+            "icon": "63534b06771e32d358b7f7aa40cadbfcce7e6a6d",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1788959769,
+            "globalPct": null
+          },
+          {
+            "apiName": "FirstDeath",
+            "name": "The First of Many",
+            "description": "",
+            "icon": "35b3d161c17d9b09ed002c5d0c5ab243ecc9b8d1",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1788960474,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss1Eikthyr",
+            "name": "Eikthyr",
+            "description": "",
+            "icon": "7e1cf56c4043d2b2aad0274942709f29acba6f62",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1788969870,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss2Elder",
+            "name": "The Elder",
+            "description": "",
+            "icon": "4310afd3ed9fffa67496b56bbe994ac8743ca51c",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1789561046,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss3Bonemass",
+            "name": "Bonemass",
+            "description": "",
+            "icon": "31b3b3e61e213de6416b931544da4f14f3293323",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1790778169,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss4Moder",
+            "name": "Moder",
+            "description": "",
+            "icon": "b9e103c6f8a09b2fdb8ab53f706d94bc7ca7e5e3",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss5Yagluth",
+            "name": "Yagluth",
+            "description": "",
+            "icon": "d201109e8ef7c602d5dc936450ea4d44f86f8c07",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss6Queen",
+            "name": "The Seeker Queen",
+            "description": "",
+            "icon": "0b336642eccde21d742ead58b6eb247d2d68e62e",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss7Fader",
+            "name": "Fader",
+            "description": "",
+            "icon": "b8181d590f8b3d1da0272970a19d665119ee3973",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "Boss8FrozenKing",
+            "name": "Kall Fimbulbringer",
+            "description": "",
+            "icon": "859c585b71eee0129b048b7353af58bb52860332",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "DeathByObliterator",
+            "name": "Obliterated",
+            "description": "",
+            "icon": "4a94d21386836a552646d1335263fb328549f8a6",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "DeathByTree",
+            "name": "Accidents Happen",
+            "description": "",
+            "icon": "b1e4855f64c66a40975becd8a7fe20aeca102cc8",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "DeathByTreeAll",
+            "name": "That Can't Be an Accident",
+            "description": "",
+            "icon": "3f2e42c825489bb7f13226e5f3a30a692ac6b511",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindTrees",
+            "name": "The Lumberjack",
+            "description": "Cut down 500 trees.",
+            "icon": "5cc78c6f05026bafc88fff71f7f4c9590f79db8a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindCook",
+            "name": "The Cook",
+            "description": "Cook 100 dishes.",
+            "icon": "9cbb176d3a0e5fbf1f6d411f5245ba848a921e73",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789568369,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindHarvest",
+            "name": "The Farmer",
+            "description": "Harvest 500 crops.",
+            "icon": "90fa8302a69223ba7361c0872ba2a2f80e1c2e1c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789713173,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindForager",
+            "name": "The Forager",
+            "description": "Pick 250 berries and 250 mushrooms.",
+            "icon": "26fb83790d3a2a95bffc0d300f604cd48a2720a3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789578973,
+            "globalPct": null
+          },
+          {
+            "apiName": "KillAllCreatures",
+            "name": "The Hunter",
+            "description": "Kill every kind of creature.",
+            "icon": "bb5543406cc8bbf45db64a7a344aed2bc18fc3d3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "KillAllCreaturesHard",
+            "name": "The Master Hunter",
+            "description": "Kill every kind of creature on hard difficulty.",
+            "icon": "9bbc7144542cefabac6b05d2bb7b8f0f341ede11",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "FindAllTrophies",
+            "name": "The Trophy Collector",
+            "description": "Collect all trophies.",
+            "icon": "d2b64655d5dd898ef38841cee094a9885ac65a87",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "BuildHouse",
+            "name": "The Homesteader",
+            "description": "Build a house.",
+            "icon": "8123144c57291c8528150704740f38932abd4afb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789550981,
+            "globalPct": null
+          },
+          {
+            "apiName": "BuildVillage",
+            "name": "The Architect",
+            "description": "Build a village.",
+            "icon": "671fedd891f5f64dbf4e1da9a8a0bf18131249de",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789997918,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindHoney",
+            "name": "The Beekeeper",
+            "description": "Harvest 500 honey.",
+            "icon": "2bf7a0bee78059a2a12e7fc542414f5eae3b1d5f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789828642,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindEat",
+            "name": "No Adventuring On an Empty Stomach",
+            "description": "Eat 500 items of food.",
+            "icon": "61f88c7ebfade8edb46d99ea16a94ac59d59d240",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789975728,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllBossesNormal",
+            "name": "The Tough Viking",
+            "description": "Defeat all bosses on normal difficulty or higher.",
+            "icon": "049dc17e46e24bb217573fb155dc5e2cdce41d10",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllBossesHard",
+            "name": "The Toughest Viking",
+            "description": "Defeat all bosses on hard difficulty.",
+            "icon": "626c08c4cb9a67c6a79c52df666225325acc02a5",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindDays",
+            "name": "The Survivor",
+            "description": "Survive for 30 consecutive days.",
+            "icon": "060f01d8ae180d61f10cd224caaae003487fd5ad",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1790244074,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindComfort",
+            "name": "Comfort is King",
+            "description": "Reach a comfort level of 20.",
+            "icon": "d770fee523b33a7c52a6a1a5c8d8f26c016ae1ae",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "SailEdge",
+            "name": "The Legends Are True",
+            "description": "",
+            "icon": "f451691aca010fff0ca5f60d01438793f2e0e085",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindTreasure",
+            "name": "The Treasure Hunter",
+            "description": "",
+            "icon": "ba35ab17366761e2a2a5e3d79474b6ca2d3ee53b",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindLeviathan",
+            "name": "No Time For Snoozing",
+            "description": "",
+            "icon": "00eda85c2ba32ffb3cf455b8c107144d4ee8c591",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindFish",
+            "name": "The Fisherman",
+            "description": "Catch every kind of fish.",
+            "icon": "6ed85097507ec73156e66eacf38d3870aa8fcf13",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "ExploreNSEW",
+            "name": "The Explorer",
+            "description": "Travel far in all four directions.",
+            "icon": "971bd1594d4ebf2a8a73dec786b104c78476056e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "ExploreNSEWNoMap",
+            "name": "The Pathfinder",
+            "description": "Travel far in all four directions, without using a map.",
+            "icon": "d27519014d7ca453a948bc81e267b4508e85d0f0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "BuildDyrnwyn",
+            "name": "The Chosen One",
+            "description": "",
+            "icon": "2a1286c658aa8bb8f34c0c2f1f4e30a4688ad496",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllWeaponCraft",
+            "name": "The Blacksmith",
+            "description": "Craft every kind of weapon.",
+            "icon": "48e2c3ede71a32749e880d944ed916ce90ef2744",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllFoodCooked",
+            "name": "The Master Chef",
+            "description": "Cook every kind of dish.",
+            "icon": "329a4ed1067563736e4a36abf52b05940ba11f8a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllItemCraft",
+            "name": "The Artisan",
+            "description": "Craft every kind of item.",
+            "icon": "9a4736aed8b7e955ca22b9014a65d1a5c9dcd749",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllFoodEaten",
+            "name": "The Gourmet",
+            "description": "Eat every kind of edible item.",
+            "icon": "76b473c09437e425550a915a403b14d8695d21a6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "AllBuildPieces",
+            "name": "The Carpenter",
+            "description": "Build everything.",
+            "icon": "250ad8718bd2107f4d6292e9ec5e6bc2dbae3a1a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "KingsQueens",
+            "name": "Kings and Queens of Valheim",
+            "description": "Embody the spirits of the Viking, Hunter, Artisan, Master Chef, Carpenter and the Explorer.",
+            "icon": "0fb3d6b23603a4a3baf8fd672e476243f0b207fe",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "ChildOfOdin",
+            "name": "Child of Odin",
+            "description": "Embody the spirits of the Toughest Viking, Master Hunter, Survivor and Pathfinder.",
+            "icon": "017a82e2f986d540466119aeacb50be1eae7e532",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "MultiplayerBoss",
+            "name": "Stronger Together",
+            "description": "Kill a boss together with a friend.",
+            "icon": "adcfc8d86d8b4acaf53a83047ffb776cdff1ad44",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1788969877,
+            "globalPct": null
+          },
+          {
+            "apiName": "SoloBoss",
+            "name": "Lone Wolf",
+            "description": "Kill a boss all by yourself.",
+            "icon": "abbca6d6f472cc3e47af7769d077b69ef6a74eea",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789551701,
+            "globalPct": null
+          },
+          {
+            "apiName": "BigFish",
+            "name": "A Catch Worthy of Njord",
+            "description": "Catch a four star fish.",
+            "icon": "eb00cd5fef98c095ea33f3a3e03daa621d4dd122",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindBuild",
+            "name": "The Builder",
+            "description": "Build 500 pieces.",
+            "icon": "282cdb73be83710285b2614ec42f74eb78ab9e7b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1789711491,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindSail",
+            "name": "The Sailor",
+            "description": "Sail far enough to circle the world twice.",
+            "icon": "ba7b54f167619f1a646b8f298955ad8e7716a7dd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          },
+          {
+            "apiName": "GrindSailHelm",
+            "name": "The Captain",
+            "description": "Sail far enough to circle the world, while manning the helm.",
+            "icon": "1456505d3f097ed5b7c7f863d5f683133af51304",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": null
+          }
+        ]
+      }
+    },
+    {
       "appId": 602960,
       "name": "Barotrauma",
       "playtimeHours": 147.5,
@@ -47429,555 +47978,6 @@
             "unlocked": true,
             "unlockTime": 1740433963,
             "globalPct": 7.6
-          }
-        ]
-      }
-    },
-    {
-      "appId": 892970,
-      "name": "Valheim",
-      "playtimeHours": 141,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/f1e8baf786351dc0f6ebafe4c774f861caf6ca4a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/764753d82eba34b3ca8044f86b00ea7a575ea74c/library_header_2x.jpg",
-      "achievements": {
-        "total": 53,
-        "unlocked": 16,
-        "items": [
-          {
-            "apiName": "BuildHigh",
-            "name": "Mighty Halls",
-            "description": "Raise a very tall structure.",
-            "icon": "c67946326d7a3cfa190e23c092abcb6203d4b48d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "BuildHighWorld",
-            "name": "Top of the World",
-            "description": "Build something very high up.",
-            "icon": "80dcbeb36d0a38c48b59366c65a510607b2f3976",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "DeathByAllTypes",
-            "name": "Are You Alright?",
-            "description": "Die in every way possible.",
-            "icon": "df80631637ec0de3c4d7017f3d25a7a0f9c2a4e4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllBosses",
-            "name": "The Viking",
-            "description": "Defeat all bosses on any difficulty.",
-            "icon": "190dea63a8f7f82a7688f764416e7843b36062c2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllMiniBosses",
-            "name": "Odin is Pleased",
-            "description": "Defeat all minibosses.",
-            "icon": "7f3f3cd06e079bc2a00507f97429a81c4bda6ddf",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "Arrived",
-            "name": "I Have Arrived!",
-            "description": "",
-            "icon": "63534b06771e32d358b7f7aa40cadbfcce7e6a6d",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1788959769,
-            "globalPct": null
-          },
-          {
-            "apiName": "FirstDeath",
-            "name": "The First of Many",
-            "description": "",
-            "icon": "35b3d161c17d9b09ed002c5d0c5ab243ecc9b8d1",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1788960474,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss1Eikthyr",
-            "name": "Eikthyr",
-            "description": "",
-            "icon": "7e1cf56c4043d2b2aad0274942709f29acba6f62",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1788969870,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss2Elder",
-            "name": "The Elder",
-            "description": "",
-            "icon": "4310afd3ed9fffa67496b56bbe994ac8743ca51c",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1789561046,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss3Bonemass",
-            "name": "Bonemass",
-            "description": "",
-            "icon": "31b3b3e61e213de6416b931544da4f14f3293323",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1790778169,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss4Moder",
-            "name": "Moder",
-            "description": "",
-            "icon": "b9e103c6f8a09b2fdb8ab53f706d94bc7ca7e5e3",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss5Yagluth",
-            "name": "Yagluth",
-            "description": "",
-            "icon": "d201109e8ef7c602d5dc936450ea4d44f86f8c07",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss6Queen",
-            "name": "The Seeker Queen",
-            "description": "",
-            "icon": "0b336642eccde21d742ead58b6eb247d2d68e62e",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss7Fader",
-            "name": "Fader",
-            "description": "",
-            "icon": "b8181d590f8b3d1da0272970a19d665119ee3973",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "Boss8FrozenKing",
-            "name": "Kall Fimbulbringer",
-            "description": "",
-            "icon": "859c585b71eee0129b048b7353af58bb52860332",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "DeathByObliterator",
-            "name": "Obliterated",
-            "description": "",
-            "icon": "4a94d21386836a552646d1335263fb328549f8a6",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "DeathByTree",
-            "name": "Accidents Happen",
-            "description": "",
-            "icon": "b1e4855f64c66a40975becd8a7fe20aeca102cc8",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "DeathByTreeAll",
-            "name": "That Can't Be an Accident",
-            "description": "",
-            "icon": "3f2e42c825489bb7f13226e5f3a30a692ac6b511",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindTrees",
-            "name": "The Lumberjack",
-            "description": "Cut down 500 trees.",
-            "icon": "5cc78c6f05026bafc88fff71f7f4c9590f79db8a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindCook",
-            "name": "The Cook",
-            "description": "Cook 100 dishes.",
-            "icon": "9cbb176d3a0e5fbf1f6d411f5245ba848a921e73",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789568369,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindHarvest",
-            "name": "The Farmer",
-            "description": "Harvest 500 crops.",
-            "icon": "90fa8302a69223ba7361c0872ba2a2f80e1c2e1c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789713173,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindForager",
-            "name": "The Forager",
-            "description": "Pick 250 berries and 250 mushrooms.",
-            "icon": "26fb83790d3a2a95bffc0d300f604cd48a2720a3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789578973,
-            "globalPct": null
-          },
-          {
-            "apiName": "KillAllCreatures",
-            "name": "The Hunter",
-            "description": "Kill every kind of creature.",
-            "icon": "bb5543406cc8bbf45db64a7a344aed2bc18fc3d3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "KillAllCreaturesHard",
-            "name": "The Master Hunter",
-            "description": "Kill every kind of creature on hard difficulty.",
-            "icon": "9bbc7144542cefabac6b05d2bb7b8f0f341ede11",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "FindAllTrophies",
-            "name": "The Trophy Collector",
-            "description": "Collect all trophies.",
-            "icon": "d2b64655d5dd898ef38841cee094a9885ac65a87",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "BuildHouse",
-            "name": "The Homesteader",
-            "description": "Build a house.",
-            "icon": "8123144c57291c8528150704740f38932abd4afb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789550981,
-            "globalPct": null
-          },
-          {
-            "apiName": "BuildVillage",
-            "name": "The Architect",
-            "description": "Build a village.",
-            "icon": "671fedd891f5f64dbf4e1da9a8a0bf18131249de",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789997918,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindHoney",
-            "name": "The Beekeeper",
-            "description": "Harvest 500 honey.",
-            "icon": "2bf7a0bee78059a2a12e7fc542414f5eae3b1d5f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789828642,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindEat",
-            "name": "No Adventuring On an Empty Stomach",
-            "description": "Eat 500 items of food.",
-            "icon": "61f88c7ebfade8edb46d99ea16a94ac59d59d240",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789975728,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllBossesNormal",
-            "name": "The Tough Viking",
-            "description": "Defeat all bosses on normal difficulty or higher.",
-            "icon": "049dc17e46e24bb217573fb155dc5e2cdce41d10",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllBossesHard",
-            "name": "The Toughest Viking",
-            "description": "Defeat all bosses on hard difficulty.",
-            "icon": "626c08c4cb9a67c6a79c52df666225325acc02a5",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindDays",
-            "name": "The Survivor",
-            "description": "Survive for 30 consecutive days.",
-            "icon": "060f01d8ae180d61f10cd224caaae003487fd5ad",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1790244074,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindComfort",
-            "name": "Comfort is King",
-            "description": "Reach a comfort level of 20.",
-            "icon": "d770fee523b33a7c52a6a1a5c8d8f26c016ae1ae",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "SailEdge",
-            "name": "The Legends Are True",
-            "description": "",
-            "icon": "f451691aca010fff0ca5f60d01438793f2e0e085",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindTreasure",
-            "name": "The Treasure Hunter",
-            "description": "",
-            "icon": "ba35ab17366761e2a2a5e3d79474b6ca2d3ee53b",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindLeviathan",
-            "name": "No Time For Snoozing",
-            "description": "",
-            "icon": "00eda85c2ba32ffb3cf455b8c107144d4ee8c591",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindFish",
-            "name": "The Fisherman",
-            "description": "Catch every kind of fish.",
-            "icon": "6ed85097507ec73156e66eacf38d3870aa8fcf13",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "ExploreNSEW",
-            "name": "The Explorer",
-            "description": "Travel far in all four directions.",
-            "icon": "971bd1594d4ebf2a8a73dec786b104c78476056e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "ExploreNSEWNoMap",
-            "name": "The Pathfinder",
-            "description": "Travel far in all four directions, without using a map.",
-            "icon": "d27519014d7ca453a948bc81e267b4508e85d0f0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "BuildDyrnwyn",
-            "name": "The Chosen One",
-            "description": "",
-            "icon": "2a1286c658aa8bb8f34c0c2f1f4e30a4688ad496",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllWeaponCraft",
-            "name": "The Blacksmith",
-            "description": "Craft every kind of weapon.",
-            "icon": "48e2c3ede71a32749e880d944ed916ce90ef2744",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllFoodCooked",
-            "name": "The Master Chef",
-            "description": "Cook every kind of dish.",
-            "icon": "329a4ed1067563736e4a36abf52b05940ba11f8a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllItemCraft",
-            "name": "The Artisan",
-            "description": "Craft every kind of item.",
-            "icon": "9a4736aed8b7e955ca22b9014a65d1a5c9dcd749",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllFoodEaten",
-            "name": "The Gourmet",
-            "description": "Eat every kind of edible item.",
-            "icon": "76b473c09437e425550a915a403b14d8695d21a6",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "AllBuildPieces",
-            "name": "The Carpenter",
-            "description": "Build everything.",
-            "icon": "250ad8718bd2107f4d6292e9ec5e6bc2dbae3a1a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "KingsQueens",
-            "name": "Kings and Queens of Valheim",
-            "description": "Embody the spirits of the Viking, Hunter, Artisan, Master Chef, Carpenter and the Explorer.",
-            "icon": "0fb3d6b23603a4a3baf8fd672e476243f0b207fe",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "ChildOfOdin",
-            "name": "Child of Odin",
-            "description": "Embody the spirits of the Toughest Viking, Master Hunter, Survivor and Pathfinder.",
-            "icon": "017a82e2f986d540466119aeacb50be1eae7e532",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "MultiplayerBoss",
-            "name": "Stronger Together",
-            "description": "Kill a boss together with a friend.",
-            "icon": "adcfc8d86d8b4acaf53a83047ffb776cdff1ad44",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1788969877,
-            "globalPct": null
-          },
-          {
-            "apiName": "SoloBoss",
-            "name": "Lone Wolf",
-            "description": "Kill a boss all by yourself.",
-            "icon": "abbca6d6f472cc3e47af7769d077b69ef6a74eea",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789551701,
-            "globalPct": null
-          },
-          {
-            "apiName": "BigFish",
-            "name": "A Catch Worthy of Njord",
-            "description": "Catch a four star fish.",
-            "icon": "eb00cd5fef98c095ea33f3a3e03daa621d4dd122",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindBuild",
-            "name": "The Builder",
-            "description": "Build 500 pieces.",
-            "icon": "282cdb73be83710285b2614ec42f74eb78ab9e7b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1789711491,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindSail",
-            "name": "The Sailor",
-            "description": "Sail far enough to circle the world twice.",
-            "icon": "ba7b54f167619f1a646b8f298955ad8e7716a7dd",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
-          },
-          {
-            "apiName": "GrindSailHelm",
-            "name": "The Captain",
-            "description": "Sail far enough to circle the world, while manning the helm.",
-            "icon": "1456505d3f097ed5b7c7f863d5f683133af51304",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": null
           }
         ]
       }
@@ -373951,6 +373951,32 @@
       }
     },
     {
+      "appId": 1819460,
+      "name": "Mika and The Witch's Mountain",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1819460/d9c7a7de48031199da3055eb7dde77723293169b.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1819460/header.jpg?t=1771579088",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jan 22, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1819460/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1819460/library_header_2x.jpg",
+      "achievements": {
+        "total": 35,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 1822900,
       "name": "Soulflow",
       "playtimeHours": 0,
@@ -376790,6 +376816,30 @@
       }
     },
     {
+      "appId": 2278790,
+      "name": "Grapple Dogs: Cosmic Canines",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2278790/05f6d4628ad880df86be2e01fac3ef34d9414373.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2278790/7d0ba6f2b010631763d575d1a66d1ae283597bd7/header.jpg?t=1783068682",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Sep 12, 2024",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2278790/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2278790/library_header.jpg",
+      "achievements": {
+        "total": 35,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2296380,
       "name": "I Expect You To Die 3",
       "playtimeHours": 0,
@@ -377810,6 +377860,30 @@
       }
     },
     {
+      "appId": 2727660,
+      "name": "GlitchSPANKR",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2727660/ff364dc0a6ef6b272c81190ce839c88f859229c6.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2727660/header.jpg?t=1780242940",
+      "genres": [
+        "Adventure",
+        "Casual"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Oct 15, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2727660/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2727660/library_header.jpg",
+      "achievements": {
+        "total": 48,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2744010,
       "name": "Urban Jungle",
       "playtimeHours": 0,
@@ -378707,6 +378781,32 @@
       }
     },
     {
+      "appId": 3183730,
+      "name": "Driveloop: Survivors",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3183730/f75202192e562f55fbf4d8b3d3c88fc11382df23.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183730/4d8ca9ec0c9bd1793bedda4c0dc9c1782320700b/header.jpg?t=1790843747",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "Early Access"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Apr 9, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183730/c8f5f6c7c20e204c7afb5b98db63a15192183994/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183730/2ae4242fd5b770eb1766aa678848cace1a43e78c/library_header_2x.jpg",
+      "achievements": {
+        "total": 63,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 3219410,
       "name": "The Trolley Solution",
       "playtimeHours": 0,
@@ -379143,6 +379243,31 @@
       }
     },
     {
+      "appId": 3688130,
+      "name": "Moldwasher",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3688130/0ddfb14c1c6779ed22909de3bb071af285a7bb33.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/fedcb27c3fcbd8b2f88b8f2a2fba856e69ac9900/header_alt_assets_5.jpg?t=1790152532",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jun 23, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/65fc250d2596e1a4e705d24761c9e2a5a0fd8fce/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/5bc42139cbe3bde44e3efe8d3bf04a27485bcd19/library_header_2x.jpg",
+      "achievements": {
+        "total": 27,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 3700760,
       "name": "Eggo",
       "playtimeHours": 0,
@@ -379332,6 +379457,31 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224500/f353b24c121b74b01166598bd180156e3d5c7699/library_header_2x.jpg",
       "achievements": {
         "total": 20,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 4246860,
+      "name": "Security 51",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4246860/e1f6b90496274a81b285791da1468c709d7ebcf3.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246860/784e58137f2ae6511c7ba175946c3d898b5da42b/header.jpg?t=1787844039",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "12 Aug, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246860/7c3fc86b965324a82ea1f39e9aa460372fc34e00/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246860/784e58137f2ae6511c7ba175946c3d898b5da42b/library_header_2x.jpg",
+      "achievements": {
+        "total": 68,
         "unlocked": 0
       }
     },
@@ -380443,7 +380593,7 @@
       "dateAdded": 1551222043,
       "priority": 271,
       "name": "The Coin Game",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/598980/40d31c07a770a6a02735f27c6af52bd11b9f24d7/header.jpg?t=1774016940",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/598980/40d31c07a770a6a02735f27c6af52bd11b9f24d7/header.jpg?t=1790935385",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/598980/c17a138316d42ff9aec0bb3071c44ecaa495109c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/598980/40d31c07a770a6a02735f27c6af52bd11b9f24d7/library_header_2x.jpg"
     },
@@ -381023,7 +381173,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -381039,7 +381189,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -381048,7 +381198,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -381056,7 +381206,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -381138,7 +381288,7 @@
       "dateAdded": 1607460004,
       "priority": 0,
       "name": "Sniper Elite VR",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/752480/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/header.jpg?t=1643711030",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/library_600x900_2x.jpg"
     },
     {
@@ -381146,7 +381296,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -381364,7 +381514,7 @@
       "dateAdded": 1528827082,
       "priority": 434,
       "name": "Assassin's Creed® Odyssey",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1786633104",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900_2x.jpg"
     },
     {
@@ -383413,8 +383563,8 @@
       "priority": 0,
       "name": "Enshrouded",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/419dff055cc5a2bdc3f75425c6634b1bceef098a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/5813d2983a537c713b80d4718b324526063078ab/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/0f641453e3418029205a49c1960e5ae5cb1ce382/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/7463bf9e7ae568705788f0d8091a54bb9dfaa3fe/library_header_2x.jpg"
     },
     {
       "appId": 1206060,
@@ -387109,7 +387259,7 @@
       "priority": 0,
       "name": "Solarpunk™",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1805110/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/68f35da13be3c0ec1f63fc2238c1d8d7780f79d6/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/6d91f97617e6ca51d3cad4843ae3081afffd2a0c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1805110/9512e707770080499c95c50976ff1b6f712a95ba/library_header_2x.jpg"
     },
     {
@@ -390014,13 +390164,6 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2473480/library_header.jpg"
     },
     {
-      "appId": 2474860,
-      "dateAdded": 1690576864,
-      "priority": 0,
-      "name": "App 2474860",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2474860/header.jpg"
-    },
-    {
       "appId": 2477090,
       "dateAdded": 1782551248,
       "priority": 0,
@@ -390506,7 +390649,7 @@
       "priority": 0,
       "name": "VOID/BREAKER",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2615540/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/6c65b2b16b5341480f6d9d2b70803d5c0256a45e/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/f66fb9ddd5f62065d87e70f2ca6070088c66aa5c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2615540/dee1f6140723d0137cf3c6edd178d687e1605ec9/library_header_2x.jpg"
     },
     {
@@ -391056,15 +391199,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2727650/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2727650/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2727650/library_header_2x.jpg"
-    },
-    {
-      "appId": 2727660,
-      "dateAdded": 1758736904,
-      "priority": 0,
-      "name": "GlitchSPANKR",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2727660/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2727660/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2727660/library_header.jpg"
     },
     {
       "appId": 2730700,
@@ -392289,7 +392423,7 @@
       "dateAdded": 1761506101,
       "priority": 0,
       "name": "Windrose",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/7e838d87d787735d5d29d72777c5ee55653dfb2b/header.jpg?t=1783932953",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3041230/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/a33ca1d700b9b82884a9d908c4ed078ba3a9e2ed/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/fa6782d2bb9c6b8b43ac8b3bccb2c27390945270/library_header_2x.jpg"
     },
@@ -393998,8 +394132,8 @@
       "priority": 0,
       "name": "Cropdeck",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3500680/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3500680/7eff1967a5c4715a6962d059d5c6491911826f47/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3500680/c64ebb70de6d57ba50baa8a9b6b61d4caa3c3cfe/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3500680/b589ca99da257703b1ea4051d9fcb903719dfa23/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3500680/49291b2747167619437a4a9b917559b9723db3bd/library_header_2x.jpg"
     },
     {
       "appId": 3503440,
@@ -394747,15 +394881,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3687790/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687790/7c1cd25482f55bf48bd96887b724d58e1b63f7f3/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687790/1726d14944de5f8f08b63613ab1aada895727246/library_header_2x.jpg"
-    },
-    {
-      "appId": 3688130,
-      "dateAdded": 1782284974,
-      "priority": 0,
-      "name": "Moldwasher",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3688130/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/65fc250d2596e1a4e705d24761c9e2a5a0fd8fce/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/5bc42139cbe3bde44e3efe8d3bf04a27485bcd19/library_header_2x.jpg"
     },
     {
       "appId": 3688650,
@@ -396127,8 +396252,8 @@
       "priority": 0,
       "name": "BETCOIL",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4066520/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066520/1708e43bfc4bbbea9469db60e4bf1398767fc3d4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066520/2e677c3e1b55a974a3d17223d54acdd6c96ee01d/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066520/893f91e3aef5b3994c2ff548bd0eb1ca7c68c5b7/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4066520/2e8634d66b9935091f0ef3e44b5d1921e79532bb/library_header_2x.jpg"
     },
     {
       "appId": 4067820,
@@ -396236,7 +396361,7 @@
       "name": "App 4092940",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4092940/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4092940/dca5d383bb924d55aa310c0bac32e8956375d1e3/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4092940/c01be76a8652ecd7ca4e46110cccf1699aa6bda4/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4092940/62aea414b7c6ec8e1d0a42e90c17912c0610162d/library_header_2x.jpg"
     },
     {
       "appId": 4094350,
