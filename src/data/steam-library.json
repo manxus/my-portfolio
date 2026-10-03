@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-02T11:54:58.055Z",
+  "fetchedAt": "2026-10-03T11:08:55.451Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1790907332
+    "lastLogoff": 1790989388
   },
   "games": [
     {
@@ -41619,7 +41619,7 @@
     {
       "appId": 892970,
       "name": "Valheim",
-      "playtimeHours": 147.9,
+      "playtimeHours": 149,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
       "genres": [],
@@ -220183,6 +220183,155 @@
       }
     },
     {
+      "appId": 3809940,
+      "name": "Drill Bird",
+      "playtimeHours": 6.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809940/4a0bfcfa664fe1788dc874a9e14fe456b1dffc1f.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809940/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/a3da2630bc1c368f856d316317987374f3ab9af8/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/0cb26f043581246da8ca2d8f6fc7f2f06b982872/library_header_2x.jpg",
+      "achievements": {
+        "total": 20,
+        "unlocked": 16,
+        "items": [
+          {
+            "apiName": "ach_days_fastest",
+            "name": "All in a week's work",
+            "description": "Finish the game within 7 in-game days",
+            "icon": "0dce3998dc7f1751cb9be16f4bf7ee4b52e61553",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769960447,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "ach_speed_fastest",
+            "name": "Speedrunning parenthood",
+            "description": "Finish the game within 20 human minutes after waking up. Tip: There is a timer feature in the game settings :) ",
+            "icon": "5cdac723fb6397369e43b9e681708010c56bab1b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769951488,
+            "globalPct": 2
+          },
+          {
+            "apiName": "ach_all_ores",
+            "name": "Ore lover",
+            "description": "Reach the final stats with at least 90% of ores collected",
+            "icon": "677437f75c9d45005de7667860c3b67e391139d2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769861266,
+            "globalPct": 26.7
+          },
+          {
+            "apiName": "ach_pacifist",
+            "name": "Pacifist",
+            "description": "Reach the final stats without any enemies dying",
+            "icon": "2d7b882bfa247a466888e169a78c5111797c7e7d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769960454,
+            "globalPct": 1.9
+          },
+          {
+            "apiName": "ach_finish",
+            "name": "Parent",
+            "description": "",
+            "icon": "bcb4de32d9b593a2fafb8b981ad1a0b3f3f8456d",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1769860035,
+            "globalPct": 48.1
+          },
+          {
+            "apiName": "ach_onestat",
+            "name": "Maxed out!",
+            "description": "Fully upgrade something",
+            "icon": "c317ddcd11ff13ccf0c1ba38a17f49a1fdf63dd2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769858895,
+            "globalPct": 57.5
+          },
+          {
+            "apiName": "ach_allstats",
+            "name": "Power napper",
+            "description": "Purchase all upgrades",
+            "icon": "f55e909e8196e43d5cf339386c320d22753c873f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769860618,
+            "globalPct": 32.7
+          },
+          {
+            "apiName": "ach_murderer",
+            "name": "Indirect murderer",
+            "description": "Get 50 enemies to die",
+            "icon": "ae4537fff1604a0fddaf8881bfb78cdf8a82e6b8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769860985,
+            "globalPct": 17
+          },
+          {
+            "apiName": "ach_flower",
+            "name": "Gardener",
+            "description": "",
+            "icon": "ce6843dded9c53d04502f1ab0358d7ce7587d93e",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1769858309,
+            "globalPct": 60.2
+          },
+          {
+            "apiName": "ach_fallblock",
+            "name": "Block crusher",
+            "description": "Crush an enemy with a fallblock",
+            "icon": "62eb8caa06f9927bb19a433b8cdecd956dfcecd9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769857913,
+            "globalPct": 73.4
+          },
+          {
+            "apiName": "ach_tallflower",
+            "name": "Tallest flower ever",
+            "description": "",
+            "icon": "28e22dfa0fc8f1a74a5f61b5c6bf138764f0536d",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1769858349,
+            "globalPct": 51.7
+          },
+          {
+            "apiName": "ach_tutorial_finish",
+            "name": "Egg",
+            "description": "You made one!",
+            "icon": "9cf316794bd9866383b73ae999a153bf00a9e73b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769857132,
+            "globalPct": 89.6
+          },
+          {
+            "apiName": "ach_first_upgrade",
+            "name": "Growth",
+            "description": "Purchase an upgrade",
+            "icon": "de11ed4e5b53c27ade4dbdb6b8119564a662e699",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769857213,
+            "globalPct": 88.9
+          }
+        ]
+      }
+    },
+    {
       "appId": 714010,
       "name": "Aimlabs",
       "playtimeHours": 6.6,
@@ -239082,155 +239231,6 @@
             "unlocked": true,
             "unlockTime": 1751387590,
             "globalPct": 14.7
-          }
-        ]
-      }
-    },
-    {
-      "appId": 3809940,
-      "name": "Drill Bird",
-      "playtimeHours": 5.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809940/4a0bfcfa664fe1788dc874a9e14fe456b1dffc1f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809940/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/a3da2630bc1c368f856d316317987374f3ab9af8/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/0cb26f043581246da8ca2d8f6fc7f2f06b982872/library_header_2x.jpg",
-      "achievements": {
-        "total": 20,
-        "unlocked": 13,
-        "items": [
-          {
-            "apiName": "ach_days_fastest",
-            "name": "All in a week's work",
-            "description": "Finish the game within 7 in-game days",
-            "icon": "0dce3998dc7f1751cb9be16f4bf7ee4b52e61553",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769960447,
-            "globalPct": 2.8
-          },
-          {
-            "apiName": "ach_speed_fastest",
-            "name": "Speedrunning parenthood",
-            "description": "Finish the game within 20 human minutes after waking up. Tip: There is a timer feature in the game settings :) ",
-            "icon": "5cdac723fb6397369e43b9e681708010c56bab1b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769951488,
-            "globalPct": 2
-          },
-          {
-            "apiName": "ach_all_ores",
-            "name": "Ore lover",
-            "description": "Reach the final stats with at least 90% of ores collected",
-            "icon": "677437f75c9d45005de7667860c3b67e391139d2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769861266,
-            "globalPct": 26.7
-          },
-          {
-            "apiName": "ach_pacifist",
-            "name": "Pacifist",
-            "description": "Reach the final stats without any enemies dying",
-            "icon": "2d7b882bfa247a466888e169a78c5111797c7e7d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769960454,
-            "globalPct": 1.9
-          },
-          {
-            "apiName": "ach_finish",
-            "name": "Parent",
-            "description": "",
-            "icon": "bcb4de32d9b593a2fafb8b981ad1a0b3f3f8456d",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1769860035,
-            "globalPct": 48.1
-          },
-          {
-            "apiName": "ach_onestat",
-            "name": "Maxed out!",
-            "description": "Fully upgrade something",
-            "icon": "c317ddcd11ff13ccf0c1ba38a17f49a1fdf63dd2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769858895,
-            "globalPct": 57.5
-          },
-          {
-            "apiName": "ach_allstats",
-            "name": "Power napper",
-            "description": "Purchase all upgrades",
-            "icon": "f55e909e8196e43d5cf339386c320d22753c873f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769860618,
-            "globalPct": 32.7
-          },
-          {
-            "apiName": "ach_murderer",
-            "name": "Indirect murderer",
-            "description": "Get 50 enemies to die",
-            "icon": "ae4537fff1604a0fddaf8881bfb78cdf8a82e6b8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769860985,
-            "globalPct": 17
-          },
-          {
-            "apiName": "ach_flower",
-            "name": "Gardener",
-            "description": "",
-            "icon": "ce6843dded9c53d04502f1ab0358d7ce7587d93e",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1769858309,
-            "globalPct": 60.2
-          },
-          {
-            "apiName": "ach_fallblock",
-            "name": "Block crusher",
-            "description": "Crush an enemy with a fallblock",
-            "icon": "62eb8caa06f9927bb19a433b8cdecd956dfcecd9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769857913,
-            "globalPct": 73.4
-          },
-          {
-            "apiName": "ach_tallflower",
-            "name": "Tallest flower ever",
-            "description": "",
-            "icon": "28e22dfa0fc8f1a74a5f61b5c6bf138764f0536d",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1769858349,
-            "globalPct": 51.7
-          },
-          {
-            "apiName": "ach_tutorial_finish",
-            "name": "Egg",
-            "description": "You made one!",
-            "icon": "9cf316794bd9866383b73ae999a153bf00a9e73b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769857132,
-            "globalPct": 89.6
-          },
-          {
-            "apiName": "ach_first_upgrade",
-            "name": "Growth",
-            "description": "Purchase an upgrade",
-            "icon": "de11ed4e5b53c27ade4dbdb6b8119564a662e699",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769857213,
-            "globalPct": 88.9
           }
         ]
       }
@@ -362540,7 +362540,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058200/4f22fbeebd25ff8b5d7b04a5d211a9a094a31078/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058200/b7b2af0e3e6070ec589589dc04691c970de5e038/library_header_2x.jpg",
       "achievements": {
-        "total": 1008,
+        "total": 1009,
         "unlocked": 0
       }
     },
@@ -380553,9 +380553,9 @@
       "dateAdded": 1731439715,
       "priority": 0,
       "name": "s&box",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/9516f272f523e6a28350b6e66a1bc4ad9f65888a/header.jpg?t=1789055427",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/6217b4044d35c46981aaeed99789b8e45c47a7cb/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/0af9683ae4e782202640eee9e74dc467672c8126/library_header_2x.jpg"
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/0f64b7e4f9628fdcff7e1f86696d08b9d280de5e/header.jpg?t=1790984586",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/7d121e621bffb32c87c64f45806867297e4e3d48/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590830/aa0777505c9ed7daaa5c8257f6e98fd194cf3f8e/library_header_2x.jpg"
     },
     {
       "appId": 592260,
@@ -380678,7 +380678,7 @@
       "dateAdded": 1520547204,
       "priority": 278,
       "name": "Bio Inc. Redemption",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612470/header.jpg?t=1788438440",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612470/header.jpg?t=1790968800",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612470/library_600x900_2x.jpg"
     },
     {
@@ -381198,7 +381198,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -381206,7 +381206,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -381270,7 +381270,7 @@
       "dateAdded": 1640607398,
       "priority": 0,
       "name": "Slice of Sea",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750290/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/header.jpg?t=1748509146",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_header.jpg"
     },
@@ -381288,7 +381288,7 @@
       "dateAdded": 1607460004,
       "priority": 0,
       "name": "Sniper Elite VR",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/header.jpg?t=1643711030",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/752480/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/library_600x900_2x.jpg"
     },
     {
@@ -388180,8 +388180,8 @@
       "priority": 0,
       "name": "Rotwood",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2015270/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/88f8b6ef3354f912f36873edb9d7111692b4b123/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/b0c0f982b604376a91cfd72a41d06faeed4f2b8d/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/963797cae95121bc75d47ce6ab27ff927df69fa4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015270/d205388c67ee33acaf7b3eb55852451d2d8d1ffa/library_header_2x.jpg"
     },
     {
       "appId": 2018130,
