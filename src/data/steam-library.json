@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-10-03T11:08:55.451Z",
+  "fetchedAt": "2026-10-04T11:50:09.305Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1790989388
+    "lastLogoff": 1791066805
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3493.3,
+      "playtimeHours": 3493.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -41619,7 +41619,7 @@
     {
       "appId": 892970,
       "name": "Valheim",
-      "playtimeHours": 149,
+      "playtimeHours": 150.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
       "genres": [],
@@ -381270,7 +381270,7 @@
       "dateAdded": 1640607398,
       "priority": 0,
       "name": "Slice of Sea",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/header.jpg?t=1748509146",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_header.jpg"
     },
@@ -381296,7 +381296,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -382213,15 +382213,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/979110/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979110/3516ff71853fccc495f7c990e2d68506ed932a64/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979110/3732077b560f04399361996b9b0823bf4a87a7d5/library_header_2x.jpg"
-    },
-    {
-      "appId": 980940,
-      "dateAdded": 1576191205,
-      "priority": 0,
-      "name": "My Little Blacksmith Shop",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/980940/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/980940/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/980940/e71d5cbd451313175c6792102d010c1384bc2513/library_header_2x.jpg"
     },
     {
       "appId": 983870,
@@ -387236,15 +387227,6 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1793170/library_600x900_2x.jpg"
     },
     {
-      "appId": 1795470,
-      "dateAdded": 1663920171,
-      "priority": 0,
-      "name": "Flooded",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1795470/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795470/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1795470/cf85511eb037e062b84c1b1010114798091ede59/library_header_2x.jpg"
-    },
-    {
       "appId": 1798230,
       "dateAdded": 1760139921,
       "priority": 0,
@@ -388997,7 +388979,7 @@
       "name": "Neon Abyss 2",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2235200/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/a2037ba36c49e020b8a1b3bdd0c2d12ce569dc70/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/731159057a5e2b7fdd2d7c10c5bdd8f6e8044d47/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/4185e86520b65e5a1b4c945e4ed7d6504d1f4d02/library_header_2x.jpg"
     },
     {
       "appId": 2235430,
@@ -397764,15 +397746,6 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590270/d6f56096ea943805b856b6fc0cac500cd5b266d0/library_header_2x.jpg"
     },
     {
-      "appId": 4592560,
-      "dateAdded": 1779131016,
-      "priority": 0,
-      "name": "App 4592560",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4592560/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4592560/cb0d520e387d17660b85ff27ffc7fd2328f51a34/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4592560/4e9bf4761451e0e081ee3e99ef4dec1a7190ccf8/library_header_2x.jpg"
-    },
-    {
       "appId": 4599710,
       "dateAdded": 1785321812,
       "priority": 0,
@@ -397823,8 +397796,8 @@
       "priority": 0,
       "name": "App 4608670",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4608670/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608670/aa73520032d75240c15afdec176bea5d6bca89c4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608670/f8a420d795eb02844962bb21cd55c959fcfe0757/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608670/bd94e59035bcb8480400afca37e4107870e2a7a5/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4608670/b082dd3178501e09228871bb3b8ef251f1971efa/library_header_2x.jpg"
     },
     {
       "appId": 4610800,
@@ -398101,7 +398074,7 @@
       "dateAdded": 1783965642,
       "priority": 0,
       "name": "App 4824610",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4824610/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/28045d733a3ada082858b5b1a5149e33ee40f378/header.jpg?t=1780990195",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/249c95eeaf9a26ffc90b6a55f3eda7fc72b1545c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/b8c2b64f3d4d5fe9da7dedf3230d01e603179bf1/library_header_2x.jpg"
     },
@@ -398128,7 +398101,7 @@
       "dateAdded": 1787603821,
       "priority": 0,
       "name": "App 4894750",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4894750/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/83d9422ad06611a0a64e0203495ac64524533677/header.jpg?t=1784557009",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/dc85c1be7e4f4b208057f19669020a825e038891/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/83d9422ad06611a0a64e0203495ac64524533677/library_header_2x.jpg"
     },
@@ -398209,7 +398182,7 @@
       "dateAdded": 1789450564,
       "priority": 0,
       "name": "App 5159870",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5159870/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/8980900568ead38e73d1538557fe9ff9d987bedd/header.jpg?t=1790023754",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/06af26a84238a56f7dbb76487bbdfc7756fad0e5/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/26df90dc41b0945ed57f778671c9506ca09c1611/library_header_2x.jpg"
     },
@@ -398218,7 +398191,7 @@
       "dateAdded": 1790549367,
       "priority": 0,
       "name": "App 4312190",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4312190/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/header.jpg?t=1790886695",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/41fe49c40fa4226ddd7fafdb4b15c15687756f68/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/library_header_2x.jpg"
     },
@@ -398272,7 +398245,7 @@
       "dateAdded": 1790646043,
       "priority": 0,
       "name": "App 4564640",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4564640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/1f71be8826e931427e03e71bf9901638d364cda7/header.jpg?t=1784100541",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/fedebb46028c063fe45d919816c1aee2e6d94492/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/991ea82b9bed39b1cd87dc109da1e54275cef129/library_header_2x.jpg"
     },
@@ -398297,7 +398270,7 @@
       "dateAdded": 1790726423,
       "priority": 0,
       "name": "App 2487330",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2487330/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/21f6e3394b6c3998aa477817e412c5109d3a19de/header.jpg?t=1790865739",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/3ed1c79705d92f3db6418936e005ebc43fac480a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/21f6e3394b6c3998aa477817e412c5109d3a19de/library_header_2x.jpg"
     },
