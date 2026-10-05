@@ -8,7 +8,6 @@
   padding: 1rem;
 }
 
-/* Blur on a sibling layer so inputs aren't descendants of backdrop-filter. */
 .backdropFill {
   position: absolute;
   inset: 0;

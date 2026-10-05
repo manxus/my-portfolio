@@ -4,8 +4,6 @@ import {
   useLayoutEffect,
   useMemo,
   useCallback,
-  lazy,
-  Suspense,
 } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import cinemaData from '../data/cinema.json';
@@ -29,15 +27,6 @@ import {
 import styles from './Cinema.module.css';
 
 const defaultEntries = cinemaData.entries || [];
-
-/**
- * Admin-only, so it is pulled in behind a DEV check rather than imported at the
- * top: a static import would ship the panel and its TMDB discovery code to
- * every visitor, even though nobody could ever reach the tab in production.
- */
-const CinemaRecommendations = import.meta.env.DEV
-  ? lazy(() => import('../components/CinemaRecommendations/CinemaRecommendations'))
-  : null;
 
 const stagger = {
   hidden: {},
@@ -598,7 +587,7 @@ export default function Cinema() {
   const isAdminUi = import.meta.env.DEV && isAuthenticated;
 
   const [adminFile] = useAdminCollection('cinema', isAdminUi);
-  const [chosenTab, setActiveTab] = useState('overview');
+  const [activeTab, setActiveTab] = useState('overview');
   const [selectedId, setSelectedId] = useState(null);
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState('title');
@@ -629,20 +618,14 @@ export default function Cinema() {
     [source],
   );
 
-  // Derived rather than corrected in an effect: logging out with the admin-only
-  // tab open would otherwise strand the page on a tab that no longer exists.
-  const activeTab = !isAdminUi && chosenTab === 'recommended' ? 'overview' : chosenTab;
-
   const tabs = useMemo(
     () => [
       { id: 'overview', label: 'OVERVIEW' },
       { id: 'movies', label: 'MOVIES', count: entries.filter(TAB_FILTERS.movies).length },
       { id: 'shows', label: 'SHOWS', count: entries.filter(TAB_FILTERS.shows).length },
       { id: 'watchlist', label: 'WATCHLIST', count: entries.filter(TAB_FILTERS.watchlist).length },
-      // Countless, like OVERVIEW — the total only settles once TMDB answers.
-      ...(isAdminUi ? [{ id: 'recommended', label: 'RECOMMENDED' }] : []),
     ],
-    [entries, isAdminUi],
+    [entries],
   );
 
   /** Watchlist entries matching the search box, before the type filter. */
@@ -787,12 +770,6 @@ export default function Cinema() {
               onCloseDetail={clearSelected}
             />
           </motion.div>
-        ) : activeTab === 'recommended' && CinemaRecommendations ? (
-          // Ahead of the generic list branch, which assumes a TAB_FILTERS entry
-          // and would otherwise render this tab as an empty grid.
-          <Suspense fallback={<p className={styles.empty}>Loading recommendations…</p>}>
-            <CinemaRecommendations key="recommended" entries={entries} />
-          </Suspense>
         ) : (
           <motion.div
             key={activeTab}

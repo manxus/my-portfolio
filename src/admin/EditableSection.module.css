@@ -3,6 +3,11 @@
   isolation: isolate;
 }
 
+/* Logged out in dev: kept in the tree (see EditableSection) but out of layout. */
+.passthrough {
+  display: contents;
+}
+
 .wrapper:hover > .toolbar {
   opacity: 1;
 }

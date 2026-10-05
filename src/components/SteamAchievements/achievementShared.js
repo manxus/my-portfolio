@@ -59,7 +59,7 @@ export function perfectedAt(game) {
 }
 
 /** Completion at or above which an unfinished game counts as "almost there". */
-export const NEAR_COMPLETE_MIN = 0.75;
+export const NEAR_COMPLETE_MIN = 0.5;
 
 /**
  * The locked achievement fewest owners have, i.e. what probably stands between

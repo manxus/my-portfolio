@@ -37,9 +37,16 @@ export default function EditableSection({
   const schema = schemas[schemaKey];
   const isPersonalInfo = collection === 'resume' && dataKey === 'personalInfo';
 
-  if (!import.meta.env.DEV || !isAuthenticated || !schema) {
+  if (!import.meta.env.DEV || !schema) {
     return children;
   }
+
+  // Logging in or out must not change the element tree around `children`: a
+  // bare `children` here and a wrapped one below would make React remount the
+  // whole section, replaying every entrance animation on the page. So the
+  // wrapper and provider always render in dev, and the wrapper collapses out
+  // of layout (display: contents) while logged out.
+  const isAdminUi = isAuthenticated;
 
   const openAdd = async () => {
     setEditState({ mode: 'add', index: -1, data: null });
@@ -149,32 +156,38 @@ export default function EditableSection({
   };
 
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.toolbar}>
-        <span className={styles.tag}>{dataKey}</span>
-        {singleton ? (
-          <button
-            type="button"
-            className={styles.addBtn}
-            onClick={openEditSingleton}
-            title="Edit"
-          >
-            &#9998;
-          </button>
-        ) : (
-          <button type="button" className={styles.addBtn} onClick={openAdd} title="Add item">
-            +
-          </button>
-        )}
-      </div>
+    <div className={isAdminUi ? styles.wrapper : styles.passthrough}>
+      {isAdminUi && (
+        <div className={styles.toolbar}>
+          <span className={styles.tag}>{dataKey}</span>
+          {singleton ? (
+            <button
+              type="button"
+              className={styles.addBtn}
+              onClick={openEditSingleton}
+              title="Edit"
+            >
+              &#9998;
+            </button>
+          ) : (
+            <button type="button" className={styles.addBtn} onClick={openAdd} title="Add item">
+              +
+            </button>
+          )}
+        </div>
+      )}
 
       <EditableItemsContext.Provider
-        value={{
-          onEdit: openEdit,
-          onDelete: handleDelete,
-          onMoveUp: handleMoveUp,
-          onMoveDown: handleMoveDown,
-        }}
+        value={
+          isAdminUi
+            ? {
+                onEdit: openEdit,
+                onDelete: handleDelete,
+                onMoveUp: handleMoveUp,
+                onMoveDown: handleMoveDown,
+              }
+            : null
+        }
       >
         {children}
       </EditableItemsContext.Provider>

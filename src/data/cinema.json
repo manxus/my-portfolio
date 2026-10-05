@@ -16365,29 +16365,6 @@
       "watchedEpisodes": {}
     },
     {
-      "title": "A Summer's Tale",
-      "mediaType": "movie",
-      "status": "watchlist",
-      "rating": "",
-      "featured": false,
-      "year": "1996",
-      "seasons": "",
-      "episodes": "",
-      "episodesSeen": "",
-      "runtime": 114,
-      "genres": [
-        "Romance",
-        "Drama",
-        "Comedy"
-      ],
-      "overview": "Awaiting his girlfriend Léna’s arrival at the Breton seaside resort of Dinard, Gaspard befriends — and flirts heavily with — two other women, the companionable ethnology student Margot and the sensual townie Solène, making for a rather complicated situation when Léna finally arrives.",
-      "coverUrl": "https://image.tmdb.org/t/p/w500/l3syqgYqqfqPVheINI5jOBN5hXL.jpg",
-      "tmdbUrl": "https://www.themoviedb.org/movie/37563",
-      "tmdbId": 37563,
-      "backdropUrl": "https://image.tmdb.org/t/p/w780/h7jewTP4Q0fPAiufeFTGZF04P39.jpg",
-      "id": 579
-    },
-    {
       "title": "Superbad",
       "mediaType": "movie",
       "status": "watchlist",
@@ -19751,6 +19728,100 @@
       "backdropUrl": "https://image.tmdb.org/t/p/w780/y4kqw66F7maIsNE4AOMhISVZCz.jpg",
       "collection": "",
       "id": 656
+    },
+    {
+      "title": "Ocean's Eight",
+      "mediaType": "movie",
+      "status": "watched",
+      "rating": "",
+      "featured": false,
+      "year": "2018",
+      "seasons": "",
+      "episodes": "",
+      "episodesSeen": "",
+      "runtime": 111,
+      "genres": [
+        "Crime",
+        "Comedy",
+        "Action"
+      ],
+      "overview": "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century at New York's annual Met Gala.",
+      "coverUrl": "https://image.tmdb.org/t/p/w500/MvYpKlpFukTivnlBhizGbkAe3v.jpg",
+      "tmdbUrl": "https://www.themoviedb.org/movie/402900",
+      "tmdbId": 402900,
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/scQf03Fm3jeyv4FH04qvi4fp4wh.jpg",
+      "collection": "",
+      "id": 657
+    },
+    {
+      "title": "The Heat",
+      "mediaType": "movie",
+      "status": "watched",
+      "rating": "",
+      "featured": false,
+      "year": "2013",
+      "seasons": "",
+      "episodes": "",
+      "episodesSeen": "",
+      "runtime": 117,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "overview": "Uptight and straight-laced, FBI Special Agent Sarah Ashburn is a methodical investigator with a reputation for excellence--and hyper-arrogance. Shannon Mullins, one of Boston P.D.'s \"finest,\" is foul-mouthed and has a very short fuse, and uses her gut instinct and street smarts to catch the most elusive criminals. Neither has ever had a partner, or a friend for that matter. When these two wildly incompatible law officers join forces to bring down a ruthless drug lord, they become the last thing anyone expected: buddies.",
+      "coverUrl": "https://image.tmdb.org/t/p/w500/yERBa1y5zNUOTRKQPiDCPIc2fuv.jpg",
+      "tmdbUrl": "https://www.themoviedb.org/movie/136795",
+      "tmdbId": 136795,
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/c0V8KAiuoWLXf7TfvwHK4yhIfb9.jpg",
+      "collection": "",
+      "id": 658
+    },
+    {
+      "title": "Ocean's Twelve",
+      "mediaType": "movie",
+      "status": "watchlist",
+      "rating": "",
+      "featured": false,
+      "year": "2004",
+      "seasons": "",
+      "episodes": "",
+      "episodesSeen": "",
+      "runtime": 125,
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "overview": "Despite pulling off one of the biggest heists in Las Vegas history and splitting the $160 million take, each of the infamous Ocean's crew have tried to go straight, lay low and live a legit life... but that's proven to be a challenge. Casino owner Terry Benedict demands that Danny Ocean return the money, plus millions more in interest. Unable to come up the cash, the crew is forced to come together to pull off another series of heists, this time in Rome, Paris, and Amsterdam – but a Europol agent is hot on their heels.",
+      "coverUrl": "https://image.tmdb.org/t/p/w500/pE5anFf7nf6ah7V3VRezQ1KSovi.jpg",
+      "tmdbUrl": "https://www.themoviedb.org/movie/163",
+      "tmdbId": 163,
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/5b5HrewiViLWEdMR4dmbd7ajQ8Q.jpg",
+      "collection": "Ocean's",
+      "id": 659
+    },
+    {
+      "title": "Ocean's Thirteen",
+      "mediaType": "movie",
+      "status": "watchlist",
+      "rating": "",
+      "featured": false,
+      "year": "2007",
+      "seasons": "",
+      "episodes": "",
+      "episodesSeen": "",
+      "runtime": 122,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "overview": "Danny Ocean's team of criminals are back and composing a plan more personal than ever. When ruthless casino owner Willy Bank doublecrosses Reuben Tishkoff, causing a heart attack, Danny Ocean vows that he and his team will do anything to bring down Willy Bank along with everything he's got. Even if it means asking for help from an enemy.",
+      "coverUrl": "https://image.tmdb.org/t/p/w500/pBsZs4zYUiUTemqbikTZ76iQRaU.jpg",
+      "tmdbUrl": "https://www.themoviedb.org/movie/298",
+      "tmdbId": 298,
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/uS18gs16EXfFJhjA11cXj4WWPMb.jpg",
+      "collection": "Ocean's",
+      "id": 660
     }
   ]
 }

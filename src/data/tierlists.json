@@ -281,7 +281,8 @@
           "reserve-white-pineapple",
           "ultra-peachy-keen",
           "ultra-blue-hawaiian",
-          "ultra-red-white-blue-razz"
+          "ultra-red-white-blue-razz",
+          "ultra-vice-guava"
         ],
         "B": [
           "ultra-paradise",
@@ -345,8 +346,7 @@
           "dragon-white-tea",
           "dragon-tea-yerba-mate",
           "mule",
-          "rehab-raspberry-tea",
-          "ultra-vice-guava"
+          "rehab-raspberry-tea"
         ]
       }
     }
