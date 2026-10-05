@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-04T11:50:09.305Z",
+  "fetchedAt": "2026-10-05T13:29:30.073Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1791066805
+    "lastLogoff": 1791184824
   },
   "games": [
     {
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2898.3,
+      "playtimeHours": 2903.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -148285,6 +148285,145 @@
       "achievements": null
     },
     {
+      "appId": 614630,
+      "name": "Tiny Rails",
+      "playtimeHours": 17.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/614630/6717cba43ead8801d078dc03259dc50027578c46.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/614630/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614630/library_600x900.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 12,
+        "unlocked": 9,
+        "items": [
+          {
+            "apiName": "tr_achieve_0",
+            "name": "Car Collector",
+            "description": "Collect 45 train cars of any rarity.",
+            "icon": "39509c6bed3cbcbba5a44ffe90661c4c8a157fd3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626252825,
+            "globalPct": 34.7
+          },
+          {
+            "apiName": "tr_achieve_1",
+            "name": "Rare Breed",
+            "description": "Collect 30 rare train cars.",
+            "icon": "d4ec467e2fe8d24f35786773aa5ba5dfb1e9cb93",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672771433,
+            "globalPct": 15
+          },
+          {
+            "apiName": "tr_achieve_2",
+            "name": "Consumer",
+            "description": "Buy 400 cargo items from Markets.",
+            "icon": "6d1b0d504a55252f36191428e4caeda421d8d1b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626081207,
+            "globalPct": 44
+          },
+          {
+            "apiName": "tr_achieve_3",
+            "name": "Capitalist",
+            "description": "Earn 25,000 gold by selling cargo at Markets.",
+            "icon": "7a47be806964152222b110808d4e622bd908571d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.6
+          },
+          {
+            "apiName": "tr_achieve_4",
+            "name": "Station To Station",
+            "description": "Visit 250 Stations.",
+            "icon": "c948a70ec877f834d15a8332a38eb6cf39cce5ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626335662,
+            "globalPct": 41.7
+          },
+          {
+            "apiName": "tr_achieve_5",
+            "name": "The Customer's Always Right",
+            "description": "Take 1,000 Passengers to their destinations.",
+            "icon": "f4346f82e219792fac570ce9969ca7ee6130e3e2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626211000,
+            "globalPct": 49.6
+          },
+          {
+            "apiName": "tr_achieve_7",
+            "name": "Celebrity Sightings",
+            "description": "Take 250 VIP Passengers to their destinations.",
+            "icon": "43187a7f8340c039ba4dd9878d1feae44335d112",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626185719,
+            "globalPct": 53.1
+          },
+          {
+            "apiName": "tr_achieve_8",
+            "name": "Mad Bank",
+            "description": "Earn 1,000,000 gold.",
+            "icon": "55b419cf88d4e74438b0d71ea916f4f926c3d59c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672681296,
+            "globalPct": 25.9
+          },
+          {
+            "apiName": "tr_achieve_9",
+            "name": "Car Connoisseur",
+            "description": "Upgrade 50 cars of any rarity.",
+            "icon": "dc3d0d9987db5e0f7fab224aeedda3173d9ee9f3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.3
+          },
+          {
+            "apiName": "tr_achieve_10",
+            "name": "Well Trained",
+            "description": "Purchase 75 train stat upgrades.",
+            "icon": "97db518082e65b53abaee8b426e9d70d89956f31",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626099349,
+            "globalPct": 45.6
+          },
+          {
+            "apiName": "tr_achieve_11",
+            "name": "Pardon The Dust",
+            "description": "Upgrade 100 Stations.",
+            "icon": "ae726392b032ae47ca453f6bd19332394cfd5d6e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672611981,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "tr_achieve_15",
+            "name": "Bring Me The Horizon",
+            "description": "Travel 1,000,000 km/622,000 miles.",
+            "icon": "8b1ff67e1ca83196658afda4c78bb3cb37b28572",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.7
+          }
+        ]
+      }
+    },
+    {
       "appId": 393080,
       "name": "Call of Duty: Modern Warfare Remastered (2017)",
       "playtimeHours": 17.2,
@@ -167886,145 +168025,6 @@
             "unlocked": true,
             "unlockTime": 1644350975,
             "globalPct": 3.4
-          }
-        ]
-      }
-    },
-    {
-      "appId": 614630,
-      "name": "Tiny Rails",
-      "playtimeHours": 14.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/614630/6717cba43ead8801d078dc03259dc50027578c46.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/614630/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614630/library_600x900.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 12,
-        "unlocked": 9,
-        "items": [
-          {
-            "apiName": "tr_achieve_0",
-            "name": "Car Collector",
-            "description": "Collect 45 train cars of any rarity.",
-            "icon": "39509c6bed3cbcbba5a44ffe90661c4c8a157fd3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626252825,
-            "globalPct": 34.7
-          },
-          {
-            "apiName": "tr_achieve_1",
-            "name": "Rare Breed",
-            "description": "Collect 30 rare train cars.",
-            "icon": "d4ec467e2fe8d24f35786773aa5ba5dfb1e9cb93",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672771433,
-            "globalPct": 15
-          },
-          {
-            "apiName": "tr_achieve_2",
-            "name": "Consumer",
-            "description": "Buy 400 cargo items from Markets.",
-            "icon": "6d1b0d504a55252f36191428e4caeda421d8d1b0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626081207,
-            "globalPct": 44
-          },
-          {
-            "apiName": "tr_achieve_3",
-            "name": "Capitalist",
-            "description": "Earn 25,000 gold by selling cargo at Markets.",
-            "icon": "7a47be806964152222b110808d4e622bd908571d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.6
-          },
-          {
-            "apiName": "tr_achieve_4",
-            "name": "Station To Station",
-            "description": "Visit 250 Stations.",
-            "icon": "c948a70ec877f834d15a8332a38eb6cf39cce5ab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626335662,
-            "globalPct": 41.7
-          },
-          {
-            "apiName": "tr_achieve_5",
-            "name": "The Customer's Always Right",
-            "description": "Take 1,000 Passengers to their destinations.",
-            "icon": "f4346f82e219792fac570ce9969ca7ee6130e3e2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626211000,
-            "globalPct": 49.6
-          },
-          {
-            "apiName": "tr_achieve_7",
-            "name": "Celebrity Sightings",
-            "description": "Take 250 VIP Passengers to their destinations.",
-            "icon": "43187a7f8340c039ba4dd9878d1feae44335d112",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626185719,
-            "globalPct": 53.1
-          },
-          {
-            "apiName": "tr_achieve_8",
-            "name": "Mad Bank",
-            "description": "Earn 1,000,000 gold.",
-            "icon": "55b419cf88d4e74438b0d71ea916f4f926c3d59c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672681296,
-            "globalPct": 25.9
-          },
-          {
-            "apiName": "tr_achieve_9",
-            "name": "Car Connoisseur",
-            "description": "Upgrade 50 cars of any rarity.",
-            "icon": "dc3d0d9987db5e0f7fab224aeedda3173d9ee9f3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.3
-          },
-          {
-            "apiName": "tr_achieve_10",
-            "name": "Well Trained",
-            "description": "Purchase 75 train stat upgrades.",
-            "icon": "97db518082e65b53abaee8b426e9d70d89956f31",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626099349,
-            "globalPct": 45.6
-          },
-          {
-            "apiName": "tr_achieve_11",
-            "name": "Pardon The Dust",
-            "description": "Upgrade 100 Stations.",
-            "icon": "ae726392b032ae47ca453f6bd19332394cfd5d6e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672611981,
-            "globalPct": 23.4
-          },
-          {
-            "apiName": "tr_achieve_15",
-            "name": "Bring Me The Horizon",
-            "description": "Travel 1,000,000 km/622,000 miles.",
-            "icon": "8b1ff67e1ca83196658afda4c78bb3cb37b28572",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.7
           }
         ]
       }
@@ -197719,6 +197719,155 @@
       }
     },
     {
+      "appId": 3809940,
+      "name": "Drill Bird",
+      "playtimeHours": 9.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809940/4a0bfcfa664fe1788dc874a9e14fe456b1dffc1f.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809940/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/a3da2630bc1c368f856d316317987374f3ab9af8/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/0cb26f043581246da8ca2d8f6fc7f2f06b982872/library_header_2x.jpg",
+      "achievements": {
+        "total": 20,
+        "unlocked": 20,
+        "items": [
+          {
+            "apiName": "ach_days_fastest",
+            "name": "All in a week's work",
+            "description": "Finish the game within 7 in-game days",
+            "icon": "0dce3998dc7f1751cb9be16f4bf7ee4b52e61553",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769960447,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "ach_speed_fastest",
+            "name": "Speedrunning parenthood",
+            "description": "Finish the game within 20 human minutes after waking up. Tip: There is a timer feature in the game settings :) ",
+            "icon": "5cdac723fb6397369e43b9e681708010c56bab1b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769951488,
+            "globalPct": 2
+          },
+          {
+            "apiName": "ach_all_ores",
+            "name": "Ore lover",
+            "description": "Reach the final stats with at least 90% of ores collected",
+            "icon": "677437f75c9d45005de7667860c3b67e391139d2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769861266,
+            "globalPct": 26.7
+          },
+          {
+            "apiName": "ach_pacifist",
+            "name": "Pacifist",
+            "description": "Reach the final stats without any enemies dying",
+            "icon": "2d7b882bfa247a466888e169a78c5111797c7e7d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769960454,
+            "globalPct": 1.9
+          },
+          {
+            "apiName": "ach_finish",
+            "name": "Parent",
+            "description": "",
+            "icon": "bcb4de32d9b593a2fafb8b981ad1a0b3f3f8456d",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1769860035,
+            "globalPct": 48.1
+          },
+          {
+            "apiName": "ach_onestat",
+            "name": "Maxed out!",
+            "description": "Fully upgrade something",
+            "icon": "c317ddcd11ff13ccf0c1ba38a17f49a1fdf63dd2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769858895,
+            "globalPct": 57.5
+          },
+          {
+            "apiName": "ach_allstats",
+            "name": "Power napper",
+            "description": "Purchase all upgrades",
+            "icon": "f55e909e8196e43d5cf339386c320d22753c873f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769860618,
+            "globalPct": 32.7
+          },
+          {
+            "apiName": "ach_murderer",
+            "name": "Indirect murderer",
+            "description": "Get 50 enemies to die",
+            "icon": "ae4537fff1604a0fddaf8881bfb78cdf8a82e6b8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769860985,
+            "globalPct": 17
+          },
+          {
+            "apiName": "ach_flower",
+            "name": "Gardener",
+            "description": "",
+            "icon": "ce6843dded9c53d04502f1ab0358d7ce7587d93e",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1769858309,
+            "globalPct": 60.2
+          },
+          {
+            "apiName": "ach_fallblock",
+            "name": "Block crusher",
+            "description": "Crush an enemy with a fallblock",
+            "icon": "62eb8caa06f9927bb19a433b8cdecd956dfcecd9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769857913,
+            "globalPct": 73.4
+          },
+          {
+            "apiName": "ach_tallflower",
+            "name": "Tallest flower ever",
+            "description": "",
+            "icon": "28e22dfa0fc8f1a74a5f61b5c6bf138764f0536d",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1769858349,
+            "globalPct": 51.7
+          },
+          {
+            "apiName": "ach_tutorial_finish",
+            "name": "Egg",
+            "description": "You made one!",
+            "icon": "9cf316794bd9866383b73ae999a153bf00a9e73b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769857132,
+            "globalPct": 89.6
+          },
+          {
+            "apiName": "ach_first_upgrade",
+            "name": "Growth",
+            "description": "Purchase an upgrade",
+            "icon": "de11ed4e5b53c27ade4dbdb6b8119564a662e699",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1769857213,
+            "globalPct": 88.9
+          }
+        ]
+      }
+    },
+    {
       "appId": 635200,
       "name": "Distrust",
       "playtimeHours": 9.9,
@@ -220178,155 +220327,6 @@
             "unlocked": false,
             "unlockTime": 0,
             "globalPct": 4.3
-          }
-        ]
-      }
-    },
-    {
-      "appId": 3809940,
-      "name": "Drill Bird",
-      "playtimeHours": 6.6,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809940/4a0bfcfa664fe1788dc874a9e14fe456b1dffc1f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809940/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/a3da2630bc1c368f856d316317987374f3ab9af8/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809940/0cb26f043581246da8ca2d8f6fc7f2f06b982872/library_header_2x.jpg",
-      "achievements": {
-        "total": 20,
-        "unlocked": 16,
-        "items": [
-          {
-            "apiName": "ach_days_fastest",
-            "name": "All in a week's work",
-            "description": "Finish the game within 7 in-game days",
-            "icon": "0dce3998dc7f1751cb9be16f4bf7ee4b52e61553",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769960447,
-            "globalPct": 2.8
-          },
-          {
-            "apiName": "ach_speed_fastest",
-            "name": "Speedrunning parenthood",
-            "description": "Finish the game within 20 human minutes after waking up. Tip: There is a timer feature in the game settings :) ",
-            "icon": "5cdac723fb6397369e43b9e681708010c56bab1b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769951488,
-            "globalPct": 2
-          },
-          {
-            "apiName": "ach_all_ores",
-            "name": "Ore lover",
-            "description": "Reach the final stats with at least 90% of ores collected",
-            "icon": "677437f75c9d45005de7667860c3b67e391139d2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769861266,
-            "globalPct": 26.7
-          },
-          {
-            "apiName": "ach_pacifist",
-            "name": "Pacifist",
-            "description": "Reach the final stats without any enemies dying",
-            "icon": "2d7b882bfa247a466888e169a78c5111797c7e7d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769960454,
-            "globalPct": 1.9
-          },
-          {
-            "apiName": "ach_finish",
-            "name": "Parent",
-            "description": "",
-            "icon": "bcb4de32d9b593a2fafb8b981ad1a0b3f3f8456d",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1769860035,
-            "globalPct": 48.1
-          },
-          {
-            "apiName": "ach_onestat",
-            "name": "Maxed out!",
-            "description": "Fully upgrade something",
-            "icon": "c317ddcd11ff13ccf0c1ba38a17f49a1fdf63dd2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769858895,
-            "globalPct": 57.5
-          },
-          {
-            "apiName": "ach_allstats",
-            "name": "Power napper",
-            "description": "Purchase all upgrades",
-            "icon": "f55e909e8196e43d5cf339386c320d22753c873f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769860618,
-            "globalPct": 32.7
-          },
-          {
-            "apiName": "ach_murderer",
-            "name": "Indirect murderer",
-            "description": "Get 50 enemies to die",
-            "icon": "ae4537fff1604a0fddaf8881bfb78cdf8a82e6b8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769860985,
-            "globalPct": 17
-          },
-          {
-            "apiName": "ach_flower",
-            "name": "Gardener",
-            "description": "",
-            "icon": "ce6843dded9c53d04502f1ab0358d7ce7587d93e",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1769858309,
-            "globalPct": 60.2
-          },
-          {
-            "apiName": "ach_fallblock",
-            "name": "Block crusher",
-            "description": "Crush an enemy with a fallblock",
-            "icon": "62eb8caa06f9927bb19a433b8cdecd956dfcecd9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769857913,
-            "globalPct": 73.4
-          },
-          {
-            "apiName": "ach_tallflower",
-            "name": "Tallest flower ever",
-            "description": "",
-            "icon": "28e22dfa0fc8f1a74a5f61b5c6bf138764f0536d",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1769858349,
-            "globalPct": 51.7
-          },
-          {
-            "apiName": "ach_tutorial_finish",
-            "name": "Egg",
-            "description": "You made one!",
-            "icon": "9cf316794bd9866383b73ae999a153bf00a9e73b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769857132,
-            "globalPct": 89.6
-          },
-          {
-            "apiName": "ach_first_upgrade",
-            "name": "Growth",
-            "description": "Purchase an upgrade",
-            "icon": "de11ed4e5b53c27ade4dbdb6b8119564a662e699",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1769857213,
-            "globalPct": 88.9
           }
         ]
       }
@@ -296023,6 +296023,303 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "achievements": null
+    },
+    {
+      "appId": 3688130,
+      "name": "Moldwasher",
+      "playtimeHours": 1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3688130/0ddfb14c1c6779ed22909de3bb071af285a7bb33.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/fedcb27c3fcbd8b2f88b8f2a2fba856e69ac9900/header_alt_assets_5.jpg?t=1790152532",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jun 23, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/65fc250d2596e1a4e705d24761c9e2a5a0fd8fce/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/5bc42139cbe3bde44e3efe8d3bf04a27485bcd19/library_header_2x.jpg",
+      "achievements": {
+        "total": 27,
+        "unlocked": 14,
+        "items": [
+          {
+            "apiName": "CLEAN_OPTIONAL_MOLD",
+            "name": "\"I Don't Tip Because Society Says I Have To\"",
+            "description": "Clean all optional mold in a level.",
+            "icon": "6bf6a40ea2341407d6eb54e87acd35ad451cfe83",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791202434,
+            "globalPct": 88.9
+          },
+          {
+            "apiName": "ENTER_HOUSE",
+            "name": "Sul Sul!",
+            "description": "Enter the house.",
+            "icon": "1cf4e87392d2e79ec1670f6cc9be2c8db65b98a7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791202213,
+            "globalPct": 99.6
+          },
+          {
+            "apiName": "UNLOCK_DECOR_ROOM",
+            "name": "Beauty Corner",
+            "description": "Unlock the Decoration Room.",
+            "icon": "b11e17c25bc32dc552392e89daf0abfb396fd1db",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791205964,
+            "globalPct": 76
+          },
+          {
+            "apiName": "UPGRADE_ONE_TOOL",
+            "name": "Acquire Hardware",
+            "description": "Fully upgrade any tool.",
+            "icon": "14104926c32508bb844b5356afc02eabd275a153",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791206005,
+            "globalPct": 73.1
+          },
+          {
+            "apiName": "REPLACE_STICKER",
+            "name": "Second Thoughts",
+            "description": "Change your mind after placing a sticker.",
+            "icon": "d85368594ef083401f00398ffd425faa73da38f6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791202594,
+            "globalPct": 58.5
+          },
+          {
+            "apiName": "DROWN_FLY",
+            "name": "Waterboarding ",
+            "description": "",
+            "icon": "9f3afffc134ea20703604c24cbb85038a454333b",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1791203833,
+            "globalPct": 73.9
+          },
+          {
+            "apiName": "BURN_COCKROACH",
+            "name": "Toasty! ",
+            "description": "",
+            "icon": "488438bb3490847c61677bff63733a56a3927413",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 60.4
+          },
+          {
+            "apiName": "USE_ALL_TOOLS",
+            "name": "Sushi Set",
+            "description": "",
+            "icon": "93f04449323636698e95b3a0fad15df214adcc95",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.2
+          },
+          {
+            "apiName": "SECONDARY_ONLY",
+            "name": "Alt-Fire Walk with Me",
+            "description": "Clean an entire level using only secondary cleaning mode.",
+            "icon": "25ee48ca63190870d4e41d05f792a7c6d629f846",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791203793,
+            "globalPct": 81.2
+          },
+          {
+            "apiName": "GACHAPON_25",
+            "name": "\"It’s Not Gambling If You Know You're Gonna Win\"",
+            "description": "Buy 25 decorations from the gachapon.",
+            "icon": "745ac4d54262a17d55487da5c403f9f058b80979",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 54.8
+          },
+          {
+            "apiName": "LEVEL1_IDLE",
+            "name": "Finally, Inner Peace",
+            "description": "Spend 5 minutes in Level 1.",
+            "icon": "4dd542d3f2892265839b202859c688e9979571b9",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.8
+          },
+          {
+            "apiName": "PLAY_5_CDS",
+            "name": "Sushi! at the Disco",
+            "description": "Play 5 CDs.",
+            "icon": "bd02dde3ea1498e17718e3926876c3aa5555fde1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791204467,
+            "globalPct": 50
+          },
+          {
+            "apiName": "WATER_ALL_FLOWERS",
+            "name": "HighGrow",
+            "description": "",
+            "icon": "2070531c7893a78501ca061fe35bc0bd243d1fde",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 38.5
+          },
+          {
+            "apiName": "FIND_ALL_COLLECTIBLES",
+            "name": "Gamer Brain®",
+            "description": "Find every collectible in the game.",
+            "icon": "cd2fbe4ded478eaea3481921b5b945afd6889482",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 20.7
+          },
+          {
+            "apiName": "OPEN_ALL_BOXES",
+            "name": "Unpacking",
+            "description": "Open every box in the garage.",
+            "icon": "45067d99528158aa1512e3b0609cb55153ad5fab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791205943,
+            "globalPct": 70.7
+          },
+          {
+            "apiName": "FLAME_RICE",
+            "name": "Yakimeshi ",
+            "description": "",
+            "icon": "41b63042f74ca743255bece907000884a73f1fd5",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 40.4
+          },
+          {
+            "apiName": "FIND_ALL_CASSETTES",
+            "name": "Rewind time!",
+            "description": "Find all cassettes.",
+            "icon": "93d5cf45b7e96ce3038cca3069a3698c303ecdea",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 38.9
+          },
+          {
+            "apiName": "FIND_ALL_STICKERS",
+            "name": "Apply Directly to the Forehead",
+            "description": "Find all stickers.",
+            "icon": "913b039889d4b5b08bb463cac07e7b46badc5881",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 21.1
+          },
+          {
+            "apiName": "FIND_ALL_TOYS",
+            "name": "To Infinity and Beyond!",
+            "description": "Find all toys.",
+            "icon": "2e217fc32358142bc0c346ada0d40bca37bce734",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "FINISH_STORY",
+            "name": "Do You Feel Like a Hero Yet?",
+            "description": "",
+            "icon": "e53a2802eca4ad28eb2b93e95da9567ca97b062f",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 61.9
+          },
+          {
+            "apiName": "REPLAY_LEVEL",
+            "name": "Returning to Hallownest",
+            "description": "",
+            "icon": "85278c83f464f2c191832f9944faaec5621a6328",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1791204989,
+            "globalPct": 76.7
+          },
+          {
+            "apiName": "BUY_ONE_TOOL",
+            "name": "Stinkfist",
+            "description": "Buy a new tool.",
+            "icon": "6d44722dad98db2efdc2403fe6b5038bc3e185a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791203190,
+            "globalPct": 89.7
+          },
+          {
+            "apiName": "BUY_ALL_TOOLS",
+            "name": "IDKFA",
+            "description": "Buy every tool.",
+            "icon": "9e76e66d476ff5b7b205ff67234d536e00dd5cfc",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 64
+          },
+          {
+            "apiName": "UPGRADE_ALL_TOOLS",
+            "name": "For Science. You Monster.",
+            "description": "Fully upgrade every tool.",
+            "icon": "52878d0e90b674e0da8a8db96fc5930c82d80217",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 54.2
+          },
+          {
+            "apiName": "COLLECT_100_COINS",
+            "name": "Stonks",
+            "description": "Collect 100 coins.",
+            "icon": "81aa4569c76d474ba7ea3d7befaeeae8e19b7ea7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791205952,
+            "globalPct": 74.2
+          },
+          {
+            "apiName": "COLLECT_5000_FRESHCASH",
+            "name": "Bancho's Biggest Nightmare",
+            "description": "Collect 5,000 FreshCash.",
+            "icon": "5c4c92995dcfcef381dc84717a167b74dfa3feac",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791205251,
+            "globalPct": 76.1
+          },
+          {
+            "apiName": "SPEND_1000_FRESHCASH",
+            "name": "Rich Taste",
+            "description": "Spend 1,000 FreshCash.",
+            "icon": "a6743524bc28b3347f03f80b0c956cae3f6b9d41",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791204027,
+            "globalPct": 87.4
+          }
+        ]
+      }
     },
     {
       "appId": 1066900,
@@ -379243,31 +379540,6 @@
       }
     },
     {
-      "appId": 3688130,
-      "name": "Moldwasher",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3688130/0ddfb14c1c6779ed22909de3bb071af285a7bb33.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/fedcb27c3fcbd8b2f88b8f2a2fba856e69ac9900/header_alt_assets_5.jpg?t=1790152532",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Jun 23, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/65fc250d2596e1a4e705d24761c9e2a5a0fd8fce/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688130/5bc42139cbe3bde44e3efe8d3bf04a27485bcd19/library_header_2x.jpg",
-      "achievements": {
-        "total": 27,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 3700760,
       "name": "Eggo",
       "playtimeHours": 0,
@@ -380908,7 +381180,7 @@
       "dateAdded": 1555279524,
       "priority": 330,
       "name": "Junkyard Simulator",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671970/header.jpg?t=1785855495",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671970/header.jpg?t=1791204120",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671970/library_600x900_2x.jpg"
     },
     {
@@ -381156,7 +381428,7 @@
       "dateAdded": 1624212239,
       "priority": 0,
       "name": "SURV1V3",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/722180/header.jpg?t=1668208940",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/722180/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/722180/library_600x900_2x.jpg"
     },
     {
@@ -381164,7 +381436,7 @@
       "dateAdded": 1513676746,
       "priority": 374,
       "name": "Rumu",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/header.jpg?t=1719898076",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/723270/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_header.jpg"
     },
@@ -381173,7 +381445,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -381181,7 +381453,7 @@
       "dateAdded": 1601992285,
       "priority": 0,
       "name": "Overcrowd: A Commute 'Em Up",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/header.jpg?t=1772571372",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/library_600x900_2x.jpg"
     },
     {
@@ -381189,7 +381461,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -381296,7 +381568,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -383368,7 +383640,7 @@
       "dateAdded": 1661368114,
       "priority": 0,
       "name": "Dune: Awakening",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172710/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/c23906beee3fdf1cd48980f340a2b76a3590d765/header_alt_assets_9.jpg?t=1790856134",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/a831468f7e9c5ff7cd83b154257947d1190a4138/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/library_header_2x.jpg"
     },
@@ -388996,7 +389268,8 @@
       "priority": 0,
       "name": "Outpath",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2237970/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237970/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237970/c47e4e03ad6139fe92efc879989cb5ad0b65a648/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237970/66166b038702e2f1884209d94606d2a15945272b/library_header_2x.jpg"
     },
     {
       "appId": 2239130,
@@ -390729,7 +391002,7 @@
       "dateAdded": 1764252538,
       "priority": 0,
       "name": "Echoes of Elysium",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2644050/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2644050/82170d15d8d11b8bfe5408c608b851ad0d6ef376/header.jpg?t=1787269896",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2644050/b083cf2add84b6eaad6e03c7537523d2116d8c38/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2644050/82170d15d8d11b8bfe5408c608b851ad0d6ef376/library_header_2x.jpg"
     },
@@ -390809,7 +391082,7 @@
       "dateAdded": 1749484830,
       "priority": 0,
       "name": "Grounded 2",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2661300/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/b52405d3dd3d4bfd356cd9af7b399bcbc5a23f7e/header.jpg?t=1787010637",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/a75d74c53b8ebfe2d2949ff398e50dd14092f049/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/b52405d3dd3d4bfd356cd9af7b399bcbc5a23f7e/library_header_2x.jpg"
     },
@@ -390836,7 +391109,7 @@
       "dateAdded": 1728595797,
       "priority": 0,
       "name": "Red Dead Redemption",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2668510/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/header.jpg?t=1781132266",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/f5cf694ddab93ed2462a9e2f5e01064e121c5663/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/25bbe4761ae5851d07c36aed452d53f5a69c799a/library_header_2x.jpg"
     },
@@ -396716,7 +396989,7 @@
       "priority": 0,
       "name": "CELESTAY Craft&Slowlife",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4183770/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183770/880d2b1d3f632cff690f337b478c8b8dc716736b/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183770/597afa06264b0c6ab8eb325dedd89c3015d10678/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4183770/361bb8cfdf7993a6654bd52422dae2defcea4b2b/library_header_2x.jpg"
     },
     {
@@ -398074,7 +398347,7 @@
       "dateAdded": 1783965642,
       "priority": 0,
       "name": "App 4824610",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/28045d733a3ada082858b5b1a5149e33ee40f378/header.jpg?t=1780990195",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4824610/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/249c95eeaf9a26ffc90b6a55f3eda7fc72b1545c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/b8c2b64f3d4d5fe9da7dedf3230d01e603179bf1/library_header_2x.jpg"
     },
@@ -398101,7 +398374,7 @@
       "dateAdded": 1787603821,
       "priority": 0,
       "name": "App 4894750",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/83d9422ad06611a0a64e0203495ac64524533677/header.jpg?t=1784557009",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4894750/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/dc85c1be7e4f4b208057f19669020a825e038891/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4894750/83d9422ad06611a0a64e0203495ac64524533677/library_header_2x.jpg"
     },
@@ -398182,7 +398455,7 @@
       "dateAdded": 1789450564,
       "priority": 0,
       "name": "App 5159870",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/8980900568ead38e73d1538557fe9ff9d987bedd/header.jpg?t=1790023754",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5159870/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/06af26a84238a56f7dbb76487bbdfc7756fad0e5/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/26df90dc41b0945ed57f778671c9506ca09c1611/library_header_2x.jpg"
     },
@@ -398191,7 +398464,7 @@
       "dateAdded": 1790549367,
       "priority": 0,
       "name": "App 4312190",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/header.jpg?t=1790886695",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4312190/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/41fe49c40fa4226ddd7fafdb4b15c15687756f68/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/library_header_2x.jpg"
     },
@@ -398245,7 +398518,7 @@
       "dateAdded": 1790646043,
       "priority": 0,
       "name": "App 4564640",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/1f71be8826e931427e03e71bf9901638d364cda7/header.jpg?t=1784100541",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4564640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/fedebb46028c063fe45d919816c1aee2e6d94492/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/991ea82b9bed39b1cd87dc109da1e54275cef129/library_header_2x.jpg"
     },
@@ -398270,7 +398543,7 @@
       "dateAdded": 1790726423,
       "priority": 0,
       "name": "App 2487330",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/21f6e3394b6c3998aa477817e412c5109d3a19de/header.jpg?t=1790865739",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2487330/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/3ed1c79705d92f3db6418936e005ebc43fac480a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/21f6e3394b6c3998aa477817e412c5109d3a19de/library_header_2x.jpg"
     },
