@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-10-08T12:48:17.439Z",
+  "generatedAt": "2026-10-09T12:36:17.797Z",
   "events": [
+    {
+      "appId": 632360,
+      "name": "Risk of Rain 2",
+      "added": 34,
+      "total": 205,
+      "date": "2026-10-09"
+    },
     {
       "appId": 571740,
       "name": "Golf It!",

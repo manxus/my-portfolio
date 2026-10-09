@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-10-08T12:48:17.393Z",
+  "fetchedAt": "2026-10-09T12:36:17.778Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1791449592
+    "lastLogoff": 1791540907
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3494.9,
+      "playtimeHours": 3495.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2935.5,
+      "playtimeHours": 2950.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -31480,7 +31480,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/8750289983343253592f0f221e9a0fc46619c458/library_header_2x.jpg",
       "achievements": {
-        "total": 171,
+        "total": 205,
         "unlocked": 140,
         "items": [
           {
@@ -73883,6 +73883,145 @@
       }
     },
     {
+      "appId": 614630,
+      "name": "Tiny Rails",
+      "playtimeHours": 78.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/614630/6717cba43ead8801d078dc03259dc50027578c46.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/614630/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614630/library_600x900.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 12,
+        "unlocked": 11,
+        "items": [
+          {
+            "apiName": "tr_achieve_0",
+            "name": "Car Collector",
+            "description": "Collect 45 train cars of any rarity.",
+            "icon": "39509c6bed3cbcbba5a44ffe90661c4c8a157fd3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626252825,
+            "globalPct": 34.7
+          },
+          {
+            "apiName": "tr_achieve_1",
+            "name": "Rare Breed",
+            "description": "Collect 30 rare train cars.",
+            "icon": "d4ec467e2fe8d24f35786773aa5ba5dfb1e9cb93",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672771433,
+            "globalPct": 15
+          },
+          {
+            "apiName": "tr_achieve_2",
+            "name": "Consumer",
+            "description": "Buy 400 cargo items from Markets.",
+            "icon": "6d1b0d504a55252f36191428e4caeda421d8d1b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626081207,
+            "globalPct": 44
+          },
+          {
+            "apiName": "tr_achieve_3",
+            "name": "Capitalist",
+            "description": "Earn 25,000 gold by selling cargo at Markets.",
+            "icon": "7a47be806964152222b110808d4e622bd908571d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791298779,
+            "globalPct": 6.6
+          },
+          {
+            "apiName": "tr_achieve_4",
+            "name": "Station To Station",
+            "description": "Visit 250 Stations.",
+            "icon": "c948a70ec877f834d15a8332a38eb6cf39cce5ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626335662,
+            "globalPct": 41.7
+          },
+          {
+            "apiName": "tr_achieve_5",
+            "name": "The Customer's Always Right",
+            "description": "Take 1,000 Passengers to their destinations.",
+            "icon": "f4346f82e219792fac570ce9969ca7ee6130e3e2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626211000,
+            "globalPct": 49.6
+          },
+          {
+            "apiName": "tr_achieve_7",
+            "name": "Celebrity Sightings",
+            "description": "Take 250 VIP Passengers to their destinations.",
+            "icon": "43187a7f8340c039ba4dd9878d1feae44335d112",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626185719,
+            "globalPct": 53.1
+          },
+          {
+            "apiName": "tr_achieve_8",
+            "name": "Mad Bank",
+            "description": "Earn 1,000,000 gold.",
+            "icon": "55b419cf88d4e74438b0d71ea916f4f926c3d59c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672681296,
+            "globalPct": 25.9
+          },
+          {
+            "apiName": "tr_achieve_9",
+            "name": "Car Connoisseur",
+            "description": "Upgrade 50 cars of any rarity.",
+            "icon": "dc3d0d9987db5e0f7fab224aeedda3173d9ee9f3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791249833,
+            "globalPct": 9.3
+          },
+          {
+            "apiName": "tr_achieve_10",
+            "name": "Well Trained",
+            "description": "Purchase 75 train stat upgrades.",
+            "icon": "97db518082e65b53abaee8b426e9d70d89956f31",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626099349,
+            "globalPct": 45.6
+          },
+          {
+            "apiName": "tr_achieve_11",
+            "name": "Pardon The Dust",
+            "description": "Upgrade 100 Stations.",
+            "icon": "ae726392b032ae47ca453f6bd19332394cfd5d6e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672611981,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "tr_achieve_15",
+            "name": "Bring Me The Horizon",
+            "description": "Travel 1,000,000 km/622,000 miles.",
+            "icon": "8b1ff67e1ca83196658afda4c78bb3cb37b28572",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.7
+          }
+        ]
+      }
+    },
+    {
       "appId": 295110,
       "name": "Just Survive",
       "playtimeHours": 77.9,
@@ -82613,145 +82752,6 @@
             "unlocked": true,
             "unlockTime": 1756764027,
             "globalPct": 4.5
-          }
-        ]
-      }
-    },
-    {
-      "appId": 614630,
-      "name": "Tiny Rails",
-      "playtimeHours": 63.5,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/614630/6717cba43ead8801d078dc03259dc50027578c46.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/614630/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614630/library_600x900.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 12,
-        "unlocked": 11,
-        "items": [
-          {
-            "apiName": "tr_achieve_0",
-            "name": "Car Collector",
-            "description": "Collect 45 train cars of any rarity.",
-            "icon": "39509c6bed3cbcbba5a44ffe90661c4c8a157fd3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626252825,
-            "globalPct": 34.7
-          },
-          {
-            "apiName": "tr_achieve_1",
-            "name": "Rare Breed",
-            "description": "Collect 30 rare train cars.",
-            "icon": "d4ec467e2fe8d24f35786773aa5ba5dfb1e9cb93",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672771433,
-            "globalPct": 15
-          },
-          {
-            "apiName": "tr_achieve_2",
-            "name": "Consumer",
-            "description": "Buy 400 cargo items from Markets.",
-            "icon": "6d1b0d504a55252f36191428e4caeda421d8d1b0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626081207,
-            "globalPct": 44
-          },
-          {
-            "apiName": "tr_achieve_3",
-            "name": "Capitalist",
-            "description": "Earn 25,000 gold by selling cargo at Markets.",
-            "icon": "7a47be806964152222b110808d4e622bd908571d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1791298779,
-            "globalPct": 6.6
-          },
-          {
-            "apiName": "tr_achieve_4",
-            "name": "Station To Station",
-            "description": "Visit 250 Stations.",
-            "icon": "c948a70ec877f834d15a8332a38eb6cf39cce5ab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626335662,
-            "globalPct": 41.7
-          },
-          {
-            "apiName": "tr_achieve_5",
-            "name": "The Customer's Always Right",
-            "description": "Take 1,000 Passengers to their destinations.",
-            "icon": "f4346f82e219792fac570ce9969ca7ee6130e3e2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626211000,
-            "globalPct": 49.6
-          },
-          {
-            "apiName": "tr_achieve_7",
-            "name": "Celebrity Sightings",
-            "description": "Take 250 VIP Passengers to their destinations.",
-            "icon": "43187a7f8340c039ba4dd9878d1feae44335d112",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626185719,
-            "globalPct": 53.1
-          },
-          {
-            "apiName": "tr_achieve_8",
-            "name": "Mad Bank",
-            "description": "Earn 1,000,000 gold.",
-            "icon": "55b419cf88d4e74438b0d71ea916f4f926c3d59c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672681296,
-            "globalPct": 25.9
-          },
-          {
-            "apiName": "tr_achieve_9",
-            "name": "Car Connoisseur",
-            "description": "Upgrade 50 cars of any rarity.",
-            "icon": "dc3d0d9987db5e0f7fab224aeedda3173d9ee9f3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1791249833,
-            "globalPct": 9.3
-          },
-          {
-            "apiName": "tr_achieve_10",
-            "name": "Well Trained",
-            "description": "Purchase 75 train stat upgrades.",
-            "icon": "97db518082e65b53abaee8b426e9d70d89956f31",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626099349,
-            "globalPct": 45.6
-          },
-          {
-            "apiName": "tr_achieve_11",
-            "name": "Pardon The Dust",
-            "description": "Upgrade 100 Stations.",
-            "icon": "ae726392b032ae47ca453f6bd19332394cfd5d6e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672611981,
-            "globalPct": 23.4
-          },
-          {
-            "apiName": "tr_achieve_15",
-            "name": "Bring Me The Horizon",
-            "description": "Travel 1,000,000 km/622,000 miles.",
-            "icon": "8b1ff67e1ca83196658afda4c78bb3cb37b28572",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.7
           }
         ]
       }
@@ -251611,6 +251611,305 @@
       }
     },
     {
+      "appId": 4421010,
+      "name": "Bills Must Be Paid",
+      "playtimeHours": 4.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4421010/352d82fd169128398e38702999148ddd403f4517.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/fc7d507e465320493fbf224b54d769c043601390/header.jpg?t=1790580659",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jul 29, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/f5c9e8be5ce51797ebdb4c2d25cedc218c2fa89a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/ed8ea87581c1271953e1b02780cf83e8b7e9a6d8/library_header_2x.jpg",
+      "achievements": {
+        "total": 27,
+        "unlocked": 27,
+        "items": [
+          {
+            "apiName": "smash_10",
+            "name": "Rookie Smasher",
+            "description": "Smash 10 piggies",
+            "icon": "19d5ec1976de8053233114e26a53f4f721b0ba3b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791480989,
+            "globalPct": 99.1
+          },
+          {
+            "apiName": "smash_100",
+            "name": "Serial Smasher",
+            "description": "Smash 100 piggies",
+            "icon": "6a9c003ef099f92611ab173f001b89272c7c0f63",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791481702,
+            "globalPct": 97.2
+          },
+          {
+            "apiName": "first_bill",
+            "name": "Bills Must Be Paid",
+            "description": "Pay your first bill",
+            "icon": "a5c790d757728e75c51ac6636dbed53d144ce0db",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791481032,
+            "globalPct": 99.1
+          },
+          {
+            "apiName": "pay_5_bills",
+            "name": "One Step at a Time",
+            "description": "Pay 5 bills",
+            "icon": "cc53633a1e04e02b1979124f7ac26767fb2560d5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791482243,
+            "globalPct": 96.2
+          },
+          {
+            "apiName": "pay_10_bills",
+            "name": "Making Progress",
+            "description": "Pay 10 bills",
+            "icon": "144f28b44311a9fa422bd048a3d7dbd6f09fa8da",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791483845,
+            "globalPct": 93.7
+          },
+          {
+            "apiName": "pay_20_bills",
+            "name": "Keeping Up",
+            "description": "Pay 20 bills",
+            "icon": "ed03ac22945e5f81fba24d5bb859f7688dd90e4e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791487236,
+            "globalPct": 87
+          },
+          {
+            "apiName": "earn_100",
+            "name": "Better than Nothing",
+            "description": "Earn $100 in a single run",
+            "icon": "1c0cbdc1889feed1e42057cbf1732ae370b93ffe",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791481220,
+            "globalPct": 98.3
+          },
+          {
+            "apiName": "earn_1000_round",
+            "name": "High Roller",
+            "description": "Earn $1000 in a single run",
+            "icon": "c5883c7b4f1d997159a11c7f2c10343b528047d8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791482970,
+            "globalPct": 94.5
+          },
+          {
+            "apiName": "earn_10000_round",
+            "name": "Five Figures",
+            "description": "Earn $10000 in a single run",
+            "icon": "1c01fcf5bf7ae76f080ddfd5f919cf9f0f09826e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791484653,
+            "globalPct": 89
+          },
+          {
+            "apiName": "accuracy_100",
+            "name": "Not a Single Miss",
+            "description": "Complete a run with 100% accuracy",
+            "icon": "347a48da7a23727fb5027e0a133ad40ac637bc42",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791480931,
+            "globalPct": 98.8
+          },
+          {
+            "apiName": "accuracy_100_2rounds",
+            "name": "Twice as Precise",
+            "description": "Maintain 100% accuracy across 2 consecutive runs",
+            "icon": "c46552383d69ea7d738bf26833374d1b6f539e4b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791481017,
+            "globalPct": 96.9
+          },
+          {
+            "apiName": "own_1_million",
+            "name": "The Richest Broke Person",
+            "description": "Own $1000000 at once",
+            "icon": "6385bd6c6dbe88313a6a0e15436be858ad24bf28",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791489300,
+            "globalPct": 79.1
+          },
+          {
+            "apiName": "coin_collection",
+            "name": "Coin Collector",
+            "description": "Complete the full coin collection",
+            "icon": "8fe426c0a99541727a7c779552e05f17f413ad2f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791495386,
+            "globalPct": 69.4
+          },
+          {
+            "apiName": "all_shop_items",
+            "name": "Bought It All",
+            "description": "Buy every item in the shop",
+            "icon": "117f2591ec07e8ba5233afe9fc0d8deadffee07c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791494405,
+            "globalPct": 65.7
+          },
+          {
+            "apiName": "all_piggy_banks",
+            "name": "Piggy Bank Collector",
+            "description": "Unlock every piggy bank",
+            "icon": "a1a2bfc8bab317c07af3fef9d975055940cb05b3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791491239,
+            "globalPct": 70.4
+          },
+          {
+            "apiName": "declare_bankruptcy",
+            "name": "Fresh Start",
+            "description": "Declare bankruptcy and start a new cycle",
+            "icon": "c0829dc91f169efa023ebdd418d5e2460a2ca299",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791482139,
+            "globalPct": 96.1
+          },
+          {
+            "apiName": "all_bills_paid",
+            "name": "Freedom",
+            "description": "Pay all your bills",
+            "icon": "d089e677b1af5e83d2213e6c32c488d591d1a692",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791495594,
+            "globalPct": 68.8
+          },
+          {
+            "apiName": "max_skilltree",
+            "name": "Maxed Out",
+            "description": "Buy all skill tree upgrades",
+            "icon": "e23adcf2bc1009ea7b4cd7432723896a4f537bd7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791495834,
+            "globalPct": 56.7
+          },
+          {
+            "apiName": "all_rings",
+            "name": "Prestige Jewelry",
+            "description": "Unlock all rings and bracelets",
+            "icon": "24455af38d007d4533031cfcb282a583d5823e97",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791495842,
+            "globalPct": 61.3
+          },
+          {
+            "apiName": "first_smash",
+            "name": "Strong Start",
+            "description": "Destroy 2 piggies with your first hit of a run",
+            "icon": "8470c7f306604c6452ee6e1fb352b16e01501578",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791481854,
+            "globalPct": 94.5
+          },
+          {
+            "apiName": "gamble_all_in",
+            "name": "All or Nothing",
+            "description": "Go all in on a gamble",
+            "icon": "1d2a46991a858379ee5c1d139591e1f20a7fbb92",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791484858,
+            "globalPct": 79.6
+          },
+          {
+            "apiName": "win_coinflip",
+            "name": "50/50",
+            "description": "Win a coinflip",
+            "icon": "f21ef7112fb18b07ba0761c34b24aa43fa98d316",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791485377,
+            "globalPct": 94.2
+          },
+          {
+            "apiName": "win_shellgame",
+            "name": "Eyes on the Piggy",
+            "description": "Pick the correct piggy in Piggy Shuffle",
+            "icon": "dad108384d6075f80822eedd56304656ce875a98",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791484910,
+            "globalPct": 68.2
+          },
+          {
+            "apiName": "multismash_3",
+            "name": "Multismasher",
+            "description": "Destroy 3 piggies at once",
+            "icon": "4d3b12197eafb8cc4c14b9cec4ee666578484dc0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791484401,
+            "globalPct": 92.5
+          },
+          {
+            "apiName": "take_loan",
+            "name": "Take a Loan",
+            "description": "Call Big Toni and take a loan",
+            "icon": "57c66846e77cbeca9993e94b3f3031d2ef1f7864",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791485299,
+            "globalPct": 85
+          },
+          {
+            "apiName": "pay_back_loan",
+            "name": "Pay Back a Loan",
+            "description": "Pay Big Toni his money back",
+            "icon": "1d53ee3bca57315ba05e20cba96f47a8cb8531a6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791495902,
+            "globalPct": 67.9
+          },
+          {
+            "apiName": "super_jackpot",
+            "name": "Super Jackpot",
+            "description": "Hit the Super Jackpot once",
+            "icon": "6214faf67a3b68b4f208bfe395005ac78e0abe8d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791490873,
+            "globalPct": 71.8
+          }
+        ]
+      }
+    },
+    {
       "appId": 382490,
       "name": "Relic Hunters Zero: Remix",
       "playtimeHours": 4.1,
@@ -336916,7 +337215,7 @@
       "appId": 313340,
       "name": "Mountain",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/313340/ac536a6c0d25ed161898d0af0f5b8661f07d12b3.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/313340/49ecaf26b80650ae91cc2a77578e4a6a0ce5a94d.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/313340/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -379851,7 +380150,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410180/9e4c7e4154dba2d2f961f8f62eaa423fc59d8b31/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3410180/fe93f810b7747c58768081f7d848d417a186f3a9/library_header_2x.jpg",
       "achievements": {
-        "total": 32,
+        "total": 33,
         "unlocked": 0
       }
     },
@@ -380562,33 +380861,6 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/c419b9438d01aa0437547ea004afe7e80d611472/library_header_2x.jpg",
       "achievements": {
         "total": 9,
-        "unlocked": 0
-      }
-    },
-    {
-      "appId": 4421010,
-      "name": "Bills Must Be Paid",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4421010/352d82fd169128398e38702999148ddd403f4517.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/fc7d507e465320493fbf224b54d769c043601390/header.jpg?t=1790580659",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Jul 29, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/f5c9e8be5ce51797ebdb4c2d25cedc218c2fa89a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/ed8ea87581c1271953e1b02780cf83e8b7e9a6d8/library_header_2x.jpg",
-      "achievements": {
-        "total": 27,
         "unlocked": 0
       }
     },
@@ -382063,7 +382335,7 @@
       "dateAdded": 1585152119,
       "priority": 0,
       "name": "Industrial Petting",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/676510/header.jpg?t=1752554716",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/676510/header.jpg?t=1791489015",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/676510/b7591d79d1ea8728b597629a70b0ded1c112cd58/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/676510/83bae0aea94c19db94f28cee4cdc4658d7caf3cd/library_header_2x.jpg"
     },
@@ -382128,7 +382400,7 @@
       "dateAdded": 1549145377,
       "priority": 350,
       "name": "Foundation",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/d338fff195487271a85e4fbf791f1745aefcee40/header_alt_assets_6.jpg?t=1789416630",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1791490045",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/ce78d0949d018967dd80da34826f153cd7a084d7/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/8ffd32f3730aeaa49b6176717421ed4d226f628f/library_header_2x.jpg"
     },
@@ -382296,7 +382568,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -382305,7 +382577,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -382313,7 +382585,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -382321,7 +382593,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -382403,7 +382675,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -382753,7 +383025,7 @@
       "dateAdded": 1548886736,
       "priority": 447,
       "name": "Subnautica: Below Zero",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1777456254",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/library_600x900_2x.jpg"
     },
     {
@@ -382877,7 +383149,7 @@
       "dateAdded": 1665755911,
       "priority": 0,
       "name": "The Eternal Cylinder",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/865680/header.jpg?t=1728690515",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/865680/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/865680/library_600x900_2x.jpg"
     },
     {
@@ -385092,7 +385364,8 @@
       "priority": 0,
       "name": "Strobophagia | Rave Horror",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1266680/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266680/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266680/3a77de1eaa4446f84375cff2b2f64b61c48100c0/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266680/96e2eb62e68e5515f013443cd99482c15483571d/library_header_2x.jpg"
     },
     {
       "appId": 1268100,
@@ -386156,7 +386429,7 @@
       "priority": 0,
       "name": "Killing Floor 3",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1430190/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1430190/f45918a320cb311db7dc9776ab4a559b6c0af44b/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1430190/df16545f84dfd5a1916f2c46cf38230c7e82f835/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1430190/1eeb014e6ad8187a7cca67c8142feab0d023c320/library_header_2x.jpg"
     },
     {
@@ -393660,8 +393933,8 @@
       "priority": 0,
       "name": "Hawthorn",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3078150/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3078150/bf7e20e577fbab7ea8a2748bf6f5ea16b4036c1c/library_600x900.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3078150/df79f9f4b048e61638b4228ad1000447078e94d6/library_header.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3078150/c2dec5d22c67ee1e15b4af2ddfbe0121604624de/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3078150/9de8f1f3dc199d6dcfee283ea7eef18b4e318a79/library_header_2x.jpg"
     },
     {
       "appId": 3079190,
@@ -395998,8 +396271,8 @@
       "priority": 0,
       "name": "App 3703630",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3703630/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703630/0a8aee5bb3710132f4f41384272236ae3248247b/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703630/25c98ef2fcca4f53a16021714da5d69de48309a5/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703630/6a28f8ef6cad42f6de470fc70feff577257df0ee/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3703630/a3f6b650910e645eb651b5a59e32a433aa4afc8a/library_header_2x.jpg"
     },
     {
       "appId": 3708010,
@@ -397970,8 +398243,8 @@
       "priority": 0,
       "name": "Retroneer",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4254050/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254050/1503ccf89b718f099d5f24749d6e96d4e044a23e/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254050/4b4066e98e13facbe5283115859b373d76db0ea2/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254050/c0204a1e5469a378ebd3da8ca18dfcc307d1f920/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254050/afa1e123bff8a63be5e8769d80bf45bedf7222a4/library_header_2x.jpg"
     },
     {
       "appId": 4258290,
@@ -399311,6 +399584,60 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3906800/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906800/aecae3a8a3145ee1c259112c92303980c90655c5/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906800/0045afd2604bc2fb8836e1891126e56ecc39503e/library_header_2x.jpg"
+    },
+    {
+      "appId": 4210390,
+      "dateAdded": 1791478435,
+      "priority": 0,
+      "name": "App 4210390",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4210390/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210390/3413c83cc9b953dae2c02cb199b9c55a3798d01d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210390/869086ad83eb2dc58d514f8c19e0061e49f42674/library_header_2x.jpg"
+    },
+    {
+      "appId": 3602260,
+      "dateAdded": 1791478444,
+      "priority": 0,
+      "name": "App 3602260",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3602260/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602260/4ee0fb38cf388f82928bd7d6fe652ea5e211238d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602260/e8b5f5936ed8cded90ba32aa292222fa9e982f06/library_header_2x.jpg"
+    },
+    {
+      "appId": 2686570,
+      "dateAdded": 1791478467,
+      "priority": 0,
+      "name": "Waltz and Jam",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2686570/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/d8a9dd6859581b42610f16aa076cc502b9df916f/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/0f1d824794005d284d463eacee539fdbbc116b68/library_header_2x.jpg"
+    },
+    {
+      "appId": 2842310,
+      "dateAdded": 1791478493,
+      "priority": 0,
+      "name": "App 2842310",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2842310/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842310/ea1279256fe389315ce2b8c97798bd715f930bae/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842310/77dbbbde992e6b464a30ea30b1a70f10a230facf/library_header_2x.jpg"
+    },
+    {
+      "appId": 1619280,
+      "dateAdded": 1791478504,
+      "priority": 0,
+      "name": "App 1619280",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1619280/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1619280/70179bb23b67b050e9cc858aff3698728cdeaaf3/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1619280/18dc88dc16572e54aec9b105768bdf44138ea592/library_header_2x.jpg"
+    },
+    {
+      "appId": 4569670,
+      "dateAdded": 1791496984,
+      "priority": 0,
+      "name": "App 4569670",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4569670/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/b72e67ee1f2caacb05dc4f8714aa96724720d2f4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/ef6c0f1cd3ee45732aa60a79c5f5416335c2f0ea/library_header_2x.jpg"
     }
   ]
 }
