@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-10-09T12:36:17.778Z",
+  "fetchedAt": "2026-10-10T11:55:33.166Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1791540907
+    "lastLogoff": 1791629480
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3495.5,
+      "playtimeHours": 3495.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2950.1,
+      "playtimeHours": 2964.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -69215,6 +69215,145 @@
       }
     },
     {
+      "appId": 614630,
+      "name": "Tiny Rails",
+      "playtimeHours": 92.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/614630/6717cba43ead8801d078dc03259dc50027578c46.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/614630/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614630/library_600x900.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 12,
+        "unlocked": 11,
+        "items": [
+          {
+            "apiName": "tr_achieve_0",
+            "name": "Car Collector",
+            "description": "Collect 45 train cars of any rarity.",
+            "icon": "39509c6bed3cbcbba5a44ffe90661c4c8a157fd3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626252825,
+            "globalPct": 34.7
+          },
+          {
+            "apiName": "tr_achieve_1",
+            "name": "Rare Breed",
+            "description": "Collect 30 rare train cars.",
+            "icon": "d4ec467e2fe8d24f35786773aa5ba5dfb1e9cb93",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672771433,
+            "globalPct": 15
+          },
+          {
+            "apiName": "tr_achieve_2",
+            "name": "Consumer",
+            "description": "Buy 400 cargo items from Markets.",
+            "icon": "6d1b0d504a55252f36191428e4caeda421d8d1b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626081207,
+            "globalPct": 44
+          },
+          {
+            "apiName": "tr_achieve_3",
+            "name": "Capitalist",
+            "description": "Earn 25,000 gold by selling cargo at Markets.",
+            "icon": "7a47be806964152222b110808d4e622bd908571d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791298779,
+            "globalPct": 6.6
+          },
+          {
+            "apiName": "tr_achieve_4",
+            "name": "Station To Station",
+            "description": "Visit 250 Stations.",
+            "icon": "c948a70ec877f834d15a8332a38eb6cf39cce5ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626335662,
+            "globalPct": 41.7
+          },
+          {
+            "apiName": "tr_achieve_5",
+            "name": "The Customer's Always Right",
+            "description": "Take 1,000 Passengers to their destinations.",
+            "icon": "f4346f82e219792fac570ce9969ca7ee6130e3e2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626211000,
+            "globalPct": 49.6
+          },
+          {
+            "apiName": "tr_achieve_7",
+            "name": "Celebrity Sightings",
+            "description": "Take 250 VIP Passengers to their destinations.",
+            "icon": "43187a7f8340c039ba4dd9878d1feae44335d112",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626185719,
+            "globalPct": 53.1
+          },
+          {
+            "apiName": "tr_achieve_8",
+            "name": "Mad Bank",
+            "description": "Earn 1,000,000 gold.",
+            "icon": "55b419cf88d4e74438b0d71ea916f4f926c3d59c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672681296,
+            "globalPct": 25.9
+          },
+          {
+            "apiName": "tr_achieve_9",
+            "name": "Car Connoisseur",
+            "description": "Upgrade 50 cars of any rarity.",
+            "icon": "dc3d0d9987db5e0f7fab224aeedda3173d9ee9f3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791249833,
+            "globalPct": 9.3
+          },
+          {
+            "apiName": "tr_achieve_10",
+            "name": "Well Trained",
+            "description": "Purchase 75 train stat upgrades.",
+            "icon": "97db518082e65b53abaee8b426e9d70d89956f31",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1626099349,
+            "globalPct": 45.6
+          },
+          {
+            "apiName": "tr_achieve_11",
+            "name": "Pardon The Dust",
+            "description": "Upgrade 100 Stations.",
+            "icon": "ae726392b032ae47ca453f6bd19332394cfd5d6e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1672611981,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "tr_achieve_15",
+            "name": "Bring Me The Horizon",
+            "description": "Travel 1,000,000 km/622,000 miles.",
+            "icon": "8b1ff67e1ca83196658afda4c78bb3cb37b28572",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.7
+          }
+        ]
+      }
+    },
+    {
       "appId": 3416070,
       "name": "Ropuka's Idle Island",
       "playtimeHours": 92,
@@ -73878,145 +74017,6 @@
             "unlocked": true,
             "unlockTime": 1789150880,
             "globalPct": 0.9
-          }
-        ]
-      }
-    },
-    {
-      "appId": 614630,
-      "name": "Tiny Rails",
-      "playtimeHours": 78.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/614630/6717cba43ead8801d078dc03259dc50027578c46.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/614630/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/614630/library_600x900.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 12,
-        "unlocked": 11,
-        "items": [
-          {
-            "apiName": "tr_achieve_0",
-            "name": "Car Collector",
-            "description": "Collect 45 train cars of any rarity.",
-            "icon": "39509c6bed3cbcbba5a44ffe90661c4c8a157fd3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626252825,
-            "globalPct": 34.7
-          },
-          {
-            "apiName": "tr_achieve_1",
-            "name": "Rare Breed",
-            "description": "Collect 30 rare train cars.",
-            "icon": "d4ec467e2fe8d24f35786773aa5ba5dfb1e9cb93",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672771433,
-            "globalPct": 15
-          },
-          {
-            "apiName": "tr_achieve_2",
-            "name": "Consumer",
-            "description": "Buy 400 cargo items from Markets.",
-            "icon": "6d1b0d504a55252f36191428e4caeda421d8d1b0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626081207,
-            "globalPct": 44
-          },
-          {
-            "apiName": "tr_achieve_3",
-            "name": "Capitalist",
-            "description": "Earn 25,000 gold by selling cargo at Markets.",
-            "icon": "7a47be806964152222b110808d4e622bd908571d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1791298779,
-            "globalPct": 6.6
-          },
-          {
-            "apiName": "tr_achieve_4",
-            "name": "Station To Station",
-            "description": "Visit 250 Stations.",
-            "icon": "c948a70ec877f834d15a8332a38eb6cf39cce5ab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626335662,
-            "globalPct": 41.7
-          },
-          {
-            "apiName": "tr_achieve_5",
-            "name": "The Customer's Always Right",
-            "description": "Take 1,000 Passengers to their destinations.",
-            "icon": "f4346f82e219792fac570ce9969ca7ee6130e3e2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626211000,
-            "globalPct": 49.6
-          },
-          {
-            "apiName": "tr_achieve_7",
-            "name": "Celebrity Sightings",
-            "description": "Take 250 VIP Passengers to their destinations.",
-            "icon": "43187a7f8340c039ba4dd9878d1feae44335d112",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626185719,
-            "globalPct": 53.1
-          },
-          {
-            "apiName": "tr_achieve_8",
-            "name": "Mad Bank",
-            "description": "Earn 1,000,000 gold.",
-            "icon": "55b419cf88d4e74438b0d71ea916f4f926c3d59c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672681296,
-            "globalPct": 25.9
-          },
-          {
-            "apiName": "tr_achieve_9",
-            "name": "Car Connoisseur",
-            "description": "Upgrade 50 cars of any rarity.",
-            "icon": "dc3d0d9987db5e0f7fab224aeedda3173d9ee9f3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1791249833,
-            "globalPct": 9.3
-          },
-          {
-            "apiName": "tr_achieve_10",
-            "name": "Well Trained",
-            "description": "Purchase 75 train stat upgrades.",
-            "icon": "97db518082e65b53abaee8b426e9d70d89956f31",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1626099349,
-            "globalPct": 45.6
-          },
-          {
-            "apiName": "tr_achieve_11",
-            "name": "Pardon The Dust",
-            "description": "Upgrade 100 Stations.",
-            "icon": "ae726392b032ae47ca453f6bd19332394cfd5d6e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1672611981,
-            "globalPct": 23.4
-          },
-          {
-            "apiName": "tr_achieve_15",
-            "name": "Bring Me The Horizon",
-            "description": "Travel 1,000,000 km/622,000 miles.",
-            "icon": "8b1ff67e1ca83196658afda4c78bb3cb37b28572",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.7
           }
         ]
       }
@@ -268254,6 +268254,240 @@
       }
     },
     {
+      "appId": 4503640,
+      "name": "Alchemist's Garden",
+      "playtimeHours": 2.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4503640/d93eddd383b29775c76aea2ecbb76b1d6def4fb1.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4503640/9c3d29a34b6d1fe469dc83ff89340c897f8b5789/header.jpg?t=1789655731",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Apr 21, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4503640/898027d6f70772fc02d43de451660fb18dc061a8/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4503640/9c3d29a34b6d1fe469dc83ff89340c897f8b5789/library_header_2x.jpg",
+      "achievements": {
+        "total": 21,
+        "unlocked": 21,
+        "items": [
+          {
+            "apiName": "NOVICE_ALCHEMIST",
+            "name": "Novice Alchemist",
+            "description": "Craft your first potion",
+            "icon": "3ad5d6cf8c6640ac589239d3ae30b7c6c81fd06d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791587404,
+            "globalPct": 98.7
+          },
+          {
+            "apiName": "EXPLORER",
+            "name": "Explorer",
+            "description": "Unlock your first location",
+            "icon": "9a7a2aa2a7b10e9c9816dd9b4c011de0fe8a32f1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791587703,
+            "globalPct": 95.6
+          },
+          {
+            "apiName": "STARLIGHT_FINDER",
+            "name": "Starlight Finder",
+            "description": "Discover your first Starlight Shard",
+            "icon": "0818661e7b43511c22cb012fa3ce4eba9c605115",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791588366,
+            "globalPct": 92.3
+          },
+          {
+            "apiName": "MILLIONAIRE",
+            "name": "Millionaire",
+            "description": "Earn 1,000,000 Essence",
+            "icon": "c95f6347ee111882d1416513ed3a52cf462fb506",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791588980,
+            "globalPct": 79
+          },
+          {
+            "apiName": "TRILLIONAIRE",
+            "name": "Sprout",
+            "description": "",
+            "icon": "90413b6466ec319ea0dc37e4cc14ac367aca5ba6",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1791587321,
+            "globalPct": 99.2
+          },
+          {
+            "apiName": "INFLUENCER",
+            "name": "Influencer",
+            "description": "Attract 50 customers to your shop",
+            "icon": "13c84bf17aacd89e456155c26faf033cd48f5be0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791589920,
+            "globalPct": 69.1
+          },
+          {
+            "apiName": "APPRENTICE_ALCHEMIST",
+            "name": "Apprentice Alchemist",
+            "description": "Discover 10 recipes",
+            "icon": "28c741ddd136708a87187e338a9ba42a3c1ee871",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791588109,
+            "globalPct": 89.2
+          },
+          {
+            "apiName": "MASTER_ALCHEMIST",
+            "name": "Master Alchemist",
+            "description": "Discover 35 recipes",
+            "icon": "fc7f878454456c969d71540274a96b46195be517",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791591501,
+            "globalPct": 63.7
+          },
+          {
+            "apiName": "LEGENDARY_ALCHEMIST",
+            "name": "Legendary Alchemist",
+            "description": "Have all recipes on display in your shop",
+            "icon": "efec95a6cdae106de57a7735d89f3ba03c77c393",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791596602,
+            "globalPct": 47.7
+          },
+          {
+            "apiName": "DECORATOR",
+            "name": "Decorator",
+            "description": "Have 10 decorations on display",
+            "icon": "db6cd1877d2e867a7e75911a0e8484e6d3e68cc0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791588844,
+            "globalPct": 77
+          },
+          {
+            "apiName": "DEJU_VU",
+            "name": "Deju Vu",
+            "description": "Prestige for the first time",
+            "icon": "5fd3b7c9be173a94a76d0accc0ab8d5f3b461eb4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791589088,
+            "globalPct": 74.9
+          },
+          {
+            "apiName": "STARLIGHT_MASTERY",
+            "name": "Starlight Mastery",
+            "description": "Prestige 5 times",
+            "icon": "8e7f04035f0606bdc335e01614671d2458e9f5a5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791593728,
+            "globalPct": 51.3
+          },
+          {
+            "apiName": "THE_FINAL_FRONTIER",
+            "name": "The Final Frontier",
+            "description": "Unlock the last location",
+            "icon": "eb6da31e618755b0bc10dddbc4ee2a12aa9f4167",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791596430,
+            "globalPct": 49
+          },
+          {
+            "apiName": "MONOPOLY",
+            "name": "Monopoly",
+            "description": "",
+            "icon": "0e7134e97e4e44d9262d84e0f61c7cf8bf4a6201",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1791596758,
+            "globalPct": 48.7
+          },
+          {
+            "apiName": "THE_DEDICATED_ALCHEMIST",
+            "name": "The Dedicated Alchemist",
+            "description": "Complete the game",
+            "icon": "43b820440ffaee22b6ce6834cd687335464e3029",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791596771,
+            "globalPct": 45.6
+          },
+          {
+            "apiName": "FORAGER_ONE",
+            "name": "Forager I",
+            "description": "Forage 100 ingredients",
+            "icon": "10872a97dedfafd0f777077fb3c943a50bccf029",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791587800,
+            "globalPct": 92.9
+          },
+          {
+            "apiName": "FORAGER_TWO",
+            "name": "Forager II",
+            "description": "Forage 1,000 ingredients",
+            "icon": "516ed129b17b7db751e498a46ab7afcce13735c9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791589603,
+            "globalPct": 73.6
+          },
+          {
+            "apiName": "FORAGER_THREE",
+            "name": "Forager III",
+            "description": "Forager 5,000 ingredients",
+            "icon": "0b5b9eb4efc21a293b7d39d815b1dd838d270cd1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791595622,
+            "globalPct": 51.5
+          },
+          {
+            "apiName": "ALCHEMY_ONE",
+            "name": "Alchemy I",
+            "description": "Craft 25 items",
+            "icon": "e1cd6a78cbfe5d7d9ff2817352ee244f198bd831",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791587747,
+            "globalPct": 93
+          },
+          {
+            "apiName": "ALCHEMY_TWO",
+            "name": "Alchemy II",
+            "description": "Craft 250 items",
+            "icon": "ce41be311352412dd21b94286c0551bbc306d620",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791588982,
+            "globalPct": 74.9
+          },
+          {
+            "apiName": "ALCHEMY_THREE",
+            "name": "Alchemy III",
+            "description": "Craft 1,500 items",
+            "icon": "25a3fa0bb65f86723fea85571ce8b4b3c68299b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791595029,
+            "globalPct": 51.7
+          }
+        ]
+      }
+    },
+    {
       "appId": 201510,
       "name": "FlatOut 3: Chaos & Destruction",
       "playtimeHours": 2.6,
@@ -297137,6 +297371,260 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1128000/library_600x900_2x.jpg",
       "libraryHeaderUrl": null,
       "achievements": null
+    },
+    {
+      "appId": 3950770,
+      "name": "More Sushi!",
+      "playtimeHours": 1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3950770/e7de215dc9c4d2a0d42e9cb3740bbe36b09a9475.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950770/7bd250f60962991629b48f6f1726d9d2b489f412/header.jpg?t=1783752826",
+      "genres": [
+        "Casual",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Oct 24, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950770/6703f4fb1627bcc45a1b50bbad19ad95133c8a4e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950770/7bd250f60962991629b48f6f1726d9d2b489f412/library_header_2x.jpg",
+      "achievements": {
+        "total": 23,
+        "unlocked": 23,
+        "items": [
+          {
+            "apiName": "sushi_maker1",
+            "name": "Sushi Maker 1",
+            "description": "Make 100 sushi",
+            "icon": "8f61709668b953a750ceb98f00153fce0b77a7e1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791578117,
+            "globalPct": 98.3
+          },
+          {
+            "apiName": "sushi_maker2",
+            "name": "Sushi Maker 2",
+            "description": "Make 1000 sushi",
+            "icon": "cb35798a7562eedf03eec5967170683d01f0b0c8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791578408,
+            "globalPct": 96.8
+          },
+          {
+            "apiName": "sushi_maker3",
+            "name": "Sushi Maker 3",
+            "description": "Make 5000 sushi",
+            "icon": "d7e57b830278d2946d2add973f2bf31dbc57cdd4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791579113,
+            "globalPct": 94.7
+          },
+          {
+            "apiName": "sushi_maker4",
+            "name": "Sushi Maker 4",
+            "description": "Make 15000 sushi",
+            "icon": "4f6c1eb1e596200b0ad23272564067a68b07def7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791580078,
+            "globalPct": 92
+          },
+          {
+            "apiName": "money_maker1",
+            "name": "Money Maker 1",
+            "description": "Make $1M",
+            "icon": "700a9c447e1e3f4ff33a4ed682b3db675b3c5a4a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791578533,
+            "globalPct": 95.8
+          },
+          {
+            "apiName": "money_maker2",
+            "name": "Money Maker 2",
+            "description": "Make $1T",
+            "icon": "bb7d82b6e68521a0644b270fc18ad47a4f66a602",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791579908,
+            "globalPct": 91.2
+          },
+          {
+            "apiName": "money_maker3",
+            "name": "Money Maker 3",
+            "description": "Make $1e27",
+            "icon": "ca9198074cd20d025bab9967eddd2b7d8f4ee48c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791582864,
+            "globalPct": 86.8
+          },
+          {
+            "apiName": "money_maker4",
+            "name": "Money Maker 4",
+            "description": "Make $1e34",
+            "icon": "07513df97c64273ac355f5e3b18a3b18bfcdb292",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791583099,
+            "globalPct": 86.1
+          },
+          {
+            "apiName": "first_payment",
+            "name": "First Payment",
+            "description": "Make the first debt payment",
+            "icon": "06926913b8d4f34b93815e53ffd43bd255bba844",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791578709,
+            "globalPct": 94.8
+          },
+          {
+            "apiName": "second_payment",
+            "name": "Second Payment",
+            "description": "Make the second debt payment",
+            "icon": "3b9adfcf1ff71b9e2e25d35c7fe2e809182da36b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791582242,
+            "globalPct": 89.6
+          },
+          {
+            "apiName": "third_payment",
+            "name": "Third Payment",
+            "description": "Make the third debt payment",
+            "icon": "b4d4947ff1f2a5c98eec9263ed7cbfbadbade099",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791582638,
+            "globalPct": 88.1
+          },
+          {
+            "apiName": "fourth_payment",
+            "name": "Fourth Payment",
+            "description": "Make the fourth debt payment and finish the game",
+            "icon": "5c5078c510cd0945ade21ac31ffad893fcc31cfa",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791583160,
+            "globalPct": 85.6
+          },
+          {
+            "apiName": "lucky_cat",
+            "name": "Lucky Cat",
+            "description": "Unlock the lucky cat",
+            "icon": "b2a824754d2ad3f548cd225aee1713f6b1da7b8f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791578104,
+            "globalPct": 98.2
+          },
+          {
+            "apiName": "robot",
+            "name": "Robot",
+            "description": "Unlock the robot",
+            "icon": "40b2d06c3749186fdda453712b1d98569f6b52cf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791579187,
+            "globalPct": 92
+          },
+          {
+            "apiName": "toy_frog",
+            "name": "Toy Frog",
+            "description": "Unlock the toy frog",
+            "icon": "6187d081eb5a517592708dfb9d66c3ed1f80a9fd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791582521,
+            "globalPct": 88.6
+          },
+          {
+            "apiName": "origami_swan",
+            "name": "Origami Swan",
+            "description": "Unlock the origami swan",
+            "icon": "d215899129785b03f941622838d20cf3d188daba",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791582809,
+            "globalPct": 87.2
+          },
+          {
+            "apiName": "star_maker1",
+            "name": "Star Maker 1",
+            "description": "Make 20 stars",
+            "icon": "53835c0a2c2999468796076d3aa2a2bf275d7579",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791579081,
+            "globalPct": 92.5
+          },
+          {
+            "apiName": "star_maker2",
+            "name": "Star Maker 2",
+            "description": "Make 500 stars",
+            "icon": "386f738b1cbfc372e8e426f14d9729439dad9c21",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791582605,
+            "globalPct": 88.6
+          },
+          {
+            "apiName": "sushi_leveler",
+            "name": "Sushi Leveler",
+            "description": "Level up all sushi to 25",
+            "icon": "bb2ebffe622432dc8b53c8d2e214f8d4bb74b020",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791583232,
+            "globalPct": 61
+          },
+          {
+            "apiName": "upgrade_leveler",
+            "name": "Upgrade Leveler",
+            "description": "Max out all upgrades",
+            "icon": "e78557393e885933384141cec087ebf9cb2bd763",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791583080,
+            "globalPct": 78.1
+          },
+          {
+            "apiName": "helper_leveler",
+            "name": "Helper Leveler",
+            "description": "Max out all helpers",
+            "icon": "c1c7f09e48680da59680c7d88f4a4cf8fe87319c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791583082,
+            "globalPct": 84.7
+          },
+          {
+            "apiName": "prestige_leveler",
+            "name": "Prestige Leveler",
+            "description": "Max out all prestige upgrades",
+            "icon": "cf00d8c5df1ce48cdaf587a21590ca0f64b0db60",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791582675,
+            "globalPct": 87.6
+          },
+          {
+            "apiName": "always_watching",
+            "name": "Always Watching...",
+            "description": "He sees everything",
+            "icon": "8e74093ca68199c61bc9c9888533e261d9da388e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791583254,
+            "globalPct": 58.8
+          }
+        ]
+      }
     },
     {
       "appId": 562570,
@@ -379593,6 +380081,28 @@
       }
     },
     {
+      "appId": 2990600,
+      "name": "Fireside Feelings",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2990600/4ffe7aca1c7f9cef20fca05795025c64eb14aa61.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990600/89d745fd5604055c7b68b44ed28eba5b7df89d58/header.jpg?t=1789504567",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "7 Jun, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990600/f89cece1225ce5ccc1669085a8b1866a7834a12e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2990600/89d745fd5604055c7b68b44ed28eba5b7df89d58/library_header_2x.jpg",
+      "achievements": {
+        "total": 34,
+        "unlocked": 0
+      }
+    },
+    {
       "appId": 2997260,
       "name": "SATAN",
       "playtimeHours": 0,
@@ -380607,28 +381117,6 @@
       }
     },
     {
-      "appId": 3950770,
-      "name": "More Sushi!",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3950770/e7de215dc9c4d2a0d42e9cb3740bbe36b09a9475.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950770/7bd250f60962991629b48f6f1726d9d2b489f412/header.jpg?t=1783752826",
-      "genres": [
-        "Casual",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Oct 24, 2025",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950770/6703f4fb1627bcc45a1b50bbad19ad95133c8a4e/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3950770/7bd250f60962991629b48f6f1726d9d2b489f412/library_header_2x.jpg",
-      "achievements": {
-        "total": 23,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 4030830,
       "name": "Focus Grove",
       "playtimeHours": 0,
@@ -380861,28 +381349,6 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/c419b9438d01aa0437547ea004afe7e80d611472/library_header_2x.jpg",
       "achievements": {
         "total": 9,
-        "unlocked": 0
-      }
-    },
-    {
-      "appId": 4503640,
-      "name": "Alchemist's Garden",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4503640/d93eddd383b29775c76aea2ecbb76b1d6def4fb1.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4503640/9c3d29a34b6d1fe469dc83ff89340c897f8b5789/header.jpg?t=1789655731",
-      "genres": [
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Apr 21, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4503640/898027d6f70772fc02d43de451660fb18dc061a8/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4503640/9c3d29a34b6d1fe469dc83ff89340c897f8b5789/library_header_2x.jpg",
-      "achievements": {
-        "total": 21,
         "unlocked": 0
       }
     }
@@ -382568,7 +383034,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -382577,7 +383043,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -382585,7 +383051,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -388325,7 +388791,7 @@
       "name": "A Sister's Journey",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1730790/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/library_header.png"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/b34d8b71b0bb56b0856dbdf217de7ed6cc342445/library_header_2x.jpg"
     },
     {
       "appId": 1731290,
@@ -390316,8 +390782,8 @@
       "priority": 0,
       "name": "Nomad Drive",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2223980/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/caf15df3e9aafd6e5857f245f0b738c85737bad2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/abb4e006d120dd480590e84996acfbad2855f83b/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/a04fd5b96e492d0841594f9687f6f771bd6ba1cd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/41db4ae1d5ff08e04cfdecf3696caec64ee3a953/library_header_2x.jpg"
     },
     {
       "appId": 2225960,
@@ -396340,7 +396806,7 @@
       "dateAdded": 1754522406,
       "priority": 0,
       "name": "Mage Arena",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3716600/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3716600/e09e178465c67642c1214736e29d64846d966e52/header.jpg?t=1754585254",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3716600/aa52de47d23d5881e1dd71cb523bdacaecfb217c/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3716600/55ff4e60928bfe7f6aca4f4e5d1cb5388f1d251f/library_header_2x.jpg"
     },
@@ -396394,7 +396860,7 @@
       "dateAdded": 1777647591,
       "priority": 0,
       "name": "The Expanse: Osiris Reborn",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3727390/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/29369846b5ba94b2b1620eb8dd5aa8488f058d90/header.jpg?t=1781096582",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/ba136e222ced418df27a54e7c09b8f679fcb11ee/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/29369846b5ba94b2b1620eb8dd5aa8488f058d90/library_header_2x.jpg"
     },
@@ -396412,7 +396878,7 @@
       "dateAdded": 1784057065,
       "priority": 0,
       "name": "Bodycam Onrecord",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3738830/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3738830/418ce95ea409a5a13216811d9f43bce70ad4c828/header.jpg?t=1791356995",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3738830/6b14eaa81e5a3f7d7e9dfedc0ba222049655c043/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3738830/418ce95ea409a5a13216811d9f43bce70ad4c828/library_header_2x.jpg"
     },
@@ -396448,7 +396914,7 @@
       "dateAdded": 1776711192,
       "priority": 0,
       "name": "Together: Moon Escape",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3744430/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3744430/2b1989c2b09a474a13a9dc3db410248ad9fc04e4/header.jpg?t=1778172724",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3744430/55205b8d562cdd894aeb2ed283dd91ebd298820a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3744430/2b1989c2b09a474a13a9dc3db410248ad9fc04e4/library_header_2x.jpg"
     },
@@ -396538,7 +397004,7 @@
       "dateAdded": 1769697931,
       "priority": 0,
       "name": "Resident Evil Requiem",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg?t=1779840172",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ed3b2cae7d15f598f41006f5f1e605ec5517b5e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/500dac3fb6e509cf1fe1c97aec9b8ecb2aefcc32/library_header_2x.jpg"
     },
@@ -396556,7 +397022,7 @@
       "dateAdded": 1749148523,
       "priority": 0,
       "name": "007 First Light",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3768760/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg?t=1791285093",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/1159a696d257cbeb3f4479be3466cfba2ae938a0/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/dbe86ebd2edb4c77d113e9e2feefeb90189fabc9/library_header_2x.jpg"
     },
@@ -399638,6 +400104,114 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4569670/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/b72e67ee1f2caacb05dc4f8714aa96724720d2f4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/ef6c0f1cd3ee45732aa60a79c5f5416335c2f0ea/library_header_2x.jpg"
+    },
+    {
+      "appId": 4049170,
+      "dateAdded": 1791551231,
+      "priority": 0,
+      "name": "App 4049170",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4049170/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049170/0df7403cb507dadc36ac69ab01d590f70244ee7c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049170/678f17396b23817c2b9a61deff6aa067b6b28a8a/library_header_2x.jpg"
+    },
+    {
+      "appId": 4049180,
+      "dateAdded": 1791551237,
+      "priority": 0,
+      "name": "App 4049180",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4049180/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/edbe257fe5ce3066d941b005c1173ca03450672b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/8d4e4c2c303b6bca383f7d3473400236096fbca2/library_header_2x.jpg"
+    },
+    {
+      "appId": 1578720,
+      "dateAdded": 1791559507,
+      "priority": 0,
+      "name": "Scrabdackle",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1578720/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1578720/1bd790ace2fef4e95160b0cbfdc28b2fea798386/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1578720/b74ae5c38c81c77f086673bc2714fbacc04d2651/library_header_2x.jpg"
+    },
+    {
+      "appId": 4437650,
+      "dateAdded": 1791566880,
+      "priority": 0,
+      "name": "App 4437650",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4437650/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437650/ae5ff1726889b66bc124573c771466e6238dec7f/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437650/5adfb323269e9a9dc8b55be107591cd5f46037f1/library_header_2x.jpg"
+    },
+    {
+      "appId": 4747490,
+      "dateAdded": 1791568658,
+      "priority": 0,
+      "name": "App 4747490",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4747490/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4747490/1e2e25f5d9a5506d7e02f77f45d23fc8a209cd7b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4747490/398cd74a267e082c60046e76677afaf660a0c01f/library_header_2x.jpg"
+    },
+    {
+      "appId": 4739500,
+      "dateAdded": 1791568725,
+      "priority": 0,
+      "name": "App 4739500",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4739500/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/905ae644ef9154be33f0103efe082cb9810c7ef0/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/277e381de9e54a69696e3aa6c2d80035302777fc/library_header_2x.jpg"
+    },
+    {
+      "appId": 3495250,
+      "dateAdded": 1791568872,
+      "priority": 0,
+      "name": "Glory On Pluto",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3495250/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495250/42a9e53c317b974608d5625e2e4767e65134cd70/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495250/077d004db625d23c4dfbbf2382b5b1ba21fa2bd2/library_header_2x.jpg"
+    },
+    {
+      "appId": 4654240,
+      "dateAdded": 1791568886,
+      "priority": 0,
+      "name": "App 4654240",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4654240/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654240/f6e833c3facd4bf454955ed2f44b8bc5bcc78a62/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654240/cdf4de22f34e42bba9e0ad8f35b8a5cd88f084c2/library_header_2x.jpg"
+    },
+    {
+      "appId": 3204820,
+      "dateAdded": 1791568917,
+      "priority": 0,
+      "name": "App 3204820",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3204820/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204820/91f9b7bf3b74304eccbfff376cca6bbb0a4a68f2/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204820/4a232ebac00ee9ddde7cd33e4d1e8c36d03d0c6a/library_header_2x.jpg"
+    },
+    {
+      "appId": 4462830,
+      "dateAdded": 1791569015,
+      "priority": 0,
+      "name": "App 4462830",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4462830/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462830/1189b2a814639fa8d072fadd9d384f6ddeba7805/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462830/ac33b1ef73333668fdfa9491a11564205cb82042/library_header_2x.jpg"
+    },
+    {
+      "appId": 4738100,
+      "dateAdded": 1791569041,
+      "priority": 0,
+      "name": "App 4738100",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4738100/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738100/c6beba38878d8b7783cbb5186d90b6091cef6684/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738100/446f975f0cf7a392a409bb08b8a5090f12b9fba5/library_header_2x.jpg"
+    },
+    {
+      "appId": 499170,
+      "dateAdded": 1791627372,
+      "priority": 0,
+      "name": "Order of the Sinking Star",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/e061e66565700812fd6e4ac87fe32cc6a4683827/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/2aed61ae2883fa8112630c4bd86adf07a53c5094/library_header_2x.jpg"
     }
   ]
 }
