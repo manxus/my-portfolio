@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-11T12:08:11.755Z",
+  "fetchedAt": "2026-10-12T14:18:43.453Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1791677733
+    "lastLogoff": 1791807234
   },
   "games": [
     {
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2975.2,
+      "playtimeHours": 2985.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -14451,7 +14451,7 @@
     {
       "appId": 105600,
       "name": "Terraria",
-      "playtimeHours": 669.4,
+      "playtimeHours": 670.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/105600/858961e95fbf869f136e1770d586e0caefd4cfac.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
       "genres": [
@@ -14478,7 +14478,7 @@
       "libraryHeaderUrl": null,
       "achievements": {
         "total": 137,
-        "unlocked": 116,
+        "unlocked": 119,
         "items": [
           {
             "apiName": "TIMBER",
@@ -15716,8 +15716,8 @@
             "description": "Jam out on a six stringed instrument.",
             "icon": "7ee84aed998d979b5a23472e8d979114d7787a27",
             "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
+            "unlocked": true,
+            "unlockTime": 1791733542,
             "globalPct": 3.1
           },
           {
@@ -15806,8 +15806,8 @@
             "description": "Bring back the original title screen.",
             "icon": "04998850ce652bde23901e5a4a5838d03d88c725",
             "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
+            "unlocked": true,
+            "unlockTime": 1791733388,
             "globalPct": 8.3
           },
           {
@@ -15816,8 +15816,8 @@
             "description": "Craft the final upgrade to the Cell Phone.",
             "icon": "48d887d78e3360c3291684a75d5f3beb40ec5ddf",
             "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
+            "unlocked": true,
+            "unlockTime": 1791733440,
             "globalPct": 1.8
           },
           {
@@ -287786,6 +287786,221 @@
       }
     },
     {
+      "appId": 4279120,
+      "name": "Budgie's Bug Shop",
+      "playtimeHours": 1.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4279120/3f1012e82fdebf248e2f7152198ef9bcb76c8b13.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/943feba5b9645fb1bb5a8f65c5c569c15b7b6fda/header.jpg?t=1787761876",
+      "genres": [
+        "Casual",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "May 25, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/b0bb7abf11b40072a1b03bd935cd2da00092b79e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/943feba5b9645fb1bb5a8f65c5c569c15b7b6fda/library_header_2x.jpg",
+      "achievements": {
+        "total": 19,
+        "unlocked": 19,
+        "items": [
+          {
+            "apiName": "EARN_100",
+            "name": "My First Dollar",
+            "description": "Earn $100",
+            "icon": "9f8af9e91f79f66cbf3956812b36117d1204b199",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791759506,
+            "globalPct": 98.7
+          },
+          {
+            "apiName": "EARN_1M",
+            "name": "A True Capitalist",
+            "description": "Earn $1,000,000",
+            "icon": "29566c01c37c41c2ab6510465adc48d589b365bd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791762925,
+            "globalPct": 86.7
+          },
+          {
+            "apiName": "EARN_10B",
+            "name": "Bugillionaire",
+            "description": "Earn $10,000,000,000",
+            "icon": "60e8f0c166e956a32b4a7ff250c42bfbb61f25d3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791764711,
+            "globalPct": 82.8
+          },
+          {
+            "apiName": "CATCH_BEETLES",
+            "name": "Beetle Buff",
+            "description": "Catch 500 beetles",
+            "icon": "692703af3e092ccd1d2645d8648cfbd46b36d517",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791763223,
+            "globalPct": 86
+          },
+          {
+            "apiName": "CATCH_BUTTERFLIES",
+            "name": "Butterfly in the Sky",
+            "description": "Catch 500 butterflies",
+            "icon": "34bc1f4ce2875ff225c718d26ff856fcb145b357",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791762287,
+            "globalPct": 87.5
+          },
+          {
+            "apiName": "CATCH_BUGS",
+            "name": "Bugs Don't Bug Me",
+            "description": "Catch 5,000 bugs",
+            "icon": "4188f8f928e67dccd74190fb0cd4192ab84637c4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791764163,
+            "globalPct": 83.8
+          },
+          {
+            "apiName": "GAIN_CASHIERS",
+            "name": "Shop 'til You Drop",
+            "description": "Reach the maximum number of cashiers in your shop",
+            "icon": "edc7161506b4642fade4c7f0159e3b9bf3143dde",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791764448,
+            "globalPct": 82.4
+          },
+          {
+            "apiName": "ASSIGN_INTERNS",
+            "name": "Cheap Labor",
+            "description": "Assign interns to three locations at the same time",
+            "icon": "0f6a1145934e426f7187a4eba06e3da4330d721b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791763398,
+            "globalPct": 82.6
+          },
+          {
+            "apiName": "ENTER_EXCHANGE",
+            "name": "Underground Market",
+            "description": "Enter the Scarab Exchange",
+            "icon": "e932f2b1edc80db26329e34c62e3321693c344d7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791760111,
+            "globalPct": 95.1
+          },
+          {
+            "apiName": "UPSCALE_INTERIOR_MAXED",
+            "name": "Fancy Living",
+            "description": "Max out the \"Upscale Interior\" upgrade",
+            "icon": "e3c7633440d017e9eb644e25a0e9739cd6866245",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791764288,
+            "globalPct": 82.1
+          },
+          {
+            "apiName": "MERCH_MAXED",
+            "name": "I Love a Trinket",
+            "description": "Max out the \"Merchandise\" upgrade",
+            "icon": "3f67e86b79837bb92d9cebfb4cc826486821883c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791764281,
+            "globalPct": 80.6
+          },
+          {
+            "apiName": "BASIC_MAXED",
+            "name": "Bug Catching 101",
+            "description": "Max out all basic upgrades",
+            "icon": "59f9ac015743a5346a991cac113c03ab4676b8b7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791765298,
+            "globalPct": 77.8
+          },
+          {
+            "apiName": "EXCHANGE_MAXED",
+            "name": "The Bee's Knees",
+            "description": "Max out all Scarab Exchange upgrades",
+            "icon": "596271d6c9e8047c7cdafc328bc41b8eef32d79c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791765568,
+            "globalPct": 76.6
+          },
+          {
+            "apiName": "CLEAR_SCREEN",
+            "name": "Clean Sweep",
+            "description": "Clear the screen three times in a single round",
+            "icon": "b87dc0a3f522ee1794eeb1a6082471661732232c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791762685,
+            "globalPct": 87.2
+          },
+          {
+            "apiName": "INTERN_ROUND",
+            "name": "Didn't Lift a Finger",
+            "description": "Let your interns do all the work in a single round",
+            "icon": "3e6c75c26a07f913c1d4a2d573b2da184afeb0e3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791765413,
+            "globalPct": 53.8
+          },
+          {
+            "apiName": "UNSPENT_SCARABS",
+            "name": "Scarab Savvy",
+            "description": "Have over 20 unspent Cosmic Scarabs",
+            "icon": "7e3b10a654bd4c69163c0a715a7b645f4ee17435",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791761268,
+            "globalPct": 88.2
+          },
+          {
+            "apiName": "DISCOVER_ALL_BUGS",
+            "name": "Bugpedia",
+            "description": "Discover every bug",
+            "icon": "2f238bf31d2373a7edc3a667a9e78a4a27ca70bf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791765310,
+            "globalPct": 76.8
+          },
+          {
+            "apiName": "ENTER_MYTHICAL",
+            "name": "A Whole New World",
+            "description": "Enter a mythical location",
+            "icon": "8c5dc4adeb8450f44590d5a73ad99574d3b03c8a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791764757,
+            "globalPct": 82.2
+          },
+          {
+            "apiName": "REACH_ENDING",
+            "name": "What Have You Done",
+            "description": "",
+            "icon": "422b70b52a5c27120ff8fdd2a454bf9b565e8f3f",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1791765610,
+            "globalPct": 79.1
+          }
+        ]
+      }
+    },
+    {
       "appId": 1083300,
       "name": "Drill Deal - Oil Tycoon",
       "playtimeHours": 1.8,
@@ -293307,32 +293522,6 @@
           }
         ]
       }
-    },
-    {
-      "appId": 5126240,
-      "name": "Kitman Demo",
-      "playtimeHours": 1.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/5126240/b8035c8b2b38cb50f4fec1e05bb09235ad379c9d.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126240/8eb22699cc533559707bfe1a8a66e84a028d4176/header.jpg?t=1791531789",
-      "genres": [
-        "Action",
-        "Indie",
-        "Simulation",
-        "Sports"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Online Co-op"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "8 Oct, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126240/eb99ae3c12686dde17fe1e63ac09ddddfa3a39e9/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5126240/6b2d650344e2e92aebcd8f4b3709bb098f6bc09a/library_header_2x.jpg",
-      "achievements": null
     },
     {
       "appId": 299740,
@@ -350898,7 +351087,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/8f9aff7b2c35a26f8691ad35375986cf68aedd20/library_header_2x.jpg",
       "achievements": {
-        "total": 141,
+        "total": 55,
         "unlocked": 0
       }
     },
@@ -381329,29 +381518,6 @@
       }
     },
     {
-      "appId": 4279120,
-      "name": "Budgie's Bug Shop",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4279120/3f1012e82fdebf248e2f7152198ef9bcb76c8b13.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/943feba5b9645fb1bb5a8f65c5c569c15b7b6fda/header.jpg?t=1787761876",
-      "genres": [
-        "Casual",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "May 25, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/b0bb7abf11b40072a1b03bd935cd2da00092b79e/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4279120/943feba5b9645fb1bb5a8f65c5c569c15b7b6fda/library_header_2x.jpg",
-      "achievements": {
-        "total": 19,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 4304930,
       "name": "Chef Knight",
       "playtimeHours": 0,
@@ -383288,7 +383454,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -383352,7 +383518,7 @@
       "dateAdded": 1737219890,
       "priority": 0,
       "name": "Atomfall",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg?t=1776701587",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/801800/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/2b7ed6a84485e94108c4cedd2388040858302242/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/47a6958f09dbf42a5bb9ba5dfbca02938b298b36/library_header.jpg"
     },
@@ -383517,7 +383683,7 @@
       "dateAdded": 1548886736,
       "priority": 447,
       "name": "Subnautica: Below Zero",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1777456254",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/library_600x900_2x.jpg"
     },
     {
@@ -391128,7 +391294,7 @@
       "name": "We Were Here Tomorrow",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2315050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/5170fa89f16330acbda072a73c210ca9c2c7acfd/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/d07bdda0b10d8c880b376888c2d36859f476b86c/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/e830873ea7863ca3fff4c7d660492ae0ee8cb7b7/library_header_2x.jpg"
     },
     {
       "appId": 2317880,
@@ -391146,7 +391312,7 @@
       "name": "Little Big Adventure – Twinsen’s Quest",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2318070/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2318070/dfd8a09ce7df0a8681d2bf433dd39688d18d1c76/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2318070/47883e878115045e9dd02154632e045a6a0146a7/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2318070/a9e70685ea5dee42fd37b2b8849bccce8ca5cd75/library_header_2x.jpg"
     },
     {
       "appId": 2320980,
@@ -391891,7 +392057,7 @@
       "dateAdded": 1696886284,
       "priority": 0,
       "name": "Cooking Simulator 2: Better Together",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2455360/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/0ccc3d3c7686c7ce96c209348dc1e2b437cfbdcd/header_alt_assets_1.jpg?t=1790860516",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/2890674430d4162491af5b6ff7ea89ccc53146de/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/c5ed32d713f2a7b5bf15c0ef557c4b02d10064cc/library_header_2x.jpg"
     },
@@ -398370,8 +398536,8 @@
       "priority": 0,
       "name": "Sublustrum",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4151300/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/ca4863452a0a59cdca14a5504bc4dbaa65508b80/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/0e1de786321d13e914afb54ba9c40e53139713c9/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/2879c2a93b96b7c6b0c504d599aa0c9b660156a9/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/74c7afa0d72783b7ecf01d10271162cba94f15dd/library_header_2x.jpg"
     },
     {
       "appId": 4154790,
@@ -398735,7 +398901,7 @@
       "priority": 0,
       "name": "Retroneer",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4254050/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254050/c0204a1e5469a378ebd3da8ca18dfcc307d1f920/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254050/babf1e033951e868b31fc38646f24e15f355f111/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4254050/afa1e123bff8a63be5e8769d80bf45bedf7222a4/library_header_2x.jpg"
     },
     {
@@ -400292,6 +400458,51 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4214100/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4214100/e4f6bf49c9f3342ffbbd37d5c989626e98e290dd/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4214100/17fd54d728eb0283df386185a2c463a15f2b05bc/library_header_2x.jpg"
+    },
+    {
+      "appId": 3432980,
+      "dateAdded": 1791753502,
+      "priority": 0,
+      "name": "Ballistic.exe",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3432980/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/75f2b95b5d784062334923429a9c4be96c589c99/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/1d658fdc5608d885538f7d3cb5694674ab403000/library_header_2x.jpg"
+    },
+    {
+      "appId": 3757660,
+      "dateAdded": 1791753531,
+      "priority": 0,
+      "name": "Station 58",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3757660/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/ad1eb1083555eaa991a13ea7c3ab4f34248d4793/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/53785e3e8120c5a8cbf69759f749c1fd4ac3a943/library_header_2x.jpg"
+    },
+    {
+      "appId": 3810510,
+      "dateAdded": 1791753544,
+      "priority": 0,
+      "name": "DERELIKT",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3810510/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/2728f0a55f1f55e0212425862181ef79b1617a6d/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/45f23f4a1143f49de0962289003d6b269fa970bd/library_header_2x.jpg"
+    },
+    {
+      "appId": 2851120,
+      "dateAdded": 1791753701,
+      "priority": 0,
+      "name": "Hanno: A Magical Tale",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2851120/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2851120/63efca895fb2ec6635103bc075e32c2e7a614b87/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2851120/e9c47c0c74fc2c51ea79d14eef3169752a268e11/library_header_2x.jpg"
+    },
+    {
+      "appId": 2288470,
+      "dateAdded": 1791753725,
+      "priority": 0,
+      "name": "Aethermancer",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2288470/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/98b4bb954518b41413dbd300d2e7f71093213fe8/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/e5326161df5e3cdc05a0f927b05061fbc979316f/library_header_2x.jpg"
     }
   ]
 }
