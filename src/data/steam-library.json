@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-12T14:18:43.453Z",
+  "fetchedAt": "2026-10-13T13:31:47.875Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1791807234
+    "lastLogoff": 1791832791
   },
   "games": [
     {
@@ -57887,8 +57887,8 @@
             "description": "Unlock a new pet.",
             "icon": "f2401bd5d20b5350085f905caec1edf565caf42f",
             "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1745250654,
+            "unlocked": false,
+            "unlockTime": 0,
             "globalPct": 84.8
           },
           {
@@ -351087,7 +351087,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/8f9aff7b2c35a26f8691ad35375986cf68aedd20/library_header_2x.jpg",
       "achievements": {
-        "total": 55,
+        "total": 141,
         "unlocked": 0
       }
     },
@@ -382855,7 +382855,7 @@
       "dateAdded": 1555280406,
       "priority": 306,
       "name": "Cooking Simulator",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/8e52427e8dfcfcd7f407fe1a82b19b2f46cd7ff7/header.jpg?t=1780667817",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/8e52427e8dfcfcd7f407fe1a82b19b2f46cd7ff7/header.jpg?t=1791879503",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/e875a24db15cd4d7d989eb22fff3378e88b284ee/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/5314c9c7df487fdd862b4bb62f3d682718fe7de3/library_header_2x.jpg"
     },
@@ -383058,7 +383058,7 @@
       "dateAdded": 1549145377,
       "priority": 350,
       "name": "Foundation",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1791490045",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1791855712",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/ce78d0949d018967dd80da34826f153cd7a084d7/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/8ffd32f3730aeaa49b6176717421ed4d226f628f/library_header_2x.jpg"
     },
@@ -383210,7 +383210,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -383454,7 +383454,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -383683,7 +383683,7 @@
       "dateAdded": 1548886736,
       "priority": 447,
       "name": "Subnautica: Below Zero",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1777456254",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/library_600x900_2x.jpg"
     },
     {
@@ -385852,7 +385852,7 @@
       "dateAdded": 1627488059,
       "priority": 0,
       "name": "House Builder",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1244630/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244630/header.jpg?t=1791744224",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244630/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244630/library_header.jpg"
     },
@@ -386380,7 +386380,8 @@
       "priority": 0,
       "name": "Lonefarm",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1316440/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1316440/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1316440/eac21a26cde3c890b34dd813928f42903d91e6a3/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1316440/451fb41b3f383cb85056321e321cff769ea8ca34/library_header_2x.jpg"
     },
     {
       "appId": 1318740,
@@ -388252,7 +388253,7 @@
       "name": "Astro Colony",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1614550/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/f4da1a3b528bbe4d80f93f255d255c4d2eab6e71/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/2444c2c90769a6e052700c9cf7efbc3603276a7c/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1614550/a903c2d1d88e1ece56790228f5151a44586305a0/library_header_2x.jpg"
     },
     {
       "appId": 1617120,
@@ -389908,7 +389909,7 @@
       "dateAdded": 1773500529,
       "priority": 0,
       "name": "Bootstrap Island",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1942110/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942110/eebd6e054ab5d712e344b7ade71d0e5183474057/header.jpg?t=1791541019",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942110/b16ff6c4451c71989bbbcab4c683ba26fc71c80f/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942110/5937b66704637790e9394a9fd8aa8103a6fe875d/library_header_2x.jpg"
     },
@@ -389950,7 +389951,7 @@
       "dateAdded": 1763868919,
       "priority": 0,
       "name": "The Lost Wild",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1952620/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/c4a4cc62ec8b70700df7aa8f981513f17d170a89/header.jpg?t=1781547914",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8da16862d10eb5da22bfc35afae53a6ec2dcad3a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8c3ea535d2641b8ca360f86432a701e7ae9ce821/library_header_2x.jpg"
     },
@@ -392057,7 +392058,7 @@
       "dateAdded": 1696886284,
       "priority": 0,
       "name": "Cooking Simulator 2: Better Together",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/0ccc3d3c7686c7ce96c209348dc1e2b437cfbdcd/header_alt_assets_1.jpg?t=1790860516",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2455360/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/2890674430d4162491af5b6ff7ea89ccc53146de/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455360/c5ed32d713f2a7b5bf15c0ef557c4b02d10064cc/library_header_2x.jpg"
     },
@@ -396272,8 +396273,8 @@
       "priority": 0,
       "name": "Örnöga: Idle & Loot",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3536530/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3536530/7a507afa09c72617fab869b123ed021207bb6b85/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3536530/35add859af0409cb5c6d658d6a6e8bb316098634/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3536530/52ab15b0632451f21991f1a904df0f29ea52093e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3536530/5dcb604cce124fa1bdc9a61d6a139f296152859b/library_header_2x.jpg"
     },
     {
       "appId": 3542380,
@@ -397135,7 +397136,7 @@
       "name": "Wasteland Bites",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3748640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3748640/aa888c01d97b78b1974dce068207658274e5a20c/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3748640/7790a3e490eb9069f320d0d346ae6f687a76e590/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3748640/ce5558b6919ada973bb53ab3e3e3e1e341231fe4/library_header_2x.jpg"
     },
     {
       "appId": 3749330,
@@ -397422,8 +397423,8 @@
       "priority": 0,
       "name": "Flipping is Hard",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3826670/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/5debed0fd67b9e457fa60d0e68789f4315ebe75f/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/18e27c43c6b7805af228c4f5f1308430fd2811e2/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/0b94fa76fba1f5a4e389381da811f74ad41656f0/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3826670/e82a2c44caf29a67be6ad43c4256940eaef51111/library_header_2x.jpg"
     },
     {
       "appId": 3830320,
