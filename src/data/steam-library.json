@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-13T13:31:47.875Z",
+  "fetchedAt": "2026-10-14T11:11:04.680Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1791832791
+    "lastLogoff": 1791956255
   },
   "games": [
     {
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2985.2,
+      "playtimeHours": 2988.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -266222,6 +266222,125 @@
       }
     },
     {
+      "appId": 4304930,
+      "name": "Chef Knight",
+      "playtimeHours": 3.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4304930/cbd3e6436cb0b28f4d75359616f32334fe3c9825.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/ef9c3c89192e4413d6af84deb45289fc887f003f/header.jpg?t=1790867862",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jun 1, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/3049957b6ea42b267e733ce5bcd3d2ec54cab21a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/c419b9438d01aa0437547ea004afe7e80d611472/library_header_2x.jpg",
+      "achievements": {
+        "total": 9,
+        "unlocked": 9,
+        "items": [
+          {
+            "apiName": "BIOME_1",
+            "name": "Fungal Foyer Clear",
+            "description": "Clear the Fungal Foyer.",
+            "icon": "b762ad3cc236e1d4e7587ffccc656c75667476d3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791931408,
+            "globalPct": 93.8
+          },
+          {
+            "apiName": "BIOME_2",
+            "name": "Seafood Sewers Clear",
+            "description": "Clear the Seafood Sewers.",
+            "icon": "c3bc7a83cc2a7950a27b43fe11e83d7a61ae2f4c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791933389,
+            "globalPct": 90.1
+          },
+          {
+            "apiName": "BIOME_3",
+            "name": "Juicy Jungle Clear",
+            "description": "Clear the Juicy Jungle.",
+            "icon": "53377574d5c6b4e7a23480db1e470fc1c1f07de5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791959508,
+            "globalPct": 85.1
+          },
+          {
+            "apiName": "BIOME_4",
+            "name": "It's Pizza Time",
+            "description": "",
+            "icon": "9d29c4fa723c2fddf34aa611801817d9937e18c4",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1791961660,
+            "globalPct": 82.4
+          },
+          {
+            "apiName": "BUY_ALL_SKILLS",
+            "name": "Master Chef",
+            "description": "Complete the skill tree.",
+            "icon": "9715cb195735df5547efa5ed0b9b4542a45e8f75",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791962009,
+            "globalPct": 66.2
+          },
+          {
+            "apiName": "BUY_CHAIN_LIGHTNING",
+            "name": "Bolt of Lightning!",
+            "description": "Unlock the \"Chain Lightning\" skill.",
+            "icon": "b477ce97302c294270892b1dfa52f4ebfada7a2d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791929155,
+            "globalPct": 95.6
+          },
+          {
+            "apiName": "BUY_SCHNITZEL_HAMMER",
+            "name": "Hammer Down!",
+            "description": "Unlock the \"Schnitzel Hammer\" skill.",
+            "icon": "91c0cfa1c4f6a56c27402e533b29f1302d5d2fbd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791933002,
+            "globalPct": 88.6
+          },
+          {
+            "apiName": "BUY_ROLLING_PIN",
+            "name": "They see me rollin`",
+            "description": "Unlock the \"Rolling Pin\" skill.",
+            "icon": "4f246edb7fe095cf397da70fc46e06d3532fe720",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791931650,
+            "globalPct": 92.3
+          },
+          {
+            "apiName": "BUY_SPINNING_SPATULAS",
+            "name": "Horizontally Spinning Chef",
+            "description": "Unlock the \"Spinning Spatulas\" skill.",
+            "icon": "76d8f4916d859a407dd161186b2559d311f68739",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791958636,
+            "globalPct": 84.7
+          }
+        ]
+      }
+    },
+    {
       "appId": 315430,
       "name": "Polarity",
       "playtimeHours": 3.1,
@@ -298827,6 +298946,20 @@
       "releaseDate": null,
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/75bbbb3348f27099951079822249bd4bda81966d/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/e04036cdb75e1da7a3c158b72edb029dffdd8644/library_header_2x.jpg",
+      "achievements": null
+    },
+    {
+      "appId": 435120,
+      "name": "Rusty Lake Hotel",
+      "playtimeHours": 0.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/435120/0ed54f72d51f8090bb2ab0f6467bd85ca25ddefc.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/435120/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435120/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
       "achievements": null
     },
     {
@@ -342236,6 +342369,8 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371510/92898eb2389c315542d0c7917530a07759575c2b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371510/3cafbc97f8fce22f4d64ffbe1c7b44c3063db0d7/library_header_2x.jpg",
       "achievements": {
         "total": 11,
         "unlocked": 0
@@ -346292,23 +346427,6 @@
       "releaseDate": null,
       "achievements": {
         "total": 15,
-        "unlocked": 0
-      }
-    },
-    {
-      "appId": 435120,
-      "name": "Rusty Lake Hotel",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/435120/0ed54f72d51f8090bb2ab0f6467bd85ca25ddefc.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/435120/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435120/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 23,
         "unlocked": 0
       }
     },
@@ -360758,7 +360876,10 @@
       "releaseDate": null,
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/874390/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/874390/library_header.jpg",
-      "achievements": null
+      "achievements": {
+        "total": 15,
+        "unlocked": 0
+      }
     },
     {
       "appId": 876650,
@@ -381516,33 +381637,6 @@
         "total": 46,
         "unlocked": 0
       }
-    },
-    {
-      "appId": 4304930,
-      "name": "Chef Knight",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4304930/cbd3e6436cb0b28f4d75359616f32334fe3c9825.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/ef9c3c89192e4413d6af84deb45289fc887f003f/header.jpg?t=1790867862",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Jun 1, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/3049957b6ea42b267e733ce5bcd3d2ec54cab21a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/c419b9438d01aa0437547ea004afe7e80d611472/library_header_2x.jpg",
-      "achievements": {
-        "total": 9,
-        "unlocked": 0
-      }
     }
   ],
   "wishlist": [
@@ -381677,7 +381771,7 @@
       "dateAdded": 1671980697,
       "priority": 0,
       "name": "Crypt of the NecroDancer",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/d82a7663aad7a678370462212071264cbee7fb47/header.jpg?t=1789603692",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/d82a7663aad7a678370462212071264cbee7fb47/header.jpg?t=1791916929",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/d82a7663aad7a678370462212071264cbee7fb47/library_header_2x.jpg"
     },
@@ -382174,7 +382268,7 @@
       "dateAdded": 1543333399,
       "priority": 188,
       "name": "UNO",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/470220/b8741c3f32ce4560f33d6a7af256ec8c9828f285/header.jpg?t=1790849807",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/470220/b8741c3f32ce4560f33d6a7af256ec8c9828f285/header.jpg?t=1791965305",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/470220/8315ac8b7e91e0501b473cff7cf88b1b67906489/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/470220/b8741c3f32ce4560f33d6a7af256ec8c9828f285/library_header_2x.jpg"
     },
@@ -382945,7 +383039,7 @@
       "dateAdded": 1555279524,
       "priority": 330,
       "name": "Junkyard Simulator",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671970/header.jpg?t=1791204120",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671970/header.jpg?t=1791958024",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/671970/library_600x900_2x.jpg"
     },
     {
@@ -383210,7 +383304,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -383218,7 +383312,7 @@
       "dateAdded": 1601992285,
       "priority": 0,
       "name": "Overcrowd: A Commute 'Em Up",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/header.jpg?t=1772571372",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/library_600x900_2x.jpg"
     },
     {
@@ -383226,7 +383320,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -383235,7 +383329,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -383243,7 +383337,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -383454,7 +383548,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -383462,7 +383556,7 @@
       "dateAdded": 1773267527,
       "priority": 0,
       "name": "Crab Champions",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774801/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/header.jpg?t=1785701226",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/library_600x900_2x.jpg"
     },
     {
@@ -385381,7 +385475,8 @@
       "priority": 0,
       "name": "Below the Stone",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1170230/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1170230/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1170230/aba729e43ac2bec0a64781544811888e7a68d4d1/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1170230/ec6c543fedde7e1d99714c206c742b0fe0f3224f/library_header_2x.jpg"
     },
     {
       "appId": 1172710,
@@ -385852,7 +385947,7 @@
       "dateAdded": 1627488059,
       "priority": 0,
       "name": "House Builder",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244630/header.jpg?t=1791744224",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1244630/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244630/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244630/library_header.jpg"
     },
@@ -389909,7 +390004,7 @@
       "dateAdded": 1773500529,
       "priority": 0,
       "name": "Bootstrap Island",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942110/eebd6e054ab5d712e344b7ade71d0e5183474057/header.jpg?t=1791541019",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1942110/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942110/b16ff6c4451c71989bbbcab4c683ba26fc71c80f/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942110/5937b66704637790e9394a9fd8aa8103a6fe875d/library_header_2x.jpg"
     },
@@ -389951,7 +390046,7 @@
       "dateAdded": 1763868919,
       "priority": 0,
       "name": "The Lost Wild",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/c4a4cc62ec8b70700df7aa8f981513f17d170a89/header.jpg?t=1781547914",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1952620/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8da16862d10eb5da22bfc35afae53a6ec2dcad3a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8c3ea535d2641b8ca360f86432a701e7ae9ce821/library_header_2x.jpg"
     },
@@ -390280,7 +390375,7 @@
       "dateAdded": 1701258898,
       "priority": 0,
       "name": "Dragon's Dogma 2",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg?t=1791504871",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/library_header.jpg"
     },
@@ -390975,8 +391070,8 @@
       "priority": 0,
       "name": "Nomad Drive",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2223980/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/a04fd5b96e492d0841594f9687f6f771bd6ba1cd/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/41db4ae1d5ff08e04cfdecf3696caec64ee3a953/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/e2e203e2279b22fc5f793abc8ec36dde411b4569/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/2848bab07e85d65470076d053f1f7c490790db14/library_header_2x.jpg"
     },
     {
       "appId": 2225960,
@@ -391392,7 +391487,7 @@
       "dateAdded": 1783970049,
       "priority": 0,
       "name": "Silver Pines",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2333000/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/2ce661be5b6e60b8fcc92ecdf3f9dc2dca2a9037/header.jpg?t=1791897978",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/d3ec5903e61ed810ba94c7c1c75bfbefbb9de010/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/9702a1949814bac214d78349c84dc546b4e31bf3/library_header_2x.jpg"
     },
@@ -393525,8 +393620,8 @@
       "priority": 0,
       "name": "Battlefield™ 6",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2807960/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/289b1c193f9730a0d4ea4dbf912219e46cd1a8a3/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/537b184ed0fe52bae1f0292f2c4af2dc12463058/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/5efba891507f611d94ef6685cc2af7cd0640f55d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/f68bb5e4d8d5e2a110eca14f55f4683403465a8d/library_header_2x.jpg"
     },
     {
       "appId": 2820700,
@@ -395256,8 +395351,8 @@
       "priority": 0,
       "name": "App 3240110",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3240110/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240110/e0a6a9b3b04ba12d84a37d117b5c9a582a01b857/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240110/6ec8921b670406f2d9e43a4d819185023c452e31/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240110/f0a9706cbe670c23cd18a9a7d825be93aa20e91b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240110/41a88524ca9a5fa41736381d72ed24b0d8f73397/library_header_2x.jpg"
     },
     {
       "appId": 3241660,
@@ -395499,8 +395594,8 @@
       "priority": 0,
       "name": "No Such Place",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3299050/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/321eb0f605bcf5dbf0268a9c9db351348edc6d5a/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/c879cddc0a11a0929db082b4565be0cdd768d523/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/5e8800f5fd2d10323767e247a9f2a3f1f6b87111/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/1ca62da11a7fd1742b3741fcc0d492a47989432c/library_header_2x.jpg"
     },
     {
       "appId": 3299160,
@@ -398965,8 +399060,8 @@
       "priority": 0,
       "name": "Campwood",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4269150/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4269150/33e1caed66956e3029511c34839a03ddb109e5ec/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4269150/1acf5f016b3cb353b166e4ce1bbd934804dd115b/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4269150/ceca3c3c9625f8f12ab53180801a838a9a631d3f/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4269150/bc8c75f61a394dc9c6b20ae871e65ee14f5bc8c7/library_header_2x.jpg"
     },
     {
       "appId": 4276980,
@@ -400504,6 +400599,58 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2288470/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/98b4bb954518b41413dbd300d2e7f71093213fe8/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/e5326161df5e3cdc05a0f927b05061fbc979316f/library_header_2x.jpg"
+    },
+    {
+      "appId": 4115450,
+      "dateAdded": 1791927443,
+      "priority": 0,
+      "name": "Phantom Blade Zero",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4115450/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/471e77854910665c03eb9a53ad06f2ac12903acd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/library_header_2x.jpg"
+    },
+    {
+      "appId": 5237430,
+      "dateAdded": 1791928086,
+      "priority": 0,
+      "name": "App 5237430",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5237430/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5237430/4a9b9f09c80d45b9634b5d62c42f9113dc7dc27d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5237430/d2376881e08eaa5e640750adced96a57ccead517/library_header_2x.jpg"
+    },
+    {
+      "appId": 5070190,
+      "dateAdded": 1791965633,
+      "priority": 0,
+      "name": "App 5070190",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5070190/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070190/abef94ae392d9bdc0673841a71fb64ca322b83a5/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070190/b5e8f8763af32eeb31fa561cca20a234f0e469a0/library_header_2x.jpg"
+    },
+    {
+      "appId": 1876590,
+      "dateAdded": 1791965785,
+      "priority": 0,
+      "name": "I Am Your Beast",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1876590/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876590/594c648101b083d005c3e864f101548a8008c9e4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876590/107acb641944507a41ad3ef55ead0d67ba23de6b/library_header_2x.jpg"
+    },
+    {
+      "appId": 1229580,
+      "dateAdded": 1791965821,
+      "priority": 0,
+      "name": "Disc Room",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1229580/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229580/library_600x900_2x.jpg"
+    },
+    {
+      "appId": 447150,
+      "dateAdded": 1791965833,
+      "priority": 0,
+      "name": "APE OUT",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/447150/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447150/library_600x900_2x.jpg"
     }
   ]
 }
