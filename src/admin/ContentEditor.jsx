@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { visibleSchemaFields } from './autoId';
 import TravelLocationPicker from './TravelLocationPicker';
 import CinemaTitlePicker from './CinemaTitlePicker';
+import { findDuplicate } from './duplicates';
 import CinemaEpisodePicker from './CinemaEpisodePicker';
 import { useAdminStore } from '../stores/adminStore';
 import { setAdminEditorOpen } from './editorLock';
@@ -503,6 +504,8 @@ export default function ContentEditor({
   title,
   schema,
   initialData,
+  existingItems,
+  schemaKey,
   onSave,
   onClose,
 }) {
@@ -532,6 +535,11 @@ export default function ContentEditor({
     return empty;
   });
   const [saving, setSaving] = useState(false);
+  // Tied to the form state it was raised for, so any edit hides it.
+  const [saveErrorState, setSaveErrorState] = useState(null);
+  const saveError = saveErrorState?.formData === formData ? saveErrorState.message : '';
+  const setSaveError = (message) =>
+    setSaveErrorState(message ? { message, formData } : null);
 
   useEffect(() => {
     setAdminEditorOpen(true);
@@ -570,11 +578,18 @@ export default function ContentEditor({
         return;
       }
     }
+    const duplicate = findDuplicate(schemaKey, formData, existingItems);
+    if (duplicate) {
+      setSaveError(`"${duplicate.title ?? 'This item'}" is already in the list.`);
+      return;
+    }
     setSaving(true);
+    setSaveError('');
     try {
       await onSave(formData);
       onClose();
-    } catch {
+    } catch (err) {
+      setSaveError(err?.message || 'Save failed.');
       setSaving(false);
     }
   };
@@ -633,6 +648,7 @@ export default function ContentEditor({
                 ) : field.type === 'tmdbLookup' ? (
                   <CinemaTitlePicker
                     value={formData}
+                    existingItems={existingItems}
                     onChange={(patch) => {
                       setFormData((prev) => ({ ...prev, ...patch }));
                     }}
@@ -656,6 +672,8 @@ export default function ContentEditor({
             ))
           )}
         </div>
+
+        {saveError && <p className={styles.saveError}>{saveError}</p>}
 
         <div className={styles.actions}>
           <button type="button" className={styles.cancelBtn} onClick={onClose}>

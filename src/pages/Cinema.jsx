@@ -8,11 +8,17 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 import cinemaData from '../data/cinema.json';
 import EditableSection, { EditableItemControls } from '../admin/EditableSection';
+import { useEditableItemPatch } from '../admin/editableItemsContext';
 import CinemaTabs from '../components/CinemaTabs/CinemaTabs';
 import SteamFilters from '../components/SteamFilters/SteamFilters';
 import { useAdminStore } from '../stores/adminStore';
 import { useAdminCollection } from '../hooks/useAdminCollection';
-import { formatEpisodeCode, nextEpisode } from '../utils/episodes';
+import {
+  countWatched,
+  formatEpisodeCode,
+  nextEpisode,
+  watchedInSeason,
+} from '../utils/episodes';
 import {
   derivedStatus,
   episodesWatched,
@@ -41,11 +47,27 @@ const SHOW_GROUPS = [
 ];
 
 const SORT_OPTIONS = [
-  { key: 'title', label: 'Title A–Z' },
-  { key: 'rating', label: 'Rating (Highest)' },
-  { key: 'year', label: 'Year (Newest)' },
-  { key: 'episodes', label: 'Episodes (Most)', showsOnly: true },
-  { key: 'collection', label: 'Collection', moviesOnly: true },
+  { key: 'title', label: 'Title A–Z', reverseLabel: 'Title Z–A' },
+  { key: 'rating', label: 'Rating (Highest)', reverseLabel: 'Rating (Lowest)' },
+  { key: 'year', label: 'Year (Newest)', reverseLabel: 'Year (Oldest)' },
+  {
+    key: 'runtime',
+    label: 'Runtime (Longest)',
+    reverseLabel: 'Runtime (Shortest)',
+    moviesOnly: true,
+  },
+  {
+    key: 'episodes',
+    label: 'Episodes (Most)',
+    reverseLabel: 'Episodes (Fewest)',
+    showsOnly: true,
+  },
+  {
+    key: 'collection',
+    label: 'Collection',
+    reverseLabel: 'Collection (Newest first)',
+    moviesOnly: true,
+  },
 ];
 
 const DEFAULT_SORT = 'title';
@@ -193,24 +215,53 @@ function resumePoint(entry) {
   return nextEpisode(entry.seasonEpisodes, entry.watchedEpisodes);
 }
 
-function sortEntries(list, sortBy) {
+/** TMDB's audience score (0–10), filled in by scripts/refresh-cinema-ratings.js. */
+function globalRating(entry) {
+  const n = Number(entry.tmdbRating);
+  return Number.isFinite(n) && n > 0 ? n : 0;
+}
+
+/**
+ * Length of a movie. A show's runtime is per episode, so it would sort a
+ * 22-minute sitcom as "shorter" than any film — shows count as having none and
+ * fall to the end.
+ */
+function movieRuntime(entry) {
+  return isShow(entry) ? 0 : toCount(entry.runtime);
+}
+
+const byTitle = (a, b) => String(a.title).localeCompare(String(b.title));
+
+/**
+ * Highest first, or lowest first when reversed. Entries without a value stay at
+ * the end either way — flipping to "lowest rating" should lead with your
+ * actual lowest, not every unrated title. Ties fall back to A–Z.
+ */
+function byCount(valueOf, reversed) {
+  return (a, b) => {
+    const x = valueOf(a);
+    const y = valueOf(b);
+    if (!x !== !y) return x ? -1 : 1;
+    return (reversed ? x - y : y - x) || byTitle(a, b);
+  };
+}
+
+function sortEntries(list, sortBy, reversed = false) {
   const sorted = [...list];
   switch (sortBy) {
     case 'rating':
-      return sorted.sort((a, b) => toCount(b.rating) - toCount(a.rating));
+      return sorted.sort(byCount(globalRating, reversed));
+    case 'runtime':
+      return sorted.sort(byCount(movieRuntime, reversed));
     case 'year':
-      return sorted.sort((a, b) => toCount(b.year) - toCount(a.year));
     case 'episodes':
-      return sorted.sort((a, b) => toCount(b.episodes) - toCount(a.episodes));
+      return sorted.sort(byCount((e) => toCount(e[sortBy]), reversed));
     case 'collection':
       // Within a franchise, oldest first — the order you'd watch them in.
-      return sorted.sort(
-        (a, b) =>
-          toCount(a.year) - toCount(b.year) || String(a.title).localeCompare(String(b.title)),
-      );
+      return sorted.sort(byCount((e) => toCount(e.year), !reversed));
     case 'title':
     default:
-      return sorted.sort((a, b) => String(a.title).localeCompare(String(b.title)));
+      return sorted.sort(reversed ? (a, b) => byTitle(b, a) : byTitle);
   }
 }
 
@@ -274,8 +325,10 @@ function EntryCard({ entry, index, selected, style, onSelect }) {
           &#9733;
         </span>
       )}
-      {toCount(entry.rating) > 0 && (
-        <span className={styles.ratingChip}>{toCount(entry.rating)}</span>
+      {globalRating(entry) > 0 && (
+        <span className={styles.ratingChip} title="TMDB audience rating">
+          &#9733; {globalRating(entry).toFixed(1)}
+        </span>
       )}
 
       <div className={styles.cardCaption}>
@@ -310,7 +363,65 @@ function EntryCard({ entry, index, selected, style, onSelect }) {
   );
 }
 
-function EntryDetail({ entry, onClose, style, className }) {
+/**
+ * Admin shortcut on a watchlist entry: a movie goes straight to WATCHED, a show
+ * to WATCHING, without a trip through the full editor.
+ *
+ * Starting a show also ticks S01E01, so it opens with progress and a "next up"
+ * of E02 rather than an empty bar. Anything already ticked is kept, and the
+ * episodesSeen total is written alongside, as the episode picker does.
+ */
+function startWatchingPatch(entry) {
+  if (!isShow(entry)) return { status: 'watched' };
+  const seasonOne = new Set(watchedInSeason(entry.watchedEpisodes, 1));
+  seasonOne.add(1);
+  const watchedEpisodes = {
+    ...(entry.watchedEpisodes || {}),
+    1: [...seasonOne].sort((a, b) => a - b),
+  };
+  return {
+    status: 'watching',
+    watchedEpisodes,
+    episodesSeen: countWatched(watchedEpisodes),
+  };
+}
+
+function StartWatchingButton({ entry, index }) {
+  const patchItem = useEditableItemPatch();
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+
+  if (!patchItem || index < 0 || !isQueued(entry)) return null;
+
+  const show = isShow(entry);
+  const handleClick = async () => {
+    setBusy(true);
+    setError('');
+    try {
+      await patchItem(index, entry.id, startWatchingPatch(entry));
+      // On success the entry leaves the watchlist and this button unmounts.
+    } catch (err) {
+      setError(err?.message || 'Save failed.');
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div className={styles.quickAction}>
+      <button
+        type="button"
+        className={styles.quickActionBtn}
+        onClick={handleClick}
+        disabled={busy}
+      >
+        {busy ? 'SAVING...' : show ? '▶ START WATCHING' : '✓ MARK AS WATCHED'}
+      </button>
+      {error && <span className={styles.quickActionError}>{error}</span>}
+    </div>
+  );
+}
+
+function EntryDetail({ entry, index = -1, onClose, style, className }) {
   const hasLink = Boolean(resolveExternalUrl(entry.tmdbUrl));
   const total = toCount(entry.episodes);
   const progress = watchProgress(entry);
@@ -346,10 +457,23 @@ function EntryDetail({ entry, onClose, style, className }) {
               <span className={styles.metricValue}>{isShow(entry) ? 'SHOW' : 'MOVIE'}</span>
               <span className={styles.metricLabel}>TYPE</span>
             </span>
+            {globalRating(entry) > 0 && (
+              <span
+                className={styles.metric}
+                title={
+                  toCount(entry.tmdbVotes)
+                    ? `${toCount(entry.tmdbVotes).toLocaleString()} votes on TMDB`
+                    : undefined
+                }
+              >
+                <span className={styles.metricValue}>{globalRating(entry).toFixed(1)}/10</span>
+                <span className={styles.metricLabel}>TMDB</span>
+              </span>
+            )}
             {toCount(entry.rating) > 0 && (
               <span className={styles.metric}>
                 <span className={styles.metricValue}>{toCount(entry.rating)}/10</span>
-                <span className={styles.metricLabel}>RATING</span>
+                <span className={styles.metricLabel}>YOUR RATING</span>
               </span>
             )}
             {isShow(entry) && toCount(entry.seasons) > 0 && (
@@ -403,6 +527,8 @@ function EntryDetail({ entry, onClose, style, className }) {
           )}
 
           {entry.overview && <p className={styles.synopsis}>{entry.overview}</p>}
+
+          <StartWatchingButton entry={entry} index={index} />
 
           {hasLink && (
             <button
@@ -494,6 +620,7 @@ function EntryGrid({
           <EntryDetail
             key={selectedEntry.id}
             entry={selectedEntry}
+            index={adminIndexOf(selectedEntry)}
             onClose={onCloseDetail}
             style={{ order: detailOrder }}
           />
@@ -591,6 +718,10 @@ export default function Cinema() {
   const [selectedId, setSelectedId] = useState(null);
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState('title');
+  // Remembers which sort was flipped, so picking a different one — or a tab
+  // change snapping back to the default — starts in its natural direction.
+  const [reversedSort, setReversedSort] = useState(null);
+  const sortReversed = reversedSort === sortBy;
   const [watchlistType, setWatchlistType] = useState(DEFAULT_WATCHLIST_TYPE);
 
   const source = useMemo(
@@ -663,8 +794,8 @@ export default function Cinema() {
       if (type) filtered = filtered.filter((e) => type.match(e, unfinishedIds));
     }
 
-    return sortEntries(filtered, sortBy);
-  }, [entries, activeTab, search, sortBy, watchlistType, unfinishedIds]);
+    return sortEntries(filtered, sortBy, sortReversed);
+  }, [entries, activeTab, search, sortBy, sortReversed, watchlistType, unfinishedIds]);
 
   // FINISHING is a franchise view, so it sections by franchise whatever the sort.
   const finishingView = activeTab === 'watchlist' && watchlistType === 'finishing';
@@ -740,8 +871,17 @@ export default function Cinema() {
 
   const handleSortChange = useCallback((key) => {
     setSortBy(key);
+    setReversedSort(null);
     setSelectedId(null);
   }, []);
+
+  const handleSortReversedChange = useCallback(
+    (reversed) => {
+      setReversedSort(reversed ? sortBy : null);
+      setSelectedId(null);
+    },
+    [sortBy],
+  );
 
   return (
     <motion.div
@@ -805,6 +945,8 @@ export default function Cinema() {
                   sortBy={sortBy}
                   onSortChange={handleSortChange}
                   sortOptions={sortOptions}
+                  sortReversed={sortReversed}
+                  onSortReversedChange={handleSortReversedChange}
                   placeholder="Search titles..."
                 />
               </div>
@@ -853,6 +995,7 @@ export default function Cinema() {
                   <EntryDetail
                     key={packedDetailEntry.id}
                     entry={packedDetailEntry}
+                    index={adminIndexOf(packedDetailEntry)}
                     onClose={clearSelected}
                     className={styles.detailPacked}
                     style={{ order: selectedGroupIndex * 2 + 1 }}

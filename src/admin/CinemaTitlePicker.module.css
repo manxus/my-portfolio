@@ -90,8 +90,13 @@
   transition: background 0.15s;
 }
 
-.searchResultBtn:hover {
+.searchResultBtn:hover:not(:disabled) {
   background: rgba(95, 143, 143, 0.15);
+}
+
+.searchResultBtn:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
 }
 
 .resultThumb,
@@ -190,4 +195,13 @@
   font-size: 0.55rem;
   color: var(--color-muted, #666);
   margin: 0;
+}
+
+.resultAdded {
+  align-self: flex-start;
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
+  padding: 0.1rem 0.3rem;
+  border: 1px solid #e55;
+  color: #e55;
 }

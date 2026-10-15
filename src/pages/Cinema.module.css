@@ -587,6 +587,43 @@
   color: var(--text-secondary);
 }
 
+.quickAction {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.quickActionBtn {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--bg-primary, #0b1414);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+  transition:
+    background var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.quickActionBtn:hover:not(:disabled) {
+  background: var(--accent-bright);
+  border-color: var(--accent-bright);
+}
+
+.quickActionBtn:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.quickActionError {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: #e55;
+}
+
 .tmdbLink {
   align-self: flex-start;
   font-family: var(--font-mono);

@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { searchTitles, fetchTitleDetails } from '../utils/tmdb';
+import { isSameCinemaTitle } from './duplicates';
 import styles from './CinemaTitlePicker.module.css';
 
 const SEARCH_DEBOUNCE_MS = 450;
@@ -8,7 +9,7 @@ function typeLabel(mediaType) {
   return mediaType === 'tv' ? 'TV' : 'MOVIE';
 }
 
-export default function CinemaTitlePicker({ value, onChange }) {
+export default function CinemaTitlePicker({ value, existingItems = [], onChange }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -67,7 +68,11 @@ export default function CinemaTitlePicker({ value, onChange }) {
     return () => document.removeEventListener('mousedown', onDocClick);
   }, []);
 
+  const isAlreadyAdded = (result) =>
+    existingItems.some((item) => item && isSameCinemaTitle(result, item));
+
   const handleSelect = async (result) => {
+    if (isAlreadyAdded(result)) return;
     setSearchResults([]);
     setSearchOpen(false);
     setSearchQuery('');
@@ -126,12 +131,17 @@ export default function CinemaTitlePicker({ value, onChange }) {
 
         {searchOpen && searchResults.length > 0 && (
           <ul className={styles.searchResults} role="listbox">
-            {searchResults.map((result) => (
+            {searchResults.map((result) => {
+              const added = isAlreadyAdded(result);
+              return (
               <li key={`${result.mediaType}-${result.tmdbId}`}>
                 <button
                   type="button"
                   className={styles.searchResultBtn}
                   role="option"
+                  disabled={added}
+                  aria-disabled={added}
+                  title={added ? 'Already in your list' : undefined}
                   onClick={() => handleSelect(result)}
                 >
                   {result.posterUrl ? (
@@ -150,10 +160,12 @@ export default function CinemaTitlePicker({ value, onChange }) {
                       {result.year && ` (${result.year})`}
                     </span>
                     <span className={styles.resultBadge}>{typeLabel(result.mediaType)}</span>
+                    {added && <span className={styles.resultAdded}>IN LIST</span>}
                   </span>
                 </button>
               </li>
-            ))}
+              );
+            })}
           </ul>
         )}
       </div>

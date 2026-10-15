@@ -30,27 +30,13 @@
   ],
   "playtests": [
     {
-      "title": "STRIDEN",
-      "studio": "Northify",
-      "source": "official",
-      "year": "2025",
-      "type": "Closed Beta",
-      "url": "https://store.steampowered.com/app/2052970/STRIDEN/"
-    },
-    {
-      "title": "Snowtracked",
-      "studio": "Northify",
-      "source": "official",
-      "year": "2025",
-      "type": "Closed Alpha",
-      "url": "https://store.steampowered.com/app/1909310/Snowtracked/"
-    },
-    {
-      "title": "Undisclosed Title",
-      "studio": "Studio Name (NDA)",
-      "source": "official",
-      "year": "2025",
-      "type": "Technical Test"
+      "title": "Monster Meals: Big Bite Diner",
+      "studio": "Giant Warrior Studio",
+      "source": "gameround",
+      "visibility": "public",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/4209940/Monster_Meals_Big_Bite_Diner/"
     },
     {
       "title": "Undisclosed Title",
@@ -60,13 +46,11 @@
       "type": "Closed Alpha"
     },
     {
-      "title": "Monster Meals: Big Bite Diner",
-      "studio": "Giant Warrior Studio",
-      "source": "gameround",
-      "visibility": "public",
-      "year": "2026",
-      "type": "Gameround",
-      "url": "https://store.steampowered.com/app/4209940/Monster_Meals_Big_Bite_Diner/"
+      "title": "Undisclosed Title",
+      "studio": "Studio Name (NDA)",
+      "source": "official",
+      "year": "2025",
+      "type": "Technical Test"
     },
     {
       "title": "PengPong",
@@ -78,6 +62,14 @@
       "url": "https://store.steampowered.com/app/2766910/PengPong/"
     },
     {
+      "title": "Snowtracked",
+      "studio": "Northify",
+      "source": "official",
+      "year": "2025",
+      "type": "Closed Alpha",
+      "url": "https://store.steampowered.com/app/1909310/Snowtracked/"
+    },
+    {
       "title": "Demon Lord: Just a Block",
       "studio": "YuWave Studio",
       "source": "gameround",
@@ -85,6 +77,14 @@
       "year": "2026",
       "type": "Gameround",
       "url": "https://store.steampowered.com/app/3720420/Demon_Lord_Just_a_Block/"
+    },
+    {
+      "title": "STRIDEN",
+      "studio": "Northify",
+      "source": "official",
+      "year": "2025",
+      "type": "Closed Beta",
+      "url": "https://store.steampowered.com/app/2052970/STRIDEN/"
     },
     {
       "title": "Tokatonton: One-Armed Blacksmith",
@@ -168,6 +168,28 @@
       "year": "",
       "type": "",
       "url": "",
+      "appId": "",
+      "coverUrl": ""
+    },
+    {
+      "title": "MODULE:BERSERK",
+      "studio": "Studio Brakio",
+      "source": "gameround",
+      "visibility": "public",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/3510760/MODULEBERSERK/",
+      "appId": "",
+      "coverUrl": ""
+    },
+    {
+      "title": "Kitman",
+      "studio": "Outlier",
+      "source": "gameround",
+      "visibility": "public",
+      "year": "2026",
+      "type": "Gameround",
+      "url": "https://store.steampowered.com/app/4186890/Kitman/",
       "appId": "",
       "coverUrl": ""
     }

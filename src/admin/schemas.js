@@ -475,7 +475,7 @@ export const schemas = {
       options: ['watched', 'watching', 'dropped', 'watchlist'],
       required: true,
     },
-    { key: 'rating', label: 'Rating (1-10)', type: 'number' },
+    { key: 'rating', label: 'Your rating (1-10)', type: 'number' },
     { key: 'featured', label: 'Show in favorites', type: 'boolean' },
     { key: 'year', label: 'Year', type: 'text' },
     { key: 'seasons', label: 'Seasons (shows)', type: 'number' },
@@ -484,6 +484,8 @@ export const schemas = {
     // Fallback for shows with no seasonEpisodes yet; the tracker overwrites it.
     { key: 'episodesSeen', label: 'Episodes seen (shows)', type: 'number' },
     { key: 'runtime', label: 'Runtime in minutes', type: 'number' },
+    // Filled by the TMDB lookup and `npm run cinema:ratings`.
+    { key: 'tmdbRating', label: 'TMDB rating (0-10)', type: 'number' },
     { key: 'genres', label: 'Genres', type: 'list' },
     { key: 'overview', label: 'Overview', type: 'textarea' },
     { key: 'coverUrl', label: 'Poster URL', type: 'text' },

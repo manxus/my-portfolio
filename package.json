@@ -11,7 +11,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "cinema:refresh": "node --env-file=.env scripts/refresh-cinema-shows.js"
+    "cinema:refresh": "node --env-file=.env scripts/refresh-cinema-shows.js",
+    "cinema:ratings": "node --env-file=.env scripts/refresh-cinema-ratings.js"
   },
   "dependencies": {
     "framer-motion": "^12.34.3",

@@ -7,6 +7,12 @@ export default function SteamFilters({
   sortBy,
   onSortChange,
   sortOptions,
+  /**
+   * Pass both to get a flip button beside SORT. Options can carry a
+   * `reverseLabel` for the button to show while reversed (e.g. "Title Z–A").
+   */
+  sortReversed,
+  onSortReversedChange,
   /** Reviews tab: only the sort control, no search field. */
   sortOnly = false,
   placeholder = 'Search games...',
@@ -24,7 +30,10 @@ export default function SteamFilters({
     return () => document.removeEventListener('mousedown', handleClick);
   }, [sortOpen]);
 
-  const currentLabel = sortOptions.find((o) => o.key === sortBy)?.label || 'Sort';
+  const currentOption = sortOptions.find((o) => o.key === sortBy);
+  const currentLabel =
+    (sortReversed && currentOption?.reverseLabel) || currentOption?.label || 'Sort';
+  const canReverse = typeof onSortReversedChange === 'function';
 
   return (
     <div
@@ -40,6 +49,7 @@ export default function SteamFilters({
         />
       )}
 
+      <div className={styles.sortGroup}>
       <div className={styles.sortWrapper} ref={sortPanelRef}>
         <button
           className={styles.sortBtn}
@@ -64,6 +74,20 @@ export default function SteamFilters({
             ))}
           </div>
         )}
+      </div>
+
+      {canReverse && (
+        <button
+          type="button"
+          className={`${styles.reverseBtn} ${sortReversed ? styles.reverseBtnActive : ''}`}
+          onClick={() => onSortReversedChange(!sortReversed)}
+          aria-pressed={Boolean(sortReversed)}
+          aria-label="Reverse sort order"
+          title="Reverse sort order"
+        >
+          <span aria-hidden="true">&#8645;</span>
+        </button>
+      )}
       </div>
     </div>
   );

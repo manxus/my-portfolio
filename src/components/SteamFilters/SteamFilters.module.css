@@ -37,8 +37,40 @@
   background: var(--bg-hover);
 }
 
+.sortGroup {
+  display: flex;
+  align-items: stretch;
+  gap: 0.35rem;
+}
+
 .sortWrapper {
   position: relative;
+}
+
+.reverseBtn {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent-dim);
+  padding: 0 0.6rem;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.reverseBtn:hover {
+  color: var(--text-primary);
+  border-color: var(--accent);
+  background: var(--bg-hover);
+}
+
+.reverseBtnActive {
+  color: var(--accent-bright);
+  border-color: var(--accent);
 }
 
 .containerSortOnly .sortWrapper {
@@ -118,6 +150,14 @@
 
   .containerSortOnly .sortBtn {
     width: 100%;
+  }
+
+  .sortGroup {
+    width: 100%;
+  }
+
+  .sortWrapper {
+    flex: 1;
   }
 
   .search {

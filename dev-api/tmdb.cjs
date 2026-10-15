@@ -73,6 +73,20 @@ function seasonEpisodeCounts(item) {
     .map((s) => Number(s.episode_count) || 0);
 }
 
+/**
+ * TMDB's audience score, 0–10 to one decimal, with the vote count beside it so
+ * the page can ignore a score resting on a handful of votes. Mirrors
+ * scripts/refresh-cinema-ratings.js.
+ */
+function ratingFields(item) {
+  const votes = Number(item.vote_count) || 0;
+  const average = Number(item.vote_average);
+  return {
+    tmdbRating: votes > 0 && Number.isFinite(average) ? Math.round(average * 10) / 10 : null,
+    tmdbVotes: votes,
+  };
+}
+
 /** Compact shape for the search dropdown. */
 function mapSearchResult(item) {
   return {
@@ -100,15 +114,18 @@ function mapDetails(item, mediaType) {
     coverUrl: imageUrl(item.poster_path, POSTER_SIZE),
     backdropUrl: imageUrl(item.backdrop_path, BACKDROP_SIZE),
     tmdbUrl: tmdbUrl(mediaType, item.id),
+    ...ratingFields(item),
   };
 
   if (mediaType === 'tv') {
     patch.seasons = toNumberOrNull(item.number_of_seasons);
     patch.episodes = toNumberOrNull(item.number_of_episodes);
     patch.seasonEpisodes = seasonEpisodeCounts(item);
-    patch.runtime = toNumberOrNull(
-      Array.isArray(item.episode_run_time) ? item.episode_run_time[0] : null,
-    );
+    // episode_run_time is empty for most shows now; the latest episode's own
+    // runtime is the fallback TMDB still fills in.
+    patch.runtime =
+      toNumberOrNull(Array.isArray(item.episode_run_time) ? item.episode_run_time[0] : null) ??
+      toNumberOrNull(item.last_episode_to_air && item.last_episode_to_air.runtime);
   } else {
     patch.runtime = toNumberOrNull(item.runtime);
     patch.collection = collectionName(item);

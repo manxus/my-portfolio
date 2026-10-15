@@ -10,7 +10,10 @@
     rgba(0, 0, 0, 0.06) 2px,
     rgba(0, 0, 0, 0.06) 4px
   );
-  mix-blend-mode: multiply;
+  /* No mix-blend-mode: it made every scroll and canvas frame re-blend the whole
+     viewport, so dragging the scrollbar lagged. The scanlines and vignette are
+     translucent black, and multiply with black is identical to normal blending
+     (dst × (1 − alpha) either way), so dropping it changes nothing visually. */
 }
 
 .overlay::after {

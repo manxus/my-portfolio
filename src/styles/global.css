@@ -51,22 +51,43 @@ ul, ol {
   list-style: none;
 }
 
+/* The scrollbar carries its own gutter: a transparent border on the content
+   side of the thumb, so no scroll area's content runs flush against it. */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 14px;
+  height: 14px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--accent-dim);
-  border-radius: 3px;
+  background-clip: padding-box;
+  border: 0 solid transparent;
 }
 
+/* Gap-side radii add the border width (8px) so the visible 6px thumb keeps
+   3px rounded ends instead of square corners on that side. */
+::-webkit-scrollbar-thumb:vertical {
+  border-left-width: 8px;
+  border-radius: 11px 3px 3px 11px / 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-top-width: 8px;
+  border-radius: 3px / 11px 11px 3px 3px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* background-color, not the shorthand: `background` resets background-clip and
+   the hover colour would fill the transparent gutter. */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent);
+  background-color: var(--accent);
 }
 
 ::selection {

@@ -45,45 +45,52 @@ const PLAYTEST_SUBSECTIONS = [
   { source: 'gameround', title: 'GAMEROUND PLAYTESTS', showType: false },
 ];
 
-const GRID_BREAKPOINT = 768;
-
-function getGridColumnCount(width) {
-  const minCol = width <= GRID_BREAKPOINT ? 120 : 150;
-  const gap = width <= GRID_BREAKPOINT ? 8 : 12;
-  return Math.max(1, Math.floor((width + gap) / (minCol + gap)));
+/** Read the column count the CSS grid actually laid out, rather than redoing
+    its auto-fill maths in JS: the CSS breakpoint is on the viewport, so a copy
+    keyed on the grid's own width picked the mobile sizes inside a desktop
+    window and counted more columns than were drawn. auto-fill keeps empty
+    tracks, so this is the full row length even when fewer items are shown. */
+function getGridColumnCount(grid) {
+  const tracks = getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean);
+  return Math.max(1, tracks.length);
 }
 
-function useGridColumnCount(containerRef) {
+function useGridColumnCount(gridRef) {
   const [columns, setColumns] = useState(1);
 
   useEffect(() => {
-    const el = containerRef.current;
+    const el = gridRef.current;
     if (!el) return undefined;
 
     const update = () => {
-      setColumns(getGridColumnCount(el.offsetWidth));
+      setColumns(getGridColumnCount(el));
     };
 
     update();
     const observer = new ResizeObserver(update);
     observer.observe(el);
     return () => observer.disconnect();
-  }, [containerRef]);
+  }, [gridRef]);
 
   return columns;
 }
 
 function ExpandableGameGrid({ items, renderItem }) {
-  const containerRef = useRef(null);
-  const columns = useGridColumnCount(containerRef);
+  const gridRef = useRef(null);
+  const columns = useGridColumnCount(gridRef);
   const [expanded, setExpanded] = useState(false);
   const hasMore = items.length > columns;
   const visibleItems = expanded ? items : items.slice(0, columns);
+  // File indexes of each card's on-screen neighbours, for the move arrows.
+  const neighbours = (pos) => ({
+    prevIndex: items[pos - 1]?.index ?? -1,
+    nextIndex: items[pos + 1]?.index ?? -1,
+  });
 
   return (
-    <div ref={containerRef} className={styles.expandableGridWrap}>
-      <div className={styles.playtestGrid}>
-        {visibleItems.map(renderItem)}
+    <div className={styles.expandableGridWrap}>
+      <div ref={gridRef} className={styles.playtestGrid}>
+        {visibleItems.map((item, pos) => renderItem(item, neighbours(pos)))}
       </div>
       {hasMore && (
         <button
@@ -107,6 +114,8 @@ function GameCoverCard({
   coverUrl,
   overlay,
   index,
+  prevIndex,
+  nextIndex,
 }) {
   const cover = (
     <PlaytestCover
@@ -151,7 +160,9 @@ function GameCoverCard({
               title
             )}
           </h4>
-          {index != null && <EditableItemControls index={index} />}
+          {index != null && (
+            <EditableItemControls index={index} prevIndex={prevIndex} nextIndex={nextIndex} />
+          )}
         </div>
         <p className={styles.playtestMeta}>{meta}</p>
       </div>
@@ -160,10 +171,13 @@ function GameCoverCard({
 }
 
 function WorkedOnGrid({ items }) {
+  // Newest first: the admin editor appends, so reverse the stored order.
+  const ordered = items.map((game, index) => ({ game, index })).reverse();
+
   return (
     <ExpandableGameGrid
-      items={items}
-      renderItem={(game, index) => {
+      items={ordered}
+      renderItem={({ game, index }, neighbours) => {
         const storeUrl = playtestHref(game.url);
         const appId = game.appId || parseSteamAppId(game.url);
         const meta = [game.company, game.period].filter(Boolean).join(' · ');
@@ -177,6 +191,7 @@ function WorkedOnGrid({ items }) {
             appId={appId}
             coverUrl={game.coverUrl}
             index={index}
+            {...neighbours}
             overlay={
               game.role ? (
                 <span className={styles.playtestTypeOverlay}>{game.role}</span>
@@ -193,7 +208,7 @@ function PlaytestGrid({ items, showType }) {
   return (
     <ExpandableGameGrid
       items={items}
-      renderItem={({ pt, index }) => {
+      renderItem={({ pt, index }, neighbours) => {
         const display = getPlaytestDisplay(pt);
         const storeUrl = playtestHref(display.url);
 
@@ -206,6 +221,7 @@ function PlaytestGrid({ items, showType }) {
             appId={display.appId}
             coverUrl={display.coverUrl}
             index={index}
+            {...neighbours}
             overlay={
               <>
                 {showType && (
@@ -260,9 +276,11 @@ export default function QAPortfolio() {
         </h2>
         <EditableSection collection="qaPortfolio" dataKey="playtests">
           {PLAYTEST_SUBSECTIONS.map(({ source, title, showType }) => {
+            // Newest first: the admin editor appends, so reverse the stored order.
             const items = playtests
               .map((pt, index) => ({ pt, index }))
-              .filter(({ pt }) => pt.source === source);
+              .filter(({ pt }) => pt.source === source)
+              .reverse();
             if (items.length === 0) return null;
             return (
               <div key={source} className={styles.playtestSubsection}>

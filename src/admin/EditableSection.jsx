@@ -1,10 +1,12 @@
-import { useState, createContext, useContext, lazy, Suspense } from 'react';
+import { useState, useContext, lazy, Suspense } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { useAdminStore } from '../stores/adminStore';
 import { schemas } from './schemas';
 import { applyAutoId } from './autoId';
+import { findDuplicate } from './duplicates';
 import { notifyAdminCollectionSaved } from './adminEvents';
 import ConfirmDialog from './ConfirmDialog';
+import { EditableItemsContext } from './editableItemsContext';
 import {
   flattenPersonalInfoForEditor,
   nestPersonalInfoFromEditor,
@@ -16,7 +18,6 @@ import styles from './EditableSection.module.css';
 // that snapshot in the boot chunk for every visitor.
 const ContentEditor = lazy(() => import('./ContentEditor'));
 
-const EditableItemsContext = createContext(null);
 
 
 export default function EditableSection({
@@ -49,7 +50,14 @@ export default function EditableSection({
   const isAdminUi = isAuthenticated;
 
   const openAdd = async () => {
-    setEditState({ mode: 'add', index: -1, data: null });
+    let existingItems = [];
+    try {
+      const items = (await getData(collection))[dataKey];
+      if (Array.isArray(items)) existingItems = items;
+    } catch (err) {
+      console.error('Failed to load existing items:', err);
+    }
+    setEditState({ mode: 'add', index: -1, data: null, existingItems });
   };
 
   const openEditSingleton = async () => {
@@ -71,7 +79,12 @@ export default function EditableSection({
       const fileData = await getData(collection);
       const items = fileData[dataKey];
       if (Array.isArray(items)) {
-        setEditState({ mode: 'edit', index, data: items[index] });
+        setEditState({
+          mode: 'edit',
+          index,
+          data: items[index],
+          existingItems: items.filter((_, i) => i !== index),
+        });
       } else {
         setEditState({ mode: 'edit', index: -1, data: items });
       }
@@ -122,6 +135,12 @@ export default function EditableSection({
     const items = fileData[dataKey];
 
     if (Array.isArray(items)) {
+      const others =
+        editState.mode === 'add' ? items : items.filter((_, i) => i !== editState.index);
+      const duplicate = findDuplicate(schemaKey, formData, others);
+      if (duplicate) {
+        throw new Error(`"${duplicate.title ?? 'This item'}" is already in the list.`);
+      }
       const payload = applyAutoId(schema, formData, items, editState.mode);
       if (editState.mode === 'add') {
         items.push(payload);
@@ -136,21 +155,29 @@ export default function EditableSection({
     notifyAdminCollectionSaved(collection);
   };
 
-  const handleMoveUp = async (index) => {
-    if (index <= 0) return;
+  /** Merge `patch` into one item and save, without opening the editor. */
+  const handlePatch = async (index, itemId, patch) => {
     const fileData = await getData(collection);
     const items = fileData[dataKey];
-    if (!Array.isArray(items)) return;
-    [items[index - 1], items[index]] = [items[index], items[index - 1]];
+    if (!Array.isArray(items)) throw new Error('This collection is not a list.');
+    // Same stale-index guard as delete: find the row by id when there is one.
+    const target = itemId == null ? index : items.findIndex((it) => it?.id === itemId);
+    if (target < 0 || !items[target]) {
+      throw new Error('That item is no longer in the file. Reload the page and try again.');
+    }
+    items[target] = { ...items[target], ...patch };
     await saveData(collection, { ...fileData, [dataKey]: items });
     notifyAdminCollectionSaved(collection);
   };
 
-  const handleMoveDown = async (index) => {
+  /** Swap two items in the file. Move arrows pass the on-screen neighbour, which
+      is not always index ± 1 when a view filters or reverses the list. */
+  const handleSwap = async (index, other) => {
     const fileData = await getData(collection);
     const items = fileData[dataKey];
-    if (!Array.isArray(items) || index >= items.length - 1) return;
-    [items[index], items[index + 1]] = [items[index + 1], items[index]];
+    if (!Array.isArray(items)) return;
+    if (other == null || other < 0 || other >= items.length || other === index) return;
+    [items[index], items[other]] = [items[other], items[index]];
     await saveData(collection, { ...fileData, [dataKey]: items });
     notifyAdminCollectionSaved(collection);
   };
@@ -183,8 +210,8 @@ export default function EditableSection({
             ? {
                 onEdit: openEdit,
                 onDelete: handleDelete,
-                onMoveUp: handleMoveUp,
-                onMoveDown: handleMoveDown,
+                onPatch: handlePatch,
+                onSwap: handleSwap,
               }
             : null
         }
@@ -211,6 +238,8 @@ export default function EditableSection({
               title={editState.mode === 'add' ? `Add ${dataKey}` : `Edit ${dataKey}`}
               schema={schema}
               initialData={editState.data}
+              existingItems={editState.existingItems}
+              schemaKey={schemaKey}
               onSave={handleSave}
               onClose={() => setEditState(null)}
             />
@@ -230,6 +259,10 @@ export function EditableItemControls({
   hideEdit = false,
   /** Views that impose their own sort order, where reordering the file is invisible. */
   hideMove = false,
+  /** File indexes of the items shown before/after this one. Default to the
+      array neighbours; views that filter or reverse the list pass their own. */
+  prevIndex = index - 1,
+  nextIndex = index + 1,
 }) {
   const ctx = useContext(EditableItemsContext);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
@@ -242,14 +275,14 @@ export function EditableItemControls({
         <>
           <button
             className={styles.itemBtn}
-            onClick={(e) => { e.stopPropagation(); ctx.onMoveUp(index); }}
+            onClick={(e) => { e.stopPropagation(); ctx.onSwap(index, prevIndex); }}
             title="Move up"
           >
             &#9650;
           </button>
           <button
             className={styles.itemBtn}
-            onClick={(e) => { e.stopPropagation(); ctx.onMoveDown(index); }}
+            onClick={(e) => { e.stopPropagation(); ctx.onSwap(index, nextIndex); }}
             title="Move down"
           >
             &#9660;
