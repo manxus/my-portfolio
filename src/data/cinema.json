@@ -1157,7 +1157,7 @@
       "rating": "",
       "featured": false,
       "year": "2023",
-      "seasons": 1,
+      "seasons": 2,
       "episodes": 16,
       "episodesSeen": 0,
       "runtime": null,
@@ -2124,7 +2124,7 @@
     {
       "title": "Bob's Burgers",
       "mediaType": "tv",
-      "status": "watching",
+      "status": "watched",
       "rating": "",
       "featured": false,
       "year": "2011",
@@ -15940,7 +15940,7 @@
       "featured": false,
       "year": "1989",
       "seasons": 38,
-      "episodes": 802,
+      "episodes": 807,
       "episodesSeen": 0,
       "runtime": null,
       "genres": [
@@ -15991,7 +15991,7 @@
         18,
         18,
         15,
-        1
+        6
       ],
       "watchedEpisodes": {}
     },
@@ -16194,8 +16194,8 @@
       "rating": "",
       "featured": false,
       "year": "1999",
-      "seasons": 17,
-      "episodes": 659,
+      "seasons": 19,
+      "episodes": 689,
       "episodesSeen": 0,
       "runtime": null,
       "genres": [
@@ -16227,7 +16227,8 @@
         24,
         22,
         26,
-        3
+        23,
+        10
       ],
       "watchedEpisodes": {}
     },
@@ -17407,7 +17408,7 @@
     {
       "title": "Rick and Morty",
       "mediaType": "tv",
-      "status": "watching",
+      "status": "watched",
       "rating": "",
       "featured": false,
       "year": "2013",
@@ -17553,7 +17554,7 @@
     {
       "title": "Family Guy",
       "mediaType": "tv",
-      "status": "watching",
+      "status": "watched",
       "rating": "",
       "featured": false,
       "year": "1999",
@@ -18107,7 +18108,7 @@
     {
       "title": "Love, Death & Robots",
       "mediaType": "tv",
-      "status": "watching",
+      "status": "watched",
       "rating": "",
       "featured": false,
       "year": "2019",
@@ -18190,7 +18191,7 @@
     {
       "title": "Smiling Friends",
       "mediaType": "tv",
-      "status": "watching",
+      "status": "watched",
       "rating": "",
       "featured": false,
       "year": "2020",
@@ -19191,7 +19192,8 @@
         8,
         8,
         8
-      ]
+      ],
+      "watchedEpisodes": {}
     },
     {
       "title": "Scary Movie",
@@ -19241,7 +19243,8 @@
         10,
         8,
         8
-      ]
+      ],
+      "watchedEpisodes": {}
     },
     {
       "title": "Ice Age: Continental Drift",
@@ -19657,7 +19660,8 @@
         20,
         20,
         21
-      ]
+      ],
+      "watchedEpisodes": {}
     },
     {
       "title": "Brother Bear 2",
