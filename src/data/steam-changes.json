@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-10-14T11:11:04.955Z",
+  "generatedAt": "2026-10-15T10:53:00.443Z",
   "events": [
+    {
+      "appId": 227300,
+      "name": "Euro Truck Simulator 2",
+      "added": 8,
+      "total": 114,
+      "date": "2026-10-15"
+    },
     {
       "appId": 632360,
       "name": "Risk of Rain 2",

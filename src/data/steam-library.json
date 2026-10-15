@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-14T11:11:04.680Z",
+  "fetchedAt": "2026-10-15T10:53:00.423Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1791956255
+    "lastLogoff": 1792047280
   },
   "games": [
     {
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 2988.2,
+      "playtimeHours": 3004,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -96812,7 +96812,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/library_header_2x.jpg",
       "achievements": {
-        "total": 106,
+        "total": 114,
         "unlocked": 11,
         "items": [
           {
@@ -272827,6 +272827,255 @@
       }
     },
     {
+      "appId": 435120,
+      "name": "Rusty Lake Hotel",
+      "playtimeHours": 2.4,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/435120/0ed54f72d51f8090bb2ab0f6467bd85ca25ddefc.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/435120/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435120/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 23,
+        "unlocked": 23,
+        "items": [
+          {
+            "apiName": "achievement_1",
+            "name": "Secret Rusty Lake Specialty",
+            "description": "Mr. Owl - 1",
+            "icon": "445aa2031051e5549c1c79a75ed1acec5556a62b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791980752,
+            "globalPct": 50.2
+          },
+          {
+            "apiName": "achievement_2",
+            "name": "Just Hanging",
+            "description": "Mr. Owl - 2",
+            "icon": "3f1494221023d07f3a8cc14578f4572af6ff42be",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791980796,
+            "globalPct": 59
+          },
+          {
+            "apiName": "achievement_3",
+            "name": "The Elevator",
+            "description": "Mr. Owl - 3",
+            "icon": "1516e91a221cc3f54e399c696b48e04914128fc4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791980859,
+            "globalPct": 59.9
+          },
+          {
+            "apiName": "achievement_11",
+            "name": "Deer Meat",
+            "description": "Mr. Deer - 1",
+            "icon": "c801683d4ea7f4594abe85a955d8dbec5b3ad1b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791970393,
+            "globalPct": 71.6
+          },
+          {
+            "apiName": "achievement_12",
+            "name": "Mushrooms",
+            "description": "Mr. Deer - 2",
+            "icon": "84bf8d243df7029635e630af443a3e68c27b2583",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791967609,
+            "globalPct": 72
+          },
+          {
+            "apiName": "achievement_13",
+            "name": "Rosemary",
+            "description": "Mr. Deer - 3",
+            "icon": "5502ee84f8ff59233d96961aa7d61a50f15097a5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791968463,
+            "globalPct": 56.7
+          },
+          {
+            "apiName": "achievement_14",
+            "name": "Albert's Way ",
+            "description": "Mr. Deer - 4",
+            "icon": "492a45093bce010173a4665fd7ec3a4077f42dd5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791969828,
+            "globalPct": 34
+          },
+          {
+            "apiName": "achievement_21",
+            "name": "Boar Ribs",
+            "description": "Mr. Boar - 1",
+            "icon": "2a151ffeeea302a38242d2a8000b3a95f4c10341",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791980656,
+            "globalPct": 64.5
+          },
+          {
+            "apiName": "achievement_22",
+            "name": "Red Wine",
+            "description": "Mr. Boar - 2",
+            "icon": "d9b4d580a6f2a251e60c66c5940885a9440eded3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791979763,
+            "globalPct": 56.5
+          },
+          {
+            "apiName": "achievement_23",
+            "name": "Tomatoes",
+            "description": "Mr. Boar - 3",
+            "icon": "0475d9b11b299fa1b20b7d7a4de13955cc1c65a3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791980139,
+            "globalPct": 56.3
+          },
+          {
+            "apiName": "achievement_24",
+            "name": "You know what to do!",
+            "description": "Mr. Boar - 4",
+            "icon": "bd674f11fc2b4f846d96828ee8d07680c3bd79da",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791980476,
+            "globalPct": 65.7
+          },
+          {
+            "apiName": "achievement_31",
+            "name": "Pheasant Breast",
+            "description": "Ms. Pheasant - 1",
+            "icon": "0a87e4f0a2b62affff22225e69df5d9022b95cc7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791979733,
+            "globalPct": 62.7
+          },
+          {
+            "apiName": "achievement_32",
+            "name": "White Wine",
+            "description": "Ms. Pheasant - 2",
+            "icon": "07f56d7e16c806147972bf5a533b675e16821ff2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791978400,
+            "globalPct": 56.1
+          },
+          {
+            "apiName": "achievement_33",
+            "name": "Thyme",
+            "description": "Ms. Pheasant - 3",
+            "icon": "18809144ddea2cda1940778be8ec972aeb5d213f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791978518,
+            "globalPct": 60.8
+          },
+          {
+            "apiName": "achievement_34",
+            "name": "Need a hand?",
+            "description": "Ms. Pheasant - 4",
+            "icon": "099e7ac8e042be00cdc097d99fc0f4e5f7c7810d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791978535,
+            "globalPct": 64.2
+          },
+          {
+            "apiName": "achievement_41",
+            "name": "Rabbit Leg",
+            "description": "Mr. Rabbit - 1",
+            "icon": "f22c54730ceaf82ddbdee59f428877c7bbc36325",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791976417,
+            "globalPct": 66.9
+          },
+          {
+            "apiName": "achievement_42",
+            "name": "Carrot",
+            "description": "Mr. Rabbit - 2",
+            "icon": "1a28145588514e110905c6db1e2ecdaa32f018ef",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791975436,
+            "globalPct": 62.7
+          },
+          {
+            "apiName": "achievement_43",
+            "name": "White Beans",
+            "description": "Mr. Rabbit - 3",
+            "icon": "16ca3b719aabaae46d95e9bc03f11a5d98747df0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791976836,
+            "globalPct": 47.2
+          },
+          {
+            "apiName": "achievement_44",
+            "name": "Watch Closely!",
+            "description": "Mr. Rabbit - 4",
+            "icon": "178b05068137a14f6e261e29f1b9a74caa4bf087",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791975893,
+            "globalPct": 50.9
+          },
+          {
+            "apiName": "achievement_51",
+            "name": "Pigeon Wing",
+            "description": "Mrs. Pigeon - 1",
+            "icon": "715ab798f78fd6203ca81a328a1cc906ed104ca6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791977940,
+            "globalPct": 63.7
+          },
+          {
+            "apiName": "achievement_52",
+            "name": "Potatoes",
+            "description": "Mrs. Pigeon - 2",
+            "icon": "9adb61d0e7cd4b95b724e25442eac4822ba1bfb8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791976760,
+            "globalPct": 54.1
+          },
+          {
+            "apiName": "achievement_53",
+            "name": "Blackberries",
+            "description": "Mrs. Pigeon - 3",
+            "icon": "47f99ac10bdf9d2d1723333efee08ecf2edb8020",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791977445,
+            "globalPct": 36.2
+          },
+          {
+            "apiName": "achievement_54",
+            "name": "Can't catch me!",
+            "description": "Mrs. Pigeon - 4",
+            "icon": "439372c4bf7b2e1a9cedc264eb1cfa2ea0a99007",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1791977479,
+            "globalPct": 46
+          }
+        ]
+      }
+    },
+    {
       "appId": 1927720,
       "name": "Monument Valley",
       "playtimeHours": 2.4,
@@ -297353,6 +297602,185 @@
       }
     },
     {
+      "appId": 532110,
+      "name": "Rusty Lake: Roots",
+      "playtimeHours": 1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/532110/2719eeb5d6bd45fcb1fda066a4e96b71e7b96056.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/532110/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532110/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 16,
+        "unlocked": 5,
+        "items": [
+          {
+            "apiName": "tree",
+            "name": "Plant a Tree",
+            "description": "The Vanderboom family tree",
+            "icon": "704f573dbc8b540779c4a5c1f1067f1424d1099f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792016065,
+            "globalPct": 86.9
+          },
+          {
+            "apiName": "nipple",
+            "name": "The Nipple",
+            "description": "Nipplegate",
+            "icon": "1d557ced2e595be354c3fca25b764e7216220bf6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792016324,
+            "globalPct": 84.9
+          },
+          {
+            "apiName": "triplets",
+            "name": "Triplets",
+            "description": "Difficult delivery",
+            "icon": "db80febb63e3fac07435cfbe6012732085a52fa4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792017362,
+            "globalPct": 82.1
+          },
+          {
+            "apiName": "elixir",
+            "name": "The Elixir",
+            "description": "The elixir of life and death",
+            "icon": "b95a781f104ac661328ccf239282c67eef5bce47",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792017119,
+            "globalPct": 79.2
+          },
+          {
+            "apiName": "mask",
+            "name": "The Moon Mask",
+            "description": "To the Moon and Back",
+            "icon": "4f4caa4a8924efa305f4508533e6613ccaf52181",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792019561,
+            "globalPct": 74.4
+          },
+          {
+            "apiName": "eye",
+            "name": "The Eye",
+            "description": "An eye for an eye",
+            "icon": "7f4397f8dfd54ee2d2c5dd549799865730f00810",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 69.8
+          },
+          {
+            "apiName": "piss",
+            "name": "The Cup",
+            "description": "A refreshing drink",
+            "icon": "11f31bfdbfe3e548c64c7ea0d1ededca02bf853e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 66
+          },
+          {
+            "apiName": "dale",
+            "name": "The Date",
+            "description": "The day he was born",
+            "icon": "8d137f39edf619922ebc03ba9e2a00e4988f99a8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.4
+          },
+          {
+            "apiName": "rebirth",
+            "name": "Rebirth",
+            "description": "The circle of life",
+            "icon": "94bc0d300377ca3239796d4c2086b6a26e098dae",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 62.2
+          },
+          {
+            "apiName": "dress",
+            "name": "The Dress",
+            "description": "A familiar dress",
+            "icon": "9e72b1d8c0aaee6b186cf3af664596ff6c33eb27",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 64.5
+          },
+          {
+            "apiName": "medals",
+            "name": "The Last Emblem",
+            "description": "Back to your roots",
+            "icon": "e0bf75c9112985280f66038c6a2ca2a13af4009e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 28.5
+          },
+          {
+            "apiName": "daughter",
+            "name": "Laura",
+            "description": "She will return to the lake",
+            "icon": "75ec053e2388c08937c3dff0ba002e7a6498a6db",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17
+          },
+          {
+            "apiName": "black_cube",
+            "name": "Black Cube",
+            "description": "Dark memories",
+            "icon": "34262af99085e4c23e4e222db51ce72e45c20195",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.9
+          },
+          {
+            "apiName": "white_cube",
+            "name": "White Cube",
+            "description": "Light memories",
+            "icon": "6f8a7a3428810981685ffa10b0cb2332a22a42d5",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17
+          },
+          {
+            "apiName": "cocktail",
+            "name": "Rusty Lake Cocktail",
+            "description": "You look like you can use a drink",
+            "icon": "44c3f64fa3101030ced5c30f84cdce4e76031712",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.7
+          },
+          {
+            "apiName": "crow",
+            "name": "The Crow",
+            "description": "The crow and his brother",
+            "icon": "3ceb98973d882161a2fc029456ca00b88cd25d32",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.2
+          }
+        ]
+      }
+    },
+    {
       "appId": 1138850,
       "name": "Heavenly Bodies",
       "playtimeHours": 1,
@@ -298946,20 +299374,6 @@
       "releaseDate": null,
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/75bbbb3348f27099951079822249bd4bda81966d/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/e04036cdb75e1da7a3c158b72edb029dffdd8644/library_header_2x.jpg",
-      "achievements": null
-    },
-    {
-      "appId": 435120,
-      "name": "Rusty Lake Hotel",
-      "playtimeHours": 0.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/435120/0ed54f72d51f8090bb2ab0f6467bd85ca25ddefc.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/435120/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435120/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
       "achievements": null
     },
     {
@@ -351353,23 +351767,6 @@
       }
     },
     {
-      "appId": 532110,
-      "name": "Rusty Lake: Roots",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/532110/2719eeb5d6bd45fcb1fda066a4e96b71e7b96056.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/532110/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532110/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 16,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 532190,
       "name": "Super Blood Hockey",
       "playtimeHours": 0,
@@ -381131,18 +381528,6 @@
       }
     },
     {
-      "appId": 3508650,
-      "name": "VOID/BREAKER Playtest",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3508650/fc11322f94ec6622aa27a2d50c353b383d273273.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3508650/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "achievements": null
-    },
-    {
       "appId": 3530680,
       "name": "How 2 Escape: Lost Submarine",
       "playtimeHours": 0,
@@ -381685,7 +382070,7 @@
       "dateAdded": 1467250442,
       "priority": 42,
       "name": "DayZ",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1789982846",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1792059745",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/library_600x900_2x.jpg"
     },
     {
@@ -383055,7 +383440,7 @@
       "dateAdded": 1519685605,
       "priority": 334,
       "name": "Farm Together",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673950/header.jpg?t=1725022743",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673950/a636eb1c7b4ae49f799c09c348018da77de95af4/header.jpg?t=1791993129",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673950/library_600x900_2x.jpg"
     },
     {
@@ -383295,7 +383680,7 @@
       "dateAdded": 1513676746,
       "priority": 374,
       "name": "Rumu",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/header.jpg?t=1719898076",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/723270/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_header.jpg"
     },
@@ -383304,7 +383689,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -383312,7 +383697,7 @@
       "dateAdded": 1601992285,
       "priority": 0,
       "name": "Overcrowd: A Commute 'Em Up",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/header.jpg?t=1772571372",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/library_600x900_2x.jpg"
     },
     {
@@ -383320,7 +383705,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -383329,7 +383714,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -383337,7 +383722,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -383548,7 +383933,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -383556,7 +383941,7 @@
       "dateAdded": 1773267527,
       "priority": 0,
       "name": "Crab Champions",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/header.jpg?t=1785701226",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774801/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/library_600x900_2x.jpg"
     },
     {
@@ -385388,7 +385773,7 @@
       "priority": 0,
       "name": "Ziggurat 2",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1159560/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159560/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159560/a56aaca294d04eb7609b6ca59d02a394a76d0ee8/library_capsule_2x.jpg"
     },
     {
       "appId": 1162750,
@@ -385458,7 +385843,7 @@
       "name": "Airport Contraband",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1167820/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167820/40b369bcc1d9b4b004f2dc7684eafffc0ea6cadd/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167820/7fc9b0390de72ea1f34eb6c4ab670f4899fdc5df/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167820/c285e8db0f582e02a94ce21cc49fdc8eec3509da/library_header_2x.jpg"
     },
     {
       "appId": 1169040,
@@ -389821,7 +390206,7 @@
       "dateAdded": 1775297622,
       "priority": 0,
       "name": "Minecraft Dungeons II",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1912410/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg?t=1791536987",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/47d3b04112a86b5ddebb28252d4fa8e51671bfea/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/library_header_2x.jpg"
     },
@@ -390046,7 +390431,7 @@
       "dateAdded": 1763868919,
       "priority": 0,
       "name": "The Lost Wild",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1952620/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/c4a4cc62ec8b70700df7aa8f981513f17d170a89/header.jpg?t=1781547914",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8da16862d10eb5da22bfc35afae53a6ec2dcad3a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8c3ea535d2641b8ca360f86432a701e7ae9ce821/library_header_2x.jpg"
     },
@@ -390375,7 +390760,7 @@
       "dateAdded": 1701258898,
       "priority": 0,
       "name": "Dragon's Dogma 2",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/header.jpg?t=1791504871",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2054970/library_header.jpg"
     },
@@ -391487,7 +391872,7 @@
       "dateAdded": 1783970049,
       "priority": 0,
       "name": "Silver Pines",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/2ce661be5b6e60b8fcc92ecdf3f9dc2dca2a9037/header.jpg?t=1791897978",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2333000/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/d3ec5903e61ed810ba94c7c1c75bfbefbb9de010/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/9702a1949814bac214d78349c84dc546b4e31bf3/library_header_2x.jpg"
     },
@@ -394687,7 +395072,7 @@
       "priority": 0,
       "name": "Hawthorn",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3078150/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3078150/c2dec5d22c67ee1e15b4af2ddfbe0121604624de/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3078150/803553c3832b33191f37d29460d845dba055c48d/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3078150/9de8f1f3dc199d6dcfee283ea7eef18b4e318a79/library_header_2x.jpg"
     },
     {
@@ -395594,7 +395979,7 @@
       "priority": 0,
       "name": "No Such Place",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3299050/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/5e8800f5fd2d10323767e247a9f2a3f1f6b87111/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/71b10a7d6498ac07f149a08c8a708b5a1c1c51e7/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3299050/1ca62da11a7fd1742b3741fcc0d492a47989432c/library_header_2x.jpg"
     },
     {
@@ -397060,7 +397445,7 @@
       "dateAdded": 1784149627,
       "priority": 0,
       "name": "Funnel Runners",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3712080/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/5e03554f7fd68edf54813a8d5a576a8791672227/header.jpg?t=1790869950",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/2f6605a67672cb800b84de1c003bedd79e477f67/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/5e03554f7fd68edf54813a8d5a576a8791672227/library_header_2x.jpg"
     },
@@ -397148,7 +397533,7 @@
       "dateAdded": 1777647591,
       "priority": 0,
       "name": "The Expanse: Osiris Reborn",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3727390/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/29369846b5ba94b2b1620eb8dd5aa8488f058d90/header.jpg?t=1781096582",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/ba136e222ced418df27a54e7c09b8f679fcb11ee/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/29369846b5ba94b2b1620eb8dd5aa8488f058d90/library_header_2x.jpg"
     },
@@ -397220,7 +397605,7 @@
       "dateAdded": 1772154572,
       "priority": 0,
       "name": "DEADLINE DELIVERY",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3745310/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/c934a42ef425d90f0dce26e9e95c4a628bec2933/header_alt_assets_0.jpg?t=1790105864",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/7c8ec50b14a50186dfa99ed6058b041f7d81e194/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/3ae14edf5d4cebbd1a5f9b563476201a24086bd2/library_header_2x.jpg"
     },
@@ -397292,7 +397677,7 @@
       "dateAdded": 1769697931,
       "priority": 0,
       "name": "Resident Evil Requiem",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg?t=1779840172",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ed3b2cae7d15f598f41006f5f1e605ec5517b5e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/500dac3fb6e509cf1fe1c97aec9b8ecb2aefcc32/library_header_2x.jpg"
     },
@@ -397310,7 +397695,7 @@
       "dateAdded": 1749148523,
       "priority": 0,
       "name": "007 First Light",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3768760/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg?t=1791886607",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/1159a696d257cbeb3f4479be3466cfba2ae938a0/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/dbe86ebd2edb4c77d113e9e2feefeb90189fabc9/library_header_2x.jpg"
     },
