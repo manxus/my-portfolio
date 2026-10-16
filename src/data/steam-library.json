@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-10-15T10:53:00.423Z",
+  "fetchedAt": "2026-10-16T10:39:42.272Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1792047280
+    "lastLogoff": 1792143636
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3496.1,
+      "playtimeHours": 3496.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 3004,
+      "playtimeHours": 3017.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -36770,7 +36770,7 @@
     {
       "appId": 892970,
       "name": "Valheim",
-      "playtimeHours": 159.7,
+      "playtimeHours": 160,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
       "genres": [],
@@ -42976,7 +42976,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/496d794f7c9586dc76874702f30e92af9ed36e3e/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/ffefaf6c014b2a59241fdbbd199d2feca64c167d/library_header_2x.jpg",
       "achievements": {
-        "total": 500,
+        "total": 600,
         "unlocked": 500,
         "items": [
           {
@@ -284454,6 +284454,132 @@
       }
     },
     {
+      "appId": 3724490,
+      "name": "Idle Gumball Machine",
+      "playtimeHours": 2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3724490/906ed7a79f3e4fb943cdc38fc7ca0d96900e7244.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724490/c92cd5d8b6fc5e89856e3e6f28690322c9f06c03/header.jpg?t=1787151754",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 26, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724490/6405a0aa5d8ebe74201feacab4f04e1eefb760cc/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724490/c92cd5d8b6fc5e89856e3e6f28690322c9f06c03/library_header_2x.jpg",
+      "achievements": {
+        "total": 10,
+        "unlocked": 10,
+        "items": [
+          {
+            "apiName": "ASCEND",
+            "name": "Ascend",
+            "description": "Ascend to a higher plane!",
+            "icon": "c6830f8f829615ffba86128464e24ab0ec7f0ad0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792100866,
+            "globalPct": 97.4
+          },
+          {
+            "apiName": "HORSE_KILLER",
+            "name": "Horse Killer",
+            "description": "Kill that STUPID horse!!!",
+            "icon": "973ee3eb51ca4a426c636fc4dbeb2f86d4d3580d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792145400,
+            "globalPct": 70.2
+          },
+          {
+            "apiName": "PIGGY_BANK",
+            "name": "Piggy Bank",
+            "description": "Have at least 1 MILLION gold!",
+            "icon": "5426cd74a671c22813e94acc41e79d0e652c32d4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792101716,
+            "globalPct": 91.8
+          },
+          {
+            "apiName": "GUM_MUNCHER_RANCHER",
+            "name": "Gum Muncher Rancher",
+            "description": "Feed the gum muncher.",
+            "icon": "2a52cebbcbd92afad1c7f5f0c4243cee40096b87",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792101482,
+            "globalPct": 82.7
+          },
+          {
+            "apiName": "GREEDY_DRAGON",
+            "name": "Greedy Dragon",
+            "description": "Have at least 1 BILLION gold!",
+            "icon": "7b3d716065d46b5dc417cfc696e0775de792438d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792103104,
+            "globalPct": 83.5
+          },
+          {
+            "apiName": "RICH_FAT_WIZARD",
+            "name": "Rich Fat Wizard",
+            "description": "Have at least 1 TRILLION gold!",
+            "icon": "a9bf1c9d38ddcbe2ec451569d4227eb6e0281e6f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792104986,
+            "globalPct": 77.4
+          },
+          {
+            "apiName": "PLAIN_OLD_RAT",
+            "name": "Plain Old Rat",
+            "description": "Have at least 1 QUADRILLION gold!",
+            "icon": "78590611609f734f248dab760ea668d6bdcd2374",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792143897,
+            "globalPct": 75.3
+          },
+          {
+            "apiName": "IM_GONNA_KILL_YOU",
+            "name": "I'M GONNA KILL YOU!!!",
+            "description": "Have at least a bajillion gold. Give it to me.",
+            "icon": "c9d31e9b0bd8fcefdbf5440111fa87ddfba0777f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792144414,
+            "globalPct": 72.5
+          },
+          {
+            "apiName": "I_DID_NOT_FART",
+            "name": "I did NOT fart!",
+            "description": "Just wanna let you know that I didn't fart just now.",
+            "icon": "3ddec5ef69902646288d8b8065057032ee01c1bb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792144413,
+            "globalPct": 73.2
+          },
+          {
+            "apiName": "AMONG_GUS",
+            "name": "Among Gus",
+            "description": "Have at least, like... 1 sextillion gold.",
+            "icon": "eb802676e3e0708e13c7643d5ee017fa1ed864b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792145059,
+            "globalPct": 71
+          }
+        ]
+      }
+    },
+    {
       "appId": 821250,
       "name": "Flotsam",
       "playtimeHours": 2,
@@ -285993,6 +286119,20 @@
           }
         ]
       }
+    },
+    {
+      "appId": 532110,
+      "name": "Rusty Lake: Roots",
+      "playtimeHours": 1.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/532110/2719eeb5d6bd45fcb1fda066a4e96b71e7b96056.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/532110/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532110/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": null
     },
     {
       "appId": 916900,
@@ -297602,185 +297742,6 @@
       }
     },
     {
-      "appId": 532110,
-      "name": "Rusty Lake: Roots",
-      "playtimeHours": 1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/532110/2719eeb5d6bd45fcb1fda066a4e96b71e7b96056.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/532110/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532110/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 16,
-        "unlocked": 5,
-        "items": [
-          {
-            "apiName": "tree",
-            "name": "Plant a Tree",
-            "description": "The Vanderboom family tree",
-            "icon": "704f573dbc8b540779c4a5c1f1067f1424d1099f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792016065,
-            "globalPct": 86.9
-          },
-          {
-            "apiName": "nipple",
-            "name": "The Nipple",
-            "description": "Nipplegate",
-            "icon": "1d557ced2e595be354c3fca25b764e7216220bf6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792016324,
-            "globalPct": 84.9
-          },
-          {
-            "apiName": "triplets",
-            "name": "Triplets",
-            "description": "Difficult delivery",
-            "icon": "db80febb63e3fac07435cfbe6012732085a52fa4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792017362,
-            "globalPct": 82.1
-          },
-          {
-            "apiName": "elixir",
-            "name": "The Elixir",
-            "description": "The elixir of life and death",
-            "icon": "b95a781f104ac661328ccf239282c67eef5bce47",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792017119,
-            "globalPct": 79.2
-          },
-          {
-            "apiName": "mask",
-            "name": "The Moon Mask",
-            "description": "To the Moon and Back",
-            "icon": "4f4caa4a8924efa305f4508533e6613ccaf52181",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792019561,
-            "globalPct": 74.4
-          },
-          {
-            "apiName": "eye",
-            "name": "The Eye",
-            "description": "An eye for an eye",
-            "icon": "7f4397f8dfd54ee2d2c5dd549799865730f00810",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 69.8
-          },
-          {
-            "apiName": "piss",
-            "name": "The Cup",
-            "description": "A refreshing drink",
-            "icon": "11f31bfdbfe3e548c64c7ea0d1ededca02bf853e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 66
-          },
-          {
-            "apiName": "dale",
-            "name": "The Date",
-            "description": "The day he was born",
-            "icon": "8d137f39edf619922ebc03ba9e2a00e4988f99a8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17.4
-          },
-          {
-            "apiName": "rebirth",
-            "name": "Rebirth",
-            "description": "The circle of life",
-            "icon": "94bc0d300377ca3239796d4c2086b6a26e098dae",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 62.2
-          },
-          {
-            "apiName": "dress",
-            "name": "The Dress",
-            "description": "A familiar dress",
-            "icon": "9e72b1d8c0aaee6b186cf3af664596ff6c33eb27",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 64.5
-          },
-          {
-            "apiName": "medals",
-            "name": "The Last Emblem",
-            "description": "Back to your roots",
-            "icon": "e0bf75c9112985280f66038c6a2ca2a13af4009e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 28.5
-          },
-          {
-            "apiName": "daughter",
-            "name": "Laura",
-            "description": "She will return to the lake",
-            "icon": "75ec053e2388c08937c3dff0ba002e7a6498a6db",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17
-          },
-          {
-            "apiName": "black_cube",
-            "name": "Black Cube",
-            "description": "Dark memories",
-            "icon": "34262af99085e4c23e4e222db51ce72e45c20195",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 16.9
-          },
-          {
-            "apiName": "white_cube",
-            "name": "White Cube",
-            "description": "Light memories",
-            "icon": "6f8a7a3428810981685ffa10b0cb2332a22a42d5",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17
-          },
-          {
-            "apiName": "cocktail",
-            "name": "Rusty Lake Cocktail",
-            "description": "You look like you can use a drink",
-            "icon": "44c3f64fa3101030ced5c30f84cdce4e76031712",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 16.7
-          },
-          {
-            "apiName": "crow",
-            "name": "The Crow",
-            "description": "The crow and his brother",
-            "icon": "3ceb98973d882161a2fc029456ca00b88cd25d32",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27.2
-          }
-        ]
-      }
-    },
-    {
       "appId": 1138850,
       "name": "Heavenly Bodies",
       "playtimeHours": 1,
@@ -300847,7 +300808,7 @@
     },
     {
       "appId": 837380,
-      "name": "DeoVR Video Player",
+      "name": "DeoVR Classic - VR Video Player",
       "playtimeHours": 0.7,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/837380/456f7c71e3b8f47f286f7957ac44e93aa7bc7b92.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/837380/header.jpg",
@@ -381687,30 +381648,6 @@
       }
     },
     {
-      "appId": 3724490,
-      "name": "Idle Gumball Machine",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3724490/906ed7a79f3e4fb943cdc38fc7ca0d96900e7244.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724490/c92cd5d8b6fc5e89856e3e6f28690322c9f06c03/header.jpg?t=1787151754",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 26, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724490/6405a0aa5d8ebe74201feacab4f04e1eefb760cc/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724490/c92cd5d8b6fc5e89856e3e6f28690322c9f06c03/library_header_2x.jpg",
-      "achievements": {
-        "total": 10,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 3743090,
       "name": "Deadly Delivery",
       "playtimeHours": 0,
@@ -382126,7 +382063,9 @@
       "dateAdded": 1630423711,
       "priority": 0,
       "name": "Rayman® Legends",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242550/header.jpg?t=1782234498"
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242550/baa48d04ecc914d5f193550c640c8450ddf67065/header.jpg?t=1792072424",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242550/0782d002fa65af183a2fda2fc5f963059b33eaea/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242550/baa48d04ecc914d5f193550c640c8450ddf67065/library_header_2x.jpg"
     },
     {
       "appId": 243360,
@@ -382586,7 +382525,7 @@
       "dateAdded": 1705368455,
       "priority": 0,
       "name": "Abiotic Factor",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/afe0e6c04aaa67d511a7fffe630aa8a54788c3b3/header.jpg?t=1788195774",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/afe0e6c04aaa67d511a7fffe630aa8a54788c3b3/header.jpg?t=1792108092",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/4efcc96baf16f041355da7ece929f2f79f9f50b9/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/afe0e6c04aaa67d511a7fffe630aa8a54788c3b3/library_header_2x.jpg"
     },
@@ -382926,9 +382865,9 @@
       "dateAdded": 1561246282,
       "priority": 238,
       "name": "ATOM RPG: Post-apocalyptic indie game",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/header.jpg?t=1769382047",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/library_header.jpg"
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/6f888773cf2a3438eba394f466248da94a436591/header.jpg?t=1792145139",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/c64de8945b4245c6a551104a07a9c4b3e7b1ab21/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/6f888773cf2a3438eba394f466248da94a436591/library_header_2x.jpg"
     },
     {
       "appId": 554620,
@@ -383334,7 +383273,7 @@
       "dateAdded": 1555280406,
       "priority": 306,
       "name": "Cooking Simulator",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/8e52427e8dfcfcd7f407fe1a82b19b2f46cd7ff7/header.jpg?t=1791879503",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/8e52427e8dfcfcd7f407fe1a82b19b2f46cd7ff7/header.jpg?t=1792138882",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/e875a24db15cd4d7d989eb22fff3378e88b284ee/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641320/5314c9c7df487fdd862b4bb62f3d682718fe7de3/library_header_2x.jpg"
     },
@@ -383680,7 +383619,7 @@
       "dateAdded": 1513676746,
       "priority": 374,
       "name": "Rumu",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/723270/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/header.jpg?t=1719898076",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_header.jpg"
     },
@@ -383689,7 +383628,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -383925,7 +383864,7 @@
       "dateAdded": 1539807012,
       "priority": 412,
       "name": "The Jackbox Party Pack 5",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774461/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774461/header.jpg?t=1728584545",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774461/library_600x900_2x.jpg"
     },
     {
@@ -383933,7 +383872,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -387062,7 +387001,8 @@
       "priority": 0,
       "name": "Bravers",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1349460/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1349460/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1349460/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1349460/c00ca8598b00e036a1a37ee042297a7b0f967964/library_header_2x.jpg"
     },
     {
       "appId": 1351280,
@@ -390206,7 +390146,7 @@
       "dateAdded": 1775297622,
       "priority": 0,
       "name": "Minecraft Dungeons II",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg?t=1791536987",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1912410/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/47d3b04112a86b5ddebb28252d4fa8e51671bfea/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/library_header_2x.jpg"
     },
@@ -390431,7 +390371,7 @@
       "dateAdded": 1763868919,
       "priority": 0,
       "name": "The Lost Wild",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/c4a4cc62ec8b70700df7aa8f981513f17d170a89/header.jpg?t=1781547914",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1952620/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8da16862d10eb5da22bfc35afae53a6ec2dcad3a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1952620/8c3ea535d2641b8ca360f86432a701e7ae9ce821/library_header_2x.jpg"
     },
@@ -396367,7 +396307,7 @@
       "name": "Quarantine Zone: The Last Check",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3419520/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/304549a90f9aa611c709e478854a21d5d41dc820/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/c8562f1c2f8f054e5f8efeb536a0ba2490905033/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/1d0c52c18371778eea17294941c606d465328b2e/library_header_2x.jpg"
     },
     {
       "appId": 3419910,
@@ -397445,7 +397385,7 @@
       "dateAdded": 1784149627,
       "priority": 0,
       "name": "Funnel Runners",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/5e03554f7fd68edf54813a8d5a576a8791672227/header.jpg?t=1790869950",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3712080/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/2f6605a67672cb800b84de1c003bedd79e477f67/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3712080/5e03554f7fd68edf54813a8d5a576a8791672227/library_header_2x.jpg"
     },
@@ -397533,7 +397473,7 @@
       "dateAdded": 1777647591,
       "priority": 0,
       "name": "The Expanse: Osiris Reborn",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/29369846b5ba94b2b1620eb8dd5aa8488f058d90/header.jpg?t=1781096582",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3727390/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/ba136e222ced418df27a54e7c09b8f679fcb11ee/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/29369846b5ba94b2b1620eb8dd5aa8488f058d90/library_header_2x.jpg"
     },
@@ -397605,7 +397545,7 @@
       "dateAdded": 1772154572,
       "priority": 0,
       "name": "DEADLINE DELIVERY",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/c934a42ef425d90f0dce26e9e95c4a628bec2933/header_alt_assets_0.jpg?t=1790105864",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3745310/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/7c8ec50b14a50186dfa99ed6058b041f7d81e194/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/3ae14edf5d4cebbd1a5f9b563476201a24086bd2/library_header_2x.jpg"
     },
@@ -397677,7 +397617,7 @@
       "dateAdded": 1769697931,
       "priority": 0,
       "name": "Resident Evil Requiem",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg?t=1779840172",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ed3b2cae7d15f598f41006f5f1e605ec5517b5e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/500dac3fb6e509cf1fe1c97aec9b8ecb2aefcc32/library_header_2x.jpg"
     },
@@ -397695,7 +397635,7 @@
       "dateAdded": 1749148523,
       "priority": 0,
       "name": "007 First Light",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg?t=1791886607",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3768760/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/1159a696d257cbeb3f4479be3466cfba2ae938a0/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/dbe86ebd2edb4c77d113e9e2feefeb90189fabc9/library_header_2x.jpg"
     },

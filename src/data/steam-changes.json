@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-10-15T10:53:00.443Z",
+  "generatedAt": "2026-10-16T10:39:42.298Z",
   "events": [
+    {
+      "appId": 2218750,
+      "name": "Halls of Torment",
+      "added": 100,
+      "total": 600,
+      "date": "2026-10-16"
+    },
     {
       "appId": 227300,
       "name": "Euro Truck Simulator 2",
