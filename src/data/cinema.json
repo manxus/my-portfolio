@@ -17037,7 +17037,7 @@
       "featured": false,
       "year": "1989",
       "seasons": 38,
-      "episodes": 807,
+      "episodes": 808,
       "episodesSeen": 0,
       "runtime": 21,
       "genres": [
@@ -17088,7 +17088,7 @@
         18,
         18,
         15,
-        6
+        7
       ],
       "watchedEpisodes": {},
       "tmdbRating": 8,
@@ -21182,7 +21182,7 @@
       "year": "2003",
       "seasons": 5,
       "episodes": 84,
-      "episodesSeen": "",
+      "episodesSeen": 0,
       "runtime": 48,
       "tmdbRating": 7.9,
       "genres": [
@@ -21201,7 +21201,8 @@
         15,
         16
       ],
-      "id": 665
+      "id": 665,
+      "watchedEpisodes": {}
     },
     {
       "title": "Fawlty Towers",
@@ -21212,7 +21213,7 @@
       "year": "1975",
       "seasons": 2,
       "episodes": 12,
-      "episodesSeen": "",
+      "episodesSeen": 0,
       "runtime": 30,
       "tmdbRating": 8.3,
       "genres": [
@@ -21228,7 +21229,8 @@
         6,
         6
       ],
-      "id": 666
+      "id": 666,
+      "watchedEpisodes": {}
     },
     {
       "title": "Fleabag",
@@ -21239,7 +21241,7 @@
       "year": "2016",
       "seasons": 2,
       "episodes": 12,
-      "episodesSeen": "",
+      "episodesSeen": 0,
       "runtime": 27,
       "tmdbRating": 8.3,
       "genres": [
@@ -21256,7 +21258,8 @@
         6,
         6
       ],
-      "id": 667
+      "id": 667,
+      "watchedEpisodes": {}
     }
   ]
 }
