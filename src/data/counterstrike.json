@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T16:23:55.982Z",
+  "fetchedAt": "2026-10-19T14:15:36.927Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
@@ -8,19 +8,19 @@
     "capsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/library_600x900_2x.jpg"
   },
   "summary": {
-    "kills": 170842,
-    "deaths": 123273,
+    "kills": 170900,
+    "deaths": 123294,
     "killDeath": 1.386,
-    "secondsPlayed": 8044455,
-    "hoursPlayed": 2234.6,
-    "libraryHours": 3496.1,
+    "secondsPlayed": 8045924,
+    "hoursPlayed": 2235,
+    "libraryHours": 3496.9,
     "accuracy": 21.8,
     "headshotPct": 44.5,
     "roundWinPct": 51.9,
-    "matchWinPct": 39.6,
-    "roundsPlayed": 101835,
-    "matchesPlayed": 6080,
-    "mvps": 17377,
+    "matchWinPct": 39.7,
+    "roundsPlayed": 101876,
+    "matchesPlayed": 6083,
+    "mvps": 17394,
     "adr": 233,
     "killsPerRound": 1.68
   },
@@ -28,52 +28,52 @@
     {
       "key": "total_kills",
       "label": "Kills",
-      "value": 170842
+      "value": 170900
     },
     {
       "key": "total_deaths",
       "label": "Deaths",
-      "value": 123273
+      "value": 123294
     },
     {
       "key": "total_kills_headshot",
       "label": "Headshot kills",
-      "value": 75951
+      "value": 75990
     },
     {
       "key": "total_rounds_played",
       "label": "Rounds played",
-      "value": 101835
+      "value": 101876
     },
     {
       "key": "total_wins",
       "label": "Rounds won",
-      "value": 52878
+      "value": 52903
     },
     {
       "key": "total_matches_played",
       "label": "Matches played",
-      "value": 6080
+      "value": 6083
     },
     {
       "key": "total_matches_won",
       "label": "Matches won",
-      "value": 2410
+      "value": 2412
     },
     {
       "key": "total_mvps",
       "label": "MVPs",
-      "value": 17377
+      "value": 17394
     },
     {
       "key": "total_damage_done",
       "label": "Damage dealt",
-      "value": 23726907
+      "value": 23734915
     },
     {
       "key": "total_shots_fired",
       "label": "Shots fired",
-      "value": 2243620
+      "value": 2244159
     },
     {
       "key": "total_shots_hit",
@@ -83,12 +83,12 @@
     {
       "key": "total_money_earned",
       "label": "Money earned",
-      "value": 292394470
+      "value": 292515920
     },
     {
       "key": "total_contribution_score",
       "label": "Contribution score",
-      "value": 696481
+      "value": 696570
     },
     {
       "key": "total_kills_knife",
@@ -129,11 +129,11 @@
       "slug": "ak47",
       "name": "AK-47",
       "category": "Rifles",
-      "kills": 60770,
-      "shots": 826424,
-      "hits": 184051,
+      "kills": 60806,
+      "shots": 826704,
+      "hits": 184130,
       "accuracy": 22.3,
-      "killsPerShot": 7.35,
+      "killsPerShot": 7.36,
       "iconUrl": "/counterstrike/weapons/ak47.png",
       "barPct": 100
     },
@@ -141,9 +141,9 @@
       "slug": "awp",
       "name": "AWP",
       "category": "Rifles",
-      "kills": 21796,
-      "shots": 60424,
-      "hits": 24146,
+      "kills": 21801,
+      "shots": 60441,
+      "hits": 24151,
       "accuracy": 40,
       "killsPerShot": 36.07,
       "iconUrl": "/counterstrike/weapons/awp.png",
@@ -153,9 +153,9 @@
       "slug": "m4a1",
       "name": "M4A4",
       "category": "Rifles",
-      "kills": 16057,
-      "shots": 252423,
-      "hits": 61650,
+      "kills": 16059,
+      "shots": 252449,
+      "hits": 61659,
       "accuracy": 24.4,
       "killsPerShot": 6.36,
       "iconUrl": "/counterstrike/weapons/m4a1.png",
@@ -165,9 +165,9 @@
       "slug": "deagle",
       "name": "Desert Eagle",
       "category": "Pistols",
-      "kills": 15000,
-      "shots": 102391,
-      "hits": 30920,
+      "kills": 15006,
+      "shots": 102411,
+      "hits": 30928,
       "accuracy": 30.2,
       "killsPerShot": 14.65,
       "iconUrl": "/counterstrike/weapons/deagle.png",
@@ -177,9 +177,9 @@
       "slug": "hkp2000",
       "name": "P2000",
       "category": "Pistols",
-      "kills": 6266,
-      "shots": 82550,
-      "hits": 19354,
+      "kills": 6268,
+      "shots": 82597,
+      "hits": 19360,
       "accuracy": 23.4,
       "killsPerShot": 7.59,
       "iconUrl": "/counterstrike/weapons/hkp2000.png",
@@ -201,9 +201,9 @@
       "slug": "glock",
       "name": "Glock-18",
       "category": "Pistols",
-      "kills": 4467,
-      "shots": 87072,
-      "hits": 17996,
+      "kills": 4468,
+      "shots": 87094,
+      "hits": 18004,
       "accuracy": 20.7,
       "killsPerShot": 5.13,
       "iconUrl": "/counterstrike/weapons/glock.png",
@@ -333,9 +333,9 @@
       "slug": "mag7",
       "name": "MAG-7",
       "category": "Heavy",
-      "kills": 1532,
-      "shots": 38291,
-      "hits": 9919,
+      "kills": 1536,
+      "shots": 38386,
+      "hits": 9946,
       "accuracy": 25.9,
       "killsPerShot": 4,
       "iconUrl": "/counterstrike/weapons/mag7.png",
@@ -381,9 +381,9 @@
       "slug": "nova",
       "name": "Nova",
       "category": "Heavy",
-      "kills": 800,
-      "shots": 25472,
-      "hits": 6136,
+      "kills": 802,
+      "shots": 25504,
+      "hits": 6151,
       "accuracy": 24.1,
       "killsPerShot": 3.14,
       "iconUrl": "/counterstrike/weapons/nova.png",
@@ -479,8 +479,8 @@
       "slug": "de_inferno",
       "name": "Inferno",
       "mode": "Defusal",
-      "rounds": 29981,
-      "wins": 15355,
+      "rounds": 30007,
+      "wins": 15371,
       "winPct": 51.2,
       "iconUrl": "/counterstrike/maps/de_inferno.png",
       "barPct": 100
@@ -687,16 +687,16 @@
     }
   ],
   "mapCoverage": {
-    "trackedRounds": 62988,
-    "totalRounds": 101835,
-    "untrackedRounds": 38847,
+    "trackedRounds": 63014,
+    "totalRounds": 101876,
+    "untrackedRounds": 38862,
     "coveragePct": 61.9
   },
   "objectives": [
     {
       "key": "total_planted_bombs",
       "label": "Bombs planted",
-      "value": 2178
+      "value": 2184
     },
     {
       "key": "total_defused_bombs",
@@ -711,12 +711,12 @@
     {
       "key": "total_wins_pistolround",
       "label": "Pistol rounds won",
-      "value": 3989
+      "value": 3990
     },
     {
       "key": "total_kills_enemy_weapon",
       "label": "Kills with enemy weapons",
-      "value": 15297
+      "value": 15301
     },
     {
       "key": "total_kills_against_zoomed_sniper",
@@ -726,7 +726,7 @@
     {
       "key": "total_kills_enemy_blinded",
       "label": "Kills on blinded enemies",
-      "value": 4001
+      "value": 4006
     },
     {
       "key": "total_kills_knife_fight",
