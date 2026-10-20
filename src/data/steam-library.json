@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-19T12:00:19.051Z",
+  "fetchedAt": "2026-10-20T10:59:25.672Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1792401742
+    "lastLogoff": 1792485904
   },
   "games": [
     {
@@ -36770,7 +36770,7 @@
     {
       "appId": 892970,
       "name": "Valheim",
-      "playtimeHours": 160,
+      "playtimeHours": 160.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
       "genres": [],
@@ -200643,6 +200643,411 @@
       }
     },
     {
+      "appId": 3948120,
+      "name": "Scritchy Scratchy",
+      "playtimeHours": 9.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3948120/dbc0f0af8d59826ff370f613098192e11609e8f4.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/dc726b9c35076bb0bfbf63a664bbf61638cbc2ab/header_alt_assets_0.jpg?t=1790587008",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 18, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/fe38fe4f526a20452aa89a5fd3521b3747b33d66/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/35a6602e1f83035f9e14b975902ff22fd4163cdb/library_header_2x.jpg",
+      "achievements": {
+        "total": 38,
+        "unlocked": 27,
+        "items": [
+          {
+            "apiName": "Take Loan",
+            "name": "Don't read the fine print",
+            "description": "Take a loan",
+            "icon": "e283f066b2cf80b4ca1fb2528bf2206100211a82",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792459301,
+            "globalPct": 81.9
+          },
+          {
+            "apiName": "Super Jackpot",
+            "name": "What are the odds?",
+            "description": "Win a super jackpot",
+            "icon": "b820868773ab0a19fe2d02c7e3effe01e55ba0b2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792439618,
+            "globalPct": 88.8
+          },
+          {
+            "apiName": "Broken Plates",
+            "name": "Bad luck",
+            "description": "Crack 2 plates in a row",
+            "icon": "bf60bf954b2a980f59f2ccdfd0217005efe9f6d7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792490051,
+            "globalPct": 54.3
+          },
+          {
+            "apiName": "Jackpot on First Ticket",
+            "name": "Good luck",
+            "description": "Get a jackpot on the first ticket you scratch",
+            "icon": "ef0440d1856c6993db9de38aa3d1a1bd9a9cfc9d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460762,
+            "globalPct": 38.4
+          },
+          {
+            "apiName": "Trash Jackpot",
+            "name": "Why?",
+            "description": "Trash a Jackpot ticket",
+            "icon": "4f841c91708deba8052b36e67c6dd463843e51e9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792436320,
+            "globalPct": 73.4
+          },
+          {
+            "apiName": "Speedrun",
+            "name": "Speedrun",
+            "description": "Reach the ending in 30 min or less after prestige",
+            "icon": "dba1a34255eb1311f0e1e6b07f6db40c40d40fcb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 22.4
+          },
+          {
+            "apiName": "Death_1",
+            "name": "Gambling never pays off",
+            "description": "Die",
+            "icon": "cb29133f7af284c0c3b7df4cd24fe534d3bffd97",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792434728,
+            "globalPct": 95.5
+          },
+          {
+            "apiName": "Death_2",
+            "name": "A loosing bet",
+            "description": "Die twice",
+            "icon": "07f83ed420727cd1437dce375cc78907a7e2ec84",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792442029,
+            "globalPct": 79.6
+          },
+          {
+            "apiName": "Death_3",
+            "name": "Go for broke",
+            "description": "Die three times",
+            "icon": "78367d2d54aede20cae323dffae8b336a140391a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792454953,
+            "globalPct": 68.8
+          },
+          {
+            "apiName": "Death_4",
+            "name": "House always wins",
+            "description": "Die four times",
+            "icon": "4339ff27919cf9f5b83d72c6bb8a737fa765888b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460462,
+            "globalPct": 61.2
+          },
+          {
+            "apiName": "Scratch Final Chance Without Dying",
+            "name": "Win everything?",
+            "description": "Scratch final chance without dying",
+            "icon": "47edff7f20e6987dbb376c2c37a90d844aa14d46",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792462633,
+            "globalPct": 54.2
+          },
+          {
+            "apiName": "Bad kitty",
+            "name": "Bad kitty",
+            "description": "Have mundo bankrupt you",
+            "icon": "2e5a5f0a4191c3c396356f78ca13671e0a9893c7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792438805,
+            "globalPct": 69.4
+          },
+          {
+            "apiName": "Lucky cat",
+            "name": "Lucky cat",
+            "description": "Have mundo scratch a super jackpot",
+            "icon": "498f910a613ba50259ae70033ca51884ebfe2292",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792441909,
+            "globalPct": 82.7
+          },
+          {
+            "apiName": "Win your job",
+            "name": "Win your job",
+            "description": "Win a jackpot on Day Job",
+            "icon": "9210c9b184cbf71bb8b2177efe3e528bd594fbcc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460624,
+            "globalPct": 50.2
+          },
+          {
+            "apiName": "One of each please",
+            "name": "One of each please",
+            "description": "Have all different tickets from all 4 catalogues on the table at once",
+            "icon": "38dc7c21c9618b65406ce49ecd9ee2b916dd535f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792491594,
+            "globalPct": 36.3
+          },
+          {
+            "apiName": "Winning streak",
+            "name": "Winning streak",
+            "description": "Win a jackpot on all tickets from all 4 catalogues",
+            "icon": "84d73aaccc3378f74330acbb5f9d74d5e7b1bd1c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792462456,
+            "globalPct": 39.8
+          },
+          {
+            "apiName": "Skip a catalogue",
+            "name": "Skip a catalogue",
+            "description": "Scratch final chance with a catalogue still on the table",
+            "icon": "d83cad76f84c741ae9a23363f229b28a0716724d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "Spend all the worlds money",
+            "name": "Spend all the worlds money",
+            "description": "Buy something more expensive than the global economy",
+            "icon": "88489b310310a950cc54bda8e577c790c555eff3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792446158,
+            "globalPct": 72.1
+          },
+          {
+            "apiName": "Nap time",
+            "name": "Nap time",
+            "description": "Make 1Sx while idle for at least 5 min",
+            "icon": "fac1d1ebabf5b4f20206915ca6b218fc69d9da0c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 42.9
+          },
+          {
+            "apiName": "Lucky ticket",
+            "name": "Lucky ticket",
+            "description": "Win a prize that is 1000 times larger than the ticket cost",
+            "icon": "5820981da7b07114b06e5e36093b42d0782424ea",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792443564,
+            "globalPct": 86.2
+          },
+          {
+            "apiName": "Big win",
+            "name": "Big win",
+            "description": "Win a prize that is 10.000 times larger than the ticket cost",
+            "icon": "fb2d31d80b81e6b5000de17763b1e3ab67242d37",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792461369,
+            "globalPct": 56.8
+          },
+          {
+            "apiName": "High level gambling",
+            "name": "High level gambling",
+            "description": "Win a prize that is 100.000 times larger than the ticket cost",
+            "icon": "8f63eadd4d18ded49ce4b221d606cdb746c9108e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792489742,
+            "globalPct": 42.9
+          },
+          {
+            "apiName": "Clicker minigame",
+            "name": "Clicker minigame",
+            "description": "Have a stack of 100 or more scratched tickets in Scratch Bot",
+            "icon": "9db475f07f03b6a7fff6985134c14bdab2998314",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792455024,
+            "globalPct": 71.5
+          },
+          {
+            "apiName": "Idle game",
+            "name": "Idle game",
+            "description": "Start with all automation gadgets unlocked",
+            "icon": "874d3760abe5e4545a3fad12b056d14926ba44a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460564,
+            "globalPct": 52.8
+          },
+          {
+            "apiName": "Max out skill tree",
+            "name": "Max out skill tree",
+            "description": "Buy all prestige upgrades",
+            "icon": "588a17c14cf84e412389c4282227442dd59a3ad3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.3
+          },
+          {
+            "apiName": "Visit the Night Market",
+            "name": "Visit the Night Market",
+            "description": "Buy and equip a cosmetic",
+            "icon": "0e52a6ec7719cb38461f2fa43eafda0646d71038",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792437107,
+            "globalPct": 70.1
+          },
+          {
+            "apiName": "Walk-in-closet",
+            "name": "Walk-in-closet",
+            "description": "Buy all cosmetics",
+            "icon": "b63a1c86d3ae6e8ed31135ade630a38f2ed5ee60",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 29.2
+          },
+          {
+            "apiName": "Honest work",
+            "name": "Honest work",
+            "description": "Have $2000 without buying a scratch-off",
+            "icon": "848f1713a6353eb63208cec8b62a87def432e8d8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460653,
+            "globalPct": 42.3
+          },
+          {
+            "apiName": "Workaholic",
+            "name": "Workaholic",
+            "description": "Have $20M without buying a scratch-off",
+            "icon": "44cb54a010a902d99998f86dfe912eb707c75a3e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792493434,
+            "globalPct": 26
+          },
+          {
+            "apiName": "Soul Siphon",
+            "name": "Soul Siphon",
+            "description": "Create an artificial soul",
+            "icon": "7fb602c44709ae69b6b89c8ced61b51992b7cb6f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460776,
+            "globalPct": 58.1
+          },
+          {
+            "apiName": "Wizard",
+            "name": "Wizard",
+            "description": "Use magic to scratch a ticket",
+            "icon": "6b68707924471e773bd0651f9692666d4d0d4dfb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792446268,
+            "globalPct": 71.2
+          },
+          {
+            "apiName": "Time machine",
+            "name": "Time machine",
+            "description": "Upgrade Egg Timer to x5 speed",
+            "icon": "a2f1a703f01df74828c1358b84791c8f180ecbb0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460366,
+            "globalPct": 55
+          },
+          {
+            "apiName": "Faithful Servant",
+            "name": "Faithful Servant",
+            "description": "Give the winning Final Chance to the corporation",
+            "icon": "b602c8c15a718df4ac808bf9964f43a69ec9f443",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.2
+          },
+          {
+            "apiName": "Achievement Hunter",
+            "name": "Achievement Hunter",
+            "description": "Get all achievements in the game",
+            "icon": "0460dda56d7fbdaf7f46016475b42ffa9f8d2331",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.7
+          },
+          {
+            "apiName": "Challenge_1",
+            "name": "Challenge Apprentice",
+            "description": "Complete 1 challenge",
+            "icon": "2f7aed0d6677703d1d867e69c3d20fecab481f87",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.2
+          },
+          {
+            "apiName": "Challenge_5",
+            "name": "Challenge Novice",
+            "description": "Complete 5 challenges",
+            "icon": "dcd77b56ec1e923033b7a9163bf0cf993602f660",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.3
+          },
+          {
+            "apiName": "Challenge_All",
+            "name": "Challenge Master",
+            "description": "Complete all challenges",
+            "icon": "0e1b472a3c1700793dd09bfe6698cf3bdf3cce04",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "Beach Ending",
+            "name": "No more gambling",
+            "description": "Find and scratch the Scritchy Scratchy Headquarters",
+            "icon": "498a4189376eea7190e9651f03d9d875429361ee",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.1
+          }
+        ]
+      }
+    },
+    {
       "appId": 914710,
       "name": "Cat Quest II",
       "playtimeHours": 9.5,
@@ -207758,6 +208163,643 @@
             "unlocked": true,
             "unlockTime": 1752150950,
             "globalPct": 14.1
+          }
+        ]
+      }
+    },
+    {
+      "appId": 3370870,
+      "name": "Berry Bury Berry",
+      "playtimeHours": 8.3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3370870/578bfdf5c64cea1def75d6d6451e3d88abfd6a4a.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370870/4622468af31c1bbd2d87e53a1971719d1cead354/header.jpg?t=1790698296",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Jan 29, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370870/9da8adc34c33058264aceaa01b9d5aad02a9aaeb/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370870/4622468af31c1bbd2d87e53a1971719d1cead354/library_header_2x.jpg",
+      "achievements": {
+        "total": 61,
+        "unlocked": 61,
+        "items": [
+          {
+            "apiName": "ACH_Days1",
+            "name": "Night Night!",
+            "description": "Complete your first day, Sprout!",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792333681,
+            "globalPct": 99.4
+          },
+          {
+            "apiName": "ACH_Days10",
+            "name": "Keep at it!",
+            "description": "Complete 10 Days, Great Job!",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792334337,
+            "globalPct": 95.8
+          },
+          {
+            "apiName": "ACH_Days100",
+            "name": "Green Thumb",
+            "description": "Complete 100 Days, You're good at this!",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792402802,
+            "globalPct": 71.8
+          },
+          {
+            "apiName": "ACH_DropAMillion",
+            "name": "Money Pit",
+            "description": "Drop $1,000,000 in the Hole. Womp Womp.",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792408887,
+            "globalPct": 52.1
+          },
+          {
+            "apiName": "ACH_ForgotAboutAutoPickUp",
+            "name": "Creature of Habit",
+            "description": "Pickup 5 coins by hand after purchasing the Auto-Coin Pickup Upgrade",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792365849,
+            "globalPct": 81.8
+          },
+          {
+            "apiName": "ACH_Ending_Key",
+            "name": "Oink Oink!",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792408569,
+            "globalPct": 60.5
+          },
+          {
+            "apiName": "ACH_Ending_True",
+            "name": "Groovy",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792412724,
+            "globalPct": 43
+          },
+          {
+            "apiName": "ACH_Ending_Belladonna",
+            "name": "Atropos",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792408742,
+            "globalPct": 43.8
+          },
+          {
+            "apiName": "ACH_Ending_Gnome",
+            "name": "Goosebumps #34",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792411579,
+            "globalPct": 46.1
+          },
+          {
+            "apiName": "ACH_100Percent",
+            "name": "I Make The Rules Here!",
+            "description": "Unlock all endings, upgrades, cassettes, max hole size, and clear the entire map",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792416170,
+            "globalPct": 26.5
+          },
+          {
+            "apiName": "ACH_AllUpgrades",
+            "name": "Starry Sky",
+            "description": "Unlock all upgrades",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792416170,
+            "globalPct": 32.6
+          },
+          {
+            "apiName": "ACH_Gain9Dollars",
+            "name": "Off to a good start!",
+            "description": "Earn $9 on the first day",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792418398,
+            "globalPct": 37.6
+          },
+          {
+            "apiName": "ACH_OpenStarDoorWithoutBreakingWalls",
+            "name": "Worm",
+            "description": "Open the StarDoor with all Walls intact",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792413211,
+            "globalPct": 24.8
+          },
+          {
+            "apiName": "ACH_MaxHoleSize",
+            "name": "Big Mouth",
+            "description": "Achieve maximum Hole size",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792409315,
+            "globalPct": 54.9
+          },
+          {
+            "apiName": "ACH_Cassettes1",
+            "name": "...How do you start one of these?",
+            "description": "Find your first Cassette Tape",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792335096,
+            "globalPct": 85.2
+          },
+          {
+            "apiName": "ACH_Cassettes_All",
+            "name": "Truth",
+            "description": "Find All Cassette Tapes",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792412397,
+            "globalPct": 38.2
+          },
+          {
+            "apiName": "ACH_GrowBerries_100",
+            "name": "BERRY",
+            "description": "Grow 100 Berries",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792334005,
+            "globalPct": 97.3
+          },
+          {
+            "apiName": "ACH_GrowBerries_Thousand",
+            "name": "BERRY BERRY BERRY",
+            "description": "Grow 1,000 Berries",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792336355,
+            "globalPct": 86.2
+          },
+          {
+            "apiName": "ACH_GrowBerries_HundoThousand",
+            "name": "BERRY BERRY BERRY BERRY BERRY BERRY BERRY",
+            "description": "Grow 66,666 Berries",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792412751,
+            "globalPct": 36.7
+          },
+          {
+            "apiName": "ACH_BreakWalls_1",
+            "name": "Rule Breaker",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792334711,
+            "globalPct": 91.8
+          },
+          {
+            "apiName": "ACH_BreakWalls_100",
+            "name": "Renovator",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792365916,
+            "globalPct": 73.9
+          },
+          {
+            "apiName": "ACH_Gnomes_One",
+            "name": "Trust Gnome one",
+            "description": "Consume a Gnome",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792334465,
+            "globalPct": 89.5
+          },
+          {
+            "apiName": "ACH_Gnomes_Ten",
+            "name": "A little Gnome fact",
+            "description": "Consume 10 Gnomes",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792335772,
+            "globalPct": 82.8
+          },
+          {
+            "apiName": "ACH_Gnomes_Hundred",
+            "name": "Eaten out of house and Gnome",
+            "description": "Consume 100 Gnomes",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792406376,
+            "globalPct": 66.1
+          },
+          {
+            "apiName": "ACH_Gnomes_All",
+            "name": "Gnome-mans Land",
+            "description": "Consume All Gnomes",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792409909,
+            "globalPct": 54.9
+          },
+          {
+            "apiName": "ACH_UnlockPC",
+            "name": "*Hacker Voice* I'm In.",
+            "description": "Unlock the Personal PC Computer",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792411372,
+            "globalPct": 63
+          },
+          {
+            "apiName": "ACH_BlackStar_Match",
+            "name": "Memories",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792337235,
+            "globalPct": 76.4
+          },
+          {
+            "apiName": "ACH_BlackStar_Radio",
+            "name": "Secure Login",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792409254,
+            "globalPct": 60.8
+          },
+          {
+            "apiName": "ACH_BlackStar_Smoothie",
+            "name": "Smooth Operator",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792411954,
+            "globalPct": 52
+          },
+          {
+            "apiName": "ACH_BlackStar_GoldenIdol",
+            "name": "Legacy",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792407523,
+            "globalPct": 51.9
+          },
+          {
+            "apiName": "ACH_BlackStar_Taxi",
+            "name": "Fare's Fair",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792407801,
+            "globalPct": 54.7
+          },
+          {
+            "apiName": "ACH_BlackStar_RedStrings",
+            "name": "Pepe Silvia",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792411171,
+            "globalPct": 48.8
+          },
+          {
+            "apiName": "ACH_BlackStar_Belladonna",
+            "name": "Horrorticulturist",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792411282,
+            "globalPct": 47.2
+          },
+          {
+            "apiName": "ACH_MoneyEarn_Hundred",
+            "name": "MONEY",
+            "description": "Bank $100 total",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792334258,
+            "globalPct": 95.7
+          },
+          {
+            "apiName": "ACH_MoneyEarn_Thousand",
+            "name": "MONEY MONEY",
+            "description": "Bank $1,000 total",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792335233,
+            "globalPct": 88.8
+          },
+          {
+            "apiName": "ACH_MoneyEarn_TenThousand",
+            "name": "MONEY MONEY MONEY",
+            "description": "Bank $10,000 total",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792336432,
+            "globalPct": 83.9
+          },
+          {
+            "apiName": "ACH_MoneyEarn_HundredThousand",
+            "name": "MONEY MONEY MONEY MONEY",
+            "description": "Bank $100,000 total",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792339138,
+            "globalPct": 78.7
+          },
+          {
+            "apiName": "ACH_MoneyEarn_Million",
+            "name": "MONEY MONEY MONEY MONEY MONEY",
+            "description": "Bank $1,000,000 total",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792366740,
+            "globalPct": 73.2
+          },
+          {
+            "apiName": "ACH_MoneyEarn_HundredMillion",
+            "name": "MONEY MONEY MONEY MONEY MONEY MONEY",
+            "description": "Bank $100,000,000 total",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792409389,
+            "globalPct": 51.1
+          },
+          {
+            "apiName": "ACH_MoneyEarn_Billion",
+            "name": "Guillotine Time!",
+            "description": "Bank $1,000,000,000 total",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792416166,
+            "globalPct": 27
+          },
+          {
+            "apiName": "ACH_DepositProps_One",
+            "name": "BURY",
+            "description": "Consume a Prop",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792333947,
+            "globalPct": 94.5
+          },
+          {
+            "apiName": "ACH_DepositProps_Ten",
+            "name": "BURY BURY",
+            "description": "Consume 10 Props",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792334465,
+            "globalPct": 89.3
+          },
+          {
+            "apiName": "ACH_DepositProps_Hundred",
+            "name": "BURY BURY BURY",
+            "description": "Consume 100 Props",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792336379,
+            "globalPct": 82
+          },
+          {
+            "apiName": "ACH_DepositProps_All",
+            "name": "BURY IT ALL WHERE NOONE WILL EVER FIND IT",
+            "description": "Consume All Props",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792409970,
+            "globalPct": 44.3
+          },
+          {
+            "apiName": "ACH_Buddy_Blueberry",
+            "name": "BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792333674,
+            "globalPct": 98.9
+          },
+          {
+            "apiName": "ACH_Buddy_Raspberry",
+            "name": "BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792334128,
+            "globalPct": 95
+          },
+          {
+            "apiName": "ACH_Buddy_Strawberry",
+            "name": "BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792334535,
+            "globalPct": 91.6
+          },
+          {
+            "apiName": "ACH_Buddy_Kiwi",
+            "name": "BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792335260,
+            "globalPct": 87.7
+          },
+          {
+            "apiName": "ACH_Buddy_Plum",
+            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792335720,
+            "globalPct": 84.9
+          },
+          {
+            "apiName": "ACH_Buddy_Apple",
+            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792336581,
+            "globalPct": 82.6
+          },
+          {
+            "apiName": "ACH_Buddy_Pear",
+            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792338464,
+            "globalPct": 79.5
+          },
+          {
+            "apiName": "ACH_Buddy_Peach",
+            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792339432,
+            "globalPct": 76.2
+          },
+          {
+            "apiName": "ACH_Buddy_Banana",
+            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792366590,
+            "globalPct": 73.4
+          },
+          {
+            "apiName": "ACH_Buddy_Pineapple",
+            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792367784,
+            "globalPct": 70.6
+          },
+          {
+            "apiName": "ACH_Buddy_Watermelon",
+            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792404661,
+            "globalPct": 66.8
+          },
+          {
+            "apiName": "ACH_Buddy_Pumpkin",
+            "name": "BEST FRIENDS FOREVER",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792406247,
+            "globalPct": 60.4
+          },
+          {
+            "apiName": "ACH_Rewind",
+            "name": "Be Kind, Rewind",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792337413,
+            "globalPct": 74.8
+          },
+          {
+            "apiName": "ACH_DepositProps_FiveHundo",
+            "name": "BURY BURY BURY BURY",
+            "description": "Consume 500 Props",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792368737,
+            "globalPct": 69.9
+          },
+          {
+            "apiName": "ACH_Speedrun_AnyEnding",
+            "name": "Sugar Rush",
+            "description": "Complete any ending in under an hour (NG+ Mods allowed)",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792420109,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "ACH_FullPumpkins",
+            "name": "Pumpkin Patch",
+            "description": "Have 7 Pumpkin Berry Buddies in your garden at once",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792413881,
+            "globalPct": 32.9
+          },
+          {
+            "apiName": "ACH_SurviveBelladonna",
+            "name": "Come Hell or High Water",
+            "description": "",
+            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792418215,
+            "globalPct": 22.6
           }
         ]
       }
@@ -233964,643 +235006,6 @@
             "unlocked": true,
             "unlockTime": 1762205887,
             "globalPct": 31.1
-          }
-        ]
-      }
-    },
-    {
-      "appId": 3370870,
-      "name": "Berry Bury Berry",
-      "playtimeHours": 5.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3370870/578bfdf5c64cea1def75d6d6451e3d88abfd6a4a.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370870/4622468af31c1bbd2d87e53a1971719d1cead354/header.jpg?t=1790698296",
-      "genres": [
-        "Adventure",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Jan 29, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370870/9da8adc34c33058264aceaa01b9d5aad02a9aaeb/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3370870/4622468af31c1bbd2d87e53a1971719d1cead354/library_header_2x.jpg",
-      "achievements": {
-        "total": 61,
-        "unlocked": 45,
-        "items": [
-          {
-            "apiName": "ACH_Days1",
-            "name": "Night Night!",
-            "description": "Complete your first day, Sprout!",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792333681,
-            "globalPct": 99.4
-          },
-          {
-            "apiName": "ACH_Days10",
-            "name": "Keep at it!",
-            "description": "Complete 10 Days, Great Job!",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792334337,
-            "globalPct": 95.8
-          },
-          {
-            "apiName": "ACH_Days100",
-            "name": "Green Thumb",
-            "description": "Complete 100 Days, You're good at this!",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792402802,
-            "globalPct": 71.8
-          },
-          {
-            "apiName": "ACH_DropAMillion",
-            "name": "Money Pit",
-            "description": "Drop $1,000,000 in the Hole. Womp Womp.",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792408887,
-            "globalPct": 52.1
-          },
-          {
-            "apiName": "ACH_ForgotAboutAutoPickUp",
-            "name": "Creature of Habit",
-            "description": "Pickup 5 coins by hand after purchasing the Auto-Coin Pickup Upgrade",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792365849,
-            "globalPct": 81.8
-          },
-          {
-            "apiName": "ACH_Ending_Key",
-            "name": "Oink Oink!",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792408569,
-            "globalPct": 60.5
-          },
-          {
-            "apiName": "ACH_Ending_True",
-            "name": "Groovy",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 43
-          },
-          {
-            "apiName": "ACH_Ending_Belladonna",
-            "name": "Atropos",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792408742,
-            "globalPct": 43.8
-          },
-          {
-            "apiName": "ACH_Ending_Gnome",
-            "name": "Goosebumps #34",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 46.1
-          },
-          {
-            "apiName": "ACH_100Percent",
-            "name": "I Make The Rules Here!",
-            "description": "Unlock all endings, upgrades, cassettes, max hole size, and clear the entire map",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 26.5
-          },
-          {
-            "apiName": "ACH_AllUpgrades",
-            "name": "Starry Sky",
-            "description": "Unlock all upgrades",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.6
-          },
-          {
-            "apiName": "ACH_Gain9Dollars",
-            "name": "Off to a good start!",
-            "description": "Earn $9 on the first day",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 37.6
-          },
-          {
-            "apiName": "ACH_OpenStarDoorWithoutBreakingWalls",
-            "name": "Worm",
-            "description": "Open the StarDoor with all Walls intact",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.8
-          },
-          {
-            "apiName": "ACH_MaxHoleSize",
-            "name": "Big Mouth",
-            "description": "Achieve maximum Hole size",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792409315,
-            "globalPct": 54.9
-          },
-          {
-            "apiName": "ACH_Cassettes1",
-            "name": "...How do you start one of these?",
-            "description": "Find your first Cassette Tape",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792335096,
-            "globalPct": 85.2
-          },
-          {
-            "apiName": "ACH_Cassettes_All",
-            "name": "Truth",
-            "description": "Find All Cassette Tapes",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 38.2
-          },
-          {
-            "apiName": "ACH_GrowBerries_100",
-            "name": "BERRY",
-            "description": "Grow 100 Berries",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792334005,
-            "globalPct": 97.3
-          },
-          {
-            "apiName": "ACH_GrowBerries_Thousand",
-            "name": "BERRY BERRY BERRY",
-            "description": "Grow 1,000 Berries",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792336355,
-            "globalPct": 86.2
-          },
-          {
-            "apiName": "ACH_GrowBerries_HundoThousand",
-            "name": "BERRY BERRY BERRY BERRY BERRY BERRY BERRY",
-            "description": "Grow 66,666 Berries",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.7
-          },
-          {
-            "apiName": "ACH_BreakWalls_1",
-            "name": "Rule Breaker",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792334711,
-            "globalPct": 91.8
-          },
-          {
-            "apiName": "ACH_BreakWalls_100",
-            "name": "Renovator",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792365916,
-            "globalPct": 73.9
-          },
-          {
-            "apiName": "ACH_Gnomes_One",
-            "name": "Trust Gnome one",
-            "description": "Consume a Gnome",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792334465,
-            "globalPct": 89.5
-          },
-          {
-            "apiName": "ACH_Gnomes_Ten",
-            "name": "A little Gnome fact",
-            "description": "Consume 10 Gnomes",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792335772,
-            "globalPct": 82.8
-          },
-          {
-            "apiName": "ACH_Gnomes_Hundred",
-            "name": "Eaten out of house and Gnome",
-            "description": "Consume 100 Gnomes",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792406376,
-            "globalPct": 66.1
-          },
-          {
-            "apiName": "ACH_Gnomes_All",
-            "name": "Gnome-mans Land",
-            "description": "Consume All Gnomes",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792409909,
-            "globalPct": 54.9
-          },
-          {
-            "apiName": "ACH_UnlockPC",
-            "name": "*Hacker Voice* I'm In.",
-            "description": "Unlock the Personal PC Computer",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 63
-          },
-          {
-            "apiName": "ACH_BlackStar_Match",
-            "name": "Memories",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792337235,
-            "globalPct": 76.4
-          },
-          {
-            "apiName": "ACH_BlackStar_Radio",
-            "name": "Secure Login",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792409254,
-            "globalPct": 60.8
-          },
-          {
-            "apiName": "ACH_BlackStar_Smoothie",
-            "name": "Smooth Operator",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 52
-          },
-          {
-            "apiName": "ACH_BlackStar_GoldenIdol",
-            "name": "Legacy",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792407523,
-            "globalPct": 51.9
-          },
-          {
-            "apiName": "ACH_BlackStar_Taxi",
-            "name": "Fare's Fair",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792407801,
-            "globalPct": 54.7
-          },
-          {
-            "apiName": "ACH_BlackStar_RedStrings",
-            "name": "Pepe Silvia",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 48.8
-          },
-          {
-            "apiName": "ACH_BlackStar_Belladonna",
-            "name": "Horrorticulturist",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 47.2
-          },
-          {
-            "apiName": "ACH_MoneyEarn_Hundred",
-            "name": "MONEY",
-            "description": "Bank $100 total",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792334258,
-            "globalPct": 95.7
-          },
-          {
-            "apiName": "ACH_MoneyEarn_Thousand",
-            "name": "MONEY MONEY",
-            "description": "Bank $1,000 total",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792335233,
-            "globalPct": 88.8
-          },
-          {
-            "apiName": "ACH_MoneyEarn_TenThousand",
-            "name": "MONEY MONEY MONEY",
-            "description": "Bank $10,000 total",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792336432,
-            "globalPct": 83.9
-          },
-          {
-            "apiName": "ACH_MoneyEarn_HundredThousand",
-            "name": "MONEY MONEY MONEY MONEY",
-            "description": "Bank $100,000 total",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792339138,
-            "globalPct": 78.7
-          },
-          {
-            "apiName": "ACH_MoneyEarn_Million",
-            "name": "MONEY MONEY MONEY MONEY MONEY",
-            "description": "Bank $1,000,000 total",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792366740,
-            "globalPct": 73.2
-          },
-          {
-            "apiName": "ACH_MoneyEarn_HundredMillion",
-            "name": "MONEY MONEY MONEY MONEY MONEY MONEY",
-            "description": "Bank $100,000,000 total",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792409389,
-            "globalPct": 51.1
-          },
-          {
-            "apiName": "ACH_MoneyEarn_Billion",
-            "name": "Guillotine Time!",
-            "description": "Bank $1,000,000,000 total",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27
-          },
-          {
-            "apiName": "ACH_DepositProps_One",
-            "name": "BURY",
-            "description": "Consume a Prop",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792333947,
-            "globalPct": 94.5
-          },
-          {
-            "apiName": "ACH_DepositProps_Ten",
-            "name": "BURY BURY",
-            "description": "Consume 10 Props",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792334465,
-            "globalPct": 89.3
-          },
-          {
-            "apiName": "ACH_DepositProps_Hundred",
-            "name": "BURY BURY BURY",
-            "description": "Consume 100 Props",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792336379,
-            "globalPct": 82
-          },
-          {
-            "apiName": "ACH_DepositProps_All",
-            "name": "BURY IT ALL WHERE NOONE WILL EVER FIND IT",
-            "description": "Consume All Props",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792409970,
-            "globalPct": 44.3
-          },
-          {
-            "apiName": "ACH_Buddy_Blueberry",
-            "name": "BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792333674,
-            "globalPct": 98.9
-          },
-          {
-            "apiName": "ACH_Buddy_Raspberry",
-            "name": "BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792334128,
-            "globalPct": 95
-          },
-          {
-            "apiName": "ACH_Buddy_Strawberry",
-            "name": "BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792334535,
-            "globalPct": 91.6
-          },
-          {
-            "apiName": "ACH_Buddy_Kiwi",
-            "name": "BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792335260,
-            "globalPct": 87.7
-          },
-          {
-            "apiName": "ACH_Buddy_Plum",
-            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792335720,
-            "globalPct": 84.9
-          },
-          {
-            "apiName": "ACH_Buddy_Apple",
-            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792336581,
-            "globalPct": 82.6
-          },
-          {
-            "apiName": "ACH_Buddy_Pear",
-            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792338464,
-            "globalPct": 79.5
-          },
-          {
-            "apiName": "ACH_Buddy_Peach",
-            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792339432,
-            "globalPct": 76.2
-          },
-          {
-            "apiName": "ACH_Buddy_Banana",
-            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792366590,
-            "globalPct": 73.4
-          },
-          {
-            "apiName": "ACH_Buddy_Pineapple",
-            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792367784,
-            "globalPct": 70.6
-          },
-          {
-            "apiName": "ACH_Buddy_Watermelon",
-            "name": "BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY BUDDY",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792404661,
-            "globalPct": 66.8
-          },
-          {
-            "apiName": "ACH_Buddy_Pumpkin",
-            "name": "BEST FRIENDS FOREVER",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792406247,
-            "globalPct": 60.4
-          },
-          {
-            "apiName": "ACH_Rewind",
-            "name": "Be Kind, Rewind",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792337413,
-            "globalPct": 74.8
-          },
-          {
-            "apiName": "ACH_DepositProps_FiveHundo",
-            "name": "BURY BURY BURY BURY",
-            "description": "Consume 500 Props",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792368737,
-            "globalPct": 69.9
-          },
-          {
-            "apiName": "ACH_Speedrun_AnyEnding",
-            "name": "Sugar Rush",
-            "description": "Complete any ending in under an hour (NG+ Mods allowed)",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "ACH_FullPumpkins",
-            "name": "Pumpkin Patch",
-            "description": "Have 7 Pumpkin Berry Buddies in your garden at once",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.9
-          },
-          {
-            "apiName": "ACH_SurviveBelladonna",
-            "name": "Come Hell or High Water",
-            "description": "",
-            "icon": "c38104fde64963de2303867abbfaea3e2913f8cb",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 22.6
           }
         ]
       }
@@ -275303,6 +275708,100 @@
             "unlocked": true,
             "unlockTime": 1759477005,
             "globalPct": 54.3
+          }
+        ]
+      }
+    },
+    {
+      "appId": 4197890,
+      "name": "The Last Cat in the Universe",
+      "playtimeHours": 2.4,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4197890/0af1ceb35af6751bfa9da7ce2f625c3b53a9126d.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/10e6ae5afda4d5fdd82e87baf2088c89675a7b7d/header.jpg?t=1788451511",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Apr 23, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/6327d8d3b1ae2a163ba2e9b6230c00d723ecfc51/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/10e6ae5afda4d5fdd82e87baf2088c89675a7b7d/library_header_2x.jpg",
+      "achievements": {
+        "total": 7,
+        "unlocked": 7,
+        "items": [
+          {
+            "apiName": "STORY_ACHIEVEMENT_01",
+            "name": "You have a mission",
+            "description": "",
+            "icon": "c987bdef922a6e192d3a0c62c16d04e311251720",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792451075,
+            "globalPct": 96.4
+          },
+          {
+            "apiName": "STORY_ACHIEVEMENT_02",
+            "name": "A side mission?",
+            "description": "",
+            "icon": "3ccc1b201df255e952c10af884be2ccbe56f46e8",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792452027,
+            "globalPct": 92.7
+          },
+          {
+            "apiName": "STORY_ACHIEVEMENT_03",
+            "name": "You’re not so little anymore",
+            "description": "",
+            "icon": "e14bd9a27d3608b30bd0c4c4f677ea2f405815a1",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792453855,
+            "globalPct": 85.4
+          },
+          {
+            "apiName": "STORY_ACHIEVEMENT_04",
+            "name": "Everyone has a mom",
+            "description": "",
+            "icon": "28dfe49e3168b6eed54ba1142c1b406b9592622b",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792455636,
+            "globalPct": 78.3
+          },
+          {
+            "apiName": "STORY_ACHIEVEMENT_05",
+            "name": "Time is running out",
+            "description": "",
+            "icon": "9c8bea945614ee9a4105e26214f5447ecdcaafdb",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792457638,
+            "globalPct": 72.8
+          },
+          {
+            "apiName": "STORY_ACHIEVEMENT_06",
+            "name": "I’ll be by your side",
+            "description": "",
+            "icon": "31dba20a923ce2398fde2b7a0012da6620b666af",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792458924,
+            "globalPct": 69.8
+          },
+          {
+            "apiName": "STORY_ACHIEVEMENT_07",
+            "name": "I’ve fulfilled my mission",
+            "description": "",
+            "icon": "ac652600c3d8f7f3c9e2bdcdcd1e76271e5b7fa2",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792459169,
+            "globalPct": 64.2
           }
         ]
       }
@@ -382440,29 +382939,6 @@
       }
     },
     {
-      "appId": 3948120,
-      "name": "Scritchy Scratchy",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3948120/dbc0f0af8d59826ff370f613098192e11609e8f4.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/dc726b9c35076bb0bfbf63a664bbf61638cbc2ab/header_alt_assets_0.jpg?t=1790587008",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 18, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/fe38fe4f526a20452aa89a5fd3521b3747b33d66/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/35a6602e1f83035f9e14b975902ff22fd4163cdb/library_header_2x.jpg",
-      "achievements": {
-        "total": 38,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 4030830,
       "name": "Focus Grove",
       "playtimeHours": 0,
@@ -382531,28 +383007,6 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137920/e37e471b05a9446c64c277540c5a2dae40631660/library_header_2x.jpg",
       "achievements": {
         "total": 24,
-        "unlocked": 0
-      }
-    },
-    {
-      "appId": 4197890,
-      "name": "The Last Cat in the Universe",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4197890/0af1ceb35af6751bfa9da7ce2f625c3b53a9126d.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/10e6ae5afda4d5fdd82e87baf2088c89675a7b7d/header.jpg?t=1788451511",
-      "genres": [
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Apr 23, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/6327d8d3b1ae2a163ba2e9b6230c00d723ecfc51/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/10e6ae5afda4d5fdd82e87baf2088c89675a7b7d/library_header_2x.jpg",
-      "achievements": {
-        "total": 7,
         "unlocked": 0
       }
     },
@@ -382825,7 +383279,7 @@
       "dateAdded": 1433342481,
       "priority": 12,
       "name": "BeamNG.drive",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/17f8af1312bc48e6cd90e5fb639d4981682af260/header.jpg?t=1785357623",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/17f8af1312bc48e6cd90e5fb639d4981682af260/header.jpg?t=1792417797",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/5b9d29c96707cb4b3de0e75428255f7d7c319b7a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/5df9efc34d5bb44e91b2e3fc59b6ce3c8a366eb8/library_header_2x.jpg"
     },
@@ -384140,7 +384594,7 @@
       "dateAdded": 1549145377,
       "priority": 350,
       "name": "Foundation",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1791855712",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/a4dcfb5b8a252b9763dd2e5d06dd0e59e0a995c6/header.jpg?t=1791855712",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/ce78d0949d018967dd80da34826f153cd7a084d7/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/8ffd32f3730aeaa49b6176717421ed4d226f628f/library_header_2x.jpg"
     },
@@ -384333,7 +384787,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -384341,7 +384795,7 @@
       "dateAdded": 1524265466,
       "priority": 385,
       "name": "Squad 44",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/736220/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/header.jpg?t=1790967343",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/fae382a414c681d84f743a85cef8bf33352e5eaf/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/d9ab5f721701f675483d8b93ed61831f54425088/library_header_2x.jpg"
     },
@@ -384350,14 +384804,14 @@
       "dateAdded": 1635094925,
       "priority": 0,
       "name": "Kingdom Workshop",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/741340/header.jpg"
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/741340/header.jpg?t=1634111960"
     },
     {
       "appId": 742300,
       "dateAdded": 1538501315,
       "priority": 392,
       "name": "Mega Man 11",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1787717265",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/library_600x900_2x.jpg"
     },
     {
@@ -384365,7 +384819,7 @@
       "dateAdded": 1560357191,
       "priority": 394,
       "name": "Duck Season PC",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746510/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/header.jpg?t=1667678098",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/library_600x900_2x.jpg"
     },
     {
@@ -384373,7 +384827,7 @@
       "dateAdded": 1593087169,
       "priority": 0,
       "name": "Cloudpunk",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746850/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/header.jpg?t=1729027817",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/library_600x900_2x.jpg"
     },
     {
@@ -384381,7 +384835,7 @@
       "dateAdded": 1617959696,
       "priority": 0,
       "name": "AWAY: The Survival Series",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750200/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/header.jpg?t=1739840210",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/library_600x900_2x.jpg"
     },
     {
@@ -384389,7 +384843,7 @@
       "dateAdded": 1640607398,
       "priority": 0,
       "name": "Slice of Sea",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750290/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/header.jpg?t=1748509146",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_header.jpg"
     },
@@ -384398,7 +384852,7 @@
       "dateAdded": 1784476827,
       "priority": 0,
       "name": "Scientific project: Optic",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/752290/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/15a499844e1f0eb4671c936382529e34f2b5da89/header.jpg?t=1786957747",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/cd373376f2fd6f4acfe2ecb02fdf265bfbd39151/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/15a499844e1f0eb4671c936382529e34f2b5da89/library_header_2x.jpg"
     },
@@ -384407,7 +384861,7 @@
       "dateAdded": 1607460004,
       "priority": 0,
       "name": "Sniper Elite VR",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/752480/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/header.jpg?t=1643711030",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/library_600x900_2x.jpg"
     },
     {
@@ -384424,7 +384878,7 @@
       "dateAdded": 1684137115,
       "priority": 0,
       "name": "Firmament",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/754890/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754890/header.jpg?t=1773702134",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754890/library_600x900_2x.jpg"
     },
     {
@@ -384432,7 +384886,7 @@
       "dateAdded": 1551024850,
       "priority": 402,
       "name": "Contraband Police",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/756800/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/header.jpg?t=1787754316",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/library_header_2x.jpg"
     },
@@ -384441,7 +384895,7 @@
       "dateAdded": 1555280884,
       "priority": 404,
       "name": "Football Story",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/757550/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/53cf861d8c0e6abcb60fc0b0ce6b2985bd0b2944/header.jpg?t=1792434407",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/95956d9ee8420a363a26f5e9f4bf124ca2899523/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/53cf861d8c0e6abcb60fc0b0ce6b2985bd0b2944/library_header_2x.jpg"
     },
@@ -384450,7 +384904,7 @@
       "dateAdded": 1605736966,
       "priority": 0,
       "name": "Occupy Mars: The Game",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758690/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/header_alt_assets_9.jpg?t=1788284061",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/47e3333e29936ffbe5f82b7fc13959a7cae34c90/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/library_header_2x.jpg"
     },
@@ -384459,7 +384913,7 @@
       "dateAdded": 1541535283,
       "priority": 407,
       "name": "Kynseed",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/header.jpg?t=1784301962",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/2264f976adb24ef5ad0f6163cfd0288db8f7fd17/library_header_2x.jpg"
     },
@@ -384468,7 +384922,7 @@
       "dateAdded": 1603497577,
       "priority": 0,
       "name": "Afterparty",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/762220/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762220/header.jpg?t=1726593200",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762220/library_600x900_2x.jpg"
     },
     {
@@ -384476,7 +384930,7 @@
       "dateAdded": 1763869244,
       "priority": 0,
       "name": "Projekt Z: Beyond Order",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/763310/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/header.jpg?t=1788032969",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_header.jpg"
     },
@@ -384485,7 +384939,7 @@
       "dateAdded": 1623871846,
       "priority": 0,
       "name": "Wildermyth",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/763890/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763890/header.jpg?t=1740520937",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763890/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763890/ceb9b0dfbddce5744b25142c7227bedb65d6db19/library_header_2x.jpg"
     },
@@ -384494,7 +384948,7 @@
       "dateAdded": 1601242769,
       "priority": 0,
       "name": "Mars Horizon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/765810/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/765810/header.jpg?t=1778511889",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/765810/library_600x900_2x.jpg"
     },
     {
@@ -384502,7 +384956,7 @@
       "dateAdded": 1643277370,
       "priority": 0,
       "name": "Last Wood",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/767490/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/767490/header.jpg?t=1745568990",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/767490/library_600x900_2x.jpg"
     },
     {
@@ -384510,7 +384964,7 @@
       "dateAdded": 1644170227,
       "priority": 0,
       "name": "Airhead",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/771700/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/771700/header.jpg?t=1791459503",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/771700/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/771700/832f51013c15329a082255820321962b4ac96fb9/library_header_2x.jpg"
     },
@@ -384519,7 +384973,7 @@
       "dateAdded": 1770916000,
       "priority": 0,
       "name": "Last Man Sitting",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774291/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1792068178",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/803bf1ec7353a49fbe7dc1cb3e82a942a913c202/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/5c05281696891c8cb3df8395efa376f39f9f8c09/library_header_2x.jpg"
     },
@@ -384591,7 +385045,7 @@
       "dateAdded": 1596309015,
       "priority": 0,
       "name": "Terraforming Mars",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/800270/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/header.jpg?t=1769091240",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/123587e1fcf3674e1a5f86f729ec964e33c9b2a4/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/12325b0c5d7aa35b788b1a82e3d1d5ece9530e31/library_header_2x.jpg"
     },
@@ -384600,7 +385054,7 @@
       "dateAdded": 1737219890,
       "priority": 0,
       "name": "Atomfall",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/801800/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg?t=1776701587",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/2b7ed6a84485e94108c4cedd2388040858302242/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/47a6958f09dbf42a5bb9ba5dfbca02938b298b36/library_header.jpg"
     },
@@ -384633,7 +385087,7 @@
       "dateAdded": 1528827082,
       "priority": 434,
       "name": "Assassin's Creed® Odyssey",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1786633104",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900_2x.jpg"
     },
     {
@@ -384690,7 +385144,7 @@
       "dateAdded": 1576191190,
       "priority": 0,
       "name": "BONEWORKS",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/823500/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/823500/header.jpg?t=1581381377",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/823500/library_600x900_2x.jpg"
     },
     {
@@ -384765,7 +385219,7 @@
       "dateAdded": 1548886736,
       "priority": 447,
       "name": "Subnautica: Below Zero",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1777456254",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/library_600x900_2x.jpg"
     },
     {
@@ -390231,7 +390685,7 @@
       "dateAdded": 1670602504,
       "priority": 0,
       "name": "STAR WARS Jedi: Survivor™",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg?t=1788257050",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/library_600x900_2x.jpg"
     },
     {
@@ -390248,7 +390702,7 @@
       "dateAdded": 1670285153,
       "priority": 0,
       "name": "TEKKEN 8",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/c7b0b80639fc8c7d386922f414f293ca849e8e81/header.jpg?t=1787180720",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/library_600x900_2x.jpg"
     },
     {
@@ -390264,7 +390718,7 @@
       "dateAdded": 1749485235,
       "priority": 0,
       "name": "The Last Caretaker",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1783560/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792479632",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/f09cecef778ea213c6ab144675f1ca69f9245c22/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/library_header_2x.jpg"
     },
@@ -390282,7 +390736,7 @@
       "dateAdded": 1701282396,
       "priority": 0,
       "name": "Orten Was The Case",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1785420/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1785420/header.jpg?t=1709067727",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1785420/library_600x900_2x.jpg"
     },
     {
@@ -390384,7 +390838,7 @@
       "dateAdded": 1710690757,
       "priority": 0,
       "name": "ARC Raiders",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1808500/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/e33d26c3175e3f590a0153fdcf0f4863f6c84288/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/library_header_2x.jpg"
     },
@@ -390434,7 +390888,7 @@
       "dateAdded": 1705368516,
       "priority": 0,
       "name": "Oddsparks: An Automation Adventure",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817800/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817800/c505cd263cf0cb85f1e69fac24de81b196141212/header.jpg?t=1791461895",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817800/6e0b5d417b35c65d1a4c799a35e2817e2e89205f/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817800/be25d619e6f67d4a7cc89fa45d7074a7b3655000/library_header_2x.jpg"
     },
@@ -390470,7 +390924,7 @@
       "dateAdded": 1686237346,
       "priority": 0,
       "name": "Chessarama",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1831830/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831830/header.jpg?t=1745518342",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831830/fa0211c92e71293a8aaeb7dfd1e7667c84a34a03/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831830/library_header_2x.jpg"
     },
@@ -392174,8 +392628,8 @@
       "priority": 0,
       "name": "Directive 8020",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2255370/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/3bc92a40a3997dc9634395e3ab3db5bb21d08540/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/d19c4a22c51bf1ff65d852a5eb3c1c3e2a6f0a8f/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/ba679aa4ee7eca3dc0a3908a29e985979ca97101/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2255370/5ebd85f22c87671abbd00725d49764f340a6a8c1/library_header_2x.jpg"
     },
     {
       "appId": 2258070,
@@ -401643,6 +402097,42 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3578070/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3578070/acd38683a449aeab9d4e31f8d745a4d5fcc3a83d/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3578070/ed9a892086cc65c3f95b69bd59758c9a24ae998b/library_header_2x.jpg"
+    },
+    {
+      "appId": 4976780,
+      "dateAdded": 1792448918,
+      "priority": 0,
+      "name": "App 4976780",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4976780/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4976780/49cad2e5af3f6de6e5da718ed564dfc0dbe7e2d2/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4976780/334c097914f102443932f05ad298eb4c656f2624/library_header_2x.jpg"
+    },
+    {
+      "appId": 5049860,
+      "dateAdded": 1792448935,
+      "priority": 0,
+      "name": "App 5049860",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5049860/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/75c68f0bd41b8f5fe42ed1436f7a16f891f37bad/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/22c6890b7351993fdb43b9c42aa6898d8518e3ea/library_header_2x.jpg"
+    },
+    {
+      "appId": 5127280,
+      "dateAdded": 1792448989,
+      "priority": 0,
+      "name": "App 5127280",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5127280/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127280/11aa8738092b2621c9e3a8dd6f3c81adcc8f6eef/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127280/9009446847f3d512b31599ed51f4a6c64fc5f6d8/library_header_2x.jpg"
+    },
+    {
+      "appId": 4304900,
+      "dateAdded": 1792449960,
+      "priority": 0,
+      "name": "Big Dig",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304900/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/c947b2d646a0c6674b38467e25384ca7444e398a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/bdb95c69892b39aaaa303f77b3c61d6a46f88b42/library_header_2x.jpg"
     }
   ]
 }
