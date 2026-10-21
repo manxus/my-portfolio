@@ -13,6 +13,12 @@ import { ADMIN_ENABLED } from '../admin/adminEnabled';
 
 const COLLECTION = 'tierlists';
 
+/** Fingers lift an item with a long press (see TierBoard), so say so. */
+const DRAG_HINT =
+  typeof window !== 'undefined' && window.matchMedia?.('(pointer: coarse)').matches
+    ? 'HOLD & DRAG TO RANK'
+    : 'DRAG TO RANK';
+
 const DEFAULT_TIERS = ['S', 'A', 'B', 'C', 'D', 'F', '?'];
 
 const DEFAULT_HINTS = {
@@ -331,7 +337,7 @@ export default function Rankings() {
             {dndReady && (
               <div className={styles.adminBar}>
                 <span className={styles.adminMeta}>
-                  {itemCount} {itemCount === 1 ? 'ITEM' : 'ITEMS'} · DRAG TO RANK · NEW ITEMS LAND IN{' '}
+                  {itemCount} {itemCount === 1 ? 'ITEM' : 'ITEMS'} · {DRAG_HINT} · NEW ITEMS LAND IN{' '}
                   {unrankedTierOf(tierOrder)}
                 </span>
                 {!form && (

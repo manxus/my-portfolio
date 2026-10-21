@@ -180,3 +180,22 @@
 .formError {
   color: var(--danger);
 }
+
+/* Fingers, not cursors. The phone thumbs are 52px wide, so 24px is as big as
+   the buttons get; 16px inputs keep iOS from zooming on focus. */
+@media (hover: none), (pointer: coarse) {
+  .itemBtn {
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+
+  .formBtn,
+  .formBtnGhost {
+    min-height: 40px;
+  }
+
+  .formInput {
+    font-size: 16px;
+  }
+}

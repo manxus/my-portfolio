@@ -179,3 +179,44 @@
   opacity: 0.4;
   cursor: not-allowed;
 }
+
+/* Touch screens have no hover to reveal the controls, so show them all the time
+   while logged in, at fingertip size. The section toolbar moves into the flow,
+   or the always-on + would sit on the section's first line. */
+@media (hover: none), (pointer: coarse) {
+  .toolbar {
+    position: relative;
+    top: auto;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+    opacity: 1;
+  }
+
+  .tag {
+    font-size: 0.65rem;
+    padding: 2px 8px;
+  }
+
+  .addBtn {
+    width: 36px;
+    height: 36px;
+    font-size: 1.2rem;
+  }
+
+  .itemControls {
+    gap: 4px;
+    opacity: 1;
+  }
+
+  .itemBtn {
+    width: 32px;
+    height: 32px;
+    font-size: 0.85rem;
+  }
+
+  .confirmCancel,
+  .confirmDelete {
+    min-height: 44px;
+  }
+}

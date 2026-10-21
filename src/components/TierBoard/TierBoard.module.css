@@ -274,3 +274,39 @@
     padding: 0.3rem 0.35rem;
   }
 }
+
+/* ---- Touch drag (see useTouchDrag) ---- */
+
+/* A long press would otherwise select text or open the iOS image callout. */
+.gameThumb[draggable='true'] {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* The copy that follows the finger; it lives on <body>, so its size is set
+   inline from the thumb it was lifted from. */
+.dragGhost {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10001;
+  margin: 0;
+  aspect-ratio: auto;
+  pointer-events: none;
+  opacity: 0.9;
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Where the lifted item will land: in front of this thumb. */
+.gameThumbDropBefore::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 3px;
+  z-index: 2;
+  background: var(--accent-bright);
+}
