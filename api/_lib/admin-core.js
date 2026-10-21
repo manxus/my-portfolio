@@ -255,10 +255,11 @@ export function isCrossOrigin(req) {
  *   login (the live site without ADMIN_TOKEN_SECRET).
  * @param {{ read(name), write(name, data, opts), upload(name, base64) }} deps.storage
  * @param {{ list(), run(id) }} deps.sync
+ * @param {{ status(), publish() }} [deps.publisher] live site only; dev saves are already "live".
  * @param {string} [deps.loginDisabledReason]
  * @returns {(req, res) => Promise<void>} answers every /api/admin request, 404 included.
  */
-export function createAdminHandler({ tokens, storage, sync, loginDisabledReason }) {
+export function createAdminHandler({ tokens, storage, sync, publisher, loginDisabledReason }) {
   const authorized = (req) => Boolean(tokens?.verify(bearerToken(req)));
 
   return async function handleAdmin(req, res) {
@@ -351,6 +352,14 @@ export function createAdminHandler({ tokens, storage, sync, loginDisabledReason 
           }
           return json(res, 200, { success: true });
         }
+      }
+
+      if (path === '/api/admin/publish') {
+        if (!publisher) {
+          return json(res, 404, { error: 'Publishing only exists on the live site' });
+        }
+        if (req.method === 'GET') return json(res, 200, await publisher.status());
+        if (req.method === 'POST') return json(res, 200, await publisher.publish());
       }
 
       if (path === '/api/admin/sync' && req.method === 'GET') {

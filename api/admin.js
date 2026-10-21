@@ -1,5 +1,5 @@
 import { createAdminHandler, envTokenSigner } from './_lib/admin-core.js';
-import { githubStorage, workflowSync } from './_lib/github.js';
+import { githubStorage, publisher, workflowSync } from './_lib/github.js';
 
 /**
  * Every /api/admin/* route on the live site, funnelled here by the rewrite in vercel.json.
@@ -9,6 +9,7 @@ const handleAdmin = createAdminHandler({
   tokens: envTokenSigner(),
   storage: githubStorage,
   sync: workflowSync,
+  publisher,
   loginDisabledReason:
     'Admin login is disabled: set ADMIN_USER, ADMIN_PASS and ADMIN_TOKEN_SECRET (32+ characters) in the Vercel project.',
 });

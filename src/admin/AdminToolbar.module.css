@@ -62,6 +62,23 @@
   background: rgba(255, 255, 255, 0.12);
 }
 
+.btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* Unpublished saves waiting: the one button worth noticing. */
+.btnPrimary {
+  background: var(--accent, #5f8f8f);
+  border-color: var(--accent, #5f8f8f);
+  color: var(--color-bg, #0d0d1a);
+}
+
+.btnPrimary:hover {
+  background: var(--accent, #5f8f8f);
+  filter: brightness(1.15);
+}
+
 .dot {
   width: 14px;
   height: 14px;

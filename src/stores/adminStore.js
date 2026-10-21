@@ -115,6 +115,25 @@ export const useAdminStore = create(
         return body;
       },
 
+      /**
+       * Live site only. Saves are commits Vercel does not build on their own; this reports how
+       * many are waiting (`pending`, null when unknown) and whether a deploy is running.
+       */
+      getPublishStatus: async () => {
+        const { authFetch } = get();
+        const res = await authFetch('/api/admin/publish');
+        if (!res.ok) throw await requestError(res, 'Failed to load publish status');
+        return res.json();
+      },
+
+      /** Deploys every save so far in one go. */
+      publish: async () => {
+        const { authFetch } = get();
+        const res = await authFetch('/api/admin/publish', { method: 'POST' });
+        if (!res.ok) throw await requestError(res, 'Publish failed');
+        return res.json();
+      },
+
       listSyncTargets: async () => {
         const { authFetch } = get();
         const res = await authFetch('/api/admin/sync');

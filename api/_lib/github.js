@@ -114,6 +114,75 @@ export const githubStorage = {
   },
 };
 
+/** Save commits start with this; vercel.json's ignoreCommand skips building them. */
+const CONTENT_PREFIX = 'content:';
+
+/** The newest deployment GitHub has a record of, and the newest one that finished. */
+async function deploymentState() {
+  const { repo } = config();
+  const deployments = await ghJson(`/repos/${repo}/deployments?environment=Production&per_page=10`);
+  let latestState = null;
+  for (const [i, deployment] of deployments.entries()) {
+    const [status] = await ghJson(`/repos/${repo}/deployments/${deployment.id}/statuses?per_page=1`);
+    if (i === 0) latestState = status?.state ?? null;
+    if (status?.state === 'success') return { liveSha: deployment.sha, latestState };
+  }
+  return { liveSha: null, latestState };
+}
+
+/**
+ * Admin saves land as commits that Vercel deliberately does not build, so a batch of edits goes
+ * live in one deploy rather than one per save. Publishing is that deploy.
+ */
+export const publisher = {
+  /** How many saves are on `main` but not yet on the site. */
+  async status() {
+    const { repo, branch } = config();
+    const { liveSha, latestState } = await deploymentState();
+    if (!liveSha) return { pending: null, building: false };
+    const compare = await ghJson(`/repos/${repo}/compare/${liveSha}...${encodeURIComponent(branch)}`);
+    const pending = compare.commits.filter((c) => c.commit.message.startsWith(CONTENT_PREFIX)).length;
+    return { pending, building: ['pending', 'queued', 'in_progress'].includes(latestState) };
+  },
+
+  /**
+   * Puts an empty "publish:" commit on top -- the ignoreCommand would skip a build whose newest
+   * commit is a save -- then calls the deploy hook if one is configured. The commit alone deploys
+   * whenever Vercel's GitHub integration picks it up; the hook is there for when it doesn't.
+   */
+  async publish() {
+    const { repo, branch } = config();
+    const { pending } = await this.status().catch(() => ({ pending: null }));
+    const message =
+      pending > 0 ? `publish: ${pending} admin change${pending === 1 ? '' : 's'}` : 'publish: admin';
+
+    // Retried once: a sync workflow can push between reading the branch and moving it.
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      const ref = await ghJson(`/repos/${repo}/git/ref/heads/${encodeURIComponent(branch)}`);
+      const head = await ghJson(`/repos/${repo}/git/commits/${ref.object.sha}`);
+      const commit = await ghJson(`/repos/${repo}/git/commits`, {
+        method: 'POST',
+        body: { message, tree: head.tree.sha, parents: [head.sha] },
+      });
+      const moved = await gh(`/repos/${repo}/git/refs/heads/${encodeURIComponent(branch)}`, {
+        method: 'PATCH',
+        body: { sha: commit.sha, force: false },
+      });
+      if (moved.ok) break;
+      if (attempt === 1 || moved.status !== 422) {
+        throw new Error(`Moving ${branch} to the publish commit failed (${moved.status})`);
+      }
+    }
+
+    const hook = process.env.VERCEL_DEPLOY_HOOK_URL;
+    if (hook) {
+      const res = await fetch(hook, { method: 'POST' });
+      if (!res.ok) throw new Error(`Vercel deploy hook failed (${res.status})`);
+    }
+    return { published: true, pending, hook: Boolean(hook) };
+  },
+};
+
 const ACTIVE_RUN = new Set(['queued', 'in_progress', 'waiting', 'requested', 'pending']);
 
 async function latestRun(workflow) {
