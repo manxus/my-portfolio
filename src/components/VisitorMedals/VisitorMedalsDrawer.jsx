@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useVisitorStore, getOrderedMedals, getEffectiveMedalOrder } from '../../stores/visitorStore';
 import { useAdminStore } from '../../stores/adminStore';
 import styles from './VisitorMedalsDrawer.module.css';
+import { ADMIN_ENABLED } from '../../admin/adminEnabled';
 
 export default function VisitorMedalsDrawer({ onClose }) {
   const unlocked = useVisitorStore((s) => s.unlocked);
@@ -12,7 +13,7 @@ export default function VisitorMedalsDrawer({ onClose }) {
   const resetAchievements = useVisitorStore((s) => s.resetAchievements);
   const unlockAllAchievements = useVisitorStore((s) => s.unlockAllAchievements);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const showAdminTools = import.meta.env.DEV && isAuthenticated;
+  const showAdminTools = ADMIN_ENABLED && isAuthenticated;
   const modalRef = useRef(null);
   const closeRef = useRef(null);
   const medals = getOrderedMedals(medalOrder);

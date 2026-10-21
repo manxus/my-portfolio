@@ -9,6 +9,7 @@ import { useAdminStore } from '../stores/adminStore';
 import { useAdminCollection } from '../hooks/useAdminCollection';
 import boardStyles from '../components/TierBoard/TierBoard.module.css';
 import styles from './Rankings.module.css';
+import { ADMIN_ENABLED } from '../admin/adminEnabled';
 
 const COLLECTION = 'tierlists';
 
@@ -140,7 +141,7 @@ export default function Rankings() {
   const getData = useAdminStore((s) => s.getData);
   const saveData = useAdminStore((s) => s.saveData);
   const uploadFile = useAdminStore((s) => s.uploadFile);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [adminData, reload] = useAdminCollection(COLLECTION, isAdminUi);
   // A drag shows its result at once rather than waiting on the file round

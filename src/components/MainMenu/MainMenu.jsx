@@ -15,6 +15,7 @@ import { useVisitorStore, hasAllAchievementsUnlocked } from '../../stores/visito
 import { useReducedMotion } from '../../hooks/useReducedMotion';
 import EditableSection from '../../admin/EditableSection';
 import styles from './MainMenu.module.css';
+import { ADMIN_ENABLED } from '../../admin/adminEnabled';
 
 /** Where the menu's arrow/Enter handling applies; see useKeyboardNav. */
 const MENU_SCOPE = '[data-menu-nav]';
@@ -334,7 +335,7 @@ export default function MainMenu({ desktopContent, onAdminTrigger }) {
             &#128187; Patch Notes
           </button>
           <p className={styles.copyright}>
-            {import.meta.env.DEV && onAdminTrigger ? (
+            {ADMIN_ENABLED && onAdminTrigger ? (
               <HiddenTrigger onTrigger={onAdminTrigger}>
                 &copy; {new Date().getFullYear()} Build Verified
               </HiddenTrigger>

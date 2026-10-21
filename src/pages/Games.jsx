@@ -18,7 +18,7 @@ export default function Games() {
       <GamesTabs activeTab={active.id} onTabChange={setActiveTab} />
 
       {/* Keyed by game so switching tabs remounts it with a clean status line. Renders nothing
-          outside the dev server's admin session. */}
+          outside an admin session. */}
       <SyncButton key={active.id} gameId={active.id} />
 
       {/* No spinner: the chunks are small and a flash of loading chrome on every tab press reads

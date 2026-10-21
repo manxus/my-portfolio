@@ -1,10 +1,28 @@
 .toolbar {
   position: fixed;
-  bottom: 1rem;
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
   right: 1rem;
   z-index: 9998;
   display: flex;
   align-items: center;
+}
+
+/* Sits above the bar so it shows whether the toolbar is minimized or not. */
+.notice {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 0.5rem);
+  max-width: calc(100vw - 2rem);
+  background: var(--color-surface, #1a1a2e);
+  border: 1px solid var(--accent, #5f8f8f);
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: var(--color-text, #e0e0e0);
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .bar {
@@ -57,4 +75,18 @@
 
 .dot:hover {
   transform: scale(1.3);
+}
+
+/* Fingers, not cursors: the desktop sizes are under half a fingertip. */
+@media (pointer: coarse) {
+  .btn {
+    min-height: 36px;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .dot {
+    width: 28px;
+    height: 28px;
+  }
 }

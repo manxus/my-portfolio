@@ -16,6 +16,7 @@ import { useAdminStore } from '../stores/adminStore';
 import { useAdminCollection } from '../hooks/useAdminCollection';
 import EditableSection from '../admin/EditableSection';
 import styles from './RuneScape.module.css';
+import { ADMIN_ENABLED } from '../admin/adminEnabled';
 
 // 29 tiles is a lot to stagger; 0.05 each would take a second and a half.
 const tileStagger = {
@@ -420,7 +421,7 @@ function AdventurersLog({ activities }) {
 
 export default function RuneScape() {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [adminFile] = useAdminCollection('runescape', isAdminUi);
   const containerRef = useRef(null);

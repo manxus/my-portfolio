@@ -31,6 +31,7 @@ import {
   unfinishedFranchiseIds,
 } from '../utils/collections';
 import styles from './Cinema.module.css';
+import { ADMIN_ENABLED } from '../admin/adminEnabled';
 
 const defaultEntries = cinemaData.entries || [];
 
@@ -711,7 +712,7 @@ function Overview({ entries, selectedId, adminIndexOf, onSelect, onCloseDetail }
 
 export default function Cinema() {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [adminFile] = useAdminCollection('cinema', isAdminUi);
   const [activeTab, setActiveTab] = useState('overview');

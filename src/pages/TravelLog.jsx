@@ -12,6 +12,7 @@ import {
 import { useModalDialog } from '../hooks/useModalDialog';
 import { useAdminCollection } from '../hooks/useAdminCollection';
 import styles from './TravelLog.module.css';
+import { ADMIN_ENABLED } from '../admin/adminEnabled';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
@@ -170,7 +171,7 @@ function TripTimelineBody({ trip, isSelected, onSelectPhoto }) {
 
 export default function TravelLog() {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [adminTravel] = useAdminCollection('travel', isAdminUi);
   const travel = adminTravel ?? defaultTravelData;

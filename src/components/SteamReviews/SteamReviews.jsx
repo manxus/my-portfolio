@@ -9,6 +9,7 @@ import { useAdminStore } from '../../stores/adminStore';
 import { useAdminCollection } from '../../hooks/useAdminCollection';
 import { trackSteamCuratorClick } from '../../hooks/useVisitorTracking';
 import styles from './SteamReviews.module.css';
+import { ADMIN_ENABLED } from '../../admin/adminEnabled';
 
 const defaultReviews = steamReviewsData.reviews || [];
 
@@ -76,7 +77,7 @@ const stagger = {
 
 export default function SteamReviews({ games }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [adminFile] = useAdminCollection('steam-reviews', isAdminUi);
   const [sortBy, setSortBy] = useState('date');

@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
 }
 
 .backdropFill {
@@ -119,4 +120,15 @@
 .submitBtn:disabled {
   opacity: 0.4;
   cursor: not-allowed;
+}
+
+/* Phones: tighter padding, and 16px inputs so iOS doesn't zoom on focus. */
+@media (max-width: 480px) {
+  .modal {
+    padding: 1.25rem;
+  }
+
+  .input {
+    font-size: 16px;
+  }
 }

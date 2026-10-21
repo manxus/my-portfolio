@@ -9,6 +9,7 @@ import CollectionCard from './CollectionCard';
 import CollectionModal from './CollectionModal';
 import shared from './SteamAchievements.module.css';
 import styles from './SteamCollections.module.css';
+import { ADMIN_ENABLED } from '../../admin/adminEnabled';
 
 const defaultDefs = collectionsFile.collections || [];
 
@@ -24,7 +25,7 @@ const stagger = {
 
 export default function SteamCollections({ games }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [openIndex, setOpenIndex] = useState(null);
   const [adminFile] = useAdminCollection('steam-collections', isAdminUi);

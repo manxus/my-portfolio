@@ -12,6 +12,7 @@ import {
   nestPersonalInfoFromEditor,
 } from '../utils/availability';
 import styles from './EditableSection.module.css';
+import { ADMIN_ENABLED } from './adminEnabled';
 
 // Admin-only, and it pulls in the Steam game picker with the whole library
 // snapshot. EditableSection sits under the main menu, so a static import put
@@ -38,7 +39,7 @@ export default function EditableSection({
   const schema = schemas[schemaKey];
   const isPersonalInfo = collection === 'resume' && dataKey === 'personalInfo';
 
-  if (!import.meta.env.DEV || !schema) {
+  if (!ADMIN_ENABLED || !schema) {
     return children;
   }
 
@@ -267,7 +268,7 @@ export function EditableItemControls({
   const ctx = useContext(EditableItemsContext);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
 
-  if (!import.meta.env.DEV || !isAuthenticated || !ctx) return null;
+  if (!ADMIN_ENABLED || !isAuthenticated || !ctx) return null;
 
   return (
     <div className={styles.itemControls}>

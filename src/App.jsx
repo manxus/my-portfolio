@@ -9,8 +9,6 @@ import PageShell from './components/PageShell/PageShell';
 import CrtOverlay from './components/CrtOverlay/CrtOverlay';
 import VisionFilters from './components/VisionFilters/VisionFilters';
 import CardContactShell from './pages/CardContactShell';
-import LoginModal from './admin/LoginModal';
-import AdminToolbar from './admin/AdminToolbar';
 import { useMediaQuery } from './hooks/useMediaQuery';
 import { useSettingsApplier } from './hooks/useSettingsApplier';
 import { useReducedMotion } from './hooks/useReducedMotion';
@@ -19,6 +17,7 @@ import UnlockToast from './components/VisitorMedals/UnlockToast';
 import VisitorMedalsDrawer from './components/VisitorMedals/VisitorMedalsDrawer';
 import { useVisitorStore } from './stores/visitorStore';
 import { sessionGet, sessionSet } from './utils/session';
+import { ADMIN_ENABLED } from './admin/adminEnabled';
 
 // Pages load on demand: the Steam page alone carries a multi-megabyte data
 // snapshot that has no business in the chunk every visitor downloads at boot.
@@ -39,6 +38,11 @@ const Games = lazy(() => import('./pages/Games'));
 const Settings = lazy(() => import('./pages/Settings'));
 const Credits = lazy(() => import('./pages/Credits'));
 const PatchNotes = lazy(() => import('./pages/PatchNotes'));
+
+// Admin chrome only renders after the hidden trigger or a restored session, so
+// a visitor who never logs in never fetches these chunks.
+const LoginModal = lazy(() => import('./admin/LoginModal'));
+const AdminToolbar = lazy(() => import('./admin/AdminToolbar'));
 
 const pageRoutes = [
   { path: '/qa-portfolio', title: 'QA Portfolio', subtitle: 'STORY // CHAPTER 01', Component: QAPortfolio },
@@ -86,7 +90,7 @@ export default function App() {
   // Once per load: re-check a token restored from the last session. Logging in
   // later mints a fresh one, which needs no check.
   useEffect(() => {
-    if (import.meta.env.DEV && isAuthenticated) {
+    if (ADMIN_ENABLED && isAuthenticated) {
       verifyToken();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -141,7 +145,7 @@ export default function App() {
       {bootComplete && isDesktop && (
         <MainMenu
           desktopContent={desktopContent}
-          onAdminTrigger={import.meta.env.DEV ? handleAdminTrigger : undefined}
+          onAdminTrigger={ADMIN_ENABLED ? handleAdminTrigger : undefined}
         />
       )}
 
@@ -152,7 +156,7 @@ export default function App() {
               path="/"
               element={
                 <MainMenu
-                  onAdminTrigger={import.meta.env.DEV ? handleAdminTrigger : undefined}
+                  onAdminTrigger={ADMIN_ENABLED ? handleAdminTrigger : undefined}
                 />
               }
             />
@@ -173,15 +177,15 @@ export default function App() {
           </Routes>
         </AnimatePresence>
       )}
-      {import.meta.env.DEV && (
-        <>
+      {ADMIN_ENABLED && (
+        <Suspense fallback={null}>
           <AnimatePresence>
             {showLogin && !isAuthenticated && (
               <LoginModal onClose={() => setShowLogin(false)} />
             )}
           </AnimatePresence>
           {isAuthenticated && <AdminToolbar />}
-        </>
+        </Suspense>
       )}
 
       <UnlockToast />

@@ -18,6 +18,7 @@ import {
 import { useAdminStore } from '../stores/adminStore';
 import editableStyles from '../admin/EditableSection.module.css';
 import styles from './Tech.module.css';
+import { ADMIN_ENABLED } from '../admin/adminEnabled';
 
 // Admin-only, and it pulls in the Steam game picker with the whole library
 // snapshot; a static import made every visitor to this page download it.
@@ -103,7 +104,7 @@ function TechItemToolbar({
 }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
 
-  if (!import.meta.env.DEV || !isAuthenticated) return null;
+  if (!ADMIN_ENABLED || !isAuthenticated) return null;
 
   return (
     <div className={`${editableStyles.itemControls} ${styles.itemToolbar}`}>
@@ -504,7 +505,7 @@ export default function Tech() {
   const getData = useAdminStore((s) => s.getData);
   const saveData = useAdminStore((s) => s.saveData);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const showItemChrome = import.meta.env.DEV && isAuthenticated;
+  const showItemChrome = ADMIN_ENABLED && isAuthenticated;
 
   useEffect(() => {
     if (itemEdit) {

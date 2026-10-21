@@ -1,17 +1,18 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useAdminStore } from '../stores/adminStore';
 import styles from './SyncButton.module.css';
+import { ADMIN_ENABLED } from './adminEnabled';
 
 /**
  * Runs a game's fetch script on demand, so a dormant game can be refreshed without going to
  * GitHub's workflow_dispatch page.
  *
- * Dev-only by construction, not by choice: the endpoint behind it lives in
- * vite-plugin-admin-api.js as a configureServer hook, and a built site has no such route -- nor
- * anywhere to write the JSON, nor any way to commit it. The `import.meta.env.DEV` guard here
- * matches the one every other admin surface uses: `isAdminUi` folds to false at build time, so a
- * production page renders nothing. The component itself still ships in the bundle, exactly like
- * the rest of the admin UI -- the guard is what makes it inert, not dead-code elimination.
+ * Two backends answer the same route. Under `npm run dev`, vite-plugin-admin-api.js runs the
+ * script in place and replies with what changed. In an admin-enabled production build, the
+ * serverless API can't run the script or write the JSON, so it dispatches the game's GitHub
+ * Actions workflow and replies `{ queued: true }`; the site picks the result up on the next
+ * deploy. The `ADMIN_ENABLED` guard matches the one every other admin surface uses: in a build
+ * without the flag `isAdminUi` folds to false, so the page renders nothing.
  *
  * The syncable list comes from the server rather than being restated here: the plugin already
  * keeps a fixed table of them, and a second copy in the client would be the thing that drifts.
@@ -34,7 +35,7 @@ export default function SyncButton({ gameId }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
   const listSyncTargets = useAdminStore((s) => s.listSyncTargets);
   const runSync = useAdminStore((s) => s.runSync);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [target, setTarget] = useState(null);
   const [status, setStatus] = useState('idle');
@@ -52,7 +53,7 @@ export default function SyncButton({ gameId }) {
         if (!cancelled) setTarget(targets.find((t) => t.id === gameId) ?? null);
       })
       .catch(() => {
-        // A 401 here just means the dev server restarted; the admin toolbar already says so.
+        // A 401 here just means the session expired; any write will say so.
         if (!cancelled) setTarget(null);
       });
 
@@ -68,6 +69,11 @@ export default function SyncButton({ gameId }) {
     try {
       const result = await runSync(gameId);
       setStatus('done');
+      if (result.queued) {
+        // Production: a workflow run was dispatched, nothing has changed yet.
+        setMessage('Sync started — the site updates in a few minutes');
+        return;
+      }
       // The scripts hold `fetchedAt` still when no counter moved, so an unchanged file is a real
       // answer worth showing -- not a silent no-op that reads like the button did nothing.
       setMessage(result.changed ? 'updated' : 'already up to date');

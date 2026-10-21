@@ -2,15 +2,13 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
 /**
- * The dev API signs tokens with a secret regenerated on every server start, so
- * a tab that outlives a restart keeps rendering the admin UI while every write
+ * A token can stop being valid while the tab still renders the admin UI (it
+ * expired, or the dev server restarted with a fresh secret), so every write
  * comes back 401. Spell that out rather than throwing a generic failure.
  */
 async function requestError(res, fallback) {
   if (res.status === 401) {
-    const err = new Error(
-      'Admin session expired — the dev server restarted. Log out and log in again.',
-    );
+    const err = new Error('Admin session expired — log in again.');
     err.status = 401;
     return err;
   }
@@ -20,17 +18,29 @@ async function requestError(res, fallback) {
   return err;
 }
 
+/**
+ * ETag of each collection as last read, keyed by name. The live API returns the
+ * file's GitHub blob sha; echoing it back as If-Match makes a save over a newer
+ * commit (another device, a sync workflow) fail with 409 instead of silently
+ * reverting it. The dev API sends none, so dev saves go out unconditioned.
+ * Module-level rather than store state: nothing renders from it.
+ */
+const collectionEtags = new Map();
+
 export const useAdminStore = create(
   persist(
     (set, get) => ({
       token: null,
       isAuthenticated: false,
+      /** Bumped on every successful save, so the toolbar can confirm it. Not persisted. */
+      lastSavedAt: null,
 
-      login: async (username, password) => {
+      /** `code` is the optional TOTP code; it is only sent when filled in. */
+      login: async (username, password, code) => {
         const res = await fetch('/api/admin/login', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ username, password }),
+          body: JSON.stringify(code ? { username, password, code } : { username, password }),
         });
         if (!res.ok) {
           const err = await res.json().catch(() => ({}));
@@ -40,7 +50,10 @@ export const useAdminStore = create(
         set({ token, isAuthenticated: true });
       },
 
-      logout: () => set({ token: null, isAuthenticated: false }),
+      logout: () => {
+        collectionEtags.clear();
+        set({ token: null, isAuthenticated: false });
+      },
 
       verifyToken: async () => {
         const { token } = get();
@@ -77,17 +90,29 @@ export const useAdminStore = create(
         const { authFetch } = get();
         const res = await authFetch(`/api/admin/data/${collection}`);
         if (!res.ok) throw await requestError(res, 'Failed to load data');
+        const etag = res.headers.get('ETag');
+        if (etag) collectionEtags.set(collection, etag);
+        else collectionEtags.delete(collection);
         return res.json();
       },
 
       saveData: async (collection, data) => {
         const { authFetch } = get();
+        const etag = collectionEtags.get(collection);
         const res = await authFetch(`/api/admin/data/${collection}`, {
           method: 'PUT',
+          headers: etag ? { 'If-Match': etag } : undefined,
           body: JSON.stringify(data),
         });
         if (!res.ok) throw await requestError(res, 'Failed to save data');
-        return res.json();
+        // The old sha is spent either way. Take the new one if the response
+        // carries it; otherwise the re-pull the saved event triggers fetches it.
+        const nextEtag = res.headers.get('ETag');
+        if (nextEtag) collectionEtags.set(collection, nextEtag);
+        else collectionEtags.delete(collection);
+        const body = await res.json();
+        set({ lastSavedAt: Date.now() });
+        return body;
       },
 
       listSyncTargets: async () => {
@@ -98,9 +123,11 @@ export const useAdminStore = create(
       },
 
       /**
-       * Runs a game's fetch script on the dev server. Resolves with `changed: false` when the
-       * snapshot's timestamp did not move, which is the normal answer for a game nobody has
-       * played since the last sync.
+       * Runs a game's fetch script. On the dev server it runs in place and resolves with
+       * `{ changed, fetchedAt, warnings }` -- `changed: false` when the snapshot's timestamp did
+       * not move, the normal answer for a game nobody has played since the last sync. In
+       * production it dispatches the game's GitHub Actions workflow and resolves with
+       * `{ queued: true }`.
        */
       runSync: async (id) => {
         const { authFetch } = get();
@@ -141,6 +168,7 @@ export const useAdminStore = create(
     }),
     {
       name: 'bv-admin',
+      partialize: ({ token, isAuthenticated }) => ({ token, isAuthenticated }),
       storage: {
         getItem: (name) => {
           const value = sessionStorage.getItem(name);

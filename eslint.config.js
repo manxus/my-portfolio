@@ -27,9 +27,9 @@ export default defineConfig([
     },
   },
   {
-    // The build-time sync scripts and the dev admin plugin run in Node, not the browser, so they
-    // legitimately reach for `process` and `Buffer`.
-    files: ['scripts/**/*.js', 'vite-plugin-admin-api.js'],
+    // The build-time sync scripts, the dev admin plugin and the Vercel functions run in Node, not the
+    // browser, so they legitimately reach for `process` and `Buffer`.
+    files: ['scripts/**/*.js', 'vite-plugin-admin-api.js', 'api/**/*.js'],
     languageOptions: {
       globals: globals.node,
     },

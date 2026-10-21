@@ -26,7 +26,20 @@ export default function HiddenTrigger({ onTrigger, children }) {
   return (
     <span
       onClick={handleClick}
-      style={{ cursor: 'inherit', userSelect: 'none' }}
+      style={{
+        cursor: 'inherit',
+        userSelect: 'none',
+        WebkitUserSelect: 'none',
+        // Triple-tapping on a phone: without this the second tap zooms the page
+        // and the third never reaches us.
+        touchAction: 'manipulation',
+        WebkitTapHighlightColor: 'transparent',
+        // The copyright line is ~9px tall; pad the hit area to fingertip size
+        // without moving anything around it.
+        display: 'inline-block',
+        padding: '0.75rem 0.5rem',
+        margin: '-0.75rem -0.5rem',
+      }}
     >
       {children}
     </span>

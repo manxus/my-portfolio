@@ -1,6 +1,14 @@
+import { useAdminStore } from '../stores/adminStore';
+
 /**
- * Search movies/shows via the /api/tmdb proxy (The Movie Database).
+ * Search movies/shows via the /api/tmdb proxy (The Movie Database). On the live site the proxy
+ * only answers a logged-in admin, so the token rides along.
  */
+
+function authHeaders() {
+  const { token } = useAdminStore.getState();
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
 
 async function readError(res, fallback) {
   try {
@@ -15,7 +23,10 @@ export async function searchTitles(query, signal) {
   const q = String(query ?? '').trim();
   if (q.length < 2) return [];
 
-  const res = await fetch(`/api/tmdb?${new URLSearchParams({ q })}`, { signal });
+  const res = await fetch(`/api/tmdb?${new URLSearchParams({ q })}`, {
+    signal,
+    headers: authHeaders(),
+  });
   if (!res.ok) {
     throw new Error(await readError(res, 'Title search failed'));
   }
@@ -27,7 +38,7 @@ export async function searchTitles(query, signal) {
 export async function fetchTitleDetails(tmdbId, mediaType, signal) {
   const res = await fetch(
     `/api/tmdb?${new URLSearchParams({ id: String(tmdbId), type: mediaType })}`,
-    { signal },
+    { signal, headers: authHeaders() },
   );
   if (!res.ok) {
     throw new Error(await readError(res, 'Failed to load title details'));

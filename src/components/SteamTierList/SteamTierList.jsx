@@ -5,6 +5,7 @@ import SteamGameCover from '../SteamGameCover/SteamGameCover';
 import TierBoard, { TierCategoryBar } from '../TierBoard/TierBoard';
 import { useAdminStore } from '../../stores/adminStore';
 import styles from '../TierBoard/TierBoard.module.css';
+import { ADMIN_ENABLED } from '../../admin/adminEnabled';
 
 const defaultTierLists = defaultTierlistFile.tierLists;
 
@@ -28,7 +29,7 @@ export default function SteamTierList({ games }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
   const getData = useAdminStore((s) => s.getData);
   const saveData = useAdminStore((s) => s.saveData);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [adminTierLists, setAdminTierLists] = useState(null);
   const [activeCategory, setActiveCategory] = useState(

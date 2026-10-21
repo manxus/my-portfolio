@@ -7,6 +7,7 @@ export default function LoginModal({ onClose }) {
   const login = useAdminStore((s) => s.login);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [code, setCode] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -15,7 +16,7 @@ export default function LoginModal({ onClose }) {
     setError('');
     setLoading(true);
     try {
-      await login(username, password);
+      await login(username, password, code);
       onClose();
     } catch (err) {
       setError(err.message || 'Login failed');
@@ -67,6 +68,21 @@ export default function LoginModal({ onClose }) {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             autoComplete="current-password"
+          />
+        </label>
+
+        {/* Only checked when the server has a TOTP secret; blank is fine otherwise. */}
+        <label className={styles.label}>
+          CODE (2FA)
+          <input
+            className={styles.input}
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
+            maxLength={6}
+            value={code}
+            onChange={(e) => setCode(e.target.value.replace(/\D/g, ''))}
+            autoComplete="one-time-code"
           />
         </label>
 

@@ -7,6 +7,7 @@ import { isPerfected } from '../../utils/steamAchievements';
 import { useAdminStore } from '../../stores/adminStore';
 import { useAdminCollection } from '../../hooks/useAdminCollection';
 import styles from './SteamHallOfPain.module.css';
+import { ADMIN_ENABLED } from '../../admin/adminEnabled';
 
 const defaultEntries = hallOfPainFile.entries || [];
 
@@ -50,7 +51,7 @@ function tiltFor(appId, status) {
 
 export default function SteamHallOfPain({ games }) {
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  const isAdminUi = import.meta.env.DEV && isAuthenticated;
+  const isAdminUi = ADMIN_ENABLED && isAuthenticated;
 
   const [adminFile] = useAdminCollection('steam-hallofpain', isAdminUi);
 

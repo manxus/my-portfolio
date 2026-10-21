@@ -1,5 +1,6 @@
 import { createContext, useContext } from 'react';
 import { useAdminStore } from '../stores/adminStore';
+import { ADMIN_ENABLED } from './adminEnabled';
 
 /** Item actions an EditableSection hands to the items rendered inside it. */
 export const EditableItemsContext = createContext(null);
@@ -12,6 +13,6 @@ export const EditableItemsContext = createContext(null);
 export function useEditableItemPatch() {
   const ctx = useContext(EditableItemsContext);
   const isAuthenticated = useAdminStore((s) => s.isAuthenticated);
-  if (!import.meta.env.DEV || !isAuthenticated || !ctx) return null;
+  if (!ADMIN_ENABLED || !isAuthenticated || !ctx) return null;
   return ctx.onPatch;
 }

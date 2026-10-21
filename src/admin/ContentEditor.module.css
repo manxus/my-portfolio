@@ -24,6 +24,7 @@
   width: 100%;
   max-width: 560px;
   max-height: 85vh;
+  max-height: 85dvh;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -329,4 +330,27 @@
 .saveBtn:disabled {
   opacity: 0.4;
   cursor: not-allowed;
+}
+
+/* Phones: give the form the width, and 16px inputs so iOS doesn't zoom on focus. */
+@media (max-width: 480px) {
+  .backdrop {
+    padding: 0.5rem;
+  }
+
+  .modal {
+    padding: 1rem;
+    max-height: 92vh;
+    max-height: 92dvh;
+  }
+
+  .input,
+  .textarea {
+    font-size: 16px;
+  }
+
+  .cancelBtn,
+  .saveBtn {
+    min-height: 40px;
+  }
 }
