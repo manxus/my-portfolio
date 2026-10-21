@@ -264,7 +264,11 @@ export function createAdminHandler({ tokens, storage, sync, loginDisabledReason 
   return async function handleAdmin(req, res) {
     if (isCrossOrigin(req)) return json(res, 403, { error: 'Cross-origin request refused' });
 
-    const path = new URL(req.url, 'http://localhost').pathname.replace(/\/+$/, '');
+    // On Vercel, vercel.json rewrites /api/admin/<rest> to /api/admin?__route=<rest>: plain
+    // functions have no multi-segment catch-all, so the route travels in the query instead.
+    const url = new URL(req.url, 'http://localhost');
+    const route = url.searchParams.get('__route');
+    const path = (route !== null ? `/api/admin/${route}` : url.pathname).replace(/\/+$/, '');
 
     try {
       if (path === '/api/admin/login' && req.method === 'POST') {
