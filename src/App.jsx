@@ -177,15 +177,20 @@ export default function App() {
           </Routes>
         </AnimatePresence>
       )}
+      {/* Separate boundaries on purpose: logging in mounts the toolbar (a lazy chunk) in the
+          same render that unmounts the modal, and sharing one boundary let the toolbar's
+          suspension swallow the modal's exit, leaving it on screen until a reload. */}
       {ADMIN_ENABLED && (
-        <Suspense fallback={null}>
-          <AnimatePresence>
-            {showLogin && !isAuthenticated && (
-              <LoginModal onClose={() => setShowLogin(false)} />
-            )}
-          </AnimatePresence>
-          {isAuthenticated && <AdminToolbar />}
-        </Suspense>
+        <>
+          <Suspense fallback={null}>
+            <AnimatePresence>
+              {showLogin && !isAuthenticated && (
+                <LoginModal onClose={() => setShowLogin(false)} />
+              )}
+            </AnimatePresence>
+          </Suspense>
+          <Suspense fallback={null}>{isAuthenticated && <AdminToolbar />}</Suspense>
+        </>
       )}
 
       <UnlockToast />
