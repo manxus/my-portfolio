@@ -15,6 +15,49 @@
     />
 
     <title>Build Verified</title>
+
+    <!--
+      A tab restored from the browser cache can carry an index.html from an
+      earlier deploy, whose hashed /assets/ files no longer exist. Reload once
+      to pick up the current build instead of rendering a black page. Inline so
+      it also covers the entry chunk itself failing to load.
+    -->
+    <script>
+      (function () {
+        var KEY = 'bv_stale_reload';
+        function reloadOnce() {
+          try {
+            var last = Number(sessionStorage.getItem(KEY));
+            if (last && Date.now() - last < 10000) return false;
+            sessionStorage.setItem(KEY, String(Date.now()));
+          } catch (e) {
+            // Without storage there is no way to stop a reload loop.
+            return false;
+          }
+          location.reload();
+          return true;
+        }
+        // A lazy page chunk (or its CSS) failed to load.
+        window.addEventListener('vite:preloadError', function (event) {
+          if (reloadOnce()) event.preventDefault();
+        });
+        // The entry script, its stylesheet or a modulepreload 404'd.
+        window.addEventListener(
+          'error',
+          function (event) {
+            var el = event.target;
+            var url = el && (el.src || el.href);
+            if (
+              (el.tagName === 'SCRIPT' || el.tagName === 'LINK') &&
+              url && url.indexOf(location.origin + '/assets/') === 0
+            ) {
+              reloadOnce();
+            }
+          },
+          true,
+        );
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
