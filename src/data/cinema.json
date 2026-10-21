@@ -21260,6 +21260,42 @@
       ],
       "id": 667,
       "watchedEpisodes": {}
+    },
+    {
+      "title": "The Orville",
+      "mediaType": "tv",
+      "status": "watching",
+      "rating": "",
+      "featured": false,
+      "year": "2017",
+      "seasons": 3,
+      "episodes": 36,
+      "episodesSeen": 2,
+      "runtime": 81,
+      "tmdbRating": 7.6,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Sci-Fi & Fantasy"
+      ],
+      "overview": "Follow the crew of the not-so-functional exploratory ship in the Earth's interstellar fleet, 400 years in the future.",
+      "coverUrl": "https://image.tmdb.org/t/p/w500/78xnHh9H5wYcUeZoB0bt1UgInAW.jpg",
+      "tmdbUrl": "https://www.themoviedb.org/tv/71738",
+      "tmdbId": 71738,
+      "backdropUrl": "https://image.tmdb.org/t/p/w780/2Qg2fViQzWenpUaMjhv0kNhCbE9.jpg",
+      "tmdbVotes": 1495,
+      "seasonEpisodes": [
+        12,
+        14,
+        10
+      ],
+      "watchedEpisodes": {
+        "1": [
+          1,
+          2
+        ]
+      },
+      "id": 668
     }
   ]
 }
