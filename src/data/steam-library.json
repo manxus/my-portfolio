@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-20T10:59:25.672Z",
+  "fetchedAt": "2026-10-21T11:11:36.932Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1792485904
+    "lastLogoff": 1792578044
   },
   "games": [
     {
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 3025.9,
+      "playtimeHours": 3026,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -165782,6 +165782,411 @@
       }
     },
     {
+      "appId": 3948120,
+      "name": "Scritchy Scratchy",
+      "playtimeHours": 15,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3948120/dbc0f0af8d59826ff370f613098192e11609e8f4.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/dc726b9c35076bb0bfbf63a664bbf61638cbc2ab/header_alt_assets_0.jpg?t=1790587008",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Mar 18, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/fe38fe4f526a20452aa89a5fd3521b3747b33d66/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/35a6602e1f83035f9e14b975902ff22fd4163cdb/library_header_2x.jpg",
+      "achievements": {
+        "total": 38,
+        "unlocked": 34,
+        "items": [
+          {
+            "apiName": "Take Loan",
+            "name": "Don't read the fine print",
+            "description": "Take a loan",
+            "icon": "e283f066b2cf80b4ca1fb2528bf2206100211a82",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792459301,
+            "globalPct": 81.9
+          },
+          {
+            "apiName": "Super Jackpot",
+            "name": "What are the odds?",
+            "description": "Win a super jackpot",
+            "icon": "b820868773ab0a19fe2d02c7e3effe01e55ba0b2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792439618,
+            "globalPct": 88.8
+          },
+          {
+            "apiName": "Broken Plates",
+            "name": "Bad luck",
+            "description": "Crack 2 plates in a row",
+            "icon": "bf60bf954b2a980f59f2ccdfd0217005efe9f6d7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792490051,
+            "globalPct": 54.3
+          },
+          {
+            "apiName": "Jackpot on First Ticket",
+            "name": "Good luck",
+            "description": "Get a jackpot on the first ticket you scratch",
+            "icon": "ef0440d1856c6993db9de38aa3d1a1bd9a9cfc9d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460762,
+            "globalPct": 38.4
+          },
+          {
+            "apiName": "Trash Jackpot",
+            "name": "Why?",
+            "description": "Trash a Jackpot ticket",
+            "icon": "4f841c91708deba8052b36e67c6dd463843e51e9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792436320,
+            "globalPct": 73.4
+          },
+          {
+            "apiName": "Speedrun",
+            "name": "Speedrun",
+            "description": "Reach the ending in 30 min or less after prestige",
+            "icon": "dba1a34255eb1311f0e1e6b07f6db40c40d40fcb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792496698,
+            "globalPct": 22.4
+          },
+          {
+            "apiName": "Death_1",
+            "name": "Gambling never pays off",
+            "description": "Die",
+            "icon": "cb29133f7af284c0c3b7df4cd24fe534d3bffd97",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792434728,
+            "globalPct": 95.5
+          },
+          {
+            "apiName": "Death_2",
+            "name": "A loosing bet",
+            "description": "Die twice",
+            "icon": "07f83ed420727cd1437dce375cc78907a7e2ec84",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792442029,
+            "globalPct": 79.6
+          },
+          {
+            "apiName": "Death_3",
+            "name": "Go for broke",
+            "description": "Die three times",
+            "icon": "78367d2d54aede20cae323dffae8b336a140391a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792454953,
+            "globalPct": 68.8
+          },
+          {
+            "apiName": "Death_4",
+            "name": "House always wins",
+            "description": "Die four times",
+            "icon": "4339ff27919cf9f5b83d72c6bb8a737fa765888b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460462,
+            "globalPct": 61.2
+          },
+          {
+            "apiName": "Scratch Final Chance Without Dying",
+            "name": "Win everything?",
+            "description": "Scratch final chance without dying",
+            "icon": "47edff7f20e6987dbb376c2c37a90d844aa14d46",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792462633,
+            "globalPct": 54.2
+          },
+          {
+            "apiName": "Bad kitty",
+            "name": "Bad kitty",
+            "description": "Have mundo bankrupt you",
+            "icon": "2e5a5f0a4191c3c396356f78ca13671e0a9893c7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792438805,
+            "globalPct": 69.4
+          },
+          {
+            "apiName": "Lucky cat",
+            "name": "Lucky cat",
+            "description": "Have mundo scratch a super jackpot",
+            "icon": "498f910a613ba50259ae70033ca51884ebfe2292",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792441909,
+            "globalPct": 82.7
+          },
+          {
+            "apiName": "Win your job",
+            "name": "Win your job",
+            "description": "Win a jackpot on Day Job",
+            "icon": "9210c9b184cbf71bb8b2177efe3e528bd594fbcc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460624,
+            "globalPct": 50.2
+          },
+          {
+            "apiName": "One of each please",
+            "name": "One of each please",
+            "description": "Have all different tickets from all 4 catalogues on the table at once",
+            "icon": "38dc7c21c9618b65406ce49ecd9ee2b916dd535f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792491594,
+            "globalPct": 36.3
+          },
+          {
+            "apiName": "Winning streak",
+            "name": "Winning streak",
+            "description": "Win a jackpot on all tickets from all 4 catalogues",
+            "icon": "84d73aaccc3378f74330acbb5f9d74d5e7b1bd1c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792462456,
+            "globalPct": 39.8
+          },
+          {
+            "apiName": "Skip a catalogue",
+            "name": "Skip a catalogue",
+            "description": "Scratch final chance with a catalogue still on the table",
+            "icon": "d83cad76f84c741ae9a23363f229b28a0716724d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792494392,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "Spend all the worlds money",
+            "name": "Spend all the worlds money",
+            "description": "Buy something more expensive than the global economy",
+            "icon": "88489b310310a950cc54bda8e577c790c555eff3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792446158,
+            "globalPct": 72.1
+          },
+          {
+            "apiName": "Nap time",
+            "name": "Nap time",
+            "description": "Make 1Sx while idle for at least 5 min",
+            "icon": "fac1d1ebabf5b4f20206915ca6b218fc69d9da0c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792494297,
+            "globalPct": 42.9
+          },
+          {
+            "apiName": "Lucky ticket",
+            "name": "Lucky ticket",
+            "description": "Win a prize that is 1000 times larger than the ticket cost",
+            "icon": "5820981da7b07114b06e5e36093b42d0782424ea",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792443564,
+            "globalPct": 86.2
+          },
+          {
+            "apiName": "Big win",
+            "name": "Big win",
+            "description": "Win a prize that is 10.000 times larger than the ticket cost",
+            "icon": "fb2d31d80b81e6b5000de17763b1e3ab67242d37",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792461369,
+            "globalPct": 56.8
+          },
+          {
+            "apiName": "High level gambling",
+            "name": "High level gambling",
+            "description": "Win a prize that is 100.000 times larger than the ticket cost",
+            "icon": "8f63eadd4d18ded49ce4b221d606cdb746c9108e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792489742,
+            "globalPct": 42.9
+          },
+          {
+            "apiName": "Clicker minigame",
+            "name": "Clicker minigame",
+            "description": "Have a stack of 100 or more scratched tickets in Scratch Bot",
+            "icon": "9db475f07f03b6a7fff6985134c14bdab2998314",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792455024,
+            "globalPct": 71.5
+          },
+          {
+            "apiName": "Idle game",
+            "name": "Idle game",
+            "description": "Start with all automation gadgets unlocked",
+            "icon": "874d3760abe5e4545a3fad12b056d14926ba44a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460564,
+            "globalPct": 52.8
+          },
+          {
+            "apiName": "Max out skill tree",
+            "name": "Max out skill tree",
+            "description": "Buy all prestige upgrades",
+            "icon": "588a17c14cf84e412389c4282227442dd59a3ad3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.3
+          },
+          {
+            "apiName": "Visit the Night Market",
+            "name": "Visit the Night Market",
+            "description": "Buy and equip a cosmetic",
+            "icon": "0e52a6ec7719cb38461f2fa43eafda0646d71038",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792437107,
+            "globalPct": 70.1
+          },
+          {
+            "apiName": "Walk-in-closet",
+            "name": "Walk-in-closet",
+            "description": "Buy all cosmetics",
+            "icon": "b63a1c86d3ae6e8ed31135ade630a38f2ed5ee60",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792496776,
+            "globalPct": 29.2
+          },
+          {
+            "apiName": "Honest work",
+            "name": "Honest work",
+            "description": "Have $2000 without buying a scratch-off",
+            "icon": "848f1713a6353eb63208cec8b62a87def432e8d8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460653,
+            "globalPct": 42.3
+          },
+          {
+            "apiName": "Workaholic",
+            "name": "Workaholic",
+            "description": "Have $20M without buying a scratch-off",
+            "icon": "44cb54a010a902d99998f86dfe912eb707c75a3e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792493434,
+            "globalPct": 26
+          },
+          {
+            "apiName": "Soul Siphon",
+            "name": "Soul Siphon",
+            "description": "Create an artificial soul",
+            "icon": "7fb602c44709ae69b6b89c8ced61b51992b7cb6f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460776,
+            "globalPct": 58.1
+          },
+          {
+            "apiName": "Wizard",
+            "name": "Wizard",
+            "description": "Use magic to scratch a ticket",
+            "icon": "6b68707924471e773bd0651f9692666d4d0d4dfb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792446268,
+            "globalPct": 71.2
+          },
+          {
+            "apiName": "Time machine",
+            "name": "Time machine",
+            "description": "Upgrade Egg Timer to x5 speed",
+            "icon": "a2f1a703f01df74828c1358b84791c8f180ecbb0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792460366,
+            "globalPct": 55
+          },
+          {
+            "apiName": "Faithful Servant",
+            "name": "Faithful Servant",
+            "description": "Give the winning Final Chance to the corporation",
+            "icon": "b602c8c15a718df4ac808bf9964f43a69ec9f443",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792494983,
+            "globalPct": 24.2
+          },
+          {
+            "apiName": "Achievement Hunter",
+            "name": "Achievement Hunter",
+            "description": "Get all achievements in the game",
+            "icon": "0460dda56d7fbdaf7f46016475b42ffa9f8d2331",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.7
+          },
+          {
+            "apiName": "Challenge_1",
+            "name": "Challenge Apprentice",
+            "description": "Complete 1 challenge",
+            "icon": "2f7aed0d6677703d1d867e69c3d20fecab481f87",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792522407,
+            "globalPct": 6.2
+          },
+          {
+            "apiName": "Challenge_5",
+            "name": "Challenge Novice",
+            "description": "Complete 5 challenges",
+            "icon": "dcd77b56ec1e923033b7a9163bf0cf993602f660",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792537996,
+            "globalPct": 3.3
+          },
+          {
+            "apiName": "Challenge_All",
+            "name": "Challenge Master",
+            "description": "Complete all challenges",
+            "icon": "0e1b472a3c1700793dd09bfe6698cf3bdf3cce04",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "Beach Ending",
+            "name": "No more gambling",
+            "description": "Find and scratch the Scritchy Scratchy Headquarters",
+            "icon": "498a4189376eea7190e9651f03d9d875429361ee",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.1
+          }
+        ]
+      }
+    },
+    {
       "appId": 960090,
       "name": "Bloons TD 6",
       "playtimeHours": 14.9,
@@ -200638,411 +201043,6 @@
             "unlocked": true,
             "unlockTime": 1476377509,
             "globalPct": 18.7
-          }
-        ]
-      }
-    },
-    {
-      "appId": 3948120,
-      "name": "Scritchy Scratchy",
-      "playtimeHours": 9.6,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3948120/dbc0f0af8d59826ff370f613098192e11609e8f4.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/dc726b9c35076bb0bfbf63a664bbf61638cbc2ab/header_alt_assets_0.jpg?t=1790587008",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Mar 18, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/fe38fe4f526a20452aa89a5fd3521b3747b33d66/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948120/35a6602e1f83035f9e14b975902ff22fd4163cdb/library_header_2x.jpg",
-      "achievements": {
-        "total": 38,
-        "unlocked": 27,
-        "items": [
-          {
-            "apiName": "Take Loan",
-            "name": "Don't read the fine print",
-            "description": "Take a loan",
-            "icon": "e283f066b2cf80b4ca1fb2528bf2206100211a82",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792459301,
-            "globalPct": 81.9
-          },
-          {
-            "apiName": "Super Jackpot",
-            "name": "What are the odds?",
-            "description": "Win a super jackpot",
-            "icon": "b820868773ab0a19fe2d02c7e3effe01e55ba0b2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792439618,
-            "globalPct": 88.8
-          },
-          {
-            "apiName": "Broken Plates",
-            "name": "Bad luck",
-            "description": "Crack 2 plates in a row",
-            "icon": "bf60bf954b2a980f59f2ccdfd0217005efe9f6d7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792490051,
-            "globalPct": 54.3
-          },
-          {
-            "apiName": "Jackpot on First Ticket",
-            "name": "Good luck",
-            "description": "Get a jackpot on the first ticket you scratch",
-            "icon": "ef0440d1856c6993db9de38aa3d1a1bd9a9cfc9d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792460762,
-            "globalPct": 38.4
-          },
-          {
-            "apiName": "Trash Jackpot",
-            "name": "Why?",
-            "description": "Trash a Jackpot ticket",
-            "icon": "4f841c91708deba8052b36e67c6dd463843e51e9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792436320,
-            "globalPct": 73.4
-          },
-          {
-            "apiName": "Speedrun",
-            "name": "Speedrun",
-            "description": "Reach the ending in 30 min or less after prestige",
-            "icon": "dba1a34255eb1311f0e1e6b07f6db40c40d40fcb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 22.4
-          },
-          {
-            "apiName": "Death_1",
-            "name": "Gambling never pays off",
-            "description": "Die",
-            "icon": "cb29133f7af284c0c3b7df4cd24fe534d3bffd97",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792434728,
-            "globalPct": 95.5
-          },
-          {
-            "apiName": "Death_2",
-            "name": "A loosing bet",
-            "description": "Die twice",
-            "icon": "07f83ed420727cd1437dce375cc78907a7e2ec84",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792442029,
-            "globalPct": 79.6
-          },
-          {
-            "apiName": "Death_3",
-            "name": "Go for broke",
-            "description": "Die three times",
-            "icon": "78367d2d54aede20cae323dffae8b336a140391a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792454953,
-            "globalPct": 68.8
-          },
-          {
-            "apiName": "Death_4",
-            "name": "House always wins",
-            "description": "Die four times",
-            "icon": "4339ff27919cf9f5b83d72c6bb8a737fa765888b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792460462,
-            "globalPct": 61.2
-          },
-          {
-            "apiName": "Scratch Final Chance Without Dying",
-            "name": "Win everything?",
-            "description": "Scratch final chance without dying",
-            "icon": "47edff7f20e6987dbb376c2c37a90d844aa14d46",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792462633,
-            "globalPct": 54.2
-          },
-          {
-            "apiName": "Bad kitty",
-            "name": "Bad kitty",
-            "description": "Have mundo bankrupt you",
-            "icon": "2e5a5f0a4191c3c396356f78ca13671e0a9893c7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792438805,
-            "globalPct": 69.4
-          },
-          {
-            "apiName": "Lucky cat",
-            "name": "Lucky cat",
-            "description": "Have mundo scratch a super jackpot",
-            "icon": "498f910a613ba50259ae70033ca51884ebfe2292",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792441909,
-            "globalPct": 82.7
-          },
-          {
-            "apiName": "Win your job",
-            "name": "Win your job",
-            "description": "Win a jackpot on Day Job",
-            "icon": "9210c9b184cbf71bb8b2177efe3e528bd594fbcc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792460624,
-            "globalPct": 50.2
-          },
-          {
-            "apiName": "One of each please",
-            "name": "One of each please",
-            "description": "Have all different tickets from all 4 catalogues on the table at once",
-            "icon": "38dc7c21c9618b65406ce49ecd9ee2b916dd535f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792491594,
-            "globalPct": 36.3
-          },
-          {
-            "apiName": "Winning streak",
-            "name": "Winning streak",
-            "description": "Win a jackpot on all tickets from all 4 catalogues",
-            "icon": "84d73aaccc3378f74330acbb5f9d74d5e7b1bd1c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792462456,
-            "globalPct": 39.8
-          },
-          {
-            "apiName": "Skip a catalogue",
-            "name": "Skip a catalogue",
-            "description": "Scratch final chance with a catalogue still on the table",
-            "icon": "d83cad76f84c741ae9a23363f229b28a0716724d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.4
-          },
-          {
-            "apiName": "Spend all the worlds money",
-            "name": "Spend all the worlds money",
-            "description": "Buy something more expensive than the global economy",
-            "icon": "88489b310310a950cc54bda8e577c790c555eff3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792446158,
-            "globalPct": 72.1
-          },
-          {
-            "apiName": "Nap time",
-            "name": "Nap time",
-            "description": "Make 1Sx while idle for at least 5 min",
-            "icon": "fac1d1ebabf5b4f20206915ca6b218fc69d9da0c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 42.9
-          },
-          {
-            "apiName": "Lucky ticket",
-            "name": "Lucky ticket",
-            "description": "Win a prize that is 1000 times larger than the ticket cost",
-            "icon": "5820981da7b07114b06e5e36093b42d0782424ea",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792443564,
-            "globalPct": 86.2
-          },
-          {
-            "apiName": "Big win",
-            "name": "Big win",
-            "description": "Win a prize that is 10.000 times larger than the ticket cost",
-            "icon": "fb2d31d80b81e6b5000de17763b1e3ab67242d37",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792461369,
-            "globalPct": 56.8
-          },
-          {
-            "apiName": "High level gambling",
-            "name": "High level gambling",
-            "description": "Win a prize that is 100.000 times larger than the ticket cost",
-            "icon": "8f63eadd4d18ded49ce4b221d606cdb746c9108e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792489742,
-            "globalPct": 42.9
-          },
-          {
-            "apiName": "Clicker minigame",
-            "name": "Clicker minigame",
-            "description": "Have a stack of 100 or more scratched tickets in Scratch Bot",
-            "icon": "9db475f07f03b6a7fff6985134c14bdab2998314",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792455024,
-            "globalPct": 71.5
-          },
-          {
-            "apiName": "Idle game",
-            "name": "Idle game",
-            "description": "Start with all automation gadgets unlocked",
-            "icon": "874d3760abe5e4545a3fad12b056d14926ba44a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792460564,
-            "globalPct": 52.8
-          },
-          {
-            "apiName": "Max out skill tree",
-            "name": "Max out skill tree",
-            "description": "Buy all prestige upgrades",
-            "icon": "588a17c14cf84e412389c4282227442dd59a3ad3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.3
-          },
-          {
-            "apiName": "Visit the Night Market",
-            "name": "Visit the Night Market",
-            "description": "Buy and equip a cosmetic",
-            "icon": "0e52a6ec7719cb38461f2fa43eafda0646d71038",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792437107,
-            "globalPct": 70.1
-          },
-          {
-            "apiName": "Walk-in-closet",
-            "name": "Walk-in-closet",
-            "description": "Buy all cosmetics",
-            "icon": "b63a1c86d3ae6e8ed31135ade630a38f2ed5ee60",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 29.2
-          },
-          {
-            "apiName": "Honest work",
-            "name": "Honest work",
-            "description": "Have $2000 without buying a scratch-off",
-            "icon": "848f1713a6353eb63208cec8b62a87def432e8d8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792460653,
-            "globalPct": 42.3
-          },
-          {
-            "apiName": "Workaholic",
-            "name": "Workaholic",
-            "description": "Have $20M without buying a scratch-off",
-            "icon": "44cb54a010a902d99998f86dfe912eb707c75a3e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792493434,
-            "globalPct": 26
-          },
-          {
-            "apiName": "Soul Siphon",
-            "name": "Soul Siphon",
-            "description": "Create an artificial soul",
-            "icon": "7fb602c44709ae69b6b89c8ced61b51992b7cb6f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792460776,
-            "globalPct": 58.1
-          },
-          {
-            "apiName": "Wizard",
-            "name": "Wizard",
-            "description": "Use magic to scratch a ticket",
-            "icon": "6b68707924471e773bd0651f9692666d4d0d4dfb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792446268,
-            "globalPct": 71.2
-          },
-          {
-            "apiName": "Time machine",
-            "name": "Time machine",
-            "description": "Upgrade Egg Timer to x5 speed",
-            "icon": "a2f1a703f01df74828c1358b84791c8f180ecbb0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792460366,
-            "globalPct": 55
-          },
-          {
-            "apiName": "Faithful Servant",
-            "name": "Faithful Servant",
-            "description": "Give the winning Final Chance to the corporation",
-            "icon": "b602c8c15a718df4ac808bf9964f43a69ec9f443",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.2
-          },
-          {
-            "apiName": "Achievement Hunter",
-            "name": "Achievement Hunter",
-            "description": "Get all achievements in the game",
-            "icon": "0460dda56d7fbdaf7f46016475b42ffa9f8d2331",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.7
-          },
-          {
-            "apiName": "Challenge_1",
-            "name": "Challenge Apprentice",
-            "description": "Complete 1 challenge",
-            "icon": "2f7aed0d6677703d1d867e69c3d20fecab481f87",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.2
-          },
-          {
-            "apiName": "Challenge_5",
-            "name": "Challenge Novice",
-            "description": "Complete 5 challenges",
-            "icon": "dcd77b56ec1e923033b7a9163bf0cf993602f660",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.3
-          },
-          {
-            "apiName": "Challenge_All",
-            "name": "Challenge Master",
-            "description": "Complete all challenges",
-            "icon": "0e1b472a3c1700793dd09bfe6698cf3bdf3cce04",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "Beach Ending",
-            "name": "No more gambling",
-            "description": "Find and scratch the Scritchy Scratchy Headquarters",
-            "icon": "498a4189376eea7190e9651f03d9d875429361ee",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.1
           }
         ]
       }
@@ -279612,6 +279612,131 @@
       }
     },
     {
+      "appId": 3829620,
+      "name": "Execute",
+      "playtimeHours": 2.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3829620/a4f7b071dc1fecddaa7a1d923ba2c81a736f6f9f.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/header.jpg?t=1782402837",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Dec 16, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/19f857ff229b0de3be1c65fd00be3135f7bcdeb8/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/library_header_2x.jpg",
+      "achievements": {
+        "total": 10,
+        "unlocked": 3,
+        "items": [
+          {
+            "apiName": "ACH_OFF_WE_GO",
+            "name": "Off We Go",
+            "description": "Cut off the head of your first victim!",
+            "icon": "a331c252b582e43a268a43b449457952877f80b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792539286,
+            "globalPct": 98.6
+          },
+          {
+            "apiName": "ACH_IS_THAT_PEOPLE",
+            "name": "Eww Is That People?",
+            "description": "Make your first chunk of dark glass.",
+            "icon": "ed370e87316c9ac0ff2ebbcc05f091d6f0423c60",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792542117,
+            "globalPct": 83
+          },
+          {
+            "apiName": "ACH_WHO_MADE_THIS",
+            "name": "Who Made This Game...?",
+            "description": "Use the Mega Guillotine For The First Time.",
+            "icon": "a9388a688ce766659a5759cf2433bb65ec1d5d05",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792579419,
+            "globalPct": 75.3
+          },
+          {
+            "apiName": "ACH_ARE_YOU_OK",
+            "name": "Are You OK?",
+            "description": "Reach the end of the game...",
+            "icon": "8e1a672087aed7a7547c1ee69220ce42b99546e0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 70.4
+          },
+          {
+            "apiName": "ACH_THE_MONEY_COMING_FROM",
+            "name": "Where Is The Money Coming From?",
+            "description": "Obtain 25 million dollars. (no cheats)",
+            "icon": "8fc579975c7d50e4da635528bba3779aa3044a8e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 64
+          },
+          {
+            "apiName": "ACH_THE_GOLD_COMING_FROM",
+            "name": "Where is the Gold Coming From?",
+            "description": "Obtain 10k Gold. (no cheats)",
+            "icon": "4ae0217685f160c72841b1fcaa7cc4778d2f5f0b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 54.9
+          },
+          {
+            "apiName": "ACH_MUTANTS",
+            "name": "Mutants!",
+            "description": "Raise Fallout Levels to 1000.",
+            "icon": "979ac3f30fbbffa99474cb5d1858aab360550659",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 67.9
+          },
+          {
+            "apiName": "ACH_BIG_ONE",
+            "name": "THE BIG ONE",
+            "description": "Launch the large nuke.",
+            "icon": "ac01edafbea1d357d06f17be0d140c3c257337aa",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 71.3
+          },
+          {
+            "apiName": "ACH_INCREDIBLE",
+            "name": "Mr. Incredible ",
+            "description": "Beat the game in 20 mins or less. With or without Cheats.",
+            "icon": "f41120b73c85a565d7f1d065456423706adf4abb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.8
+          },
+          {
+            "apiName": "ACH_90_MIN",
+            "name": "2hr 10min Apocalypse",
+            "description": "Beat the game in 2hrs and 10mins or less... Without Cheats.",
+            "icon": "a9c2e42ca1a276d8c6310dcdb257b6faa7eb135f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.6
+          }
+        ]
+      }
+    },
+    {
       "appId": 1351360,
       "name": "DevLife",
       "playtimeHours": 2.1,
@@ -328083,7 +328208,7 @@
       "appId": 24240,
       "name": "PAYDAY: The Heist",
       "playtimeHours": 0.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/24240/a07ceea8808f1a2104ed1c864756f263ec67df49.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/24240/928f73093e3a9be2019de1de612d473d07e2954e.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/24240/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -382899,29 +383024,6 @@
       }
     },
     {
-      "appId": 3829620,
-      "name": "Execute",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3829620/a4f7b071dc1fecddaa7a1d923ba2c81a736f6f9f.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/header.jpg?t=1782402837",
-      "genres": [
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Dec 16, 2025",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/19f857ff229b0de3be1c65fd00be3135f7bcdeb8/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/library_header_2x.jpg",
-      "achievements": {
-        "total": 10,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 3839300,
       "name": "Dogpile",
       "playtimeHours": 0,
@@ -384779,7 +384881,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -384787,7 +384889,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -384795,7 +384897,7 @@
       "dateAdded": 1524265466,
       "priority": 385,
       "name": "Squad 44",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/header.jpg?t=1790967343",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/736220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/fae382a414c681d84f743a85cef8bf33352e5eaf/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/d9ab5f721701f675483d8b93ed61831f54425088/library_header_2x.jpg"
     },
@@ -384804,14 +384906,14 @@
       "dateAdded": 1635094925,
       "priority": 0,
       "name": "Kingdom Workshop",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/741340/header.jpg?t=1634111960"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/741340/header.jpg"
     },
     {
       "appId": 742300,
       "dateAdded": 1538501315,
       "priority": 392,
       "name": "Mega Man 11",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1787717265",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/library_600x900_2x.jpg"
     },
     {
@@ -384819,7 +384921,7 @@
       "dateAdded": 1560357191,
       "priority": 394,
       "name": "Duck Season PC",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/header.jpg?t=1667678098",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746510/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/library_600x900_2x.jpg"
     },
     {
@@ -384827,7 +384929,7 @@
       "dateAdded": 1593087169,
       "priority": 0,
       "name": "Cloudpunk",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/header.jpg?t=1729027817",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746850/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/library_600x900_2x.jpg"
     },
     {
@@ -384835,7 +384937,7 @@
       "dateAdded": 1617959696,
       "priority": 0,
       "name": "AWAY: The Survival Series",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/header.jpg?t=1739840210",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750200/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/library_600x900_2x.jpg"
     },
     {
@@ -384843,7 +384945,7 @@
       "dateAdded": 1640607398,
       "priority": 0,
       "name": "Slice of Sea",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/header.jpg?t=1748509146",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_header.jpg"
     },
@@ -384852,7 +384954,7 @@
       "dateAdded": 1784476827,
       "priority": 0,
       "name": "Scientific project: Optic",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/15a499844e1f0eb4671c936382529e34f2b5da89/header.jpg?t=1786957747",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/752290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/cd373376f2fd6f4acfe2ecb02fdf265bfbd39151/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/15a499844e1f0eb4671c936382529e34f2b5da89/library_header_2x.jpg"
     },
@@ -384878,7 +384980,7 @@
       "dateAdded": 1684137115,
       "priority": 0,
       "name": "Firmament",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754890/header.jpg?t=1773702134",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/754890/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754890/library_600x900_2x.jpg"
     },
     {
@@ -384886,7 +384988,7 @@
       "dateAdded": 1551024850,
       "priority": 402,
       "name": "Contraband Police",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/header.jpg?t=1787754316",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/756800/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/756800/18d980a530540d58324982aa4538edfabc182b59/library_header_2x.jpg"
     },
@@ -384895,7 +384997,7 @@
       "dateAdded": 1555280884,
       "priority": 404,
       "name": "Football Story",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/53cf861d8c0e6abcb60fc0b0ce6b2985bd0b2944/header.jpg?t=1792434407",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/757550/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/95956d9ee8420a363a26f5e9f4bf124ca2899523/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/53cf861d8c0e6abcb60fc0b0ce6b2985bd0b2944/library_header_2x.jpg"
     },
@@ -384904,7 +385006,7 @@
       "dateAdded": 1605736966,
       "priority": 0,
       "name": "Occupy Mars: The Game",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/header_alt_assets_9.jpg?t=1788284061",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758690/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/47e3333e29936ffbe5f82b7fc13959a7cae34c90/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/library_header_2x.jpg"
     },
@@ -384913,7 +385015,7 @@
       "dateAdded": 1541535283,
       "priority": 407,
       "name": "Kynseed",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/header.jpg?t=1784301962",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/2264f976adb24ef5ad0f6163cfd0288db8f7fd17/library_header_2x.jpg"
     },
@@ -384922,7 +385024,7 @@
       "dateAdded": 1603497577,
       "priority": 0,
       "name": "Afterparty",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762220/header.jpg?t=1726593200",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/762220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762220/library_600x900_2x.jpg"
     },
     {
@@ -384930,7 +385032,7 @@
       "dateAdded": 1763869244,
       "priority": 0,
       "name": "Projekt Z: Beyond Order",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/header.jpg?t=1788032969",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/763310/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_header.jpg"
     },
@@ -384939,7 +385041,7 @@
       "dateAdded": 1623871846,
       "priority": 0,
       "name": "Wildermyth",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763890/header.jpg?t=1740520937",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/763890/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763890/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763890/ceb9b0dfbddce5744b25142c7227bedb65d6db19/library_header_2x.jpg"
     },
@@ -384948,7 +385050,7 @@
       "dateAdded": 1601242769,
       "priority": 0,
       "name": "Mars Horizon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/765810/header.jpg?t=1778511889",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/765810/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/765810/library_600x900_2x.jpg"
     },
     {
@@ -384956,7 +385058,7 @@
       "dateAdded": 1643277370,
       "priority": 0,
       "name": "Last Wood",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/767490/header.jpg?t=1745568990",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/767490/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/767490/library_600x900_2x.jpg"
     },
     {
@@ -384964,7 +385066,7 @@
       "dateAdded": 1644170227,
       "priority": 0,
       "name": "Airhead",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/771700/header.jpg?t=1791459503",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/771700/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/771700/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/771700/832f51013c15329a082255820321962b4ac96fb9/library_header_2x.jpg"
     },
@@ -384973,7 +385075,7 @@
       "dateAdded": 1770916000,
       "priority": 0,
       "name": "Last Man Sitting",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1792068178",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774291/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/803bf1ec7353a49fbe7dc1cb3e82a942a913c202/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/5c05281696891c8cb3df8395efa376f39f9f8c09/library_header_2x.jpg"
     },
@@ -384998,7 +385100,7 @@
       "dateAdded": 1773267527,
       "priority": 0,
       "name": "Crab Champions",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774801/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/header.jpg?t=1785701226",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/library_600x900_2x.jpg"
     },
     {
@@ -385045,7 +385147,7 @@
       "dateAdded": 1596309015,
       "priority": 0,
       "name": "Terraforming Mars",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/header.jpg?t=1769091240",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/800270/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/123587e1fcf3674e1a5f86f729ec964e33c9b2a4/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/12325b0c5d7aa35b788b1a82e3d1d5ece9530e31/library_header_2x.jpg"
     },
@@ -385054,7 +385156,7 @@
       "dateAdded": 1737219890,
       "priority": 0,
       "name": "Atomfall",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg?t=1776701587",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/801800/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/2b7ed6a84485e94108c4cedd2388040858302242/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/47a6958f09dbf42a5bb9ba5dfbca02938b298b36/library_header.jpg"
     },
@@ -385087,7 +385189,7 @@
       "dateAdded": 1528827082,
       "priority": 434,
       "name": "Assassin's Creed® Odyssey",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1786633104",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/library_600x900_2x.jpg"
     },
     {
@@ -385144,7 +385246,7 @@
       "dateAdded": 1576191190,
       "priority": 0,
       "name": "BONEWORKS",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/823500/header.jpg?t=1581381377",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/823500/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/823500/library_600x900_2x.jpg"
     },
     {
@@ -385219,7 +385321,7 @@
       "dateAdded": 1548886736,
       "priority": 447,
       "name": "Subnautica: Below Zero",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1777456254",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/library_600x900_2x.jpg"
     },
     {
@@ -390685,7 +390787,7 @@
       "dateAdded": 1670602504,
       "priority": 0,
       "name": "STAR WARS Jedi: Survivor™",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg?t=1788257050",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/library_600x900_2x.jpg"
     },
     {
@@ -390702,7 +390804,7 @@
       "dateAdded": 1670285153,
       "priority": 0,
       "name": "TEKKEN 8",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/c7b0b80639fc8c7d386922f414f293ca849e8e81/header.jpg?t=1787180720",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/library_600x900_2x.jpg"
     },
     {
@@ -390718,7 +390820,7 @@
       "dateAdded": 1749485235,
       "priority": 0,
       "name": "The Last Caretaker",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1792479632",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1783560/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/f09cecef778ea213c6ab144675f1ca69f9245c22/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/library_header_2x.jpg"
     },
@@ -390736,7 +390838,7 @@
       "dateAdded": 1701282396,
       "priority": 0,
       "name": "Orten Was The Case",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1785420/header.jpg?t=1709067727",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1785420/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1785420/library_600x900_2x.jpg"
     },
     {
@@ -390838,7 +390940,7 @@
       "dateAdded": 1710690757,
       "priority": 0,
       "name": "ARC Raiders",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/29e8af9fbf06833558758f94cfb406746f338c45/header_alt_assets_8.jpg?t=1791401542",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1808500/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/e33d26c3175e3f590a0153fdcf0f4863f6c84288/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/library_header_2x.jpg"
     },
@@ -390888,7 +390990,7 @@
       "dateAdded": 1705368516,
       "priority": 0,
       "name": "Oddsparks: An Automation Adventure",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817800/c505cd263cf0cb85f1e69fac24de81b196141212/header.jpg?t=1791461895",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817800/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817800/6e0b5d417b35c65d1a4c799a35e2817e2e89205f/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817800/be25d619e6f67d4a7cc89fa45d7074a7b3655000/library_header_2x.jpg"
     },
@@ -390924,7 +391026,7 @@
       "dateAdded": 1686237346,
       "priority": 0,
       "name": "Chessarama",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831830/header.jpg?t=1745518342",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1831830/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831830/fa0211c92e71293a8aaeb7dfd1e7667c84a34a03/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831830/library_header_2x.jpg"
     },
@@ -394373,8 +394475,8 @@
       "priority": 0,
       "name": "Grounded 2",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2661300/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/a75d74c53b8ebfe2d2949ff398e50dd14092f049/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/b52405d3dd3d4bfd356cd9af7b399bcbc5a23f7e/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/64f074d18d8f7f0a9a48b7cffb7967193c5ad389/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/91c758b9591805d15b26d9fa185a8b9ebab0a334/library_header_2x.jpg"
     },
     {
       "appId": 2662780,
@@ -396831,8 +396933,8 @@
       "priority": 0,
       "name": "Mycopunk",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3247750/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/d2a822567e330e58cfda50ca86f75b2b0edc1877/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/c5ee17f8fbceaafe56bb43794abc000f6c1112ff/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/aec17c882d85fa0b486fc26fef596bee466670d2/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/67b1dc819a93d4e855b213b518f25a9700f46434/library_header_2x.jpg"
     },
     {
       "appId": 3249380,
