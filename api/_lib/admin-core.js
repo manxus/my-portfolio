@@ -338,8 +338,12 @@ export function createAdminHandler({ tokens, storage, sync, loginDisabledReason 
         }
         if (req.method === 'PUT') {
           const body = await readJsonBody(req);
-          const ifMatch = req.headers['if-match']?.replace(/"/g, '');
-          const result = await storage.write(name, body, { ifMatch });
+          // Vercel compresses responses and so weakens the ETag to W/"<sha>" on the way out;
+          // take the sha back out of it, and drop anything that isn't one rather than send
+          // GitHub a version it can only reject as a conflict.
+          const ifMatch = req.headers['if-match']?.replace(/^W\//, '').replace(/"/g, '');
+          const version = /^[0-9a-f]{40}$/.test(ifMatch ?? '') ? ifMatch : undefined;
+          const result = await storage.write(name, body, { ifMatch: version });
           if (result?.conflict) {
             return json(res, 409, {
               error: `${name} changed somewhere else since you loaded it. Reload and redo the edit.`,

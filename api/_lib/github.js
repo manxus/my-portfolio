@@ -84,7 +84,7 @@ async function commitFile(repoPath, base64, message, sha) {
     method: 'PUT',
     body: { message, content: base64, branch, ...(currentSha ? { sha: currentSha } : {}) },
   });
-  if (res.status === 409 || (sha && res.status === 422)) return { conflict: true };
+  if (res.status === 409) return { conflict: true };
   if (!res.ok) {
     const text = await res.text().catch(() => '');
     throw new Error(`GitHub write of ${repoPath} failed (${res.status}): ${text.slice(0, 300)}`);
