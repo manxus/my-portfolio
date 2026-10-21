@@ -1,9 +1,6 @@
 name: Sync Deep Rock Galactic Data
 
 on:
-  schedule:
-    # Staggered against the other game syncs so they never contend for the same API key.
-    - cron: '0 8 * * 1'
   workflow_dispatch:
 
 jobs:

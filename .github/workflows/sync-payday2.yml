@@ -1,9 +1,6 @@
 name: Sync PAYDAY 2 Data
 
 on:
-  schedule:
-    # Staggered against the other game syncs so they never contend for the same API key.
-    - cron: '0 11 * * 1'
   workflow_dispatch:
 
 jobs:

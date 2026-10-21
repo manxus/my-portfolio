@@ -1,9 +1,6 @@
 name: Sync Satisfactory Data
 
 on:
-  schedule:
-    # Staggered against the other game syncs so they never contend for the same API key.
-    - cron: '0 9 * * 1'
   workflow_dispatch:
 
 jobs:

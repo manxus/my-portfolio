@@ -1,9 +1,6 @@
 name: Sync Team Fortress 2 Data
 
 on:
-  schedule:
-    # Staggered against the other game syncs so they never contend for the same API key.
-    - cron: '0 10 * * 1'
   workflow_dispatch:
 
 jobs:

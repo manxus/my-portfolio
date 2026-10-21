@@ -4,7 +4,7 @@ import { SYNC_TARGETS } from './admin-core.js';
  * The live site's half of the admin API: Vercel's filesystem is read-only and thrown away per
  * request, so a save becomes a commit to the repository through the GitHub REST API, and the
  * Vercel build that commit triggers puts it on the site about a minute later. Syncs dispatch the
- * same GitHub Actions workflows the daily cron runs.
+ * game's GitHub Actions sync workflow, which has no schedule of its own.
  *
  * Needs GITHUB_TOKEN: a fine-grained token for this one repository with Contents and Actions
  * read/write.

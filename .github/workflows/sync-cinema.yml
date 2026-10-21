@@ -1,14 +1,32 @@
 name: Sync Cinema Shows
 
-# Weekly rather than nightly: a show gains a season a few times a year, and the
-# run costs one TMDB call per tracked show.
 on:
   schedule:
-    - cron: '0 5 * * 1'
+    - cron: '0 22 * * *'
+    - cron: '0 23 * * *'
   workflow_dispatch:
 
 jobs:
+  # GitHub cron only speaks UTC, so both candidate hours fire and this keeps the one that is
+  # midnight in Stockholm: 22:00 UTC in summer time, 23:00 UTC in winter time. The offset is
+  # read for the evening of the run, which the 01:00 UTC switch never splits.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          case "$SCHEDULE:$(TZ=Europe/Stockholm date +%z)" in
+            :*|'0 22 * * *:+0200'|'0 23 * * *:+0100') echo "run=true" >> "$GITHUB_OUTPUT" ;;
+            *) echo "Not midnight in Stockholm, skipping." ;;
+          esac
+
   sync:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
