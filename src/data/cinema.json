@@ -522,13 +522,13 @@
     {
       "title": "South Park",
       "mediaType": "tv",
-      "status": "watched",
+      "status": "watching",
       "rating": "",
       "featured": true,
       "year": "1997",
       "seasons": 29,
-      "episodes": 337,
-      "episodesSeen": 337,
+      "episodes": 334,
+      "episodesSeen": 331,
       "runtime": 22,
       "genres": [
         "Animation",
@@ -569,7 +569,7 @@
         6,
         5,
         5,
-        6
+        3
       ],
       "watchedEpisodes": {
         "1": [
@@ -958,14 +958,6 @@
           3,
           4,
           5
-        ],
-        "29": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
         ]
       },
       "tmdbRating": 8.3,
@@ -1185,8 +1177,8 @@
       "rating": "",
       "featured": false,
       "year": "2023",
-      "seasons": 2,
-      "episodes": 16,
+      "seasons": 1,
+      "episodes": 8,
       "episodesSeen": 0,
       "runtime": 49,
       "genres": [
@@ -1200,7 +1192,6 @@
       "backdropUrl": "https://image.tmdb.org/t/p/w780/loDy1LWCkPjECjVTRmyKtOoUpNN.jpg",
       "id": 16,
       "seasonEpisodes": [
-        8,
         8
       ],
       "watchedEpisodes": {},
@@ -14733,8 +14724,8 @@
       "rating": "",
       "featured": false,
       "year": "2022",
-      "seasons": 3,
-      "episodes": 24,
+      "seasons": 2,
+      "episodes": 16,
       "episodesSeen": 0,
       "runtime": 74,
       "genres": [
@@ -14749,7 +14740,6 @@
       "backdropUrl": "https://image.tmdb.org/t/p/w780/o2wg8QiSCQrhj91tBfxunE3O5Ba.jpg",
       "id": 477,
       "seasonEpisodes": [
-        8,
         8,
         8
       ],
@@ -16793,7 +16783,7 @@
       "rating": "",
       "featured": false,
       "year": "2022",
-      "seasons": 3,
+      "seasons": 2,
       "episodes": 19,
       "episodesSeen": 0,
       "runtime": 80,
@@ -16810,8 +16800,7 @@
       "id": 555,
       "seasonEpisodes": [
         9,
-        10,
-        0
+        10
       ],
       "watchedEpisodes": {},
       "tmdbRating": 8.4,
@@ -17037,7 +17026,7 @@
       "featured": false,
       "year": "1989",
       "seasons": 38,
-      "episodes": 808,
+      "episodes": 804,
       "episodesSeen": 0,
       "runtime": 21,
       "genres": [
@@ -17088,7 +17077,7 @@
         18,
         18,
         15,
-        7
+        3
       ],
       "watchedEpisodes": {},
       "tmdbRating": 8,
@@ -17309,8 +17298,8 @@
       "rating": "",
       "featured": false,
       "year": "1999",
-      "seasons": 19,
-      "episodes": 689,
+      "seasons": 17,
+      "episodes": 650,
       "episodesSeen": 0,
       "runtime": 11,
       "genres": [
@@ -17341,9 +17330,7 @@
         23,
         24,
         22,
-        26,
-        23,
-        10
+        20
       ],
       "watchedEpisodes": {},
       "tmdbRating": 7.7,

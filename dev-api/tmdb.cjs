@@ -61,15 +61,33 @@ function collectionName(item) {
 }
 
 /**
- * Episodes per season, index 0 = season 1. Season 0 is TMDB's specials bucket and
- * is excluded from `number_of_episodes`, so dropping it here keeps this array
- * summing to the show's stated total.
+ * Aired episodes per season, index 0 = season 1. Season 0 is TMDB's specials
+ * bucket and is dropped. Counts are cut at `last_episode_to_air`, because TMDB
+ * lists an announced season's full order before it airs and a show marked
+ * watched would otherwise be ticked through episodes that don't exist yet.
+ * Mirrors scripts/tmdb-shows.js.
  */
 function seasonEpisodeCounts(item) {
   if (!Array.isArray(item.seasons)) return [];
-  return item.seasons
+  const seasons = item.seasons
     .filter((s) => Number(s.season_number) > 0)
-    .sort((a, b) => Number(a.season_number) - Number(b.season_number))
+    .sort((a, b) => Number(a.season_number) - Number(b.season_number));
+
+  const last = item.last_episode_to_air;
+  const lastSeason = Number(last && last.season_number);
+  if (lastSeason > 0) {
+    return seasons
+      .filter((s) => Number(s.season_number) <= lastSeason)
+      .map((s) =>
+        Number(s.season_number) === lastSeason
+          ? Number(last.episode_number) || 0
+          : Number(s.episode_count) || 0,
+      );
+  }
+
+  const today = new Date().toISOString().slice(0, 10);
+  return seasons
+    .filter((s) => s.air_date && s.air_date <= today)
     .map((s) => Number(s.episode_count) || 0);
 }
 
@@ -118,9 +136,9 @@ function mapDetails(item, mediaType) {
   };
 
   if (mediaType === 'tv') {
-    patch.seasons = toNumberOrNull(item.number_of_seasons);
-    patch.episodes = toNumberOrNull(item.number_of_episodes);
     patch.seasonEpisodes = seasonEpisodeCounts(item);
+    patch.seasons = patch.seasonEpisodes.length || null;
+    patch.episodes = patch.seasonEpisodes.reduce((sum, n) => sum + n, 0) || null;
     // episode_run_time is empty for most shows now; the latest episode's own
     // runtime is the fallback TMDB still fills in.
     patch.runtime =
