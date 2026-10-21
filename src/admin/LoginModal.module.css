@@ -72,6 +72,28 @@
   border-color: var(--accent, #5f8f8f);
 }
 
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--color-muted, #888);
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  user-select: none;
+  /* A whole-row tap target on phones, not just the 13px box. */
+  min-height: 36px;
+}
+
+.remember input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: var(--accent, #5f8f8f);
+  cursor: pointer;
+}
+
 .error {
   color: #e55;
   font-family: 'Share Tech Mono', monospace;

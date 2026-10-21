@@ -8,6 +8,7 @@ export default function LoginModal({ onClose }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [code, setCode] = useState('');
+  const [remember, setRemember] = useState(false);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -16,7 +17,7 @@ export default function LoginModal({ onClose }) {
     setError('');
     setLoading(true);
     try {
-      await login(username, password, code);
+      await login(username, password, code, remember);
       onClose();
     } catch (err) {
       setError(err.message || 'Login failed');
@@ -84,6 +85,15 @@ export default function LoginModal({ onClose }) {
             onChange={(e) => setCode(e.target.value.replace(/\D/g, ''))}
             autoComplete="one-time-code"
           />
+        </label>
+
+        <label className={styles.remember}>
+          <input
+            type="checkbox"
+            checked={remember}
+            onChange={(e) => setRemember(e.target.checked)}
+          />
+          KEEP ME LOGGED IN (30 DAYS)
         </label>
 
         {error && <p className={styles.error}>{error}</p>}

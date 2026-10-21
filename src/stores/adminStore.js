@@ -27,6 +27,15 @@ async function requestError(res, fallback) {
  */
 const collectionEtags = new Map();
 
+/** Private windows and blocked site data make storage throw; a login there just isn't kept. */
+function safeStorage(fn) {
+  try {
+    return fn();
+  } catch {
+    return null;
+  }
+}
+
 export const useAdminStore = create(
   persist(
     (set, get) => ({
@@ -35,24 +44,30 @@ export const useAdminStore = create(
       /** Bumped on every successful save, so the toolbar can confirm it. Not persisted. */
       lastSavedAt: null,
 
-      /** `code` is the optional TOTP code; it is only sent when filled in. */
-      login: async (username, password, code) => {
+      /** Whether this login outlives the tab: picks the storage below and the token's lifetime. */
+      remember: false,
+
+      /**
+       * `code` is the optional TOTP code; it is only sent when filled in. `remember` asks the
+       * server for a 30-day token and keeps it in localStorage instead of sessionStorage.
+       */
+      login: async (username, password, code, remember = false) => {
         const res = await fetch('/api/admin/login', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(code ? { username, password, code } : { username, password }),
+          body: JSON.stringify({ username, password, remember, ...(code ? { code } : {}) }),
         });
         if (!res.ok) {
           const err = await res.json().catch(() => ({}));
           throw new Error(err.error || 'Login failed');
         }
         const { token } = await res.json();
-        set({ token, isAuthenticated: true });
+        set({ token, isAuthenticated: true, remember });
       },
 
       logout: () => {
         collectionEtags.clear();
-        set({ token: null, isAuthenticated: false });
+        set({ token: null, isAuthenticated: false, remember: false });
       },
 
       verifyToken: async () => {
@@ -187,14 +202,26 @@ export const useAdminStore = create(
     }),
     {
       name: 'bv-admin',
-      partialize: ({ token, isAuthenticated }) => ({ token, isAuthenticated }),
+      partialize: ({ token, isAuthenticated, remember }) => ({ token, isAuthenticated, remember }),
+      // A remembered login lives in localStorage so it survives closing the browser; any other
+      // stays in sessionStorage and dies with the tab. Each write clears the other store, so
+      // logging out (remember: false) also wipes a remembered token.
       storage: {
         getItem: (name) => {
-          const value = sessionStorage.getItem(name);
+          const value = safeStorage(() => sessionStorage.getItem(name) ?? localStorage.getItem(name));
           return value ? JSON.parse(value) : null;
         },
-        setItem: (name, value) => sessionStorage.setItem(name, JSON.stringify(value)),
-        removeItem: (name) => sessionStorage.removeItem(name),
+        setItem: (name, value) => {
+          const [keep, drop] = value.state?.remember
+            ? [() => localStorage, () => sessionStorage]
+            : [() => sessionStorage, () => localStorage];
+          safeStorage(() => keep().setItem(name, JSON.stringify(value)));
+          safeStorage(() => drop().removeItem(name));
+        },
+        removeItem: (name) => {
+          safeStorage(() => sessionStorage.removeItem(name));
+          safeStorage(() => localStorage.removeItem(name));
+        },
       },
     },
   ),

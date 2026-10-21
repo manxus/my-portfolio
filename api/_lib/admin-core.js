@@ -10,6 +10,9 @@ import { basename, extname } from 'node:path';
  */
 
 const TOKEN_TTL = 1000 * 60 * 60 * 8; // 8 hours
+// "Keep me logged in". The secret is the kill switch: rotating ADMIN_TOKEN_SECRET ends every
+// remembered session at once, which is the answer to a lost phone.
+const REMEMBER_TTL = 1000 * 60 * 60 * 24 * 30; // 30 days
 
 export const ALLOWED_FILES = new Set([
   'qaPortfolio', 'resume', 'tech', 'steam-reviews', 'references',
@@ -125,22 +128,31 @@ async function readJsonBody(req) {
   return JSON.parse(raw);
 }
 
+/**
+ * Tokens are `<issued ms>:<sig>` (8 hours) or `<issued ms>:r:<sig>` (remembered, 30 days). The
+ * marker is inside the signature, so a short token can't be stretched by adding it.
+ */
 export function createTokenSigner(secret) {
-  const sign = (username, ts) =>
-    createHmac('sha256', secret).update(`${username}:${ts}`).digest('hex');
+  const sign = (payload) => createHmac('sha256', secret).update(payload).digest('hex');
 
   return {
-    make(username) {
+    make(username, { remember = false } = {}) {
       const ts = Date.now();
-      return `${ts}:${sign(username, ts)}`;
+      return remember
+        ? `${ts}:r:${sign(`${username}:${ts}:r`)}`
+        : `${ts}:${sign(`${username}:${ts}`)}`;
     },
     verify(token) {
       const adminUser = process.env.ADMIN_USER;
       if (!token || !adminUser) return false;
-      const [tsStr, sig] = String(token).split(':');
-      const ts = Number(tsStr);
-      if (!Number.isFinite(ts) || Date.now() - ts > TOKEN_TTL) return false;
-      return safeEqual(sig, sign(adminUser, ts));
+      const parts = String(token).split(':');
+      const remember = parts.length === 3 && parts[1] === 'r';
+      if (parts.length !== 2 && !remember) return false;
+      const ts = Number(parts[0]);
+      const ttl = remember ? REMEMBER_TTL : TOKEN_TTL;
+      if (!Number.isFinite(ts) || Date.now() - ts > ttl) return false;
+      const payload = remember ? `${adminUser}:${ts}:r` : `${adminUser}:${ts}`;
+      return safeEqual(parts[parts.length - 1], sign(payload));
     },
   };
 }
@@ -297,7 +309,9 @@ export function createAdminHandler({ tokens, storage, sync, publisher, loginDisa
 
         if (ok) {
           loginFailures.delete(ip);
-          return json(res, 200, { token: tokens.make(body.username) });
+          return json(res, 200, {
+            token: tokens.make(body.username, { remember: body.remember === true }),
+          });
         }
         recordFailure(ip);
         await delay(500);
