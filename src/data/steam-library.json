@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-21T11:11:36.932Z",
+  "fetchedAt": "2026-10-22T00:43:32.818Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1792578044
+    "lastLogoff": 1792615779
   },
   "games": [
     {
@@ -210159,6 +210159,131 @@
       }
     },
     {
+      "appId": 3829620,
+      "name": "Execute",
+      "playtimeHours": 7.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3829620/a4f7b071dc1fecddaa7a1d923ba2c81a736f6f9f.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/header.jpg?t=1782402837",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Dec 16, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/19f857ff229b0de3be1c65fd00be3135f7bcdeb8/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/library_header_2x.jpg",
+      "achievements": {
+        "total": 10,
+        "unlocked": 10,
+        "items": [
+          {
+            "apiName": "ACH_OFF_WE_GO",
+            "name": "Off We Go",
+            "description": "Cut off the head of your first victim!",
+            "icon": "a331c252b582e43a268a43b449457952877f80b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792539286,
+            "globalPct": 98.6
+          },
+          {
+            "apiName": "ACH_IS_THAT_PEOPLE",
+            "name": "Eww Is That People?",
+            "description": "Make your first chunk of dark glass.",
+            "icon": "ed370e87316c9ac0ff2ebbcc05f091d6f0423c60",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792542117,
+            "globalPct": 83
+          },
+          {
+            "apiName": "ACH_WHO_MADE_THIS",
+            "name": "Who Made This Game...?",
+            "description": "Use the Mega Guillotine For The First Time.",
+            "icon": "a9388a688ce766659a5759cf2433bb65ec1d5d05",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792579419,
+            "globalPct": 75.3
+          },
+          {
+            "apiName": "ACH_ARE_YOU_OK",
+            "name": "Are You OK?",
+            "description": "Reach the end of the game...",
+            "icon": "8e1a672087aed7a7547c1ee69220ce42b99546e0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792582694,
+            "globalPct": 70.4
+          },
+          {
+            "apiName": "ACH_THE_MONEY_COMING_FROM",
+            "name": "Where Is The Money Coming From?",
+            "description": "Obtain 25 million dollars. (no cheats)",
+            "icon": "8fc579975c7d50e4da635528bba3779aa3044a8e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792582033,
+            "globalPct": 64
+          },
+          {
+            "apiName": "ACH_THE_GOLD_COMING_FROM",
+            "name": "Where is the Gold Coming From?",
+            "description": "Obtain 10k Gold. (no cheats)",
+            "icon": "4ae0217685f160c72841b1fcaa7cc4778d2f5f0b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792582493,
+            "globalPct": 54.9
+          },
+          {
+            "apiName": "ACH_MUTANTS",
+            "name": "Mutants!",
+            "description": "Raise Fallout Levels to 1000.",
+            "icon": "979ac3f30fbbffa99474cb5d1858aab360550659",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792582025,
+            "globalPct": 67.9
+          },
+          {
+            "apiName": "ACH_BIG_ONE",
+            "name": "THE BIG ONE",
+            "description": "Launch the large nuke.",
+            "icon": "ac01edafbea1d357d06f17be0d140c3c257337aa",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792582015,
+            "globalPct": 71.3
+          },
+          {
+            "apiName": "ACH_INCREDIBLE",
+            "name": "Mr. Incredible ",
+            "description": "Beat the game in 20 mins or less. With or without Cheats.",
+            "icon": "f41120b73c85a565d7f1d065456423706adf4abb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792583373,
+            "globalPct": 12.8
+          },
+          {
+            "apiName": "ACH_90_MIN",
+            "name": "2hr 10min Apocalypse",
+            "description": "Beat the game in 2hrs and 10mins or less... Without Cheats.",
+            "icon": "a9c2e42ca1a276d8c6310dcdb257b6faa7eb135f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792624913,
+            "globalPct": 2.6
+          }
+        ]
+      }
+    },
+    {
       "appId": 865360,
       "name": "We Were Here Together",
       "playtimeHours": 7.9,
@@ -279612,131 +279737,6 @@
       }
     },
     {
-      "appId": 3829620,
-      "name": "Execute",
-      "playtimeHours": 2.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3829620/a4f7b071dc1fecddaa7a1d923ba2c81a736f6f9f.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/header.jpg?t=1782402837",
-      "genres": [
-        "Indie",
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Dec 16, 2025",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/19f857ff229b0de3be1c65fd00be3135f7bcdeb8/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3829620/7af3950bc28d563b509e8458040dd4d147d0ccae/library_header_2x.jpg",
-      "achievements": {
-        "total": 10,
-        "unlocked": 3,
-        "items": [
-          {
-            "apiName": "ACH_OFF_WE_GO",
-            "name": "Off We Go",
-            "description": "Cut off the head of your first victim!",
-            "icon": "a331c252b582e43a268a43b449457952877f80b4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792539286,
-            "globalPct": 98.6
-          },
-          {
-            "apiName": "ACH_IS_THAT_PEOPLE",
-            "name": "Eww Is That People?",
-            "description": "Make your first chunk of dark glass.",
-            "icon": "ed370e87316c9ac0ff2ebbcc05f091d6f0423c60",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792542117,
-            "globalPct": 83
-          },
-          {
-            "apiName": "ACH_WHO_MADE_THIS",
-            "name": "Who Made This Game...?",
-            "description": "Use the Mega Guillotine For The First Time.",
-            "icon": "a9388a688ce766659a5759cf2433bb65ec1d5d05",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792579419,
-            "globalPct": 75.3
-          },
-          {
-            "apiName": "ACH_ARE_YOU_OK",
-            "name": "Are You OK?",
-            "description": "Reach the end of the game...",
-            "icon": "8e1a672087aed7a7547c1ee69220ce42b99546e0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 70.4
-          },
-          {
-            "apiName": "ACH_THE_MONEY_COMING_FROM",
-            "name": "Where Is The Money Coming From?",
-            "description": "Obtain 25 million dollars. (no cheats)",
-            "icon": "8fc579975c7d50e4da635528bba3779aa3044a8e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 64
-          },
-          {
-            "apiName": "ACH_THE_GOLD_COMING_FROM",
-            "name": "Where is the Gold Coming From?",
-            "description": "Obtain 10k Gold. (no cheats)",
-            "icon": "4ae0217685f160c72841b1fcaa7cc4778d2f5f0b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 54.9
-          },
-          {
-            "apiName": "ACH_MUTANTS",
-            "name": "Mutants!",
-            "description": "Raise Fallout Levels to 1000.",
-            "icon": "979ac3f30fbbffa99474cb5d1858aab360550659",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 67.9
-          },
-          {
-            "apiName": "ACH_BIG_ONE",
-            "name": "THE BIG ONE",
-            "description": "Launch the large nuke.",
-            "icon": "ac01edafbea1d357d06f17be0d140c3c257337aa",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 71.3
-          },
-          {
-            "apiName": "ACH_INCREDIBLE",
-            "name": "Mr. Incredible ",
-            "description": "Beat the game in 20 mins or less. With or without Cheats.",
-            "icon": "f41120b73c85a565d7f1d065456423706adf4abb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.8
-          },
-          {
-            "apiName": "ACH_90_MIN",
-            "name": "2hr 10min Apocalypse",
-            "description": "Beat the game in 2hrs and 10mins or less... Without Cheats.",
-            "icon": "a9c2e42ca1a276d8c6310dcdb257b6faa7eb135f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.6
-          }
-        ]
-      }
-    },
-    {
       "appId": 1351360,
       "name": "DevLife",
       "playtimeHours": 2.1,
@@ -328186,7 +328186,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/558990/library_600x900_2x.jpg",
       "libraryHeaderUrl": null,
       "achievements": {
-        "total": 6,
+        "total": 7,
         "unlocked": 0
       }
     },
@@ -347347,6 +347347,29 @@
       "libraryHeaderUrl": null,
       "achievements": {
         "total": 48,
+        "unlocked": 0
+      }
+    },
+    {
+      "appId": 421040,
+      "name": "Plantera",
+      "playtimeHours": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/421040/59e3b68f6dcfc375411d777393444ce91de783a6.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/421040/header.jpg?t=1792166165",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jan 28, 2016",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/421040/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/421040/library_header.jpg",
+      "achievements": {
+        "total": 29,
         "unlocked": 0
       }
     },
@@ -384696,7 +384719,7 @@
       "dateAdded": 1549145377,
       "priority": 350,
       "name": "Foundation",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/a4dcfb5b8a252b9763dd2e5d06dd0e59e0a995c6/header.jpg?t=1791855712",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/a4dcfb5b8a252b9763dd2e5d06dd0e59e0a995c6/header.jpg?t=1792611625",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/ce78d0949d018967dd80da34826f153cd7a084d7/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/8ffd32f3730aeaa49b6176717421ed4d226f628f/library_header_2x.jpg"
     },
@@ -384873,7 +384896,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -384963,7 +384986,7 @@
       "dateAdded": 1607460004,
       "priority": 0,
       "name": "Sniper Elite VR",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/header.jpg?t=1643711030",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/752480/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/library_600x900_2x.jpg"
     },
     {
@@ -384971,7 +384994,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -385084,7 +385107,7 @@
       "dateAdded": 1539807012,
       "priority": 412,
       "name": "The Jackbox Party Pack 5",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774461/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774461/header.jpg?t=1728584545",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774461/library_600x900_2x.jpg"
     },
     {
@@ -385100,7 +385123,7 @@
       "dateAdded": 1773267527,
       "priority": 0,
       "name": "Crab Champions",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/header.jpg?t=1785701226",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774801/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/library_600x900_2x.jpg"
     },
     {
@@ -402100,7 +402123,7 @@
       "priority": 0,
       "name": "Ballistic.exe",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3432980/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/75f2b95b5d784062334923429a9c4be96c589c99/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/8bbd9e929549f88b04777e0e41d570b5a887ac0b/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/1d658fdc5608d885538f7d3cb5694674ab403000/library_header_2x.jpg"
     },
     {
@@ -402235,6 +402258,60 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304900/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/c947b2d646a0c6674b38467e25384ca7444e398a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/bdb95c69892b39aaaa303f77b3c61d6a46f88b42/library_header_2x.jpg"
+    },
+    {
+      "appId": 4824030,
+      "dateAdded": 1792617278,
+      "priority": 0,
+      "name": "App 4824030",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4824030/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824030/580eb1cb004d7c5229e54afd5fbffe319a1ae578/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824030/2f382dd139b22fa5045303f928c033fc4cb72a62/library_header_2x.jpg"
+    },
+    {
+      "appId": 4857070,
+      "dateAdded": 1792628454,
+      "priority": 0,
+      "name": "App 4857070",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4857070/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857070/51cf1800c6f64982e525b62cd51a3b6d60051cdd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857070/db99314ce13d87a88aae5892a6422d68db6d4b87/library_header_2x.jpg"
+    },
+    {
+      "appId": 4614970,
+      "dateAdded": 1792628499,
+      "priority": 0,
+      "name": "App 4614970",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614970/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614970/72cbf589da6d4731e445a4a58550314318b7f587/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614970/0a2c4bd93f5f221bb4ce10a0fdb3b2da6eaae17b/library_header_2x.jpg"
+    },
+    {
+      "appId": 4918810,
+      "dateAdded": 1792628696,
+      "priority": 0,
+      "name": "App 4918810",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4918810/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/ed2c39a2a630174d07924045df80eec7ae7c7375/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/7c4a828ee0095b3bc5bbe672fb30973714c6145a/library_header_2x.jpg"
+    },
+    {
+      "appId": 4641190,
+      "dateAdded": 1792628807,
+      "priority": 0,
+      "name": "App 4641190",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4641190/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4641190/d461d888ebe8c779508288ad2ebd7943d0432df6/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4641190/97689919369ca94e01164b688b6e8b4f42938ff2/library_header_2x.jpg"
+    },
+    {
+      "appId": 4832970,
+      "dateAdded": 1792628880,
+      "priority": 0,
+      "name": "App 4832970",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4832970/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/196d665a23cbdc2eb49202b2206997fd1a80b7c4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/ed62607b2b309bfd36bf34e5bd765558bea73307/library_header_2x.jpg"
     }
   ]
 }
