@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-10-22T00:43:32.944Z",
+  "generatedAt": "2026-10-23T00:41:07.705Z",
   "events": [
+    {
+      "appId": 2218750,
+      "name": "Halls of Torment",
+      "added": 66,
+      "total": 666,
+      "date": "2026-10-23"
+    },
     {
       "appId": 2218750,
       "name": "Halls of Torment",
