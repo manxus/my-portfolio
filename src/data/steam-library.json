@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-23T00:41:07.687Z",
+  "fetchedAt": "2026-10-24T00:36:32.625Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1792697107
+    "lastLogoff": 1792789775
   },
   "games": [
     {
@@ -36241,536 +36241,9 @@
       "achievements": null
     },
     {
-      "appId": 371570,
-      "name": "Tap Heroes",
-      "playtimeHours": 161.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/371570/7452adb40bf8cf1bcc9df4188c5a29416251ef71.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/header.jpg?t=1775322391",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Jun 5, 2015",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_header.jpg",
-      "achievements": {
-        "total": 50,
-        "unlocked": 50,
-        "items": [
-          {
-            "apiName": "1e_01",
-            "name": "FIGHTER",
-            "description": "DEFEAT 100 ENEMIES",
-            "icon": "e41d44570e05c033c4b2fba5050b29988a704dae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067846,
-            "globalPct": 24.9
-          },
-          {
-            "apiName": "1e_02",
-            "name": "SOLDIER",
-            "description": "DEFEAT 1000 ENEMIES",
-            "icon": "849c7b86e16720d9e4c18fd4fac78b7f7f8b273f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508273615,
-            "globalPct": 18
-          },
-          {
-            "apiName": "1e_03",
-            "name": "WARRIOR",
-            "description": "DEFEAT 10000 ENEMIES",
-            "icon": "ab9cd81d1f6beb1b8ffea9f18090af3ea6cf3539",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509050733,
-            "globalPct": 11.7
-          },
-          {
-            "apiName": "1e_04",
-            "name": "KNIGHT",
-            "description": "DEFEAT 100000 ENEMIES",
-            "icon": "7b0d5a964d82d9bddea98eac4f1403fc84c6d882",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1578149473,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "1e_05",
-            "name": "TAP HERO",
-            "description": "DEFEAT 1000000 ENEMIES",
-            "icon": "8a1d6f49f82fd43e76b7f2d9eae63a81d02d6cc4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1583545748,
-            "globalPct": 7
-          },
-          {
-            "apiName": "2g_01",
-            "name": "LOADED",
-            "description": "COLLECT 1000 GOLD",
-            "icon": "14219d07a7390f92fcf5dd3d2231e660ddc3f684",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508068056,
-            "globalPct": 23.9
-          },
-          {
-            "apiName": "2g_02",
-            "name": "WEALTHY",
-            "description": "COLLECT 10000 GOLD",
-            "icon": "8800fa96f6e5fcdaab05eceab66d6cd8b18782a6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508071022,
-            "globalPct": 20.2
-          },
-          {
-            "apiName": "2g_03",
-            "name": "WORTH A MILLION",
-            "description": "COLLECT 1000000 GOLD",
-            "icon": "62231b9b66aab8850e33e37420c27b138e426933",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508665424,
-            "globalPct": 14.5
-          },
-          {
-            "apiName": "2g_04",
-            "name": "FILTHY RICH",
-            "description": "COLLECT 5000000 GOLD",
-            "icon": "d3dee6ec64d6000faa60311795fef06450bda0ca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508870023,
-            "globalPct": 12.5
-          },
-          {
-            "apiName": "2g_05",
-            "name": "ROLLING IN IT",
-            "description": "COLLECT 10000000 GOLD",
-            "icon": "e7b44785f69c8ea5865f1559914e4c06912d9a28",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509036460,
-            "globalPct": 11.4
-          },
-          {
-            "apiName": "3l_01",
-            "name": "STARTING OUT",
-            "description": "LEVEL UP 50 TIMES",
-            "icon": "93467d46044b55498262b3df58accd3d012716ef",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067919,
-            "globalPct": 23.8
-          },
-          {
-            "apiName": "3l_02",
-            "name": "APPRENTICE",
-            "description": "LEVEL UP 150 TIMES",
-            "icon": "7c37589875ee460f73d10c85d4b7f2bb58e8bb3d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508091700,
-            "globalPct": 20.8
-          },
-          {
-            "apiName": "3l_03",
-            "name": "JOURNEYMAN",
-            "description": "LEVEL UP 500 TIMES",
-            "icon": "3d07efa4cad1dcd62e5e3b6a99d90d77f1442d97",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508272445,
-            "globalPct": 17.9
-          },
-          {
-            "apiName": "3l_04",
-            "name": "SKILLED",
-            "description": "LEVEL UP 1000 TIMES",
-            "icon": "c3c4214571c1cc366b49d24714505d62b115b1ed",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508707291,
-            "globalPct": 16
-          },
-          {
-            "apiName": "3l_05",
-            "name": "MASTER",
-            "description": "LEVEL UP 5000 TIMES",
-            "icon": "dcf3e39cf3fb3136afb704bf2f013cf7e3150ee9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1533386542,
-            "globalPct": 8
-          },
-          {
-            "apiName": "4f_01",
-            "name": "TAP TAP TAP",
-            "description": "TAP 1000 TIMES",
-            "icon": "f9d12698714b3da11b5d9a8c0839ad71111df3e1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067985,
-            "globalPct": 23.4
-          },
-          {
-            "apiName": "4f_02",
-            "name": "TAPPER",
-            "description": "TAP 10000 TIMES",
-            "icon": "a284418dde808104550be088c0d0727e9d83fea5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508218245,
-            "globalPct": 15.4
-          },
-          {
-            "apiName": "4f_03",
-            "name": "SORE FINGER",
-            "description": "TAP 50000 TIMES",
-            "icon": "b58e4bc961298abf9468760749dc60ad118c7b94",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509194193,
-            "globalPct": 10
-          },
-          {
-            "apiName": "4f_04",
-            "name": "FINGER BLASTER",
-            "description": "TAP 100000 TIMES",
-            "icon": "c2a862a48f533aabbd3e6254bb52d115362cc19d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509208281,
-            "globalPct": 9
-          },
-          {
-            "apiName": "4f_05",
-            "name": "MASTER TAPPER",
-            "description": "TAP 250000 TIMES",
-            "icon": "c1b1b0f265cd2a6f520c072f2f4f8d04b7eb0779",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509239755,
-            "globalPct": 8.1
-          },
-          {
-            "apiName": "5t_01",
-            "name": "LUCKY CHARM",
-            "description": "FIND 5 CHESTS",
-            "icon": "6c66a5cfb55136c24d1f51c688c0dd95ce775b7b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067929,
-            "globalPct": 23.6
-          },
-          {
-            "apiName": "5t_02",
-            "name": "COLLECTOR",
-            "description": "FIND 25 CHESTS",
-            "icon": "ab95850a47b6ad79d71ba012c25e1117d340d333",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508098759,
-            "globalPct": 18.1
-          },
-          {
-            "apiName": "5t_03",
-            "name": "DIGGY HOLE",
-            "description": "FIND 75 CHESTS",
-            "icon": "59b8827e42b39339436239f108392d2643764ffc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508662756,
-            "globalPct": 15.2
-          },
-          {
-            "apiName": "5t_04",
-            "name": "I AM A PIRATE!",
-            "description": "FIND 150 CHESTS",
-            "icon": "cd770ecdba13cc28e462f43c4e0471496ad64ab3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509031285,
-            "globalPct": 12.4
-          },
-          {
-            "apiName": "5t_05",
-            "name": "TREASURE HUNTER",
-            "description": "FIND 300 CHESTS",
-            "icon": "2a98d638ccc1fb7907bb1cb1270edfcb12e3ad74",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1510069729,
-            "globalPct": 9
-          },
-          {
-            "apiName": "6p_01",
-            "name": "SPELLCASTER",
-            "description": "CAST 5 POWERS",
-            "icon": "314ee7f8ab4828244932b5208df4eb97d7a294e1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508132184,
-            "globalPct": 14.5
-          },
-          {
-            "apiName": "6p_02",
-            "name": "WARLOCK",
-            "description": "CAST 15 POWERS",
-            "icon": "d3ac9635d29f7717d757b42e03568b0945e8f1dd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508347121,
-            "globalPct": 12.6
-          },
-          {
-            "apiName": "6p_03",
-            "name": "SORCERER",
-            "description": "CAST 35 POWERS",
-            "icon": "32d6c1053744da568008ecb4b7901e9a8bca7ff3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508520076,
-            "globalPct": 11.1
-          },
-          {
-            "apiName": "6p_04",
-            "name": "WIZARD",
-            "description": "CAST 75 POWERS",
-            "icon": "f8bbb1bfd9f8eb01dade91238ce0f548a4cb9884",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508664298,
-            "globalPct": 9.8
-          },
-          {
-            "apiName": "6p_05",
-            "name": "GOD",
-            "description": "CAST 150 POWERS",
-            "icon": "2e89dba33ab0c04918723fe2a576056216c6e738",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508866144,
-            "globalPct": 8.7
-          },
-          {
-            "apiName": "7g_01",
-            "name": "SHINY",
-            "description": "COLLECT 5 GEMS",
-            "icon": "7f25d24a7ddaaff50edd28b143ecd1bc760d3200",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508069383,
-            "globalPct": 21.8
-          },
-          {
-            "apiName": "7g_02",
-            "name": "SO SHINY",
-            "description": "COLLECT 10 GEMS",
-            "icon": "366c7af3bd083f2ec0e4a380930dfe5123b202c5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508098710,
-            "globalPct": 18.9
-          },
-          {
-            "apiName": "7g_03",
-            "name": "ONLY MINE",
-            "description": "COLLECT 25 GEMS",
-            "icon": "1dec9b16ba1ec9116f73f0156cab4026cc460af7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508430017,
-            "globalPct": 16.2
-          },
-          {
-            "apiName": "7g_04",
-            "name": "MINE MINE MINE",
-            "description": "COLLECT 50 GEMS",
-            "icon": "625aab10fab12c8236b207d952085192b6e420ae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508706362,
-            "globalPct": 14.4
-          },
-          {
-            "apiName": "7g_05",
-            "name": "MY PRECIOUS",
-            "description": "COLLECT 100 GEMS",
-            "icon": "776d70d6dc4ae558066e265aa3aae83f15d2af7a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508995567,
-            "globalPct": 11.7
-          },
-          {
-            "apiName": "8z_01",
-            "name": "GOING PLACES",
-            "description": "REACH AREA LVL 25",
-            "icon": "763480867ff8187a4cc10f1733d933df65bf8a0d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508070994,
-            "globalPct": 19.9
-          },
-          {
-            "apiName": "8z_02",
-            "name": "GETTING AROUND",
-            "description": "REACH AREA LVL 50",
-            "icon": "6ba257da548f641d73d8a1b3ec36344e10aa63b0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508165966,
-            "globalPct": 17.3
-          },
-          {
-            "apiName": "8z_03",
-            "name": "TRAVELLER",
-            "description": "REACH AREA LVL 100",
-            "icon": "b14ecdbfc6a440cfdd9eef91582d5a6c5d059807",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508540989,
-            "globalPct": 15.6
-          },
-          {
-            "apiName": "8z_04",
-            "name": "SEE THE WORLD",
-            "description": "REACH AREA LVL 200",
-            "icon": "61126c6424dcf76b98294c4674404cfb3b3113b5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508876807,
-            "globalPct": 12.9
-          },
-          {
-            "apiName": "8z_05",
-            "name": "GRASS IS GREENER",
-            "description": "REACH AREA LVL 300",
-            "icon": "12ba24344038f31985e03ed2e29594ebbfde3e1c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509047804,
-            "globalPct": 11
-          },
-          {
-            "apiName": "9b_01",
-            "name": "WOODCUTTER",
-            "description": "DEFEAT TRUSKY",
-            "icon": "892d0de4b1edf74b99f7a09f657efea9c2c12d48",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067711,
-            "globalPct": 24.8
-          },
-          {
-            "apiName": "9b_02",
-            "name": "SWORDS ARE SHARPER",
-            "description": "DEFEAT GOGAPIK",
-            "icon": "ea3cd1d9401adc1f0e769a4544a4fe84cfd51ccc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508068054,
-            "globalPct": 23.3
-          },
-          {
-            "apiName": "9b_03",
-            "name": "KING SLAYER",
-            "description": "DEFEAT KINGURULLE",
-            "icon": "391b8757512ccd17b85426ca6e91dbdf19ede234",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508070100,
-            "globalPct": 20.8
-          },
-          {
-            "apiName": "9b_04",
-            "name": "JUNGLE FEVER",
-            "description": "DEFEAT BIGGASTOMP",
-            "icon": "5fe9ddce21bda01a0b47c1527024eb6e51dadc0c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508092906,
-            "globalPct": 18.9
-          },
-          {
-            "apiName": "9b_05",
-            "name": "WINGS AND CLAWS",
-            "description": "DEFEAT GARGLOT",
-            "icon": "4dd1bfcdc9b7bb8b35b810ba065caf0dc1a8cf8b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508102559,
-            "globalPct": 17.8
-          },
-          {
-            "apiName": "9b_06",
-            "name": "SMELLY",
-            "description": "DEFEAT BOBALOTS",
-            "icon": "dd1c7c9d77a243b90103b7b546eb667891de3d1c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508166113,
-            "globalPct": 17.1
-          },
-          {
-            "apiName": "9b_07",
-            "name": "DAWN  OF THE TAP",
-            "description": "DEFEAT SIMON",
-            "icon": "12788ff33a94a94773dbeee6d03aa51804f68257",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508260691,
-            "globalPct": 16.5
-          },
-          {
-            "apiName": "9b_08",
-            "name": "I PREFER CATS",
-            "description": "DEFEAT TOGRARO",
-            "icon": "72aa11e9f31f6ccecf6ef09d64845370cd690c64",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508347236,
-            "globalPct": 16.1
-          },
-          {
-            "apiName": "9b_09",
-            "name": "NO MILK DRINKERS",
-            "description": "DEFEAT DOOPA",
-            "icon": "2ef7dbfeb0ac2336d0e945fccab9c5c6c59cf516",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508429767,
-            "globalPct": 15.8
-          },
-          {
-            "apiName": "9b_010",
-            "name": "IT IS GETTING HOT",
-            "description": "DEFEAT DRAGONA",
-            "icon": "07e9a239be245f4ee43be3b3f57bb81208a0dd3f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508598107,
-            "globalPct": 15.3
-          }
-        ]
-      }
-    },
-    {
       "appId": 892970,
       "name": "Valheim",
-      "playtimeHours": 160.4,
+      "playtimeHours": 162.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
       "genres": [],
@@ -37312,6 +36785,533 @@
             "unlocked": false,
             "unlockTime": 0,
             "globalPct": null
+          }
+        ]
+      }
+    },
+    {
+      "appId": 371570,
+      "name": "Tap Heroes",
+      "playtimeHours": 161.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/371570/7452adb40bf8cf1bcc9df4188c5a29416251ef71.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/header.jpg?t=1775322391",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jun 5, 2015",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_header.jpg",
+      "achievements": {
+        "total": 50,
+        "unlocked": 50,
+        "items": [
+          {
+            "apiName": "1e_01",
+            "name": "FIGHTER",
+            "description": "DEFEAT 100 ENEMIES",
+            "icon": "e41d44570e05c033c4b2fba5050b29988a704dae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067846,
+            "globalPct": 24.9
+          },
+          {
+            "apiName": "1e_02",
+            "name": "SOLDIER",
+            "description": "DEFEAT 1000 ENEMIES",
+            "icon": "849c7b86e16720d9e4c18fd4fac78b7f7f8b273f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508273615,
+            "globalPct": 18
+          },
+          {
+            "apiName": "1e_03",
+            "name": "WARRIOR",
+            "description": "DEFEAT 10000 ENEMIES",
+            "icon": "ab9cd81d1f6beb1b8ffea9f18090af3ea6cf3539",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509050733,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "1e_04",
+            "name": "KNIGHT",
+            "description": "DEFEAT 100000 ENEMIES",
+            "icon": "7b0d5a964d82d9bddea98eac4f1403fc84c6d882",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1578149473,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "1e_05",
+            "name": "TAP HERO",
+            "description": "DEFEAT 1000000 ENEMIES",
+            "icon": "8a1d6f49f82fd43e76b7f2d9eae63a81d02d6cc4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1583545748,
+            "globalPct": 7
+          },
+          {
+            "apiName": "2g_01",
+            "name": "LOADED",
+            "description": "COLLECT 1000 GOLD",
+            "icon": "14219d07a7390f92fcf5dd3d2231e660ddc3f684",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508068056,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "2g_02",
+            "name": "WEALTHY",
+            "description": "COLLECT 10000 GOLD",
+            "icon": "8800fa96f6e5fcdaab05eceab66d6cd8b18782a6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508071022,
+            "globalPct": 20.2
+          },
+          {
+            "apiName": "2g_03",
+            "name": "WORTH A MILLION",
+            "description": "COLLECT 1000000 GOLD",
+            "icon": "62231b9b66aab8850e33e37420c27b138e426933",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508665424,
+            "globalPct": 14.5
+          },
+          {
+            "apiName": "2g_04",
+            "name": "FILTHY RICH",
+            "description": "COLLECT 5000000 GOLD",
+            "icon": "d3dee6ec64d6000faa60311795fef06450bda0ca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508870023,
+            "globalPct": 12.5
+          },
+          {
+            "apiName": "2g_05",
+            "name": "ROLLING IN IT",
+            "description": "COLLECT 10000000 GOLD",
+            "icon": "e7b44785f69c8ea5865f1559914e4c06912d9a28",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509036460,
+            "globalPct": 11.4
+          },
+          {
+            "apiName": "3l_01",
+            "name": "STARTING OUT",
+            "description": "LEVEL UP 50 TIMES",
+            "icon": "93467d46044b55498262b3df58accd3d012716ef",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067919,
+            "globalPct": 23.8
+          },
+          {
+            "apiName": "3l_02",
+            "name": "APPRENTICE",
+            "description": "LEVEL UP 150 TIMES",
+            "icon": "7c37589875ee460f73d10c85d4b7f2bb58e8bb3d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508091700,
+            "globalPct": 20.8
+          },
+          {
+            "apiName": "3l_03",
+            "name": "JOURNEYMAN",
+            "description": "LEVEL UP 500 TIMES",
+            "icon": "3d07efa4cad1dcd62e5e3b6a99d90d77f1442d97",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508272445,
+            "globalPct": 17.9
+          },
+          {
+            "apiName": "3l_04",
+            "name": "SKILLED",
+            "description": "LEVEL UP 1000 TIMES",
+            "icon": "c3c4214571c1cc366b49d24714505d62b115b1ed",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508707291,
+            "globalPct": 16
+          },
+          {
+            "apiName": "3l_05",
+            "name": "MASTER",
+            "description": "LEVEL UP 5000 TIMES",
+            "icon": "dcf3e39cf3fb3136afb704bf2f013cf7e3150ee9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1533386542,
+            "globalPct": 8
+          },
+          {
+            "apiName": "4f_01",
+            "name": "TAP TAP TAP",
+            "description": "TAP 1000 TIMES",
+            "icon": "f9d12698714b3da11b5d9a8c0839ad71111df3e1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067985,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "4f_02",
+            "name": "TAPPER",
+            "description": "TAP 10000 TIMES",
+            "icon": "a284418dde808104550be088c0d0727e9d83fea5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508218245,
+            "globalPct": 15.4
+          },
+          {
+            "apiName": "4f_03",
+            "name": "SORE FINGER",
+            "description": "TAP 50000 TIMES",
+            "icon": "b58e4bc961298abf9468760749dc60ad118c7b94",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509194193,
+            "globalPct": 10
+          },
+          {
+            "apiName": "4f_04",
+            "name": "FINGER BLASTER",
+            "description": "TAP 100000 TIMES",
+            "icon": "c2a862a48f533aabbd3e6254bb52d115362cc19d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509208281,
+            "globalPct": 9
+          },
+          {
+            "apiName": "4f_05",
+            "name": "MASTER TAPPER",
+            "description": "TAP 250000 TIMES",
+            "icon": "c1b1b0f265cd2a6f520c072f2f4f8d04b7eb0779",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509239755,
+            "globalPct": 8.1
+          },
+          {
+            "apiName": "5t_01",
+            "name": "LUCKY CHARM",
+            "description": "FIND 5 CHESTS",
+            "icon": "6c66a5cfb55136c24d1f51c688c0dd95ce775b7b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067929,
+            "globalPct": 23.6
+          },
+          {
+            "apiName": "5t_02",
+            "name": "COLLECTOR",
+            "description": "FIND 25 CHESTS",
+            "icon": "ab95850a47b6ad79d71ba012c25e1117d340d333",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508098759,
+            "globalPct": 18.1
+          },
+          {
+            "apiName": "5t_03",
+            "name": "DIGGY HOLE",
+            "description": "FIND 75 CHESTS",
+            "icon": "59b8827e42b39339436239f108392d2643764ffc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508662756,
+            "globalPct": 15.2
+          },
+          {
+            "apiName": "5t_04",
+            "name": "I AM A PIRATE!",
+            "description": "FIND 150 CHESTS",
+            "icon": "cd770ecdba13cc28e462f43c4e0471496ad64ab3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509031285,
+            "globalPct": 12.4
+          },
+          {
+            "apiName": "5t_05",
+            "name": "TREASURE HUNTER",
+            "description": "FIND 300 CHESTS",
+            "icon": "2a98d638ccc1fb7907bb1cb1270edfcb12e3ad74",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1510069729,
+            "globalPct": 9
+          },
+          {
+            "apiName": "6p_01",
+            "name": "SPELLCASTER",
+            "description": "CAST 5 POWERS",
+            "icon": "314ee7f8ab4828244932b5208df4eb97d7a294e1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508132184,
+            "globalPct": 14.5
+          },
+          {
+            "apiName": "6p_02",
+            "name": "WARLOCK",
+            "description": "CAST 15 POWERS",
+            "icon": "d3ac9635d29f7717d757b42e03568b0945e8f1dd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508347121,
+            "globalPct": 12.6
+          },
+          {
+            "apiName": "6p_03",
+            "name": "SORCERER",
+            "description": "CAST 35 POWERS",
+            "icon": "32d6c1053744da568008ecb4b7901e9a8bca7ff3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508520076,
+            "globalPct": 11.1
+          },
+          {
+            "apiName": "6p_04",
+            "name": "WIZARD",
+            "description": "CAST 75 POWERS",
+            "icon": "f8bbb1bfd9f8eb01dade91238ce0f548a4cb9884",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508664298,
+            "globalPct": 9.8
+          },
+          {
+            "apiName": "6p_05",
+            "name": "GOD",
+            "description": "CAST 150 POWERS",
+            "icon": "2e89dba33ab0c04918723fe2a576056216c6e738",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508866144,
+            "globalPct": 8.7
+          },
+          {
+            "apiName": "7g_01",
+            "name": "SHINY",
+            "description": "COLLECT 5 GEMS",
+            "icon": "7f25d24a7ddaaff50edd28b143ecd1bc760d3200",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508069383,
+            "globalPct": 21.8
+          },
+          {
+            "apiName": "7g_02",
+            "name": "SO SHINY",
+            "description": "COLLECT 10 GEMS",
+            "icon": "366c7af3bd083f2ec0e4a380930dfe5123b202c5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508098710,
+            "globalPct": 18.9
+          },
+          {
+            "apiName": "7g_03",
+            "name": "ONLY MINE",
+            "description": "COLLECT 25 GEMS",
+            "icon": "1dec9b16ba1ec9116f73f0156cab4026cc460af7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508430017,
+            "globalPct": 16.2
+          },
+          {
+            "apiName": "7g_04",
+            "name": "MINE MINE MINE",
+            "description": "COLLECT 50 GEMS",
+            "icon": "625aab10fab12c8236b207d952085192b6e420ae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508706362,
+            "globalPct": 14.4
+          },
+          {
+            "apiName": "7g_05",
+            "name": "MY PRECIOUS",
+            "description": "COLLECT 100 GEMS",
+            "icon": "776d70d6dc4ae558066e265aa3aae83f15d2af7a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508995567,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "8z_01",
+            "name": "GOING PLACES",
+            "description": "REACH AREA LVL 25",
+            "icon": "763480867ff8187a4cc10f1733d933df65bf8a0d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508070994,
+            "globalPct": 19.9
+          },
+          {
+            "apiName": "8z_02",
+            "name": "GETTING AROUND",
+            "description": "REACH AREA LVL 50",
+            "icon": "6ba257da548f641d73d8a1b3ec36344e10aa63b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508165966,
+            "globalPct": 17.3
+          },
+          {
+            "apiName": "8z_03",
+            "name": "TRAVELLER",
+            "description": "REACH AREA LVL 100",
+            "icon": "b14ecdbfc6a440cfdd9eef91582d5a6c5d059807",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508540989,
+            "globalPct": 15.6
+          },
+          {
+            "apiName": "8z_04",
+            "name": "SEE THE WORLD",
+            "description": "REACH AREA LVL 200",
+            "icon": "61126c6424dcf76b98294c4674404cfb3b3113b5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508876807,
+            "globalPct": 12.9
+          },
+          {
+            "apiName": "8z_05",
+            "name": "GRASS IS GREENER",
+            "description": "REACH AREA LVL 300",
+            "icon": "12ba24344038f31985e03ed2e29594ebbfde3e1c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509047804,
+            "globalPct": 11
+          },
+          {
+            "apiName": "9b_01",
+            "name": "WOODCUTTER",
+            "description": "DEFEAT TRUSKY",
+            "icon": "892d0de4b1edf74b99f7a09f657efea9c2c12d48",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067711,
+            "globalPct": 24.8
+          },
+          {
+            "apiName": "9b_02",
+            "name": "SWORDS ARE SHARPER",
+            "description": "DEFEAT GOGAPIK",
+            "icon": "ea3cd1d9401adc1f0e769a4544a4fe84cfd51ccc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508068054,
+            "globalPct": 23.3
+          },
+          {
+            "apiName": "9b_03",
+            "name": "KING SLAYER",
+            "description": "DEFEAT KINGURULLE",
+            "icon": "391b8757512ccd17b85426ca6e91dbdf19ede234",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508070100,
+            "globalPct": 20.8
+          },
+          {
+            "apiName": "9b_04",
+            "name": "JUNGLE FEVER",
+            "description": "DEFEAT BIGGASTOMP",
+            "icon": "5fe9ddce21bda01a0b47c1527024eb6e51dadc0c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508092906,
+            "globalPct": 18.9
+          },
+          {
+            "apiName": "9b_05",
+            "name": "WINGS AND CLAWS",
+            "description": "DEFEAT GARGLOT",
+            "icon": "4dd1bfcdc9b7bb8b35b810ba065caf0dc1a8cf8b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508102559,
+            "globalPct": 17.8
+          },
+          {
+            "apiName": "9b_06",
+            "name": "SMELLY",
+            "description": "DEFEAT BOBALOTS",
+            "icon": "dd1c7c9d77a243b90103b7b546eb667891de3d1c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508166113,
+            "globalPct": 17.1
+          },
+          {
+            "apiName": "9b_07",
+            "name": "DAWN  OF THE TAP",
+            "description": "DEFEAT SIMON",
+            "icon": "12788ff33a94a94773dbeee6d03aa51804f68257",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508260691,
+            "globalPct": 16.5
+          },
+          {
+            "apiName": "9b_08",
+            "name": "I PREFER CATS",
+            "description": "DEFEAT TOGRARO",
+            "icon": "72aa11e9f31f6ccecf6ef09d64845370cd690c64",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508347236,
+            "globalPct": 16.1
+          },
+          {
+            "apiName": "9b_09",
+            "name": "NO MILK DRINKERS",
+            "description": "DEFEAT DOOPA",
+            "icon": "2ef7dbfeb0ac2336d0e945fccab9c5c6c59cf516",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508429767,
+            "globalPct": 15.8
+          },
+          {
+            "apiName": "9b_010",
+            "name": "IT IS GETTING HOT",
+            "description": "DEFEAT DRAGONA",
+            "icon": "07e9a239be245f4ee43be3b3f57bb81208a0dd3f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508598107,
+            "globalPct": 15.3
           }
         ]
       }
@@ -40343,1832 +40343,9 @@
       }
     },
     {
-      "appId": 1942280,
-      "name": "Brotato",
-      "playtimeHours": 153.6,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Co-op",
-        "Shared/Split Screen Co-op"
-      ],
-      "hardwareSupport": [
-        "Full controller support",
-        "Remote Play on TV",
-        "Remote Play Together"
-      ],
-      "releaseDate": "Jun 23, 2023",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/library_header_2x.jpg",
-      "achievements": {
-        "total": 179,
-        "unlocked": 179,
-        "items": [
-          {
-            "apiName": "chal_survivor_1",
-            "name": "Survivor 1",
-            "description": "Kill 300 enemies",
-            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676750366,
-            "globalPct": 95.6
-          },
-          {
-            "apiName": "chal_survivor_2",
-            "name": "Survivor 2",
-            "description": "Kill 2000 enemies",
-            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676751523,
-            "globalPct": 90.8
-          },
-          {
-            "apiName": "chal_survivor_3",
-            "name": "Survivor 3",
-            "description": "Kill 5000 enemies",
-            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676753068,
-            "globalPct": 84.5
-          },
-          {
-            "apiName": "chal_survivor_4",
-            "name": "Survivor 4",
-            "description": "Kill 10000 enemies",
-            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676814257,
-            "globalPct": 78
-          },
-          {
-            "apiName": "chal_survivor_5",
-            "name": "Survivor 5",
-            "description": "Kill 20000 enemies",
-            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676831548,
-            "globalPct": 70.3
-          },
-          {
-            "apiName": "chal_difficulty_0",
-            "name": "Danger 0",
-            "description": "Win a run in Danger 0",
-            "icon": "c4f994ce0471cb82eedbcc9915db9d23658d54ce",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676753708,
-            "globalPct": 73
-          },
-          {
-            "apiName": "chal_difficulty_1",
-            "name": "Danger 1",
-            "description": "Win a run in Danger 1",
-            "icon": "af550cdb800b54d1b7043052c2901851e0a10996",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677158400,
-            "globalPct": 60.9
-          },
-          {
-            "apiName": "chal_difficulty_2",
-            "name": "Danger 2",
-            "description": "Win a run in Danger 2",
-            "icon": "f1402a4648bcb88755b5f205bab44f6e2bde02ad",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679275019,
-            "globalPct": 54.6
-          },
-          {
-            "apiName": "chal_difficulty_3",
-            "name": "Danger 3",
-            "description": "Win a run in Danger 3",
-            "icon": "79868f35217f77d3b1707ef8159d17cf293a60c7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680557392,
-            "globalPct": 48.6
-          },
-          {
-            "apiName": "chal_difficulty_4",
-            "name": "Danger 4",
-            "description": "Win a run in Danger 4",
-            "icon": "07c13d9a69b3bc4befd2d8a3443d6d222813f354",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680617327,
-            "globalPct": 42.1
-          },
-          {
-            "apiName": "chal_difficulty_5",
-            "name": "Danger 5",
-            "description": "Win a run in Danger 5",
-            "icon": "0080e6e8a4bc0122e58422372d019a7c949f6e8f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680723392,
-            "globalPct": 36.2
-          },
-          {
-            "apiName": "chal_gatherer_1",
-            "name": "Gatherer 1",
-            "description": "Collect 300 materials",
-            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676750442,
-            "globalPct": 95.2
-          },
-          {
-            "apiName": "chal_gatherer_2",
-            "name": "Gatherer 2",
-            "description": "Collect 2000 materials",
-            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676752289,
-            "globalPct": 88.1
-          },
-          {
-            "apiName": "chal_gatherer_3",
-            "name": "Gatherer 3",
-            "description": "Collect 5000 materials",
-            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676769121,
-            "globalPct": 80.7
-          },
-          {
-            "apiName": "chal_gatherer_4",
-            "name": "Gatherer 4",
-            "description": "Collect 10000 materials",
-            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676822376,
-            "globalPct": 74
-          },
-          {
-            "apiName": "chal_gatherer_5",
-            "name": "Gatherer 5",
-            "description": "Collect 20000 materials",
-            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676844382,
-            "globalPct": 65.6
-          },
-          {
-            "apiName": "chal_agriculture",
-            "name": "Agriculture",
-            "description": "Reach 200 Harvesting",
-            "icon": "403d49a26b6e3469983070f96a8a2daace96799c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677105736,
-            "globalPct": 46.3
-          },
-          {
-            "apiName": "chal_dying",
-            "name": "Dying",
-            "description": "Reach -5 HP Regeneration",
-            "icon": "7fa5e6afe61c1a0e79c978c16b09e7f0672e8ad8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676815512,
-            "globalPct": 49.5
-          },
-          {
-            "apiName": "chal_fast",
-            "name": "Fast",
-            "description": "Reach 50 % Speed",
-            "icon": "c518313a7b2f96de9d3806a2efdb9754a80e4a82",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677157628,
-            "globalPct": 43.8
-          },
-          {
-            "apiName": "chal_hoarder",
-            "name": "Hoarder",
-            "description": "Hold 3000 materials",
-            "icon": "88df9ce2be65c04bd4fb8b0df103f921e03e7429",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679186842,
-            "globalPct": 36.3
-          },
-          {
-            "apiName": "chal_lumberjack",
-            "name": "Lumberjack",
-            "description": "Kill 50 trees",
-            "icon": "8b4ee07972f4c5c550efde55536dd2c489ec533b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676752560,
-            "globalPct": 85.6
-          },
-          {
-            "apiName": "chal_medicine",
-            "name": "Medicine",
-            "description": "Heal 200 HP in one wave",
-            "icon": "d224fd35c23e67b99eb92e3448bfa7671b568869",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677356214,
-            "globalPct": 61.6
-          },
-          {
-            "apiName": "chal_turrets",
-            "name": "Industrialization",
-            "description": "Get 5 turrets on the map simultaneously",
-            "icon": "036c7cb80c10d0e0662f60a9673dd14c481e8dd1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676822455,
-            "globalPct": 66.4
-          },
-          {
-            "apiName": "chal_hallucination",
-            "name": "Hallucination",
-            "description": "Reach 60 % Dodge",
-            "icon": "784c42678d9ebca5274c408026e074eb4a39cfe8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676999328,
-            "globalPct": 56.6
-          },
-          {
-            "apiName": "chal_brawler",
-            "name": "Brawler - Crash Zone",
-            "description": "Win a run with Brawler in Crash Zone",
-            "icon": "80428a1b4e279722db954ca69a8dd0bbf1e73e0b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680555600,
-            "globalPct": 31.4
-          },
-          {
-            "apiName": "chal_bull",
-            "name": "Bull - Crash Zone",
-            "description": "Win a run with Bull in Crash Zone",
-            "icon": "ae021d7ac176c173db7f69c23e3ca58be1c6269c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680460820,
-            "globalPct": 29.2
-          },
-          {
-            "apiName": "chal_chunky",
-            "name": "Chunky - Crash Zone",
-            "description": "Win a run with Chunky in Crash Zone",
-            "icon": "c9800266d2ede1023085894b8fe5060b5878ef7e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681132831,
-            "globalPct": 21.6
-          },
-          {
-            "apiName": "chal_demon",
-            "name": "Demon - Crash Zone",
-            "description": "Win a run with Demon in Crash Zone",
-            "icon": "c1869cfdf506347f02058e5b59e286a59e2e1422",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680880948,
-            "globalPct": 17.1
-          },
-          {
-            "apiName": "chal_doctor",
-            "name": "Doctor - Crash Zone",
-            "description": "Win a run with Doctor in Crash Zone",
-            "icon": "c8830ba89c87777f4a3d807e6cbb72fda91da34b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680203966,
-            "globalPct": 23.9
-          },
-          {
-            "apiName": "chal_engineer",
-            "name": "Engineer - Crash Zone",
-            "description": "Win a run with Engineer in Crash Zone",
-            "icon": "f3ab4a3062e904f288dccdcc989724f42f9b3883",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679409523,
-            "globalPct": 33.2
-          },
-          {
-            "apiName": "chal_entrepreneur",
-            "name": "Entrepreneur - Crash Zone",
-            "description": "Win a run with Entrepreneur in Crash Zone",
-            "icon": "91e9bbf60b63180f3002dbfbb684d68b6c9ef7f4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680878779,
-            "globalPct": 15.5
-          },
-          {
-            "apiName": "chal_explorer",
-            "name": "Explorer - Crash Zone",
-            "description": "Win a run with Explorer in Crash Zone",
-            "icon": "51bea9355a83efc6b25b2648c74dffbaa7a599b2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681065352,
-            "globalPct": 18.9
-          },
-          {
-            "apiName": "chal_farmer",
-            "name": "Farmer - Crash Zone",
-            "description": "Win a run with Farmer in Crash Zone",
-            "icon": "8922449e756e173b87f00b5e96ad7fb3113a672c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679346286,
-            "globalPct": 16.9
-          },
-          {
-            "apiName": "chal_ghost",
-            "name": "Ghost - Crash Zone",
-            "description": "Win a run with Ghost in Crash Zone",
-            "icon": "c2f38ae68b35fd9e74da69ed44aaf62155c5bb91",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677105834,
-            "globalPct": 26.7
-          },
-          {
-            "apiName": "chal_gladiator",
-            "name": "Gladiator - Crash Zone",
-            "description": "Win a run with Gladiator in Crash Zone",
-            "icon": "d57befbadaa84a7f0f6e0e4b283a368a21eb2a32",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680980932,
-            "globalPct": 18
-          },
-          {
-            "apiName": "chal_knight",
-            "name": "Knight - Crash Zone",
-            "description": "Win a run with Knight in Crash Zone",
-            "icon": "4b7097cb9dbd947e23136fed6b558af3dcbbbe7b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680778605,
-            "globalPct": 20.1
-          },
-          {
-            "apiName": "chal_loud",
-            "name": "Loud - Crash Zone",
-            "description": "Win a run with Loud in Crash Zone",
-            "icon": "3d7776136898b8087e30d804b6dbb51c332e6db5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680557392,
-            "globalPct": 26.1
-          },
-          {
-            "apiName": "chal_lucky",
-            "name": "Lucky - Crash Zone",
-            "description": "Win a run with Lucky in Crash Zone",
-            "icon": "13a43028492a46988c77891f34bee39e85382bb6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676844504,
-            "globalPct": 27.2
-          },
-          {
-            "apiName": "chal_mage",
-            "name": "Mage - Crash Zone",
-            "description": "Win a run with Mage in Crash Zone",
-            "icon": "9ddb9b80995b714b453ae515f520f6432958c4db",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679871066,
-            "globalPct": 30.6
-          },
-          {
-            "apiName": "chal_masochist",
-            "name": "Masochist - Crash Zone",
-            "description": "Win a run with Masochist in Crash Zone",
-            "icon": "8e98a965ff13fc0f6815adff505de06ff78407a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680617325,
-            "globalPct": 19.4
-          },
-          {
-            "apiName": "chal_multitasker",
-            "name": "Multitasker - Crash Zone",
-            "description": "Win a run with Multitasker in Crash Zone",
-            "icon": "826703a137b6b7713b26d4cb6b08c3c814040b33",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679924468,
-            "globalPct": 27.8
-          },
-          {
-            "apiName": "chal_mutant",
-            "name": "Mutant - Crash Zone",
-            "description": "Win a run with Mutant in Crash Zone",
-            "icon": "3bbe01b7a73cb0dd7596d7e6e2ceb656fdb98c47",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676753708,
-            "globalPct": 24.6
-          },
-          {
-            "apiName": "chal_old",
-            "name": "Old - Crash Zone",
-            "description": "Win a run with Old in Crash Zone",
-            "icon": "85c83c60e36e333514e4ab30002f2fec06c6eba0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680807634,
-            "globalPct": 23
-          },
-          {
-            "apiName": "chal_one_arm",
-            "name": "One-Armed - Crash Zone",
-            "description": "Win a run with One-Armed in Crash Zone",
-            "icon": "8321b46efb8b74a832190f39f8d628253b86cefd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680520530,
-            "globalPct": 22.1
-          },
-          {
-            "apiName": "chal_pacifist",
-            "name": "Pacifist - Crash Zone",
-            "description": "Win a run with Pacifist in Crash Zone",
-            "icon": "af7292d5d270767c43eb422f9c5d9edd5e75e28e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680805702,
-            "globalPct": 21.3
-          },
-          {
-            "apiName": "chal_ranger",
-            "name": "Ranger - Crash Zone",
-            "description": "Win a run with Ranger in Crash Zone",
-            "icon": "c44b18c334c3978f5f95b9e93e86810c371bb813",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680796241,
-            "globalPct": 38.3
-          },
-          {
-            "apiName": "chal_saver",
-            "name": "Saver - Crash Zone",
-            "description": "Win a run with Saver in Crash Zone",
-            "icon": "040a52e395b8fee12e33e3134cfda6aa0a063adb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679187333,
-            "globalPct": 18.1
-          },
-          {
-            "apiName": "chal_sick",
-            "name": "Sick - Crash Zone",
-            "description": "Win a run with Sick in Crash Zone",
-            "icon": "f79bc108428d6a80ab929fc7dc36a6c31969113b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681131027,
-            "globalPct": 16.2
-          },
-          {
-            "apiName": "chal_soldier",
-            "name": "Soldier - Crash Zone",
-            "description": "Win a run with Soldier in Crash Zone",
-            "icon": "d3d2c1416b9dde571c31372a234f9dda287fb472",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680437605,
-            "globalPct": 21.9
-          },
-          {
-            "apiName": "chal_speedy",
-            "name": "Speedy - Crash Zone",
-            "description": "Win a run with Speedy in Crash Zone",
-            "icon": "0f08b7f1e52bc67976967dad807aa1b5a39b001e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679275018,
-            "globalPct": 16.6
-          },
-          {
-            "apiName": "chal_well_rounded",
-            "name": "Well-Rounded - Crash Zone",
-            "description": "Win a run with Well-Rounded in Crash Zone",
-            "icon": "64641273e7e9418b11765a609dbc59f452298e4a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677158400,
-            "globalPct": 36.9
-          },
-          {
-            "apiName": "chal_wildling",
-            "name": "Wildling - Crash Zone",
-            "description": "Win a run with Wildling in Crash Zone",
-            "icon": "2bc52ed4f99255f29d57072d4db11712dacbe548",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680177503,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "chal_rookie",
-            "name": "Rookie",
-            "description": "Die for the first time",
-            "icon": "ac20c0c1ebd29ab81976921ff53506e044db2944",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676750846,
-            "globalPct": 93.4
-          },
-          {
-            "apiName": "chal_crazy",
-            "name": "Crazy - Crash Zone",
-            "description": "Win a run with Crazy in Crash Zone",
-            "icon": "742b00832bf1fff0f996e10b8c021c91a34deaab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680803848,
-            "globalPct": 26.8
-          },
-          {
-            "apiName": "chal_generalist",
-            "name": "Generalist - Crash Zone",
-            "description": "Win a run with Generalist in Crash Zone",
-            "icon": "2495a1b0364938317a787ee83cba029d73a7e7aa",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679928206,
-            "globalPct": 19.4
-          },
-          {
-            "apiName": "chal_artificer",
-            "name": "Artificer - Crash Zone",
-            "description": "Win a run with Artificer in Crash Zone",
-            "icon": "e5f20b5c0bec67bbd20621a9187e541f2b8a5b37",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681074231,
-            "globalPct": 18
-          },
-          {
-            "apiName": "chal_hunter",
-            "name": "Hunter - Crash Zone",
-            "description": "Win a run with Hunter in Crash Zone",
-            "icon": "31075098375cf2c16dc610ebe47ba239a1ca52be",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1680115300,
-            "globalPct": 17.3
-          },
-          {
-            "apiName": "chal_fireworks",
-            "name": "Fireworks",
-            "description": "Kill 15 enemies with a single explosion",
-            "icon": "4bc64756f01bdce3e81f16d8415df7ab1ccf2084",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677180540,
-            "globalPct": 57.7
-          },
-          {
-            "apiName": "chal_perfect_vision",
-            "name": "Perfect Vision",
-            "description": "Reach 300 Range",
-            "icon": "2a0717ada7db265529946cff8b13fd3ad9e5fcb4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676886737,
-            "globalPct": 43.9
-          },
-          {
-            "apiName": "chal_recycling",
-            "name": "Recycling",
-            "description": "Recycle 12 weapons during a run",
-            "icon": "9792e957f4c175b01253718d4d610613c3869a39",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677157561,
-            "globalPct": 28.7
-          },
-          {
-            "apiName": "chal_slow",
-            "name": "Slow",
-            "description": "Reach -20 % Speed",
-            "icon": "13c1c123d00bfad8206847a0f2b838e9bd838680",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676998625,
-            "globalPct": 39.5
-          },
-          {
-            "apiName": "chal_arms_dealer",
-            "name": "Arms Dealer - Crash Zone",
-            "description": "Win a run with Arms Dealer in Crash Zone",
-            "icon": "00548dd46e6a5f7f70dd002de23f2a433aebef0d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681082178,
-            "globalPct": 11.9
-          },
-          {
-            "apiName": "chal_streamer",
-            "name": "Streamer - Crash Zone",
-            "description": "Win a run with Streamer in Crash Zone",
-            "icon": "d1732e9a08b44f37dc033c57dcca33e735447d2b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681071857,
-            "globalPct": 14
-          },
-          {
-            "apiName": "chal_advanced_technology",
-            "name": "Advanced Technology",
-            "description": "Reach 10 Ranged Damage and get 3 structures at the same time",
-            "icon": "c8cfa983daba6e69d10272674e2a8121924239a1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677007123,
-            "globalPct": 56
-          },
-          {
-            "apiName": "chal_giant_slayer",
-            "name": "Giant Slayer",
-            "description": "Kill a boss or an elite in less than 15 seconds",
-            "icon": "5144fd03852971d413ba43489c21a6499a4784a2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1677158400,
-            "globalPct": 49.1
-          },
-          {
-            "apiName": "chal_hungry",
-            "name": "Hungry",
-            "description": "Pick up 20 consumables during a run",
-            "icon": "235ff52a1d8a867fbbab502840c723d76daa1edc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676750533,
-            "globalPct": 88.1
-          },
-          {
-            "apiName": "chal_robust",
-            "name": "Robust",
-            "description": "Reach 100 Max HP",
-            "icon": "aafedcd7001f5150218925a485844e2b041089a3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1676815918,
-            "globalPct": 58.2
-          },
-          {
-            "apiName": "chal_cyborg",
-            "name": "Cyborg - Crash Zone",
-            "description": "Win a run with Cyborg in Crash Zone",
-            "icon": "d7b31cd675c843a865fca1f5206d87a579b7360d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679500141,
-            "globalPct": 20.4
-          },
-          {
-            "apiName": "chal_glutton",
-            "name": "Glutton - Crash Zone",
-            "description": "Win a run with Glutton in Crash Zone",
-            "icon": "9f06ca5de2afa7c121bcb9a264bdeeee7a136c0f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681075939,
-            "globalPct": 15.6
-          },
-          {
-            "apiName": "chal_jack",
-            "name": "Jack - Crash Zone",
-            "description": "Win a run with Jack in Crash Zone",
-            "icon": "d85d051322c2803a00423e8827baca23fae341ab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1681123713,
-            "globalPct": 13
-          },
-          {
-            "apiName": "chal_lich",
-            "name": "Lich - Crash Zone",
-            "description": "Win a run with Lich in Crash Zone",
-            "icon": "97c1b8aec66937de49642b67a846ce5181f47b58",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679530747,
-            "globalPct": 20.7
-          },
-          {
-            "apiName": "chal_baited",
-            "name": "Baited",
-            "description": "Get 2 Bait during a run",
-            "icon": "d26901759da4f00e35287435d6df8508e9010bfe",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687559676,
-            "globalPct": 45.2
-          },
-          {
-            "apiName": "chal_forest",
-            "name": "Forest",
-            "description": "Finish a wave with 10 or more living trees",
-            "icon": "39a5fb94672f65990e4e0118dcc9b1be03612085",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687560361,
-            "globalPct": 19.6
-          },
-          {
-            "apiName": "chal_bourgeoisie",
-            "name": "Bourgeoisie",
-            "description": "Get 3 tier IV weapons at once",
-            "icon": "91aa74266f75fb2e72b176d849a00362ea72cf1b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687559580,
-            "globalPct": 65.4
-          },
-          {
-            "apiName": "chal_student",
-            "name": "Student",
-            "description": "Reach level 20",
-            "icon": "27aaf83293d10297c7b8864ca1fb3ce20b9098e7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687560051,
-            "globalPct": 70.1
-          },
-          {
-            "apiName": "chal_reckless",
-            "name": "Reckless",
-            "description": "Finish a wave with 1 HP",
-            "icon": "cb52cef4a070741b4e9659a6aba8aae753773b99",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687560458,
-            "globalPct": 39.6
-          },
-          {
-            "apiName": "chal_scavenger",
-            "name": "Scavenger",
-            "description": "Get 10 different tier I items during a run",
-            "icon": "e21b25485c503c224ca790483fe4d92bd1612c19",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687559202,
-            "globalPct": 74.7
-          },
-          {
-            "apiName": "chal_apprentice",
-            "name": "Apprentice - Crash Zone",
-            "description": "Win a run with Apprentice in Crash Zone",
-            "icon": "592c89eda683293359346d9bc5d1a1af66944001",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687900420,
-            "globalPct": 15.4
-          },
-          {
-            "apiName": "chal_cryptid",
-            "name": "Cryptid - Crash Zone",
-            "description": "Win a run with Cryptid in Crash Zone",
-            "icon": "53d03b27f461e2835182316c87ef50a695e3da88",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687985468,
-            "globalPct": 11
-          },
-          {
-            "apiName": "chal_fisherman",
-            "name": "Fisherman - Crash Zone",
-            "description": "Win a run with Fisherman in Crash Zone",
-            "icon": "20fb9e5db8738aed05bc7a4393f537ab255a8926",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687988277,
-            "globalPct": 12.9
-          },
-          {
-            "apiName": "chal_golem",
-            "name": "Golem - Crash Zone",
-            "description": "Win a run with Golem in Crash Zone",
-            "icon": "5699dfca592afb6f8f4a04f1d0c63bea74cca9df",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687897946,
-            "globalPct": 14
-          },
-          {
-            "apiName": "chal_king",
-            "name": "King - Crash Zone",
-            "description": "Win a run with King in Crash Zone",
-            "icon": "2372760e6e3b633da4111876330ae14f2db80b6a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687881448,
-            "globalPct": 22.7
-          },
-          {
-            "apiName": "chal_renegade",
-            "name": "Renegade - Crash Zone",
-            "description": "Win a run with Renegade in Crash Zone",
-            "icon": "8a7262160df8a7d72235febd7b232798314312d2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1687730388,
-            "globalPct": 16.1
-          },
-          {
-            "apiName": "chal_vampire",
-            "name": "Vampire - Crash Zone",
-            "description": "Win a run with Vampire in Crash Zone",
-            "icon": "30757a36eabd34b43a6e60c9db9f766c7d68c51f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754590828,
-            "globalPct": 7.7
-          },
-          {
-            "apiName": "chal_vagabond",
-            "name": "Vagabond - Crash Zone",
-            "description": "Win a run with Vagabond in Crash Zone",
-            "icon": "6671888624539605ef878729233323e62079c6e2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754584059,
-            "globalPct": 7.5
-          },
-          {
-            "apiName": "chal_baby",
-            "name": "Baby - Crash Zone",
-            "description": "Win a run with Baby in Crash Zone",
-            "icon": "75c8652932b92fd4a18af4d9329eec2fdf782226",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752325673,
-            "globalPct": 10.4
-          },
-          {
-            "apiName": "chal_blood_drinker",
-            "name": "Blood Drinker",
-            "description": "Reach 40 % Life Steal",
-            "icon": "10f2cb964ddc4a1406f2bd04c26dc2a96fc7368f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750878666,
-            "globalPct": 24.5
-          },
-          {
-            "apiName": "chal_experimentation",
-            "name": "Experimentation",
-            "description": "Have 6 different weapons at once",
-            "icon": "a897188f49e06e54ca4aeb234602513a9153a2f0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750792847,
-            "globalPct": 43.1
-          },
-          {
-            "apiName": "chal_fast_learner",
-            "name": "Fast Learner",
-            "description": "Reach level 10 before wave 6",
-            "icon": "1273ddb2cd85bc0041020209e1ccba3f201e33b2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750780112,
-            "globalPct": 25.5
-          },
-          {
-            "apiName": "chal_magic_and_machinery",
-            "name": "Magic and Machinery",
-            "description": "Reach 10 Elemental Damage and get 3 structures at the same time",
-            "icon": "885d493e3ce09f35b0c647f5ab66f0eda2ad1b11",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750794200,
-            "globalPct": 36.1
-          },
-          {
-            "apiName": "chal_technomage",
-            "name": "Technomage - Crash Zone",
-            "description": "Win a run with Technomage in Crash Zone",
-            "icon": "81bb82765170391a11ee31d011da57cae09e00c6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754588570,
-            "globalPct": 11
-          },
-          {
-            "apiName": "chal_barbecue",
-            "name": "Barbecue",
-            "description": "Have at least 25 enemies burning at the same time",
-            "icon": "90b1f525f31f59aefca6d7adfa36781fd9d82099",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752325588,
-            "globalPct": 18
-          },
-          {
-            "apiName": "chal_blind_greed",
-            "name": "Blind Greed",
-            "description": "Reach 100 % Pickup Range",
-            "icon": "60705eb8f220f2da61c175779bbcde92d2000579",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1751143300,
-            "globalPct": 18.4
-          },
-          {
-            "apiName": "chal_buccaneer",
-            "name": "Buccaneer - Crash Zone",
-            "description": "Win a run with Buccaneer in Crash Zone",
-            "icon": "4d65b6a2d3cc24d9af0cd6471b3ef442e70f27e6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754778795,
-            "globalPct": 5.6
-          },
-          {
-            "apiName": "chal_builder",
-            "name": "Builder - Crash Zone",
-            "description": "Win a run with Builder in Crash Zone",
-            "icon": "db736589042f209b43bed9f436c6d5c34071f568",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754662247,
-            "globalPct": 6.8
-          },
-          {
-            "apiName": "chal_captain",
-            "name": "Captain - Crash Zone",
-            "description": "Win a run with Captain in Crash Zone",
-            "icon": "c4b20ba81b8c45b869af57f2d7c4c64f089c89f9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754664137,
-            "globalPct": 4.9
-          },
-          {
-            "apiName": "chal_cautious",
-            "name": "Cautious",
-            "description": "Kill 1000 enemies that are more than 700 range away from you",
-            "icon": "16df32f14160c50de41802664cc65a595c479a55",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750881396,
-            "globalPct": 21.2
-          },
-          {
-            "apiName": "chal_chef",
-            "name": "Chef - Crash Zone",
-            "description": "Win a run with Chef in Crash Zone",
-            "icon": "d060c106f5cd81e96af3bc4e1cea7c2b6359427f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754678983,
-            "globalPct": 4.7
-          },
-          {
-            "apiName": "chal_creature",
-            "name": "Creature - Crash Zone",
-            "description": "Win a run with Creature in Crash Zone",
-            "icon": "7021ae1d9acd60427e6841a2261689c6a50477e5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754673732,
-            "globalPct": 7.4
-          },
-          {
-            "apiName": "chal_curious",
-            "name": "Curious - Crash Zone",
-            "description": "Win a run with Curious in Crash Zone",
-            "icon": "e9a44ee4716194ff7299bad456739e1c86bd1caa",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754646696,
-            "globalPct": 5.2
-          },
-          {
-            "apiName": "chal_diver",
-            "name": "Diver - Crash Zone",
-            "description": "Win a run with Diver in Crash Zone",
-            "icon": "ffbdcbfb46e1a04ef762bf22410d442baf807862",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754747026,
-            "globalPct": 5.1
-          },
-          {
-            "apiName": "chal_druid",
-            "name": "Druid - Crash Zone",
-            "description": "Win a run with Druid in Crash Zone",
-            "icon": "e550ec7db1b7d2bea7637cdc531942308b21c3d2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754690565,
-            "globalPct": 5.4
-          },
-          {
-            "apiName": "chal_dwarf",
-            "name": "Dwarf - Crash Zone",
-            "description": "Win a run with Dwarf in Crash Zone",
-            "icon": "49d28589d3906103e6f9f7704a302c851ed641ae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754693604,
-            "globalPct": 4.6
-          },
-          {
-            "apiName": "chal_gangster",
-            "name": "Gangster - Crash Zone",
-            "description": "Win a run with Gangster in Crash Zone",
-            "icon": "20c399c9377fa1cc1126821a9a113f25a9ca30c7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754695706,
-            "globalPct": 4.8
-          },
-          {
-            "apiName": "chal_herbalist",
-            "name": "Herbalist",
-            "description": "Collect 250 consumables by the end of wave 20",
-            "icon": "f2a182cab2f75225386f8b03a2f7a7aca40d9fd2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750881233,
-            "globalPct": 16.5
-          },
-          {
-            "apiName": "chal_hiker",
-            "name": "Hiker - Crash Zone",
-            "description": "Win a run with Hiker in Crash Zone",
-            "icon": "31623561e2fcd6078fb5e449365043f02d9f2931",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754749014,
-            "globalPct": 4.9
-          },
-          {
-            "apiName": "chal_ogre",
-            "name": "Ogre - Crash Zone",
-            "description": "Win a run with Ogre in Crash Zone",
-            "icon": "9d7caaac179eae1d420ac621d0a5c12885e7f09c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754782814,
-            "globalPct": 5.4
-          },
-          {
-            "apiName": "chal_overkill",
-            "name": "Overkill",
-            "description": "Deal 1000 damage to an enemy in a single hit",
-            "icon": "4da1da5be36d3dcb7cbb90d4dd24619e8775cafb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1751144674,
-            "globalPct": 19.2
-          },
-          {
-            "apiName": "chal_romantic",
-            "name": "Romantic - Crash Zone",
-            "description": "Win a run with Romantic in Crash Zone",
-            "icon": "82eff09ea36640623c5d69d08d24c06a37378cc2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754826213,
-            "globalPct": 4.5
-          },
-          {
-            "apiName": "chal_sailor",
-            "name": "Sailor - Crash Zone",
-            "description": "Win a run with Sailor in Crash Zone",
-            "icon": "8471337fb970be03ef0fff4e81e2882c569808e3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754608923,
-            "globalPct": 6.5
-          },
-          {
-            "apiName": "chal_smelly_feet",
-            "name": "Smelly Feet",
-            "description": "Walk a total of 20000 steps",
-            "icon": "d1316b38489701daf44fd3d750085305859e57d2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752187056,
-            "globalPct": 18.3
-          },
-          {
-            "apiName": "chal_uncorrupted",
-            "name": "Uncorrupted",
-            "description": "Finish a run with 0 Curse",
-            "icon": "e39751bab7def49ed79282a17a54d7f2291b6b7a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752187056,
-            "globalPct": 11.5
-          },
-          {
-            "apiName": "chal_unlucky",
-            "name": "Unlucky",
-            "description": "Reroll 10 times in a single shop",
-            "icon": "694683372c031ee6445bac8bec7768bf34e57090",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750881566,
-            "globalPct": 17.7
-          },
-          {
-            "apiName": "chal_unstoppable_force",
-            "name": "Unstoppable Force",
-            "description": "Hit at least 25 enemies with a single melee attack",
-            "icon": "b1e6b688acba2c931beee99290078173d848f0e5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1751144023,
-            "globalPct": 13.9
-          },
-          {
-            "apiName": "chal_well_rounded_abyss",
-            "name": "Well-Rounded - The Abyss",
-            "description": "Win a run with Well-Rounded in The Abyss",
-            "icon": "348e7713e009ec5163736ee28119fcea502350e8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750626455,
-            "globalPct": 5.7
-          },
-          {
-            "apiName": "chal_brawler_abyss",
-            "name": "Brawler - The Abyss",
-            "description": "Win a run with Brawler in The Abyss",
-            "icon": "5d66be926cf5a09a3dc1eaefb95562970b1270d9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752187056,
-            "globalPct": 5.5
-          },
-          {
-            "apiName": "chal_crazy_abyss",
-            "name": "Crazy - The Abyss",
-            "description": "Win a run with Crazy in The Abyss",
-            "icon": "bdb94853fe1cd68554fbfa593e385b72504b6d56",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752234978,
-            "globalPct": 5
-          },
-          {
-            "apiName": "chal_ranger_abyss",
-            "name": "Ranger - The Abyss",
-            "description": "Win a run with Ranger in The Abyss",
-            "icon": "7868803e77b2aa456ff4ca07029fd2e071e81077",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754829808,
-            "globalPct": 5.7
-          },
-          {
-            "apiName": "chal_mage_abyss",
-            "name": "Mage - The Abyss",
-            "description": "Win a run with Mage in The Abyss",
-            "icon": "7c137f698df724b83640368cd9b073782f1ba2ac",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754855205,
-            "globalPct": 5.8
-          },
-          {
-            "apiName": "chal_chunky_abyss",
-            "name": "Chunky - The Abyss",
-            "description": "Win a run with Chunky in The Abyss",
-            "icon": "36a129883baac159f7fb3fe255898dc1ca90dbce",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754858164,
-            "globalPct": 4.6
-          },
-          {
-            "apiName": "chal_old_abyss",
-            "name": "Old - The Abyss",
-            "description": "Win a run with Old in The Abyss",
-            "icon": "e5eda9de9306604bcff639c5e884c90f9fe52a7a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754940270,
-            "globalPct": 4.4
-          },
-          {
-            "apiName": "chal_lucky_abyss",
-            "name": "Lucky - The Abyss",
-            "description": "Win a run with Lucky in The Abyss",
-            "icon": "280fa4e73cb24b5bd970c4b699ddd3bd80e3cd57",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754942901,
-            "globalPct": 5.8
-          },
-          {
-            "apiName": "chal_mutant_abyss",
-            "name": "Mutant - The Abyss",
-            "description": "Win a run with Mutant in The Abyss",
-            "icon": "98d7a41e5b9dba43606a57b4972f687f28be6c46",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750781766,
-            "globalPct": 5.1
-          },
-          {
-            "apiName": "chal_generalist_abyss",
-            "name": "Generalist - The Abyss",
-            "description": "Win a run with Generalist in The Abyss",
-            "icon": "b035fc719becdf4c296b87f5d307ef028264b129",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755027936,
-            "globalPct": 4.1
-          },
-          {
-            "apiName": "chal_loud_abyss",
-            "name": "Loud - The Abyss",
-            "description": "Win a run with Loud in The Abyss",
-            "icon": "f9f990cabfe046b7ccd3639d6e058b4b615c653e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755037079,
-            "globalPct": 5.4
-          },
-          {
-            "apiName": "chal_multitasker_abyss",
-            "name": "Multitasker - The Abyss",
-            "description": "Win a run with Multitasker in The Abyss",
-            "icon": "9ab485785e99a9629440da2e39c7b75b98401ee1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755039140,
-            "globalPct": 5
-          },
-          {
-            "apiName": "chal_wildling_abyss",
-            "name": "Wildling - The Abyss",
-            "description": "Win a run with Wildling in The Abyss",
-            "icon": "c5685b8f5f174b590bcb021d5dce3ac50a87c82f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755100950,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "chal_pacifist_abyss",
-            "name": "Pacifist - The Abyss",
-            "description": "Win a run with Pacifist in The Abyss",
-            "icon": "87486cc426d30c0a77530873ef28542bc75fe970",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755106536,
-            "globalPct": 4.2
-          },
-          {
-            "apiName": "chal_gladiator_abyss",
-            "name": "Gladiator - The Abyss",
-            "description": "Win a run with Gladiator in The Abyss",
-            "icon": "0317f27c4a4010a2d13b7eb4b42a69e1b9d96299",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755112957,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "chal_saver_abyss",
-            "name": "Saver - The Abyss",
-            "description": "Win a run with Saver in The Abyss",
-            "icon": "c2761c358d09cd07400940262d626a2f422fed4d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755115869,
-            "globalPct": 4
-          },
-          {
-            "apiName": "chal_sick_abyss",
-            "name": "Sick - The Abyss",
-            "description": "Win a run with Sick in The Abyss",
-            "icon": "c151c6dfea42b7c49c11555c4d0e9a8d170124e0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755203587,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "chal_farmer_abyss",
-            "name": "Farmer - The Abyss",
-            "description": "Win a run with Farmer in The Abyss",
-            "icon": "067360002645b72e8a00b3485516c04b87918dd0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755257653,
-            "globalPct": 4.5
-          },
-          {
-            "apiName": "chal_ghost_abyss",
-            "name": "Ghost - The Abyss",
-            "description": "Win a run with Ghost in The Abyss",
-            "icon": "62aaef5f976abe94e1de22adee7e05aab88c8aef",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755260247,
-            "globalPct": 4.9
-          },
-          {
-            "apiName": "chal_speedy_abyss",
-            "name": "Speedy - The Abyss",
-            "description": "Win a run with Speedy in The Abyss",
-            "icon": "18caec5a796b67eef6e7aca9b0c4e58bc215d85b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755285956,
-            "globalPct": 4.1
-          },
-          {
-            "apiName": "chal_entrepreneur_abyss",
-            "name": "Entrepreneur - The Abyss",
-            "description": "Win a run with Entrepreneur in The Abyss",
-            "icon": "d98b138abbd426af01ec97ce6212817a55bcd724",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755293084,
-            "globalPct": 4.2
-          },
-          {
-            "apiName": "chal_engineer_abyss",
-            "name": "Engineer - The Abyss",
-            "description": "Win a run with Engineer in The Abyss",
-            "icon": "54c2281c619f3e1c4c31301184e91ed26351c45a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755294732,
-            "globalPct": 5.5
-          },
-          {
-            "apiName": "chal_explorer_abyss",
-            "name": "Explorer - The Abyss",
-            "description": "Win a run with Explorer in The Abyss",
-            "icon": "8cdb7c72e7c1ab60bf3401854b3063173de9f8ab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750882154,
-            "globalPct": 4.3
-          },
-          {
-            "apiName": "chal_doctor_abyss",
-            "name": "Doctor - The Abyss",
-            "description": "Win a run with Doctor in The Abyss",
-            "icon": "4c6e870221b8cbef58d16ea19692dc8e4481f129",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755341491,
-            "globalPct": 4.8
-          },
-          {
-            "apiName": "chal_hunter_abyss",
-            "name": "Hunter - The Abyss",
-            "description": "Win a run with Hunter in The Abyss",
-            "icon": "14c934ff00884d42f4aa0dbe254d3fbf4606a3ee",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755377895,
-            "globalPct": 4.7
-          },
-          {
-            "apiName": "chal_artificer_abyss",
-            "name": "Artificer - The Abyss",
-            "description": "Win a run with Artificer in The Abyss",
-            "icon": "0c86ae6ca6712f3b2ef0371b7772e8f9c25d196b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755421962,
-            "globalPct": 4.2
-          },
-          {
-            "apiName": "chal_arms_dealer_abyss",
-            "name": "Arms Dealer - The Abyss",
-            "description": "Win a run with Arms Dealer in The Abyss",
-            "icon": "335808ad75387c7598f208352ee7c67aa612f9b8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755438586,
-            "globalPct": 3.4
-          },
-          {
-            "apiName": "chal_streamer_abyss",
-            "name": "Streamer - The Abyss",
-            "description": "Win a run with Streamer in The Abyss",
-            "icon": "20832d9ad3449378f071c2666f4e3898c1484b39",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755595856,
-            "globalPct": 4.1
-          },
-          {
-            "apiName": "chal_cyborg_abyss",
-            "name": "Cyborg - The Abyss",
-            "description": "Win a run with Cyborg in The Abyss",
-            "icon": "127468169daef0af02a6f3494a273b113c0c89ca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755597937,
-            "globalPct": 4.2
-          },
-          {
-            "apiName": "chal_glutton_abyss",
-            "name": "Glutton - The Abyss",
-            "description": "Win a run with Glutton in The Abyss",
-            "icon": "dae19053ec92e22a380cf3244f38707b7fe8766c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755513819,
-            "globalPct": 4
-          },
-          {
-            "apiName": "chal_jack_abyss",
-            "name": "Jack - The Abyss",
-            "description": "Win a run with Jack in The Abyss",
-            "icon": "2a0b28b8c4f0bb04fe532413608598175e1d5e5e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755521966,
-            "globalPct": 4.1
-          },
-          {
-            "apiName": "chal_lich_abyss",
-            "name": "Lich - The Abyss",
-            "description": "Win a run with Lich in The Abyss",
-            "icon": "eeb92984c974475cc5fa18568c4d9f344ac5a8bf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750879197,
-            "globalPct": 4.6
-          },
-          {
-            "apiName": "chal_apprentice_abyss",
-            "name": "Apprentice - The Abyss",
-            "description": "Win a run with Apprentice in The Abyss",
-            "icon": "df8f65b24e4e89457e0dadb005a2a3f413deb6f4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755605289,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "chal_cryptid_abyss",
-            "name": "Cryptid - The Abyss",
-            "description": "Win a run with Cryptid in The Abyss",
-            "icon": "074e10ee709de1f2e38dd3706599f3daa65b46cc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755609926,
-            "globalPct": 3.6
-          },
-          {
-            "apiName": "chal_fisherman_abyss",
-            "name": "Fisherman - The Abyss",
-            "description": "Win a run with Fisherman in The Abyss",
-            "icon": "3139e7aed08fbac222c2e5384d4aa5187b7e9e6c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755631452,
-            "globalPct": 3.7
-          },
-          {
-            "apiName": "chal_golem_abyss",
-            "name": "Golem - The Abyss",
-            "description": "Win a run with Golem in The Abyss",
-            "icon": "12d08dc89bdb7ae3f4166eb1c62086658a5352c9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755633779,
-            "globalPct": 4.1
-          },
-          {
-            "apiName": "chal_king_abyss",
-            "name": "King - The Abyss",
-            "description": "Win a run with King in The Abyss",
-            "icon": "2c3916df1be34267ceca7584d71434402bf23106",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755692154,
-            "globalPct": 5
-          },
-          {
-            "apiName": "chal_renegade_abyss",
-            "name": "Renegade - The Abyss",
-            "description": "Win a run with Renegade in The Abyss",
-            "icon": "51426851152396cb663af0cb7e6bc41f875aff6a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755693759,
-            "globalPct": 4.3
-          },
-          {
-            "apiName": "chal_one_arm_abyss",
-            "name": "One-Armed - The Abyss",
-            "description": "Win a run with One-Armed in The Abyss",
-            "icon": "23d9fb12eeaef1f9179dd6fe0783255126d47755",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1751144999,
-            "globalPct": 4.4
-          },
-          {
-            "apiName": "chal_bull_abyss",
-            "name": "Bull - The Abyss",
-            "description": "Win a run with Bull in The Abyss",
-            "icon": "757fc8f0b4c157d08d38e11615c65f57005d7fb3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755702434,
-            "globalPct": 5.6
-          },
-          {
-            "apiName": "chal_soldier_abyss",
-            "name": "Soldier - The Abyss",
-            "description": "Win a run with Soldier in The Abyss",
-            "icon": "58c5cfab85da299277842f7c0333d3bf1b2b47f7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755720511,
-            "globalPct": 4.5
-          },
-          {
-            "apiName": "chal_masochist_abyss",
-            "name": "Masochist - The Abyss",
-            "description": "Win a run with Masochist in The Abyss",
-            "icon": "e7499ff90dde5bb1d888adb8b2ad29252021c3f0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755722554,
-            "globalPct": 4.3
-          },
-          {
-            "apiName": "chal_knight_abyss",
-            "name": "Knight - The Abyss",
-            "description": "Win a run with Knight in The Abyss",
-            "icon": "912d247d5454177b8325f9ab7728026616be8e1a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755774208,
-            "globalPct": 4.6
-          },
-          {
-            "apiName": "chal_demon_abyss",
-            "name": "Demon - The Abyss",
-            "description": "Win a run with Demon in The Abyss",
-            "icon": "9afae46a8ad3fe2f2edce059a7bf6e21a6a21051",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755776544,
-            "globalPct": 5
-          },
-          {
-            "apiName": "chal_baby_abyss",
-            "name": "Baby - The Abyss",
-            "description": "Win a run with Baby in The Abyss",
-            "icon": "1f6c8250c4c26fe2658de832b685e363e0c2aaf3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755807470,
-            "globalPct": 5
-          },
-          {
-            "apiName": "chal_vagabond_abyss",
-            "name": "Vagabond - The Abyss",
-            "description": "Win a run with Vagabond in The Abyss",
-            "icon": "99e2a750de7f27ac547f8ee655a580706ce06207",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755809581,
-            "globalPct": 3.8
-          },
-          {
-            "apiName": "chal_technomage_abyss",
-            "name": "Technomage - The Abyss",
-            "description": "Win a run with Technomage in The Abyss",
-            "icon": "861a6c0d792d36f7c5c5504593af623ece9e034c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755859474,
-            "globalPct": 4.7
-          },
-          {
-            "apiName": "chal_vampire_abyss",
-            "name": "Vampire - The Abyss",
-            "description": "Win a run with Vampire in The Abyss",
-            "icon": "a90d21595ab74e7323cc38fbb108a56db664d4d6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755862483,
-            "globalPct": 4
-          },
-          {
-            "apiName": "chal_sailor_abyss",
-            "name": "Sailor - The Abyss",
-            "description": "Win a run with Sailor in The Abyss",
-            "icon": "f937518bf13d5c03c2d0f6ed12966c7a8dd274f3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755885889,
-            "globalPct": 5.4
-          },
-          {
-            "apiName": "chal_curious_abyss",
-            "name": "Curious - The Abyss",
-            "description": "Win a run with Curious in The Abyss",
-            "icon": "4b4c4c97436fb7f958b11aed78d7733df2014337",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755887519,
-            "globalPct": 4.2
-          },
-          {
-            "apiName": "chal_builder_abyss",
-            "name": "Builder - The Abyss",
-            "description": "Win a run with Builder in The Abyss",
-            "icon": "0b5afa36b7e94c8480db095c3b9802a36088aa8d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755889752,
-            "globalPct": 5.1
-          },
-          {
-            "apiName": "chal_captain_abyss",
-            "name": "Captain - The Abyss",
-            "description": "Win a run with Captain in The Abyss",
-            "icon": "f0d0578d03203005fe51880de5e54e2fe32a9132",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755899889,
-            "globalPct": 4
-          },
-          {
-            "apiName": "chal_creature_abyss",
-            "name": "Creature - The Abyss",
-            "description": "Win a run with Creature in The Abyss",
-            "icon": "a25d05b2c4c64e78b0f7bd0e34391970ec640c2e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755963190,
-            "globalPct": 6.4
-          },
-          {
-            "apiName": "chal_chef_abyss",
-            "name": "Chef - The Abyss",
-            "description": "Win a run with Chef in The Abyss",
-            "icon": "382f3971424f19d7de1b413be057c6de1847fc55",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755964793,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "chal_druid_abyss",
-            "name": "Druid - The Abyss",
-            "description": "Win a run with Druid in The Abyss",
-            "icon": "f2a5a9fc91b8a0ed6a4919994e2685bc0f7caad1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755983764,
-            "globalPct": 4.7
-          },
-          {
-            "apiName": "chal_dwarf_abyss",
-            "name": "Dwarf - The Abyss",
-            "description": "Win a run with Dwarf in The Abyss",
-            "icon": "c9c58f55df7f9bf67e0736ac5e694ff435cecaa0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756027380,
-            "globalPct": 3.6
-          },
-          {
-            "apiName": "chal_gangster_abyss",
-            "name": "Gangster - The Abyss",
-            "description": "Win a run with Gangster in The Abyss",
-            "icon": "adbadebe122475fba253b14b845c371041b48549",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756066743,
-            "globalPct": 4
-          },
-          {
-            "apiName": "chal_diver_abyss",
-            "name": "Diver - The Abyss",
-            "description": "Win a run with Diver in The Abyss",
-            "icon": "bf0f4414371101130ad536d26c0f540a10ea3871",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756110952,
-            "globalPct": 4.5
-          },
-          {
-            "apiName": "chal_hiker_abyss",
-            "name": "Hiker - The Abyss",
-            "description": "Win a run with Hiker in The Abyss",
-            "icon": "ce7e3d2daa040430c77ec85794af0a7c63f4b2b4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756112742,
-            "globalPct": 4.4
-          },
-          {
-            "apiName": "chal_buccaneer_abyss",
-            "name": "Buccaneer - The Abyss",
-            "description": "Win a run with Buccaneer in The Abyss",
-            "icon": "6044e36df998f1b81d8ee6e685ca87d94a02ef9b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756118847,
-            "globalPct": 4.7
-          },
-          {
-            "apiName": "chal_ogre_abyss",
-            "name": "Ogre - The Abyss",
-            "description": "Win a run with Ogre in The Abyss",
-            "icon": "f01f741f2c4c8bb45218320e791bb4ba8c41daba",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756121799,
-            "globalPct": 4.6
-          },
-          {
-            "apiName": "chal_romantic_abyss",
-            "name": "Romantic - The Abyss",
-            "description": "Win a run with Romantic in The Abyss",
-            "icon": "fe7526e4a7d9ce9621b327bda05c16a50f54994a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756125259,
-            "globalPct": 3.6
-          },
-          {
-            "apiName": "chal_beast_master",
-            "name": "Beast Master",
-            "description": "Win a run with Beast Master",
-            "icon": "b9ab40c4cc8fe1db74d1bedb9b6db10dc9988828",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1774436073,
-            "globalPct": 4.4
-          },
-          {
-            "apiName": "chal_difficulty_6",
-            "name": "Nightmare",
-            "description": "Win a run in Nightmare",
-            "icon": "6b76c6223473b607a24d003260dad3260f8b7db6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1780902339,
-            "globalPct": 2.6
-          },
-          {
-            "apiName": "chal_wounded",
-            "name": "Wounded",
-            "description": "Win a run with Wounded",
-            "icon": "f65d165cec465c0b63f39457583a892881972db0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1780903910,
-            "globalPct": 1.6
-          }
-        ]
-      }
-    },
-    {
       "appId": 2218750,
       "name": "Halls of Torment",
-      "playtimeHours": 152.6,
+      "playtimeHours": 153.8,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2218750/9fec2ded1ecfea4bc04814440294bde9f235684e.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/header.jpg?t=1761660851",
       "genres": [
@@ -42187,7 +40364,7 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/ffefaf6c014b2a59241fdbbd199d2feca64c167d/library_header_2x.jpg",
       "achievements": {
         "total": 666,
-        "unlocked": 554,
+        "unlocked": 555,
         "items": [
           {
             "apiName": "q_Caverns_Boss_1",
@@ -47188,6 +45365,1829 @@
             "unlocked": true,
             "unlockTime": 1740433963,
             "globalPct": 7.6
+          }
+        ]
+      }
+    },
+    {
+      "appId": 1942280,
+      "name": "Brotato",
+      "playtimeHours": 153.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/header.jpg?t=1775134848",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Shared/Split Screen Co-op"
+      ],
+      "hardwareSupport": [
+        "Full controller support",
+        "Remote Play on TV",
+        "Remote Play Together"
+      ],
+      "releaseDate": "Jun 23, 2023",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/f98281910016f8924be37cce3d4b119f5223a358/library_header_2x.jpg",
+      "achievements": {
+        "total": 179,
+        "unlocked": 179,
+        "items": [
+          {
+            "apiName": "chal_survivor_1",
+            "name": "Survivor 1",
+            "description": "Kill 300 enemies",
+            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676750366,
+            "globalPct": 95.6
+          },
+          {
+            "apiName": "chal_survivor_2",
+            "name": "Survivor 2",
+            "description": "Kill 2000 enemies",
+            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676751523,
+            "globalPct": 90.8
+          },
+          {
+            "apiName": "chal_survivor_3",
+            "name": "Survivor 3",
+            "description": "Kill 5000 enemies",
+            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676753068,
+            "globalPct": 84.5
+          },
+          {
+            "apiName": "chal_survivor_4",
+            "name": "Survivor 4",
+            "description": "Kill 10000 enemies",
+            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676814257,
+            "globalPct": 78
+          },
+          {
+            "apiName": "chal_survivor_5",
+            "name": "Survivor 5",
+            "description": "Kill 20000 enemies",
+            "icon": "27a9be454703c52dc7a98bddc7d8c4a49e643340",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676831548,
+            "globalPct": 70.3
+          },
+          {
+            "apiName": "chal_difficulty_0",
+            "name": "Danger 0",
+            "description": "Win a run in Danger 0",
+            "icon": "c4f994ce0471cb82eedbcc9915db9d23658d54ce",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676753708,
+            "globalPct": 73
+          },
+          {
+            "apiName": "chal_difficulty_1",
+            "name": "Danger 1",
+            "description": "Win a run in Danger 1",
+            "icon": "af550cdb800b54d1b7043052c2901851e0a10996",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677158400,
+            "globalPct": 60.9
+          },
+          {
+            "apiName": "chal_difficulty_2",
+            "name": "Danger 2",
+            "description": "Win a run in Danger 2",
+            "icon": "f1402a4648bcb88755b5f205bab44f6e2bde02ad",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679275019,
+            "globalPct": 54.6
+          },
+          {
+            "apiName": "chal_difficulty_3",
+            "name": "Danger 3",
+            "description": "Win a run in Danger 3",
+            "icon": "79868f35217f77d3b1707ef8159d17cf293a60c7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680557392,
+            "globalPct": 48.6
+          },
+          {
+            "apiName": "chal_difficulty_4",
+            "name": "Danger 4",
+            "description": "Win a run in Danger 4",
+            "icon": "07c13d9a69b3bc4befd2d8a3443d6d222813f354",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680617327,
+            "globalPct": 42.1
+          },
+          {
+            "apiName": "chal_difficulty_5",
+            "name": "Danger 5",
+            "description": "Win a run in Danger 5",
+            "icon": "0080e6e8a4bc0122e58422372d019a7c949f6e8f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680723392,
+            "globalPct": 36.2
+          },
+          {
+            "apiName": "chal_gatherer_1",
+            "name": "Gatherer 1",
+            "description": "Collect 300 materials",
+            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676750442,
+            "globalPct": 95.2
+          },
+          {
+            "apiName": "chal_gatherer_2",
+            "name": "Gatherer 2",
+            "description": "Collect 2000 materials",
+            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676752289,
+            "globalPct": 88.1
+          },
+          {
+            "apiName": "chal_gatherer_3",
+            "name": "Gatherer 3",
+            "description": "Collect 5000 materials",
+            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676769121,
+            "globalPct": 80.7
+          },
+          {
+            "apiName": "chal_gatherer_4",
+            "name": "Gatherer 4",
+            "description": "Collect 10000 materials",
+            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676822376,
+            "globalPct": 74
+          },
+          {
+            "apiName": "chal_gatherer_5",
+            "name": "Gatherer 5",
+            "description": "Collect 20000 materials",
+            "icon": "5a6009548d75340b0276b75a2c4faf76d757a58b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676844382,
+            "globalPct": 65.6
+          },
+          {
+            "apiName": "chal_agriculture",
+            "name": "Agriculture",
+            "description": "Reach 200 Harvesting",
+            "icon": "403d49a26b6e3469983070f96a8a2daace96799c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677105736,
+            "globalPct": 46.3
+          },
+          {
+            "apiName": "chal_dying",
+            "name": "Dying",
+            "description": "Reach -5 HP Regeneration",
+            "icon": "7fa5e6afe61c1a0e79c978c16b09e7f0672e8ad8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676815512,
+            "globalPct": 49.5
+          },
+          {
+            "apiName": "chal_fast",
+            "name": "Fast",
+            "description": "Reach 50 % Speed",
+            "icon": "c518313a7b2f96de9d3806a2efdb9754a80e4a82",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677157628,
+            "globalPct": 43.8
+          },
+          {
+            "apiName": "chal_hoarder",
+            "name": "Hoarder",
+            "description": "Hold 3000 materials",
+            "icon": "88df9ce2be65c04bd4fb8b0df103f921e03e7429",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679186842,
+            "globalPct": 36.3
+          },
+          {
+            "apiName": "chal_lumberjack",
+            "name": "Lumberjack",
+            "description": "Kill 50 trees",
+            "icon": "8b4ee07972f4c5c550efde55536dd2c489ec533b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676752560,
+            "globalPct": 85.6
+          },
+          {
+            "apiName": "chal_medicine",
+            "name": "Medicine",
+            "description": "Heal 200 HP in one wave",
+            "icon": "d224fd35c23e67b99eb92e3448bfa7671b568869",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677356214,
+            "globalPct": 61.6
+          },
+          {
+            "apiName": "chal_turrets",
+            "name": "Industrialization",
+            "description": "Get 5 turrets on the map simultaneously",
+            "icon": "036c7cb80c10d0e0662f60a9673dd14c481e8dd1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676822455,
+            "globalPct": 66.4
+          },
+          {
+            "apiName": "chal_hallucination",
+            "name": "Hallucination",
+            "description": "Reach 60 % Dodge",
+            "icon": "784c42678d9ebca5274c408026e074eb4a39cfe8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676999328,
+            "globalPct": 56.6
+          },
+          {
+            "apiName": "chal_brawler",
+            "name": "Brawler - Crash Zone",
+            "description": "Win a run with Brawler in Crash Zone",
+            "icon": "80428a1b4e279722db954ca69a8dd0bbf1e73e0b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680555600,
+            "globalPct": 31.4
+          },
+          {
+            "apiName": "chal_bull",
+            "name": "Bull - Crash Zone",
+            "description": "Win a run with Bull in Crash Zone",
+            "icon": "ae021d7ac176c173db7f69c23e3ca58be1c6269c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680460820,
+            "globalPct": 29.2
+          },
+          {
+            "apiName": "chal_chunky",
+            "name": "Chunky - Crash Zone",
+            "description": "Win a run with Chunky in Crash Zone",
+            "icon": "c9800266d2ede1023085894b8fe5060b5878ef7e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681132831,
+            "globalPct": 21.6
+          },
+          {
+            "apiName": "chal_demon",
+            "name": "Demon - Crash Zone",
+            "description": "Win a run with Demon in Crash Zone",
+            "icon": "c1869cfdf506347f02058e5b59e286a59e2e1422",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680880948,
+            "globalPct": 17.1
+          },
+          {
+            "apiName": "chal_doctor",
+            "name": "Doctor - Crash Zone",
+            "description": "Win a run with Doctor in Crash Zone",
+            "icon": "c8830ba89c87777f4a3d807e6cbb72fda91da34b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680203966,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "chal_engineer",
+            "name": "Engineer - Crash Zone",
+            "description": "Win a run with Engineer in Crash Zone",
+            "icon": "f3ab4a3062e904f288dccdcc989724f42f9b3883",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679409523,
+            "globalPct": 33.2
+          },
+          {
+            "apiName": "chal_entrepreneur",
+            "name": "Entrepreneur - Crash Zone",
+            "description": "Win a run with Entrepreneur in Crash Zone",
+            "icon": "91e9bbf60b63180f3002dbfbb684d68b6c9ef7f4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680878779,
+            "globalPct": 15.5
+          },
+          {
+            "apiName": "chal_explorer",
+            "name": "Explorer - Crash Zone",
+            "description": "Win a run with Explorer in Crash Zone",
+            "icon": "51bea9355a83efc6b25b2648c74dffbaa7a599b2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681065352,
+            "globalPct": 18.9
+          },
+          {
+            "apiName": "chal_farmer",
+            "name": "Farmer - Crash Zone",
+            "description": "Win a run with Farmer in Crash Zone",
+            "icon": "8922449e756e173b87f00b5e96ad7fb3113a672c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679346286,
+            "globalPct": 16.9
+          },
+          {
+            "apiName": "chal_ghost",
+            "name": "Ghost - Crash Zone",
+            "description": "Win a run with Ghost in Crash Zone",
+            "icon": "c2f38ae68b35fd9e74da69ed44aaf62155c5bb91",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677105834,
+            "globalPct": 26.7
+          },
+          {
+            "apiName": "chal_gladiator",
+            "name": "Gladiator - Crash Zone",
+            "description": "Win a run with Gladiator in Crash Zone",
+            "icon": "d57befbadaa84a7f0f6e0e4b283a368a21eb2a32",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680980932,
+            "globalPct": 18
+          },
+          {
+            "apiName": "chal_knight",
+            "name": "Knight - Crash Zone",
+            "description": "Win a run with Knight in Crash Zone",
+            "icon": "4b7097cb9dbd947e23136fed6b558af3dcbbbe7b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680778605,
+            "globalPct": 20.1
+          },
+          {
+            "apiName": "chal_loud",
+            "name": "Loud - Crash Zone",
+            "description": "Win a run with Loud in Crash Zone",
+            "icon": "3d7776136898b8087e30d804b6dbb51c332e6db5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680557392,
+            "globalPct": 26.1
+          },
+          {
+            "apiName": "chal_lucky",
+            "name": "Lucky - Crash Zone",
+            "description": "Win a run with Lucky in Crash Zone",
+            "icon": "13a43028492a46988c77891f34bee39e85382bb6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676844504,
+            "globalPct": 27.2
+          },
+          {
+            "apiName": "chal_mage",
+            "name": "Mage - Crash Zone",
+            "description": "Win a run with Mage in Crash Zone",
+            "icon": "9ddb9b80995b714b453ae515f520f6432958c4db",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679871066,
+            "globalPct": 30.6
+          },
+          {
+            "apiName": "chal_masochist",
+            "name": "Masochist - Crash Zone",
+            "description": "Win a run with Masochist in Crash Zone",
+            "icon": "8e98a965ff13fc0f6815adff505de06ff78407a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680617325,
+            "globalPct": 19.4
+          },
+          {
+            "apiName": "chal_multitasker",
+            "name": "Multitasker - Crash Zone",
+            "description": "Win a run with Multitasker in Crash Zone",
+            "icon": "826703a137b6b7713b26d4cb6b08c3c814040b33",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679924468,
+            "globalPct": 27.8
+          },
+          {
+            "apiName": "chal_mutant",
+            "name": "Mutant - Crash Zone",
+            "description": "Win a run with Mutant in Crash Zone",
+            "icon": "3bbe01b7a73cb0dd7596d7e6e2ceb656fdb98c47",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676753708,
+            "globalPct": 24.6
+          },
+          {
+            "apiName": "chal_old",
+            "name": "Old - Crash Zone",
+            "description": "Win a run with Old in Crash Zone",
+            "icon": "85c83c60e36e333514e4ab30002f2fec06c6eba0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680807634,
+            "globalPct": 23
+          },
+          {
+            "apiName": "chal_one_arm",
+            "name": "One-Armed - Crash Zone",
+            "description": "Win a run with One-Armed in Crash Zone",
+            "icon": "8321b46efb8b74a832190f39f8d628253b86cefd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680520530,
+            "globalPct": 22.1
+          },
+          {
+            "apiName": "chal_pacifist",
+            "name": "Pacifist - Crash Zone",
+            "description": "Win a run with Pacifist in Crash Zone",
+            "icon": "af7292d5d270767c43eb422f9c5d9edd5e75e28e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680805702,
+            "globalPct": 21.3
+          },
+          {
+            "apiName": "chal_ranger",
+            "name": "Ranger - Crash Zone",
+            "description": "Win a run with Ranger in Crash Zone",
+            "icon": "c44b18c334c3978f5f95b9e93e86810c371bb813",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680796241,
+            "globalPct": 38.3
+          },
+          {
+            "apiName": "chal_saver",
+            "name": "Saver - Crash Zone",
+            "description": "Win a run with Saver in Crash Zone",
+            "icon": "040a52e395b8fee12e33e3134cfda6aa0a063adb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679187333,
+            "globalPct": 18.1
+          },
+          {
+            "apiName": "chal_sick",
+            "name": "Sick - Crash Zone",
+            "description": "Win a run with Sick in Crash Zone",
+            "icon": "f79bc108428d6a80ab929fc7dc36a6c31969113b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681131027,
+            "globalPct": 16.2
+          },
+          {
+            "apiName": "chal_soldier",
+            "name": "Soldier - Crash Zone",
+            "description": "Win a run with Soldier in Crash Zone",
+            "icon": "d3d2c1416b9dde571c31372a234f9dda287fb472",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680437605,
+            "globalPct": 21.9
+          },
+          {
+            "apiName": "chal_speedy",
+            "name": "Speedy - Crash Zone",
+            "description": "Win a run with Speedy in Crash Zone",
+            "icon": "0f08b7f1e52bc67976967dad807aa1b5a39b001e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679275018,
+            "globalPct": 16.6
+          },
+          {
+            "apiName": "chal_well_rounded",
+            "name": "Well-Rounded - Crash Zone",
+            "description": "Win a run with Well-Rounded in Crash Zone",
+            "icon": "64641273e7e9418b11765a609dbc59f452298e4a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677158400,
+            "globalPct": 36.9
+          },
+          {
+            "apiName": "chal_wildling",
+            "name": "Wildling - Crash Zone",
+            "description": "Win a run with Wildling in Crash Zone",
+            "icon": "2bc52ed4f99255f29d57072d4db11712dacbe548",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680177503,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "chal_rookie",
+            "name": "Rookie",
+            "description": "Die for the first time",
+            "icon": "ac20c0c1ebd29ab81976921ff53506e044db2944",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676750846,
+            "globalPct": 93.4
+          },
+          {
+            "apiName": "chal_crazy",
+            "name": "Crazy - Crash Zone",
+            "description": "Win a run with Crazy in Crash Zone",
+            "icon": "742b00832bf1fff0f996e10b8c021c91a34deaab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680803848,
+            "globalPct": 26.8
+          },
+          {
+            "apiName": "chal_generalist",
+            "name": "Generalist - Crash Zone",
+            "description": "Win a run with Generalist in Crash Zone",
+            "icon": "2495a1b0364938317a787ee83cba029d73a7e7aa",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679928206,
+            "globalPct": 19.4
+          },
+          {
+            "apiName": "chal_artificer",
+            "name": "Artificer - Crash Zone",
+            "description": "Win a run with Artificer in Crash Zone",
+            "icon": "e5f20b5c0bec67bbd20621a9187e541f2b8a5b37",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681074231,
+            "globalPct": 18
+          },
+          {
+            "apiName": "chal_hunter",
+            "name": "Hunter - Crash Zone",
+            "description": "Win a run with Hunter in Crash Zone",
+            "icon": "31075098375cf2c16dc610ebe47ba239a1ca52be",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1680115300,
+            "globalPct": 17.3
+          },
+          {
+            "apiName": "chal_fireworks",
+            "name": "Fireworks",
+            "description": "Kill 15 enemies with a single explosion",
+            "icon": "4bc64756f01bdce3e81f16d8415df7ab1ccf2084",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677180540,
+            "globalPct": 57.7
+          },
+          {
+            "apiName": "chal_perfect_vision",
+            "name": "Perfect Vision",
+            "description": "Reach 300 Range",
+            "icon": "2a0717ada7db265529946cff8b13fd3ad9e5fcb4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676886737,
+            "globalPct": 43.9
+          },
+          {
+            "apiName": "chal_recycling",
+            "name": "Recycling",
+            "description": "Recycle 12 weapons during a run",
+            "icon": "9792e957f4c175b01253718d4d610613c3869a39",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677157561,
+            "globalPct": 28.7
+          },
+          {
+            "apiName": "chal_slow",
+            "name": "Slow",
+            "description": "Reach -20 % Speed",
+            "icon": "13c1c123d00bfad8206847a0f2b838e9bd838680",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676998625,
+            "globalPct": 39.5
+          },
+          {
+            "apiName": "chal_arms_dealer",
+            "name": "Arms Dealer - Crash Zone",
+            "description": "Win a run with Arms Dealer in Crash Zone",
+            "icon": "00548dd46e6a5f7f70dd002de23f2a433aebef0d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681082178,
+            "globalPct": 11.9
+          },
+          {
+            "apiName": "chal_streamer",
+            "name": "Streamer - Crash Zone",
+            "description": "Win a run with Streamer in Crash Zone",
+            "icon": "d1732e9a08b44f37dc033c57dcca33e735447d2b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681071857,
+            "globalPct": 14
+          },
+          {
+            "apiName": "chal_advanced_technology",
+            "name": "Advanced Technology",
+            "description": "Reach 10 Ranged Damage and get 3 structures at the same time",
+            "icon": "c8cfa983daba6e69d10272674e2a8121924239a1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677007123,
+            "globalPct": 56
+          },
+          {
+            "apiName": "chal_giant_slayer",
+            "name": "Giant Slayer",
+            "description": "Kill a boss or an elite in less than 15 seconds",
+            "icon": "5144fd03852971d413ba43489c21a6499a4784a2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1677158400,
+            "globalPct": 49.1
+          },
+          {
+            "apiName": "chal_hungry",
+            "name": "Hungry",
+            "description": "Pick up 20 consumables during a run",
+            "icon": "235ff52a1d8a867fbbab502840c723d76daa1edc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676750533,
+            "globalPct": 88.1
+          },
+          {
+            "apiName": "chal_robust",
+            "name": "Robust",
+            "description": "Reach 100 Max HP",
+            "icon": "aafedcd7001f5150218925a485844e2b041089a3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1676815918,
+            "globalPct": 58.2
+          },
+          {
+            "apiName": "chal_cyborg",
+            "name": "Cyborg - Crash Zone",
+            "description": "Win a run with Cyborg in Crash Zone",
+            "icon": "d7b31cd675c843a865fca1f5206d87a579b7360d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679500141,
+            "globalPct": 20.4
+          },
+          {
+            "apiName": "chal_glutton",
+            "name": "Glutton - Crash Zone",
+            "description": "Win a run with Glutton in Crash Zone",
+            "icon": "9f06ca5de2afa7c121bcb9a264bdeeee7a136c0f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681075939,
+            "globalPct": 15.6
+          },
+          {
+            "apiName": "chal_jack",
+            "name": "Jack - Crash Zone",
+            "description": "Win a run with Jack in Crash Zone",
+            "icon": "d85d051322c2803a00423e8827baca23fae341ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1681123713,
+            "globalPct": 13
+          },
+          {
+            "apiName": "chal_lich",
+            "name": "Lich - Crash Zone",
+            "description": "Win a run with Lich in Crash Zone",
+            "icon": "97c1b8aec66937de49642b67a846ce5181f47b58",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679530747,
+            "globalPct": 20.7
+          },
+          {
+            "apiName": "chal_baited",
+            "name": "Baited",
+            "description": "Get 2 Bait during a run",
+            "icon": "d26901759da4f00e35287435d6df8508e9010bfe",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687559676,
+            "globalPct": 45.2
+          },
+          {
+            "apiName": "chal_forest",
+            "name": "Forest",
+            "description": "Finish a wave with 10 or more living trees",
+            "icon": "39a5fb94672f65990e4e0118dcc9b1be03612085",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687560361,
+            "globalPct": 19.6
+          },
+          {
+            "apiName": "chal_bourgeoisie",
+            "name": "Bourgeoisie",
+            "description": "Get 3 tier IV weapons at once",
+            "icon": "91aa74266f75fb2e72b176d849a00362ea72cf1b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687559580,
+            "globalPct": 65.4
+          },
+          {
+            "apiName": "chal_student",
+            "name": "Student",
+            "description": "Reach level 20",
+            "icon": "27aaf83293d10297c7b8864ca1fb3ce20b9098e7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687560051,
+            "globalPct": 70.1
+          },
+          {
+            "apiName": "chal_reckless",
+            "name": "Reckless",
+            "description": "Finish a wave with 1 HP",
+            "icon": "cb52cef4a070741b4e9659a6aba8aae753773b99",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687560458,
+            "globalPct": 39.6
+          },
+          {
+            "apiName": "chal_scavenger",
+            "name": "Scavenger",
+            "description": "Get 10 different tier I items during a run",
+            "icon": "e21b25485c503c224ca790483fe4d92bd1612c19",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687559202,
+            "globalPct": 74.7
+          },
+          {
+            "apiName": "chal_apprentice",
+            "name": "Apprentice - Crash Zone",
+            "description": "Win a run with Apprentice in Crash Zone",
+            "icon": "592c89eda683293359346d9bc5d1a1af66944001",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687900420,
+            "globalPct": 15.4
+          },
+          {
+            "apiName": "chal_cryptid",
+            "name": "Cryptid - Crash Zone",
+            "description": "Win a run with Cryptid in Crash Zone",
+            "icon": "53d03b27f461e2835182316c87ef50a695e3da88",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687985468,
+            "globalPct": 11
+          },
+          {
+            "apiName": "chal_fisherman",
+            "name": "Fisherman - Crash Zone",
+            "description": "Win a run with Fisherman in Crash Zone",
+            "icon": "20fb9e5db8738aed05bc7a4393f537ab255a8926",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687988277,
+            "globalPct": 12.9
+          },
+          {
+            "apiName": "chal_golem",
+            "name": "Golem - Crash Zone",
+            "description": "Win a run with Golem in Crash Zone",
+            "icon": "5699dfca592afb6f8f4a04f1d0c63bea74cca9df",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687897946,
+            "globalPct": 14
+          },
+          {
+            "apiName": "chal_king",
+            "name": "King - Crash Zone",
+            "description": "Win a run with King in Crash Zone",
+            "icon": "2372760e6e3b633da4111876330ae14f2db80b6a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687881448,
+            "globalPct": 22.7
+          },
+          {
+            "apiName": "chal_renegade",
+            "name": "Renegade - Crash Zone",
+            "description": "Win a run with Renegade in Crash Zone",
+            "icon": "8a7262160df8a7d72235febd7b232798314312d2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1687730388,
+            "globalPct": 16.1
+          },
+          {
+            "apiName": "chal_vampire",
+            "name": "Vampire - Crash Zone",
+            "description": "Win a run with Vampire in Crash Zone",
+            "icon": "30757a36eabd34b43a6e60c9db9f766c7d68c51f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754590828,
+            "globalPct": 7.7
+          },
+          {
+            "apiName": "chal_vagabond",
+            "name": "Vagabond - Crash Zone",
+            "description": "Win a run with Vagabond in Crash Zone",
+            "icon": "6671888624539605ef878729233323e62079c6e2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754584059,
+            "globalPct": 7.5
+          },
+          {
+            "apiName": "chal_baby",
+            "name": "Baby - Crash Zone",
+            "description": "Win a run with Baby in Crash Zone",
+            "icon": "75c8652932b92fd4a18af4d9329eec2fdf782226",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752325673,
+            "globalPct": 10.4
+          },
+          {
+            "apiName": "chal_blood_drinker",
+            "name": "Blood Drinker",
+            "description": "Reach 40 % Life Steal",
+            "icon": "10f2cb964ddc4a1406f2bd04c26dc2a96fc7368f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750878666,
+            "globalPct": 24.5
+          },
+          {
+            "apiName": "chal_experimentation",
+            "name": "Experimentation",
+            "description": "Have 6 different weapons at once",
+            "icon": "a897188f49e06e54ca4aeb234602513a9153a2f0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750792847,
+            "globalPct": 43.1
+          },
+          {
+            "apiName": "chal_fast_learner",
+            "name": "Fast Learner",
+            "description": "Reach level 10 before wave 6",
+            "icon": "1273ddb2cd85bc0041020209e1ccba3f201e33b2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750780112,
+            "globalPct": 25.5
+          },
+          {
+            "apiName": "chal_magic_and_machinery",
+            "name": "Magic and Machinery",
+            "description": "Reach 10 Elemental Damage and get 3 structures at the same time",
+            "icon": "885d493e3ce09f35b0c647f5ab66f0eda2ad1b11",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750794200,
+            "globalPct": 36.1
+          },
+          {
+            "apiName": "chal_technomage",
+            "name": "Technomage - Crash Zone",
+            "description": "Win a run with Technomage in Crash Zone",
+            "icon": "81bb82765170391a11ee31d011da57cae09e00c6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754588570,
+            "globalPct": 11
+          },
+          {
+            "apiName": "chal_barbecue",
+            "name": "Barbecue",
+            "description": "Have at least 25 enemies burning at the same time",
+            "icon": "90b1f525f31f59aefca6d7adfa36781fd9d82099",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752325588,
+            "globalPct": 18
+          },
+          {
+            "apiName": "chal_blind_greed",
+            "name": "Blind Greed",
+            "description": "Reach 100 % Pickup Range",
+            "icon": "60705eb8f220f2da61c175779bbcde92d2000579",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1751143300,
+            "globalPct": 18.4
+          },
+          {
+            "apiName": "chal_buccaneer",
+            "name": "Buccaneer - Crash Zone",
+            "description": "Win a run with Buccaneer in Crash Zone",
+            "icon": "4d65b6a2d3cc24d9af0cd6471b3ef442e70f27e6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754778795,
+            "globalPct": 5.6
+          },
+          {
+            "apiName": "chal_builder",
+            "name": "Builder - Crash Zone",
+            "description": "Win a run with Builder in Crash Zone",
+            "icon": "db736589042f209b43bed9f436c6d5c34071f568",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754662247,
+            "globalPct": 6.8
+          },
+          {
+            "apiName": "chal_captain",
+            "name": "Captain - Crash Zone",
+            "description": "Win a run with Captain in Crash Zone",
+            "icon": "c4b20ba81b8c45b869af57f2d7c4c64f089c89f9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754664137,
+            "globalPct": 4.9
+          },
+          {
+            "apiName": "chal_cautious",
+            "name": "Cautious",
+            "description": "Kill 1000 enemies that are more than 700 range away from you",
+            "icon": "16df32f14160c50de41802664cc65a595c479a55",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750881396,
+            "globalPct": 21.2
+          },
+          {
+            "apiName": "chal_chef",
+            "name": "Chef - Crash Zone",
+            "description": "Win a run with Chef in Crash Zone",
+            "icon": "d060c106f5cd81e96af3bc4e1cea7c2b6359427f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754678983,
+            "globalPct": 4.7
+          },
+          {
+            "apiName": "chal_creature",
+            "name": "Creature - Crash Zone",
+            "description": "Win a run with Creature in Crash Zone",
+            "icon": "7021ae1d9acd60427e6841a2261689c6a50477e5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754673732,
+            "globalPct": 7.4
+          },
+          {
+            "apiName": "chal_curious",
+            "name": "Curious - Crash Zone",
+            "description": "Win a run with Curious in Crash Zone",
+            "icon": "e9a44ee4716194ff7299bad456739e1c86bd1caa",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754646696,
+            "globalPct": 5.2
+          },
+          {
+            "apiName": "chal_diver",
+            "name": "Diver - Crash Zone",
+            "description": "Win a run with Diver in Crash Zone",
+            "icon": "ffbdcbfb46e1a04ef762bf22410d442baf807862",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754747026,
+            "globalPct": 5.1
+          },
+          {
+            "apiName": "chal_druid",
+            "name": "Druid - Crash Zone",
+            "description": "Win a run with Druid in Crash Zone",
+            "icon": "e550ec7db1b7d2bea7637cdc531942308b21c3d2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754690565,
+            "globalPct": 5.4
+          },
+          {
+            "apiName": "chal_dwarf",
+            "name": "Dwarf - Crash Zone",
+            "description": "Win a run with Dwarf in Crash Zone",
+            "icon": "49d28589d3906103e6f9f7704a302c851ed641ae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754693604,
+            "globalPct": 4.6
+          },
+          {
+            "apiName": "chal_gangster",
+            "name": "Gangster - Crash Zone",
+            "description": "Win a run with Gangster in Crash Zone",
+            "icon": "20c399c9377fa1cc1126821a9a113f25a9ca30c7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754695706,
+            "globalPct": 4.8
+          },
+          {
+            "apiName": "chal_herbalist",
+            "name": "Herbalist",
+            "description": "Collect 250 consumables by the end of wave 20",
+            "icon": "f2a182cab2f75225386f8b03a2f7a7aca40d9fd2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750881233,
+            "globalPct": 16.5
+          },
+          {
+            "apiName": "chal_hiker",
+            "name": "Hiker - Crash Zone",
+            "description": "Win a run with Hiker in Crash Zone",
+            "icon": "31623561e2fcd6078fb5e449365043f02d9f2931",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754749014,
+            "globalPct": 4.9
+          },
+          {
+            "apiName": "chal_ogre",
+            "name": "Ogre - Crash Zone",
+            "description": "Win a run with Ogre in Crash Zone",
+            "icon": "9d7caaac179eae1d420ac621d0a5c12885e7f09c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754782814,
+            "globalPct": 5.4
+          },
+          {
+            "apiName": "chal_overkill",
+            "name": "Overkill",
+            "description": "Deal 1000 damage to an enemy in a single hit",
+            "icon": "4da1da5be36d3dcb7cbb90d4dd24619e8775cafb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1751144674,
+            "globalPct": 19.2
+          },
+          {
+            "apiName": "chal_romantic",
+            "name": "Romantic - Crash Zone",
+            "description": "Win a run with Romantic in Crash Zone",
+            "icon": "82eff09ea36640623c5d69d08d24c06a37378cc2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754826213,
+            "globalPct": 4.5
+          },
+          {
+            "apiName": "chal_sailor",
+            "name": "Sailor - Crash Zone",
+            "description": "Win a run with Sailor in Crash Zone",
+            "icon": "8471337fb970be03ef0fff4e81e2882c569808e3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754608923,
+            "globalPct": 6.5
+          },
+          {
+            "apiName": "chal_smelly_feet",
+            "name": "Smelly Feet",
+            "description": "Walk a total of 20000 steps",
+            "icon": "d1316b38489701daf44fd3d750085305859e57d2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752187056,
+            "globalPct": 18.3
+          },
+          {
+            "apiName": "chal_uncorrupted",
+            "name": "Uncorrupted",
+            "description": "Finish a run with 0 Curse",
+            "icon": "e39751bab7def49ed79282a17a54d7f2291b6b7a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752187056,
+            "globalPct": 11.5
+          },
+          {
+            "apiName": "chal_unlucky",
+            "name": "Unlucky",
+            "description": "Reroll 10 times in a single shop",
+            "icon": "694683372c031ee6445bac8bec7768bf34e57090",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750881566,
+            "globalPct": 17.7
+          },
+          {
+            "apiName": "chal_unstoppable_force",
+            "name": "Unstoppable Force",
+            "description": "Hit at least 25 enemies with a single melee attack",
+            "icon": "b1e6b688acba2c931beee99290078173d848f0e5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1751144023,
+            "globalPct": 13.9
+          },
+          {
+            "apiName": "chal_well_rounded_abyss",
+            "name": "Well-Rounded - The Abyss",
+            "description": "Win a run with Well-Rounded in The Abyss",
+            "icon": "348e7713e009ec5163736ee28119fcea502350e8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750626455,
+            "globalPct": 5.7
+          },
+          {
+            "apiName": "chal_brawler_abyss",
+            "name": "Brawler - The Abyss",
+            "description": "Win a run with Brawler in The Abyss",
+            "icon": "5d66be926cf5a09a3dc1eaefb95562970b1270d9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752187056,
+            "globalPct": 5.5
+          },
+          {
+            "apiName": "chal_crazy_abyss",
+            "name": "Crazy - The Abyss",
+            "description": "Win a run with Crazy in The Abyss",
+            "icon": "bdb94853fe1cd68554fbfa593e385b72504b6d56",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752234978,
+            "globalPct": 5
+          },
+          {
+            "apiName": "chal_ranger_abyss",
+            "name": "Ranger - The Abyss",
+            "description": "Win a run with Ranger in The Abyss",
+            "icon": "7868803e77b2aa456ff4ca07029fd2e071e81077",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754829808,
+            "globalPct": 5.7
+          },
+          {
+            "apiName": "chal_mage_abyss",
+            "name": "Mage - The Abyss",
+            "description": "Win a run with Mage in The Abyss",
+            "icon": "7c137f698df724b83640368cd9b073782f1ba2ac",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754855205,
+            "globalPct": 5.8
+          },
+          {
+            "apiName": "chal_chunky_abyss",
+            "name": "Chunky - The Abyss",
+            "description": "Win a run with Chunky in The Abyss",
+            "icon": "36a129883baac159f7fb3fe255898dc1ca90dbce",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754858164,
+            "globalPct": 4.6
+          },
+          {
+            "apiName": "chal_old_abyss",
+            "name": "Old - The Abyss",
+            "description": "Win a run with Old in The Abyss",
+            "icon": "e5eda9de9306604bcff639c5e884c90f9fe52a7a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754940270,
+            "globalPct": 4.4
+          },
+          {
+            "apiName": "chal_lucky_abyss",
+            "name": "Lucky - The Abyss",
+            "description": "Win a run with Lucky in The Abyss",
+            "icon": "280fa4e73cb24b5bd970c4b699ddd3bd80e3cd57",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754942901,
+            "globalPct": 5.8
+          },
+          {
+            "apiName": "chal_mutant_abyss",
+            "name": "Mutant - The Abyss",
+            "description": "Win a run with Mutant in The Abyss",
+            "icon": "98d7a41e5b9dba43606a57b4972f687f28be6c46",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750781766,
+            "globalPct": 5.1
+          },
+          {
+            "apiName": "chal_generalist_abyss",
+            "name": "Generalist - The Abyss",
+            "description": "Win a run with Generalist in The Abyss",
+            "icon": "b035fc719becdf4c296b87f5d307ef028264b129",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755027936,
+            "globalPct": 4.1
+          },
+          {
+            "apiName": "chal_loud_abyss",
+            "name": "Loud - The Abyss",
+            "description": "Win a run with Loud in The Abyss",
+            "icon": "f9f990cabfe046b7ccd3639d6e058b4b615c653e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755037079,
+            "globalPct": 5.4
+          },
+          {
+            "apiName": "chal_multitasker_abyss",
+            "name": "Multitasker - The Abyss",
+            "description": "Win a run with Multitasker in The Abyss",
+            "icon": "9ab485785e99a9629440da2e39c7b75b98401ee1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755039140,
+            "globalPct": 5
+          },
+          {
+            "apiName": "chal_wildling_abyss",
+            "name": "Wildling - The Abyss",
+            "description": "Win a run with Wildling in The Abyss",
+            "icon": "c5685b8f5f174b590bcb021d5dce3ac50a87c82f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755100950,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "chal_pacifist_abyss",
+            "name": "Pacifist - The Abyss",
+            "description": "Win a run with Pacifist in The Abyss",
+            "icon": "87486cc426d30c0a77530873ef28542bc75fe970",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755106536,
+            "globalPct": 4.2
+          },
+          {
+            "apiName": "chal_gladiator_abyss",
+            "name": "Gladiator - The Abyss",
+            "description": "Win a run with Gladiator in The Abyss",
+            "icon": "0317f27c4a4010a2d13b7eb4b42a69e1b9d96299",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755112957,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "chal_saver_abyss",
+            "name": "Saver - The Abyss",
+            "description": "Win a run with Saver in The Abyss",
+            "icon": "c2761c358d09cd07400940262d626a2f422fed4d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755115869,
+            "globalPct": 4
+          },
+          {
+            "apiName": "chal_sick_abyss",
+            "name": "Sick - The Abyss",
+            "description": "Win a run with Sick in The Abyss",
+            "icon": "c151c6dfea42b7c49c11555c4d0e9a8d170124e0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755203587,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "chal_farmer_abyss",
+            "name": "Farmer - The Abyss",
+            "description": "Win a run with Farmer in The Abyss",
+            "icon": "067360002645b72e8a00b3485516c04b87918dd0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755257653,
+            "globalPct": 4.5
+          },
+          {
+            "apiName": "chal_ghost_abyss",
+            "name": "Ghost - The Abyss",
+            "description": "Win a run with Ghost in The Abyss",
+            "icon": "62aaef5f976abe94e1de22adee7e05aab88c8aef",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755260247,
+            "globalPct": 4.9
+          },
+          {
+            "apiName": "chal_speedy_abyss",
+            "name": "Speedy - The Abyss",
+            "description": "Win a run with Speedy in The Abyss",
+            "icon": "18caec5a796b67eef6e7aca9b0c4e58bc215d85b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755285956,
+            "globalPct": 4.1
+          },
+          {
+            "apiName": "chal_entrepreneur_abyss",
+            "name": "Entrepreneur - The Abyss",
+            "description": "Win a run with Entrepreneur in The Abyss",
+            "icon": "d98b138abbd426af01ec97ce6212817a55bcd724",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755293084,
+            "globalPct": 4.2
+          },
+          {
+            "apiName": "chal_engineer_abyss",
+            "name": "Engineer - The Abyss",
+            "description": "Win a run with Engineer in The Abyss",
+            "icon": "54c2281c619f3e1c4c31301184e91ed26351c45a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755294732,
+            "globalPct": 5.5
+          },
+          {
+            "apiName": "chal_explorer_abyss",
+            "name": "Explorer - The Abyss",
+            "description": "Win a run with Explorer in The Abyss",
+            "icon": "8cdb7c72e7c1ab60bf3401854b3063173de9f8ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750882154,
+            "globalPct": 4.3
+          },
+          {
+            "apiName": "chal_doctor_abyss",
+            "name": "Doctor - The Abyss",
+            "description": "Win a run with Doctor in The Abyss",
+            "icon": "4c6e870221b8cbef58d16ea19692dc8e4481f129",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755341491,
+            "globalPct": 4.8
+          },
+          {
+            "apiName": "chal_hunter_abyss",
+            "name": "Hunter - The Abyss",
+            "description": "Win a run with Hunter in The Abyss",
+            "icon": "14c934ff00884d42f4aa0dbe254d3fbf4606a3ee",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755377895,
+            "globalPct": 4.7
+          },
+          {
+            "apiName": "chal_artificer_abyss",
+            "name": "Artificer - The Abyss",
+            "description": "Win a run with Artificer in The Abyss",
+            "icon": "0c86ae6ca6712f3b2ef0371b7772e8f9c25d196b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755421962,
+            "globalPct": 4.2
+          },
+          {
+            "apiName": "chal_arms_dealer_abyss",
+            "name": "Arms Dealer - The Abyss",
+            "description": "Win a run with Arms Dealer in The Abyss",
+            "icon": "335808ad75387c7598f208352ee7c67aa612f9b8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755438586,
+            "globalPct": 3.4
+          },
+          {
+            "apiName": "chal_streamer_abyss",
+            "name": "Streamer - The Abyss",
+            "description": "Win a run with Streamer in The Abyss",
+            "icon": "20832d9ad3449378f071c2666f4e3898c1484b39",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755595856,
+            "globalPct": 4.1
+          },
+          {
+            "apiName": "chal_cyborg_abyss",
+            "name": "Cyborg - The Abyss",
+            "description": "Win a run with Cyborg in The Abyss",
+            "icon": "127468169daef0af02a6f3494a273b113c0c89ca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755597937,
+            "globalPct": 4.2
+          },
+          {
+            "apiName": "chal_glutton_abyss",
+            "name": "Glutton - The Abyss",
+            "description": "Win a run with Glutton in The Abyss",
+            "icon": "dae19053ec92e22a380cf3244f38707b7fe8766c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755513819,
+            "globalPct": 4
+          },
+          {
+            "apiName": "chal_jack_abyss",
+            "name": "Jack - The Abyss",
+            "description": "Win a run with Jack in The Abyss",
+            "icon": "2a0b28b8c4f0bb04fe532413608598175e1d5e5e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755521966,
+            "globalPct": 4.1
+          },
+          {
+            "apiName": "chal_lich_abyss",
+            "name": "Lich - The Abyss",
+            "description": "Win a run with Lich in The Abyss",
+            "icon": "eeb92984c974475cc5fa18568c4d9f344ac5a8bf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750879197,
+            "globalPct": 4.6
+          },
+          {
+            "apiName": "chal_apprentice_abyss",
+            "name": "Apprentice - The Abyss",
+            "description": "Win a run with Apprentice in The Abyss",
+            "icon": "df8f65b24e4e89457e0dadb005a2a3f413deb6f4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755605289,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "chal_cryptid_abyss",
+            "name": "Cryptid - The Abyss",
+            "description": "Win a run with Cryptid in The Abyss",
+            "icon": "074e10ee709de1f2e38dd3706599f3daa65b46cc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755609926,
+            "globalPct": 3.6
+          },
+          {
+            "apiName": "chal_fisherman_abyss",
+            "name": "Fisherman - The Abyss",
+            "description": "Win a run with Fisherman in The Abyss",
+            "icon": "3139e7aed08fbac222c2e5384d4aa5187b7e9e6c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755631452,
+            "globalPct": 3.7
+          },
+          {
+            "apiName": "chal_golem_abyss",
+            "name": "Golem - The Abyss",
+            "description": "Win a run with Golem in The Abyss",
+            "icon": "12d08dc89bdb7ae3f4166eb1c62086658a5352c9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755633779,
+            "globalPct": 4.1
+          },
+          {
+            "apiName": "chal_king_abyss",
+            "name": "King - The Abyss",
+            "description": "Win a run with King in The Abyss",
+            "icon": "2c3916df1be34267ceca7584d71434402bf23106",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755692154,
+            "globalPct": 5
+          },
+          {
+            "apiName": "chal_renegade_abyss",
+            "name": "Renegade - The Abyss",
+            "description": "Win a run with Renegade in The Abyss",
+            "icon": "51426851152396cb663af0cb7e6bc41f875aff6a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755693759,
+            "globalPct": 4.3
+          },
+          {
+            "apiName": "chal_one_arm_abyss",
+            "name": "One-Armed - The Abyss",
+            "description": "Win a run with One-Armed in The Abyss",
+            "icon": "23d9fb12eeaef1f9179dd6fe0783255126d47755",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1751144999,
+            "globalPct": 4.4
+          },
+          {
+            "apiName": "chal_bull_abyss",
+            "name": "Bull - The Abyss",
+            "description": "Win a run with Bull in The Abyss",
+            "icon": "757fc8f0b4c157d08d38e11615c65f57005d7fb3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755702434,
+            "globalPct": 5.6
+          },
+          {
+            "apiName": "chal_soldier_abyss",
+            "name": "Soldier - The Abyss",
+            "description": "Win a run with Soldier in The Abyss",
+            "icon": "58c5cfab85da299277842f7c0333d3bf1b2b47f7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755720511,
+            "globalPct": 4.5
+          },
+          {
+            "apiName": "chal_masochist_abyss",
+            "name": "Masochist - The Abyss",
+            "description": "Win a run with Masochist in The Abyss",
+            "icon": "e7499ff90dde5bb1d888adb8b2ad29252021c3f0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755722554,
+            "globalPct": 4.3
+          },
+          {
+            "apiName": "chal_knight_abyss",
+            "name": "Knight - The Abyss",
+            "description": "Win a run with Knight in The Abyss",
+            "icon": "912d247d5454177b8325f9ab7728026616be8e1a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755774208,
+            "globalPct": 4.6
+          },
+          {
+            "apiName": "chal_demon_abyss",
+            "name": "Demon - The Abyss",
+            "description": "Win a run with Demon in The Abyss",
+            "icon": "9afae46a8ad3fe2f2edce059a7bf6e21a6a21051",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755776544,
+            "globalPct": 5
+          },
+          {
+            "apiName": "chal_baby_abyss",
+            "name": "Baby - The Abyss",
+            "description": "Win a run with Baby in The Abyss",
+            "icon": "1f6c8250c4c26fe2658de832b685e363e0c2aaf3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755807470,
+            "globalPct": 5
+          },
+          {
+            "apiName": "chal_vagabond_abyss",
+            "name": "Vagabond - The Abyss",
+            "description": "Win a run with Vagabond in The Abyss",
+            "icon": "99e2a750de7f27ac547f8ee655a580706ce06207",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755809581,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "chal_technomage_abyss",
+            "name": "Technomage - The Abyss",
+            "description": "Win a run with Technomage in The Abyss",
+            "icon": "861a6c0d792d36f7c5c5504593af623ece9e034c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755859474,
+            "globalPct": 4.7
+          },
+          {
+            "apiName": "chal_vampire_abyss",
+            "name": "Vampire - The Abyss",
+            "description": "Win a run with Vampire in The Abyss",
+            "icon": "a90d21595ab74e7323cc38fbb108a56db664d4d6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755862483,
+            "globalPct": 4
+          },
+          {
+            "apiName": "chal_sailor_abyss",
+            "name": "Sailor - The Abyss",
+            "description": "Win a run with Sailor in The Abyss",
+            "icon": "f937518bf13d5c03c2d0f6ed12966c7a8dd274f3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755885889,
+            "globalPct": 5.4
+          },
+          {
+            "apiName": "chal_curious_abyss",
+            "name": "Curious - The Abyss",
+            "description": "Win a run with Curious in The Abyss",
+            "icon": "4b4c4c97436fb7f958b11aed78d7733df2014337",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755887519,
+            "globalPct": 4.2
+          },
+          {
+            "apiName": "chal_builder_abyss",
+            "name": "Builder - The Abyss",
+            "description": "Win a run with Builder in The Abyss",
+            "icon": "0b5afa36b7e94c8480db095c3b9802a36088aa8d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755889752,
+            "globalPct": 5.1
+          },
+          {
+            "apiName": "chal_captain_abyss",
+            "name": "Captain - The Abyss",
+            "description": "Win a run with Captain in The Abyss",
+            "icon": "f0d0578d03203005fe51880de5e54e2fe32a9132",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755899889,
+            "globalPct": 4
+          },
+          {
+            "apiName": "chal_creature_abyss",
+            "name": "Creature - The Abyss",
+            "description": "Win a run with Creature in The Abyss",
+            "icon": "a25d05b2c4c64e78b0f7bd0e34391970ec640c2e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755963190,
+            "globalPct": 6.4
+          },
+          {
+            "apiName": "chal_chef_abyss",
+            "name": "Chef - The Abyss",
+            "description": "Win a run with Chef in The Abyss",
+            "icon": "382f3971424f19d7de1b413be057c6de1847fc55",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755964793,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "chal_druid_abyss",
+            "name": "Druid - The Abyss",
+            "description": "Win a run with Druid in The Abyss",
+            "icon": "f2a5a9fc91b8a0ed6a4919994e2685bc0f7caad1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755983764,
+            "globalPct": 4.7
+          },
+          {
+            "apiName": "chal_dwarf_abyss",
+            "name": "Dwarf - The Abyss",
+            "description": "Win a run with Dwarf in The Abyss",
+            "icon": "c9c58f55df7f9bf67e0736ac5e694ff435cecaa0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756027380,
+            "globalPct": 3.6
+          },
+          {
+            "apiName": "chal_gangster_abyss",
+            "name": "Gangster - The Abyss",
+            "description": "Win a run with Gangster in The Abyss",
+            "icon": "adbadebe122475fba253b14b845c371041b48549",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756066743,
+            "globalPct": 4
+          },
+          {
+            "apiName": "chal_diver_abyss",
+            "name": "Diver - The Abyss",
+            "description": "Win a run with Diver in The Abyss",
+            "icon": "bf0f4414371101130ad536d26c0f540a10ea3871",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756110952,
+            "globalPct": 4.5
+          },
+          {
+            "apiName": "chal_hiker_abyss",
+            "name": "Hiker - The Abyss",
+            "description": "Win a run with Hiker in The Abyss",
+            "icon": "ce7e3d2daa040430c77ec85794af0a7c63f4b2b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756112742,
+            "globalPct": 4.4
+          },
+          {
+            "apiName": "chal_buccaneer_abyss",
+            "name": "Buccaneer - The Abyss",
+            "description": "Win a run with Buccaneer in The Abyss",
+            "icon": "6044e36df998f1b81d8ee6e685ca87d94a02ef9b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756118847,
+            "globalPct": 4.7
+          },
+          {
+            "apiName": "chal_ogre_abyss",
+            "name": "Ogre - The Abyss",
+            "description": "Win a run with Ogre in The Abyss",
+            "icon": "f01f741f2c4c8bb45218320e791bb4ba8c41daba",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756121799,
+            "globalPct": 4.6
+          },
+          {
+            "apiName": "chal_romantic_abyss",
+            "name": "Romantic - The Abyss",
+            "description": "Win a run with Romantic in The Abyss",
+            "icon": "fe7526e4a7d9ce9621b327bda05c16a50f54994a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756125259,
+            "globalPct": 3.6
+          },
+          {
+            "apiName": "chal_beast_master",
+            "name": "Beast Master",
+            "description": "Win a run with Beast Master",
+            "icon": "b9ab40c4cc8fe1db74d1bedb9b6db10dc9988828",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1774436073,
+            "globalPct": 4.4
+          },
+          {
+            "apiName": "chal_difficulty_6",
+            "name": "Nightmare",
+            "description": "Win a run in Nightmare",
+            "icon": "6b76c6223473b607a24d003260dad3260f8b7db6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1780902339,
+            "globalPct": 2.6
+          },
+          {
+            "apiName": "chal_wounded",
+            "name": "Wounded",
+            "description": "Win a run with Wounded",
+            "icon": "f65d165cec465c0b63f39457583a892881972db0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1780903910,
+            "globalPct": 1.6
           }
         ]
       }
@@ -256131,6 +256131,185 @@
       }
     },
     {
+      "appId": 532110,
+      "name": "Rusty Lake: Roots",
+      "playtimeHours": 3.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/532110/2719eeb5d6bd45fcb1fda066a4e96b71e7b96056.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/532110/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532110/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 16,
+        "unlocked": 16,
+        "items": [
+          {
+            "apiName": "tree",
+            "name": "Plant a Tree",
+            "description": "The Vanderboom family tree",
+            "icon": "704f573dbc8b540779c4a5c1f1067f1424d1099f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792016065,
+            "globalPct": 86.9
+          },
+          {
+            "apiName": "nipple",
+            "name": "The Nipple",
+            "description": "Nipplegate",
+            "icon": "1d557ced2e595be354c3fca25b764e7216220bf6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792016324,
+            "globalPct": 84.9
+          },
+          {
+            "apiName": "triplets",
+            "name": "Triplets",
+            "description": "Difficult delivery",
+            "icon": "db80febb63e3fac07435cfbe6012732085a52fa4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792017362,
+            "globalPct": 82.1
+          },
+          {
+            "apiName": "elixir",
+            "name": "The Elixir",
+            "description": "The elixir of life and death",
+            "icon": "b95a781f104ac661328ccf239282c67eef5bce47",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792017119,
+            "globalPct": 79.2
+          },
+          {
+            "apiName": "mask",
+            "name": "The Moon Mask",
+            "description": "To the Moon and Back",
+            "icon": "4f4caa4a8924efa305f4508533e6613ccaf52181",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792019561,
+            "globalPct": 74.4
+          },
+          {
+            "apiName": "eye",
+            "name": "The Eye",
+            "description": "An eye for an eye",
+            "icon": "7f4397f8dfd54ee2d2c5dd549799865730f00810",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792074482,
+            "globalPct": 69.8
+          },
+          {
+            "apiName": "piss",
+            "name": "The Cup",
+            "description": "A refreshing drink",
+            "icon": "11f31bfdbfe3e548c64c7ea0d1ededca02bf853e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792790916,
+            "globalPct": 66
+          },
+          {
+            "apiName": "dale",
+            "name": "The Date",
+            "description": "The day he was born",
+            "icon": "8d137f39edf619922ebc03ba9e2a00e4988f99a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792787745,
+            "globalPct": 17.4
+          },
+          {
+            "apiName": "rebirth",
+            "name": "Rebirth",
+            "description": "The circle of life",
+            "icon": "94bc0d300377ca3239796d4c2086b6a26e098dae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792792758,
+            "globalPct": 62.2
+          },
+          {
+            "apiName": "dress",
+            "name": "The Dress",
+            "description": "A familiar dress",
+            "icon": "9e72b1d8c0aaee6b186cf3af664596ff6c33eb27",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792791691,
+            "globalPct": 64.5
+          },
+          {
+            "apiName": "medals",
+            "name": "The Last Emblem",
+            "description": "Back to your roots",
+            "icon": "e0bf75c9112985280f66038c6a2ca2a13af4009e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792793273,
+            "globalPct": 28.5
+          },
+          {
+            "apiName": "daughter",
+            "name": "Laura",
+            "description": "She will return to the lake",
+            "icon": "75ec053e2388c08937c3dff0ba002e7a6498a6db",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792793256,
+            "globalPct": 17
+          },
+          {
+            "apiName": "black_cube",
+            "name": "Black Cube",
+            "description": "Dark memories",
+            "icon": "34262af99085e4c23e4e222db51ce72e45c20195",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792793579,
+            "globalPct": 16.9
+          },
+          {
+            "apiName": "white_cube",
+            "name": "White Cube",
+            "description": "Light memories",
+            "icon": "6f8a7a3428810981685ffa10b0cb2332a22a42d5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792793430,
+            "globalPct": 17
+          },
+          {
+            "apiName": "cocktail",
+            "name": "Rusty Lake Cocktail",
+            "description": "You look like you can use a drink",
+            "icon": "44c3f64fa3101030ced5c30f84cdce4e76031712",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792793942,
+            "globalPct": 16.7
+          },
+          {
+            "apiName": "crow",
+            "name": "The Crow",
+            "description": "The crow and his brother",
+            "icon": "3ceb98973d882161a2fc029456ca00b88cd25d32",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792794221,
+            "globalPct": 27.2
+          }
+        ]
+      }
+    },
+    {
       "appId": 310560,
       "name": "DiRT Rally",
       "playtimeHours": 3.8,
@@ -287456,20 +287635,6 @@
           }
         ]
       }
-    },
-    {
-      "appId": 532110,
-      "name": "Rusty Lake: Roots",
-      "playtimeHours": 1.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/532110/2719eeb5d6bd45fcb1fda066a4e96b71e7b96056.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/532110/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532110/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": null
     },
     {
       "appId": 916900,
@@ -383777,7 +383942,7 @@
       "dateAdded": 1489147177,
       "priority": 113,
       "name": "Factorio",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ab9a2df0a77caebde20dc45adc021de8cdcf7cc5/header.jpg?t=1787348817",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/ab9a2df0a77caebde20dc45adc021de8cdcf7cc5/header.jpg?t=1792752343",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/a1331f002a798a9a41bde4acddfdaac612805bea/library_header_2x.jpg"
     },
@@ -384108,7 +384273,7 @@
       "dateAdded": 1561246282,
       "priority": 238,
       "name": "ATOM RPG: Post-apocalyptic indie game",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/6f888773cf2a3438eba394f466248da94a436591/header.jpg?t=1792150740",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/6f888773cf2a3438eba394f466248da94a436591/header.jpg?t=1792762822",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/c64de8945b4245c6a551104a07a9c4b3e7b1ab21/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552620/6f888773cf2a3438eba394f466248da94a436591/library_header_2x.jpg"
     },
@@ -384187,7 +384352,7 @@
       "dateAdded": 1497485633,
       "priority": 87,
       "name": "Assassin's Creed® Origins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/header.jpg?t=1786633036",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/header.jpg?t=1792778037",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/library_600x900_2x.jpg"
     },
     {
@@ -384854,7 +385019,7 @@
       "dateAdded": 1624212239,
       "priority": 0,
       "name": "SURV1V3",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/722180/header.jpg?t=1668208940",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/722180/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/722180/library_600x900_2x.jpg"
     },
     {
@@ -384871,7 +385036,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -384994,7 +385159,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -385020,7 +385185,7 @@
       "dateAdded": 1555280884,
       "priority": 404,
       "name": "Football Story",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/757550/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/53cf861d8c0e6abcb60fc0b0ce6b2985bd0b2944/header.jpg?t=1792763392",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/95956d9ee8420a363a26f5e9f4bf124ca2899523/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/757550/53cf861d8c0e6abcb60fc0b0ce6b2985bd0b2944/library_header_2x.jpg"
     },
@@ -385055,7 +385220,7 @@
       "dateAdded": 1763869244,
       "priority": 0,
       "name": "Projekt Z: Beyond Order",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/header.jpg?t=1788032969",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/763310/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_header.jpg"
     },
@@ -385098,7 +385263,7 @@
       "dateAdded": 1770916000,
       "priority": 0,
       "name": "Last Man Sitting",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1792068178",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774291/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/803bf1ec7353a49fbe7dc1cb3e82a942a913c202/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/5c05281696891c8cb3df8395efa376f39f9f8c09/library_header_2x.jpg"
     },
@@ -390359,7 +390524,7 @@
       "dateAdded": 1769697447,
       "priority": 0,
       "name": "Among the Trolls",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675260/95395f6e82711fe4330cd650097a3f075d3d9c55/header.jpg?t=1792058784",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1675260/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675260/8001676bc5e2919d3cc2471fbc72199468501a68/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675260/640344b0067bfb8a25e8c64e90234399c8e27e3a/library_header_2x.jpg"
     },
@@ -394605,7 +394770,7 @@
       "dateAdded": 1716833119,
       "priority": 0,
       "name": "DUCKSIDE",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2682580/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2682580/header.jpg?t=1789402364",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2682580/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2682580/library_header_2x.jpg"
     },
@@ -397406,8 +397571,8 @@
       "priority": 0,
       "name": "Scavland",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3373500/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373500/45b4f1dba565834f2d2a70efe25b830ee4751ef0/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373500/55c7a85824868bc2b125bb268eebfd7a5cedbf49/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373500/092619e40a253b54fd4a5d8f1c78005ad0a6e9da/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373500/87eea767d4dc0ddefb82b82766b5eda34d6ce1d6/library_header_2x.jpg"
     },
     {
       "appId": 3375110,
@@ -398216,8 +398381,8 @@
       "priority": 0,
       "name": "SCOPECREEP",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3595710/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595710/c128658315c2b7c275b4491b27912f55af4b871b/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595710/d8cea93abb7958f5402f872b4db86344ba5607ad/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595710/6a2cc53376bcd12c375aff28cacbe5bf654e4645/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595710/c849cab47181d1a1a9fe7b35fc5890d31fbea96a/library_header_2x.jpg"
     },
     {
       "appId": 3597340,
@@ -402321,6 +402486,123 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4909780/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909780/5b37148a3957fb9ed887737ff313e10d4817ba86/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909780/7425947eca9ffaa47993c4de15478c94cbef7130/library_header_2x.jpg"
+    },
+    {
+      "appId": 2295170,
+      "dateAdded": 1792753130,
+      "priority": 0,
+      "name": "Emberville",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2295170/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/b16156ab24436ad83c2de5996ba5933a88dcfaaa/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/498734b30af45b641d75217775b1fb4c51be36b9/library_header_2x.jpg"
+    },
+    {
+      "appId": 2523740,
+      "dateAdded": 1792753509,
+      "priority": 0,
+      "name": "App 2523740",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2523740/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/c2ab691a8ed252da54eee927f37d5aa86e54e79e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/8d4e16a6d33e4dd90e1304139475c357533cc991/library_header_2x.jpg"
+    },
+    {
+      "appId": 5362020,
+      "dateAdded": 1792763137,
+      "priority": 0,
+      "name": "App 5362020",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5362020/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/0c96d4e16f7d679933e9121ee5f83d088c0cec88/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/fdafac6a97129e0bc04895c981b135022f167f90/library_header_2x.jpg"
+    },
+    {
+      "appId": 3617620,
+      "dateAdded": 1792763183,
+      "priority": 0,
+      "name": "My Card Is Better Than Your Card!",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3617620/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/61100d2b9eb89e5e9174f5c423c2678f54d65dcc/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/4bd0696d5d876006d03d421b7d654779f686a6cf/library_header_2x.jpg"
+    },
+    {
+      "appId": 2670430,
+      "dateAdded": 1792763325,
+      "priority": 0,
+      "name": "Platverse: ABYA's Adventure",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2670430/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670430/393b1211cb3c7fbca62858c08fd25c7953f2c475/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670430/34e0f01e601383f53f6c9c639614db5655b2d2f0/library_header_2x.jpg"
+    },
+    {
+      "appId": 4051290,
+      "dateAdded": 1792763414,
+      "priority": 0,
+      "name": "Tape Man",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4051290/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051290/11aa143d0f3ff199da67c1ae7e316d54840dc815/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051290/846768f57bc93d110d0f1a35a800d704514ae8f0/library_header_2x.jpg"
+    },
+    {
+      "appId": 4144990,
+      "dateAdded": 1792763489,
+      "priority": 0,
+      "name": "Criticality",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4144990/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144990/f523a131b3a0c0943d5099930a6d5fcc748c9d40/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144990/c6d7d3065965657a171e1f86325020a70ea93451/library_header_2x.jpg"
+    },
+    {
+      "appId": 4666770,
+      "dateAdded": 1792763780,
+      "priority": 0,
+      "name": "App 4666770",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4666770/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/d9d2c67b7a5eb53ac392074b92977eed7aebe9ca/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/d8eb254400ecd02319834e8de8a1daa421b480e8/library_header_2x.jpg"
+    },
+    {
+      "appId": 3734220,
+      "dateAdded": 1792773216,
+      "priority": 0,
+      "name": "App 3734220",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3734220/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/e2af117fbe358809b6c01677796c3e2ddc870912/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/ffe373e0b836db215b4aaa1efec82b05d85758d0/library_header_2x.jpg"
+    },
+    {
+      "appId": 5243200,
+      "dateAdded": 1792773399,
+      "priority": 0,
+      "name": "App 5243200",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5243200/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243200/951e28e1f9ba74d6a8961236dd50c60f5d9cc492/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243200/c27319407c2a8c0dfd27e338a5eaddd6631053b2/library_header_2x.jpg"
+    },
+    {
+      "appId": 3196610,
+      "dateAdded": 1792773421,
+      "priority": 0,
+      "name": "App 3196610",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3196610/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196610/6c5b50ccbf613de6b26844ec680911eeba202d3e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196610/2e825cd8faaf0f51a3c7cf23fae68479e401716b/library_header_2x.jpg"
+    },
+    {
+      "appId": 1551980,
+      "dateAdded": 1792773469,
+      "priority": 0,
+      "name": "Clive Barker's Hellraiser: Revival",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551980/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/07b6068f2992ba42c2d48846eea5703b7742293b/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/706cc84906dca755ef7a73c64cf568e0c205037b/library_header_2x.jpg"
+    },
+    {
+      "appId": 3352140,
+      "dateAdded": 1792773503,
+      "priority": 0,
+      "name": "Satellite Odyssey: Jupiter",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3352140/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352140/49732ae96f1838212609ce88960bbad2f08e9d29/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352140/883d13d89282ec9c89a055335964299fd6ebff88/library_header_2x.jpg"
     }
   ]
 }
