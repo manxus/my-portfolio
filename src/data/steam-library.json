@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-25T00:20:00.466Z",
+  "fetchedAt": "2026-10-26T01:04:00.340Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1792853757
+    "lastLogoff": 1792974953
   },
   "games": [
     {
@@ -255978,6 +255978,490 @@
       }
     },
     {
+      "appId": 4262310,
+      "name": " All Hail the Orb",
+      "playtimeHours": 3.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4262310/022dbe9608e25288dea615f2685145296357b2d3.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262310/a0d4db3b46f4ce530f3235dc06411c1c40aadde3/header.jpg?t=1787691790",
+      "genres": [
+        "Casual",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Apr 20, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262310/bfea0a08e16784e44a8c3fc1ffa8384b83dd3743/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262310/a0d4db3b46f4ce530f3235dc06411c1c40aadde3/library_header_2x.jpg",
+      "achievements": {
+        "total": 46,
+        "unlocked": 46,
+        "items": [
+          {
+            "apiName": "ACH_CLICK_ORB_ONCE",
+            "name": "What does this thing do?",
+            "description": "Click the Orb once",
+            "icon": "dc9c94d423d21aebd64c6d0c6bde311960bffd23",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792874551,
+            "globalPct": 98.7
+          },
+          {
+            "apiName": "ACH_FIRST_DEVOTEE",
+            "name": "Your First Devotee",
+            "description": "The beginning of the end!",
+            "icon": "66fe999b5fe0ac6849b4f8c22af164625f6ea756",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792874756,
+            "globalPct": 97.7
+          },
+          {
+            "apiName": "ACH_CLICK_ORB_1K",
+            "name": "In Orb we trust!",
+            "description": "Click the orb 1K times",
+            "icon": "60e7212bfc345f8a5cace48ff3daf8d0fa55f11e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792875004,
+            "globalPct": 97.7
+          },
+          {
+            "apiName": "ACH_CREATE_5_CULTISTS",
+            "name": "Create 5 Cultists",
+            "description": "A small group got together for a party",
+            "icon": "34c0a284266a048d801220ae2f8ca49365d71c1d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792875663,
+            "globalPct": 94.3
+          },
+          {
+            "apiName": "ACH_DEVOTION_100",
+            "name": "Just the early stages, devote more!",
+            "description": "Accumulate 100 Devotion",
+            "icon": "4526b740ac470e5d08bdab34a1bd6e20038b0835",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792874575,
+            "globalPct": 98.4
+          },
+          {
+            "apiName": "ACH_DEVOTION_1K",
+            "name": "You care this much already?",
+            "description": "Accumulate 1k Devotion",
+            "icon": "a5a4e353231dcc9a89e0ad93cacf1104ca695d70",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792874892,
+            "globalPct": 97.9
+          },
+          {
+            "apiName": "ACH_DEVOTION_10K",
+            "name": "Steady there, there's enough devotion to go around",
+            "description": "Accumulate 10k Devotion",
+            "icon": "ce5698da3fb85590a2394a5a8e3d0701d85f98bd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792875795,
+            "globalPct": 94.6
+          },
+          {
+            "apiName": "ACH_DEVOTION_100K",
+            "name": "Wow, you are really devoted to the orb. Cooooool",
+            "description": "Accumulate 100k Devotion",
+            "icon": "ffc8121e4cbeb2e981dc931472f9fe2019f0f268",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792877294,
+            "globalPct": 91.1
+          },
+          {
+            "apiName": "ACH_DEVOTION_1M",
+            "name": "Holy devotion...That's a lotta devotion you got there!",
+            "description": "Accumulate 1M Devotion",
+            "icon": "50c872bd4028dd1c9c429a37e5fdc824207023a0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792880745,
+            "globalPct": 80.5
+          },
+          {
+            "apiName": "ACH_LIFE_ESSENCE_10",
+            "name": "Truely a spectacle of life here!",
+            "description": "Accumulate 10 Life Essence",
+            "icon": "b47db3463df092a393f6791c818f89795d7942d6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792876061,
+            "globalPct": 92.2
+          },
+          {
+            "apiName": "ACH_LIFE_ESSENCE_100",
+            "name": "Oooo what do these pretty blue crystals do?",
+            "description": "Accumulate 100 Life Essence",
+            "icon": "1feadd3efd79bfd6abdebaac6ce6cc99f1b113b5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792876373,
+            "globalPct": 90.7
+          },
+          {
+            "apiName": "ACH_LIFE_ESSENCE_1K",
+            "name": "You must really love spinning that crystal!",
+            "description": "Accumulate 1k Life Essence",
+            "icon": "44634fc8670eee58fc9be62c0758d6ea3a0753f3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792878507,
+            "globalPct": 86.9
+          },
+          {
+            "apiName": "ACH_LIFE_ESSENCE_10K",
+            "name": "Any faster and it might release from the alter!",
+            "description": "Accumulate 10k Life Essence",
+            "icon": "fa2d1b16506a445c91ed876011fb26eb738f285b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792881098,
+            "globalPct": 78.3
+          },
+          {
+            "apiName": "ACH_LIFE_ESSENCE_100K",
+            "name": "Wow, you are really devoted to the orb. Cooooool",
+            "description": "Accumulate 100k Life Essence",
+            "icon": "bcfa51a8e1bd794fe2800cdcf91b3d675b55888d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792886820,
+            "globalPct": 70.7
+          },
+          {
+            "apiName": "ACH_GOLD_1",
+            "name": "First Coin",
+            "description": "Earn your first Gold Coin.",
+            "icon": "65daab77adb21c9326ca51f369aa930685125f09",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792877325,
+            "globalPct": 87.4
+          },
+          {
+            "apiName": "ACH_GOLD_100K",
+            "name": "Money Bags",
+            "description": "Accumulate 100K Gold.",
+            "icon": "f24d4952617eb2b935ad9c0945a094d2828bb1a6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792881216,
+            "globalPct": 78.7
+          },
+          {
+            "apiName": "ACH_GOLD_1M",
+            "name": "Golden Hoard",
+            "description": "Accumulate 1M Gold.",
+            "icon": "f8fb8fe84af635cb23528f6c81297279d24dbde9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792881903,
+            "globalPct": 73.3
+          },
+          {
+            "apiName": "ACH_GOLD_25M",
+            "name": "Dragon's Fortune",
+            "description": "Accumulate 25M Gold.",
+            "icon": "a679ab3fc624b42813c90f1afe3d0010c6829314",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792886923,
+            "globalPct": 67.9
+          },
+          {
+            "apiName": "ACH_GOLD_75M",
+            "name": "King Midas",
+            "description": "Accumulate 75M Gold.",
+            "icon": "5d89698104505040d21d2ddded10f408dca39ed7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792887631,
+            "globalPct": 65.5
+          },
+          {
+            "apiName": "ACH_KNOWLEDGE_1",
+            "name": "Bookworm",
+            "description": "Earn your first Knowledge.",
+            "icon": "2e038f364166a797e0881ff9701fc5ee880cf2b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792880491,
+            "globalPct": 79.4
+          },
+          {
+            "apiName": "ACH_KNOWLEDGE_5K",
+            "name": "Scholar",
+            "description": "Accumulate 5K Knowledge.",
+            "icon": "588e5c24e7bb664b36923a4fbf8d28944bf4ef32",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792880816,
+            "globalPct": 78.7
+          },
+          {
+            "apiName": "ACH_KNOWLEDGE_50K",
+            "name": "Sage",
+            "description": "Accumulate 50K Knowledge.",
+            "icon": "9cf99e5ab2aa7f341fbd5181fdd1b912eea37185",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792881782,
+            "globalPct": 76.1
+          },
+          {
+            "apiName": "ACH_KNOWLEDGE_200K",
+            "name": "Enlightened",
+            "description": "Accumulate 200K Knowledge.",
+            "icon": "8292316cb9bf578396ef65c2de2f184692f7c94c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792883231,
+            "globalPct": 72.8
+          },
+          {
+            "apiName": "ACH_KNOWLEDGE_400K",
+            "name": "Omniscient",
+            "description": "Accumulate 400K Knowledge.",
+            "icon": "ffcfd4d473aadb1ea9afc4eb7201d279ad5047e8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792883481,
+            "globalPct": 71.1
+          },
+          {
+            "apiName": "ACH_ORE_1",
+            "name": "Shiny Rock",
+            "description": "Mine your first Duckinite Ore.",
+            "icon": "d739378d385c0c012e6280299640b4a9892a4074",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792882798,
+            "globalPct": 72.5
+          },
+          {
+            "apiName": "ACH_ORE_100",
+            "name": "Ore Collector",
+            "description": "Accumulate 100 Duckinite Ore.",
+            "icon": "5e7062ac9873c8f188c545ec5ee36477f77737b7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792883034,
+            "globalPct": 72.2
+          },
+          {
+            "apiName": "ACH_ORE_500",
+            "name": "Prospector",
+            "description": "Accumulate 500 Duckinite Ore.",
+            "icon": "7974cb05bf62af19abc934371773b9209735f8fd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792883717,
+            "globalPct": 71.4
+          },
+          {
+            "apiName": "ACH_ORE_2K",
+            "name": "Deep Miner",
+            "description": "Accumulate 2K Duckinite Ore.",
+            "icon": "66fe597fb1e71a3df8149ff6e7018b2476f1da89",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792885027,
+            "globalPct": 70.5
+          },
+          {
+            "apiName": "ACH_ORE_4K",
+            "name": "Master Excavator",
+            "description": "Accumulate 4K Duckinite Ore.",
+            "icon": "b880d2647f1da9962fce9bca42273c7e1db0e69c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792885233,
+            "globalPct": 70.2
+          },
+          {
+            "apiName": "ACH_DUCK_1",
+            "name": "First Quack",
+            "description": "Spawn your first duck.",
+            "icon": "6b16239bd2716b4dee8375fea377de8093b2ccbe",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792875427,
+            "globalPct": 94.8
+          },
+          {
+            "apiName": "ACH_DUCK_20",
+            "name": "Quack Factory",
+            "description": "Spawn 20 ducks.",
+            "icon": "b357edd18010b9ac4fffca09042409361bce8041",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792879576,
+            "globalPct": 85
+          },
+          {
+            "apiName": "ACH_DUCK_50",
+            "name": "Duck Dynasty",
+            "description": "Spawn 50 ducks.",
+            "icon": "832a1b1d092510b6db6c33ab3d61f8469d633909",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792886444,
+            "globalPct": 67.3
+          },
+          {
+            "apiName": "ACH_OBELISK_1",
+            "name": "A Humble Beginning",
+            "description": "Complete the first Obelisk stage.",
+            "icon": "60314b443bcd6409091bde46fcdbb3aa8c06bd96",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792875160,
+            "globalPct": 96.1
+          },
+          {
+            "apiName": "ACH_OBELISK_2",
+            "name": "Foundation of Faith",
+            "description": "Complete the second Obelisk stage.",
+            "icon": "5fd4bbeb087dc9c34debbe3598699e92c1d2eed4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792876654,
+            "globalPct": 90.6
+          },
+          {
+            "apiName": "ACH_OBELISK_3",
+            "name": "Testament of Power",
+            "description": "Complete the third Obelisk stage.",
+            "icon": "f553fb630a55e8f9758ba126e7a77fdead098da3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792880358,
+            "globalPct": 80.2
+          },
+          {
+            "apiName": "ACH_OBELISK_4",
+            "name": "The Orb Stirs",
+            "description": "Complete the fourth Obelisk stage.",
+            "icon": "28a79261523a7cb2c9329c474b0357d12c807718",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792882545,
+            "globalPct": 73.7
+          },
+          {
+            "apiName": "ACH_OBELISK_5",
+            "name": "The Final Devotion",
+            "description": "Complete the fifth Obelisk stage.",
+            "icon": "1165f78234042bcfb7b9598d4eb72b9b1efb21ce",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792888287,
+            "globalPct": 63.9
+          },
+          {
+            "apiName": "ACH_FINISH_GAME",
+            "name": "The End...?",
+            "description": "Complete the final Obelisk stage.",
+            "icon": "1fc193a69418e7f452d8a58af6ad9fcedb93b75e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792888287,
+            "globalPct": 63.9
+          },
+          {
+            "apiName": "ACH_FIRST_DISCOVERY",
+            "name": "Eureka!",
+            "description": "Make your first Alchemy discovery.",
+            "icon": "54b405f2f312b3c07b3de84029ac335f5f1e27ec",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792882058,
+            "globalPct": 73
+          },
+          {
+            "apiName": "ACH_CHAIN_REACTION",
+            "name": "Resonance Cascade",
+            "description": "Complete a full Devotion chain reaction.",
+            "icon": "3628768c52fcb406fa81c33c4c0430c9e203c8a1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792886369,
+            "globalPct": 63
+          },
+          {
+            "apiName": "ACH_ALL_DISCOVERIES",
+            "name": "The Grand Opus",
+            "description": "Discover all 9 Alchemy recipes.",
+            "icon": "b81033547e5182048f2874798e0c9364b85da591",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1792887065,
+            "globalPct": 63
+          },
+          {
+            "apiName": "ACH_BATH_TIME",
+            "name": "Bath Time",
+            "description": "",
+            "icon": "7936c99087077901ef7c4246ff742e35ef3cfd65",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792888526,
+            "globalPct": 63.5
+          },
+          {
+            "apiName": "ACH_TOASTY_BUNS",
+            "name": "Toasty Buns",
+            "description": "",
+            "icon": "6955d31d5e1359a7bebc099abc6210256def9f7b",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792882857,
+            "globalPct": 89.2
+          },
+          {
+            "apiName": "ACH_TOO_EARLY",
+            "name": "Dont'cha think it's too early?",
+            "description": "",
+            "icon": "c827435da69473065f5f979653fa290bda2ce83e",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792888454,
+            "globalPct": 67.5
+          },
+          {
+            "apiName": "ACH_PORTAL",
+            "name": "What's Behind the Bookshelf...?",
+            "description": "",
+            "icon": "8ccd410e37835319d1c0a981dbd86cb3b4f99081",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792888612,
+            "globalPct": 62.7
+          },
+          {
+            "apiName": "ACH_FINAL_BOB",
+            "name": "You saved Bob...Good job!",
+            "description": "",
+            "icon": "1089838510db6cc349f3dfa3044a5e35b1cca7ff",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1792888460,
+            "globalPct": 53.8
+          }
+        ]
+      }
+    },
+    {
       "appId": 301970,
       "name": "Screencheat",
       "playtimeHours": 3.9,
@@ -268598,490 +269082,6 @@
             "unlocked": true,
             "unlockTime": 1746259696,
             "globalPct": 65.1
-          }
-        ]
-      }
-    },
-    {
-      "appId": 4262310,
-      "name": " All Hail the Orb",
-      "playtimeHours": 3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4262310/022dbe9608e25288dea615f2685145296357b2d3.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262310/a0d4db3b46f4ce530f3235dc06411c1c40aadde3/header.jpg?t=1787691790",
-      "genres": [
-        "Casual",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Apr 20, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262310/bfea0a08e16784e44a8c3fc1ffa8384b83dd3743/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262310/a0d4db3b46f4ce530f3235dc06411c1c40aadde3/library_header_2x.jpg",
-      "achievements": {
-        "total": 46,
-        "unlocked": 39,
-        "items": [
-          {
-            "apiName": "ACH_CLICK_ORB_ONCE",
-            "name": "What does this thing do?",
-            "description": "Click the Orb once",
-            "icon": "dc9c94d423d21aebd64c6d0c6bde311960bffd23",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792874551,
-            "globalPct": 98.7
-          },
-          {
-            "apiName": "ACH_FIRST_DEVOTEE",
-            "name": "Your First Devotee",
-            "description": "The beginning of the end!",
-            "icon": "66fe999b5fe0ac6849b4f8c22af164625f6ea756",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792874756,
-            "globalPct": 97.7
-          },
-          {
-            "apiName": "ACH_CLICK_ORB_1K",
-            "name": "In Orb we trust!",
-            "description": "Click the orb 1K times",
-            "icon": "60e7212bfc345f8a5cace48ff3daf8d0fa55f11e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792875004,
-            "globalPct": 97.7
-          },
-          {
-            "apiName": "ACH_CREATE_5_CULTISTS",
-            "name": "Create 5 Cultists",
-            "description": "A small group got together for a party",
-            "icon": "34c0a284266a048d801220ae2f8ca49365d71c1d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792875663,
-            "globalPct": 94.3
-          },
-          {
-            "apiName": "ACH_DEVOTION_100",
-            "name": "Just the early stages, devote more!",
-            "description": "Accumulate 100 Devotion",
-            "icon": "4526b740ac470e5d08bdab34a1bd6e20038b0835",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792874575,
-            "globalPct": 98.4
-          },
-          {
-            "apiName": "ACH_DEVOTION_1K",
-            "name": "You care this much already?",
-            "description": "Accumulate 1k Devotion",
-            "icon": "a5a4e353231dcc9a89e0ad93cacf1104ca695d70",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792874892,
-            "globalPct": 97.9
-          },
-          {
-            "apiName": "ACH_DEVOTION_10K",
-            "name": "Steady there, there's enough devotion to go around",
-            "description": "Accumulate 10k Devotion",
-            "icon": "ce5698da3fb85590a2394a5a8e3d0701d85f98bd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792875795,
-            "globalPct": 94.6
-          },
-          {
-            "apiName": "ACH_DEVOTION_100K",
-            "name": "Wow, you are really devoted to the orb. Cooooool",
-            "description": "Accumulate 100k Devotion",
-            "icon": "ffc8121e4cbeb2e981dc931472f9fe2019f0f268",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792877294,
-            "globalPct": 91.1
-          },
-          {
-            "apiName": "ACH_DEVOTION_1M",
-            "name": "Holy devotion...That's a lotta devotion you got there!",
-            "description": "Accumulate 1M Devotion",
-            "icon": "50c872bd4028dd1c9c429a37e5fdc824207023a0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792880745,
-            "globalPct": 80.5
-          },
-          {
-            "apiName": "ACH_LIFE_ESSENCE_10",
-            "name": "Truely a spectacle of life here!",
-            "description": "Accumulate 10 Life Essence",
-            "icon": "b47db3463df092a393f6791c818f89795d7942d6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792876061,
-            "globalPct": 92.2
-          },
-          {
-            "apiName": "ACH_LIFE_ESSENCE_100",
-            "name": "Oooo what do these pretty blue crystals do?",
-            "description": "Accumulate 100 Life Essence",
-            "icon": "1feadd3efd79bfd6abdebaac6ce6cc99f1b113b5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792876373,
-            "globalPct": 90.7
-          },
-          {
-            "apiName": "ACH_LIFE_ESSENCE_1K",
-            "name": "You must really love spinning that crystal!",
-            "description": "Accumulate 1k Life Essence",
-            "icon": "44634fc8670eee58fc9be62c0758d6ea3a0753f3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792878507,
-            "globalPct": 86.9
-          },
-          {
-            "apiName": "ACH_LIFE_ESSENCE_10K",
-            "name": "Any faster and it might release from the alter!",
-            "description": "Accumulate 10k Life Essence",
-            "icon": "fa2d1b16506a445c91ed876011fb26eb738f285b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792881098,
-            "globalPct": 78.3
-          },
-          {
-            "apiName": "ACH_LIFE_ESSENCE_100K",
-            "name": "Wow, you are really devoted to the orb. Cooooool",
-            "description": "Accumulate 100k Life Essence",
-            "icon": "bcfa51a8e1bd794fe2800cdcf91b3d675b55888d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792886820,
-            "globalPct": 70.7
-          },
-          {
-            "apiName": "ACH_GOLD_1",
-            "name": "First Coin",
-            "description": "Earn your first Gold Coin.",
-            "icon": "65daab77adb21c9326ca51f369aa930685125f09",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792877325,
-            "globalPct": 87.4
-          },
-          {
-            "apiName": "ACH_GOLD_100K",
-            "name": "Money Bags",
-            "description": "Accumulate 100K Gold.",
-            "icon": "f24d4952617eb2b935ad9c0945a094d2828bb1a6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792881216,
-            "globalPct": 78.7
-          },
-          {
-            "apiName": "ACH_GOLD_1M",
-            "name": "Golden Hoard",
-            "description": "Accumulate 1M Gold.",
-            "icon": "f8fb8fe84af635cb23528f6c81297279d24dbde9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792881903,
-            "globalPct": 73.3
-          },
-          {
-            "apiName": "ACH_GOLD_25M",
-            "name": "Dragon's Fortune",
-            "description": "Accumulate 25M Gold.",
-            "icon": "a679ab3fc624b42813c90f1afe3d0010c6829314",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792886923,
-            "globalPct": 67.9
-          },
-          {
-            "apiName": "ACH_GOLD_75M",
-            "name": "King Midas",
-            "description": "Accumulate 75M Gold.",
-            "icon": "5d89698104505040d21d2ddded10f408dca39ed7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 65.5
-          },
-          {
-            "apiName": "ACH_KNOWLEDGE_1",
-            "name": "Bookworm",
-            "description": "Earn your first Knowledge.",
-            "icon": "2e038f364166a797e0881ff9701fc5ee880cf2b0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792880491,
-            "globalPct": 79.4
-          },
-          {
-            "apiName": "ACH_KNOWLEDGE_5K",
-            "name": "Scholar",
-            "description": "Accumulate 5K Knowledge.",
-            "icon": "588e5c24e7bb664b36923a4fbf8d28944bf4ef32",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792880816,
-            "globalPct": 78.7
-          },
-          {
-            "apiName": "ACH_KNOWLEDGE_50K",
-            "name": "Sage",
-            "description": "Accumulate 50K Knowledge.",
-            "icon": "9cf99e5ab2aa7f341fbd5181fdd1b912eea37185",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792881782,
-            "globalPct": 76.1
-          },
-          {
-            "apiName": "ACH_KNOWLEDGE_200K",
-            "name": "Enlightened",
-            "description": "Accumulate 200K Knowledge.",
-            "icon": "8292316cb9bf578396ef65c2de2f184692f7c94c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792883231,
-            "globalPct": 72.8
-          },
-          {
-            "apiName": "ACH_KNOWLEDGE_400K",
-            "name": "Omniscient",
-            "description": "Accumulate 400K Knowledge.",
-            "icon": "ffcfd4d473aadb1ea9afc4eb7201d279ad5047e8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792883481,
-            "globalPct": 71.1
-          },
-          {
-            "apiName": "ACH_ORE_1",
-            "name": "Shiny Rock",
-            "description": "Mine your first Duckinite Ore.",
-            "icon": "d739378d385c0c012e6280299640b4a9892a4074",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792882798,
-            "globalPct": 72.5
-          },
-          {
-            "apiName": "ACH_ORE_100",
-            "name": "Ore Collector",
-            "description": "Accumulate 100 Duckinite Ore.",
-            "icon": "5e7062ac9873c8f188c545ec5ee36477f77737b7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792883034,
-            "globalPct": 72.2
-          },
-          {
-            "apiName": "ACH_ORE_500",
-            "name": "Prospector",
-            "description": "Accumulate 500 Duckinite Ore.",
-            "icon": "7974cb05bf62af19abc934371773b9209735f8fd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792883717,
-            "globalPct": 71.4
-          },
-          {
-            "apiName": "ACH_ORE_2K",
-            "name": "Deep Miner",
-            "description": "Accumulate 2K Duckinite Ore.",
-            "icon": "66fe597fb1e71a3df8149ff6e7018b2476f1da89",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792885027,
-            "globalPct": 70.5
-          },
-          {
-            "apiName": "ACH_ORE_4K",
-            "name": "Master Excavator",
-            "description": "Accumulate 4K Duckinite Ore.",
-            "icon": "b880d2647f1da9962fce9bca42273c7e1db0e69c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792885233,
-            "globalPct": 70.2
-          },
-          {
-            "apiName": "ACH_DUCK_1",
-            "name": "First Quack",
-            "description": "Spawn your first duck.",
-            "icon": "6b16239bd2716b4dee8375fea377de8093b2ccbe",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792875427,
-            "globalPct": 94.8
-          },
-          {
-            "apiName": "ACH_DUCK_20",
-            "name": "Quack Factory",
-            "description": "Spawn 20 ducks.",
-            "icon": "b357edd18010b9ac4fffca09042409361bce8041",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792879576,
-            "globalPct": 85
-          },
-          {
-            "apiName": "ACH_DUCK_50",
-            "name": "Duck Dynasty",
-            "description": "Spawn 50 ducks.",
-            "icon": "832a1b1d092510b6db6c33ab3d61f8469d633909",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792886444,
-            "globalPct": 67.3
-          },
-          {
-            "apiName": "ACH_OBELISK_1",
-            "name": "A Humble Beginning",
-            "description": "Complete the first Obelisk stage.",
-            "icon": "60314b443bcd6409091bde46fcdbb3aa8c06bd96",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792875160,
-            "globalPct": 96.1
-          },
-          {
-            "apiName": "ACH_OBELISK_2",
-            "name": "Foundation of Faith",
-            "description": "Complete the second Obelisk stage.",
-            "icon": "5fd4bbeb087dc9c34debbe3598699e92c1d2eed4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792876654,
-            "globalPct": 90.6
-          },
-          {
-            "apiName": "ACH_OBELISK_3",
-            "name": "Testament of Power",
-            "description": "Complete the third Obelisk stage.",
-            "icon": "f553fb630a55e8f9758ba126e7a77fdead098da3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792880358,
-            "globalPct": 80.2
-          },
-          {
-            "apiName": "ACH_OBELISK_4",
-            "name": "The Orb Stirs",
-            "description": "Complete the fourth Obelisk stage.",
-            "icon": "28a79261523a7cb2c9329c474b0357d12c807718",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792882545,
-            "globalPct": 73.7
-          },
-          {
-            "apiName": "ACH_OBELISK_5",
-            "name": "The Final Devotion",
-            "description": "Complete the fifth Obelisk stage.",
-            "icon": "1165f78234042bcfb7b9598d4eb72b9b1efb21ce",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 63.9
-          },
-          {
-            "apiName": "ACH_FINISH_GAME",
-            "name": "The End...?",
-            "description": "Complete the final Obelisk stage.",
-            "icon": "1fc193a69418e7f452d8a58af6ad9fcedb93b75e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 63.9
-          },
-          {
-            "apiName": "ACH_FIRST_DISCOVERY",
-            "name": "Eureka!",
-            "description": "Make your first Alchemy discovery.",
-            "icon": "54b405f2f312b3c07b3de84029ac335f5f1e27ec",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792882058,
-            "globalPct": 73
-          },
-          {
-            "apiName": "ACH_CHAIN_REACTION",
-            "name": "Resonance Cascade",
-            "description": "Complete a full Devotion chain reaction.",
-            "icon": "3628768c52fcb406fa81c33c4c0430c9e203c8a1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792886369,
-            "globalPct": 63
-          },
-          {
-            "apiName": "ACH_ALL_DISCOVERIES",
-            "name": "The Grand Opus",
-            "description": "Discover all 9 Alchemy recipes.",
-            "icon": "b81033547e5182048f2874798e0c9364b85da591",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1792887065,
-            "globalPct": 63
-          },
-          {
-            "apiName": "ACH_BATH_TIME",
-            "name": "Bath Time",
-            "description": "",
-            "icon": "7936c99087077901ef7c4246ff742e35ef3cfd65",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 63.5
-          },
-          {
-            "apiName": "ACH_TOASTY_BUNS",
-            "name": "Toasty Buns",
-            "description": "",
-            "icon": "6955d31d5e1359a7bebc099abc6210256def9f7b",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1792882857,
-            "globalPct": 89.2
-          },
-          {
-            "apiName": "ACH_TOO_EARLY",
-            "name": "Dont'cha think it's too early?",
-            "description": "",
-            "icon": "c827435da69473065f5f979653fa290bda2ce83e",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 67.5
-          },
-          {
-            "apiName": "ACH_PORTAL",
-            "name": "What's Behind the Bookshelf...?",
-            "description": "",
-            "icon": "8ccd410e37835319d1c0a981dbd86cb3b4f99081",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 62.7
-          },
-          {
-            "apiName": "ACH_FINAL_BOB",
-            "name": "You saved Bob...Good job!",
-            "description": "",
-            "icon": "1089838510db6cc349f3dfa3044a5e35b1cca7ff",
-            "hidden": true,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 53.8
           }
         ]
       }
@@ -336095,6 +336095,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/253030/17941eb6c874f166e281955c02df912b107085f8/library_capsule_2x.jpg",
       "achievements": {
         "total": 25,
         "unlocked": 0
@@ -384608,6 +384609,14 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/428660/64d71202fb02ad920565f1264d94325896076814/library_header_2x.jpg"
     },
     {
+      "appId": 447150,
+      "dateAdded": 1791965833,
+      "priority": 0,
+      "name": "APE OUT",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447150/header.jpg?t=1785434966",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447150/library_600x900_2x.jpg"
+    },
+    {
       "appId": 450540,
       "dateAdded": 1506778766,
       "priority": 181,
@@ -384713,6 +384722,15 @@
       "name": "App 498310",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/498310/056ded1b453d71e54fbdd4dc5cf059ab019a45e5/header_alt_assets_8.jpg?t=1788197619",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/498310/9dc11dd75f05b8769d4eb8ff35fe9fab1ea5a514/library_capsule_2x.jpg"
+    },
+    {
+      "appId": 499170,
+      "dateAdded": 1791627372,
+      "priority": 0,
+      "name": "Order of the Sinking Star",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1792144507",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/e061e66565700812fd6e4ac87fe32cc6a4683827/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/2aed61ae2883fa8112630c4bd86adf07a53c5094/library_header_2x.jpg"
     },
     {
       "appId": 500260,
@@ -385705,7 +385723,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -385713,7 +385731,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -385721,7 +385739,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -385729,7 +385747,7 @@
       "dateAdded": 1524265466,
       "priority": 385,
       "name": "Squad 44",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/header.jpg?t=1790967343",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/736220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/fae382a414c681d84f743a85cef8bf33352e5eaf/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/d9ab5f721701f675483d8b93ed61831f54425088/library_header_2x.jpg"
     },
@@ -385738,14 +385756,14 @@
       "dateAdded": 1635094925,
       "priority": 0,
       "name": "Kingdom Workshop",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/741340/header.jpg?t=1634111960"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/741340/header.jpg"
     },
     {
       "appId": 742300,
       "dateAdded": 1538501315,
       "priority": 392,
       "name": "Mega Man 11",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1787717265",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/library_600x900_2x.jpg"
     },
     {
@@ -385753,7 +385771,7 @@
       "dateAdded": 1560357191,
       "priority": 394,
       "name": "Duck Season PC",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/header.jpg?t=1667678098",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746510/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/library_600x900_2x.jpg"
     },
     {
@@ -385761,7 +385779,7 @@
       "dateAdded": 1593087169,
       "priority": 0,
       "name": "Cloudpunk",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/header.jpg?t=1729027817",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746850/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/library_600x900_2x.jpg"
     },
     {
@@ -385769,7 +385787,7 @@
       "dateAdded": 1617959696,
       "priority": 0,
       "name": "AWAY: The Survival Series",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/header.jpg?t=1739840210",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750200/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/library_600x900_2x.jpg"
     },
     {
@@ -385777,7 +385795,7 @@
       "dateAdded": 1640607398,
       "priority": 0,
       "name": "Slice of Sea",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/header.jpg?t=1748509146",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_header.jpg"
     },
@@ -385803,7 +385821,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -385838,7 +385856,7 @@
       "dateAdded": 1605736966,
       "priority": 0,
       "name": "Occupy Mars: The Game",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/header_alt_assets_9.jpg?t=1788284061",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758690/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/47e3333e29936ffbe5f82b7fc13959a7cae34c90/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/library_header_2x.jpg"
     },
@@ -385907,7 +385925,7 @@
       "dateAdded": 1770916000,
       "priority": 0,
       "name": "Last Man Sitting",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1792068178",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774291/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/803bf1ec7353a49fbe7dc1cb3e82a942a913c202/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/5c05281696891c8cb3df8395efa376f39f9f8c09/library_header_2x.jpg"
     },
@@ -385916,7 +385934,7 @@
       "dateAdded": 1539807012,
       "priority": 412,
       "name": "The Jackbox Party Pack 5",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774461/header.jpg?t=1728584545",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774461/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774461/library_600x900_2x.jpg"
     },
     {
@@ -386574,7 +386592,7 @@
       "dateAdded": 1678134416,
       "priority": 0,
       "name": "Cities: Skylines II",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/8fb6d4b60f7120ff56bea2efc92aee3a5bb7fe70/header_alt_assets_8.jpg?t=1791468410",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/949230/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/library_header_2x.jpg"
     },
@@ -386919,7 +386937,7 @@
       "dateAdded": 1618609721,
       "priority": 0,
       "name": "Hollow Knight: Silksong",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/93637c34351160eaa7d7ff0cce69cb4312abb819/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7f6e572bde792b139018cae5a361d91d5e1ad812/library_header_2x.jpg"
     },
@@ -387066,7 +387084,7 @@
       "dateAdded": 1612376798,
       "priority": 0,
       "name": "Timberborn",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/eeb2babf15cbf4ebc175316a5d3e42a060f3d97c/header.jpg?t=1788438437",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1062090/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/e1e203d598f5a7d5fb77c9d3994e7d6cd5998d00/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/eeb2babf15cbf4ebc175316a5d3e42a060f3d97c/library_header_2x.jpg"
     },
@@ -387215,7 +387233,7 @@
       "dateAdded": 1601295694,
       "priority": 0,
       "name": "The Walking Dead Onslaught",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1082680/header.jpg?t=1729182817",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1082680/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1082680/library_600x900_2x.jpg"
     },
     {
@@ -387433,7 +387451,7 @@
       "dateAdded": 1623667391,
       "priority": 0,
       "name": "Paralives",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/277ab7a2ad1bbce0f4837bb37a3c86d109bd5258/header.jpg?t=1791836776",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1118520/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/cd9ef5d9d08f42262c1243269b19954d8924a0d1/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1118520/62ac490f323d8f1eeeb5f461028a62a45beb3f06/library_header_2x.jpg"
     },
@@ -387784,15 +387802,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1163350/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1163350/742765500dd5aca0012ef535288259db637d8c7b/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1163350/6367e330823c7d1f8d9171d9f34f64465d5901af/library_header_2x.jpg"
-    },
-    {
-      "appId": 3681780,
-      "dateAdded": 1790727107,
-      "priority": 0,
-      "name": "WinMon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3681780/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681780/0afbc760978ce3f0f6d722b3fb2000b8365ec5be/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681780/fd0f19b8e1f601dba9b118d6ce42fb0c5973f4a9/library_header_2x.jpg"
     },
     {
       "appId": 1165990,
@@ -388274,6 +388283,14 @@
       "name": "KARLSON",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1228610/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1228610/library_600x900_2x.jpg"
+    },
+    {
+      "appId": 1229580,
+      "dateAdded": 1791965821,
+      "priority": 0,
+      "name": "Disc Room",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1229580/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229580/library_600x900_2x.jpg"
     },
     {
       "appId": 1231840,
@@ -390220,6 +390237,15 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1548850/library_600x900_2x.jpg"
     },
     {
+      "appId": 1551980,
+      "dateAdded": 1792773469,
+      "priority": 0,
+      "name": "Clive Barker's Hellraiser: Revival",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551980/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/07b6068f2992ba42c2d48846eea5703b7742293b/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/706cc84906dca755ef7a73c64cf568e0c205037b/library_header_2x.jpg"
+    },
+    {
       "appId": 1552220,
       "dateAdded": 1649458760,
       "priority": 0,
@@ -390438,6 +390464,15 @@
       "name": "The Signal State",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1577620/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1577620/library_600x900_2x.jpg"
+    },
+    {
+      "appId": 1578720,
+      "dateAdded": 1791559507,
+      "priority": 0,
+      "name": "Scrabdackle",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1578720/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1578720/1bd790ace2fef4e95160b0cbfdc28b2fea798386/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1578720/b74ae5c38c81c77f086673bc2714fbacc04d2651/library_header_2x.jpg"
     },
     {
       "appId": 1578960,
@@ -390745,6 +390780,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1617230/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1617230/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1617230/library_header.png"
+    },
+    {
+      "appId": 1619280,
+      "dateAdded": 1791478504,
+      "priority": 0,
+      "name": "App 1619280",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1619280/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1619280/70179bb23b67b050e9cc858aff3698728cdeaaf3/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1619280/18dc88dc16572e54aec9b105768bdf44138ea592/library_header_2x.jpg"
     },
     {
       "appId": 1620720,
@@ -391714,15 +391758,6 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1793170/library_600x900_2x.jpg"
     },
     {
-      "appId": 1934870,
-      "dateAdded": 1791306120,
-      "priority": 0,
-      "name": "Wirm",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934870/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934870/463f266f32983b4753e8b01ced95b53b6b66af90/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934870/6352c20b07958ae22a8a1ac70664d31591ccbd35/library_header_2x.jpg"
-    },
-    {
       "appId": 1798230,
       "dateAdded": 1760139921,
       "priority": 0,
@@ -392073,6 +392108,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874170/b9b0505f30148bdbefa43fdcf05f865cef5861ec/library_header_2x.jpg"
     },
     {
+      "appId": 1876590,
+      "dateAdded": 1791965785,
+      "priority": 0,
+      "name": "I Am Your Beast",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1876590/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876590/594c648101b083d005c3e864f101548a8008c9e4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876590/107acb641944507a41ad3ef55ead0d67ba23de6b/library_header_2x.jpg"
+    },
+    {
       "appId": 1880610,
       "dateAdded": 1725470552,
       "priority": 0,
@@ -392341,6 +392385,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934570/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934570/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934570/library_header.jpg"
+    },
+    {
+      "appId": 1934870,
+      "dateAdded": 1791306120,
+      "priority": 0,
+      "name": "Wirm",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934870/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934870/463f266f32983b4753e8b01ced95b53b6b66af90/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934870/6352c20b07958ae22a8a1ac70664d31591ccbd35/library_header_2x.jpg"
     },
     {
       "appId": 1940080,
@@ -393681,6 +393734,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2287430/a16637824d8eee511a8a94345420a3d29bab1c98/library_header_2x.jpg"
     },
     {
+      "appId": 2288470,
+      "dateAdded": 1791753725,
+      "priority": 0,
+      "name": "Aethermancer",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2288470/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/98b4bb954518b41413dbd300d2e7f71093213fe8/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/e5326161df5e3cdc05a0f927b05061fbc979316f/library_header_2x.jpg"
+    },
+    {
       "appId": 2289750,
       "dateAdded": 1705255030,
       "priority": 0,
@@ -393715,6 +393777,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2294720/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2294720/6a1a5aafcba5967e34e0e5868ff17705cc554306/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2294720/a5617f33106f882fb93bb4483b8333fee27baa32/library_header_2x.jpg"
+    },
+    {
+      "appId": 2295170,
+      "dateAdded": 1792753130,
+      "priority": 0,
+      "name": "Emberville",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2295170/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/b16156ab24436ad83c2de5996ba5933a88dcfaaa/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/498734b30af45b641d75217775b1fb4c51be36b9/library_header_2x.jpg"
     },
     {
       "appId": 2299510,
@@ -394695,6 +394766,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2484130/library_header.jpg"
     },
     {
+      "appId": 2487330,
+      "dateAdded": 1790726423,
+      "priority": 0,
+      "name": "App 2487330",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2487330/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/3ed1c79705d92f3db6418936e005ebc43fac480a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/21f6e3394b6c3998aa477817e412c5109d3a19de/library_header_2x.jpg"
+    },
+    {
       "appId": 2488370,
       "dateAdded": 1746813194,
       "priority": 0,
@@ -394767,6 +394847,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2512930/library_header.jpg"
     },
     {
+      "appId": 2523740,
+      "dateAdded": 1792753509,
+      "priority": 0,
+      "name": "App 2523740",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2523740/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/c2ab691a8ed252da54eee927f37d5aa86e54e79e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/8d4e16a6d33e4dd90e1304139475c357533cc991/library_header_2x.jpg"
+    },
+    {
       "appId": 2524850,
       "dateAdded": 1784149584,
       "priority": 0,
@@ -394827,6 +394916,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/aeac394b61ac94b5d4ea939351baf3943ac0b282/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/12b4b3e0be2b903802a2d59e001f652f07a03ad9/library_header_2x.jpg"
+    },
+    {
+      "appId": 2531840,
+      "dateAdded": 1791664244,
+      "priority": 0,
+      "name": "Goeland: Seagull Adventure",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531840/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531840/1e10068b1482b3369063efe70043b31ab0369e9e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531840/f1a8d7bf44c4c1be193a9024e0c3189018495b89/library_header_2x.jpg"
     },
     {
       "appId": 2533600,
@@ -395347,6 +395445,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669410/121346be34c54e123ded376ce25c752b321937ae/library_header_2x.jpg"
     },
     {
+      "appId": 2670430,
+      "dateAdded": 1792763325,
+      "priority": 0,
+      "name": "Platverse: ABYA's Adventure",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2670430/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670430/393b1211cb3c7fbca62858c08fd25c7953f2c475/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670430/34e0f01e601383f53f6c9c639614db5655b2d2f0/library_header_2x.jpg"
+    },
+    {
       "appId": 2670630,
       "dateAdded": 1710361402,
       "priority": 0,
@@ -395426,6 +395533,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2684630/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/f97552e6827d3b90e0041eaa19227cdc60be4cb9/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2684630/a1027c97f05ef557d44389111caf32da5d0540e1/library_header_2x.jpg"
+    },
+    {
+      "appId": 2686570,
+      "dateAdded": 1791478467,
+      "priority": 0,
+      "name": "Waltz and Jam",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2686570/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/d8a9dd6859581b42610f16aa076cc502b9df916f/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/0f1d824794005d284d463eacee539fdbbc116b68/library_header_2x.jpg"
     },
     {
       "appId": 2686630,
@@ -396128,6 +396244,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842040/6fa947acfc0fc8d3a485177b089c10384d637075/library_header_2x.jpg"
     },
     {
+      "appId": 2842310,
+      "dateAdded": 1791478493,
+      "priority": 0,
+      "name": "App 2842310",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2842310/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842310/ea1279256fe389315ce2b8c97798bd715f930bae/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842310/77dbbbde992e6b464a30ea30b1a70f10a230facf/library_header_2x.jpg"
+    },
+    {
       "appId": 2843060,
       "dateAdded": 1788879560,
       "priority": 0,
@@ -396162,6 +396287,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2849490/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849490/50c54f188587b1617cf8878aee9edba91723e0ed/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849490/5c56962ba7dae4b51ceb1e02f1880dc2cce11c63/library_header_2x.jpg"
+    },
+    {
+      "appId": 2851120,
+      "dateAdded": 1791753701,
+      "priority": 0,
+      "name": "Hanno: A Magical Tale",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2851120/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2851120/63efca895fb2ec6635103bc075e32c2e7a614b87/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2851120/e9c47c0c74fc2c51ea79d14eef3169752a268e11/library_header_2x.jpg"
     },
     {
       "appId": 2852140,
@@ -396243,6 +396377,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/4bf4dad2c9c82b1989eee4a664ca7ce7bf3cc4a7/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/45a4d134f6c9c0c882c620e228396ad43b4f71be/library_header_2x.jpg"
+    },
+    {
+      "appId": 2873750,
+      "dateAdded": 1790549950,
+      "priority": 0,
+      "name": "Pool of Madness",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2873750/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/c773f65025724bddeed7116994391943b84eeb40/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/9cadd174a4171d398c61fdeffba97bde20d4b777/library_header_2x.jpg"
     },
     {
       "appId": 2874130,
@@ -396707,6 +396850,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2997230/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/dddf44df737b40b79693b84a858a9c34535e2bc1/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/7712fdf6cd6531709c16920f8b20b6ee146ac9f8/library_header_2x.jpg"
+    },
+    {
+      "appId": 2999500,
+      "dateAdded": 1790726341,
+      "priority": 0,
+      "name": "STUNTBOOST",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2999500/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2999500/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2999500/8a03d45227002814fad5e50c761ce17252c4bf5e/library_header_2x.jpg"
     },
     {
       "appId": 3000460,
@@ -397240,6 +397392,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3125250/c6846ba141ccb76d4bc418c93c8a4bcc9ff8cfa9/library_header_2x.jpg"
     },
     {
+      "appId": 3133010,
+      "dateAdded": 1790549620,
+      "priority": 0,
+      "name": "App 3133010",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3133010/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3133010/5d48c56fe35d3a7cac6351a47c7993e4ebb34683/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3133010/8766552efde368e5f77b05ea8019596c578cc22e/library_header_2x.jpg"
+    },
+    {
       "appId": 3133220,
       "dateAdded": 1776711662,
       "priority": 0,
@@ -397510,6 +397671,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3189340/d432c4a4fb1f767075ce7ea6ffffa307ffdc4253/library_header_2x.jpg"
     },
     {
+      "appId": 3196610,
+      "dateAdded": 1792773421,
+      "priority": 0,
+      "name": "App 3196610",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3196610/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196610/6c5b50ccbf613de6b26844ec680911eeba202d3e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196610/2e825cd8faaf0f51a3c7cf23fae68479e401716b/library_header_2x.jpg"
+    },
+    {
       "appId": 3198890,
       "dateAdded": 1768929008,
       "priority": 0,
@@ -397544,6 +397714,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3204250/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204250/4b939abba0dfa9794bf937c10acb1800c89f4771/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204250/5c3738a56931d1601970d689ddd2ecd38e7c5d4b/library_header_2x.jpg"
+    },
+    {
+      "appId": 3204820,
+      "dateAdded": 1791568917,
+      "priority": 0,
+      "name": "App 3204820",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3204820/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204820/91f9b7bf3b74304eccbfff376cca6bbb0a4a68f2/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204820/4a232ebac00ee9ddde7cd33e4d1e8c36d03d0c6a/library_header_2x.jpg"
     },
     {
       "appId": 3205380,
@@ -398120,6 +398299,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3346460/2013397639ec7a4372a7b41250e0647b6fa669e2/library_header_2x.jpg"
     },
     {
+      "appId": 3352140,
+      "dateAdded": 1792773503,
+      "priority": 0,
+      "name": "Satellite Odyssey: Jupiter",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3352140/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352140/49732ae96f1838212609ce88960bbad2f08e9d29/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352140/883d13d89282ec9c89a055335964299fd6ebff88/library_header_2x.jpg"
+    },
+    {
       "appId": 3352240,
       "dateAdded": 1764173493,
       "priority": 0,
@@ -398408,6 +398596,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430340/1c3b412c428badb9f617a83caf8acdceab0659d2/library_header_2x.jpg"
     },
     {
+      "appId": 3432980,
+      "dateAdded": 1791753502,
+      "priority": 0,
+      "name": "Ballistic.exe",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3432980/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/8bbd9e929549f88b04777e0e41d570b5a887ac0b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/1d658fdc5608d885538f7d3cb5694674ab403000/library_header_2x.jpg"
+    },
+    {
       "appId": 3436030,
       "dateAdded": 1763135108,
       "priority": 0,
@@ -398577,6 +398774,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3494210/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3494210/884ce4bd91b75d4e5f9ab0c84a5892d9248c0730/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3494210/69d45d657826635dc63d9da0f05ca11940cf6671/library_header_2x.jpg"
+    },
+    {
+      "appId": 3495250,
+      "dateAdded": 1791568872,
+      "priority": 0,
+      "name": "Glory On Pluto",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3495250/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495250/42a9e53c317b974608d5625e2e4767e65134cd70/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495250/077d004db625d23c4dfbbf2382b5b1ba21fa2bd2/library_header_2x.jpg"
     },
     {
       "appId": 3495730,
@@ -398813,6 +399019,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551140/3bee25a75b9c0073dfe5053820f87e428a5d4301/library_header_2x.jpg"
     },
     {
+      "appId": 3552090,
+      "dateAdded": 1790550049,
+      "priority": 0,
+      "name": "Penguin Festival",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3552090/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552090/2800167d1fc9820c658fbed0e00633cad4b296d3/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552090/83e64a7ea53cc105b3ce2e2d8d22bc3f68cf97a4/library_header_2x.jpg"
+    },
+    {
       "appId": 3552820,
       "dateAdded": 1761161080,
       "priority": 0,
@@ -398957,6 +399172,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3577020/1477661d1ad0bcfc17bcd22c466447b5d3e6a1f4/library_header_2x.jpg"
     },
     {
+      "appId": 3578070,
+      "dateAdded": 1792147942,
+      "priority": 0,
+      "name": "Shake it Co!",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3578070/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3578070/acd38683a449aeab9d4e31f8d745a4d5fcc3a83d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3578070/ed9a892086cc65c3f95b69bd59758c9a24ae998b/library_header_2x.jpg"
+    },
+    {
       "appId": 3581230,
       "dateAdded": 1786818669,
       "priority": 0,
@@ -399011,6 +399235,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3587450/95b4374665b2e638c52b3371e03b0fa88252cbd0/library_header_2x.jpg"
     },
     {
+      "appId": 3590780,
+      "dateAdded": 1790727128,
+      "priority": 0,
+      "name": "Nano Neighbors",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3590780/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590780/7a920bd9edcc25aa54c1dc10c7f7c34b3aa78aa1/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590780/755ee357ea704ca6339e4c8ce35d4b2a82595e0f/library_header_2x.jpg"
+    },
+    {
       "appId": 3595450,
       "dateAdded": 1780334781,
       "priority": 0,
@@ -399056,6 +399289,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3601800/ecde8f7e5544cd2cf26a32334612ef5c029c503f/library_header_2x.jpg"
     },
     {
+      "appId": 3602260,
+      "dateAdded": 1791478444,
+      "priority": 0,
+      "name": "App 3602260",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3602260/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602260/4ee0fb38cf388f82928bd7d6fe652ea5e211238d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602260/e8b5f5936ed8cded90ba32aa292222fa9e982f06/library_header_2x.jpg"
+    },
+    {
       "appId": 3602270,
       "dateAdded": 1770235117,
       "priority": 0,
@@ -399081,6 +399323,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3604780/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3604780/b13f153b223e8ce831e47fecd3613faf49d4a6e7/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3604780/47f718d986958f3558c1b7ccdc94e04ed0d9eb46/library_header_2x.jpg"
+    },
+    {
+      "appId": 3617620,
+      "dateAdded": 1792763183,
+      "priority": 0,
+      "name": "My Card Is Better Than Your Card!",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3617620/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/61100d2b9eb89e5e9174f5c423c2678f54d65dcc/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/4bd0696d5d876006d03d421b7d654779f686a6cf/library_header_2x.jpg"
     },
     {
       "appId": 3618030,
@@ -399335,6 +399586,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3677310/0f3dba5f6215cc56c33bad56d352bd92321ec1ba/library_header_2x.jpg"
     },
     {
+      "appId": 3681780,
+      "dateAdded": 1790727107,
+      "priority": 0,
+      "name": "WinMon",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3681780/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681780/0afbc760978ce3f0f6d722b3fb2000b8365ec5be/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681780/fd0f19b8e1f601dba9b118d6ce42fb0c5973f4a9/library_header_2x.jpg"
+    },
+    {
       "appId": 3685570,
       "dateAdded": 1770588982,
       "priority": 0,
@@ -399351,6 +399611,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3687790/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687790/7c1cd25482f55bf48bd96887b724d58e1b63f7f3/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3687790/1726d14944de5f8f08b63613ab1aada895727246/library_header_2x.jpg"
+    },
+    {
+      "appId": 3688240,
+      "dateAdded": 1790646034,
+      "priority": 0,
+      "name": "App 3688240",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3688240/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688240/54f370344391a473957428b88eeda4924789d110/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688240/5ea036b7b2efe6befaaa326c4da617bd6de2d41c/library_header_2x.jpg"
     },
     {
       "appId": 3688650,
@@ -399531,6 +399800,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727390/29369846b5ba94b2b1620eb8dd5aa8488f058d90/library_header_2x.jpg"
     },
     {
+      "appId": 3734220,
+      "dateAdded": 1792773216,
+      "priority": 0,
+      "name": "App 3734220",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3734220/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/e2af117fbe358809b6c01677796c3e2ddc870912/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/ffe373e0b836db215b4aaa1efec82b05d85758d0/library_header_2x.jpg"
+    },
+    {
       "appId": 3738640,
       "dateAdded": 1756024175,
       "priority": 0,
@@ -399598,7 +399876,7 @@
       "dateAdded": 1772154572,
       "priority": 0,
       "name": "DEADLINE DELIVERY",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3745310/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/3ae14edf5d4cebbd1a5f9b563476201a24086bd2/header.jpg?t=1790105864",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/7c8ec50b14a50186dfa99ed6058b041f7d81e194/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745310/3ae14edf5d4cebbd1a5f9b563476201a24086bd2/library_header_2x.jpg"
     },
@@ -399646,6 +399924,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3757210/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757210/f74ecac8fe74a0c06925024032388aee1c4410a6/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757210/ae36ecedeb4d9f65ed7aa58f8f7dc2d47976d745/library_header_2x.jpg"
+    },
+    {
+      "appId": 3757660,
+      "dateAdded": 1791753531,
+      "priority": 0,
+      "name": "Station 58",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3757660/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/ad1eb1083555eaa991a13ea7c3ab4f34248d4793/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/53785e3e8120c5a8cbf69759f749c1fd4ac3a943/library_header_2x.jpg"
     },
     {
       "appId": 3760370,
@@ -399769,7 +400056,7 @@
       "dateAdded": 1777573482,
       "priority": 0,
       "name": "Goblin Vyke",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3794610/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794610/49a3680ab635aa1b8db4c60aa18dedc793804c13/header.jpg?t=1790136665",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794610/ab5ac9cbafaaa37eac2e86a1a9ccce53ddbd4940/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3794610/49a3680ab635aa1b8db4c60aa18dedc793804c13/library_header_2x.jpg"
     },
@@ -399778,7 +400065,7 @@
       "dateAdded": 1786126753,
       "priority": 0,
       "name": "Eye of the Match",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3799530/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3799530/7d49d3cd2efcb87368dddc30ced96c539f404d63/header.jpg?t=1791484970",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3799530/418fc181ec9a1a6eeec59cd275e3640b405879f8/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3799530/342c5ee2cbe4354646dea7ed0744f1c0f617893d/library_header_2x.jpg"
     },
@@ -399826,6 +400113,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809850/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/623c68d45cadc44765ee49262b6dcd92076ae075/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/38beba33271cfcbe7b61964c8f49e003d7aab0b3/library_header_2x.jpg"
+    },
+    {
+      "appId": 3810510,
+      "dateAdded": 1791753544,
+      "priority": 0,
+      "name": "DERELIKT",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3810510/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/2728f0a55f1f55e0212425862181ef79b1617a6d/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/45f23f4a1143f49de0962289003d6b269fa970bd/library_header_2x.jpg"
     },
     {
       "appId": 3811840,
@@ -400116,6 +400412,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3873720/341f7815a81aa19a9392365a99c49b6ddcb3909a/library_header_2x.jpg"
     },
     {
+      "appId": 3875530,
+      "dateAdded": 1790727170,
+      "priority": 0,
+      "name": "Intentional Bugs",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3875530/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875530/3514d44b336f4dacf4224cb966a8f14997dc33bb/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875530/ae66de1774fe112a54942e5a0126342f0a35c354/library_header_2x.jpg"
+    },
+    {
       "appId": 3884500,
       "dateAdded": 1760376564,
       "priority": 0,
@@ -400150,6 +400455,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3905450/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905450/95c9061c24121090b3a7174b55a5b190226f2550/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905450/9df2584a14f715931fffd9a772710266d6fe8525/library_header_2x.jpg"
+    },
+    {
+      "appId": 3906800,
+      "dateAdded": 1790727175,
+      "priority": 0,
+      "name": "Poua! – Your Pomodoro Buddy & Minimal Desktop Timer",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3906800/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906800/aecae3a8a3145ee1c259112c92303980c90655c5/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906800/0045afd2604bc2fb8836e1891126e56ecc39503e/library_header_2x.jpg"
     },
     {
       "appId": 3907910,
@@ -400656,6 +400970,51 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045540/b5ead9b3037e9dc35285dc60f61023a0d9a054d6/library_header_2x.jpg"
     },
     {
+      "appId": 4045720,
+      "dateAdded": 1791651923,
+      "priority": 0,
+      "name": "App 4045720",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4045720/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/4a526cba9b0ce5aff3e4bd12cac18a09dd6cb823/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/5e0c40282abe2ae79319b05834a91f5bced749f6/library_header_2x.jpg"
+    },
+    {
+      "appId": 4049170,
+      "dateAdded": 1791551231,
+      "priority": 0,
+      "name": "App 4049170",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4049170/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049170/0df7403cb507dadc36ac69ab01d590f70244ee7c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049170/678f17396b23817c2b9a61deff6aa067b6b28a8a/library_header_2x.jpg"
+    },
+    {
+      "appId": 4049180,
+      "dateAdded": 1791551237,
+      "priority": 0,
+      "name": "App 4049180",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4049180/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/edbe257fe5ce3066d941b005c1173ca03450672b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/8d4e4c2c303b6bca383f7d3473400236096fbca2/library_header_2x.jpg"
+    },
+    {
+      "appId": 4051290,
+      "dateAdded": 1792763414,
+      "priority": 0,
+      "name": "Tape Man",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4051290/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051290/11aa143d0f3ff199da67c1ae7e316d54840dc815/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051290/846768f57bc93d110d0f1a35a800d704514ae8f0/library_header_2x.jpg"
+    },
+    {
+      "appId": 4060780,
+      "dateAdded": 1790727149,
+      "priority": 0,
+      "name": "Peckers",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4060780/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4060780/6169e6a31ed892982a42039375da34cafc832434/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4060780/1a7b70677d4358a57c74124dad8eb6435b749e2d/library_header_2x.jpg"
+    },
+    {
       "appId": 4060980,
       "dateAdded": 1786603306,
       "priority": 0,
@@ -400863,6 +401222,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4112070/448292f6220aa18324f9bb07b1b6f905659ddb60/library_header_2x.jpg"
     },
     {
+      "appId": 4115450,
+      "dateAdded": 1791927443,
+      "priority": 0,
+      "name": "Phantom Blade Zero",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4115450/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/471e77854910665c03eb9a53ad06f2ac12903acd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/library_header_2x.jpg"
+    },
+    {
       "appId": 4117730,
       "dateAdded": 1782198001,
       "priority": 0,
@@ -400987,6 +401355,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4143700/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4143700/8333bf136192540e7b646ce653c9969667287fd2/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4143700/afdf6b8988a56e992164715c98b70220c9969bb4/library_header_2x.jpg"
+    },
+    {
+      "appId": 4144990,
+      "dateAdded": 1792763489,
+      "priority": 0,
+      "name": "Criticality",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4144990/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144990/f523a131b3a0c0943d5099930a6d5fcc748c9d40/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144990/c6d7d3065965657a171e1f86325020a70ea93451/library_header_2x.jpg"
     },
     {
       "appId": 4150860,
@@ -401255,6 +401632,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210060/d455a982566362f2fd935dc9296aa6580136ab84/library_header_2x.jpg"
     },
     {
+      "appId": 4210390,
+      "dateAdded": 1791478435,
+      "priority": 0,
+      "name": "App 4210390",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4210390/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210390/3413c83cc9b953dae2c02cb199b9c55a3798d01d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210390/869086ad83eb2dc58d514f8c19e0061e49f42674/library_header_2x.jpg"
+    },
+    {
       "appId": 4211060,
       "dateAdded": 1784380875,
       "priority": 0,
@@ -401289,6 +401675,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4213030/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4213030/228fd096df3dec29bd92472010078785fb36dad3/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4213030/152661153e96ebf187c429291e3074828334a599/library_header_2x.jpg"
+    },
+    {
+      "appId": 4214100,
+      "dateAdded": 1791664248,
+      "priority": 0,
+      "name": "Interlocked: Puzzle Islands",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4214100/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4214100/e4f6bf49c9f3342ffbbd37d5c989626e98e290dd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4214100/17fd54d728eb0283df386185a2c463a15f2b05bc/library_header_2x.jpg"
     },
     {
       "appId": 4216670,
@@ -401534,6 +401929,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4302940/b6640e8fb3fbfb0701c0e7edaf61e0933319093b/library_header_2x.jpg"
     },
     {
+      "appId": 4304900,
+      "dateAdded": 1792449960,
+      "priority": 0,
+      "name": "Big Dig",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304900/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/c947b2d646a0c6674b38467e25384ca7444e398a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/bdb95c69892b39aaaa303f77b3c61d6a46f88b42/library_header_2x.jpg"
+    },
+    {
       "appId": 4305480,
       "dateAdded": 1772399017,
       "priority": 0,
@@ -401550,6 +401954,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4308420/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308420/9db366f795ed71105ccb6767dae9236d7a3b49bc/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4308420/fe4ee980422e8762e693a35e4f078124ade598b1/library_header_2x.jpg"
+    },
+    {
+      "appId": 4312190,
+      "dateAdded": 1790549367,
+      "priority": 0,
+      "name": "App 4312190",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4312190/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/41fe49c40fa4226ddd7fafdb4b15c15687756f68/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/library_header_2x.jpg"
     },
     {
       "appId": 4312850,
@@ -401741,6 +402154,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4393700/920d664612e8079bfbc794dace73b9da9f5a5f16/library_header_2x.jpg"
     },
     {
+      "appId": 4396620,
+      "dateAdded": 1791652775,
+      "priority": 0,
+      "name": "App 4396620",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4396620/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4396620/90cccad890b8e528215185229e994f8f9c3742c7/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4396620/02b442abba515f9890625d8d669fbb5adf3c5c5d/library_header_2x.jpg"
+    },
+    {
       "appId": 4400160,
       "dateAdded": 1779981092,
       "priority": 0,
@@ -401831,6 +402253,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428630/72e9bceb682d8cf55a6cb4c84af6b0060265fce6/library_header_2x.jpg"
     },
     {
+      "appId": 4437650,
+      "dateAdded": 1791566880,
+      "priority": 0,
+      "name": "App 4437650",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4437650/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437650/ae5ff1726889b66bc124573c771466e6238dec7f/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437650/5adfb323269e9a9dc8b55be107591cd5f46037f1/library_header_2x.jpg"
+    },
+    {
       "appId": 4438080,
       "dateAdded": 1784838360,
       "priority": 0,
@@ -401881,8 +402312,8 @@
       "priority": 0,
       "name": "App 4459990",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4459990/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459990/56d3150534d7fc4779dd7edc0dfb127a5eaa1cc2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459990/c827b977192e10c35a3726724454a949ecd163c6/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459990/494ea5a1d246195ba6217ed287f64cf86416f88b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459990/cfb4b00ac10a3ef8f59398c269bd6a5d98f6d0bf/library_header_2x.jpg"
     },
     {
       "appId": 4461640,
@@ -401892,6 +402323,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4461640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461640/218c5f761dbf427b14270727d3a86635de040d7a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461640/d7a2e53597e730aeb0b5469ca053c5d39a096ed1/library_header_2x.jpg"
+    },
+    {
+      "appId": 4462830,
+      "dateAdded": 1791569015,
+      "priority": 0,
+      "name": "App 4462830",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4462830/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462830/1189b2a814639fa8d072fadd9d384f6ddeba7805/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462830/ac33b1ef73333668fdfa9491a11564205cb82042/library_header_2x.jpg"
     },
     {
       "appId": 4463520,
@@ -402110,6 +402550,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4562150/d4246516263f388e53ffcbb896a1500837661173/library_header_2x.jpg"
     },
     {
+      "appId": 4564640,
+      "dateAdded": 1790646043,
+      "priority": 0,
+      "name": "App 4564640",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4564640/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/fedebb46028c063fe45d919816c1aee2e6d94492/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/991ea82b9bed39b1cd87dc109da1e54275cef129/library_header_2x.jpg"
+    },
+    {
       "appId": 4568910,
       "dateAdded": 1783693066,
       "priority": 0,
@@ -402117,6 +402566,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4568910/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4568910/12acd4dac8455a2de3d4b6cb411dee27b6f94f59/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4568910/7095b64f048b2cca1b89e40acc4c4941e0d69306/library_header_2x.jpg"
+    },
+    {
+      "appId": 4569670,
+      "dateAdded": 1791496984,
+      "priority": 0,
+      "name": "App 4569670",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4569670/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/b72e67ee1f2caacb05dc4f8714aa96724720d2f4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/ef6c0f1cd3ee45732aa60a79c5f5416335c2f0ea/library_header_2x.jpg"
     },
     {
       "appId": 4573090,
@@ -402209,6 +402667,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4610800/8af48cf52ac3767c3986f0d952c2fb9c35b45fc4/library_header_2x.jpg"
     },
     {
+      "appId": 4613890,
+      "dateAdded": 1791652816,
+      "priority": 0,
+      "name": "App 4613890",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4613890/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613890/1d796afa3d4b4fafbf19004d8b1dc844ccf79d88/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613890/bba3f77e868a0e174b33a8ce178aaf111a485897/library_header_2x.jpg"
+    },
+    {
       "appId": 4614080,
       "dateAdded": 1777285646,
       "priority": 0,
@@ -402216,6 +402683,24 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614080/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614080/74a223170032a8dd59a2f11bb99ed345dff2283b/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614080/ee7c38ae6bb63b3e425548512b98e0dd34d83dba/library_header_2x.jpg"
+    },
+    {
+      "appId": 4614210,
+      "dateAdded": 1790549756,
+      "priority": 0,
+      "name": "App 4614210",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614210/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614210/cecf6d4b3e530d6891b624a90c7f245b8898266c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614210/8357dcf96285c892bea82f21f661efb9a687fe4b/library_header_2x.jpg"
+    },
+    {
+      "appId": 4614970,
+      "dateAdded": 1792628499,
+      "priority": 0,
+      "name": "App 4614970",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614970/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614970/72cbf589da6d4731e445a4a58550314318b7f587/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614970/0a2c4bd93f5f221bb4ce10a0fdb3b2da6eaae17b/library_header_2x.jpg"
     },
     {
       "appId": 4616840,
@@ -402281,6 +402766,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4634490/088b9ab009bb95af23d5e8662ad572c38aad14f0/library_header_2x.jpg"
     },
     {
+      "appId": 4641190,
+      "dateAdded": 1792628807,
+      "priority": 0,
+      "name": "App 4641190",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4641190/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4641190/d461d888ebe8c779508288ad2ebd7943d0432df6/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4641190/97689919369ca94e01164b688b6e8b4f42938ff2/library_header_2x.jpg"
+    },
+    {
       "appId": 4645360,
       "dateAdded": 1787336121,
       "priority": 0,
@@ -402288,6 +402782,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4645360/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645360/f77359bb3747257436002f1618827b1ca8e22603/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4645360/044ee33a4a930ada3405d8f9deb4db3a9af89011/library_header_2x.jpg"
+    },
+    {
+      "appId": 4654240,
+      "dateAdded": 1791568886,
+      "priority": 0,
+      "name": "App 4654240",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4654240/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654240/f6e833c3facd4bf454955ed2f44b8bc5bcc78a62/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654240/cdf4de22f34e42bba9e0ad8f35b8a5cd88f084c2/library_header_2x.jpg"
     },
     {
       "appId": 4656000,
@@ -402333,6 +402836,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4665290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665290/13b5924fe541c90cd67039558f2d2674508f8b7c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665290/ba22f96220cfc8f5a2ecad1ccc9f56f67c3f0f8f/library_header_2x.jpg"
+    },
+    {
+      "appId": 4666770,
+      "dateAdded": 1792763780,
+      "priority": 0,
+      "name": "App 4666770",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4666770/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/d9d2c67b7a5eb53ac392074b92977eed7aebe9ca/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/d8eb254400ecd02319834e8de8a1daa421b480e8/library_header_2x.jpg"
     },
     {
       "appId": 4678470,
@@ -402434,6 +402946,33 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4736860/4dfad6fe18c86da1c89f11260aa653b3352d8ffd/library_header_2x.jpg"
     },
     {
+      "appId": 4738100,
+      "dateAdded": 1791569041,
+      "priority": 0,
+      "name": "App 4738100",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4738100/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738100/c6beba38878d8b7783cbb5186d90b6091cef6684/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738100/446f975f0cf7a392a409bb08b8a5090f12b9fba5/library_header_2x.jpg"
+    },
+    {
+      "appId": 4739500,
+      "dateAdded": 1791568725,
+      "priority": 0,
+      "name": "App 4739500",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4739500/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/905ae644ef9154be33f0103efe082cb9810c7ef0/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/277e381de9e54a69696e3aa6c2d80035302777fc/library_header_2x.jpg"
+    },
+    {
+      "appId": 4747490,
+      "dateAdded": 1791568658,
+      "priority": 0,
+      "name": "App 4747490",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4747490/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4747490/1e2e25f5d9a5506d7e02f77f45d23fc8a209cd7b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4747490/398cd74a267e082c60046e76677afaf660a0c01f/library_header_2x.jpg"
+    },
+    {
       "appId": 4761940,
       "dateAdded": 1788278159,
       "priority": 0,
@@ -402470,6 +403009,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4822580/e894fcc1cc5f2e2c6e1964bcd3253abd999d0f84/library_header_2x.jpg"
     },
     {
+      "appId": 4824030,
+      "dateAdded": 1792617278,
+      "priority": 0,
+      "name": "App 4824030",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4824030/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824030/580eb1cb004d7c5229e54afd5fbffe319a1ae578/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824030/2f382dd139b22fa5045303f928c033fc4cb72a62/library_header_2x.jpg"
+    },
+    {
       "appId": 4824610,
       "dateAdded": 1783965642,
       "priority": 0,
@@ -402486,6 +403034,24 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4826240/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826240/712b21f782d3461b3b6e99d01e426198dd22382b/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4826240/621404e99242a8f6cee3369e008d2f9407de87a4/library_header_2x.jpg"
+    },
+    {
+      "appId": 4832970,
+      "dateAdded": 1792628880,
+      "priority": 0,
+      "name": "App 4832970",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4832970/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/196d665a23cbdc2eb49202b2206997fd1a80b7c4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/ed62607b2b309bfd36bf34e5bd765558bea73307/library_header_2x.jpg"
+    },
+    {
+      "appId": 4857070,
+      "dateAdded": 1792628454,
+      "priority": 0,
+      "name": "App 4857070",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4857070/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857070/51cf1800c6f64982e525b62cd51a3b6d60051cdd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857070/db99314ce13d87a88aae5892a6422d68db6d4b87/library_header_2x.jpg"
     },
     {
       "appId": 4864650,
@@ -402515,6 +403081,24 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908460/bb7b59090b61954419189f5309f44b36dc3b7856/library_header_2x.jpg"
     },
     {
+      "appId": 4909780,
+      "dateAdded": 1792631511,
+      "priority": 0,
+      "name": "App 4909780",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4909780/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909780/5b37148a3957fb9ed887737ff313e10d4817ba86/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909780/7425947eca9ffaa47993c4de15478c94cbef7130/library_header_2x.jpg"
+    },
+    {
+      "appId": 4918810,
+      "dateAdded": 1792628696,
+      "priority": 0,
+      "name": "App 4918810",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4918810/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/edeea9a9ddb94ee9b799ab650fbffb671b894526/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/2e4e9da9dc9f7a971ec7bbc048fca65c0e463fb3/library_header_2x.jpg"
+    },
+    {
       "appId": 4930070,
       "dateAdded": 1784631381,
       "priority": 0,
@@ -402522,6 +403106,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4930070/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4930070/0c66b4407ba114ed2d90e1c495b2bec866b2a942/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4930070/c097e5ed27df4cf2a81c6a0ff8d2942f1e9ad1b2/library_header_2x.jpg"
+    },
+    {
+      "appId": 4936660,
+      "dateAdded": 1791652736,
+      "priority": 0,
+      "name": "App 4936660",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4936660/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4936660/4d5c919208da78d8a978863e4cec6f64494f72b8/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4936660/7dd5ad57fbacdcb5b479eca007164482a43bc0aa/library_header_2x.jpg"
     },
     {
       "appId": 4960060,
@@ -402540,6 +403133,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4964290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4964290/be971410db22fea1be9628eb214bb53fd8d9e0d0/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4964290/9d9beadafb1d419ab35933b4a0a5571dbe5a36c9/library_header_2x.jpg"
+    },
+    {
+      "appId": 4976780,
+      "dateAdded": 1792448918,
+      "priority": 0,
+      "name": "App 4976780",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4976780/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4976780/49cad2e5af3f6de6e5da718ed564dfc0dbe7e2d2/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4976780/334c097914f102443932f05ad298eb4c656f2624/library_header_2x.jpg"
     },
     {
       "appId": 5001170,
@@ -402578,416 +403180,22 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5039320/9b473111d55183ce634142c46c11db2b431d96f0/library_header_2x.jpg"
     },
     {
-      "appId": 5159870,
-      "dateAdded": 1789450564,
+      "appId": 5049860,
+      "dateAdded": 1792448935,
       "priority": 0,
-      "name": "App 5159870",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5159870/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/06af26a84238a56f7dbb76487bbdfc7756fad0e5/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/26df90dc41b0945ed57f778671c9506ca09c1611/library_header_2x.jpg"
+      "name": "App 5049860",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5049860/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/75c68f0bd41b8f5fe42ed1436f7a16f891f37bad/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/22c6890b7351993fdb43b9c42aa6898d8518e3ea/library_header_2x.jpg"
     },
     {
-      "appId": 4312190,
-      "dateAdded": 1790549367,
+      "appId": 5067360,
+      "dateAdded": 1792804066,
       "priority": 0,
-      "name": "App 4312190",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4312190/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/41fe49c40fa4226ddd7fafdb4b15c15687756f68/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/library_header_2x.jpg"
-    },
-    {
-      "appId": 3133010,
-      "dateAdded": 1790549620,
-      "priority": 0,
-      "name": "App 3133010",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3133010/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3133010/5d48c56fe35d3a7cac6351a47c7993e4ebb34683/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3133010/8766552efde368e5f77b05ea8019596c578cc22e/library_header_2x.jpg"
-    },
-    {
-      "appId": 4614210,
-      "dateAdded": 1790549756,
-      "priority": 0,
-      "name": "App 4614210",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614210/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614210/cecf6d4b3e530d6891b624a90c7f245b8898266c/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614210/8357dcf96285c892bea82f21f661efb9a687fe4b/library_header_2x.jpg"
-    },
-    {
-      "appId": 2873750,
-      "dateAdded": 1790549950,
-      "priority": 0,
-      "name": "Pool of Madness",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2873750/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/c773f65025724bddeed7116994391943b84eeb40/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/9cadd174a4171d398c61fdeffba97bde20d4b777/library_header_2x.jpg"
-    },
-    {
-      "appId": 3552090,
-      "dateAdded": 1790550049,
-      "priority": 0,
-      "name": "Penguin Festival",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3552090/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552090/2800167d1fc9820c658fbed0e00633cad4b296d3/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552090/83e64a7ea53cc105b3ce2e2d8d22bc3f68cf97a4/library_header_2x.jpg"
-    },
-    {
-      "appId": 3688240,
-      "dateAdded": 1790646034,
-      "priority": 0,
-      "name": "App 3688240",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3688240/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688240/54f370344391a473957428b88eeda4924789d110/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3688240/5ea036b7b2efe6befaaa326c4da617bd6de2d41c/library_header_2x.jpg"
-    },
-    {
-      "appId": 4564640,
-      "dateAdded": 1790646043,
-      "priority": 0,
-      "name": "App 4564640",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4564640/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/fedebb46028c063fe45d919816c1aee2e6d94492/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4564640/991ea82b9bed39b1cd87dc109da1e54275cef129/library_header_2x.jpg"
-    },
-    {
-      "appId": 5276140,
-      "dateAdded": 1790723572,
-      "priority": 0,
-      "name": "App 5276140",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5276140/header.jpg"
-    },
-    {
-      "appId": 2999500,
-      "dateAdded": 1790726341,
-      "priority": 0,
-      "name": "STUNTBOOST",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2999500/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2999500/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2999500/8a03d45227002814fad5e50c761ce17252c4bf5e/library_header_2x.jpg"
-    },
-    {
-      "appId": 2487330,
-      "dateAdded": 1790726423,
-      "priority": 0,
-      "name": "App 2487330",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2487330/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/3ed1c79705d92f3db6418936e005ebc43fac480a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2487330/21f6e3394b6c3998aa477817e412c5109d3a19de/library_header_2x.jpg"
-    },
-    {
-      "appId": 3590780,
-      "dateAdded": 1790727128,
-      "priority": 0,
-      "name": "Nano Neighbors",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3590780/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590780/7a920bd9edcc25aa54c1dc10c7f7c34b3aa78aa1/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590780/755ee357ea704ca6339e4c8ce35d4b2a82595e0f/library_header_2x.jpg"
-    },
-    {
-      "appId": 4060780,
-      "dateAdded": 1790727149,
-      "priority": 0,
-      "name": "Peckers",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4060780/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4060780/6169e6a31ed892982a42039375da34cafc832434/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4060780/1a7b70677d4358a57c74124dad8eb6435b749e2d/library_header_2x.jpg"
-    },
-    {
-      "appId": 3875530,
-      "dateAdded": 1790727170,
-      "priority": 0,
-      "name": "Intentional Bugs",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3875530/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875530/3514d44b336f4dacf4224cb966a8f14997dc33bb/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875530/ae66de1774fe112a54942e5a0126342f0a35c354/library_header_2x.jpg"
-    },
-    {
-      "appId": 3906800,
-      "dateAdded": 1790727175,
-      "priority": 0,
-      "name": "Poua! – Your Pomodoro Buddy & Minimal Desktop Timer",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3906800/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906800/aecae3a8a3145ee1c259112c92303980c90655c5/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3906800/0045afd2604bc2fb8836e1891126e56ecc39503e/library_header_2x.jpg"
-    },
-    {
-      "appId": 4210390,
-      "dateAdded": 1791478435,
-      "priority": 0,
-      "name": "App 4210390",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4210390/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210390/3413c83cc9b953dae2c02cb199b9c55a3798d01d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210390/869086ad83eb2dc58d514f8c19e0061e49f42674/library_header_2x.jpg"
-    },
-    {
-      "appId": 3602260,
-      "dateAdded": 1791478444,
-      "priority": 0,
-      "name": "App 3602260",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3602260/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602260/4ee0fb38cf388f82928bd7d6fe652ea5e211238d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3602260/e8b5f5936ed8cded90ba32aa292222fa9e982f06/library_header_2x.jpg"
-    },
-    {
-      "appId": 2686570,
-      "dateAdded": 1791478467,
-      "priority": 0,
-      "name": "Waltz and Jam",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2686570/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/d8a9dd6859581b42610f16aa076cc502b9df916f/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/0f1d824794005d284d463eacee539fdbbc116b68/library_header_2x.jpg"
-    },
-    {
-      "appId": 2842310,
-      "dateAdded": 1791478493,
-      "priority": 0,
-      "name": "App 2842310",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2842310/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842310/ea1279256fe389315ce2b8c97798bd715f930bae/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842310/77dbbbde992e6b464a30ea30b1a70f10a230facf/library_header_2x.jpg"
-    },
-    {
-      "appId": 1619280,
-      "dateAdded": 1791478504,
-      "priority": 0,
-      "name": "App 1619280",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1619280/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1619280/70179bb23b67b050e9cc858aff3698728cdeaaf3/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1619280/18dc88dc16572e54aec9b105768bdf44138ea592/library_header_2x.jpg"
-    },
-    {
-      "appId": 4569670,
-      "dateAdded": 1791496984,
-      "priority": 0,
-      "name": "App 4569670",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4569670/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/b72e67ee1f2caacb05dc4f8714aa96724720d2f4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4569670/ef6c0f1cd3ee45732aa60a79c5f5416335c2f0ea/library_header_2x.jpg"
-    },
-    {
-      "appId": 4049170,
-      "dateAdded": 1791551231,
-      "priority": 0,
-      "name": "App 4049170",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4049170/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049170/0df7403cb507dadc36ac69ab01d590f70244ee7c/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049170/678f17396b23817c2b9a61deff6aa067b6b28a8a/library_header_2x.jpg"
-    },
-    {
-      "appId": 4049180,
-      "dateAdded": 1791551237,
-      "priority": 0,
-      "name": "App 4049180",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4049180/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/edbe257fe5ce3066d941b005c1173ca03450672b/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/8d4e4c2c303b6bca383f7d3473400236096fbca2/library_header_2x.jpg"
-    },
-    {
-      "appId": 1578720,
-      "dateAdded": 1791559507,
-      "priority": 0,
-      "name": "Scrabdackle",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1578720/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1578720/1bd790ace2fef4e95160b0cbfdc28b2fea798386/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1578720/b74ae5c38c81c77f086673bc2714fbacc04d2651/library_header_2x.jpg"
-    },
-    {
-      "appId": 4437650,
-      "dateAdded": 1791566880,
-      "priority": 0,
-      "name": "App 4437650",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4437650/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437650/ae5ff1726889b66bc124573c771466e6238dec7f/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437650/5adfb323269e9a9dc8b55be107591cd5f46037f1/library_header_2x.jpg"
-    },
-    {
-      "appId": 4747490,
-      "dateAdded": 1791568658,
-      "priority": 0,
-      "name": "App 4747490",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4747490/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4747490/1e2e25f5d9a5506d7e02f77f45d23fc8a209cd7b/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4747490/398cd74a267e082c60046e76677afaf660a0c01f/library_header_2x.jpg"
-    },
-    {
-      "appId": 4739500,
-      "dateAdded": 1791568725,
-      "priority": 0,
-      "name": "App 4739500",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4739500/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/905ae644ef9154be33f0103efe082cb9810c7ef0/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/277e381de9e54a69696e3aa6c2d80035302777fc/library_header_2x.jpg"
-    },
-    {
-      "appId": 3495250,
-      "dateAdded": 1791568872,
-      "priority": 0,
-      "name": "Glory On Pluto",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3495250/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495250/42a9e53c317b974608d5625e2e4767e65134cd70/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3495250/077d004db625d23c4dfbbf2382b5b1ba21fa2bd2/library_header_2x.jpg"
-    },
-    {
-      "appId": 4654240,
-      "dateAdded": 1791568886,
-      "priority": 0,
-      "name": "App 4654240",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4654240/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654240/f6e833c3facd4bf454955ed2f44b8bc5bcc78a62/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4654240/cdf4de22f34e42bba9e0ad8f35b8a5cd88f084c2/library_header_2x.jpg"
-    },
-    {
-      "appId": 3204820,
-      "dateAdded": 1791568917,
-      "priority": 0,
-      "name": "App 3204820",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3204820/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204820/91f9b7bf3b74304eccbfff376cca6bbb0a4a68f2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3204820/4a232ebac00ee9ddde7cd33e4d1e8c36d03d0c6a/library_header_2x.jpg"
-    },
-    {
-      "appId": 4462830,
-      "dateAdded": 1791569015,
-      "priority": 0,
-      "name": "App 4462830",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4462830/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462830/1189b2a814639fa8d072fadd9d384f6ddeba7805/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4462830/ac33b1ef73333668fdfa9491a11564205cb82042/library_header_2x.jpg"
-    },
-    {
-      "appId": 4738100,
-      "dateAdded": 1791569041,
-      "priority": 0,
-      "name": "App 4738100",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4738100/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738100/c6beba38878d8b7783cbb5186d90b6091cef6684/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4738100/446f975f0cf7a392a409bb08b8a5090f12b9fba5/library_header_2x.jpg"
-    },
-    {
-      "appId": 499170,
-      "dateAdded": 1791627372,
-      "priority": 0,
-      "name": "Order of the Sinking Star",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/499170/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/e061e66565700812fd6e4ac87fe32cc6a4683827/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/2aed61ae2883fa8112630c4bd86adf07a53c5094/library_header_2x.jpg"
-    },
-    {
-      "appId": 4045720,
-      "dateAdded": 1791651923,
-      "priority": 0,
-      "name": "App 4045720",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4045720/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/4a526cba9b0ce5aff3e4bd12cac18a09dd6cb823/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4045720/5e0c40282abe2ae79319b05834a91f5bced749f6/library_header_2x.jpg"
-    },
-    {
-      "appId": 4936660,
-      "dateAdded": 1791652736,
-      "priority": 0,
-      "name": "App 4936660",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4936660/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4936660/4d5c919208da78d8a978863e4cec6f64494f72b8/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4936660/7dd5ad57fbacdcb5b479eca007164482a43bc0aa/library_header_2x.jpg"
-    },
-    {
-      "appId": 4396620,
-      "dateAdded": 1791652775,
-      "priority": 0,
-      "name": "App 4396620",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4396620/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4396620/90cccad890b8e528215185229e994f8f9c3742c7/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4396620/02b442abba515f9890625d8d669fbb5adf3c5c5d/library_header_2x.jpg"
-    },
-    {
-      "appId": 4613890,
-      "dateAdded": 1791652816,
-      "priority": 0,
-      "name": "App 4613890",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4613890/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613890/1d796afa3d4b4fafbf19004d8b1dc844ccf79d88/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4613890/bba3f77e868a0e174b33a8ce178aaf111a485897/library_header_2x.jpg"
-    },
-    {
-      "appId": 2531840,
-      "dateAdded": 1791664244,
-      "priority": 0,
-      "name": "Goeland: Seagull Adventure",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531840/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531840/1e10068b1482b3369063efe70043b31ab0369e9e/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531840/f1a8d7bf44c4c1be193a9024e0c3189018495b89/library_header_2x.jpg"
-    },
-    {
-      "appId": 4214100,
-      "dateAdded": 1791664248,
-      "priority": 0,
-      "name": "Interlocked: Puzzle Islands",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4214100/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4214100/e4f6bf49c9f3342ffbbd37d5c989626e98e290dd/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4214100/17fd54d728eb0283df386185a2c463a15f2b05bc/library_header_2x.jpg"
-    },
-    {
-      "appId": 3432980,
-      "dateAdded": 1791753502,
-      "priority": 0,
-      "name": "Ballistic.exe",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3432980/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/8bbd9e929549f88b04777e0e41d570b5a887ac0b/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432980/1d658fdc5608d885538f7d3cb5694674ab403000/library_header_2x.jpg"
-    },
-    {
-      "appId": 3757660,
-      "dateAdded": 1791753531,
-      "priority": 0,
-      "name": "Station 58",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3757660/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/ad1eb1083555eaa991a13ea7c3ab4f34248d4793/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/53785e3e8120c5a8cbf69759f749c1fd4ac3a943/library_header_2x.jpg"
-    },
-    {
-      "appId": 3810510,
-      "dateAdded": 1791753544,
-      "priority": 0,
-      "name": "DERELIKT",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3810510/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/2728f0a55f1f55e0212425862181ef79b1617a6d/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/45f23f4a1143f49de0962289003d6b269fa970bd/library_header_2x.jpg"
-    },
-    {
-      "appId": 2851120,
-      "dateAdded": 1791753701,
-      "priority": 0,
-      "name": "Hanno: A Magical Tale",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2851120/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2851120/63efca895fb2ec6635103bc075e32c2e7a614b87/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2851120/e9c47c0c74fc2c51ea79d14eef3169752a268e11/library_header_2x.jpg"
-    },
-    {
-      "appId": 2288470,
-      "dateAdded": 1791753725,
-      "priority": 0,
-      "name": "Aethermancer",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2288470/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/98b4bb954518b41413dbd300d2e7f71093213fe8/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/e5326161df5e3cdc05a0f927b05061fbc979316f/library_header_2x.jpg"
-    },
-    {
-      "appId": 4115450,
-      "dateAdded": 1791927443,
-      "priority": 0,
-      "name": "Phantom Blade Zero",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4115450/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/471e77854910665c03eb9a53ad06f2ac12903acd/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/library_header_2x.jpg"
-    },
-    {
-      "appId": 5237430,
-      "dateAdded": 1791928086,
-      "priority": 0,
-      "name": "App 5237430",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5237430/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5237430/4a9b9f09c80d45b9634b5d62c42f9113dc7dc27d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5237430/d2376881e08eaa5e640750adced96a57ccead517/library_header_2x.jpg"
+      "name": "App 5067360",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5067360/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/8e32884fc496e02aa40484ee229dca4d451d8f7d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/3f20c2c86595f579a6cafe816cd2886ca4809415/library_header_2x.jpg"
     },
     {
       "appId": 5070190,
@@ -402999,56 +403207,13 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5070190/b5e8f8763af32eeb31fa561cca20a234f0e469a0/library_header_2x.jpg"
     },
     {
-      "appId": 1876590,
-      "dateAdded": 1791965785,
+      "appId": 5088440,
+      "dateAdded": 1792803730,
       "priority": 0,
-      "name": "I Am Your Beast",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1876590/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876590/594c648101b083d005c3e864f101548a8008c9e4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876590/107acb641944507a41ad3ef55ead0d67ba23de6b/library_header_2x.jpg"
-    },
-    {
-      "appId": 1229580,
-      "dateAdded": 1791965821,
-      "priority": 0,
-      "name": "Disc Room",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1229580/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229580/library_600x900_2x.jpg"
-    },
-    {
-      "appId": 447150,
-      "dateAdded": 1791965833,
-      "priority": 0,
-      "name": "APE OUT",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/447150/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447150/library_600x900_2x.jpg"
-    },
-    {
-      "appId": 3578070,
-      "dateAdded": 1792147942,
-      "priority": 0,
-      "name": "Shake it Co!",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3578070/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3578070/acd38683a449aeab9d4e31f8d745a4d5fcc3a83d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3578070/ed9a892086cc65c3f95b69bd59758c9a24ae998b/library_header_2x.jpg"
-    },
-    {
-      "appId": 4976780,
-      "dateAdded": 1792448918,
-      "priority": 0,
-      "name": "App 4976780",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4976780/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4976780/49cad2e5af3f6de6e5da718ed564dfc0dbe7e2d2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4976780/334c097914f102443932f05ad298eb4c656f2624/library_header_2x.jpg"
-    },
-    {
-      "appId": 5049860,
-      "dateAdded": 1792448935,
-      "priority": 0,
-      "name": "App 5049860",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5049860/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/75c68f0bd41b8f5fe42ed1436f7a16f891f37bad/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/22c6890b7351993fdb43b9c42aa6898d8518e3ea/library_header_2x.jpg"
+      "name": "App 5088440",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5088440/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5088440/1a4a5360d7f56e1e0a21066d4cfcd3162fcae701/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5088440/d0e1bcef41947e5a3720c68d4039c3f648f7bab7/library_header_2x.jpg"
     },
     {
       "appId": 5127280,
@@ -403060,157 +403225,22 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127280/9009446847f3d512b31599ed51f4a6c64fc5f6d8/library_header_2x.jpg"
     },
     {
-      "appId": 4304900,
-      "dateAdded": 1792449960,
+      "appId": 5159870,
+      "dateAdded": 1789450564,
       "priority": 0,
-      "name": "Big Dig",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304900/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/c947b2d646a0c6674b38467e25384ca7444e398a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304900/bdb95c69892b39aaaa303f77b3c61d6a46f88b42/library_header_2x.jpg"
+      "name": "App 5159870",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5159870/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/06af26a84238a56f7dbb76487bbdfc7756fad0e5/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5159870/26df90dc41b0945ed57f778671c9506ca09c1611/library_header_2x.jpg"
     },
     {
-      "appId": 4824030,
-      "dateAdded": 1792617278,
+      "appId": 5237430,
+      "dateAdded": 1791928086,
       "priority": 0,
-      "name": "App 4824030",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4824030/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824030/580eb1cb004d7c5229e54afd5fbffe319a1ae578/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824030/2f382dd139b22fa5045303f928c033fc4cb72a62/library_header_2x.jpg"
-    },
-    {
-      "appId": 4857070,
-      "dateAdded": 1792628454,
-      "priority": 0,
-      "name": "App 4857070",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4857070/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857070/51cf1800c6f64982e525b62cd51a3b6d60051cdd/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4857070/db99314ce13d87a88aae5892a6422d68db6d4b87/library_header_2x.jpg"
-    },
-    {
-      "appId": 4614970,
-      "dateAdded": 1792628499,
-      "priority": 0,
-      "name": "App 4614970",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4614970/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614970/72cbf589da6d4731e445a4a58550314318b7f587/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4614970/0a2c4bd93f5f221bb4ce10a0fdb3b2da6eaae17b/library_header_2x.jpg"
-    },
-    {
-      "appId": 4918810,
-      "dateAdded": 1792628696,
-      "priority": 0,
-      "name": "App 4918810",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4918810/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/edeea9a9ddb94ee9b799ab650fbffb671b894526/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/2e4e9da9dc9f7a971ec7bbc048fca65c0e463fb3/library_header_2x.jpg"
-    },
-    {
-      "appId": 4641190,
-      "dateAdded": 1792628807,
-      "priority": 0,
-      "name": "App 4641190",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4641190/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4641190/d461d888ebe8c779508288ad2ebd7943d0432df6/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4641190/97689919369ca94e01164b688b6e8b4f42938ff2/library_header_2x.jpg"
-    },
-    {
-      "appId": 4832970,
-      "dateAdded": 1792628880,
-      "priority": 0,
-      "name": "App 4832970",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4832970/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/196d665a23cbdc2eb49202b2206997fd1a80b7c4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4832970/ed62607b2b309bfd36bf34e5bd765558bea73307/library_header_2x.jpg"
-    },
-    {
-      "appId": 4909780,
-      "dateAdded": 1792631511,
-      "priority": 0,
-      "name": "App 4909780",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4909780/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909780/5b37148a3957fb9ed887737ff313e10d4817ba86/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4909780/7425947eca9ffaa47993c4de15478c94cbef7130/library_header_2x.jpg"
-    },
-    {
-      "appId": 2295170,
-      "dateAdded": 1792753130,
-      "priority": 0,
-      "name": "Emberville",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2295170/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/b16156ab24436ad83c2de5996ba5933a88dcfaaa/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2295170/498734b30af45b641d75217775b1fb4c51be36b9/library_header_2x.jpg"
-    },
-    {
-      "appId": 2523740,
-      "dateAdded": 1792753509,
-      "priority": 0,
-      "name": "App 2523740",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2523740/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/c2ab691a8ed252da54eee927f37d5aa86e54e79e/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/8d4e16a6d33e4dd90e1304139475c357533cc991/library_header_2x.jpg"
-    },
-    {
-      "appId": 5362020,
-      "dateAdded": 1792763137,
-      "priority": 0,
-      "name": "App 5362020",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5362020/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/0c96d4e16f7d679933e9121ee5f83d088c0cec88/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/fdafac6a97129e0bc04895c981b135022f167f90/library_header_2x.jpg"
-    },
-    {
-      "appId": 3617620,
-      "dateAdded": 1792763183,
-      "priority": 0,
-      "name": "My Card Is Better Than Your Card!",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3617620/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/61100d2b9eb89e5e9174f5c423c2678f54d65dcc/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3617620/4bd0696d5d876006d03d421b7d654779f686a6cf/library_header_2x.jpg"
-    },
-    {
-      "appId": 2670430,
-      "dateAdded": 1792763325,
-      "priority": 0,
-      "name": "Platverse: ABYA's Adventure",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2670430/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670430/393b1211cb3c7fbca62858c08fd25c7953f2c475/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670430/34e0f01e601383f53f6c9c639614db5655b2d2f0/library_header_2x.jpg"
-    },
-    {
-      "appId": 4051290,
-      "dateAdded": 1792763414,
-      "priority": 0,
-      "name": "Tape Man",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4051290/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051290/11aa143d0f3ff199da67c1ae7e316d54840dc815/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4051290/846768f57bc93d110d0f1a35a800d704514ae8f0/library_header_2x.jpg"
-    },
-    {
-      "appId": 4144990,
-      "dateAdded": 1792763489,
-      "priority": 0,
-      "name": "Criticality",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4144990/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144990/f523a131b3a0c0943d5099930a6d5fcc748c9d40/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144990/c6d7d3065965657a171e1f86325020a70ea93451/library_header_2x.jpg"
-    },
-    {
-      "appId": 4666770,
-      "dateAdded": 1792763780,
-      "priority": 0,
-      "name": "App 4666770",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4666770/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/d9d2c67b7a5eb53ac392074b92977eed7aebe9ca/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4666770/d8eb254400ecd02319834e8de8a1daa421b480e8/library_header_2x.jpg"
-    },
-    {
-      "appId": 3734220,
-      "dateAdded": 1792773216,
-      "priority": 0,
-      "name": "App 3734220",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3734220/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/e2af117fbe358809b6c01677796c3e2ddc870912/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/ffe373e0b836db215b4aaa1efec82b05d85758d0/library_header_2x.jpg"
+      "name": "App 5237430",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5237430/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5237430/4a9b9f09c80d45b9634b5d62c42f9113dc7dc27d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5237430/d2376881e08eaa5e640750adced96a57ccead517/library_header_2x.jpg"
     },
     {
       "appId": 5243200,
@@ -403222,49 +403252,29 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5243200/c27319407c2a8c0dfd27e338a5eaddd6631053b2/library_header_2x.jpg"
     },
     {
-      "appId": 3196610,
-      "dateAdded": 1792773421,
+      "appId": 5276140,
+      "dateAdded": 1790723572,
       "priority": 0,
-      "name": "App 3196610",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3196610/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196610/6c5b50ccbf613de6b26844ec680911eeba202d3e/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3196610/2e825cd8faaf0f51a3c7cf23fae68479e401716b/library_header_2x.jpg"
+      "name": "App 5276140",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5276140/header.jpg"
     },
     {
-      "appId": 1551980,
-      "dateAdded": 1792773469,
+      "appId": 5362020,
+      "dateAdded": 1792763137,
       "priority": 0,
-      "name": "Clive Barker's Hellraiser: Revival",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551980/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/07b6068f2992ba42c2d48846eea5703b7742293b/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/706cc84906dca755ef7a73c64cf568e0c205037b/library_header_2x.jpg"
+      "name": "App 5362020",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5362020/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/0c96d4e16f7d679933e9121ee5f83d088c0cec88/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/fdafac6a97129e0bc04895c981b135022f167f90/library_header_2x.jpg"
     },
     {
-      "appId": 3352140,
-      "dateAdded": 1792773503,
+      "appId": 3642910,
+      "dateAdded": 1792947879,
       "priority": 0,
-      "name": "Satellite Odyssey: Jupiter",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3352140/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352140/49732ae96f1838212609ce88960bbad2f08e9d29/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3352140/883d13d89282ec9c89a055335964299fd6ebff88/library_header_2x.jpg"
-    },
-    {
-      "appId": 5088440,
-      "dateAdded": 1792803730,
-      "priority": 0,
-      "name": "App 5088440",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5088440/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5088440/1a4a5360d7f56e1e0a21066d4cfcd3162fcae701/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5088440/d0e1bcef41947e5a3720c68d4039c3f648f7bab7/library_header_2x.jpg"
-    },
-    {
-      "appId": 5067360,
-      "dateAdded": 1792804066,
-      "priority": 0,
-      "name": "App 5067360",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5067360/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/8e32884fc496e02aa40484ee229dca4d451d8f7d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/3f20c2c86595f579a6cafe816cd2886ca4809415/library_header_2x.jpg"
+      "name": "Wyldheart",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3642910/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642910/eb48c085a86ea84d8b604e386454985e903916c0/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642910/2d0f1a365d127cb7294dd1be47d1af96ede20f80/library_header_2x.jpg"
     }
   ]
 }
