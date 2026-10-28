@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-10-26T01:04:00.357Z",
+  "generatedAt": "2026-10-28T02:08:10.860Z",
   "events": [
+    {
+      "appId": 1868140,
+      "name": "DAVE THE DIVER",
+      "added": 13,
+      "total": 56,
+      "date": "2026-10-28"
+    },
     {
       "appId": 2218750,
       "name": "Halls of Torment",
