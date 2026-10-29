@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-28T02:08:10.844Z",
+  "fetchedAt": "2026-10-29T02:12:55.980Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1793142877
+    "lastLogoff": 1793206273
   },
   "games": [
     {
@@ -247704,6 +247704,635 @@
       }
     },
     {
+      "appId": 2011780,
+      "name": "Yellow Taxi Goes Vroom",
+      "playtimeHours": 5,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2011780/cdd40c27af451e8e144913906e14b7dce7b9aed6.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2011780/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2011780/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2011780/6ff629a2e2e7c717e2b25b6a2f7f4c3639f7aa1c/library_header_2x.jpg",
+      "achievements": {
+        "total": 61,
+        "unlocked": 19,
+        "items": [
+          {
+            "apiName": "BombeachUnlocked",
+            "name": "It's a business trip",
+            "description": "Unlock Bombeach!",
+            "icon": "1881d58cc85a78270c49b49ddfb460f77d9289b1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793186882,
+            "globalPct": 83.9
+          },
+          {
+            "apiName": "BombossBeated",
+            "name": "Two Scoops Please",
+            "description": "Defeat Bomboss and fix the ice cream truck",
+            "icon": "60490b8e95364b01819b24b4a5e972b5c08eed02",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793190039,
+            "globalPct": 58.5
+          },
+          {
+            "apiName": "KingPizzaHelped",
+            "name": "Noble Knight!",
+            "description": "Help Pizza King!",
+            "icon": "b2e23bdd8a9dcccc25d2766f34f7494560b3f896",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793195770,
+            "globalPct": 34.8
+          },
+          {
+            "apiName": "MorioSecretRoom",
+            "name": "You shouldn't be here!",
+            "description": "",
+            "icon": "dea6cbee13ab9b7670a74b5408cb1f1b01331362",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.7
+          },
+          {
+            "apiName": "ArcadeStrike",
+            "name": "Strike!",
+            "description": "Well, you did strike. Pretty self explanatory!",
+            "icon": "094353692768d55fedf6ada80f5d46e1166a74bb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793193097,
+            "globalPct": 50.8
+          },
+          {
+            "apiName": "GoldenSpringUsed",
+            "name": "Invincible!",
+            "description": "Use the Golden Spring!",
+            "icon": "4ea43231868ba968fdde765a23972253b8ac88d3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793197188,
+            "globalPct": 33.7
+          },
+          {
+            "apiName": "ToslaOfficesSecretRoom",
+            "name": "Top Secret!",
+            "description": "",
+            "icon": "aef81b5ac1b4d261ee0bd9fdcb522747ec1a7e18",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.1
+          },
+          {
+            "apiName": "ToslaOfficesBeated",
+            "name": "Won the battle!",
+            "description": "But not the war!",
+            "icon": "43a1c07fa0b1f4d5e1d4f6dee38da1fddce5f26e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793197729,
+            "globalPct": 31.1
+          },
+          {
+            "apiName": "GigaChadTalk",
+            "name": "Personal Trainer",
+            "description": "Talk to Ultra Chad and get some tips!",
+            "icon": "6f6c23fb76d5cdcbebeab427f12159861e38eb54",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793188936,
+            "globalPct": 27.8
+          },
+          {
+            "apiName": "DogLevelOpen",
+            "name": "Fecal Matters",
+            "description": "Full of cool doggos!",
+            "icon": "6a188e980c5965f4b7cba93d7f7069f1a233ee82",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 21.1
+          },
+          {
+            "apiName": "SewersLevelOpen",
+            "name": "This Stinks!",
+            "description": "Enter the sewers!",
+            "icon": "75a95ec475394e04ebf22b7e08c194309fafc188",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "MaurizioHelped",
+            "name": "The 8th Wonder?",
+            "description": "Help Maurizio with his... Problem",
+            "icon": "28e3f66a2ecf3366ad5aeac489db1376ff668c7e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793198192,
+            "globalPct": 22.5
+          },
+          {
+            "apiName": "CrashTestButtonPressed",
+            "name": "What's this do?",
+            "description": "Activate all orange blocks!",
+            "icon": "d942e987a77b1b8f466dcda67151adbcdca00a31",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793199187,
+            "globalPct": 25.9
+          },
+          {
+            "apiName": "PasswordMind",
+            "name": "Now I remember!",
+            "description": "Find the password inside Morio's mind!",
+            "icon": "be216c9f3e0abd04e85cdfc1189ce4325c3756f4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793199522,
+            "globalPct": 24.6
+          },
+          {
+            "apiName": "GoldenPropellerUsed",
+            "name": "I can see my house from here",
+            "description": "Use the Golden Propeller for the first time",
+            "icon": "89d2fee3f7011a4327ab587011f48cc24cd3b41b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793199829,
+            "globalPct": 23.6
+          },
+          {
+            "apiName": "StarmanCastleMoonLooking",
+            "name": "What is that?",
+            "description": "Take a peak at The Moon!",
+            "icon": "a1bfcb5fa51e5c36dd90b8d6cf2fe243340cef26",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793200444,
+            "globalPct": 21.6
+          },
+          {
+            "apiName": "ToslaHqRocketTaken",
+            "name": "To the moon!",
+            "description": "",
+            "icon": "b5c236a5ca9711c329b17b3fe53fd7cf8c00d623",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.8
+          },
+          {
+            "apiName": "MoonGrandmaDiscovered",
+            "name": "What a twist!",
+            "description": "",
+            "icon": "937ba8a23239a41c048aa87a4204df937378b7c2",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.5
+          },
+          {
+            "apiName": "MoonGrandmaBeated",
+            "name": "It's Finished",
+            "description": "",
+            "icon": "82d8ec6221ea2085c9aaab1e29a6288829e19567",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.1
+          },
+          {
+            "apiName": "MoonGoldenObjectTouched",
+            "name": "Golden touch!",
+            "description": "",
+            "icon": "5bc6a35258b7347a4e3e70eb0b42f197cedb0b19",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10
+          },
+          {
+            "apiName": "StarmanCastleLibrary",
+            "name": "Oh, Lore?",
+            "description": "",
+            "icon": "e51d67b0a5bf1215b15f45e938abb61ab1fcfc90",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.8
+          },
+          {
+            "apiName": "HubFartingMrT",
+            "name": "Prrrrp",
+            "description": "*Farting Noises*",
+            "icon": "ef6116f8bca24159af99d5137159781ff329463e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 22.8
+          },
+          {
+            "apiName": "HubGrandmaStatue",
+            "name": "What a woman",
+            "description": "Read the plaque on Grandma's Statue",
+            "icon": "52def31ffe6e23d0a6596fe997afe77e6812eb36",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793195248,
+            "globalPct": 27.8
+          },
+          {
+            "apiName": "MoriOTronKill",
+            "name": "Downsizing",
+            "description": "Too many working Mori-O-Trons!",
+            "icon": "bea7d4099c9d184d276f37e414adff0658e9d84b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793186487,
+            "globalPct": 68.5
+          },
+          {
+            "apiName": "Destroy50Elements",
+            "name": "Psycho Taxi",
+            "description": "Destroy 50 Scenario Objects!",
+            "icon": "cd1cc812794461f2c80441646f60ac4eef67de03",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793188127,
+            "globalPct": 74.4
+          },
+          {
+            "apiName": "HubInTheClouds",
+            "name": "Cloud 9",
+            "description": "Get the gear in the clouds!",
+            "icon": "a43efadc83a9d4e84f51e585a4c4e9da2badf2a1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.7
+          },
+          {
+            "apiName": "HatShopEnter",
+            "name": "Does this make my Bumper look big?",
+            "description": "Visit the Hat Store",
+            "icon": "0856c0eab792b350f0b75616570b0a568392d1d3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793189676,
+            "globalPct": 60.7
+          },
+          {
+            "apiName": "GoldenBunnyFirst",
+            "name": "Ooh, shiny!",
+            "description": "Collect your first golden bunny!",
+            "icon": "fcb05b6b03fed501eaf063bf961fa74bff575d59",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793187846,
+            "globalPct": 61.5
+          },
+          {
+            "apiName": "GoldenBunnies100Percent",
+            "name": "A Complete Fluffle",
+            "description": "Collect all Golden Bunnies!",
+            "icon": "5e9eae7a09840b9a1b9df88f8b8904aecd92ce4c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.4
+          },
+          {
+            "apiName": "Gears100Percent",
+            "name": "Fully Geared Up!",
+            "description": "Collect all gears!",
+            "icon": "102c50c2ff1ee1dbbd43d44f05fb869813cfb1ee",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.1
+          },
+          {
+            "apiName": "AllGears_Hub",
+            "name": "Spring Cleaning",
+            "description": "Collect all gears in \"Granny's Island\".",
+            "icon": "e0b665046f8afb2a2bbc13d965b3ebaa2b27b695",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10
+          },
+          {
+            "apiName": "AllGears_MorioHome",
+            "name": "Full House",
+            "description": "Collect all gears in \"Morio's Home\".",
+            "icon": "3edfb07cae28be478fb17d19bbbf21730d58195e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793201307,
+            "globalPct": 27
+          },
+          {
+            "apiName": "AllGears_Bombeach",
+            "name": "Controlled Demolition",
+            "description": "Collect all gears in \"Bombeach\".",
+            "icon": "a1aae0f0779d97911dfbea9e87cd34fd43c27304",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.8
+          },
+          {
+            "apiName": "AllGears_PizzaTime",
+            "name": "Fully Cooked",
+            "description": "Collect all gears in \"Pizza Time\".",
+            "icon": "b0082222765914183c628092169259ae87a81c08",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.5
+          },
+          {
+            "apiName": "AllGears_ArcadePanik",
+            "name": "Winners don't do gears!",
+            "description": "Collect all gears in \"Arcade Panik\".",
+            "icon": "bb57cbc54157f8e95994d654aca5103e405814f4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.2
+          },
+          {
+            "apiName": "AllGears_ToslaOffices",
+            "name": "Industrial Espionage",
+            "description": "Collect all gears in \"Tosla's Offices\".",
+            "icon": "e3615008b8ad4151d4c5a4c7734757d505d00b3c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.4
+          },
+          {
+            "apiName": "AllGears_Gym",
+            "name": "Pumped Up",
+            "description": "Collect all gears in \"Gym Gears\".",
+            "icon": "c6b6eb3bbd19db8d90efb5bfcacc64c57192333b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793189273,
+            "globalPct": 21
+          },
+          {
+            "apiName": "AllGears_PoopWorld",
+            "name": "Not A Chew Toy",
+            "description": "Collect all gears in \"Fecal Matters\".",
+            "icon": "a456121ac79ee85571b5bdcd87c1262b84edd48a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.8
+          },
+          {
+            "apiName": "AllGears_Sewers",
+            "name": "Unclogged",
+            "description": "Collect all gears in \"Flushed Away\".",
+            "icon": "3c36b5ba8f979e84425a05f72884b4d052e46620",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.1
+          },
+          {
+            "apiName": "AllGears_City",
+            "name": "Top Banana",
+            "description": "Collect all gears in \"Maurizio's City\".",
+            "icon": "c1c2a5b6dc89b51e2eb1a7365fc5c2cbb4c02c35",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.1
+          },
+          {
+            "apiName": "AllGears_CrashTestIndustries",
+            "name": "Cleared For Duty",
+            "description": "Collect all gears in \"Crash Test Industries\".",
+            "icon": "25f081f603b3910fa95fed29cf0751a81b1c76c3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.9
+          },
+          {
+            "apiName": "AllGears_MorioMind",
+            "name": "A Clear Mind",
+            "description": "Collect all gears in \"Morio's Mind\".",
+            "icon": "8d062165ed7d6b49d92cbbe8e284a6e7d4eed1c4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11
+          },
+          {
+            "apiName": "AllGears_StarmanCastle",
+            "name": "I came, I saw…",
+            "description": "Collect all gears in \"Ruined Observatory\".",
+            "icon": "30f71533e506267d11d0a4768d2d87be645766ad",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.8
+          },
+          {
+            "apiName": "AllGears_ToslaHQ",
+            "name": "Out of Business",
+            "description": "Collect all gears in \"Tosla HQ\".",
+            "icon": "767ec59090d364a7f8edda626822cb6757db54f0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10
+          },
+          {
+            "apiName": "AllGears_Moon",
+            "name": "Yellow Taxi Goes Moon",
+            "description": "",
+            "icon": "f604517abad4cf5d544a8f03c470ec1aa4049534",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.2
+          },
+          {
+            "apiName": "AllGears_Rocket",
+            "name": "Blasting Off!",
+            "description": "",
+            "icon": "42a6fc77c324b67ee3b1f74fba3b72a934b6e59c",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.2
+          },
+          {
+            "apiName": "AllBunnies_Hub",
+            "name": "Hare Raising",
+            "description": "Collect all golden bunnies in \"Granny's Island\".",
+            "icon": "8a53c04555568d3b8cb4c2d0d02c725f449074e7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.6
+          },
+          {
+            "apiName": "AllBunnies_MorioHome",
+            "name": "Golden Child",
+            "description": "Collect all golden bunnies in \"Morio's Home\".",
+            "icon": "d4f0ca96d0c7b3029dfcf526f4ecb714b92f45d6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.9
+          },
+          {
+            "apiName": "AllBunnies_Bombeach",
+            "name": "Beach Bunnies",
+            "description": "Collect all golden bunnies in \"Bombeach\".",
+            "icon": "448601b73bb875e0a5dc403ef38769328cb392b3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.6
+          },
+          {
+            "apiName": "AllBunnies_PizzaTime",
+            "name": "Do Not Feed the Animals",
+            "description": "Collect all golden bunnies in \"Pizza Time\".",
+            "icon": "abed6033af5369ef55b306800a6f2198b9a396e6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.2
+          },
+          {
+            "apiName": "AllBunnies_ArcadePanik",
+            "name": "JACKPOT!",
+            "description": "Collect all golden bunnies in \"Arcade Panik\".",
+            "icon": "d7ad9a5462e81eaf0c5ccc34ee93bc7580841516",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.3
+          },
+          {
+            "apiName": "AllBunnies_ToslaOffices",
+            "name": "Employee of the Month",
+            "description": "Collect all golden bunnies in \"Tosla's Offices\".",
+            "icon": "1c7ca9409a017d370aa12b57e3a568ce11a4f12c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.7
+          },
+          {
+            "apiName": "AllBunnies_Gym",
+            "name": "A complete set",
+            "description": "Collect all golden bunnies in \"Gym Gears\".",
+            "icon": "6510188c75641c072c0c07027eafd35670566a44",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.6
+          },
+          {
+            "apiName": "AllBunnies_PoopWorld",
+            "name": "Scooping Up",
+            "description": "Collect all golden bunnies in \"Fecal Matters\".",
+            "icon": "2097982ae28b8172e1a67302a44521dc26279a6b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.5
+          },
+          {
+            "apiName": "AllBunnies_Sewers",
+            "name": "Down the Rabbit hole",
+            "description": "Collect all golden bunnies in \"Flushed Away\".",
+            "icon": "d8fed63601dfccde41a50873a4338c52f319cc02",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.8
+          },
+          {
+            "apiName": "AllBunnies_City",
+            "name": "Business Bunnies",
+            "description": "Collect all golden bunnies in \"Maurizio's City\".",
+            "icon": "7ef6399619aa86320413a701f391c14888a13b7c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.1
+          },
+          {
+            "apiName": "AllBunnies_CrashTestIndustries",
+            "name": "Gold Star",
+            "description": "Collect all golden bunnies in \"Crash Test Industries\".",
+            "icon": "8dbf50f994e60526ff09aec7d9802a97dbeef16b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.2
+          },
+          {
+            "apiName": "AllBunnies_MorioMind",
+            "name": "Bunnies on the Brain",
+            "description": "Collect all golden bunnies in \"Morio's Mind\".",
+            "icon": "960b15a0cfeaff68d0b39bfca1b8676456498dd7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.5
+          },
+          {
+            "apiName": "AllBunnies_StarmanCastle",
+            "name": "...I conquered",
+            "description": "Collect all golden bunnies in \"Ruined Observatory\".",
+            "icon": "d4a0523b7a7be3a840f561014fb0690565a88425",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.1
+          },
+          {
+            "apiName": "AllBunnies_ToslaHQ",
+            "name": "Fully Fuelled",
+            "description": "Collect all golden bunnies in \"Tosla HQ\".",
+            "icon": "47ce1991b63c12697ae7ec2b25b4a0ed497d5c9f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.7
+          },
+          {
+            "apiName": "AllBunnies_Moon",
+            "name": "Myth Busted!",
+            "description": "",
+            "icon": "fdc0a293f8ced3b899e4994cdc7a2a706b16bd9a",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.1
+          }
+        ]
+      }
+    },
+    {
       "appId": 1179210,
       "name": "Kill It With Fire",
       "playtimeHours": 5,
@@ -356830,6 +357459,7 @@
       ],
       "releaseDate": "Aug 24, 2021",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/607080/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
       "achievements": {
         "total": 57,
         "unlocked": 0
@@ -367148,7 +367778,7 @@
       "appId": 1054490,
       "name": "Wingspan",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1054490/f772edbe6cf20601bbf0d54ffb5fd7bddea3f10d.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1054490/2048371cf8c77ab8a28e1c8e1ccdedcfe7d6e3d2.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1054490/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -380112,23 +380742,6 @@
       }
     },
     {
-      "appId": 2011780,
-      "name": "Yellow Taxi Goes Vroom",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2011780/cdd40c27af451e8e144913906e14b7dce7b9aed6.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2011780/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2011780/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2011780/6ff629a2e2e7c717e2b25b6a2f7f4c3639f7aa1c/library_header_2x.jpg",
-      "achievements": {
-        "total": 61,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 2012320,
       "name": "Parallel Experiment",
       "playtimeHours": 0,
@@ -384393,7 +385006,7 @@
       "dateAdded": 1669588800,
       "priority": 0,
       "name": "Project Zomboid",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1787740093",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1793224893",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/library_600x900_2x.jpg"
     },
     {
@@ -384985,7 +385598,7 @@
       "dateAdded": 1543505841,
       "priority": 184,
       "name": "Parkitect",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/453090/header.jpg?t=1773075254",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/453090/61d764167cacd52435c59c075d096e87eea7c521/header_alt_assets_7.jpg?t=1793207169",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/453090/library_600x900_2x.jpg"
     },
     {
@@ -386030,7 +386643,7 @@
       "dateAdded": 1513676746,
       "priority": 374,
       "name": "Rumu",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/header.jpg?t=1719898076",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/723270/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_header.jpg"
     },
@@ -386039,7 +386652,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -386047,7 +386660,7 @@
       "dateAdded": 1601992285,
       "priority": 0,
       "name": "Overcrowd: A Commute 'Em Up",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/header.jpg?t=1772571372",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/library_600x900_2x.jpg"
     },
     {
@@ -386055,7 +386668,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -386064,7 +386677,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -386072,7 +386685,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -386080,7 +386693,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -386088,7 +386701,7 @@
       "dateAdded": 1524265466,
       "priority": 385,
       "name": "Squad 44",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/header.jpg?t=1790967343",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/736220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/fae382a414c681d84f743a85cef8bf33352e5eaf/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/d9ab5f721701f675483d8b93ed61831f54425088/library_header_2x.jpg"
     },
@@ -386097,7 +386710,7 @@
       "dateAdded": 1635094925,
       "priority": 0,
       "name": "Kingdom Workshop",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/741340/header.jpg?t=1634111960"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/741340/header.jpg"
     },
     {
       "appId": 742300,
@@ -386162,7 +386775,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -386197,7 +386810,7 @@
       "dateAdded": 1605736966,
       "priority": 0,
       "name": "Occupy Mars: The Game",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/header_alt_assets_9.jpg?t=1788284061",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758690/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/47e3333e29936ffbe5f82b7fc13959a7cae34c90/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/library_header_2x.jpg"
     },
@@ -386266,7 +386879,7 @@
       "dateAdded": 1770916000,
       "priority": 0,
       "name": "Last Man Sitting",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1792068178",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774291/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/803bf1ec7353a49fbe7dc1cb3e82a942a913c202/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/5c05281696891c8cb3df8395efa376f39f9f8c09/library_header_2x.jpg"
     },
@@ -388184,8 +388797,8 @@
       "priority": 0,
       "name": "Airport Contraband",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1167820/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167820/bd5760463e945d1dbc20530d8420b1af4766fb7d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167820/e7c810703b3efb850edf8888e3daa26a08badaae/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167820/88d08531b9fcabdc1d9b2bb6fd754f22d2512940/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1167820/c285e8db0f582e02a94ce21cc49fdc8eec3509da/library_header_2x.jpg"
     },
     {
       "appId": 1169040,
@@ -388743,7 +389356,7 @@
       "name": "The Gold River Project",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1253220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253220/d72c59998ab625e0277e22c7942e37d937e18e59/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253220/e01bce2a398fd27fe8e2a68a9e85976df8fa131b/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253220/85737414378854f8fd404afeac029f6bce2a8cd7/library_header_2x.jpg"
     },
     {
       "appId": 1253920,
@@ -388808,7 +389421,7 @@
       "dateAdded": 1601837409,
       "priority": 0,
       "name": "Party Animals",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1260320/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260320/14b53fc1e5d888e5690221350d83eb133b7af683/header_alt_assets_10.jpg?t=1789480764",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260320/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1260320/library_header.jpg"
     },
@@ -392315,8 +392928,8 @@
       "priority": 0,
       "name": "Witchbrook",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1846700/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/934104267094d351f375141f2fac122eeb6b3269/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/51ffec115f4052d63621745305336a4b1ee14ad3/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/7ff8df9d2f9dd858d43888de7662aaae58922688/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846700/957b7e61bf8cb5e91f5dce21403a4288d78fb7b7/library_header_2x.jpg"
     },
     {
       "appId": 1846720,
@@ -393297,8 +393910,8 @@
       "priority": 0,
       "name": "NIMRODS",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2086430/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2086430/86f077fab04afbc75b4bd2c30fafb0c44eb8be7f/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2086430/7ea67ce352e30ee523eb9b25bc95f5e4572198d7/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2086430/539d37dc35da9bfa500461f8fdb035815c2ea73a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2086430/d2235c392f7203814a721802cdd8053cce309472/library_header_2x.jpg"
     },
     {
       "appId": 2088630,
@@ -393886,8 +394499,8 @@
       "priority": 0,
       "name": "Outpath",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2237970/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237970/c47e4e03ad6139fe92efc879989cb5ad0b65a648/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237970/66166b038702e2f1884209d94606d2a15945272b/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237970/b3f6aa4275cef8d519c5682a3c74acf784644a89/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2237970/429c2f61add5dae341a1edb74860dde7e186d266/library_header_2x.jpg"
     },
     {
       "appId": 2239130,
@@ -394080,8 +394693,8 @@
       "priority": 0,
       "name": "Aethermancer",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2288470/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/98b4bb954518b41413dbd300d2e7f71093213fe8/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/e5326161df5e3cdc05a0f927b05061fbc979316f/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/c0615be3cb9d9afac71121570e4dc2657dc0e5da/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288470/9e082b442a73a8710a066665b24ca12b4f51f09b/library_header_2x.jpg"
     },
     {
       "appId": 2289750,
@@ -398132,8 +398745,8 @@
       "priority": 0,
       "name": "TANUKI: Pon's Summer",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3218570/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/b8137047aa9108a0101280444547300e09835100/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/0de7d1f004d835738ccb9c5bc156995b5ea7715c/library_header_2x.jpg"
     },
     {
       "appId": 3218630,
@@ -400480,7 +401093,7 @@
       "name": "ReStory: Chill Electronics Repairs",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3812600/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/e5b5c644ea016beccffb56e76cf61ca78b552a14/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/8407bd720bd8d60d3946b37873c4ca85ff1a6eca/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3812600/45711b559fcf851bfa8e24a409f742be24a00d4a/library_header_2x.jpg"
     },
     {
       "appId": 3812830,
@@ -401091,8 +401704,8 @@
       "priority": 0,
       "name": "Leaf it Alone",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3981100/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/af87bf942fb308aa03c4f2cb33c22ed9e7072d0b/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/843d859123e902ca5c15ff53200c4bcb780c3304/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/48a09efaf9d873e621fdec14055b5dd252ab324c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/94390c667f6fd8448b843bf6021deb9a622bdf2c/library_header_2x.jpg"
     },
     {
       "appId": 3982830,
@@ -401154,8 +401767,8 @@
       "priority": 0,
       "name": "Frog Sqwad 🐸",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3989960/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/d6fa2878aea27fe79c8c5947c6c4e1c040e347fe/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/940d06fafc5b09a923d384312433ed42464bc0f9/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/4d6d678a66216a65a382be4248f714b4a4636b0b/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/d40ca42be89a517a6a2e74f320533b0ab38e6514/library_header_2x.jpg"
     },
     {
       "appId": 3997240,
