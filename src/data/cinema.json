@@ -21257,7 +21257,7 @@
       "year": "2017",
       "seasons": 3,
       "episodes": 36,
-      "episodesSeen": 12,
+      "episodesSeen": 14,
       "runtime": 81,
       "tmdbRating": 7.6,
       "genres": [
@@ -21290,6 +21290,10 @@
           10,
           11,
           12
+        ],
+        "2": [
+          1,
+          2
         ]
       },
       "id": 668
