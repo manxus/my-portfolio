@@ -528,7 +528,7 @@
       "year": "1997",
       "seasons": 29,
       "episodes": 335,
-      "episodesSeen": 331,
+      "episodesSeen": 333,
       "runtime": 22,
       "genres": [
         "Animation",
@@ -958,6 +958,10 @@
           3,
           4,
           5
+        ],
+        "29": [
+          1,
+          2
         ]
       },
       "tmdbRating": 8.3,
