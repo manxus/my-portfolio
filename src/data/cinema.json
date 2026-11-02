@@ -522,13 +522,13 @@
     {
       "title": "South Park",
       "mediaType": "tv",
-      "status": "watching",
+      "status": "watched",
       "rating": "",
       "featured": true,
       "year": "1997",
       "seasons": 29,
       "episodes": 335,
-      "episodesSeen": 333,
+      "episodesSeen": 335,
       "runtime": 22,
       "genres": [
         "Animation",
@@ -961,7 +961,9 @@
         ],
         "29": [
           1,
-          2
+          2,
+          3,
+          4
         ]
       },
       "tmdbRating": 8.3,
