@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-11-02T02:10:10.418Z",
+  "generatedAt": "2026-11-04T03:03:54.872Z",
   "events": [
+    {
+      "appId": 1942280,
+      "name": "Brotato",
+      "added": 21,
+      "total": 200,
+      "date": "2026-11-04"
+    },
     {
       "appId": 1868140,
       "name": "DAVE THE DIVER",
