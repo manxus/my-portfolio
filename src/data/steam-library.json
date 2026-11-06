@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-11-05T03:10:21.672Z",
+  "fetchedAt": "2026-11-06T03:10:04.260Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1793801676
+    "lastLogoff": 1793931913
   },
   "games": [
     {
@@ -47983,6 +47983,892 @@
       }
     },
     {
+      "appId": 1267910,
+      "name": "Melvor Idle",
+      "playtimeHours": 147.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Nov 18, 2021",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 86,
+        "unlocked": 30,
+        "items": [
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_0",
+            "name": "The Beginning",
+            "description": "Create a Character",
+            "icon": "8d8755befec6132c9b059a00daa28299706dbd44",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1744959665,
+            "globalPct": 98.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_1",
+            "name": "This Feels Nice",
+            "description": "Level up any Skill for the first time",
+            "icon": "0a2d77aadd9330df4360f4024253aefa9ae50b80",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1744976955,
+            "globalPct": 83.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_2",
+            "name": "My Little Companion",
+            "description": "Find your first Pet",
+            "icon": "c5b0e95a02e472c9158ec513f4a2d209652e900c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1745241952,
+            "globalPct": 62.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_3",
+            "name": "One down... More to go.",
+            "description": "Acquire Level 99 in any Skill",
+            "icon": "ace2a96d7c357e178f4923f659836ce811efb77c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746135466,
+            "globalPct": 46.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_4",
+            "name": "A Touch of Mastery",
+            "description": "Acquire Mastery Level 99 for any item in any Skill",
+            "icon": "b46787ea6f6f3be92812b62dddf2e3cc9aac3e20",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1745655680,
+            "globalPct": 53
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_5",
+            "name": "Attack Master",
+            "description": "Reach Level 99 for Attack in Standard Mode",
+            "icon": "964b7835291722401af98bbf8db8cd6283fa0597",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_6",
+            "name": "Strength Master",
+            "description": "Reach Level 99 for Strength in Standard Mode",
+            "icon": "e47a710f2d0b3ae3071b2beb62286b67ed26667c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_7",
+            "name": "Defence Master",
+            "description": "Reach Level 99 for Defence in Standard Mode",
+            "icon": "3ba3e8accb2c54e782f4344fcc230529fa8e3dcb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_8",
+            "name": "Hitpoints Master",
+            "description": "Reach Level 99 for Hitpoints in Standard Mode",
+            "icon": "a6a7cf95648f5525bae3b47080dea9ea497cfdbb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_9",
+            "name": "Ranged Master",
+            "description": "Reach Level 99 for Ranged in Standard Mode",
+            "icon": "5a1c821b10426f6c1d7c97d3c7e29936312dd5a1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_10",
+            "name": "Magic Master",
+            "description": "Reach Level 99 for Magic in Standard Mode",
+            "icon": "e70121e5e9df1247e198dec628dc2a66f93e6f79",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_11",
+            "name": "Prayer Mastery",
+            "description": "Reach Level 99 for Prayer in Standard Mode",
+            "icon": "8984fcd9d963ac5b3cbd365e6003555d3c5f7d8e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_12",
+            "name": "Slayer Master",
+            "description": "Reach Level 99 for Slayer in Standard Mode",
+            "icon": "b56ab4d0a8e0bc1dc2677513782b2576a5c68d5c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_13",
+            "name": "Woodcutting Master",
+            "description": "Reach Level 99 for Woodcutting in Standard Mode",
+            "icon": "57117ef007e8e4609359c67d2f22afe67101e739",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746888603,
+            "globalPct": 31.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_14",
+            "name": "Fishing Master",
+            "description": "Reach Level 99 for Fishing in Standard Mode",
+            "icon": "92e9e350f6cbd64d85161d7b7f53c088ca1fc2c7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746135466,
+            "globalPct": 36.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_15",
+            "name": "Firemaking Master",
+            "description": "Reach Level 99 for Firemaking in Standard Mode",
+            "icon": "b966a2574048866b86c88c1f0759ffd9813be78a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1747685083,
+            "globalPct": 27.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_16",
+            "name": "Cooking Master",
+            "description": "Reach Level 99 for Cooking in Standard Mode",
+            "icon": "b1e5f14ea8214c5f4b05cd103d58bfcb7ef5c9c6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754351937,
+            "globalPct": 28.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_17",
+            "name": "Mining Master",
+            "description": "Reach Level 99 for Mining in Standard Mode",
+            "icon": "6034392f860293b0a0a83c78d320d4d89d2eead8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1747807307,
+            "globalPct": 37.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_18",
+            "name": "Smithing Master",
+            "description": "Reach Level 99 for Smithing in Standard Mode",
+            "icon": "665b698fccb559c295e4a46e0fccf00f71910ad2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756416285,
+            "globalPct": 30.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_19",
+            "name": "Thieving Master",
+            "description": "Reach Level 99 for Thieving in Standard Mode",
+            "icon": "4995f52d18717fac759fc2473a35958deb283bb2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1758760078,
+            "globalPct": 22.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_20",
+            "name": "Farming Master",
+            "description": "Reach Level 99 for Farming in Standard Mode",
+            "icon": "97a2408aabb452ac9f270e1b6eff1ff85c92e058",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 27.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_21",
+            "name": "Fletching Master",
+            "description": "Reach Level 99 for Fletching in Standard Mode",
+            "icon": "6825996438815e43fd9d42032c034b2061af9874",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756637480,
+            "globalPct": 18.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_22",
+            "name": "Crafting Master",
+            "description": "Reach Level 99 for Crafting in Standard Mode",
+            "icon": "5f4ac71c8f36894df4988ee739f7198811d7d7f5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1759824740,
+            "globalPct": 16.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_23",
+            "name": "Runecrafting Master",
+            "description": "Reach Level 99 for Runecrafting in Standard Mode",
+            "icon": "39ad198d57100bc644dd48d80807ff13022a630e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1761396340,
+            "globalPct": 18.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_24",
+            "name": "Herblore Master",
+            "description": "Reach Level 99 for Herblore in Standard Mode",
+            "icon": "cd00cf6a7ed25c9dda48ac199476ef260174e94c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_25",
+            "name": "Skill Master",
+            "description": "Reach Maximum Skill Level in Standard Mode",
+            "icon": "8c58ff5597424e14b5593280b18df3b17f2f6ec7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_26",
+            "name": "Item Master",
+            "description": "Achieve 100% Item Completion",
+            "icon": "68865eaa2c37e84753cbf3cfd557986fb498bcfe",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_27",
+            "name": "Pet Master",
+            "description": "Achieve 100% Pet Completion",
+            "icon": "257f07850737a6241e2668e2c0381ae27e6a9e43",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_28",
+            "name": "Mastery Master",
+            "description": "Achieve 100% Mastery Completion",
+            "icon": "473df38070bb1a018c890fc141aa312107a9be0e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_29",
+            "name": "Monster Master",
+            "description": "Achieve 100% Monster Completion",
+            "icon": "b9d7bc7e5f0594f3ec589b0b721427f57eb3a3ef",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_30",
+            "name": "The Completionist",
+            "description": "Achieve 100% Completion",
+            "icon": "e625997996b9888eba1d459bdf35624d40e4605b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_31",
+            "name": "Big Chick",
+            "description": "Defeat Mumma Chicken in the Chicken Coop in Standard Mode",
+            "icon": "c22b799733da8b5efd6d3c2af6c5842008ed4d90",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752229656,
+            "globalPct": 42.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_0",
+            "name": "The Undead",
+            "description": "Defeat Zombie Leader in the Undead Graveyard in Standard Mode",
+            "icon": "6a581807b18cda22f7d9695cb4f7b9b07ab4c6b3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793562448,
+            "globalPct": 35.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_1",
+            "name": "Not so Tough",
+            "description": "Defeat Bandit Leader in the Bandit Base in Standard Mode",
+            "icon": "db0e37c9de6c0f667ead7ece3864f60bba924f42",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793614444,
+            "globalPct": 22
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_2",
+            "name": "A Magical Worry",
+            "description": "Defeat Elder Wizard in the Hall of Wizards in Standard Mode",
+            "icon": "191f18a6c1b1e6daaae75c6f448e68e5729a4b36",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793614445,
+            "globalPct": 20
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_3",
+            "name": "Yes, I'm Still Scared",
+            "description": "Defeat Spider King in the Spider Forest in Standard Mode",
+            "icon": "eb861d916ac538ca53df79a2528c93c41ab215e3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871392,
+            "globalPct": 33.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_4",
+            "name": "Take Note Jack Sparrow",
+            "description": "Defeat The Kraken in the Deep Sea Ship in Standard Mode",
+            "icon": "d0220a27203ebd3354501533f344f007d43825ee",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871393,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_5",
+            "name": "The Chills",
+            "description": "Defeat Protector of Ice in the Frozen Cove in Standard Mode",
+            "icon": "76a7517603e0f89c920147d7ce3a2170186a90d4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871393,
+            "globalPct": 18.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_6",
+            "name": "Old and Dumb",
+            "description": "Defeat Elder Dragon in the Dragons Den in Standard Mode",
+            "icon": "351ec9b55260c1b5b79fde22f5ba22418c8bfe7e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_7",
+            "name": "Could be Harder",
+            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Standard Mode",
+            "icon": "56d52525fe5132a7525e67435a5f37cb6ea4819e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 21.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_8",
+            "name": "Who?",
+            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Standard Mode",
+            "icon": "828d01964a653e7f02c5662924d7e5ef3a9e1a63",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 20.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_9",
+            "name": "The Air God",
+            "description": "Defeat Aeris in the Air God Dungeon in Standard Mode",
+            "icon": "a6d3427580889003fde0f5c2b2ff6088b5e6f93f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_10",
+            "name": "The Water God",
+            "description": "Defeat Glacia in the Water God Dungeon in Standard Mode",
+            "icon": "7291dd4e3522d4b04d17c87bf2f43a3d4749e8a4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_11",
+            "name": "The Earth God",
+            "description": "Defeat Terran in the Earth God Dungeon in Standard Mode",
+            "icon": "5bfffe0863a64a17c93853e7988ea0988938a2a2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_12",
+            "name": "The Fire God",
+            "description": "Defeat Ragnar in the Fire God Dungeon in Standard Mode",
+            "icon": "b388459fd81b1d931262eca6525b9d56f836a364",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_13",
+            "name": "Time to Idle",
+            "description": "Acquire the Amulet of Looting",
+            "icon": "dd2c74f10eba32f7659cf2e226bf26b5e936f8f8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871393,
+            "globalPct": 31.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_14",
+            "name": "This thing is HOT",
+            "description": "Acquire the Fire Cape",
+            "icon": "3a98489e6975d650605226ac77f5e89afedf801a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 20.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_15",
+            "name": "Where's the fire?",
+            "description": "Acquire the Dragonfire Shield",
+            "icon": "279055a23329d8c66843e312b03b4ee3ab1675b8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_16",
+            "name": "Nice Bow",
+            "description": "Acquire the Stormsnap",
+            "icon": "f9438e112124e5f0f74110b0f7627ed7c7f10eb2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_17",
+            "name": "A Frozen Touch",
+            "description": "Acquire the Cloudburst Staff",
+            "icon": "51fb46bd2063f9f14370235012f0a9caae3c371e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_18",
+            "name": "I can't even lift this",
+            "description": "Acquire the Earth Layered Shield",
+            "icon": "5cf4560c62984215f21614a1343f5853af9e0cf9",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_19",
+            "name": "But will I use it?",
+            "description": "Acquire the Big ol' Ron",
+            "icon": "8f06fb184290655dd2a8b4ab61d17104fae64fd4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_20",
+            "name": "Ummm...",
+            "description": "Acquire a Lemon",
+            "icon": "ff66439c5c65b03965b5f1ee0aeecfbaebe37c41",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_21",
+            "name": "Now I can play the game",
+            "description": "Acquire the Ancient Ring of Skills",
+            "icon": "206412f8ee17e1a07f6d317f7d7b9a77a37d92f6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1745992230,
+            "globalPct": 31.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_22",
+            "name": "This is a cool item",
+            "description": "Acquire the Ancient Ring of Masteries",
+            "icon": "e386d0e3bdc6a21277cc35a85ddd48990026fef1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746103256,
+            "globalPct": 30.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_23",
+            "name": "Time to brag",
+            "description": "Acquire the Red Party Hat",
+            "icon": "56a96e84e1cb9e15736b60f448d9120934b2f851",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_24",
+            "name": "Wow I really do need more slots",
+            "description": "Reach 80 Total Bank Slots in Hardcore Mode",
+            "icon": "d174c400651b87b82657a468302106e22f05fd4f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750282245,
+            "globalPct": 6.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_25",
+            "name": "A Cozy Inventory",
+            "description": "Reach 100 Total Bank Slots",
+            "icon": "eefea2f06aa4c21865302fa38883cd126da87fdf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746255905,
+            "globalPct": 40.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_26",
+            "name": "Still not enough",
+            "description": "Reach 200 Total Bank Slots",
+            "icon": "5126eb8c0708468e7429bedb125d164db25f0df7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_27",
+            "name": "I die with honor",
+            "description": "Get killed by a Plant in Standard Mode",
+            "icon": "82997352eedaea6a291dc885f7853ecc68730cb0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_28",
+            "name": "Nice",
+            "description": "Acquire the 69th Item (Based on Item ID)",
+            "icon": "c1caad89603a8db7fb72cc0b09407940387e8093",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1748789784,
+            "globalPct": 45.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_29",
+            "name": "It was good while it lasted",
+            "description": "Lose your Hardcore Character by dying",
+            "icon": "c7e6dad9917696f9fe59213c87f09240e9a86bca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755935197,
+            "globalPct": 6.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_30",
+            "name": "8",
+            "description": "8",
+            "icon": "0830f387f17312c235ccc1c00cf6d19c1efe129e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_31",
+            "name": "Attack Master (Hardcore)",
+            "description": "Reach Level 99 for Attack in Hardcore Mode",
+            "icon": "3327038a12e6f0d1b7a2ac5620d3684b36937817",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_0",
+            "name": "Strength Master (Hardcore)",
+            "description": "Reach Level 99 for Strength in Hardcore Mode",
+            "icon": "f6b2106160fe617fa6ef9291d33327aa448a5b41",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_1",
+            "name": "Defence Master (Hardcore)",
+            "description": "Reach Level 99 for Defence in Hardcore Mode",
+            "icon": "42942cbc7d66533f9cd949f61081e8d2847ad298",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_2",
+            "name": "Hitpoints Master (Hardcore)",
+            "description": "Reach Level 99 for Hitpoints in Hardcore Mode",
+            "icon": "3833cc66cdd6cc34dd6d336f88e58c71c25b5756",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_25",
+            "name": "Big Chick (Hardcore)",
+            "description": "Defeat Mumma Chicken in the Chicken Coop in Hardcore Mode",
+            "icon": "f42afc6f05c26e8f1971bd9f38158483e822c6d8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 4.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_26",
+            "name": "The Undead (Hardcore)",
+            "description": "Defeat Zombie Leader in the Undead Graveyard in Hardcore Mode",
+            "icon": "c01aae9fd61b3785d7e10b63228072f200e95057",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_27",
+            "name": "Not so Tough (Hardcore)",
+            "description": "Defeat Bandit Leader in the Bandit Base in Hardcore Mode",
+            "icon": "a9106f35e274d7952f85a877eeb151244b0bd3c2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_28",
+            "name": "A Magical Worry (Hardcore)",
+            "description": "Defeat Elder Wizard in the Hall of Wizards in Hardcore Mode",
+            "icon": "587da6d236e3c0685f6c0acb506ae6f093b043e3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_29",
+            "name": "Yes, I'm Still Scared (Hardcore)",
+            "description": "Defeat Spider King in the Spider Forest in Hardcore Mode",
+            "icon": "56f1d389ed8a9afef1bcd22c5c56b4e1013aac03",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_30",
+            "name": "Take Note Jack Sparrow (Hardcore)",
+            "description": "Defeat The Kraken in the Deep Sea Ship in Hardcore Mode",
+            "icon": "2c058a19ba289e6597a43efb1171c8ed08b2e63c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_31",
+            "name": "The Chills (Hardcore)",
+            "description": "Defeat Protector of Ice in the Frozen Cove in Hardcore Mode",
+            "icon": "e338027008d6476c563774fc7a7bb7e2b7769637",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_0",
+            "name": "Old and Dumb (Hardcore)",
+            "description": "Defeat Elder Dragon in the Dragons Den in Hardcore Mode",
+            "icon": "fce3f29d636fb652a7c5a483ead38f4c0f7c07f4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_1",
+            "name": "Could be Harder (Hardcore)",
+            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Hardcore Mode",
+            "icon": "100bacc071317ffe0a7d693f96cb3fdc70f30d8e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_3",
+            "name": "The Air God (Hardcore)",
+            "description": "Defeat Aeris in the Air God Dungeon in Hardcore Mode",
+            "icon": "87cb7357a98b438860f379174cf1e8531e8f2d2a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_4",
+            "name": "The Water God (Hardcore)",
+            "description": "Defeat Glacia in the Water God Dungeon in Hardcore Mode",
+            "icon": "07e6f711c9177912bae8902ae2ad8a1540f6c5be",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_5",
+            "name": "The Earth God (Hardcore)",
+            "description": "Defeat Terran in the Earth God Dungeon in Hardcore Mode",
+            "icon": "aa52c2ebe149dbc900cd34f80aeaecb4d0dc1f23",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_6",
+            "name": "The Fire God (Hardcore)",
+            "description": "Defeat Ragnar in the Fire God Dungeon in Hardcore Mode",
+            "icon": "69af45d6d8de0c6e7e1a3cf5b29b3c2099d888d6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_7",
+            "name": "Who? (Hardcore)",
+            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Hardcore Mode",
+            "icon": "bd9acae192c9c7fdd147cffb5124a8bf5e98a5a5",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_3",
+            "name": "Range Master (Hardcore)",
+            "description": "Reach Level 99 for Range in Hardcore Mode",
+            "icon": "2697c8328769e8041726aa62eeb815128d999116",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_4",
+            "name": "Magic Master (Hardcore)",
+            "description": "Reach Level 99 for Magic in Hardcore Mode",
+            "icon": "34d9468439e90f8beb2a1da4725b14a81646df1b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_5",
+            "name": "Prayer Master (Hardcore)",
+            "description": "Reach Level 99 for Prayer in Hardcore Mode",
+            "icon": "771b8b9827718e762d54cf9f553ced21271f9346",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_6",
+            "name": "Slayer Master (Hardcore)",
+            "description": "Reach Level 99 for Slayer in Hardcore Mode",
+            "icon": "fdf32cafd1d59480696b71dbdc4ed9a466cf8ae9",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_12",
+            "name": "Agility Master",
+            "description": "Reach Level 99 for Agility in any Gamemode",
+            "icon": "1540ab0b157e140eae822f9ac0f6824bd294b334",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1762022331,
+            "globalPct": 18.6
+          }
+        ]
+      }
+    },
+    {
       "appId": 581320,
       "name": "Insurgency: Sandstorm",
       "playtimeHours": 139.4,
@@ -49167,7 +50053,7 @@
     {
       "appId": 113200,
       "name": "The Binding of Isaac",
-      "playtimeHours": 136,
+      "playtimeHours": 136.5,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
       "genres": [
@@ -51106,892 +51992,6 @@
             "unlocked": true,
             "unlockTime": 1469048031,
             "globalPct": 8.3
-          }
-        ]
-      }
-    },
-    {
-      "appId": 1267910,
-      "name": "Melvor Idle",
-      "playtimeHours": 130,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
-      "genres": [
-        "Adventure",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Nov 18, 2021",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 86,
-        "unlocked": 26,
-        "items": [
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_0",
-            "name": "The Beginning",
-            "description": "Create a Character",
-            "icon": "8d8755befec6132c9b059a00daa28299706dbd44",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1744959665,
-            "globalPct": 98.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_1",
-            "name": "This Feels Nice",
-            "description": "Level up any Skill for the first time",
-            "icon": "0a2d77aadd9330df4360f4024253aefa9ae50b80",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1744976955,
-            "globalPct": 83.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_2",
-            "name": "My Little Companion",
-            "description": "Find your first Pet",
-            "icon": "c5b0e95a02e472c9158ec513f4a2d209652e900c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1745241952,
-            "globalPct": 62.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_3",
-            "name": "One down... More to go.",
-            "description": "Acquire Level 99 in any Skill",
-            "icon": "ace2a96d7c357e178f4923f659836ce811efb77c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746135466,
-            "globalPct": 46.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_4",
-            "name": "A Touch of Mastery",
-            "description": "Acquire Mastery Level 99 for any item in any Skill",
-            "icon": "b46787ea6f6f3be92812b62dddf2e3cc9aac3e20",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1745655680,
-            "globalPct": 53
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_5",
-            "name": "Attack Master",
-            "description": "Reach Level 99 for Attack in Standard Mode",
-            "icon": "964b7835291722401af98bbf8db8cd6283fa0597",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_6",
-            "name": "Strength Master",
-            "description": "Reach Level 99 for Strength in Standard Mode",
-            "icon": "e47a710f2d0b3ae3071b2beb62286b67ed26667c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_7",
-            "name": "Defence Master",
-            "description": "Reach Level 99 for Defence in Standard Mode",
-            "icon": "3ba3e8accb2c54e782f4344fcc230529fa8e3dcb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_8",
-            "name": "Hitpoints Master",
-            "description": "Reach Level 99 for Hitpoints in Standard Mode",
-            "icon": "a6a7cf95648f5525bae3b47080dea9ea497cfdbb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_9",
-            "name": "Ranged Master",
-            "description": "Reach Level 99 for Ranged in Standard Mode",
-            "icon": "5a1c821b10426f6c1d7c97d3c7e29936312dd5a1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_10",
-            "name": "Magic Master",
-            "description": "Reach Level 99 for Magic in Standard Mode",
-            "icon": "e70121e5e9df1247e198dec628dc2a66f93e6f79",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_11",
-            "name": "Prayer Mastery",
-            "description": "Reach Level 99 for Prayer in Standard Mode",
-            "icon": "8984fcd9d963ac5b3cbd365e6003555d3c5f7d8e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_12",
-            "name": "Slayer Master",
-            "description": "Reach Level 99 for Slayer in Standard Mode",
-            "icon": "b56ab4d0a8e0bc1dc2677513782b2576a5c68d5c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_13",
-            "name": "Woodcutting Master",
-            "description": "Reach Level 99 for Woodcutting in Standard Mode",
-            "icon": "57117ef007e8e4609359c67d2f22afe67101e739",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746888603,
-            "globalPct": 31.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_14",
-            "name": "Fishing Master",
-            "description": "Reach Level 99 for Fishing in Standard Mode",
-            "icon": "92e9e350f6cbd64d85161d7b7f53c088ca1fc2c7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746135466,
-            "globalPct": 36.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_15",
-            "name": "Firemaking Master",
-            "description": "Reach Level 99 for Firemaking in Standard Mode",
-            "icon": "b966a2574048866b86c88c1f0759ffd9813be78a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1747685083,
-            "globalPct": 27.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_16",
-            "name": "Cooking Master",
-            "description": "Reach Level 99 for Cooking in Standard Mode",
-            "icon": "b1e5f14ea8214c5f4b05cd103d58bfcb7ef5c9c6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754351937,
-            "globalPct": 28.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_17",
-            "name": "Mining Master",
-            "description": "Reach Level 99 for Mining in Standard Mode",
-            "icon": "6034392f860293b0a0a83c78d320d4d89d2eead8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1747807307,
-            "globalPct": 37.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_18",
-            "name": "Smithing Master",
-            "description": "Reach Level 99 for Smithing in Standard Mode",
-            "icon": "665b698fccb559c295e4a46e0fccf00f71910ad2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756416285,
-            "globalPct": 30.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_19",
-            "name": "Thieving Master",
-            "description": "Reach Level 99 for Thieving in Standard Mode",
-            "icon": "4995f52d18717fac759fc2473a35958deb283bb2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1758760078,
-            "globalPct": 22.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_20",
-            "name": "Farming Master",
-            "description": "Reach Level 99 for Farming in Standard Mode",
-            "icon": "97a2408aabb452ac9f270e1b6eff1ff85c92e058",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 27.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_21",
-            "name": "Fletching Master",
-            "description": "Reach Level 99 for Fletching in Standard Mode",
-            "icon": "6825996438815e43fd9d42032c034b2061af9874",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756637480,
-            "globalPct": 18.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_22",
-            "name": "Crafting Master",
-            "description": "Reach Level 99 for Crafting in Standard Mode",
-            "icon": "5f4ac71c8f36894df4988ee739f7198811d7d7f5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1759824740,
-            "globalPct": 16.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_23",
-            "name": "Runecrafting Master",
-            "description": "Reach Level 99 for Runecrafting in Standard Mode",
-            "icon": "39ad198d57100bc644dd48d80807ff13022a630e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1761396340,
-            "globalPct": 18.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_24",
-            "name": "Herblore Master",
-            "description": "Reach Level 99 for Herblore in Standard Mode",
-            "icon": "cd00cf6a7ed25c9dda48ac199476ef260174e94c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_25",
-            "name": "Skill Master",
-            "description": "Reach Maximum Skill Level in Standard Mode",
-            "icon": "8c58ff5597424e14b5593280b18df3b17f2f6ec7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_26",
-            "name": "Item Master",
-            "description": "Achieve 100% Item Completion",
-            "icon": "68865eaa2c37e84753cbf3cfd557986fb498bcfe",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_27",
-            "name": "Pet Master",
-            "description": "Achieve 100% Pet Completion",
-            "icon": "257f07850737a6241e2668e2c0381ae27e6a9e43",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_28",
-            "name": "Mastery Master",
-            "description": "Achieve 100% Mastery Completion",
-            "icon": "473df38070bb1a018c890fc141aa312107a9be0e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_29",
-            "name": "Monster Master",
-            "description": "Achieve 100% Monster Completion",
-            "icon": "b9d7bc7e5f0594f3ec589b0b721427f57eb3a3ef",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_30",
-            "name": "The Completionist",
-            "description": "Achieve 100% Completion",
-            "icon": "e625997996b9888eba1d459bdf35624d40e4605b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_31",
-            "name": "Big Chick",
-            "description": "Defeat Mumma Chicken in the Chicken Coop in Standard Mode",
-            "icon": "c22b799733da8b5efd6d3c2af6c5842008ed4d90",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752229656,
-            "globalPct": 42.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_0",
-            "name": "The Undead",
-            "description": "Defeat Zombie Leader in the Undead Graveyard in Standard Mode",
-            "icon": "6a581807b18cda22f7d9695cb4f7b9b07ab4c6b3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793562448,
-            "globalPct": 35.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_1",
-            "name": "Not so Tough",
-            "description": "Defeat Bandit Leader in the Bandit Base in Standard Mode",
-            "icon": "db0e37c9de6c0f667ead7ece3864f60bba924f42",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793614444,
-            "globalPct": 22
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_2",
-            "name": "A Magical Worry",
-            "description": "Defeat Elder Wizard in the Hall of Wizards in Standard Mode",
-            "icon": "191f18a6c1b1e6daaae75c6f448e68e5729a4b36",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793614445,
-            "globalPct": 20
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_3",
-            "name": "Yes, I'm Still Scared",
-            "description": "Defeat Spider King in the Spider Forest in Standard Mode",
-            "icon": "eb861d916ac538ca53df79a2528c93c41ab215e3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 33.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_4",
-            "name": "Take Note Jack Sparrow",
-            "description": "Defeat The Kraken in the Deep Sea Ship in Standard Mode",
-            "icon": "d0220a27203ebd3354501533f344f007d43825ee",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_5",
-            "name": "The Chills",
-            "description": "Defeat Protector of Ice in the Frozen Cove in Standard Mode",
-            "icon": "76a7517603e0f89c920147d7ce3a2170186a90d4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_6",
-            "name": "Old and Dumb",
-            "description": "Defeat Elder Dragon in the Dragons Den in Standard Mode",
-            "icon": "351ec9b55260c1b5b79fde22f5ba22418c8bfe7e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 19.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_7",
-            "name": "Could be Harder",
-            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Standard Mode",
-            "icon": "56d52525fe5132a7525e67435a5f37cb6ea4819e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 21.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_8",
-            "name": "Who?",
-            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Standard Mode",
-            "icon": "828d01964a653e7f02c5662924d7e5ef3a9e1a63",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 20.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_9",
-            "name": "The Air God",
-            "description": "Defeat Aeris in the Air God Dungeon in Standard Mode",
-            "icon": "a6d3427580889003fde0f5c2b2ff6088b5e6f93f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 16.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_10",
-            "name": "The Water God",
-            "description": "Defeat Glacia in the Water God Dungeon in Standard Mode",
-            "icon": "7291dd4e3522d4b04d17c87bf2f43a3d4749e8a4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_11",
-            "name": "The Earth God",
-            "description": "Defeat Terran in the Earth God Dungeon in Standard Mode",
-            "icon": "5bfffe0863a64a17c93853e7988ea0988938a2a2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_12",
-            "name": "The Fire God",
-            "description": "Defeat Ragnar in the Fire God Dungeon in Standard Mode",
-            "icon": "b388459fd81b1d931262eca6525b9d56f836a364",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_13",
-            "name": "Time to Idle",
-            "description": "Acquire the Amulet of Looting",
-            "icon": "dd2c74f10eba32f7659cf2e226bf26b5e936f8f8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 31.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_14",
-            "name": "This thing is HOT",
-            "description": "Acquire the Fire Cape",
-            "icon": "3a98489e6975d650605226ac77f5e89afedf801a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 20.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_15",
-            "name": "Where's the fire?",
-            "description": "Acquire the Dragonfire Shield",
-            "icon": "279055a23329d8c66843e312b03b4ee3ab1675b8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_16",
-            "name": "Nice Bow",
-            "description": "Acquire the Stormsnap",
-            "icon": "f9438e112124e5f0f74110b0f7627ed7c7f10eb2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_17",
-            "name": "A Frozen Touch",
-            "description": "Acquire the Cloudburst Staff",
-            "icon": "51fb46bd2063f9f14370235012f0a9caae3c371e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_18",
-            "name": "I can't even lift this",
-            "description": "Acquire the Earth Layered Shield",
-            "icon": "5cf4560c62984215f21614a1343f5853af9e0cf9",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_19",
-            "name": "But will I use it?",
-            "description": "Acquire the Big ol' Ron",
-            "icon": "8f06fb184290655dd2a8b4ab61d17104fae64fd4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_20",
-            "name": "Ummm...",
-            "description": "Acquire a Lemon",
-            "icon": "ff66439c5c65b03965b5f1ee0aeecfbaebe37c41",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_21",
-            "name": "Now I can play the game",
-            "description": "Acquire the Ancient Ring of Skills",
-            "icon": "206412f8ee17e1a07f6d317f7d7b9a77a37d92f6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1745992230,
-            "globalPct": 31.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_22",
-            "name": "This is a cool item",
-            "description": "Acquire the Ancient Ring of Masteries",
-            "icon": "e386d0e3bdc6a21277cc35a85ddd48990026fef1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746103256,
-            "globalPct": 30.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_23",
-            "name": "Time to brag",
-            "description": "Acquire the Red Party Hat",
-            "icon": "56a96e84e1cb9e15736b60f448d9120934b2f851",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_24",
-            "name": "Wow I really do need more slots",
-            "description": "Reach 80 Total Bank Slots in Hardcore Mode",
-            "icon": "d174c400651b87b82657a468302106e22f05fd4f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750282245,
-            "globalPct": 6.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_25",
-            "name": "A Cozy Inventory",
-            "description": "Reach 100 Total Bank Slots",
-            "icon": "eefea2f06aa4c21865302fa38883cd126da87fdf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746255905,
-            "globalPct": 40.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_26",
-            "name": "Still not enough",
-            "description": "Reach 200 Total Bank Slots",
-            "icon": "5126eb8c0708468e7429bedb125d164db25f0df7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_27",
-            "name": "I die with honor",
-            "description": "Get killed by a Plant in Standard Mode",
-            "icon": "82997352eedaea6a291dc885f7853ecc68730cb0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_28",
-            "name": "Nice",
-            "description": "Acquire the 69th Item (Based on Item ID)",
-            "icon": "c1caad89603a8db7fb72cc0b09407940387e8093",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1748789784,
-            "globalPct": 45.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_29",
-            "name": "It was good while it lasted",
-            "description": "Lose your Hardcore Character by dying",
-            "icon": "c7e6dad9917696f9fe59213c87f09240e9a86bca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755935197,
-            "globalPct": 6.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_30",
-            "name": "8",
-            "description": "8",
-            "icon": "0830f387f17312c235ccc1c00cf6d19c1efe129e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_31",
-            "name": "Attack Master (Hardcore)",
-            "description": "Reach Level 99 for Attack in Hardcore Mode",
-            "icon": "3327038a12e6f0d1b7a2ac5620d3684b36937817",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_0",
-            "name": "Strength Master (Hardcore)",
-            "description": "Reach Level 99 for Strength in Hardcore Mode",
-            "icon": "f6b2106160fe617fa6ef9291d33327aa448a5b41",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_1",
-            "name": "Defence Master (Hardcore)",
-            "description": "Reach Level 99 for Defence in Hardcore Mode",
-            "icon": "42942cbc7d66533f9cd949f61081e8d2847ad298",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_2",
-            "name": "Hitpoints Master (Hardcore)",
-            "description": "Reach Level 99 for Hitpoints in Hardcore Mode",
-            "icon": "3833cc66cdd6cc34dd6d336f88e58c71c25b5756",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_25",
-            "name": "Big Chick (Hardcore)",
-            "description": "Defeat Mumma Chicken in the Chicken Coop in Hardcore Mode",
-            "icon": "f42afc6f05c26e8f1971bd9f38158483e822c6d8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 4.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_26",
-            "name": "The Undead (Hardcore)",
-            "description": "Defeat Zombie Leader in the Undead Graveyard in Hardcore Mode",
-            "icon": "c01aae9fd61b3785d7e10b63228072f200e95057",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_27",
-            "name": "Not so Tough (Hardcore)",
-            "description": "Defeat Bandit Leader in the Bandit Base in Hardcore Mode",
-            "icon": "a9106f35e274d7952f85a877eeb151244b0bd3c2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_28",
-            "name": "A Magical Worry (Hardcore)",
-            "description": "Defeat Elder Wizard in the Hall of Wizards in Hardcore Mode",
-            "icon": "587da6d236e3c0685f6c0acb506ae6f093b043e3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_29",
-            "name": "Yes, I'm Still Scared (Hardcore)",
-            "description": "Defeat Spider King in the Spider Forest in Hardcore Mode",
-            "icon": "56f1d389ed8a9afef1bcd22c5c56b4e1013aac03",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_30",
-            "name": "Take Note Jack Sparrow (Hardcore)",
-            "description": "Defeat The Kraken in the Deep Sea Ship in Hardcore Mode",
-            "icon": "2c058a19ba289e6597a43efb1171c8ed08b2e63c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_31",
-            "name": "The Chills (Hardcore)",
-            "description": "Defeat Protector of Ice in the Frozen Cove in Hardcore Mode",
-            "icon": "e338027008d6476c563774fc7a7bb7e2b7769637",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_0",
-            "name": "Old and Dumb (Hardcore)",
-            "description": "Defeat Elder Dragon in the Dragons Den in Hardcore Mode",
-            "icon": "fce3f29d636fb652a7c5a483ead38f4c0f7c07f4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_1",
-            "name": "Could be Harder (Hardcore)",
-            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Hardcore Mode",
-            "icon": "100bacc071317ffe0a7d693f96cb3fdc70f30d8e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_3",
-            "name": "The Air God (Hardcore)",
-            "description": "Defeat Aeris in the Air God Dungeon in Hardcore Mode",
-            "icon": "87cb7357a98b438860f379174cf1e8531e8f2d2a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_4",
-            "name": "The Water God (Hardcore)",
-            "description": "Defeat Glacia in the Water God Dungeon in Hardcore Mode",
-            "icon": "07e6f711c9177912bae8902ae2ad8a1540f6c5be",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_5",
-            "name": "The Earth God (Hardcore)",
-            "description": "Defeat Terran in the Earth God Dungeon in Hardcore Mode",
-            "icon": "aa52c2ebe149dbc900cd34f80aeaecb4d0dc1f23",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_6",
-            "name": "The Fire God (Hardcore)",
-            "description": "Defeat Ragnar in the Fire God Dungeon in Hardcore Mode",
-            "icon": "69af45d6d8de0c6e7e1a3cf5b29b3c2099d888d6",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_7",
-            "name": "Who? (Hardcore)",
-            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Hardcore Mode",
-            "icon": "bd9acae192c9c7fdd147cffb5124a8bf5e98a5a5",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_3",
-            "name": "Range Master (Hardcore)",
-            "description": "Reach Level 99 for Range in Hardcore Mode",
-            "icon": "2697c8328769e8041726aa62eeb815128d999116",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_4",
-            "name": "Magic Master (Hardcore)",
-            "description": "Reach Level 99 for Magic in Hardcore Mode",
-            "icon": "34d9468439e90f8beb2a1da4725b14a81646df1b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_5",
-            "name": "Prayer Master (Hardcore)",
-            "description": "Reach Level 99 for Prayer in Hardcore Mode",
-            "icon": "771b8b9827718e762d54cf9f553ced21271f9346",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_6",
-            "name": "Slayer Master (Hardcore)",
-            "description": "Reach Level 99 for Slayer in Hardcore Mode",
-            "icon": "fdf32cafd1d59480696b71dbdc4ed9a466cf8ae9",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_12",
-            "name": "Agility Master",
-            "description": "Reach Level 99 for Agility in any Gamemode",
-            "icon": "1540ab0b157e140eae822f9ac0f6824bd294b334",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1762022331,
-            "globalPct": 18.6
           }
         ]
       }
@@ -338014,7 +338014,7 @@
     },
     {
       "appId": 264240,
-      "name": "CONSORTIUM 2014",
+      "name": "CONSORTIUM",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/264240/91ea9edf713013d8e6a212a8134609717840585a.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/264240/header.jpg",
@@ -354818,7 +354818,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/8f9aff7b2c35a26f8691ad35375986cf68aedd20/library_header_2x.jpg",
       "achievements": {
-        "total": 141,
+        "total": 152,
         "unlocked": 0
       }
     },
@@ -368087,7 +368087,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058200/4f22fbeebd25ff8b5d7b04a5d211a9a094a31078/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058200/b7b2af0e3e6070ec589589dc04691c970de5e038/library_header_2x.jpg",
       "achievements": {
-        "total": 1009,
+        "total": 1010,
         "unlocked": 0
       }
     },
@@ -382101,7 +382101,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/library_600x900.jpg",
       "libraryHeaderUrl": null,
       "achievements": {
-        "total": 92,
+        "total": 94,
         "unlocked": 0
       }
     },
@@ -386045,7 +386045,7 @@
       "dateAdded": 1560418467,
       "priority": 224,
       "name": "Dying Light 2 Stay Human: Reloaded Edition",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1788258144",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1793884576",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/5b75126ece6e937bda12bf5f802647c30d7a2801/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/361f974102857da0d3ad6e6d5a85b7b52be59b6e/library_header_2x.jpg"
     },
@@ -386157,7 +386157,7 @@
       "dateAdded": 1497485633,
       "priority": 87,
       "name": "Assassin's Creed® Origins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/header.jpg?t=1792778037",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/header.jpg?t=1793886930",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582160/library_600x900_2x.jpg"
     },
     {
@@ -386858,7 +386858,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -386866,7 +386866,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -386914,7 +386914,7 @@
       "dateAdded": 1593087169,
       "priority": 0,
       "name": "Cloudpunk",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/header.jpg?t=1729027817",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746850/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/library_600x900_2x.jpg"
     },
     {
@@ -386956,7 +386956,7 @@
       "dateAdded": 1592340823,
       "priority": 0,
       "name": "Outer Wilds",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/cf6845ca2d307ea8da4af903f3596f521346839e/library_header_2x.jpg"
     },
@@ -387085,7 +387085,7 @@
       "dateAdded": 1773267527,
       "priority": 0,
       "name": "Crab Champions",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/header.jpg?t=1793386775",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774801/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774801/library_600x900_2x.jpg"
     },
     {
@@ -387150,7 +387150,7 @@
       "dateAdded": 1542455300,
       "priority": 432,
       "name": "STAR WARS™ Episode I Racer",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/808910/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/808910/header.jpg?t=1741811672",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/808910/e2c796630262410e7fc0c62d4184231c499f4b11/library_600x900_2x.jpg"
     },
     {
@@ -387182,7 +387182,7 @@
       "dateAdded": 1654798340,
       "priority": 0,
       "name": "ANIMAL WELL",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/813230/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg?t=1788379439",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/library_header.jpg"
     },
@@ -387297,7 +387297,7 @@
       "dateAdded": 1604084141,
       "priority": 0,
       "name": "DYSMANTLE",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/846770/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/846770/header.jpg?t=1772050662",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/846770/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/846770/library_header.jpg"
     },
@@ -388385,7 +388385,8 @@
       "priority": 0,
       "name": "Winter Resort Simulator",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1089790/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1089790/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1089790/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1089790/d0acf1a1eedd7e7eb02a565e2398e5b22c718b56/library_header_2x.jpg"
     },
     {
       "appId": 1090250,
@@ -398829,8 +398830,8 @@
       "priority": 0,
       "name": "My Time at Evershine",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3199500/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199500/db8dce7d384313114ef782a6d5ee67a69ae31724/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199500/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199500/01f21a1fcab8a44288b5a494f0cb0d77886bafbd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199500/d8e705dee0c7ebbef511320617299d1f3b5dc9b6/library_header_2x.jpg"
     },
     {
       "appId": 3201910,
@@ -398927,7 +398928,7 @@
       "name": "TANUKI: Pon's Summer",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3218570/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/b8137047aa9108a0101280444547300e09835100/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/1abfa9f1efa62dbe7f4f382e37c1db37de74ae33/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/03a5efdc08ce01b4067a4aed0f0601e5de22790b/library_header_2x.jpg"
     },
     {
       "appId": 3218630,
@@ -403735,8 +403736,8 @@
       "priority": 0,
       "name": "App 4590270",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4590270/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590270/5715fac36dfb27a94ef56b9965fb0fc8bec174dc/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590270/d6f56096ea943805b856b6fc0cac500cd5b266d0/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590270/cde66a2fe156601bae5179abe4bad6030d4a5673/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4590270/7bd3f92a50d4598932b42e7e8a0302072b30085d/library_header_2x.jpg"
     },
     {
       "appId": 4599710,
@@ -404230,8 +404231,8 @@
       "priority": 0,
       "name": "App 4918810",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4918810/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/edeea9a9ddb94ee9b799ab650fbffb671b894526/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/2e4e9da9dc9f7a971ec7bbc048fca65c0e463fb3/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/28bba846a70eb75fc4b1f0e8adb32e47322e7442/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4918810/bc2e8e1d1899cbe7f199ab7b300945d9ca78f8e5/library_header_2x.jpg"
     },
     {
       "appId": 4930070,
