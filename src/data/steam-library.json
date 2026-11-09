@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-11-07T02:40:17.308Z",
+  "fetchedAt": "2026-11-09T02:25:50.990Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1793967965
+    "lastLogoff": 1794164618
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3498,
+      "playtimeHours": 3501,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -35895,6 +35895,892 @@
       "achievements": null
     },
     {
+      "appId": 1267910,
+      "name": "Melvor Idle",
+      "playtimeHours": 175.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Nov 18, 2021",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 86,
+        "unlocked": 32,
+        "items": [
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_0",
+            "name": "The Beginning",
+            "description": "Create a Character",
+            "icon": "8d8755befec6132c9b059a00daa28299706dbd44",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1744959665,
+            "globalPct": 98.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_1",
+            "name": "This Feels Nice",
+            "description": "Level up any Skill for the first time",
+            "icon": "0a2d77aadd9330df4360f4024253aefa9ae50b80",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1744976955,
+            "globalPct": 83.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_2",
+            "name": "My Little Companion",
+            "description": "Find your first Pet",
+            "icon": "c5b0e95a02e472c9158ec513f4a2d209652e900c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1745241952,
+            "globalPct": 62.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_3",
+            "name": "One down... More to go.",
+            "description": "Acquire Level 99 in any Skill",
+            "icon": "ace2a96d7c357e178f4923f659836ce811efb77c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746135466,
+            "globalPct": 46.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_4",
+            "name": "A Touch of Mastery",
+            "description": "Acquire Mastery Level 99 for any item in any Skill",
+            "icon": "b46787ea6f6f3be92812b62dddf2e3cc9aac3e20",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1745655680,
+            "globalPct": 53
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_5",
+            "name": "Attack Master",
+            "description": "Reach Level 99 for Attack in Standard Mode",
+            "icon": "964b7835291722401af98bbf8db8cd6283fa0597",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_6",
+            "name": "Strength Master",
+            "description": "Reach Level 99 for Strength in Standard Mode",
+            "icon": "e47a710f2d0b3ae3071b2beb62286b67ed26667c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_7",
+            "name": "Defence Master",
+            "description": "Reach Level 99 for Defence in Standard Mode",
+            "icon": "3ba3e8accb2c54e782f4344fcc230529fa8e3dcb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_8",
+            "name": "Hitpoints Master",
+            "description": "Reach Level 99 for Hitpoints in Standard Mode",
+            "icon": "a6a7cf95648f5525bae3b47080dea9ea497cfdbb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_9",
+            "name": "Ranged Master",
+            "description": "Reach Level 99 for Ranged in Standard Mode",
+            "icon": "5a1c821b10426f6c1d7c97d3c7e29936312dd5a1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_10",
+            "name": "Magic Master",
+            "description": "Reach Level 99 for Magic in Standard Mode",
+            "icon": "e70121e5e9df1247e198dec628dc2a66f93e6f79",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_11",
+            "name": "Prayer Mastery",
+            "description": "Reach Level 99 for Prayer in Standard Mode",
+            "icon": "8984fcd9d963ac5b3cbd365e6003555d3c5f7d8e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_12",
+            "name": "Slayer Master",
+            "description": "Reach Level 99 for Slayer in Standard Mode",
+            "icon": "b56ab4d0a8e0bc1dc2677513782b2576a5c68d5c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_13",
+            "name": "Woodcutting Master",
+            "description": "Reach Level 99 for Woodcutting in Standard Mode",
+            "icon": "57117ef007e8e4609359c67d2f22afe67101e739",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746888603,
+            "globalPct": 31.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_14",
+            "name": "Fishing Master",
+            "description": "Reach Level 99 for Fishing in Standard Mode",
+            "icon": "92e9e350f6cbd64d85161d7b7f53c088ca1fc2c7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746135466,
+            "globalPct": 36.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_15",
+            "name": "Firemaking Master",
+            "description": "Reach Level 99 for Firemaking in Standard Mode",
+            "icon": "b966a2574048866b86c88c1f0759ffd9813be78a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1747685083,
+            "globalPct": 27.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_16",
+            "name": "Cooking Master",
+            "description": "Reach Level 99 for Cooking in Standard Mode",
+            "icon": "b1e5f14ea8214c5f4b05cd103d58bfcb7ef5c9c6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1754351937,
+            "globalPct": 28.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_17",
+            "name": "Mining Master",
+            "description": "Reach Level 99 for Mining in Standard Mode",
+            "icon": "6034392f860293b0a0a83c78d320d4d89d2eead8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1747807307,
+            "globalPct": 37.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_18",
+            "name": "Smithing Master",
+            "description": "Reach Level 99 for Smithing in Standard Mode",
+            "icon": "665b698fccb559c295e4a46e0fccf00f71910ad2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756416285,
+            "globalPct": 30.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_19",
+            "name": "Thieving Master",
+            "description": "Reach Level 99 for Thieving in Standard Mode",
+            "icon": "4995f52d18717fac759fc2473a35958deb283bb2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1758760078,
+            "globalPct": 22.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_20",
+            "name": "Farming Master",
+            "description": "Reach Level 99 for Farming in Standard Mode",
+            "icon": "97a2408aabb452ac9f270e1b6eff1ff85c92e058",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793964899,
+            "globalPct": 27.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_21",
+            "name": "Fletching Master",
+            "description": "Reach Level 99 for Fletching in Standard Mode",
+            "icon": "6825996438815e43fd9d42032c034b2061af9874",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756637480,
+            "globalPct": 18.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_22",
+            "name": "Crafting Master",
+            "description": "Reach Level 99 for Crafting in Standard Mode",
+            "icon": "5f4ac71c8f36894df4988ee739f7198811d7d7f5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1759824740,
+            "globalPct": 16.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_23",
+            "name": "Runecrafting Master",
+            "description": "Reach Level 99 for Runecrafting in Standard Mode",
+            "icon": "39ad198d57100bc644dd48d80807ff13022a630e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1761396340,
+            "globalPct": 18.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_24",
+            "name": "Herblore Master",
+            "description": "Reach Level 99 for Herblore in Standard Mode",
+            "icon": "cd00cf6a7ed25c9dda48ac199476ef260174e94c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_25",
+            "name": "Skill Master",
+            "description": "Reach Maximum Skill Level in Standard Mode",
+            "icon": "8c58ff5597424e14b5593280b18df3b17f2f6ec7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_26",
+            "name": "Item Master",
+            "description": "Achieve 100% Item Completion",
+            "icon": "68865eaa2c37e84753cbf3cfd557986fb498bcfe",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_27",
+            "name": "Pet Master",
+            "description": "Achieve 100% Pet Completion",
+            "icon": "257f07850737a6241e2668e2c0381ae27e6a9e43",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_28",
+            "name": "Mastery Master",
+            "description": "Achieve 100% Mastery Completion",
+            "icon": "473df38070bb1a018c890fc141aa312107a9be0e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_29",
+            "name": "Monster Master",
+            "description": "Achieve 100% Monster Completion",
+            "icon": "b9d7bc7e5f0594f3ec589b0b721427f57eb3a3ef",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_30",
+            "name": "The Completionist",
+            "description": "Achieve 100% Completion",
+            "icon": "e625997996b9888eba1d459bdf35624d40e4605b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_1_31",
+            "name": "Big Chick",
+            "description": "Defeat Mumma Chicken in the Chicken Coop in Standard Mode",
+            "icon": "c22b799733da8b5efd6d3c2af6c5842008ed4d90",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752229656,
+            "globalPct": 42.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_0",
+            "name": "The Undead",
+            "description": "Defeat Zombie Leader in the Undead Graveyard in Standard Mode",
+            "icon": "6a581807b18cda22f7d9695cb4f7b9b07ab4c6b3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793562448,
+            "globalPct": 35.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_1",
+            "name": "Not so Tough",
+            "description": "Defeat Bandit Leader in the Bandit Base in Standard Mode",
+            "icon": "db0e37c9de6c0f667ead7ece3864f60bba924f42",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793614444,
+            "globalPct": 22
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_2",
+            "name": "A Magical Worry",
+            "description": "Defeat Elder Wizard in the Hall of Wizards in Standard Mode",
+            "icon": "191f18a6c1b1e6daaae75c6f448e68e5729a4b36",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793614445,
+            "globalPct": 20
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_3",
+            "name": "Yes, I'm Still Scared",
+            "description": "Defeat Spider King in the Spider Forest in Standard Mode",
+            "icon": "eb861d916ac538ca53df79a2528c93c41ab215e3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871392,
+            "globalPct": 33.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_4",
+            "name": "Take Note Jack Sparrow",
+            "description": "Defeat The Kraken in the Deep Sea Ship in Standard Mode",
+            "icon": "d0220a27203ebd3354501533f344f007d43825ee",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871393,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_5",
+            "name": "The Chills",
+            "description": "Defeat Protector of Ice in the Frozen Cove in Standard Mode",
+            "icon": "76a7517603e0f89c920147d7ce3a2170186a90d4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871393,
+            "globalPct": 18.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_6",
+            "name": "Old and Dumb",
+            "description": "Defeat Elder Dragon in the Dragons Den in Standard Mode",
+            "icon": "351ec9b55260c1b5b79fde22f5ba22418c8bfe7e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_7",
+            "name": "Could be Harder",
+            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Standard Mode",
+            "icon": "56d52525fe5132a7525e67435a5f37cb6ea4819e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793964900,
+            "globalPct": 21.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_8",
+            "name": "Who?",
+            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Standard Mode",
+            "icon": "828d01964a653e7f02c5662924d7e5ef3a9e1a63",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 20.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_9",
+            "name": "The Air God",
+            "description": "Defeat Aeris in the Air God Dungeon in Standard Mode",
+            "icon": "a6d3427580889003fde0f5c2b2ff6088b5e6f93f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_10",
+            "name": "The Water God",
+            "description": "Defeat Glacia in the Water God Dungeon in Standard Mode",
+            "icon": "7291dd4e3522d4b04d17c87bf2f43a3d4749e8a4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_11",
+            "name": "The Earth God",
+            "description": "Defeat Terran in the Earth God Dungeon in Standard Mode",
+            "icon": "5bfffe0863a64a17c93853e7988ea0988938a2a2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_12",
+            "name": "The Fire God",
+            "description": "Defeat Ragnar in the Fire God Dungeon in Standard Mode",
+            "icon": "b388459fd81b1d931262eca6525b9d56f836a364",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_13",
+            "name": "Time to Idle",
+            "description": "Acquire the Amulet of Looting",
+            "icon": "dd2c74f10eba32f7659cf2e226bf26b5e936f8f8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793871393,
+            "globalPct": 31.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_14",
+            "name": "This thing is HOT",
+            "description": "Acquire the Fire Cape",
+            "icon": "3a98489e6975d650605226ac77f5e89afedf801a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 20.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_15",
+            "name": "Where's the fire?",
+            "description": "Acquire the Dragonfire Shield",
+            "icon": "279055a23329d8c66843e312b03b4ee3ab1675b8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_16",
+            "name": "Nice Bow",
+            "description": "Acquire the Stormsnap",
+            "icon": "f9438e112124e5f0f74110b0f7627ed7c7f10eb2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_17",
+            "name": "A Frozen Touch",
+            "description": "Acquire the Cloudburst Staff",
+            "icon": "51fb46bd2063f9f14370235012f0a9caae3c371e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_18",
+            "name": "I can't even lift this",
+            "description": "Acquire the Earth Layered Shield",
+            "icon": "5cf4560c62984215f21614a1343f5853af9e0cf9",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_19",
+            "name": "But will I use it?",
+            "description": "Acquire the Big ol' Ron",
+            "icon": "8f06fb184290655dd2a8b4ab61d17104fae64fd4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_20",
+            "name": "Ummm...",
+            "description": "Acquire a Lemon",
+            "icon": "ff66439c5c65b03965b5f1ee0aeecfbaebe37c41",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_21",
+            "name": "Now I can play the game",
+            "description": "Acquire the Ancient Ring of Skills",
+            "icon": "206412f8ee17e1a07f6d317f7d7b9a77a37d92f6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1745992230,
+            "globalPct": 31.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_22",
+            "name": "This is a cool item",
+            "description": "Acquire the Ancient Ring of Masteries",
+            "icon": "e386d0e3bdc6a21277cc35a85ddd48990026fef1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746103256,
+            "globalPct": 30.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_23",
+            "name": "Time to brag",
+            "description": "Acquire the Red Party Hat",
+            "icon": "56a96e84e1cb9e15736b60f448d9120934b2f851",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_24",
+            "name": "Wow I really do need more slots",
+            "description": "Reach 80 Total Bank Slots in Hardcore Mode",
+            "icon": "d174c400651b87b82657a468302106e22f05fd4f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1750282245,
+            "globalPct": 6.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_25",
+            "name": "A Cozy Inventory",
+            "description": "Reach 100 Total Bank Slots",
+            "icon": "eefea2f06aa4c21865302fa38883cd126da87fdf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1746255905,
+            "globalPct": 40.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_26",
+            "name": "Still not enough",
+            "description": "Reach 200 Total Bank Slots",
+            "icon": "5126eb8c0708468e7429bedb125d164db25f0df7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_27",
+            "name": "I die with honor",
+            "description": "Get killed by a Plant in Standard Mode",
+            "icon": "82997352eedaea6a291dc885f7853ecc68730cb0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_28",
+            "name": "Nice",
+            "description": "Acquire the 69th Item (Based on Item ID)",
+            "icon": "c1caad89603a8db7fb72cc0b09407940387e8093",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1748789784,
+            "globalPct": 45.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_29",
+            "name": "It was good while it lasted",
+            "description": "Lose your Hardcore Character by dying",
+            "icon": "c7e6dad9917696f9fe59213c87f09240e9a86bca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1755935197,
+            "globalPct": 6.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_30",
+            "name": "8",
+            "description": "8",
+            "icon": "0830f387f17312c235ccc1c00cf6d19c1efe129e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_2_31",
+            "name": "Attack Master (Hardcore)",
+            "description": "Reach Level 99 for Attack in Hardcore Mode",
+            "icon": "3327038a12e6f0d1b7a2ac5620d3684b36937817",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_0",
+            "name": "Strength Master (Hardcore)",
+            "description": "Reach Level 99 for Strength in Hardcore Mode",
+            "icon": "f6b2106160fe617fa6ef9291d33327aa448a5b41",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_1",
+            "name": "Defence Master (Hardcore)",
+            "description": "Reach Level 99 for Defence in Hardcore Mode",
+            "icon": "42942cbc7d66533f9cd949f61081e8d2847ad298",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_2",
+            "name": "Hitpoints Master (Hardcore)",
+            "description": "Reach Level 99 for Hitpoints in Hardcore Mode",
+            "icon": "3833cc66cdd6cc34dd6d336f88e58c71c25b5756",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_25",
+            "name": "Big Chick (Hardcore)",
+            "description": "Defeat Mumma Chicken in the Chicken Coop in Hardcore Mode",
+            "icon": "f42afc6f05c26e8f1971bd9f38158483e822c6d8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 4.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_26",
+            "name": "The Undead (Hardcore)",
+            "description": "Defeat Zombie Leader in the Undead Graveyard in Hardcore Mode",
+            "icon": "c01aae9fd61b3785d7e10b63228072f200e95057",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_27",
+            "name": "Not so Tough (Hardcore)",
+            "description": "Defeat Bandit Leader in the Bandit Base in Hardcore Mode",
+            "icon": "a9106f35e274d7952f85a877eeb151244b0bd3c2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_28",
+            "name": "A Magical Worry (Hardcore)",
+            "description": "Defeat Elder Wizard in the Hall of Wizards in Hardcore Mode",
+            "icon": "587da6d236e3c0685f6c0acb506ae6f093b043e3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_29",
+            "name": "Yes, I'm Still Scared (Hardcore)",
+            "description": "Defeat Spider King in the Spider Forest in Hardcore Mode",
+            "icon": "56f1d389ed8a9afef1bcd22c5c56b4e1013aac03",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_30",
+            "name": "Take Note Jack Sparrow (Hardcore)",
+            "description": "Defeat The Kraken in the Deep Sea Ship in Hardcore Mode",
+            "icon": "2c058a19ba289e6597a43efb1171c8ed08b2e63c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_31",
+            "name": "The Chills (Hardcore)",
+            "description": "Defeat Protector of Ice in the Frozen Cove in Hardcore Mode",
+            "icon": "e338027008d6476c563774fc7a7bb7e2b7769637",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_0",
+            "name": "Old and Dumb (Hardcore)",
+            "description": "Defeat Elder Dragon in the Dragons Den in Hardcore Mode",
+            "icon": "fce3f29d636fb652a7c5a483ead38f4c0f7c07f4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_1",
+            "name": "Could be Harder (Hardcore)",
+            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Hardcore Mode",
+            "icon": "100bacc071317ffe0a7d693f96cb3fdc70f30d8e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_3",
+            "name": "The Air God (Hardcore)",
+            "description": "Defeat Aeris in the Air God Dungeon in Hardcore Mode",
+            "icon": "87cb7357a98b438860f379174cf1e8531e8f2d2a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_4",
+            "name": "The Water God (Hardcore)",
+            "description": "Defeat Glacia in the Water God Dungeon in Hardcore Mode",
+            "icon": "07e6f711c9177912bae8902ae2ad8a1540f6c5be",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.1
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_5",
+            "name": "The Earth God (Hardcore)",
+            "description": "Defeat Terran in the Earth God Dungeon in Hardcore Mode",
+            "icon": "aa52c2ebe149dbc900cd34f80aeaecb4d0dc1f23",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_6",
+            "name": "The Fire God (Hardcore)",
+            "description": "Defeat Ragnar in the Fire God Dungeon in Hardcore Mode",
+            "icon": "69af45d6d8de0c6e7e1a3cf5b29b3c2099d888d6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_7",
+            "name": "Who? (Hardcore)",
+            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Hardcore Mode",
+            "icon": "bd9acae192c9c7fdd147cffb5124a8bf5e98a5a5",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.6
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_3",
+            "name": "Range Master (Hardcore)",
+            "description": "Reach Level 99 for Range in Hardcore Mode",
+            "icon": "2697c8328769e8041726aa62eeb815128d999116",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_4",
+            "name": "Magic Master (Hardcore)",
+            "description": "Reach Level 99 for Magic in Hardcore Mode",
+            "icon": "34d9468439e90f8beb2a1da4725b14a81646df1b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.5
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_5",
+            "name": "Prayer Master (Hardcore)",
+            "description": "Reach Level 99 for Prayer in Hardcore Mode",
+            "icon": "771b8b9827718e762d54cf9f553ced21271f9346",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_3_6",
+            "name": "Slayer Master (Hardcore)",
+            "description": "Reach Level 99 for Slayer in Hardcore Mode",
+            "icon": "fdf32cafd1d59480696b71dbdc4ed9a466cf8ae9",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.2
+          },
+          {
+            "apiName": "NEW_ACHIEVEMENT_4_12",
+            "name": "Agility Master",
+            "description": "Reach Level 99 for Agility in any Gamemode",
+            "icon": "1540ab0b157e140eae822f9ac0f6824bd294b334",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1762022331,
+            "globalPct": 18.6
+          }
+        ]
+      }
+    },
+    {
       "appId": 892970,
       "name": "Valheim",
       "playtimeHours": 172,
@@ -36788,892 +37674,6 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/library_600x900_2x.jpg",
       "libraryHeaderUrl": null,
       "achievements": null
-    },
-    {
-      "appId": 1267910,
-      "name": "Melvor Idle",
-      "playtimeHours": 162.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
-      "genres": [
-        "Adventure",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Nov 18, 2021",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 86,
-        "unlocked": 32,
-        "items": [
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_0",
-            "name": "The Beginning",
-            "description": "Create a Character",
-            "icon": "8d8755befec6132c9b059a00daa28299706dbd44",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1744959665,
-            "globalPct": 98.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_1",
-            "name": "This Feels Nice",
-            "description": "Level up any Skill for the first time",
-            "icon": "0a2d77aadd9330df4360f4024253aefa9ae50b80",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1744976955,
-            "globalPct": 83.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_2",
-            "name": "My Little Companion",
-            "description": "Find your first Pet",
-            "icon": "c5b0e95a02e472c9158ec513f4a2d209652e900c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1745241952,
-            "globalPct": 62.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_3",
-            "name": "One down... More to go.",
-            "description": "Acquire Level 99 in any Skill",
-            "icon": "ace2a96d7c357e178f4923f659836ce811efb77c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746135466,
-            "globalPct": 46.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_4",
-            "name": "A Touch of Mastery",
-            "description": "Acquire Mastery Level 99 for any item in any Skill",
-            "icon": "b46787ea6f6f3be92812b62dddf2e3cc9aac3e20",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1745655680,
-            "globalPct": 53
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_5",
-            "name": "Attack Master",
-            "description": "Reach Level 99 for Attack in Standard Mode",
-            "icon": "964b7835291722401af98bbf8db8cd6283fa0597",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_6",
-            "name": "Strength Master",
-            "description": "Reach Level 99 for Strength in Standard Mode",
-            "icon": "e47a710f2d0b3ae3071b2beb62286b67ed26667c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_7",
-            "name": "Defence Master",
-            "description": "Reach Level 99 for Defence in Standard Mode",
-            "icon": "3ba3e8accb2c54e782f4344fcc230529fa8e3dcb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_8",
-            "name": "Hitpoints Master",
-            "description": "Reach Level 99 for Hitpoints in Standard Mode",
-            "icon": "a6a7cf95648f5525bae3b47080dea9ea497cfdbb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_9",
-            "name": "Ranged Master",
-            "description": "Reach Level 99 for Ranged in Standard Mode",
-            "icon": "5a1c821b10426f6c1d7c97d3c7e29936312dd5a1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_10",
-            "name": "Magic Master",
-            "description": "Reach Level 99 for Magic in Standard Mode",
-            "icon": "e70121e5e9df1247e198dec628dc2a66f93e6f79",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_11",
-            "name": "Prayer Mastery",
-            "description": "Reach Level 99 for Prayer in Standard Mode",
-            "icon": "8984fcd9d963ac5b3cbd365e6003555d3c5f7d8e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_12",
-            "name": "Slayer Master",
-            "description": "Reach Level 99 for Slayer in Standard Mode",
-            "icon": "b56ab4d0a8e0bc1dc2677513782b2576a5c68d5c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_13",
-            "name": "Woodcutting Master",
-            "description": "Reach Level 99 for Woodcutting in Standard Mode",
-            "icon": "57117ef007e8e4609359c67d2f22afe67101e739",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746888603,
-            "globalPct": 31.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_14",
-            "name": "Fishing Master",
-            "description": "Reach Level 99 for Fishing in Standard Mode",
-            "icon": "92e9e350f6cbd64d85161d7b7f53c088ca1fc2c7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746135466,
-            "globalPct": 36.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_15",
-            "name": "Firemaking Master",
-            "description": "Reach Level 99 for Firemaking in Standard Mode",
-            "icon": "b966a2574048866b86c88c1f0759ffd9813be78a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1747685083,
-            "globalPct": 27.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_16",
-            "name": "Cooking Master",
-            "description": "Reach Level 99 for Cooking in Standard Mode",
-            "icon": "b1e5f14ea8214c5f4b05cd103d58bfcb7ef5c9c6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1754351937,
-            "globalPct": 28.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_17",
-            "name": "Mining Master",
-            "description": "Reach Level 99 for Mining in Standard Mode",
-            "icon": "6034392f860293b0a0a83c78d320d4d89d2eead8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1747807307,
-            "globalPct": 37.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_18",
-            "name": "Smithing Master",
-            "description": "Reach Level 99 for Smithing in Standard Mode",
-            "icon": "665b698fccb559c295e4a46e0fccf00f71910ad2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756416285,
-            "globalPct": 30.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_19",
-            "name": "Thieving Master",
-            "description": "Reach Level 99 for Thieving in Standard Mode",
-            "icon": "4995f52d18717fac759fc2473a35958deb283bb2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1758760078,
-            "globalPct": 22.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_20",
-            "name": "Farming Master",
-            "description": "Reach Level 99 for Farming in Standard Mode",
-            "icon": "97a2408aabb452ac9f270e1b6eff1ff85c92e058",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793964899,
-            "globalPct": 27.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_21",
-            "name": "Fletching Master",
-            "description": "Reach Level 99 for Fletching in Standard Mode",
-            "icon": "6825996438815e43fd9d42032c034b2061af9874",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756637480,
-            "globalPct": 18.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_22",
-            "name": "Crafting Master",
-            "description": "Reach Level 99 for Crafting in Standard Mode",
-            "icon": "5f4ac71c8f36894df4988ee739f7198811d7d7f5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1759824740,
-            "globalPct": 16.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_23",
-            "name": "Runecrafting Master",
-            "description": "Reach Level 99 for Runecrafting in Standard Mode",
-            "icon": "39ad198d57100bc644dd48d80807ff13022a630e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1761396340,
-            "globalPct": 18.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_24",
-            "name": "Herblore Master",
-            "description": "Reach Level 99 for Herblore in Standard Mode",
-            "icon": "cd00cf6a7ed25c9dda48ac199476ef260174e94c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_25",
-            "name": "Skill Master",
-            "description": "Reach Maximum Skill Level in Standard Mode",
-            "icon": "8c58ff5597424e14b5593280b18df3b17f2f6ec7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_26",
-            "name": "Item Master",
-            "description": "Achieve 100% Item Completion",
-            "icon": "68865eaa2c37e84753cbf3cfd557986fb498bcfe",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_27",
-            "name": "Pet Master",
-            "description": "Achieve 100% Pet Completion",
-            "icon": "257f07850737a6241e2668e2c0381ae27e6a9e43",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_28",
-            "name": "Mastery Master",
-            "description": "Achieve 100% Mastery Completion",
-            "icon": "473df38070bb1a018c890fc141aa312107a9be0e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_29",
-            "name": "Monster Master",
-            "description": "Achieve 100% Monster Completion",
-            "icon": "b9d7bc7e5f0594f3ec589b0b721427f57eb3a3ef",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_30",
-            "name": "The Completionist",
-            "description": "Achieve 100% Completion",
-            "icon": "e625997996b9888eba1d459bdf35624d40e4605b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_1_31",
-            "name": "Big Chick",
-            "description": "Defeat Mumma Chicken in the Chicken Coop in Standard Mode",
-            "icon": "c22b799733da8b5efd6d3c2af6c5842008ed4d90",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752229656,
-            "globalPct": 42.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_0",
-            "name": "The Undead",
-            "description": "Defeat Zombie Leader in the Undead Graveyard in Standard Mode",
-            "icon": "6a581807b18cda22f7d9695cb4f7b9b07ab4c6b3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793562448,
-            "globalPct": 35.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_1",
-            "name": "Not so Tough",
-            "description": "Defeat Bandit Leader in the Bandit Base in Standard Mode",
-            "icon": "db0e37c9de6c0f667ead7ece3864f60bba924f42",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793614444,
-            "globalPct": 22
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_2",
-            "name": "A Magical Worry",
-            "description": "Defeat Elder Wizard in the Hall of Wizards in Standard Mode",
-            "icon": "191f18a6c1b1e6daaae75c6f448e68e5729a4b36",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793614445,
-            "globalPct": 20
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_3",
-            "name": "Yes, I'm Still Scared",
-            "description": "Defeat Spider King in the Spider Forest in Standard Mode",
-            "icon": "eb861d916ac538ca53df79a2528c93c41ab215e3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793871392,
-            "globalPct": 33.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_4",
-            "name": "Take Note Jack Sparrow",
-            "description": "Defeat The Kraken in the Deep Sea Ship in Standard Mode",
-            "icon": "d0220a27203ebd3354501533f344f007d43825ee",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793871393,
-            "globalPct": 23.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_5",
-            "name": "The Chills",
-            "description": "Defeat Protector of Ice in the Frozen Cove in Standard Mode",
-            "icon": "76a7517603e0f89c920147d7ce3a2170186a90d4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793871393,
-            "globalPct": 18.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_6",
-            "name": "Old and Dumb",
-            "description": "Defeat Elder Dragon in the Dragons Den in Standard Mode",
-            "icon": "351ec9b55260c1b5b79fde22f5ba22418c8bfe7e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 19.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_7",
-            "name": "Could be Harder",
-            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Standard Mode",
-            "icon": "56d52525fe5132a7525e67435a5f37cb6ea4819e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793964900,
-            "globalPct": 21.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_8",
-            "name": "Who?",
-            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Standard Mode",
-            "icon": "828d01964a653e7f02c5662924d7e5ef3a9e1a63",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 20.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_9",
-            "name": "The Air God",
-            "description": "Defeat Aeris in the Air God Dungeon in Standard Mode",
-            "icon": "a6d3427580889003fde0f5c2b2ff6088b5e6f93f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 16.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_10",
-            "name": "The Water God",
-            "description": "Defeat Glacia in the Water God Dungeon in Standard Mode",
-            "icon": "7291dd4e3522d4b04d17c87bf2f43a3d4749e8a4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_11",
-            "name": "The Earth God",
-            "description": "Defeat Terran in the Earth God Dungeon in Standard Mode",
-            "icon": "5bfffe0863a64a17c93853e7988ea0988938a2a2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_12",
-            "name": "The Fire God",
-            "description": "Defeat Ragnar in the Fire God Dungeon in Standard Mode",
-            "icon": "b388459fd81b1d931262eca6525b9d56f836a364",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_13",
-            "name": "Time to Idle",
-            "description": "Acquire the Amulet of Looting",
-            "icon": "dd2c74f10eba32f7659cf2e226bf26b5e936f8f8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793871393,
-            "globalPct": 31.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_14",
-            "name": "This thing is HOT",
-            "description": "Acquire the Fire Cape",
-            "icon": "3a98489e6975d650605226ac77f5e89afedf801a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 20.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_15",
-            "name": "Where's the fire?",
-            "description": "Acquire the Dragonfire Shield",
-            "icon": "279055a23329d8c66843e312b03b4ee3ab1675b8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_16",
-            "name": "Nice Bow",
-            "description": "Acquire the Stormsnap",
-            "icon": "f9438e112124e5f0f74110b0f7627ed7c7f10eb2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_17",
-            "name": "A Frozen Touch",
-            "description": "Acquire the Cloudburst Staff",
-            "icon": "51fb46bd2063f9f14370235012f0a9caae3c371e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_18",
-            "name": "I can't even lift this",
-            "description": "Acquire the Earth Layered Shield",
-            "icon": "5cf4560c62984215f21614a1343f5853af9e0cf9",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_19",
-            "name": "But will I use it?",
-            "description": "Acquire the Big ol' Ron",
-            "icon": "8f06fb184290655dd2a8b4ab61d17104fae64fd4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_20",
-            "name": "Ummm...",
-            "description": "Acquire a Lemon",
-            "icon": "ff66439c5c65b03965b5f1ee0aeecfbaebe37c41",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_21",
-            "name": "Now I can play the game",
-            "description": "Acquire the Ancient Ring of Skills",
-            "icon": "206412f8ee17e1a07f6d317f7d7b9a77a37d92f6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1745992230,
-            "globalPct": 31.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_22",
-            "name": "This is a cool item",
-            "description": "Acquire the Ancient Ring of Masteries",
-            "icon": "e386d0e3bdc6a21277cc35a85ddd48990026fef1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746103256,
-            "globalPct": 30.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_23",
-            "name": "Time to brag",
-            "description": "Acquire the Red Party Hat",
-            "icon": "56a96e84e1cb9e15736b60f448d9120934b2f851",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_24",
-            "name": "Wow I really do need more slots",
-            "description": "Reach 80 Total Bank Slots in Hardcore Mode",
-            "icon": "d174c400651b87b82657a468302106e22f05fd4f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1750282245,
-            "globalPct": 6.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_25",
-            "name": "A Cozy Inventory",
-            "description": "Reach 100 Total Bank Slots",
-            "icon": "eefea2f06aa4c21865302fa38883cd126da87fdf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1746255905,
-            "globalPct": 40.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_26",
-            "name": "Still not enough",
-            "description": "Reach 200 Total Bank Slots",
-            "icon": "5126eb8c0708468e7429bedb125d164db25f0df7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_27",
-            "name": "I die with honor",
-            "description": "Get killed by a Plant in Standard Mode",
-            "icon": "82997352eedaea6a291dc885f7853ecc68730cb0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_28",
-            "name": "Nice",
-            "description": "Acquire the 69th Item (Based on Item ID)",
-            "icon": "c1caad89603a8db7fb72cc0b09407940387e8093",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1748789784,
-            "globalPct": 45.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_29",
-            "name": "It was good while it lasted",
-            "description": "Lose your Hardcore Character by dying",
-            "icon": "c7e6dad9917696f9fe59213c87f09240e9a86bca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1755935197,
-            "globalPct": 6.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_30",
-            "name": "8",
-            "description": "8",
-            "icon": "0830f387f17312c235ccc1c00cf6d19c1efe129e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_2_31",
-            "name": "Attack Master (Hardcore)",
-            "description": "Reach Level 99 for Attack in Hardcore Mode",
-            "icon": "3327038a12e6f0d1b7a2ac5620d3684b36937817",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_0",
-            "name": "Strength Master (Hardcore)",
-            "description": "Reach Level 99 for Strength in Hardcore Mode",
-            "icon": "f6b2106160fe617fa6ef9291d33327aa448a5b41",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_1",
-            "name": "Defence Master (Hardcore)",
-            "description": "Reach Level 99 for Defence in Hardcore Mode",
-            "icon": "42942cbc7d66533f9cd949f61081e8d2847ad298",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_2",
-            "name": "Hitpoints Master (Hardcore)",
-            "description": "Reach Level 99 for Hitpoints in Hardcore Mode",
-            "icon": "3833cc66cdd6cc34dd6d336f88e58c71c25b5756",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_25",
-            "name": "Big Chick (Hardcore)",
-            "description": "Defeat Mumma Chicken in the Chicken Coop in Hardcore Mode",
-            "icon": "f42afc6f05c26e8f1971bd9f38158483e822c6d8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 4.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_26",
-            "name": "The Undead (Hardcore)",
-            "description": "Defeat Zombie Leader in the Undead Graveyard in Hardcore Mode",
-            "icon": "c01aae9fd61b3785d7e10b63228072f200e95057",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_27",
-            "name": "Not so Tough (Hardcore)",
-            "description": "Defeat Bandit Leader in the Bandit Base in Hardcore Mode",
-            "icon": "a9106f35e274d7952f85a877eeb151244b0bd3c2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_28",
-            "name": "A Magical Worry (Hardcore)",
-            "description": "Defeat Elder Wizard in the Hall of Wizards in Hardcore Mode",
-            "icon": "587da6d236e3c0685f6c0acb506ae6f093b043e3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.8
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_29",
-            "name": "Yes, I'm Still Scared (Hardcore)",
-            "description": "Defeat Spider King in the Spider Forest in Hardcore Mode",
-            "icon": "56f1d389ed8a9afef1bcd22c5c56b4e1013aac03",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_30",
-            "name": "Take Note Jack Sparrow (Hardcore)",
-            "description": "Defeat The Kraken in the Deep Sea Ship in Hardcore Mode",
-            "icon": "2c058a19ba289e6597a43efb1171c8ed08b2e63c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_31",
-            "name": "The Chills (Hardcore)",
-            "description": "Defeat Protector of Ice in the Frozen Cove in Hardcore Mode",
-            "icon": "e338027008d6476c563774fc7a7bb7e2b7769637",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_0",
-            "name": "Old and Dumb (Hardcore)",
-            "description": "Defeat Elder Dragon in the Dragons Den in Hardcore Mode",
-            "icon": "fce3f29d636fb652a7c5a483ead38f4c0f7c07f4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_1",
-            "name": "Could be Harder (Hardcore)",
-            "description": "Defeat Prat, the Protector of Secrets in the Volcanic Cave in Hardcore Mode",
-            "icon": "100bacc071317ffe0a7d693f96cb3fdc70f30d8e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_3",
-            "name": "The Air God (Hardcore)",
-            "description": "Defeat Aeris in the Air God Dungeon in Hardcore Mode",
-            "icon": "87cb7357a98b438860f379174cf1e8531e8f2d2a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_4",
-            "name": "The Water God (Hardcore)",
-            "description": "Defeat Glacia in the Water God Dungeon in Hardcore Mode",
-            "icon": "07e6f711c9177912bae8902ae2ad8a1540f6c5be",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.1
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_5",
-            "name": "The Earth God (Hardcore)",
-            "description": "Defeat Terran in the Earth God Dungeon in Hardcore Mode",
-            "icon": "aa52c2ebe149dbc900cd34f80aeaecb4d0dc1f23",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_6",
-            "name": "The Fire God (Hardcore)",
-            "description": "Defeat Ragnar in the Fire God Dungeon in Hardcore Mode",
-            "icon": "69af45d6d8de0c6e7e1a3cf5b29b3c2099d888d6",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_7",
-            "name": "Who? (Hardcore)",
-            "description": "Defeat Malcs, the Guardian of Melvor in the Volcanic Cave in Hardcore Mode",
-            "icon": "bd9acae192c9c7fdd147cffb5124a8bf5e98a5a5",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.6
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_3",
-            "name": "Range Master (Hardcore)",
-            "description": "Reach Level 99 for Range in Hardcore Mode",
-            "icon": "2697c8328769e8041726aa62eeb815128d999116",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_4",
-            "name": "Magic Master (Hardcore)",
-            "description": "Reach Level 99 for Magic in Hardcore Mode",
-            "icon": "34d9468439e90f8beb2a1da4725b14a81646df1b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.5
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_5",
-            "name": "Prayer Master (Hardcore)",
-            "description": "Reach Level 99 for Prayer in Hardcore Mode",
-            "icon": "771b8b9827718e762d54cf9f553ced21271f9346",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_3_6",
-            "name": "Slayer Master (Hardcore)",
-            "description": "Reach Level 99 for Slayer in Hardcore Mode",
-            "icon": "fdf32cafd1d59480696b71dbdc4ed9a466cf8ae9",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.2
-          },
-          {
-            "apiName": "NEW_ACHIEVEMENT_4_12",
-            "name": "Agility Master",
-            "description": "Reach Level 99 for Agility in any Gamemode",
-            "icon": "1540ab0b157e140eae822f9ac0f6824bd294b334",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1762022331,
-            "globalPct": 18.6
-          }
-        ]
-      }
     },
     {
       "appId": 371570,
@@ -48869,6 +48869,1022 @@
       }
     },
     {
+      "appId": 113200,
+      "name": "The Binding of Isaac",
+      "playtimeHours": 145.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Sep 28, 2011",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 99,
+        "unlocked": 94,
+        "items": [
+          {
+            "apiName": "The_Noose",
+            "name": "The Noose",
+            "description": "Complete the full game 2 times",
+            "icon": "19ce7f093ec3002c68e97df384317675c211160b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412867566,
+            "globalPct": 19.4
+          },
+          {
+            "apiName": "The_Nail",
+            "name": "The Nail",
+            "description": "Complete the full game 3 times",
+            "icon": "9fb2d97770a477a4430f7ad2ef8c92d0944b31ca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 17.7
+          },
+          {
+            "apiName": "The_Quarter",
+            "name": "The Quarter",
+            "description": "Complete the full game 4 times",
+            "icon": "6f6ab40626ada80b35ba3fe7a6cc46e29481800b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 16.5
+          },
+          {
+            "apiName": "The_Fetus",
+            "name": "The Fetus",
+            "description": "Complete the full game 5 times",
+            "icon": "aed0e18f5d821865380e627342f3c6ee787b70a0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 15.6
+          },
+          {
+            "apiName": "Terrible",
+            "name": "Everythings Terrible!",
+            "description": "Complete the full game 6 times",
+            "icon": "17ee29385b37ceb1071c208b5c349446275b2131",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413375690,
+            "globalPct": 15
+          },
+          {
+            "apiName": "The_Wafer",
+            "name": "The Wafer",
+            "description": "Complete the full game 7 times",
+            "icon": "b04e41baabcb3b747fc408c9893e1e4fa50f1826",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413471497,
+            "globalPct": 14.4
+          },
+          {
+            "apiName": "Money_Power",
+            "name": "Money = Power",
+            "description": "Complete the full game 8 times",
+            "icon": "0e8f99fe6780fe2ae621c1c9195d1861a42ab6b2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413682907,
+            "globalPct": 13.9
+          },
+          {
+            "apiName": "It_Lives",
+            "name": "It Lives!",
+            "description": "Complete the full game 9 times",
+            "icon": "d99edbf7d0a2706cf4e5f4ef22534ee1b7fe27ad",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 13.5
+          },
+          {
+            "apiName": "The_Spider",
+            "name": "The Radioactive Spider",
+            "description": "Complete the basement",
+            "icon": "d7150b41724fd5a333ac5921e0456ad4bce2afd8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1382202586,
+            "globalPct": 67.9
+          },
+          {
+            "apiName": "Monstros_Tooth",
+            "name": "Monstros Tooth",
+            "description": "Defeat all bosses in the basement",
+            "icon": "3777136dfbe55a1d425a7054d0c239e91265dafa",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1402762886,
+            "globalPct": 52.8
+          },
+          {
+            "apiName": "The_Spelunker",
+            "name": "The Spelunker",
+            "description": "Complete the Caves",
+            "icon": "a3a1c8a3fbe5e827b83166098cd34dc4976ce3dd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 45.2
+          },
+          {
+            "apiName": "Lil_Chubby",
+            "name": "Lil Chubby",
+            "description": "Defeat all bosses in the caves",
+            "icon": "e6b8931e0a7daf31c1b8f8ff91789faa5eb5dd2e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 32.7
+          },
+          {
+            "apiName": "Killed_Mom",
+            "name": "I Killed Mom!",
+            "description": "kill mom...",
+            "icon": "05201c832582d39c7cb22502b9f9fc0033720850",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 30.5
+          },
+          {
+            "apiName": "Lokis_Horns",
+            "name": "Lokis Horns",
+            "description": "Defeat all bosses in the depths",
+            "icon": "752e01201a94d37cfb6124e09306fbec027e7c78",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 22.5
+          },
+          {
+            "apiName": "The_Bag",
+            "name": "The Bag",
+            "description": "Complete the full game with Cain",
+            "icon": "2465b7fa3b0dc2f602b01ce30ce3422f9d288dfb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412789471,
+            "globalPct": 17.3
+          },
+          {
+            "apiName": "The_Robo-Baby",
+            "name": "The Robo-Baby",
+            "description": "Complete the full game with Judas",
+            "icon": "d22d3e5b9a70d61be599e54fb686db9fbf3f77b6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712871882,
+            "globalPct": 13.4
+          },
+          {
+            "apiName": "The_Cross",
+            "name": "The Cross",
+            "description": "Complete the full game with Maggy",
+            "icon": "e2092d6977804615466d9b8b863f73481933013b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712748402,
+            "globalPct": 13.8
+          },
+          {
+            "apiName": "The_D6",
+            "name": "The D6",
+            "description": "",
+            "icon": "699ddad3a30eb55dbf328f2502f0573c5c74328c",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 11.2
+          },
+          {
+            "apiName": "Golden_God",
+            "name": "Golden God!",
+            "description": "100% the game",
+            "icon": "a8dcbfa2735d4cbf3efad268ce283e2f62ef8596",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793662944,
+            "globalPct": 5.5
+          },
+          {
+            "apiName": "Pill_Bottle",
+            "name": "Moms Pill Bottle",
+            "description": "mom needs her pills! donate blood.",
+            "icon": "15eb6742ca030ab1bead0686717d592f954aa715",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1618687193,
+            "globalPct": 23.2
+          },
+          {
+            "apiName": "Common_Cold",
+            "name": "The Common Cold",
+            "description": "Dirty needles... eww",
+            "icon": "e52e248bbd59b717bc28b7ecbedb09cc1ab490da",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 24.1
+          },
+          {
+            "apiName": "The_Parasite",
+            "name": "The Parasite",
+            "description": "Kids shouldnt play with dead things...",
+            "icon": "1b89f8c5315cbf874a30373137fcaae9e5979443",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 43.4
+          },
+          {
+            "apiName": "Mr_Mega",
+            "name": "Mr. Mega!",
+            "description": "Kids shouldnt play with matches...",
+            "icon": "714d0d49172f7f5a6eaf09c77cb4c3189864d5bf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 37.5
+          },
+          {
+            "apiName": "Moms_Contact",
+            "name": "Moms Contact",
+            "description": "stay out of moms things!",
+            "icon": "965f33a7863be80d9ea516df1e9e19a3e584946c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 23
+          },
+          {
+            "apiName": "The_Bean",
+            "name": "The Bean",
+            "description": "you dont wanna know where this bean has been...",
+            "icon": "88591c3f429e15d28fcf95e33bd91385b9cd2c7f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1402761788,
+            "globalPct": 56.3
+          },
+          {
+            "apiName": "The_Halo",
+            "name": "The Halo",
+            "description": "Give mom a taste of her own medicine! ",
+            "icon": "eb4a01f49e47def407c5cc4ff775db3e58363695",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412841983,
+            "globalPct": 14.2
+          },
+          {
+            "apiName": "The_Bandage",
+            "name": "The Bandage",
+            "description": "Make a Super Meat Boy!",
+            "icon": "52d92bf8cdc14f3f31917b329f3c9be2ec8fea2d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 10.3
+          },
+          {
+            "apiName": "The_Rock",
+            "name": "The Rock",
+            "description": "i like to break things... ",
+            "icon": "9f73f9119a96f7237778b32aba6ce4369585f3b1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1382381815,
+            "globalPct": 59.2
+          },
+          {
+            "apiName": "The_Necronomicon",
+            "name": "The Necronomicon",
+            "description": "Call death upon all of them!",
+            "icon": "a8bddef46babec4250a824d7e45d56d58e65ec75",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 18.4
+          },
+          {
+            "apiName": "The_Gamekid",
+            "name": "The Gamekid",
+            "description": "i lost mine in the arcade...",
+            "icon": "2fc1cb05c2504bb4ca71cdc2c03719d09b03db6d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 21.6
+          },
+          {
+            "apiName": "Book_of_Sin",
+            "name": "The Book of Sin",
+            "description": "Destroy the 7 Sins! ",
+            "icon": "8110136b81966ed82cf69829c10450771d80b166",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 30.8
+          },
+          {
+            "apiName": "The_Shears",
+            "name": "The Shears",
+            "description": "ive lost my head one too many times...",
+            "icon": "cac48099adfc1696076cf962f9960353c5395432",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412841983,
+            "globalPct": 19.5
+          },
+          {
+            "apiName": "Steven",
+            "name": "My head hurts...",
+            "description": "",
+            "icon": "306fc0e886b973decb6098f6fa494e6b454e838a",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 25.3
+          },
+          {
+            "apiName": "Chad",
+            "name": "I need a hug...",
+            "description": "",
+            "icon": "1adb0e578580bb38785675a7d46c09446129d3af",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 22.1
+          },
+          {
+            "apiName": "Gish",
+            "name": "I have sticker fingers...",
+            "description": "",
+            "icon": "80d4d8baf84cb69366cc0cf14347ef04939a569f",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1414578831,
+            "globalPct": 12.1
+          },
+          {
+            "apiName": "Cain",
+            "name": "Cains Eyepatch",
+            "description": "Collect 50+ pennies in one play through",
+            "icon": "930221d64749ae177c9baf41b8ae1c29c43db379",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411781332,
+            "globalPct": 31.1
+          },
+          {
+            "apiName": "Maggy",
+            "name": "Maggys Wig",
+            "description": "Collect 7+ container hearts in one play through",
+            "icon": "b66ea229aa4d1bfc602a5df98ff33a0fbea5b2a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1402842591,
+            "globalPct": 41.1
+          },
+          {
+            "apiName": "Judas",
+            "name": "Judas's Fez",
+            "description": "Complete the full game ",
+            "icon": "b53bb5e5edf67d416a1b2545b9d903a0f641a022",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412789471,
+            "globalPct": 22.4
+          },
+          {
+            "apiName": "Baby",
+            "name": "???",
+            "description": "",
+            "icon": "3d6ffb17b122c741406f63875975cce004fbc955",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 13.1
+          },
+          {
+            "apiName": "Basement_Boy",
+            "name": "Basement Boy",
+            "description": "Complete the basement without taking damage",
+            "icon": "0a3fbaabfdf7581252638365d893466eaa33e9c8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412867566,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "Cave_Boy",
+            "name": "Spelunker Boy",
+            "description": "Complete the caves without taking damage",
+            "icon": "ebcd82bc9e2b7cda633023c8b5dbb5e4b8163fa1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793812543,
+            "globalPct": 8.1
+          },
+          {
+            "apiName": "Depths_Boy",
+            "name": "Dark Boy",
+            "description": "Complete the depths without taking damage",
+            "icon": "0dd7c65fa2aed72d7cf447e4edc10218e196207f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.3
+          },
+          {
+            "apiName": "Womb_Boy",
+            "name": "Mamas Boy",
+            "description": "Complete the womb without taking damage",
+            "icon": "4d4085622cba214ee613d4d10d776a3b13de0745",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.8
+          },
+          {
+            "apiName": "The_Monster_Manual",
+            "name": "The Monster Manual",
+            "description": "Complete Sheol with Judas",
+            "icon": "c7e31c75b3f3863a7c3219c2a8fd1ded14094e04",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1722688804,
+            "globalPct": 7.7
+          },
+          {
+            "apiName": "The_Razor_Blade",
+            "name": "The Razor Blade",
+            "description": "Complete the womb with Eve",
+            "icon": "6a8573ba6a16b36984a24c9bbf702ec3e750943f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 10.6
+          },
+          {
+            "apiName": "The_Guardian_Angel",
+            "name": "The Guardian Angel",
+            "description": "Complete Sheol with Maggy",
+            "icon": "60674d77d76bc55ef31f55905cad576bd3dc8c97",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756742501,
+            "globalPct": 7.3
+          },
+          {
+            "apiName": "The_Demon_Baby",
+            "name": "The Demon Baby",
+            "description": "Complete Sheol with Eve",
+            "icon": "4e152cef21b451da5f79ecb41c2de846ab1f3060",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794092659,
+            "globalPct": 6.6
+          },
+          {
+            "apiName": "Moms_Knife",
+            "name": "Moms Knife",
+            "description": "Complete Sheol with Isaac",
+            "icon": "9c6035e8977fdf941ff2b43725da9b78af95cb80",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712596304,
+            "globalPct": 11.6
+          },
+          {
+            "apiName": "Forget_Me_Now",
+            "name": "Forget Me Now",
+            "description": "",
+            "icon": "f25e48793848b55a0817c0123835b17cfc566a01",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 6.2
+          },
+          {
+            "apiName": "Eve",
+            "name": "Eve's Dead Bird",
+            "description": "Make 2 deals with the devil in one play through",
+            "icon": "38e61b46c37e9b832d230bf1724e70ff78ffd765",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 45.1
+          },
+          {
+            "apiName": "bombs",
+            "name": "The Bomb Bag",
+            "description": "Complete Sheol with Cain",
+            "icon": "7e3a51b16456abfe80c921ec5d2b45c60507cc4c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 10.1
+          },
+          {
+            "apiName": "a_gift_from_krampus",
+            "name": "A Gift From Krampus",
+            "description": "",
+            "icon": "7420d35f2c8dc08ee5e73d7ae96b7092f04a1f7b",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 30.2
+          },
+          {
+            "apiName": "_abel",
+            "name": "Abel",
+            "description": "Complete the final chapter with Cain",
+            "icon": "2fd5e7aae53d92cf375a573df45a4fba95f835c5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1414578831,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "_bloodlust",
+            "name": "Blood Lust",
+            "description": "Kill moms heart with Samson",
+            "icon": "6dfaa87f3af1da85e622781105af80565cb636ae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712957041,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "_d20",
+            "name": "The D20",
+            "description": "Complete the final chapter with Isaac",
+            "icon": "1d424461d0357e9d311019021d848377886660f7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 9.5
+          },
+          {
+            "apiName": "_cross",
+            "name": "The Cross",
+            "description": "Complete the final chapter with Maggy",
+            "icon": "e69b6f52e7afc69db69a9ab011b856b5bca6d8d3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712748402,
+            "globalPct": 6.9
+          },
+          {
+            "apiName": "_horn",
+            "name": "The Curved Horn",
+            "description": "Complete the final chapter with Judas",
+            "icon": "d1f05a6dce308ff407d0a852cc91f112391c306f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712879487,
+            "globalPct": 7.2
+          },
+          {
+            "apiName": "_knife2",
+            "name": "The Sacrificial Knife",
+            "description": "Complete the final chapter with Eve",
+            "icon": "531a391f8e87d75780416fc3a908576ced06f901",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 6.3
+          },
+          {
+            "apiName": "_rainbow",
+            "name": "The Rainbow Baby",
+            "description": "Complete the final chapter with ???",
+            "icon": "be83adeb130a0897fbc10faaca76a367c632a38e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1713007272,
+            "globalPct": 7.1
+          },
+          {
+            "apiName": "_bloodpenny",
+            "name": "The Bloody Penny",
+            "description": "Complete the final chapter with Samson",
+            "icon": "dae2e9249075accbde4df70d725126282c97576f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712966596,
+            "globalPct": 6.1
+          },
+          {
+            "apiName": "_bloodrights",
+            "name": "Blood Rights",
+            "description": "Kill Satan with Samson",
+            "icon": "371b2ecb240676fa5034f4365203594222ea18ae",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 5.8
+          },
+          {
+            "apiName": "_platinum",
+            "name": "Platinum God!",
+            "description": "100% the game",
+            "icon": "46a7a13620cb215cfd872dbbfd585648ca574c7f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.3
+          },
+          {
+            "apiName": "_samson",
+            "name": "Samson",
+            "description": "Kill mom but pass on 2 treasure room items",
+            "icon": "b1f7193968ca2d9ab100ec50bd65dabab1c44b0d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 16.6
+          },
+          {
+            "apiName": "_candle",
+            "name": "The Burnt Penny",
+            "description": "Complete Challenge 3",
+            "icon": "90862e90a5026cb027130f9e0e11f8d844894f07",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719073955,
+            "globalPct": 8.7
+          },
+          {
+            "apiName": "_toe",
+            "name": "The Candle",
+            "description": "Complete Challenge 1",
+            "icon": "dc5bd206425c848f1f5147d438671f62c4ae4c90",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712624091,
+            "globalPct": 9.7
+          },
+          {
+            "apiName": "_burntpenny",
+            "name": "The Lucky Toe",
+            "description": "Complete Challenge 2",
+            "icon": "9b0da8d4a8865a6180e16575a3fc2915bea541a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719072631,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "_tail",
+            "name": "Guppys Tail",
+            "description": "Complete Challenge 4",
+            "icon": "fe6c9f55d04b410bf4a10e052163e4b7b552fa36",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719081441,
+            "globalPct": 8
+          },
+          {
+            "apiName": "_megafetus",
+            "name": "Mega Fetus",
+            "description": "Complete Challenge 6",
+            "icon": "ef9d552ceb9ecf0c434f985b7a4f62cf96204b10",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719092434,
+            "globalPct": 10.7
+          },
+          {
+            "apiName": "_fish",
+            "name": "The Fish Head",
+            "description": "Complete Challenge 5",
+            "icon": "d99734bc7d378dd939c952ae7c7825b5faa4e597",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719081539,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "_superfan",
+            "name": "Super SMB Fan",
+            "description": "Complete Challenge 7",
+            "icon": "e4074894bf216f0768985e3e252e984ce1e45a17",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719247493,
+            "globalPct": 9.3
+          },
+          {
+            "apiName": "_spiderbutt",
+            "name": "The Spider Butt",
+            "description": "Complete Challenge 8",
+            "icon": "35b4b0536c1a6c961c59adfd01de81de66f95a9a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719247493,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "_counterfeit",
+            "name": "The Counterfeit Coin",
+            "description": "Complete Challenge 9",
+            "icon": "25bdb8c93641cc25d58baa77a9635662d9e0ad27",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719279000,
+            "globalPct": 6.8
+          },
+          {
+            "apiName": "_hairball",
+            "name": "Guppys Hairball",
+            "description": "",
+            "icon": "a723b2a0fe1e2aa22fb1afdc74b5c878773fa62e",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1793828063,
+            "globalPct": 10.1
+          },
+          {
+            "apiName": "_eggsack",
+            "name": "Daddys love",
+            "description": "",
+            "icon": "b2ee52e127df829de46339daca2ecc9ca7594312",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1719405187,
+            "globalPct": 5.5
+          },
+          {
+            "apiName": "_dadskey",
+            "name": "Dads Key",
+            "description": "",
+            "icon": "286d4f8ed24277d7fdd65b2f3d681b25b4f9ae52",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 7.7
+          },
+          {
+            "apiName": "_polaroid",
+            "name": "The Polaroid",
+            "description": "",
+            "icon": "32613009e3c27bc73f82bb7f35cd3cc72268937b",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712690542,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "_head",
+            "name": "Isaacs Head",
+            "description": "",
+            "icon": "3ba45acb3f8124b756b9a08dc9ab93c99ecf5775",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 7
+          },
+          {
+            "apiName": "_faith",
+            "name": "Maggys Faith",
+            "description": "",
+            "icon": "2595349524b28a34de63b4fb60b17f5727209ac8",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712764875,
+            "globalPct": 5.1
+          },
+          {
+            "apiName": "_eye",
+            "name": "Cains Eye",
+            "description": "",
+            "icon": "82ddcdacec1dc275f9443349de974023ac56bb61",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712879487,
+            "globalPct": 5.3
+          },
+          {
+            "apiName": "_tongue",
+            "name": "Judas' Tongue ",
+            "description": "",
+            "icon": "522e2c8a896a8248e3980e971c1f1d539a5a78a3",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 4.8
+          },
+          {
+            "apiName": "_birdfoot",
+            "name": "Eves Bird Foot",
+            "description": "",
+            "icon": "78e5f16c8d7a08c3829a8ef7e4b95cb6352d42a3",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712966596,
+            "globalPct": 4.3
+          },
+          {
+            "apiName": "_soul",
+            "name": "???s Soul",
+            "description": "",
+            "icon": "721598c273a7bed9bd5cac40657704e3c5369954",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712777094,
+            "globalPct": 5.3
+          },
+          {
+            "apiName": "_lock",
+            "name": "Samsons Lock",
+            "description": "",
+            "icon": "8d878bfab6a41ef314082db2e35df220afb902ac",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1713085743,
+            "globalPct": 4.6
+          },
+          {
+            "apiName": "_hand",
+            "name": "The Left Hand",
+            "description": "",
+            "icon": "377c10eeaabb2b2686e2d7bceac654b0b49110f2",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1578137213,
+            "globalPct": 16.1
+          },
+          {
+            "apiName": "emom",
+            "name": "Eternal Mom",
+            "description": "Beat Mom in Hardmode",
+            "icon": "da16da58d713bea700100a46575a170c3e2412b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 3.7
+          },
+          {
+            "apiName": "eheart",
+            "name": "Eternal Heart",
+            "description": "Beat Moms Heart in Hardmode",
+            "icon": "9324c73d63e8ad0954cb03a299c4b7cfdb3a67a2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 3.2
+          },
+          {
+            "apiName": "esatan",
+            "name": "Eternal Satan",
+            "description": "Beat Satan in Hardmode",
+            "icon": "85aa008304fec5a1839ae95d5ad3f8d05d831cf2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712596304,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "eisaac",
+            "name": "Eternal Cathedral",
+            "description": "Beat the boss in the Cathedral in Hardmode",
+            "icon": "117d84eb49b50a44e6ecc590fad84d56fe9ddc5e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "hardgame",
+            "name": "Hard Game",
+            "description": "Beat the Game in Hardmode!",
+            "icon": "638feb9501f571a9fbf871e7affbfa80e6ae80f8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 2.1
+          },
+          {
+            "apiName": "elife",
+            "name": "Eternal Life",
+            "description": "Gain 7 Health upgrades from Eternal Hearts",
+            "icon": "129999ab8991a13acf4030c9c227108b2c0cdec7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712596304,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "pisaac",
+            "name": "Eternal Isaac",
+            "description": "Beat the game as Isaac in Hardmode",
+            "icon": "9777ac0e60380a7286ec31e2b86c8f1ef5123164",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 2
+          },
+          {
+            "apiName": "pcain",
+            "name": "Eternal Cain",
+            "description": "Beat the game as Cain in Hardmode",
+            "icon": "d62a67a97c5169d32c602f16e725d7d4edf220fc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712777094,
+            "globalPct": 1.9
+          },
+          {
+            "apiName": "pmaggy",
+            "name": "Eternal Maggy",
+            "description": "Beat the game as Magdalen in Hardmode",
+            "icon": "c4575ec5d5b9c3362e19fe23b99e809836092367",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712764875,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "pjudas",
+            "name": "Eternal Judas",
+            "description": "Beat the game as Judas in Hardmode",
+            "icon": "a60dcd55c1784217665208a81359f9dc7448c870",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712879487,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "psam",
+            "name": "Eternal Samson",
+            "description": "Beat the game as Samson in Hardmode",
+            "icon": "227f2d36f073e60505c049a59c09ed5bc3f8903b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712966596,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "peve",
+            "name": "Eternal Eve",
+            "description": "Beat the game as Eve in Hardmode",
+            "icon": "57c6bcd2f8f6465e3105c4ea22f38693829925ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "pblue",
+            "name": "Eternal ???",
+            "description": "Beat the game as ??? in Hardmode, and good luck!",
+            "icon": "e9e20be5b031ab3410ebf50a932ccd48fff77cdc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1713085743,
+            "globalPct": 1.7
+          },
+          {
+            "apiName": "ppers",
+            "name": "Eternal Personalities",
+            "description": "Beat the game as all characters in Hardmode.",
+            "icon": "43ac7d887f0c727e04c1c3495c8591580b7c8862",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1713085743,
+            "globalPct": 1.7
+          },
+          {
+            "apiName": "egod",
+            "name": "Eternal God",
+            "description": "100% the game and hardmode (get all the achievements)",
+            "icon": "759468022d30ce9a9010e6662f210c7e476618a3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.6
+          }
+        ]
+      }
+    },
+    {
       "appId": 581320,
       "name": "Insurgency: Sandstorm",
       "playtimeHours": 139.4,
@@ -50046,1022 +51062,6 @@
             "unlocked": false,
             "unlockTime": 0,
             "globalPct": 4.1
-          }
-        ]
-      }
-    },
-    {
-      "appId": 113200,
-      "name": "The Binding of Isaac",
-      "playtimeHours": 137.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Sep 28, 2011",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 99,
-        "unlocked": 93,
-        "items": [
-          {
-            "apiName": "The_Noose",
-            "name": "The Noose",
-            "description": "Complete the full game 2 times",
-            "icon": "19ce7f093ec3002c68e97df384317675c211160b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412867566,
-            "globalPct": 19.4
-          },
-          {
-            "apiName": "The_Nail",
-            "name": "The Nail",
-            "description": "Complete the full game 3 times",
-            "icon": "9fb2d97770a477a4430f7ad2ef8c92d0944b31ca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 17.7
-          },
-          {
-            "apiName": "The_Quarter",
-            "name": "The Quarter",
-            "description": "Complete the full game 4 times",
-            "icon": "6f6ab40626ada80b35ba3fe7a6cc46e29481800b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 16.5
-          },
-          {
-            "apiName": "The_Fetus",
-            "name": "The Fetus",
-            "description": "Complete the full game 5 times",
-            "icon": "aed0e18f5d821865380e627342f3c6ee787b70a0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 15.6
-          },
-          {
-            "apiName": "Terrible",
-            "name": "Everythings Terrible!",
-            "description": "Complete the full game 6 times",
-            "icon": "17ee29385b37ceb1071c208b5c349446275b2131",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413375690,
-            "globalPct": 15
-          },
-          {
-            "apiName": "The_Wafer",
-            "name": "The Wafer",
-            "description": "Complete the full game 7 times",
-            "icon": "b04e41baabcb3b747fc408c9893e1e4fa50f1826",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413471497,
-            "globalPct": 14.4
-          },
-          {
-            "apiName": "Money_Power",
-            "name": "Money = Power",
-            "description": "Complete the full game 8 times",
-            "icon": "0e8f99fe6780fe2ae621c1c9195d1861a42ab6b2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413682907,
-            "globalPct": 13.9
-          },
-          {
-            "apiName": "It_Lives",
-            "name": "It Lives!",
-            "description": "Complete the full game 9 times",
-            "icon": "d99edbf7d0a2706cf4e5f4ef22534ee1b7fe27ad",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 13.5
-          },
-          {
-            "apiName": "The_Spider",
-            "name": "The Radioactive Spider",
-            "description": "Complete the basement",
-            "icon": "d7150b41724fd5a333ac5921e0456ad4bce2afd8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1382202586,
-            "globalPct": 67.9
-          },
-          {
-            "apiName": "Monstros_Tooth",
-            "name": "Monstros Tooth",
-            "description": "Defeat all bosses in the basement",
-            "icon": "3777136dfbe55a1d425a7054d0c239e91265dafa",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1402762886,
-            "globalPct": 52.8
-          },
-          {
-            "apiName": "The_Spelunker",
-            "name": "The Spelunker",
-            "description": "Complete the Caves",
-            "icon": "a3a1c8a3fbe5e827b83166098cd34dc4976ce3dd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 45.2
-          },
-          {
-            "apiName": "Lil_Chubby",
-            "name": "Lil Chubby",
-            "description": "Defeat all bosses in the caves",
-            "icon": "e6b8931e0a7daf31c1b8f8ff91789faa5eb5dd2e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 32.7
-          },
-          {
-            "apiName": "Killed_Mom",
-            "name": "I Killed Mom!",
-            "description": "kill mom...",
-            "icon": "05201c832582d39c7cb22502b9f9fc0033720850",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 30.5
-          },
-          {
-            "apiName": "Lokis_Horns",
-            "name": "Lokis Horns",
-            "description": "Defeat all bosses in the depths",
-            "icon": "752e01201a94d37cfb6124e09306fbec027e7c78",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 22.5
-          },
-          {
-            "apiName": "The_Bag",
-            "name": "The Bag",
-            "description": "Complete the full game with Cain",
-            "icon": "2465b7fa3b0dc2f602b01ce30ce3422f9d288dfb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412789471,
-            "globalPct": 17.3
-          },
-          {
-            "apiName": "The_Robo-Baby",
-            "name": "The Robo-Baby",
-            "description": "Complete the full game with Judas",
-            "icon": "d22d3e5b9a70d61be599e54fb686db9fbf3f77b6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712871882,
-            "globalPct": 13.4
-          },
-          {
-            "apiName": "The_Cross",
-            "name": "The Cross",
-            "description": "Complete the full game with Maggy",
-            "icon": "e2092d6977804615466d9b8b863f73481933013b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712748402,
-            "globalPct": 13.8
-          },
-          {
-            "apiName": "The_D6",
-            "name": "The D6",
-            "description": "",
-            "icon": "699ddad3a30eb55dbf328f2502f0573c5c74328c",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 11.2
-          },
-          {
-            "apiName": "Golden_God",
-            "name": "Golden God!",
-            "description": "100% the game",
-            "icon": "a8dcbfa2735d4cbf3efad268ce283e2f62ef8596",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793662944,
-            "globalPct": 5.5
-          },
-          {
-            "apiName": "Pill_Bottle",
-            "name": "Moms Pill Bottle",
-            "description": "mom needs her pills! donate blood.",
-            "icon": "15eb6742ca030ab1bead0686717d592f954aa715",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1618687193,
-            "globalPct": 23.2
-          },
-          {
-            "apiName": "Common_Cold",
-            "name": "The Common Cold",
-            "description": "Dirty needles... eww",
-            "icon": "e52e248bbd59b717bc28b7ecbedb09cc1ab490da",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 24.1
-          },
-          {
-            "apiName": "The_Parasite",
-            "name": "The Parasite",
-            "description": "Kids shouldnt play with dead things...",
-            "icon": "1b89f8c5315cbf874a30373137fcaae9e5979443",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 43.4
-          },
-          {
-            "apiName": "Mr_Mega",
-            "name": "Mr. Mega!",
-            "description": "Kids shouldnt play with matches...",
-            "icon": "714d0d49172f7f5a6eaf09c77cb4c3189864d5bf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 37.5
-          },
-          {
-            "apiName": "Moms_Contact",
-            "name": "Moms Contact",
-            "description": "stay out of moms things!",
-            "icon": "965f33a7863be80d9ea516df1e9e19a3e584946c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 23
-          },
-          {
-            "apiName": "The_Bean",
-            "name": "The Bean",
-            "description": "you dont wanna know where this bean has been...",
-            "icon": "88591c3f429e15d28fcf95e33bd91385b9cd2c7f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1402761788,
-            "globalPct": 56.3
-          },
-          {
-            "apiName": "The_Halo",
-            "name": "The Halo",
-            "description": "Give mom a taste of her own medicine! ",
-            "icon": "eb4a01f49e47def407c5cc4ff775db3e58363695",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412841983,
-            "globalPct": 14.2
-          },
-          {
-            "apiName": "The_Bandage",
-            "name": "The Bandage",
-            "description": "Make a Super Meat Boy!",
-            "icon": "52d92bf8cdc14f3f31917b329f3c9be2ec8fea2d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 10.3
-          },
-          {
-            "apiName": "The_Rock",
-            "name": "The Rock",
-            "description": "i like to break things... ",
-            "icon": "9f73f9119a96f7237778b32aba6ce4369585f3b1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1382381815,
-            "globalPct": 59.2
-          },
-          {
-            "apiName": "The_Necronomicon",
-            "name": "The Necronomicon",
-            "description": "Call death upon all of them!",
-            "icon": "a8bddef46babec4250a824d7e45d56d58e65ec75",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 18.4
-          },
-          {
-            "apiName": "The_Gamekid",
-            "name": "The Gamekid",
-            "description": "i lost mine in the arcade...",
-            "icon": "2fc1cb05c2504bb4ca71cdc2c03719d09b03db6d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 21.6
-          },
-          {
-            "apiName": "Book_of_Sin",
-            "name": "The Book of Sin",
-            "description": "Destroy the 7 Sins! ",
-            "icon": "8110136b81966ed82cf69829c10450771d80b166",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 30.8
-          },
-          {
-            "apiName": "The_Shears",
-            "name": "The Shears",
-            "description": "ive lost my head one too many times...",
-            "icon": "cac48099adfc1696076cf962f9960353c5395432",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412841983,
-            "globalPct": 19.5
-          },
-          {
-            "apiName": "Steven",
-            "name": "My head hurts...",
-            "description": "",
-            "icon": "306fc0e886b973decb6098f6fa494e6b454e838a",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 25.3
-          },
-          {
-            "apiName": "Chad",
-            "name": "I need a hug...",
-            "description": "",
-            "icon": "1adb0e578580bb38785675a7d46c09446129d3af",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 22.1
-          },
-          {
-            "apiName": "Gish",
-            "name": "I have sticker fingers...",
-            "description": "",
-            "icon": "80d4d8baf84cb69366cc0cf14347ef04939a569f",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1414578831,
-            "globalPct": 12.1
-          },
-          {
-            "apiName": "Cain",
-            "name": "Cains Eyepatch",
-            "description": "Collect 50+ pennies in one play through",
-            "icon": "930221d64749ae177c9baf41b8ae1c29c43db379",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411781332,
-            "globalPct": 31.1
-          },
-          {
-            "apiName": "Maggy",
-            "name": "Maggys Wig",
-            "description": "Collect 7+ container hearts in one play through",
-            "icon": "b66ea229aa4d1bfc602a5df98ff33a0fbea5b2a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1402842591,
-            "globalPct": 41.1
-          },
-          {
-            "apiName": "Judas",
-            "name": "Judas's Fez",
-            "description": "Complete the full game ",
-            "icon": "b53bb5e5edf67d416a1b2545b9d903a0f641a022",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412789471,
-            "globalPct": 22.4
-          },
-          {
-            "apiName": "Baby",
-            "name": "???",
-            "description": "",
-            "icon": "3d6ffb17b122c741406f63875975cce004fbc955",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 13.1
-          },
-          {
-            "apiName": "Basement_Boy",
-            "name": "Basement Boy",
-            "description": "Complete the basement without taking damage",
-            "icon": "0a3fbaabfdf7581252638365d893466eaa33e9c8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412867566,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "Cave_Boy",
-            "name": "Spelunker Boy",
-            "description": "Complete the caves without taking damage",
-            "icon": "ebcd82bc9e2b7cda633023c8b5dbb5e4b8163fa1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793812543,
-            "globalPct": 8.1
-          },
-          {
-            "apiName": "Depths_Boy",
-            "name": "Dark Boy",
-            "description": "Complete the depths without taking damage",
-            "icon": "0dd7c65fa2aed72d7cf447e4edc10218e196207f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.3
-          },
-          {
-            "apiName": "Womb_Boy",
-            "name": "Mamas Boy",
-            "description": "Complete the womb without taking damage",
-            "icon": "4d4085622cba214ee613d4d10d776a3b13de0745",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.8
-          },
-          {
-            "apiName": "The_Monster_Manual",
-            "name": "The Monster Manual",
-            "description": "Complete Sheol with Judas",
-            "icon": "c7e31c75b3f3863a7c3219c2a8fd1ded14094e04",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1722688804,
-            "globalPct": 7.7
-          },
-          {
-            "apiName": "The_Razor_Blade",
-            "name": "The Razor Blade",
-            "description": "Complete the womb with Eve",
-            "icon": "6a8573ba6a16b36984a24c9bbf702ec3e750943f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 10.6
-          },
-          {
-            "apiName": "The_Guardian_Angel",
-            "name": "The Guardian Angel",
-            "description": "Complete Sheol with Maggy",
-            "icon": "60674d77d76bc55ef31f55905cad576bd3dc8c97",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756742501,
-            "globalPct": 7.3
-          },
-          {
-            "apiName": "The_Demon_Baby",
-            "name": "The Demon Baby",
-            "description": "Complete Sheol with Eve",
-            "icon": "4e152cef21b451da5f79ecb41c2de846ab1f3060",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.6
-          },
-          {
-            "apiName": "Moms_Knife",
-            "name": "Moms Knife",
-            "description": "Complete Sheol with Isaac",
-            "icon": "9c6035e8977fdf941ff2b43725da9b78af95cb80",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712596304,
-            "globalPct": 11.6
-          },
-          {
-            "apiName": "Forget_Me_Now",
-            "name": "Forget Me Now",
-            "description": "",
-            "icon": "f25e48793848b55a0817c0123835b17cfc566a01",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 6.2
-          },
-          {
-            "apiName": "Eve",
-            "name": "Eve's Dead Bird",
-            "description": "Make 2 deals with the devil in one play through",
-            "icon": "38e61b46c37e9b832d230bf1724e70ff78ffd765",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 45.1
-          },
-          {
-            "apiName": "bombs",
-            "name": "The Bomb Bag",
-            "description": "Complete Sheol with Cain",
-            "icon": "7e3a51b16456abfe80c921ec5d2b45c60507cc4c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 10.1
-          },
-          {
-            "apiName": "a_gift_from_krampus",
-            "name": "A Gift From Krampus",
-            "description": "",
-            "icon": "7420d35f2c8dc08ee5e73d7ae96b7092f04a1f7b",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 30.2
-          },
-          {
-            "apiName": "_abel",
-            "name": "Abel",
-            "description": "Complete the final chapter with Cain",
-            "icon": "2fd5e7aae53d92cf375a573df45a4fba95f835c5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1414578831,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "_bloodlust",
-            "name": "Blood Lust",
-            "description": "Kill moms heart with Samson",
-            "icon": "6dfaa87f3af1da85e622781105af80565cb636ae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712957041,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "_d20",
-            "name": "The D20",
-            "description": "Complete the final chapter with Isaac",
-            "icon": "1d424461d0357e9d311019021d848377886660f7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 9.5
-          },
-          {
-            "apiName": "_cross",
-            "name": "The Cross",
-            "description": "Complete the final chapter with Maggy",
-            "icon": "e69b6f52e7afc69db69a9ab011b856b5bca6d8d3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712748402,
-            "globalPct": 6.9
-          },
-          {
-            "apiName": "_horn",
-            "name": "The Curved Horn",
-            "description": "Complete the final chapter with Judas",
-            "icon": "d1f05a6dce308ff407d0a852cc91f112391c306f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712879487,
-            "globalPct": 7.2
-          },
-          {
-            "apiName": "_knife2",
-            "name": "The Sacrificial Knife",
-            "description": "Complete the final chapter with Eve",
-            "icon": "531a391f8e87d75780416fc3a908576ced06f901",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 6.3
-          },
-          {
-            "apiName": "_rainbow",
-            "name": "The Rainbow Baby",
-            "description": "Complete the final chapter with ???",
-            "icon": "be83adeb130a0897fbc10faaca76a367c632a38e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1713007272,
-            "globalPct": 7.1
-          },
-          {
-            "apiName": "_bloodpenny",
-            "name": "The Bloody Penny",
-            "description": "Complete the final chapter with Samson",
-            "icon": "dae2e9249075accbde4df70d725126282c97576f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712966596,
-            "globalPct": 6.1
-          },
-          {
-            "apiName": "_bloodrights",
-            "name": "Blood Rights",
-            "description": "Kill Satan with Samson",
-            "icon": "371b2ecb240676fa5034f4365203594222ea18ae",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 5.8
-          },
-          {
-            "apiName": "_platinum",
-            "name": "Platinum God!",
-            "description": "100% the game",
-            "icon": "46a7a13620cb215cfd872dbbfd585648ca574c7f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.3
-          },
-          {
-            "apiName": "_samson",
-            "name": "Samson",
-            "description": "Kill mom but pass on 2 treasure room items",
-            "icon": "b1f7193968ca2d9ab100ec50bd65dabab1c44b0d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 16.6
-          },
-          {
-            "apiName": "_candle",
-            "name": "The Burnt Penny",
-            "description": "Complete Challenge 3",
-            "icon": "90862e90a5026cb027130f9e0e11f8d844894f07",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719073955,
-            "globalPct": 8.7
-          },
-          {
-            "apiName": "_toe",
-            "name": "The Candle",
-            "description": "Complete Challenge 1",
-            "icon": "dc5bd206425c848f1f5147d438671f62c4ae4c90",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712624091,
-            "globalPct": 9.7
-          },
-          {
-            "apiName": "_burntpenny",
-            "name": "The Lucky Toe",
-            "description": "Complete Challenge 2",
-            "icon": "9b0da8d4a8865a6180e16575a3fc2915bea541a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719072631,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "_tail",
-            "name": "Guppys Tail",
-            "description": "Complete Challenge 4",
-            "icon": "fe6c9f55d04b410bf4a10e052163e4b7b552fa36",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719081441,
-            "globalPct": 8
-          },
-          {
-            "apiName": "_megafetus",
-            "name": "Mega Fetus",
-            "description": "Complete Challenge 6",
-            "icon": "ef9d552ceb9ecf0c434f985b7a4f62cf96204b10",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719092434,
-            "globalPct": 10.7
-          },
-          {
-            "apiName": "_fish",
-            "name": "The Fish Head",
-            "description": "Complete Challenge 5",
-            "icon": "d99734bc7d378dd939c952ae7c7825b5faa4e597",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719081539,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "_superfan",
-            "name": "Super SMB Fan",
-            "description": "Complete Challenge 7",
-            "icon": "e4074894bf216f0768985e3e252e984ce1e45a17",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719247493,
-            "globalPct": 9.3
-          },
-          {
-            "apiName": "_spiderbutt",
-            "name": "The Spider Butt",
-            "description": "Complete Challenge 8",
-            "icon": "35b4b0536c1a6c961c59adfd01de81de66f95a9a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719247493,
-            "globalPct": 8.6
-          },
-          {
-            "apiName": "_counterfeit",
-            "name": "The Counterfeit Coin",
-            "description": "Complete Challenge 9",
-            "icon": "25bdb8c93641cc25d58baa77a9635662d9e0ad27",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719279000,
-            "globalPct": 6.8
-          },
-          {
-            "apiName": "_hairball",
-            "name": "Guppys Hairball",
-            "description": "",
-            "icon": "a723b2a0fe1e2aa22fb1afdc74b5c878773fa62e",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1793828063,
-            "globalPct": 10.1
-          },
-          {
-            "apiName": "_eggsack",
-            "name": "Daddys love",
-            "description": "",
-            "icon": "b2ee52e127df829de46339daca2ecc9ca7594312",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1719405187,
-            "globalPct": 5.5
-          },
-          {
-            "apiName": "_dadskey",
-            "name": "Dads Key",
-            "description": "",
-            "icon": "286d4f8ed24277d7fdd65b2f3d681b25b4f9ae52",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 7.7
-          },
-          {
-            "apiName": "_polaroid",
-            "name": "The Polaroid",
-            "description": "",
-            "icon": "32613009e3c27bc73f82bb7f35cd3cc72268937b",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712690542,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "_head",
-            "name": "Isaacs Head",
-            "description": "",
-            "icon": "3ba45acb3f8124b756b9a08dc9ab93c99ecf5775",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 7
-          },
-          {
-            "apiName": "_faith",
-            "name": "Maggys Faith",
-            "description": "",
-            "icon": "2595349524b28a34de63b4fb60b17f5727209ac8",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712764875,
-            "globalPct": 5.1
-          },
-          {
-            "apiName": "_eye",
-            "name": "Cains Eye",
-            "description": "",
-            "icon": "82ddcdacec1dc275f9443349de974023ac56bb61",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712879487,
-            "globalPct": 5.3
-          },
-          {
-            "apiName": "_tongue",
-            "name": "Judas' Tongue ",
-            "description": "",
-            "icon": "522e2c8a896a8248e3980e971c1f1d539a5a78a3",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 4.8
-          },
-          {
-            "apiName": "_birdfoot",
-            "name": "Eves Bird Foot",
-            "description": "",
-            "icon": "78e5f16c8d7a08c3829a8ef7e4b95cb6352d42a3",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712966596,
-            "globalPct": 4.3
-          },
-          {
-            "apiName": "_soul",
-            "name": "???s Soul",
-            "description": "",
-            "icon": "721598c273a7bed9bd5cac40657704e3c5369954",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712777094,
-            "globalPct": 5.3
-          },
-          {
-            "apiName": "_lock",
-            "name": "Samsons Lock",
-            "description": "",
-            "icon": "8d878bfab6a41ef314082db2e35df220afb902ac",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1713085743,
-            "globalPct": 4.6
-          },
-          {
-            "apiName": "_hand",
-            "name": "The Left Hand",
-            "description": "",
-            "icon": "377c10eeaabb2b2686e2d7bceac654b0b49110f2",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1578137213,
-            "globalPct": 16.1
-          },
-          {
-            "apiName": "emom",
-            "name": "Eternal Mom",
-            "description": "Beat Mom in Hardmode",
-            "icon": "da16da58d713bea700100a46575a170c3e2412b4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 3.7
-          },
-          {
-            "apiName": "eheart",
-            "name": "Eternal Heart",
-            "description": "Beat Moms Heart in Hardmode",
-            "icon": "9324c73d63e8ad0954cb03a299c4b7cfdb3a67a2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 3.2
-          },
-          {
-            "apiName": "esatan",
-            "name": "Eternal Satan",
-            "description": "Beat Satan in Hardmode",
-            "icon": "85aa008304fec5a1839ae95d5ad3f8d05d831cf2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712596304,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "eisaac",
-            "name": "Eternal Cathedral",
-            "description": "Beat the boss in the Cathedral in Hardmode",
-            "icon": "117d84eb49b50a44e6ecc590fad84d56fe9ddc5e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "hardgame",
-            "name": "Hard Game",
-            "description": "Beat the Game in Hardmode!",
-            "icon": "638feb9501f571a9fbf871e7affbfa80e6ae80f8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 2.1
-          },
-          {
-            "apiName": "elife",
-            "name": "Eternal Life",
-            "description": "Gain 7 Health upgrades from Eternal Hearts",
-            "icon": "129999ab8991a13acf4030c9c227108b2c0cdec7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712596304,
-            "globalPct": 2.8
-          },
-          {
-            "apiName": "pisaac",
-            "name": "Eternal Isaac",
-            "description": "Beat the game as Isaac in Hardmode",
-            "icon": "9777ac0e60380a7286ec31e2b86c8f1ef5123164",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 2
-          },
-          {
-            "apiName": "pcain",
-            "name": "Eternal Cain",
-            "description": "Beat the game as Cain in Hardmode",
-            "icon": "d62a67a97c5169d32c602f16e725d7d4edf220fc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712777094,
-            "globalPct": 1.9
-          },
-          {
-            "apiName": "pmaggy",
-            "name": "Eternal Maggy",
-            "description": "Beat the game as Magdalen in Hardmode",
-            "icon": "c4575ec5d5b9c3362e19fe23b99e809836092367",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712764875,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "pjudas",
-            "name": "Eternal Judas",
-            "description": "Beat the game as Judas in Hardmode",
-            "icon": "a60dcd55c1784217665208a81359f9dc7448c870",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712879487,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "psam",
-            "name": "Eternal Samson",
-            "description": "Beat the game as Samson in Hardmode",
-            "icon": "227f2d36f073e60505c049a59c09ed5bc3f8903b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712966596,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "peve",
-            "name": "Eternal Eve",
-            "description": "Beat the game as Eve in Hardmode",
-            "icon": "57c6bcd2f8f6465e3105c4ea22f38693829925ab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "pblue",
-            "name": "Eternal ???",
-            "description": "Beat the game as ??? in Hardmode, and good luck!",
-            "icon": "e9e20be5b031ab3410ebf50a932ccd48fff77cdc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1713085743,
-            "globalPct": 1.7
-          },
-          {
-            "apiName": "ppers",
-            "name": "Eternal Personalities",
-            "description": "Beat the game as all characters in Hardmode.",
-            "icon": "43ac7d887f0c727e04c1c3495c8591580b7c8862",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1713085743,
-            "globalPct": 1.7
-          },
-          {
-            "apiName": "egod",
-            "name": "Eternal God",
-            "description": "100% the game and hardmode (get all the achievements)",
-            "icon": "759468022d30ce9a9010e6662f210c7e476618a3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.6
           }
         ]
       }
@@ -202430,6 +202430,175 @@
       }
     },
     {
+      "appId": 640120,
+      "name": "Youropa",
+      "playtimeHours": 9.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/640120/d38b20fc4cb843f2ae1a51fcdd561e0126bc504f.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/640120/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/640120/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 15,
+        "unlocked": 11,
+        "items": [
+          {
+            "apiName": "ACHIEVEMENT_PAINT",
+            "name": "Who are you?",
+            "description": "Design yourself",
+            "icon": "68034897ce67fff2cb668f8bf5b8c3c809178cd0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793626693,
+            "globalPct": 92.4
+          },
+          {
+            "apiName": "ACHIEVEMENT_LOOK",
+            "name": "Visions",
+            "description": "Observe yourself from a distance",
+            "icon": "3fc23c4061461b5b73b1c43644081a7fc7c632c9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793627112,
+            "globalPct": 63.2
+          },
+          {
+            "apiName": "ACHIEVEMENT_CASSETTE",
+            "name": "K7",
+            "description": "Get them all",
+            "icon": "4b47660a0bc282076fdc05a4f3d166d45be61605",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.8
+          },
+          {
+            "apiName": "ACHIEVEMENT_GRAFFITI",
+            "name": "Graffiti",
+            "description": "Add some color",
+            "icon": "f4b62154911b56c38869af27e4200da2781bf050",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.6
+          },
+          {
+            "apiName": "ACHIEVEMENT_CREATELEVEL",
+            "name": "DIY",
+            "description": "Create and play your own level",
+            "icon": "b04294e84d915aa36c9c3800122994aeae48ddd9",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8
+          },
+          {
+            "apiName": "ACHIEVEMENT_TOWERBASE",
+            "name": "All Your Base",
+            "description": "Reach the base of the tower",
+            "icon": "6d774e876ff4c6933bb60edf9aa8b23bba8463f8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793630967,
+            "globalPct": 25.5
+          },
+          {
+            "apiName": "ACHIEVEMENT_TOWERTOP",
+            "name": "Top of the World",
+            "description": "Reach the top of the tower",
+            "icon": "97df444e6b4bd903a7586a95b2290c03615437c2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794151684,
+            "globalPct": 14.8
+          },
+          {
+            "apiName": "ACHIEVEMENT_CONTAINER",
+            "name": "Loot box",
+            "description": "What's inside?",
+            "icon": "2d91089f1cb232b5ccc78332dc5eb6b424e2308d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794149387,
+            "globalPct": 15.4
+          },
+          {
+            "apiName": "ACHIEVEMENT_TRASH",
+            "name": "Youro Trash",
+            "description": "Can I Kick It?",
+            "icon": "71439514b7e9659d8522d3aed906d4ca96cbf9b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794146282,
+            "globalPct": 15.9
+          },
+          {
+            "apiName": "ACHIEVEMENT_PERFECTLAP",
+            "name": "Perfect Lap",
+            "description": "Don't hit the walls and never let go of the speeder",
+            "icon": "11f3eb8b7e7b459346abfbffe319ebe54bd2613f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794188312,
+            "globalPct": 7.1
+          },
+          {
+            "apiName": "ACHIEVEMENT_ONESIDER",
+            "name": "Onesider",
+            "description": "Defeat a Onesider",
+            "icon": "bee2d17d7681f90ec66e7943b3fc6f149562cec7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793656976,
+            "globalPct": 17.2
+          },
+          {
+            "apiName": "ACHIEVEMENT_RESURRECT",
+            "name": "Resurrect",
+            "description": "Bring an enemy back to life",
+            "icon": "6e61f8bb8e6967626cde7d751be15ececcc53fc8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794186702,
+            "globalPct": 11.3
+          },
+          {
+            "apiName": "ACHIEVEMENT_UMBRELLA",
+            "name": "Poppins",
+            "description": "???",
+            "icon": "9bcf91218f638fc55c0cdca3eb3580505408dd95",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794146304,
+            "globalPct": 12.1
+          },
+          {
+            "apiName": "ACHIEVEMENT_SECURITYCAMSPRAY",
+            "name": "Hacker",
+            "description": "Destroy a Security Camera",
+            "icon": "a52b4eee7284ebe374ca2b8799d8cef412df8085",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793652423,
+            "globalPct": 20.4
+          },
+          {
+            "apiName": "ACHIEVEMENT_STATUE",
+            "name": "Statues",
+            "description": "Paint 'em",
+            "icon": "4c80096f0b69a8e4566d042a96dcbe1fa642cb98",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.9
+          }
+        ]
+      }
+    },
+    {
       "appId": 238370,
       "name": "Magicka 2",
       "playtimeHours": 9.2,
@@ -250793,175 +250962,6 @@
       }
     },
     {
-      "appId": 640120,
-      "name": "Youropa",
-      "playtimeHours": 4.7,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/640120/d38b20fc4cb843f2ae1a51fcdd561e0126bc504f.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/640120/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/640120/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 15,
-        "unlocked": 5,
-        "items": [
-          {
-            "apiName": "ACHIEVEMENT_PAINT",
-            "name": "Who are you?",
-            "description": "Design yourself",
-            "icon": "68034897ce67fff2cb668f8bf5b8c3c809178cd0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793626693,
-            "globalPct": 92.4
-          },
-          {
-            "apiName": "ACHIEVEMENT_LOOK",
-            "name": "Visions",
-            "description": "Observe yourself from a distance",
-            "icon": "3fc23c4061461b5b73b1c43644081a7fc7c632c9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793627112,
-            "globalPct": 63.2
-          },
-          {
-            "apiName": "ACHIEVEMENT_CASSETTE",
-            "name": "K7",
-            "description": "Get them all",
-            "icon": "4b47660a0bc282076fdc05a4f3d166d45be61605",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.8
-          },
-          {
-            "apiName": "ACHIEVEMENT_GRAFFITI",
-            "name": "Graffiti",
-            "description": "Add some color",
-            "icon": "f4b62154911b56c38869af27e4200da2781bf050",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.6
-          },
-          {
-            "apiName": "ACHIEVEMENT_CREATELEVEL",
-            "name": "DIY",
-            "description": "Create and play your own level",
-            "icon": "b04294e84d915aa36c9c3800122994aeae48ddd9",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8
-          },
-          {
-            "apiName": "ACHIEVEMENT_TOWERBASE",
-            "name": "All Your Base",
-            "description": "Reach the base of the tower",
-            "icon": "6d774e876ff4c6933bb60edf9aa8b23bba8463f8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793630967,
-            "globalPct": 25.5
-          },
-          {
-            "apiName": "ACHIEVEMENT_TOWERTOP",
-            "name": "Top of the World",
-            "description": "Reach the top of the tower",
-            "icon": "97df444e6b4bd903a7586a95b2290c03615437c2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.8
-          },
-          {
-            "apiName": "ACHIEVEMENT_CONTAINER",
-            "name": "Loot box",
-            "description": "What's inside?",
-            "icon": "2d91089f1cb232b5ccc78332dc5eb6b424e2308d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.4
-          },
-          {
-            "apiName": "ACHIEVEMENT_TRASH",
-            "name": "Youro Trash",
-            "description": "Can I Kick It?",
-            "icon": "71439514b7e9659d8522d3aed906d4ca96cbf9b4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.9
-          },
-          {
-            "apiName": "ACHIEVEMENT_PERFECTLAP",
-            "name": "Perfect Lap",
-            "description": "Don't hit the walls and never let go of the speeder",
-            "icon": "11f3eb8b7e7b459346abfbffe319ebe54bd2613f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.1
-          },
-          {
-            "apiName": "ACHIEVEMENT_ONESIDER",
-            "name": "Onesider",
-            "description": "Defeat a Onesider",
-            "icon": "bee2d17d7681f90ec66e7943b3fc6f149562cec7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793656976,
-            "globalPct": 17.2
-          },
-          {
-            "apiName": "ACHIEVEMENT_RESURRECT",
-            "name": "Resurrect",
-            "description": "Bring an enemy back to life",
-            "icon": "6e61f8bb8e6967626cde7d751be15ececcc53fc8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.3
-          },
-          {
-            "apiName": "ACHIEVEMENT_UMBRELLA",
-            "name": "Poppins",
-            "description": "???",
-            "icon": "9bcf91218f638fc55c0cdca3eb3580505408dd95",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.1
-          },
-          {
-            "apiName": "ACHIEVEMENT_SECURITYCAMSPRAY",
-            "name": "Hacker",
-            "description": "Destroy a Security Camera",
-            "icon": "a52b4eee7284ebe374ca2b8799d8cef412df8085",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793652423,
-            "globalPct": 20.4
-          },
-          {
-            "apiName": "ACHIEVEMENT_STATUE",
-            "name": "Statues",
-            "description": "Paint 'em",
-            "icon": "4c80096f0b69a8e4566d042a96dcbe1fa642cb98",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.9
-          }
-        ]
-      }
-    },
-    {
       "appId": 690040,
       "name": "SUPERHOT: MIND CONTROL DELETE",
       "playtimeHours": 4.6,
@@ -265034,7 +265034,7 @@
     },
     {
       "appId": 1489680,
-      "name": "Pixross",
+      "name": "Pixross Remastered",
       "playtimeHours": 3.4,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1489680/aadbf60a0c7bbe23899b47b902439354f4f860a7.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1489680/header.jpg",
@@ -345498,7 +345498,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365160/library_600x900_2x.jpg",
       "libraryHeaderUrl": null,
       "achievements": {
-        "total": 42,
+        "total": 41,
         "unlocked": 0
       }
     },
@@ -347183,7 +347183,7 @@
       "appId": 388490,
       "name": "One Way To Die",
       "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/388490/e47003d080fb2ebc13569e4a22f052744b81c495.jpg",
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/388490/e1240149d2cf5637af6bfaf34d9b583222d01031.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/388490/header.jpg",
       "genres": [],
       "playerModes": [],
@@ -386969,7 +386969,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -387172,7 +387172,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -390074,7 +390074,7 @@
       "dateAdded": 1655155587,
       "priority": 0,
       "name": "Cult of the Lamb",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/19f32bb477a6e9d058e05193b4e282149bd70644/header.jpg?t=1786554901",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/e2e2cf16f2bffc9f4cb22d952442d328f48e908d/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/459d929117b3cda8e57c7e13ef29e81b60a40619/library_header_2x.jpg"
     },
@@ -390160,7 +390160,7 @@
       "dateAdded": 1746212875,
       "priority": 0,
       "name": "Mass Effect™ Legendary Edition",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1328670/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg?t=1777395134",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/library_600x900_2x.jpg"
     },
     {
@@ -404720,6 +404720,24 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5064170/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064170/966bb201063ed054439879b4cc83c28d2a63f43e/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5064170/fd2ef71b9537f3fff25f47e9ec5ea92ae290b7b8/library_header_2x.jpg"
+    },
+    {
+      "appId": 5118500,
+      "dateAdded": 1794163454,
+      "priority": 0,
+      "name": "App 5118500",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5118500/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5118500/83a10ac206bc3db9d8b191e36dafbdc10e53a7ae/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5118500/68d7fe915c75e46139eef94133ac2ca5e2666f7f/library_header_2x.jpg"
+    },
+    {
+      "appId": 5335510,
+      "dateAdded": 1794166601,
+      "priority": 0,
+      "name": "App 5335510",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5335510/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/b11598a928ea1ac19bfa83eec2ab071a93ec7313/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5335510/41e1e802dfc069cc245b91043e451a2f9ffa80e3/library_header_2x.jpg"
     }
   ]
 }
