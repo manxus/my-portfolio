@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-11-12T03:43:07.023Z",
+  "generatedAt": "2026-11-14T03:01:24.677Z",
   "events": [
+    {
+      "appId": 227300,
+      "name": "Euro Truck Simulator 2",
+      "added": 4,
+      "total": 114,
+      "date": "2026-11-14"
+    },
     {
       "appId": 1942280,
       "name": "Brotato",
