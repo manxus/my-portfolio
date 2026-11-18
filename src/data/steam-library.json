@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-11-16T02:41:38.949Z",
+  "fetchedAt": "2026-11-18T04:10:52.701Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1794784678
+    "lastLogoff": 1794968699
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3502.4,
+      "playtimeHours": 3504,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -35879,7 +35879,7 @@
     {
       "appId": 1267910,
       "name": "Melvor Idle",
-      "playtimeHours": 192.4,
+      "playtimeHours": 206,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
       "genres": [
@@ -36783,7 +36783,7 @@
     {
       "appId": 892970,
       "name": "Valheim",
-      "playtimeHours": 172,
+      "playtimeHours": 175.3,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/892970/2f64c9a826e2c6cf3253fea4834c2e612db09143.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
       "genres": [],
@@ -38198,6 +38198,1022 @@
             "unlocked": true,
             "unlockTime": 1508598107,
             "globalPct": 15.3
+          }
+        ]
+      }
+    },
+    {
+      "appId": 113200,
+      "name": "The Binding of Isaac",
+      "playtimeHours": 159.2,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Sep 28, 2011",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 99,
+        "unlocked": 98,
+        "items": [
+          {
+            "apiName": "The_Noose",
+            "name": "The Noose",
+            "description": "Complete the full game 2 times",
+            "icon": "19ce7f093ec3002c68e97df384317675c211160b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412867566,
+            "globalPct": 19.4
+          },
+          {
+            "apiName": "The_Nail",
+            "name": "The Nail",
+            "description": "Complete the full game 3 times",
+            "icon": "9fb2d97770a477a4430f7ad2ef8c92d0944b31ca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 17.7
+          },
+          {
+            "apiName": "The_Quarter",
+            "name": "The Quarter",
+            "description": "Complete the full game 4 times",
+            "icon": "6f6ab40626ada80b35ba3fe7a6cc46e29481800b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 16.5
+          },
+          {
+            "apiName": "The_Fetus",
+            "name": "The Fetus",
+            "description": "Complete the full game 5 times",
+            "icon": "aed0e18f5d821865380e627342f3c6ee787b70a0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 15.6
+          },
+          {
+            "apiName": "Terrible",
+            "name": "Everythings Terrible!",
+            "description": "Complete the full game 6 times",
+            "icon": "17ee29385b37ceb1071c208b5c349446275b2131",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413375690,
+            "globalPct": 15
+          },
+          {
+            "apiName": "The_Wafer",
+            "name": "The Wafer",
+            "description": "Complete the full game 7 times",
+            "icon": "b04e41baabcb3b747fc408c9893e1e4fa50f1826",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413471497,
+            "globalPct": 14.4
+          },
+          {
+            "apiName": "Money_Power",
+            "name": "Money = Power",
+            "description": "Complete the full game 8 times",
+            "icon": "0e8f99fe6780fe2ae621c1c9195d1861a42ab6b2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413682907,
+            "globalPct": 13.9
+          },
+          {
+            "apiName": "It_Lives",
+            "name": "It Lives!",
+            "description": "Complete the full game 9 times",
+            "icon": "d99edbf7d0a2706cf4e5f4ef22534ee1b7fe27ad",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 13.5
+          },
+          {
+            "apiName": "The_Spider",
+            "name": "The Radioactive Spider",
+            "description": "Complete the basement",
+            "icon": "d7150b41724fd5a333ac5921e0456ad4bce2afd8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1382202586,
+            "globalPct": 67.9
+          },
+          {
+            "apiName": "Monstros_Tooth",
+            "name": "Monstros Tooth",
+            "description": "Defeat all bosses in the basement",
+            "icon": "3777136dfbe55a1d425a7054d0c239e91265dafa",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1402762886,
+            "globalPct": 52.8
+          },
+          {
+            "apiName": "The_Spelunker",
+            "name": "The Spelunker",
+            "description": "Complete the Caves",
+            "icon": "a3a1c8a3fbe5e827b83166098cd34dc4976ce3dd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 45.2
+          },
+          {
+            "apiName": "Lil_Chubby",
+            "name": "Lil Chubby",
+            "description": "Defeat all bosses in the caves",
+            "icon": "e6b8931e0a7daf31c1b8f8ff91789faa5eb5dd2e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 32.7
+          },
+          {
+            "apiName": "Killed_Mom",
+            "name": "I Killed Mom!",
+            "description": "kill mom...",
+            "icon": "05201c832582d39c7cb22502b9f9fc0033720850",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 30.5
+          },
+          {
+            "apiName": "Lokis_Horns",
+            "name": "Lokis Horns",
+            "description": "Defeat all bosses in the depths",
+            "icon": "752e01201a94d37cfb6124e09306fbec027e7c78",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 22.5
+          },
+          {
+            "apiName": "The_Bag",
+            "name": "The Bag",
+            "description": "Complete the full game with Cain",
+            "icon": "2465b7fa3b0dc2f602b01ce30ce3422f9d288dfb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412789471,
+            "globalPct": 17.3
+          },
+          {
+            "apiName": "The_Robo-Baby",
+            "name": "The Robo-Baby",
+            "description": "Complete the full game with Judas",
+            "icon": "d22d3e5b9a70d61be599e54fb686db9fbf3f77b6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712871882,
+            "globalPct": 13.4
+          },
+          {
+            "apiName": "The_Cross",
+            "name": "The Cross",
+            "description": "Complete the full game with Maggy",
+            "icon": "e2092d6977804615466d9b8b863f73481933013b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712748402,
+            "globalPct": 13.8
+          },
+          {
+            "apiName": "The_D6",
+            "name": "The D6",
+            "description": "",
+            "icon": "699ddad3a30eb55dbf328f2502f0573c5c74328c",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 11.2
+          },
+          {
+            "apiName": "Golden_God",
+            "name": "Golden God!",
+            "description": "100% the game",
+            "icon": "a8dcbfa2735d4cbf3efad268ce283e2f62ef8596",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793662944,
+            "globalPct": 5.5
+          },
+          {
+            "apiName": "Pill_Bottle",
+            "name": "Moms Pill Bottle",
+            "description": "mom needs her pills! donate blood.",
+            "icon": "15eb6742ca030ab1bead0686717d592f954aa715",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1618687193,
+            "globalPct": 23.2
+          },
+          {
+            "apiName": "Common_Cold",
+            "name": "The Common Cold",
+            "description": "Dirty needles... eww",
+            "icon": "e52e248bbd59b717bc28b7ecbedb09cc1ab490da",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 24.1
+          },
+          {
+            "apiName": "The_Parasite",
+            "name": "The Parasite",
+            "description": "Kids shouldnt play with dead things...",
+            "icon": "1b89f8c5315cbf874a30373137fcaae9e5979443",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 43.4
+          },
+          {
+            "apiName": "Mr_Mega",
+            "name": "Mr. Mega!",
+            "description": "Kids shouldnt play with matches...",
+            "icon": "714d0d49172f7f5a6eaf09c77cb4c3189864d5bf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 37.5
+          },
+          {
+            "apiName": "Moms_Contact",
+            "name": "Moms Contact",
+            "description": "stay out of moms things!",
+            "icon": "965f33a7863be80d9ea516df1e9e19a3e584946c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 23
+          },
+          {
+            "apiName": "The_Bean",
+            "name": "The Bean",
+            "description": "you dont wanna know where this bean has been...",
+            "icon": "88591c3f429e15d28fcf95e33bd91385b9cd2c7f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1402761788,
+            "globalPct": 56.3
+          },
+          {
+            "apiName": "The_Halo",
+            "name": "The Halo",
+            "description": "Give mom a taste of her own medicine! ",
+            "icon": "eb4a01f49e47def407c5cc4ff775db3e58363695",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412841983,
+            "globalPct": 14.2
+          },
+          {
+            "apiName": "The_Bandage",
+            "name": "The Bandage",
+            "description": "Make a Super Meat Boy!",
+            "icon": "52d92bf8cdc14f3f31917b329f3c9be2ec8fea2d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 10.3
+          },
+          {
+            "apiName": "The_Rock",
+            "name": "The Rock",
+            "description": "i like to break things... ",
+            "icon": "9f73f9119a96f7237778b32aba6ce4369585f3b1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1382381815,
+            "globalPct": 59.2
+          },
+          {
+            "apiName": "The_Necronomicon",
+            "name": "The Necronomicon",
+            "description": "Call death upon all of them!",
+            "icon": "a8bddef46babec4250a824d7e45d56d58e65ec75",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 18.4
+          },
+          {
+            "apiName": "The_Gamekid",
+            "name": "The Gamekid",
+            "description": "i lost mine in the arcade...",
+            "icon": "2fc1cb05c2504bb4ca71cdc2c03719d09b03db6d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 21.6
+          },
+          {
+            "apiName": "Book_of_Sin",
+            "name": "The Book of Sin",
+            "description": "Destroy the 7 Sins! ",
+            "icon": "8110136b81966ed82cf69829c10450771d80b166",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 30.8
+          },
+          {
+            "apiName": "The_Shears",
+            "name": "The Shears",
+            "description": "ive lost my head one too many times...",
+            "icon": "cac48099adfc1696076cf962f9960353c5395432",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412841983,
+            "globalPct": 19.5
+          },
+          {
+            "apiName": "Steven",
+            "name": "My head hurts...",
+            "description": "",
+            "icon": "306fc0e886b973decb6098f6fa494e6b454e838a",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 25.3
+          },
+          {
+            "apiName": "Chad",
+            "name": "I need a hug...",
+            "description": "",
+            "icon": "1adb0e578580bb38785675a7d46c09446129d3af",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 22.1
+          },
+          {
+            "apiName": "Gish",
+            "name": "I have sticker fingers...",
+            "description": "",
+            "icon": "80d4d8baf84cb69366cc0cf14347ef04939a569f",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1414578831,
+            "globalPct": 12.1
+          },
+          {
+            "apiName": "Cain",
+            "name": "Cains Eyepatch",
+            "description": "Collect 50+ pennies in one play through",
+            "icon": "930221d64749ae177c9baf41b8ae1c29c43db379",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411781332,
+            "globalPct": 31.1
+          },
+          {
+            "apiName": "Maggy",
+            "name": "Maggys Wig",
+            "description": "Collect 7+ container hearts in one play through",
+            "icon": "b66ea229aa4d1bfc602a5df98ff33a0fbea5b2a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1402842591,
+            "globalPct": 41.1
+          },
+          {
+            "apiName": "Judas",
+            "name": "Judas's Fez",
+            "description": "Complete the full game ",
+            "icon": "b53bb5e5edf67d416a1b2545b9d903a0f641a022",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412789471,
+            "globalPct": 22.4
+          },
+          {
+            "apiName": "Baby",
+            "name": "???",
+            "description": "",
+            "icon": "3d6ffb17b122c741406f63875975cce004fbc955",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 13.1
+          },
+          {
+            "apiName": "Basement_Boy",
+            "name": "Basement Boy",
+            "description": "Complete the basement without taking damage",
+            "icon": "0a3fbaabfdf7581252638365d893466eaa33e9c8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1412867566,
+            "globalPct": 18.7
+          },
+          {
+            "apiName": "Cave_Boy",
+            "name": "Spelunker Boy",
+            "description": "Complete the caves without taking damage",
+            "icon": "ebcd82bc9e2b7cda633023c8b5dbb5e4b8163fa1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1793812543,
+            "globalPct": 8.1
+          },
+          {
+            "apiName": "Depths_Boy",
+            "name": "Dark Boy",
+            "description": "Complete the depths without taking damage",
+            "icon": "0dd7c65fa2aed72d7cf447e4edc10218e196207f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794960576,
+            "globalPct": 6.3
+          },
+          {
+            "apiName": "Womb_Boy",
+            "name": "Mamas Boy",
+            "description": "Complete the womb without taking damage",
+            "icon": "4d4085622cba214ee613d4d10d776a3b13de0745",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.8
+          },
+          {
+            "apiName": "The_Monster_Manual",
+            "name": "The Monster Manual",
+            "description": "Complete Sheol with Judas",
+            "icon": "c7e31c75b3f3863a7c3219c2a8fd1ded14094e04",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1722688804,
+            "globalPct": 7.7
+          },
+          {
+            "apiName": "The_Razor_Blade",
+            "name": "The Razor Blade",
+            "description": "Complete the womb with Eve",
+            "icon": "6a8573ba6a16b36984a24c9bbf702ec3e750943f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 10.6
+          },
+          {
+            "apiName": "The_Guardian_Angel",
+            "name": "The Guardian Angel",
+            "description": "Complete Sheol with Maggy",
+            "icon": "60674d77d76bc55ef31f55905cad576bd3dc8c97",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1756742501,
+            "globalPct": 7.3
+          },
+          {
+            "apiName": "The_Demon_Baby",
+            "name": "The Demon Baby",
+            "description": "Complete Sheol with Eve",
+            "icon": "4e152cef21b451da5f79ecb41c2de846ab1f3060",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794092659,
+            "globalPct": 6.6
+          },
+          {
+            "apiName": "Moms_Knife",
+            "name": "Moms Knife",
+            "description": "Complete Sheol with Isaac",
+            "icon": "9c6035e8977fdf941ff2b43725da9b78af95cb80",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712596304,
+            "globalPct": 11.6
+          },
+          {
+            "apiName": "Forget_Me_Now",
+            "name": "Forget Me Now",
+            "description": "",
+            "icon": "f25e48793848b55a0817c0123835b17cfc566a01",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 6.2
+          },
+          {
+            "apiName": "Eve",
+            "name": "Eve's Dead Bird",
+            "description": "Make 2 deals with the devil in one play through",
+            "icon": "38e61b46c37e9b832d230bf1724e70ff78ffd765",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 45.1
+          },
+          {
+            "apiName": "bombs",
+            "name": "The Bomb Bag",
+            "description": "Complete Sheol with Cain",
+            "icon": "7e3a51b16456abfe80c921ec5d2b45c60507cc4c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413985885,
+            "globalPct": 10.1
+          },
+          {
+            "apiName": "a_gift_from_krampus",
+            "name": "A Gift From Krampus",
+            "description": "",
+            "icon": "7420d35f2c8dc08ee5e73d7ae96b7092f04a1f7b",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1411779792,
+            "globalPct": 30.2
+          },
+          {
+            "apiName": "_abel",
+            "name": "Abel",
+            "description": "Complete the final chapter with Cain",
+            "icon": "2fd5e7aae53d92cf375a573df45a4fba95f835c5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1414578831,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "_bloodlust",
+            "name": "Blood Lust",
+            "description": "Kill moms heart with Samson",
+            "icon": "6dfaa87f3af1da85e622781105af80565cb636ae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712957041,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "_d20",
+            "name": "The D20",
+            "description": "Complete the final chapter with Isaac",
+            "icon": "1d424461d0357e9d311019021d848377886660f7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 9.5
+          },
+          {
+            "apiName": "_cross",
+            "name": "The Cross",
+            "description": "Complete the final chapter with Maggy",
+            "icon": "e69b6f52e7afc69db69a9ab011b856b5bca6d8d3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712748402,
+            "globalPct": 6.9
+          },
+          {
+            "apiName": "_horn",
+            "name": "The Curved Horn",
+            "description": "Complete the final chapter with Judas",
+            "icon": "d1f05a6dce308ff407d0a852cc91f112391c306f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712879487,
+            "globalPct": 7.2
+          },
+          {
+            "apiName": "_knife2",
+            "name": "The Sacrificial Knife",
+            "description": "Complete the final chapter with Eve",
+            "icon": "531a391f8e87d75780416fc3a908576ced06f901",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 6.3
+          },
+          {
+            "apiName": "_rainbow",
+            "name": "The Rainbow Baby",
+            "description": "Complete the final chapter with ???",
+            "icon": "be83adeb130a0897fbc10faaca76a367c632a38e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1713007272,
+            "globalPct": 7.1
+          },
+          {
+            "apiName": "_bloodpenny",
+            "name": "The Bloody Penny",
+            "description": "Complete the final chapter with Samson",
+            "icon": "dae2e9249075accbde4df70d725126282c97576f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712966596,
+            "globalPct": 6.1
+          },
+          {
+            "apiName": "_bloodrights",
+            "name": "Blood Rights",
+            "description": "Kill Satan with Samson",
+            "icon": "371b2ecb240676fa5034f4365203594222ea18ae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794433637,
+            "globalPct": 5.8
+          },
+          {
+            "apiName": "_platinum",
+            "name": "Platinum God!",
+            "description": "100% the game",
+            "icon": "46a7a13620cb215cfd872dbbfd585648ca574c7f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794960576,
+            "globalPct": 3.3
+          },
+          {
+            "apiName": "_samson",
+            "name": "Samson",
+            "description": "Kill mom but pass on 2 treasure room items",
+            "icon": "b1f7193968ca2d9ab100ec50bd65dabab1c44b0d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1413302832,
+            "globalPct": 16.6
+          },
+          {
+            "apiName": "_candle",
+            "name": "The Burnt Penny",
+            "description": "Complete Challenge 3",
+            "icon": "90862e90a5026cb027130f9e0e11f8d844894f07",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719073955,
+            "globalPct": 8.7
+          },
+          {
+            "apiName": "_toe",
+            "name": "The Candle",
+            "description": "Complete Challenge 1",
+            "icon": "dc5bd206425c848f1f5147d438671f62c4ae4c90",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712624091,
+            "globalPct": 9.7
+          },
+          {
+            "apiName": "_burntpenny",
+            "name": "The Lucky Toe",
+            "description": "Complete Challenge 2",
+            "icon": "9b0da8d4a8865a6180e16575a3fc2915bea541a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719072631,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "_tail",
+            "name": "Guppys Tail",
+            "description": "Complete Challenge 4",
+            "icon": "fe6c9f55d04b410bf4a10e052163e4b7b552fa36",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719081441,
+            "globalPct": 8
+          },
+          {
+            "apiName": "_megafetus",
+            "name": "Mega Fetus",
+            "description": "Complete Challenge 6",
+            "icon": "ef9d552ceb9ecf0c434f985b7a4f62cf96204b10",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719092434,
+            "globalPct": 10.7
+          },
+          {
+            "apiName": "_fish",
+            "name": "The Fish Head",
+            "description": "Complete Challenge 5",
+            "icon": "d99734bc7d378dd939c952ae7c7825b5faa4e597",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719081539,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "_superfan",
+            "name": "Super SMB Fan",
+            "description": "Complete Challenge 7",
+            "icon": "e4074894bf216f0768985e3e252e984ce1e45a17",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719247493,
+            "globalPct": 9.3
+          },
+          {
+            "apiName": "_spiderbutt",
+            "name": "The Spider Butt",
+            "description": "Complete Challenge 8",
+            "icon": "35b4b0536c1a6c961c59adfd01de81de66f95a9a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719247493,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "_counterfeit",
+            "name": "The Counterfeit Coin",
+            "description": "Complete Challenge 9",
+            "icon": "25bdb8c93641cc25d58baa77a9635662d9e0ad27",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1719279000,
+            "globalPct": 6.8
+          },
+          {
+            "apiName": "_hairball",
+            "name": "Guppys Hairball",
+            "description": "",
+            "icon": "a723b2a0fe1e2aa22fb1afdc74b5c878773fa62e",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1793828063,
+            "globalPct": 10.1
+          },
+          {
+            "apiName": "_eggsack",
+            "name": "Daddys love",
+            "description": "",
+            "icon": "b2ee52e127df829de46339daca2ecc9ca7594312",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1719405187,
+            "globalPct": 5.5
+          },
+          {
+            "apiName": "_dadskey",
+            "name": "Dads Key",
+            "description": "",
+            "icon": "286d4f8ed24277d7fdd65b2f3d681b25b4f9ae52",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 7.7
+          },
+          {
+            "apiName": "_polaroid",
+            "name": "The Polaroid",
+            "description": "",
+            "icon": "32613009e3c27bc73f82bb7f35cd3cc72268937b",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712690542,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "_head",
+            "name": "Isaacs Head",
+            "description": "",
+            "icon": "3ba45acb3f8124b756b9a08dc9ab93c99ecf5775",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 7
+          },
+          {
+            "apiName": "_faith",
+            "name": "Maggys Faith",
+            "description": "",
+            "icon": "2595349524b28a34de63b4fb60b17f5727209ac8",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712764875,
+            "globalPct": 5.1
+          },
+          {
+            "apiName": "_eye",
+            "name": "Cains Eye",
+            "description": "",
+            "icon": "82ddcdacec1dc275f9443349de974023ac56bb61",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712879487,
+            "globalPct": 5.3
+          },
+          {
+            "apiName": "_tongue",
+            "name": "Judas' Tongue ",
+            "description": "",
+            "icon": "522e2c8a896a8248e3980e971c1f1d539a5a78a3",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 4.8
+          },
+          {
+            "apiName": "_birdfoot",
+            "name": "Eves Bird Foot",
+            "description": "",
+            "icon": "78e5f16c8d7a08c3829a8ef7e4b95cb6352d42a3",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712966596,
+            "globalPct": 4.3
+          },
+          {
+            "apiName": "_soul",
+            "name": "???s Soul",
+            "description": "",
+            "icon": "721598c273a7bed9bd5cac40657704e3c5369954",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1712777094,
+            "globalPct": 5.3
+          },
+          {
+            "apiName": "_lock",
+            "name": "Samsons Lock",
+            "description": "",
+            "icon": "8d878bfab6a41ef314082db2e35df220afb902ac",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1713085743,
+            "globalPct": 4.6
+          },
+          {
+            "apiName": "_hand",
+            "name": "The Left Hand",
+            "description": "",
+            "icon": "377c10eeaabb2b2686e2d7bceac654b0b49110f2",
+            "hidden": true,
+            "unlocked": true,
+            "unlockTime": 1578137213,
+            "globalPct": 16.1
+          },
+          {
+            "apiName": "emom",
+            "name": "Eternal Mom",
+            "description": "Beat Mom in Hardmode",
+            "icon": "da16da58d713bea700100a46575a170c3e2412b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 3.7
+          },
+          {
+            "apiName": "eheart",
+            "name": "Eternal Heart",
+            "description": "Beat Moms Heart in Hardmode",
+            "icon": "9324c73d63e8ad0954cb03a299c4b7cfdb3a67a2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 3.2
+          },
+          {
+            "apiName": "esatan",
+            "name": "Eternal Satan",
+            "description": "Beat Satan in Hardmode",
+            "icon": "85aa008304fec5a1839ae95d5ad3f8d05d831cf2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712596304,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "eisaac",
+            "name": "Eternal Cathedral",
+            "description": "Beat the boss in the Cathedral in Hardmode",
+            "icon": "117d84eb49b50a44e6ecc590fad84d56fe9ddc5e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712511802,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "hardgame",
+            "name": "Hard Game",
+            "description": "Beat the Game in Hardmode!",
+            "icon": "638feb9501f571a9fbf871e7affbfa80e6ae80f8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 2.1
+          },
+          {
+            "apiName": "elife",
+            "name": "Eternal Life",
+            "description": "Gain 7 Health upgrades from Eternal Hearts",
+            "icon": "129999ab8991a13acf4030c9c227108b2c0cdec7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712596304,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "pisaac",
+            "name": "Eternal Isaac",
+            "description": "Beat the game as Isaac in Hardmode",
+            "icon": "9777ac0e60380a7286ec31e2b86c8f1ef5123164",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712704903,
+            "globalPct": 2
+          },
+          {
+            "apiName": "pcain",
+            "name": "Eternal Cain",
+            "description": "Beat the game as Cain in Hardmode",
+            "icon": "d62a67a97c5169d32c602f16e725d7d4edf220fc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712777094,
+            "globalPct": 1.9
+          },
+          {
+            "apiName": "pmaggy",
+            "name": "Eternal Maggy",
+            "description": "Beat the game as Magdalen in Hardmode",
+            "icon": "c4575ec5d5b9c3362e19fe23b99e809836092367",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712764875,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "pjudas",
+            "name": "Eternal Judas",
+            "description": "Beat the game as Judas in Hardmode",
+            "icon": "a60dcd55c1784217665208a81359f9dc7448c870",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712879487,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "psam",
+            "name": "Eternal Samson",
+            "description": "Beat the game as Samson in Hardmode",
+            "icon": "227f2d36f073e60505c049a59c09ed5bc3f8903b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712966596,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "peve",
+            "name": "Eternal Eve",
+            "description": "Beat the game as Eve in Hardmode",
+            "icon": "57c6bcd2f8f6465e3105c4ea22f38693829925ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1712935440,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "pblue",
+            "name": "Eternal ???",
+            "description": "Beat the game as ??? in Hardmode, and good luck!",
+            "icon": "e9e20be5b031ab3410ebf50a932ccd48fff77cdc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1713085743,
+            "globalPct": 1.7
+          },
+          {
+            "apiName": "ppers",
+            "name": "Eternal Personalities",
+            "description": "Beat the game as all characters in Hardmode.",
+            "icon": "43ac7d887f0c727e04c1c3495c8591580b7c8862",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1713085743,
+            "globalPct": 1.7
+          },
+          {
+            "apiName": "egod",
+            "name": "Eternal God",
+            "description": "100% the game and hardmode (get all the achievements)",
+            "icon": "759468022d30ce9a9010e6662f210c7e476618a3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794960576,
+            "globalPct": 1.6
           }
         ]
       }
@@ -46251,1022 +47267,6 @@
             "unlocked": true,
             "unlockTime": 1758147570,
             "globalPct": 10
-          }
-        ]
-      }
-    },
-    {
-      "appId": 113200,
-      "name": "The Binding of Isaac",
-      "playtimeHours": 153.6,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Sep 28, 2011",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 99,
-        "unlocked": 95,
-        "items": [
-          {
-            "apiName": "The_Noose",
-            "name": "The Noose",
-            "description": "Complete the full game 2 times",
-            "icon": "19ce7f093ec3002c68e97df384317675c211160b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412867566,
-            "globalPct": 19.4
-          },
-          {
-            "apiName": "The_Nail",
-            "name": "The Nail",
-            "description": "Complete the full game 3 times",
-            "icon": "9fb2d97770a477a4430f7ad2ef8c92d0944b31ca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 17.7
-          },
-          {
-            "apiName": "The_Quarter",
-            "name": "The Quarter",
-            "description": "Complete the full game 4 times",
-            "icon": "6f6ab40626ada80b35ba3fe7a6cc46e29481800b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 16.5
-          },
-          {
-            "apiName": "The_Fetus",
-            "name": "The Fetus",
-            "description": "Complete the full game 5 times",
-            "icon": "aed0e18f5d821865380e627342f3c6ee787b70a0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 15.6
-          },
-          {
-            "apiName": "Terrible",
-            "name": "Everythings Terrible!",
-            "description": "Complete the full game 6 times",
-            "icon": "17ee29385b37ceb1071c208b5c349446275b2131",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413375690,
-            "globalPct": 15
-          },
-          {
-            "apiName": "The_Wafer",
-            "name": "The Wafer",
-            "description": "Complete the full game 7 times",
-            "icon": "b04e41baabcb3b747fc408c9893e1e4fa50f1826",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413471497,
-            "globalPct": 14.4
-          },
-          {
-            "apiName": "Money_Power",
-            "name": "Money = Power",
-            "description": "Complete the full game 8 times",
-            "icon": "0e8f99fe6780fe2ae621c1c9195d1861a42ab6b2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413682907,
-            "globalPct": 13.9
-          },
-          {
-            "apiName": "It_Lives",
-            "name": "It Lives!",
-            "description": "Complete the full game 9 times",
-            "icon": "d99edbf7d0a2706cf4e5f4ef22534ee1b7fe27ad",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 13.5
-          },
-          {
-            "apiName": "The_Spider",
-            "name": "The Radioactive Spider",
-            "description": "Complete the basement",
-            "icon": "d7150b41724fd5a333ac5921e0456ad4bce2afd8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1382202586,
-            "globalPct": 67.9
-          },
-          {
-            "apiName": "Monstros_Tooth",
-            "name": "Monstros Tooth",
-            "description": "Defeat all bosses in the basement",
-            "icon": "3777136dfbe55a1d425a7054d0c239e91265dafa",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1402762886,
-            "globalPct": 52.8
-          },
-          {
-            "apiName": "The_Spelunker",
-            "name": "The Spelunker",
-            "description": "Complete the Caves",
-            "icon": "a3a1c8a3fbe5e827b83166098cd34dc4976ce3dd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 45.2
-          },
-          {
-            "apiName": "Lil_Chubby",
-            "name": "Lil Chubby",
-            "description": "Defeat all bosses in the caves",
-            "icon": "e6b8931e0a7daf31c1b8f8ff91789faa5eb5dd2e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 32.7
-          },
-          {
-            "apiName": "Killed_Mom",
-            "name": "I Killed Mom!",
-            "description": "kill mom...",
-            "icon": "05201c832582d39c7cb22502b9f9fc0033720850",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 30.5
-          },
-          {
-            "apiName": "Lokis_Horns",
-            "name": "Lokis Horns",
-            "description": "Defeat all bosses in the depths",
-            "icon": "752e01201a94d37cfb6124e09306fbec027e7c78",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 22.5
-          },
-          {
-            "apiName": "The_Bag",
-            "name": "The Bag",
-            "description": "Complete the full game with Cain",
-            "icon": "2465b7fa3b0dc2f602b01ce30ce3422f9d288dfb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412789471,
-            "globalPct": 17.3
-          },
-          {
-            "apiName": "The_Robo-Baby",
-            "name": "The Robo-Baby",
-            "description": "Complete the full game with Judas",
-            "icon": "d22d3e5b9a70d61be599e54fb686db9fbf3f77b6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712871882,
-            "globalPct": 13.4
-          },
-          {
-            "apiName": "The_Cross",
-            "name": "The Cross",
-            "description": "Complete the full game with Maggy",
-            "icon": "e2092d6977804615466d9b8b863f73481933013b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712748402,
-            "globalPct": 13.8
-          },
-          {
-            "apiName": "The_D6",
-            "name": "The D6",
-            "description": "",
-            "icon": "699ddad3a30eb55dbf328f2502f0573c5c74328c",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 11.2
-          },
-          {
-            "apiName": "Golden_God",
-            "name": "Golden God!",
-            "description": "100% the game",
-            "icon": "a8dcbfa2735d4cbf3efad268ce283e2f62ef8596",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793662944,
-            "globalPct": 5.5
-          },
-          {
-            "apiName": "Pill_Bottle",
-            "name": "Moms Pill Bottle",
-            "description": "mom needs her pills! donate blood.",
-            "icon": "15eb6742ca030ab1bead0686717d592f954aa715",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1618687193,
-            "globalPct": 23.2
-          },
-          {
-            "apiName": "Common_Cold",
-            "name": "The Common Cold",
-            "description": "Dirty needles... eww",
-            "icon": "e52e248bbd59b717bc28b7ecbedb09cc1ab490da",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 24.1
-          },
-          {
-            "apiName": "The_Parasite",
-            "name": "The Parasite",
-            "description": "Kids shouldnt play with dead things...",
-            "icon": "1b89f8c5315cbf874a30373137fcaae9e5979443",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 43.4
-          },
-          {
-            "apiName": "Mr_Mega",
-            "name": "Mr. Mega!",
-            "description": "Kids shouldnt play with matches...",
-            "icon": "714d0d49172f7f5a6eaf09c77cb4c3189864d5bf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 37.5
-          },
-          {
-            "apiName": "Moms_Contact",
-            "name": "Moms Contact",
-            "description": "stay out of moms things!",
-            "icon": "965f33a7863be80d9ea516df1e9e19a3e584946c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 23
-          },
-          {
-            "apiName": "The_Bean",
-            "name": "The Bean",
-            "description": "you dont wanna know where this bean has been...",
-            "icon": "88591c3f429e15d28fcf95e33bd91385b9cd2c7f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1402761788,
-            "globalPct": 56.3
-          },
-          {
-            "apiName": "The_Halo",
-            "name": "The Halo",
-            "description": "Give mom a taste of her own medicine! ",
-            "icon": "eb4a01f49e47def407c5cc4ff775db3e58363695",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412841983,
-            "globalPct": 14.2
-          },
-          {
-            "apiName": "The_Bandage",
-            "name": "The Bandage",
-            "description": "Make a Super Meat Boy!",
-            "icon": "52d92bf8cdc14f3f31917b329f3c9be2ec8fea2d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 10.3
-          },
-          {
-            "apiName": "The_Rock",
-            "name": "The Rock",
-            "description": "i like to break things... ",
-            "icon": "9f73f9119a96f7237778b32aba6ce4369585f3b1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1382381815,
-            "globalPct": 59.2
-          },
-          {
-            "apiName": "The_Necronomicon",
-            "name": "The Necronomicon",
-            "description": "Call death upon all of them!",
-            "icon": "a8bddef46babec4250a824d7e45d56d58e65ec75",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 18.4
-          },
-          {
-            "apiName": "The_Gamekid",
-            "name": "The Gamekid",
-            "description": "i lost mine in the arcade...",
-            "icon": "2fc1cb05c2504bb4ca71cdc2c03719d09b03db6d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 21.6
-          },
-          {
-            "apiName": "Book_of_Sin",
-            "name": "The Book of Sin",
-            "description": "Destroy the 7 Sins! ",
-            "icon": "8110136b81966ed82cf69829c10450771d80b166",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 30.8
-          },
-          {
-            "apiName": "The_Shears",
-            "name": "The Shears",
-            "description": "ive lost my head one too many times...",
-            "icon": "cac48099adfc1696076cf962f9960353c5395432",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412841983,
-            "globalPct": 19.5
-          },
-          {
-            "apiName": "Steven",
-            "name": "My head hurts...",
-            "description": "",
-            "icon": "306fc0e886b973decb6098f6fa494e6b454e838a",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 25.3
-          },
-          {
-            "apiName": "Chad",
-            "name": "I need a hug...",
-            "description": "",
-            "icon": "1adb0e578580bb38785675a7d46c09446129d3af",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 22.1
-          },
-          {
-            "apiName": "Gish",
-            "name": "I have sticker fingers...",
-            "description": "",
-            "icon": "80d4d8baf84cb69366cc0cf14347ef04939a569f",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1414578831,
-            "globalPct": 12.1
-          },
-          {
-            "apiName": "Cain",
-            "name": "Cains Eyepatch",
-            "description": "Collect 50+ pennies in one play through",
-            "icon": "930221d64749ae177c9baf41b8ae1c29c43db379",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411781332,
-            "globalPct": 31.1
-          },
-          {
-            "apiName": "Maggy",
-            "name": "Maggys Wig",
-            "description": "Collect 7+ container hearts in one play through",
-            "icon": "b66ea229aa4d1bfc602a5df98ff33a0fbea5b2a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1402842591,
-            "globalPct": 41.1
-          },
-          {
-            "apiName": "Judas",
-            "name": "Judas's Fez",
-            "description": "Complete the full game ",
-            "icon": "b53bb5e5edf67d416a1b2545b9d903a0f641a022",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412789471,
-            "globalPct": 22.4
-          },
-          {
-            "apiName": "Baby",
-            "name": "???",
-            "description": "",
-            "icon": "3d6ffb17b122c741406f63875975cce004fbc955",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 13.1
-          },
-          {
-            "apiName": "Basement_Boy",
-            "name": "Basement Boy",
-            "description": "Complete the basement without taking damage",
-            "icon": "0a3fbaabfdf7581252638365d893466eaa33e9c8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1412867566,
-            "globalPct": 18.7
-          },
-          {
-            "apiName": "Cave_Boy",
-            "name": "Spelunker Boy",
-            "description": "Complete the caves without taking damage",
-            "icon": "ebcd82bc9e2b7cda633023c8b5dbb5e4b8163fa1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1793812543,
-            "globalPct": 8.1
-          },
-          {
-            "apiName": "Depths_Boy",
-            "name": "Dark Boy",
-            "description": "Complete the depths without taking damage",
-            "icon": "0dd7c65fa2aed72d7cf447e4edc10218e196207f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.3
-          },
-          {
-            "apiName": "Womb_Boy",
-            "name": "Mamas Boy",
-            "description": "Complete the womb without taking damage",
-            "icon": "4d4085622cba214ee613d4d10d776a3b13de0745",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.8
-          },
-          {
-            "apiName": "The_Monster_Manual",
-            "name": "The Monster Manual",
-            "description": "Complete Sheol with Judas",
-            "icon": "c7e31c75b3f3863a7c3219c2a8fd1ded14094e04",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1722688804,
-            "globalPct": 7.7
-          },
-          {
-            "apiName": "The_Razor_Blade",
-            "name": "The Razor Blade",
-            "description": "Complete the womb with Eve",
-            "icon": "6a8573ba6a16b36984a24c9bbf702ec3e750943f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 10.6
-          },
-          {
-            "apiName": "The_Guardian_Angel",
-            "name": "The Guardian Angel",
-            "description": "Complete Sheol with Maggy",
-            "icon": "60674d77d76bc55ef31f55905cad576bd3dc8c97",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1756742501,
-            "globalPct": 7.3
-          },
-          {
-            "apiName": "The_Demon_Baby",
-            "name": "The Demon Baby",
-            "description": "Complete Sheol with Eve",
-            "icon": "4e152cef21b451da5f79ecb41c2de846ab1f3060",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794092659,
-            "globalPct": 6.6
-          },
-          {
-            "apiName": "Moms_Knife",
-            "name": "Moms Knife",
-            "description": "Complete Sheol with Isaac",
-            "icon": "9c6035e8977fdf941ff2b43725da9b78af95cb80",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712596304,
-            "globalPct": 11.6
-          },
-          {
-            "apiName": "Forget_Me_Now",
-            "name": "Forget Me Now",
-            "description": "",
-            "icon": "f25e48793848b55a0817c0123835b17cfc566a01",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 6.2
-          },
-          {
-            "apiName": "Eve",
-            "name": "Eve's Dead Bird",
-            "description": "Make 2 deals with the devil in one play through",
-            "icon": "38e61b46c37e9b832d230bf1724e70ff78ffd765",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 45.1
-          },
-          {
-            "apiName": "bombs",
-            "name": "The Bomb Bag",
-            "description": "Complete Sheol with Cain",
-            "icon": "7e3a51b16456abfe80c921ec5d2b45c60507cc4c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413985885,
-            "globalPct": 10.1
-          },
-          {
-            "apiName": "a_gift_from_krampus",
-            "name": "A Gift From Krampus",
-            "description": "",
-            "icon": "7420d35f2c8dc08ee5e73d7ae96b7092f04a1f7b",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1411779792,
-            "globalPct": 30.2
-          },
-          {
-            "apiName": "_abel",
-            "name": "Abel",
-            "description": "Complete the final chapter with Cain",
-            "icon": "2fd5e7aae53d92cf375a573df45a4fba95f835c5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1414578831,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "_bloodlust",
-            "name": "Blood Lust",
-            "description": "Kill moms heart with Samson",
-            "icon": "6dfaa87f3af1da85e622781105af80565cb636ae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712957041,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "_d20",
-            "name": "The D20",
-            "description": "Complete the final chapter with Isaac",
-            "icon": "1d424461d0357e9d311019021d848377886660f7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 9.5
-          },
-          {
-            "apiName": "_cross",
-            "name": "The Cross",
-            "description": "Complete the final chapter with Maggy",
-            "icon": "e69b6f52e7afc69db69a9ab011b856b5bca6d8d3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712748402,
-            "globalPct": 6.9
-          },
-          {
-            "apiName": "_horn",
-            "name": "The Curved Horn",
-            "description": "Complete the final chapter with Judas",
-            "icon": "d1f05a6dce308ff407d0a852cc91f112391c306f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712879487,
-            "globalPct": 7.2
-          },
-          {
-            "apiName": "_knife2",
-            "name": "The Sacrificial Knife",
-            "description": "Complete the final chapter with Eve",
-            "icon": "531a391f8e87d75780416fc3a908576ced06f901",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 6.3
-          },
-          {
-            "apiName": "_rainbow",
-            "name": "The Rainbow Baby",
-            "description": "Complete the final chapter with ???",
-            "icon": "be83adeb130a0897fbc10faaca76a367c632a38e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1713007272,
-            "globalPct": 7.1
-          },
-          {
-            "apiName": "_bloodpenny",
-            "name": "The Bloody Penny",
-            "description": "Complete the final chapter with Samson",
-            "icon": "dae2e9249075accbde4df70d725126282c97576f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712966596,
-            "globalPct": 6.1
-          },
-          {
-            "apiName": "_bloodrights",
-            "name": "Blood Rights",
-            "description": "Kill Satan with Samson",
-            "icon": "371b2ecb240676fa5034f4365203594222ea18ae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794433637,
-            "globalPct": 5.8
-          },
-          {
-            "apiName": "_platinum",
-            "name": "Platinum God!",
-            "description": "100% the game",
-            "icon": "46a7a13620cb215cfd872dbbfd585648ca574c7f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.3
-          },
-          {
-            "apiName": "_samson",
-            "name": "Samson",
-            "description": "Kill mom but pass on 2 treasure room items",
-            "icon": "b1f7193968ca2d9ab100ec50bd65dabab1c44b0d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1413302832,
-            "globalPct": 16.6
-          },
-          {
-            "apiName": "_candle",
-            "name": "The Burnt Penny",
-            "description": "Complete Challenge 3",
-            "icon": "90862e90a5026cb027130f9e0e11f8d844894f07",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719073955,
-            "globalPct": 8.7
-          },
-          {
-            "apiName": "_toe",
-            "name": "The Candle",
-            "description": "Complete Challenge 1",
-            "icon": "dc5bd206425c848f1f5147d438671f62c4ae4c90",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712624091,
-            "globalPct": 9.7
-          },
-          {
-            "apiName": "_burntpenny",
-            "name": "The Lucky Toe",
-            "description": "Complete Challenge 2",
-            "icon": "9b0da8d4a8865a6180e16575a3fc2915bea541a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719072631,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "_tail",
-            "name": "Guppys Tail",
-            "description": "Complete Challenge 4",
-            "icon": "fe6c9f55d04b410bf4a10e052163e4b7b552fa36",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719081441,
-            "globalPct": 8
-          },
-          {
-            "apiName": "_megafetus",
-            "name": "Mega Fetus",
-            "description": "Complete Challenge 6",
-            "icon": "ef9d552ceb9ecf0c434f985b7a4f62cf96204b10",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719092434,
-            "globalPct": 10.7
-          },
-          {
-            "apiName": "_fish",
-            "name": "The Fish Head",
-            "description": "Complete Challenge 5",
-            "icon": "d99734bc7d378dd939c952ae7c7825b5faa4e597",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719081539,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "_superfan",
-            "name": "Super SMB Fan",
-            "description": "Complete Challenge 7",
-            "icon": "e4074894bf216f0768985e3e252e984ce1e45a17",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719247493,
-            "globalPct": 9.3
-          },
-          {
-            "apiName": "_spiderbutt",
-            "name": "The Spider Butt",
-            "description": "Complete Challenge 8",
-            "icon": "35b4b0536c1a6c961c59adfd01de81de66f95a9a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719247493,
-            "globalPct": 8.6
-          },
-          {
-            "apiName": "_counterfeit",
-            "name": "The Counterfeit Coin",
-            "description": "Complete Challenge 9",
-            "icon": "25bdb8c93641cc25d58baa77a9635662d9e0ad27",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1719279000,
-            "globalPct": 6.8
-          },
-          {
-            "apiName": "_hairball",
-            "name": "Guppys Hairball",
-            "description": "",
-            "icon": "a723b2a0fe1e2aa22fb1afdc74b5c878773fa62e",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1793828063,
-            "globalPct": 10.1
-          },
-          {
-            "apiName": "_eggsack",
-            "name": "Daddys love",
-            "description": "",
-            "icon": "b2ee52e127df829de46339daca2ecc9ca7594312",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1719405187,
-            "globalPct": 5.5
-          },
-          {
-            "apiName": "_dadskey",
-            "name": "Dads Key",
-            "description": "",
-            "icon": "286d4f8ed24277d7fdd65b2f3d681b25b4f9ae52",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 7.7
-          },
-          {
-            "apiName": "_polaroid",
-            "name": "The Polaroid",
-            "description": "",
-            "icon": "32613009e3c27bc73f82bb7f35cd3cc72268937b",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712690542,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "_head",
-            "name": "Isaacs Head",
-            "description": "",
-            "icon": "3ba45acb3f8124b756b9a08dc9ab93c99ecf5775",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 7
-          },
-          {
-            "apiName": "_faith",
-            "name": "Maggys Faith",
-            "description": "",
-            "icon": "2595349524b28a34de63b4fb60b17f5727209ac8",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712764875,
-            "globalPct": 5.1
-          },
-          {
-            "apiName": "_eye",
-            "name": "Cains Eye",
-            "description": "",
-            "icon": "82ddcdacec1dc275f9443349de974023ac56bb61",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712879487,
-            "globalPct": 5.3
-          },
-          {
-            "apiName": "_tongue",
-            "name": "Judas' Tongue ",
-            "description": "",
-            "icon": "522e2c8a896a8248e3980e971c1f1d539a5a78a3",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 4.8
-          },
-          {
-            "apiName": "_birdfoot",
-            "name": "Eves Bird Foot",
-            "description": "",
-            "icon": "78e5f16c8d7a08c3829a8ef7e4b95cb6352d42a3",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712966596,
-            "globalPct": 4.3
-          },
-          {
-            "apiName": "_soul",
-            "name": "???s Soul",
-            "description": "",
-            "icon": "721598c273a7bed9bd5cac40657704e3c5369954",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1712777094,
-            "globalPct": 5.3
-          },
-          {
-            "apiName": "_lock",
-            "name": "Samsons Lock",
-            "description": "",
-            "icon": "8d878bfab6a41ef314082db2e35df220afb902ac",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1713085743,
-            "globalPct": 4.6
-          },
-          {
-            "apiName": "_hand",
-            "name": "The Left Hand",
-            "description": "",
-            "icon": "377c10eeaabb2b2686e2d7bceac654b0b49110f2",
-            "hidden": true,
-            "unlocked": true,
-            "unlockTime": 1578137213,
-            "globalPct": 16.1
-          },
-          {
-            "apiName": "emom",
-            "name": "Eternal Mom",
-            "description": "Beat Mom in Hardmode",
-            "icon": "da16da58d713bea700100a46575a170c3e2412b4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 3.7
-          },
-          {
-            "apiName": "eheart",
-            "name": "Eternal Heart",
-            "description": "Beat Moms Heart in Hardmode",
-            "icon": "9324c73d63e8ad0954cb03a299c4b7cfdb3a67a2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 3.2
-          },
-          {
-            "apiName": "esatan",
-            "name": "Eternal Satan",
-            "description": "Beat Satan in Hardmode",
-            "icon": "85aa008304fec5a1839ae95d5ad3f8d05d831cf2",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712596304,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "eisaac",
-            "name": "Eternal Cathedral",
-            "description": "Beat the boss in the Cathedral in Hardmode",
-            "icon": "117d84eb49b50a44e6ecc590fad84d56fe9ddc5e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712511802,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "hardgame",
-            "name": "Hard Game",
-            "description": "Beat the Game in Hardmode!",
-            "icon": "638feb9501f571a9fbf871e7affbfa80e6ae80f8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 2.1
-          },
-          {
-            "apiName": "elife",
-            "name": "Eternal Life",
-            "description": "Gain 7 Health upgrades from Eternal Hearts",
-            "icon": "129999ab8991a13acf4030c9c227108b2c0cdec7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712596304,
-            "globalPct": 2.8
-          },
-          {
-            "apiName": "pisaac",
-            "name": "Eternal Isaac",
-            "description": "Beat the game as Isaac in Hardmode",
-            "icon": "9777ac0e60380a7286ec31e2b86c8f1ef5123164",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712704903,
-            "globalPct": 2
-          },
-          {
-            "apiName": "pcain",
-            "name": "Eternal Cain",
-            "description": "Beat the game as Cain in Hardmode",
-            "icon": "d62a67a97c5169d32c602f16e725d7d4edf220fc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712777094,
-            "globalPct": 1.9
-          },
-          {
-            "apiName": "pmaggy",
-            "name": "Eternal Maggy",
-            "description": "Beat the game as Magdalen in Hardmode",
-            "icon": "c4575ec5d5b9c3362e19fe23b99e809836092367",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712764875,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "pjudas",
-            "name": "Eternal Judas",
-            "description": "Beat the game as Judas in Hardmode",
-            "icon": "a60dcd55c1784217665208a81359f9dc7448c870",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712879487,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "psam",
-            "name": "Eternal Samson",
-            "description": "Beat the game as Samson in Hardmode",
-            "icon": "227f2d36f073e60505c049a59c09ed5bc3f8903b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712966596,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "peve",
-            "name": "Eternal Eve",
-            "description": "Beat the game as Eve in Hardmode",
-            "icon": "57c6bcd2f8f6465e3105c4ea22f38693829925ab",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1712935440,
-            "globalPct": 1.8
-          },
-          {
-            "apiName": "pblue",
-            "name": "Eternal ???",
-            "description": "Beat the game as ??? in Hardmode, and good luck!",
-            "icon": "e9e20be5b031ab3410ebf50a932ccd48fff77cdc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1713085743,
-            "globalPct": 1.7
-          },
-          {
-            "apiName": "ppers",
-            "name": "Eternal Personalities",
-            "description": "Beat the game as all characters in Hardmode.",
-            "icon": "43ac7d887f0c727e04c1c3495c8591580b7c8862",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1713085743,
-            "globalPct": 1.7
-          },
-          {
-            "apiName": "egod",
-            "name": "Eternal God",
-            "description": "100% the game and hardmode (get all the achievements)",
-            "icon": "759468022d30ce9a9010e6662f210c7e476618a3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.6
           }
         ]
       }
@@ -345509,6 +345509,8 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/354380/02daa591f4e982bbeca5c54c9e72bd591690af22/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/354380/e04e387c1b4222198786dbe10a92ed390b7724d1/library_header_2x.jpg",
       "achievements": {
         "total": 18,
         "unlocked": 0
@@ -348632,7 +348634,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/library_header.jpg",
       "achievements": {
-        "total": 293,
+        "total": 298,
         "unlocked": 0
       }
     },
@@ -364296,6 +364298,7 @@
       "playerModes": [],
       "hardwareSupport": [],
       "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/811240/library_600x900_2x.jpg",
       "achievements": {
         "total": 8,
         "unlocked": 0
@@ -371697,7 +371700,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/8a7e814d13f8e73c0d40471f585ece908f9be282/library_header_2x.jpg",
       "achievements": {
-        "total": 198,
+        "total": 218,
         "unlocked": 0
       }
     },
@@ -382078,7 +382081,7 @@
     },
     {
       "appId": 2019300,
-      "name": "Dokimon",
+      "name": "Dokimon Quest",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2019300/a3c08f83f59d8791eaa7c9a2c441aaa4f7395e49.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2019300/header.jpg?t=1787586999",
@@ -386611,7 +386614,7 @@
       "dateAdded": 1683631048,
       "priority": 0,
       "name": "Amazing Frog?",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/6d661c0b1c15e3f23c62b6926c5a6e08261f261d/header.jpg?t=1794671829",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/822e30280a7320a70c6ed05cb7b0eb7e504b33c8/header_alt_assets_7.jpg?t=1794929790",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/121b870d05059835a0a47783a1fc9bc5ec798046/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/6d661c0b1c15e3f23c62b6926c5a6e08261f261d/library_header_2x.jpg"
     },
@@ -386833,7 +386836,7 @@
       "dateAdded": 1705368455,
       "priority": 0,
       "name": "Abiotic Factor",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/0bccdb269cdbb25c701cd00c3179cc29647e1fb8/header_alt_assets_7.jpg?t=1794245513",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/0bccdb269cdbb25c701cd00c3179cc29647e1fb8/header_alt_assets_7.jpg?t=1794854076",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/f61d6b5cb1fa77ee0ee552b3c56a75ba0ce220ae/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427410/afe0e6c04aaa67d511a7fffe630aa8a54788c3b3/library_header_2x.jpg"
     },
@@ -386975,7 +386978,7 @@
       "dateAdded": 1635423098,
       "priority": 0,
       "name": "App 498310",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/498310/056ded1b453d71e54fbdd4dc5cf059ab019a45e5/header_alt_assets_8.jpg?t=1794446645",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/498310/3f819a9b446ebced31a8af732407f3f2991cd52f/header_alt_assets_8.jpg?t=1794964671",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/498310/9dc11dd75f05b8769d4eb8ff35fe9fab1ea5a514/library_capsule_2x.jpg"
     },
     {
@@ -387564,7 +387567,7 @@
       "dateAdded": 1691173825,
       "priority": 0,
       "name": "dotAGE",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638510/header.jpg?t=1794313723",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638510/header.jpg?t=1794841793",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638510/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638510/library_header_2x.jpg"
     },
@@ -388026,7 +388029,7 @@
       "dateAdded": 1593087169,
       "priority": 0,
       "name": "Cloudpunk",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/header.jpg?t=1729027817",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746850/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746850/library_600x900_2x.jpg"
     },
     {
@@ -388034,7 +388037,7 @@
       "dateAdded": 1617959696,
       "priority": 0,
       "name": "AWAY: The Survival Series",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/header.jpg?t=1739840210",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750200/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750200/library_600x900_2x.jpg"
     },
     {
@@ -388042,7 +388045,7 @@
       "dateAdded": 1640607398,
       "priority": 0,
       "name": "Slice of Sea",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/header.jpg?t=1748509146",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750290/library_header.jpg"
     },
@@ -388051,7 +388054,7 @@
       "dateAdded": 1784476827,
       "priority": 0,
       "name": "Scientific project: Optic",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/15a499844e1f0eb4671c936382529e34f2b5da89/header.jpg?t=1786957747",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/752290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/cd373376f2fd6f4acfe2ecb02fdf265bfbd39151/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752290/15a499844e1f0eb4671c936382529e34f2b5da89/library_header_2x.jpg"
     },
@@ -388121,7 +388124,7 @@
       "dateAdded": 1603497577,
       "priority": 0,
       "name": "Afterparty",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762220/header.jpg?t=1726593200",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/762220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/762220/library_600x900_2x.jpg"
     },
     {
@@ -388244,7 +388247,7 @@
       "dateAdded": 1596309015,
       "priority": 0,
       "name": "Terraforming Mars",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/800270/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/header.jpg?t=1769091240",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/123587e1fcf3674e1a5f86f729ec964e33c9b2a4/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/12325b0c5d7aa35b788b1a82e3d1d5ece9530e31/library_header_2x.jpg"
     },
@@ -388278,7 +388281,7 @@
       "dateAdded": 1555279638,
       "priority": 433,
       "name": "Rescue HQ - The Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/809720/header.jpg?t=1768380424",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/809720/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/809720/library_600x900_2x.jpg"
     },
     {
@@ -388467,7 +388470,7 @@
       "dateAdded": 1551463061,
       "priority": 454,
       "name": "Dawn of Man",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/858810/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858810/header.jpg?t=1762552523",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858810/library_600x900_2x.jpg"
     },
     {
@@ -389522,7 +389525,8 @@
       "dateAdded": 1601937061,
       "priority": 0,
       "name": "App 1093820",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1093820/header.jpg"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1093820/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1093820/library_600x900_2x.jpg"
     },
     {
       "appId": 1094060,
@@ -391025,7 +391029,8 @@
       "dateAdded": 1589899660,
       "priority": 0,
       "name": "App 1299900",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1299900/header.jpg"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1299900/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299900/library_600x900_2x.jpg"
     },
     {
       "appId": 1301390,
@@ -391327,7 +391332,8 @@
       "dateAdded": 1599345469,
       "priority": 0,
       "name": "App 1351280",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1351280/header.jpg"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1351280/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1351280/library_600x900_2x.jpg"
     },
     {
       "appId": 1351900,
@@ -392431,7 +392437,8 @@
       "dateAdded": 1629540050,
       "priority": 0,
       "name": "App 1537280",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1537280/header.jpg"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1537280/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1537280/library_600x900_2x.jpg"
     },
     {
       "appId": 1538550,
@@ -393104,7 +393111,8 @@
       "priority": 0,
       "name": "Storyteller",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1624540/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1624540/library_600x900_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1624540/2e88550b0fdafbe134a2985144562668fdfd5904/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1624540/18d960ad0bdd47e8fe80146cbdcc112367ddfe18/library_header_2x.jpg"
     },
     {
       "appId": 1627890,
@@ -395329,8 +395337,8 @@
       "priority": 0,
       "name": "Incursion Red River",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2116120/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2116120/0f753f22cb11e20a2d9ab0b96e4e394ff59105f3/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2116120/97133c77055f7eff3d63c5be2488ad2f3bc52aa3/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2116120/04e938f6dc96d8b1ad076bc20ab1765c04a547a0/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2116120/7c4291b9f1ed6378aa684cbdd10427f764ed292a/library_header_2x.jpg"
     },
     {
       "appId": 2119830,
@@ -395520,6 +395528,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2174380/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174380/6ca36ede30059ea6a4db44f47fb24f098b3a0597/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174380/c9f7883269cabee8895f401e37f3e81982e3dbd6/library_header_2x.jpg"
+    },
+    {
+      "appId": 2174510,
+      "dateAdded": 1794436818,
+      "priority": 0,
+      "name": "Backseat Champions",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2174510/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174510/36002571aecc41575330129971fe230d0e2ae1a2/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174510/15ffd721cb029c415bcc4ee2702713c9d52df6a4/library_header_2x.jpg"
     },
     {
       "appId": 2176710,
@@ -396810,6 +396827,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/f46fac08569dac1183de7aa7722a2f20456a43ab/library_header_2x.jpg"
     },
     {
+      "appId": 2443590,
+      "dateAdded": 1794355704,
+      "priority": 0,
+      "name": "Diecast",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2443590/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443590/1483a284c8ff38741c875febe84ef38bcc3ad997/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443590/88edf6e41eb337aff21dd748346e77251cf36039/library_header_2x.jpg"
+    },
+    {
       "appId": 2445690,
       "dateAdded": 1721331853,
       "priority": 0,
@@ -397354,6 +397380,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2582320/9691f31b1fefcdf069b09e3ccd72fa3c36a934f9/library_header_2x.jpg"
     },
     {
+      "appId": 2584270,
+      "dateAdded": 1794354418,
+      "priority": 0,
+      "name": "Mortal Shell II",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2584270/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/e92804cbd8a37fbf08e19c55ab6a0ce7f0f25bf5/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/9c1d28f0566f64f396c25a87367a38ffc43b663e/library_header_2x.jpg"
+    },
+    {
       "appId": 2589500,
       "dateAdded": 1756308934,
       "priority": 0,
@@ -397666,6 +397701,15 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2659900/library_600x900_2x.jpg"
     },
     {
+      "appId": 2660460,
+      "dateAdded": 1794493945,
+      "priority": 0,
+      "name": "Aviassembly",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2660460/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/9468bbf0a92b48d91dffbc52489d37b2be4956fc/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/9904dc374c4d3652e7de31bd81ddf99036eef127/library_header_2x.jpg"
+    },
+    {
       "appId": 2661300,
       "dateAdded": 1749484830,
       "priority": 0,
@@ -397682,6 +397726,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2662780/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2662780/926066027524689506295c248baf8fa81c352f08/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2662780/fdc8e7d0c5bda4bf8807fe8339822f5e097d28b1/library_header_2x.jpg"
+    },
+    {
+      "appId": 2665020,
+      "dateAdded": 1794355406,
+      "priority": 0,
+      "name": "Milo",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2665020/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665020/608437e55a578cb3d5ab9d09a8192316f8ab715e/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665020/adeede75839fae152e3e0fb43145182bd427c367/library_header_2x.jpg"
     },
     {
       "appId": 2665680,
@@ -398161,6 +398214,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2760560/aa5e9b553fdd24dad2991924e2cb832096682657/library_header_2x.jpg"
     },
     {
+      "appId": 2764530,
+      "dateAdded": 1794514814,
+      "priority": 0,
+      "name": "Purble Place 3D",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2764530/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764530/afb694dc120bc1e11dc51336b39d1a79359869ec/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764530/65853a4a3dc9fbb32bca27e29fd8b65ca4e7355f/library_header_2x.jpg"
+    },
+    {
       "appId": 2766240,
       "dateAdded": 1756024254,
       "priority": 0,
@@ -398168,15 +398230,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2766240/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766240/165ddf1b690f223d72306e4e7a333df5b3c88aa6/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766240/3fdf4988920f456183a7848e62f9f86feb68fbc6/library_header_2x.jpg"
-    },
-    {
-      "appId": 2660460,
-      "dateAdded": 1794493945,
-      "priority": 0,
-      "name": "Aviassembly",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2660460/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/9468bbf0a92b48d91dffbc52489d37b2be4956fc/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2660460/9904dc374c4d3652e7de31bd81ddf99036eef127/library_header_2x.jpg"
     },
     {
       "appId": 2768030,
@@ -399226,6 +399279,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/11e1b8a1e01e50342374d0541d02323a9c2d1935/library_header_2x.jpg"
     },
     {
+      "appId": 3014860,
+      "dateAdded": 1794352987,
+      "priority": 0,
+      "name": "Icy Tower",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3014860/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014860/61b712b56a8c44a25177532f3b07bd2b6caf5461/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014860/db4b4d49fcf1c62dd43c227f1b36414fbb725630/library_header_2x.jpg"
+    },
+    {
       "appId": 3016620,
       "dateAdded": 1760649856,
       "priority": 0,
@@ -399413,6 +399475,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3054210/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054210/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3054210/library_header_2x.jpg"
+    },
+    {
+      "appId": 3055670,
+      "dateAdded": 1794354585,
+      "priority": 0,
+      "name": "App 3055670",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3055670/header.jpg"
     },
     {
       "appId": 3056760,
@@ -399663,8 +399732,8 @@
       "priority": 0,
       "name": "Far Far West",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3124540/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/10d337a681306bcbfa65df8a91e046c4e439e232/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/8eaa446b3aca49c4c2a36caceb7fdcbae8a2853b/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/b24c32ebbee7032db69c4e374617fde75c6abe42/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124540/003e2faab114a4e6f42012c32c10ead9fadf7be9/library_header_2x.jpg"
     },
     {
       "appId": 3125250,
@@ -402093,6 +402162,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722330/4a25fa841788af56402096b70e18eba22deb5802/library_header_2x.jpg"
     },
     {
+      "appId": 3724300,
+      "dateAdded": 1794436701,
+      "priority": 0,
+      "name": "Toto's Journey",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3724300/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724300/7c25d10a20ce08c3dce35e057b24750f7e1ba6d1/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724300/92e1d5509cb77280e69a080068dcc16effa0d3ab/library_header_2x.jpg"
+    },
+    {
       "appId": 3724710,
       "dateAdded": 1781544060,
       "priority": 0,
@@ -402440,8 +402518,8 @@
       "priority": 0,
       "name": "App 3809850",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809850/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/623c68d45cadc44765ee49262b6dcd92076ae075/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/38beba33271cfcbe7b61964c8f49e003d7aab0b3/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/436f2652b4e59a9421632066753b73103a6fea87/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/eebf4f5c1cbf7c97a0c1391db9ae644ac48eec10/library_header_2x.jpg"
     },
     {
       "appId": 3810510,
@@ -403281,6 +403359,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019090/01a4ac4879b824eacecdee81c8fd1c52de66237c/library_header_2x.jpg"
     },
     {
+      "appId": 4019220,
+      "dateAdded": 1794354346,
+      "priority": 0,
+      "name": "Dressmaker",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4019220/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6182ce74d95456b557ef361a78866173dc157b58/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/library_header_2x.jpg"
+    },
+    {
       "appId": 4026250,
       "dateAdded": 1787848708,
       "priority": 0,
@@ -403425,6 +403512,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4073860/304bf1abc99c29182206b71355b057e6e83b146d/library_header_2x.jpg"
     },
     {
+      "appId": 4075620,
+      "dateAdded": 1794354795,
+      "priority": 0,
+      "name": "App 4075620",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4075620/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/89cf889bfa843ef49e8dc8f9d9e93041017e24cd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/3e4028af9cefd8cae9f76fbf17359f36766330a5/library_header_2x.jpg"
+    },
+    {
       "appId": 4075740,
       "dateAdded": 1786126313,
       "priority": 0,
@@ -403459,6 +403555,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4078200/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078200/3d02a32a8204451afa688363ca34037a265a020a/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078200/92169b31b645d10982a3bf281f94a4183f2cb12b/library_header_2x.jpg"
+    },
+    {
+      "appId": 4078430,
+      "dateAdded": 1794354530,
+      "priority": 0,
+      "name": "STAR WARS: Galactic Racer™",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4078430/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/16514821db6559e75c9067285fee5dd198492aee/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/library_header_2x.jpg"
     },
     {
       "appId": 4082750,
@@ -404168,6 +404273,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4267860/4284e01980564a0a814a47b7eb20c881c6f1b3f0/library_header_2x.jpg"
     },
     {
+      "appId": 4268590,
+      "dateAdded": 1794789148,
+      "priority": 0,
+      "name": "Func Key",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4268590/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4268590/dfef4a40fa1f6bc88b07c78b8958688b4bb446e4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4268590/3baf0ed79fb10d4cf429a3e71a425cb44c8ec370/library_header_2x.jpg"
+    },
+    {
       "appId": 4268890,
       "dateAdded": 1779131207,
       "priority": 0,
@@ -404240,6 +404354,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4286550/0ae57204105d7a4401eb7c718fb3577bf97381c2/library_header_2x.jpg"
     },
     {
+      "appId": 4287040,
+      "dateAdded": 1794355508,
+      "priority": 0,
+      "name": "Vampy's Big Day",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4287040/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4287040/0b577db0322208e45b7f6448e5bdc3f106d149a2/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4287040/557dafbc1b665616864f08930e6c3e801af5732f/library_header_2x.jpg"
+    },
+    {
       "appId": 4297840,
       "dateAdded": 1783692849,
       "priority": 0,
@@ -404283,6 +404406,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4302940/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4302940/0ee25a3c2314aa230e16615442004ca320da0c87/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4302940/b6640e8fb3fbfb0701c0e7edaf61e0933319093b/library_header_2x.jpg"
+    },
+    {
+      "appId": 4304060,
+      "dateAdded": 1794436582,
+      "priority": 0,
+      "name": "App 4304060",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304060/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304060/bb9207a141d3dc5430d14058d64f1a54c264a676/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304060/193353d185ee1af3d51068346d9d1a32e81e8ec5/library_header_2x.jpg"
     },
     {
       "appId": 4304900,
@@ -404510,6 +404642,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4389400/048faa4de7f3d6a35d7d2793bde7e9cf1b8907a2/library_header_2x.jpg"
     },
     {
+      "appId": 4390080,
+      "dateAdded": 1794566072,
+      "priority": 0,
+      "name": "App 4390080",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4390080/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4390080/13c72e3ebfe940316dd112908d7ba3792095218a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4390080/2d72fb041335f66b827b1ec3db8191c70aab4642/library_header_2x.jpg"
+    },
+    {
       "appId": 4393700,
       "dateAdded": 1783189065,
       "priority": 0,
@@ -404603,8 +404744,8 @@
       "priority": 0,
       "name": "App 4414620",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4414620/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414620/43939b98741fd32e1df6b8e45c56aa3b8394b8ee/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414620/cb8822dfd9473fc9687cb0ecd8c027dc52246356/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414620/e68933fb5c211ddb9e1ee2a908c8edc0b93decc7/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414620/2c42a735cda66cf317ac99dabe646e425e64270d/library_header_2x.jpg"
     },
     {
       "appId": 4414640,
@@ -404632,6 +404773,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4428630/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428630/228d6d09134e3d9533bb2b231d7fd9a4b23cae29/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4428630/72e9bceb682d8cf55a6cb4c84af6b0060265fce6/library_header_2x.jpg"
+    },
+    {
+      "appId": 4435490,
+      "dateAdded": 1794354281,
+      "priority": 0,
+      "name": "App 4435490",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4435490/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/c71bc2cb60e440d1a0d2435d0c06c4d4a4050edf/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/361db6d1548e1175133e970d666d94045549ed14/library_header_2x.jpg"
     },
     {
       "appId": 4437650,
@@ -404686,6 +404836,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4457150/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4457150/cbbb054ed4c1904eceadcfe4445a764794cf4eaa/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4457150/38400342412b4be303679357558ecf6aa2ffa0b7/library_header_2x.jpg"
+    },
+    {
+      "appId": 4459590,
+      "dateAdded": 1794514824,
+      "priority": 0,
+      "name": "Slotbound",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4459590/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/192507d59b43d7123e4c219a1c56ad768338675c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/16a688f8daffec318abd83735c9965258f7f990d/library_header_2x.jpg"
     },
     {
       "appId": 4459990,
@@ -404749,6 +404908,13 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4482080/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4482080/cae8d8470db6a9bf09d191c15817c1ee60876c49/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4482080/296572a6a4df5e05babc409e7d31e09e6ab2291b/library_header_2x.jpg"
+    },
+    {
+      "appId": 4498220,
+      "dateAdded": 1794355327,
+      "priority": 0,
+      "name": "App 4498220",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4498220/header.jpg"
     },
     {
       "appId": 4502710,
@@ -404821,6 +404987,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4518240/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4518240/d749ff7912ee67e96805189b73803d0323548574/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4518240/9f1c0490aacbede7fc75f1f8c93bcd6362db94ae/library_header_2x.jpg"
+    },
+    {
+      "appId": 4528040,
+      "dateAdded": 1794514586,
+      "priority": 0,
+      "name": "App 4528040",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4528040/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528040/1363b48f06d9f226fa66d71e71c07511af82c98c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528040/2bea0978c64a60b1f4e3142ad28abaf08ebca93c/library_header_2x.jpg"
     },
     {
       "appId": 4533250,
@@ -405010,6 +405185,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4599710/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599710/42acb3de8297a48cda1a267362df7d59a015d11c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599710/58e3cc8adb2697d873a03533811055ebe25e5c3a/library_header_2x.jpg"
+    },
+    {
+      "appId": 4599880,
+      "dateAdded": 1794600651,
+      "priority": 0,
+      "name": "App 4599880",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4599880/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599880/d802388de08fd0b6e51a782d38ec1bfc7a075a8c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599880/154a69759795576b419025e5a831346724316ff8/library_header_2x.jpg"
     },
     {
       "appId": 4601230,
@@ -405480,6 +405664,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4864650/bea7b7d1ad089a703a3fd7f2efe3817168353c5d/library_header_2x.jpg"
     },
     {
+      "appId": 4877950,
+      "dateAdded": 1794514847,
+      "priority": 0,
+      "name": "App 4877950",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4877950/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4877950/65f14d220ab1b6b7b622cdc4c7e1242737e8ba0f/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4877950/390bed1eff708f1e5ec819c219a03604ef77d09b/library_header_2x.jpg"
+    },
+    {
       "appId": 4894750,
       "dateAdded": 1787603821,
       "priority": 0,
@@ -405570,6 +405763,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4976780/334c097914f102443932f05ad298eb4c656f2624/library_header_2x.jpg"
     },
     {
+      "appId": 4984870,
+      "dateAdded": 1794355212,
+      "priority": 0,
+      "name": "App 4984870",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4984870/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4984870/86d249176090fcf27d625ca2505e25a2af08d3a4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4984870/7c53ff84a05f4fbb9f85fe1a1fc61125ad587a0b/library_header_2x.jpg"
+    },
+    {
       "appId": 4996960,
       "dateAdded": 1793039030,
       "priority": 0,
@@ -405622,6 +405824,15 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5049860/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/75c68f0bd41b8f5fe42ed1436f7a16f891f37bad/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5049860/22c6890b7351993fdb43b9c42aa6898d8518e3ea/library_header_2x.jpg"
+    },
+    {
+      "appId": 5051080,
+      "dateAdded": 1794354475,
+      "priority": 0,
+      "name": "App 5051080",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5051080/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/36100dc00b877fdda7280bb1df9557af35f651b6/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/bada1115e0e3b6f50258b033ac2f6588899a3ded/library_header_2x.jpg"
     },
     {
       "appId": 5064170,
@@ -405705,6 +405916,33 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5181520/5b6220116b49c7e7a968cc608d32e47bc8fe722f/library_header_2x.jpg"
     },
     {
+      "appId": 5185750,
+      "dateAdded": 1794353073,
+      "priority": 0,
+      "name": "App 5185750",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5185750/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185750/a5a11a336f1724a6e2194452a33a77c0839abfac/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185750/cba1f3195974a89cac41d5ae9c56e6bed1809b56/library_header_2x.jpg"
+    },
+    {
+      "appId": 5189160,
+      "dateAdded": 1794674466,
+      "priority": 0,
+      "name": "App 5189160",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5189160/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189160/a1956d4c664fc3c6e5ff33f5dbf13716431558a8/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189160/a5a6bf93384ae9e63557fc80213c926d4f79e498/library_header_2x.jpg"
+    },
+    {
+      "appId": 5204830,
+      "dateAdded": 1794355612,
+      "priority": 0,
+      "name": "App 5204830",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5204830/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204830/e9141ac829fa2c5a10ee8e66fe846c993d8da3ce/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204830/7e1c9bcc2242017c952fd4270b1e9479634044aa/library_header_2x.jpg"
+    },
+    {
       "appId": 5237430,
       "dateAdded": 1791928086,
       "priority": 0,
@@ -405766,218 +406004,6 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/fdafac6a97129e0bc04895c981b135022f167f90/library_header_2x.jpg"
     },
     {
-      "appId": 3014860,
-      "dateAdded": 1794352987,
-      "priority": 0,
-      "name": "Icy Tower",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3014860/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014860/61b712b56a8c44a25177532f3b07bd2b6caf5461/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3014860/db4b4d49fcf1c62dd43c227f1b36414fbb725630/library_header_2x.jpg"
-    },
-    {
-      "appId": 5185750,
-      "dateAdded": 1794353073,
-      "priority": 0,
-      "name": "App 5185750",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5185750/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185750/a5a11a336f1724a6e2194452a33a77c0839abfac/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5185750/cba1f3195974a89cac41d5ae9c56e6bed1809b56/library_header_2x.jpg"
-    },
-    {
-      "appId": 4435490,
-      "dateAdded": 1794354281,
-      "priority": 0,
-      "name": "App 4435490",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4435490/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/c71bc2cb60e440d1a0d2435d0c06c4d4a4050edf/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/361db6d1548e1175133e970d666d94045549ed14/library_header_2x.jpg"
-    },
-    {
-      "appId": 4019220,
-      "dateAdded": 1794354346,
-      "priority": 0,
-      "name": "Dressmaker",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4019220/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/6182ce74d95456b557ef361a78866173dc157b58/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4019220/f1cd08127872e60e4c47a4bc3e40d682d94741bf/library_header_2x.jpg"
-    },
-    {
-      "appId": 2584270,
-      "dateAdded": 1794354418,
-      "priority": 0,
-      "name": "Mortal Shell II",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2584270/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/e92804cbd8a37fbf08e19c55ab6a0ce7f0f25bf5/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/9c1d28f0566f64f396c25a87367a38ffc43b663e/library_header_2x.jpg"
-    },
-    {
-      "appId": 5051080,
-      "dateAdded": 1794354475,
-      "priority": 0,
-      "name": "App 5051080",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5051080/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/36100dc00b877fdda7280bb1df9557af35f651b6/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/bada1115e0e3b6f50258b033ac2f6588899a3ded/library_header_2x.jpg"
-    },
-    {
-      "appId": 4078430,
-      "dateAdded": 1794354530,
-      "priority": 0,
-      "name": "STAR WARS: Galactic Racer™",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4078430/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/16514821db6559e75c9067285fee5dd198492aee/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/library_header_2x.jpg"
-    },
-    {
-      "appId": 3055670,
-      "dateAdded": 1794354585,
-      "priority": 0,
-      "name": "App 3055670",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3055670/header.jpg"
-    },
-    {
-      "appId": 4075620,
-      "dateAdded": 1794354795,
-      "priority": 0,
-      "name": "App 4075620",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4075620/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/89cf889bfa843ef49e8dc8f9d9e93041017e24cd/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/3e4028af9cefd8cae9f76fbf17359f36766330a5/library_header_2x.jpg"
-    },
-    {
-      "appId": 4984870,
-      "dateAdded": 1794355212,
-      "priority": 0,
-      "name": "App 4984870",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4984870/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4984870/86d249176090fcf27d625ca2505e25a2af08d3a4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4984870/7c53ff84a05f4fbb9f85fe1a1fc61125ad587a0b/library_header_2x.jpg"
-    },
-    {
-      "appId": 4498220,
-      "dateAdded": 1794355327,
-      "priority": 0,
-      "name": "App 4498220",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4498220/header.jpg"
-    },
-    {
-      "appId": 2665020,
-      "dateAdded": 1794355406,
-      "priority": 0,
-      "name": "Milo",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2665020/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665020/608437e55a578cb3d5ab9d09a8192316f8ab715e/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2665020/adeede75839fae152e3e0fb43145182bd427c367/library_header_2x.jpg"
-    },
-    {
-      "appId": 4287040,
-      "dateAdded": 1794355508,
-      "priority": 0,
-      "name": "Vampy's Big Day",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4287040/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4287040/0b577db0322208e45b7f6448e5bdc3f106d149a2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4287040/557dafbc1b665616864f08930e6c3e801af5732f/library_header_2x.jpg"
-    },
-    {
-      "appId": 5204830,
-      "dateAdded": 1794355612,
-      "priority": 0,
-      "name": "App 5204830",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5204830/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204830/e9141ac829fa2c5a10ee8e66fe846c993d8da3ce/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204830/7e1c9bcc2242017c952fd4270b1e9479634044aa/library_header_2x.jpg"
-    },
-    {
-      "appId": 2443590,
-      "dateAdded": 1794355704,
-      "priority": 0,
-      "name": "Diecast",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2443590/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443590/1483a284c8ff38741c875febe84ef38bcc3ad997/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2443590/88edf6e41eb337aff21dd748346e77251cf36039/library_header_2x.jpg"
-    },
-    {
-      "appId": 4304060,
-      "dateAdded": 1794436582,
-      "priority": 0,
-      "name": "App 4304060",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4304060/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304060/bb9207a141d3dc5430d14058d64f1a54c264a676/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304060/193353d185ee1af3d51068346d9d1a32e81e8ec5/library_header_2x.jpg"
-    },
-    {
-      "appId": 3724300,
-      "dateAdded": 1794436701,
-      "priority": 0,
-      "name": "Toto's Journey",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3724300/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724300/7c25d10a20ce08c3dce35e057b24750f7e1ba6d1/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3724300/92e1d5509cb77280e69a080068dcc16effa0d3ab/library_header_2x.jpg"
-    },
-    {
-      "appId": 2174510,
-      "dateAdded": 1794436818,
-      "priority": 0,
-      "name": "Backseat Champions",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2174510/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174510/36002571aecc41575330129971fe230d0e2ae1a2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2174510/15ffd721cb029c415bcc4ee2702713c9d52df6a4/library_header_2x.jpg"
-    },
-    {
-      "appId": 4528040,
-      "dateAdded": 1794514586,
-      "priority": 0,
-      "name": "App 4528040",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4528040/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528040/1363b48f06d9f226fa66d71e71c07511af82c98c/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4528040/2bea0978c64a60b1f4e3142ad28abaf08ebca93c/library_header_2x.jpg"
-    },
-    {
-      "appId": 2764530,
-      "dateAdded": 1794514814,
-      "priority": 0,
-      "name": "Purble Place 3D",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2764530/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764530/afb694dc120bc1e11dc51336b39d1a79359869ec/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764530/65853a4a3dc9fbb32bca27e29fd8b65ca4e7355f/library_header_2x.jpg"
-    },
-    {
-      "appId": 4459590,
-      "dateAdded": 1794514824,
-      "priority": 0,
-      "name": "Slotbound",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4459590/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/192507d59b43d7123e4c219a1c56ad768338675c/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459590/16a688f8daffec318abd83735c9965258f7f990d/library_header_2x.jpg"
-    },
-    {
-      "appId": 4877950,
-      "dateAdded": 1794514847,
-      "priority": 0,
-      "name": "App 4877950",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4877950/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4877950/65f14d220ab1b6b7b622cdc4c7e1242737e8ba0f/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4877950/390bed1eff708f1e5ec819c219a03604ef77d09b/library_header_2x.jpg"
-    },
-    {
-      "appId": 4390080,
-      "dateAdded": 1794566072,
-      "priority": 0,
-      "name": "App 4390080",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4390080/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4390080/13c72e3ebfe940316dd112908d7ba3792095218a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4390080/2d72fb041335f66b827b1ec3db8191c70aab4642/library_header_2x.jpg"
-    },
-    {
-      "appId": 4599880,
-      "dateAdded": 1794600651,
-      "priority": 0,
-      "name": "App 4599880",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4599880/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599880/d802388de08fd0b6e51a782d38ec1bfc7a075a8c/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4599880/154a69759795576b419025e5a831346724316ff8/library_header_2x.jpg"
-    },
-    {
       "appId": 5534570,
       "dateAdded": 1794657613,
       "priority": 0,
@@ -405985,24 +406011,6 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5534570/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534570/b734632f5449c5e14ccd7cbec4850e16ac628d04/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534570/f37eaed5e2e4c64d723d6448a7f9f5b1a0afeac0/library_header_2x.jpg"
-    },
-    {
-      "appId": 5189160,
-      "dateAdded": 1794674466,
-      "priority": 0,
-      "name": "App 5189160",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5189160/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189160/a1956d4c664fc3c6e5ff33f5dbf13716431558a8/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189160/a5a6bf93384ae9e63557fc80213c926d4f79e498/library_header_2x.jpg"
-    },
-    {
-      "appId": 4268590,
-      "dateAdded": 1794789148,
-      "priority": 0,
-      "name": "Func Key",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4268590/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4268590/dfef4a40fa1f6bc88b07c78b8958688b4bb446e4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4268590/3baf0ed79fb10d4cf429a3e71a425cb44c8ec370/library_header_2x.jpg"
     }
   ]
 }
