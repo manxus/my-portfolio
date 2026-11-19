@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-11-18T04:10:52.701Z",
+  "fetchedAt": "2026-11-19T04:07:25.812Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1794968699
+    "lastLogoff": 1795057348
   },
   "games": [
     {
@@ -15856,7 +15856,7 @@
     {
       "appId": 218620,
       "name": "PAYDAY 2",
-      "playtimeHours": 554.5,
+      "playtimeHours": 554.6,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/218620/8fce45cbb0dee03e87cd30b96ac5e5c3d4b2c494.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/header.jpg?t=1771610568",
       "genres": [
@@ -35879,7 +35879,7 @@
     {
       "appId": 1267910,
       "name": "Melvor Idle",
-      "playtimeHours": 206,
+      "playtimeHours": 206.1,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
       "genres": [
@@ -37330,882 +37330,9 @@
       }
     },
     {
-      "appId": 4000,
-      "name": "Garry's Mod",
-      "playtimeHours": 162.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4000/4a6f25cfa2426445d0d9d6e233408de4d371ce8b.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1764757984",
-      "genres": [
-        "Casual",
-        "Indie",
-        "Simulation"
-      ],
-      "playerModes": [
-        "Single-player",
-        "Multi-player",
-        "Online PvP",
-        "LAN PvP",
-        "Co-op",
-        "Online Co-op",
-        "LAN Co-op",
-        "Cross-Platform Multiplayer"
-      ],
-      "hardwareSupport": [
-        "Remote Play on Tablet"
-      ],
-      "releaseDate": "Nov 29, 2006",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/library_header_2x.jpg",
-      "achievements": {
-        "total": 29,
-        "unlocked": 9,
-        "items": [
-          {
-            "apiName": "GMA_PLAY_SINGLEPLAYER",
-            "name": "Play Singleplayer",
-            "description": "Play singleplayer at least once",
-            "icon": "b8ce64f366e8a8a1c2aef231cca8ec82f3115d63",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1374348139,
-            "globalPct": 78.7
-          },
-          {
-            "apiName": "GMA_PLAY_MULTIPLAYER",
-            "name": "Play Multiplayer",
-            "description": "Play multiplayer at least once",
-            "icon": "d6b5b7ac882b0865415218642cb21bfb5a5fca77",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1374347813,
-            "globalPct": 84.7
-          },
-          {
-            "apiName": "GMA_X_STARTUPS",
-            "name": "Startup Millenium",
-            "description": "Start Garry's Mod 1000 times",
-            "icon": "f4bc0f96a846eeaa63a9ea92d11757b342376374",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.7
-          },
-          {
-            "apiName": "GMA_SAY_1",
-            "name": "Secret Phrase",
-            "description": "Say the secret phrase",
-            "icon": "f331d3e21b7fc96c8f117787fe3e2d5e26b9952e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1492868214,
-            "globalPct": 6.5
-          },
-          {
-            "apiName": "GMA_X_MINUTES",
-            "name": "Addict",
-            "description": "You have wasted a year of your life playing GMod!",
-            "icon": "9d99453c08ea180230b5ad24f904c0749e6ce139",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "GMA_X_MAPS",
-            "name": "Map Loader",
-            "description": "Play 20 different maps",
-            "icon": "7cb317f7a953204e79a3fc2923aad8eb77df74bd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1379090812,
-            "globalPct": 38.4
-          },
-          {
-            "apiName": "GMA_NOT_SANDBOX",
-            "name": "Play Around",
-            "description": "Play a gamemode that isn't sandbox",
-            "icon": "c1421b7d9609b03bca96bae9abde44da628d20a1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1374350883,
-            "globalPct": 74.8
-          },
-          {
-            "apiName": "GMA_BADDIES",
-            "name": "War Zone",
-            "description": "Killed 1000 Baddies",
-            "icon": "88f7f6f51232d0792f70683599a55974b14086d1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.2
-          },
-          {
-            "apiName": "GMA_FRIENDS",
-            "name": "Friendly",
-            "description": "Play with 10 friends",
-            "icon": "14f07b40867ab5ceb305fa99fc1b112fc96abb14",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3
-          },
-          {
-            "apiName": "GMA_PLAYWITH_GARRY",
-            "name": "Yes, I am the real garry!",
-            "description": "Play on the same server as garry",
-            "icon": "b018137e2177a4a1ac63460f8b20757d4e7ef2da",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.8
-          },
-          {
-            "apiName": "GMA_MARATHON",
-            "name": "Marathon",
-            "description": "Play on the same server & map for 8 hours",
-            "icon": "82ee06b6fb3a0aed698dfa33303526d58340f2c1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.9
-          },
-          {
-            "apiName": "GMA_HALFMARATHON",
-            "name": "Half Marathon",
-            "description": "Play on the same server & map for 4 hours",
-            "icon": "814409f41a371a1029d4dda336f3d6958c558548",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17.6
-          },
-          {
-            "apiName": "GMA_DAY",
-            "name": "One Day",
-            "description": "24 hours of your life wasted",
-            "icon": "a200f9a8cc7327f9885218ff2e1a9317ce711459",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1394291774,
-            "globalPct": 29.9
-          },
-          {
-            "apiName": "GMA_WEEK",
-            "name": "One Week",
-            "description": "One whole week of your life wasted",
-            "icon": "9d608f3ad483370e261da7991aece5c135432098",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.6
-          },
-          {
-            "apiName": "GMA_MONTH",
-            "name": "One Month",
-            "description": "One whole month of your life wasted",
-            "icon": "812c6a24eb1997d7784e7bc6ab381899ae6b0753",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 4.4
-          },
-          {
-            "apiName": "GMA_BYSTANDER",
-            "name": "Innocent Bystander",
-            "description": "Kill 1000 innocent animals",
-            "icon": "33309ff1fc671bd3bf7f74dfd29df688429d2943",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.4
-          },
-          {
-            "apiName": "GMA_BALLEATER",
-            "name": "Ball Eater",
-            "description": "Eat 200 balls",
-            "icon": "0352bbe5511ea372e24108680a70929e559c3dcc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1394227345,
-            "globalPct": 12.8
-          },
-          {
-            "apiName": "GMA_PROPSPAWNER",
-            "name": "Creator",
-            "description": "Spawn 5000 props",
-            "icon": "c45ed5c18d9b92d68ea034d13fe0ee537110753f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 5.2
-          },
-          {
-            "apiName": "GMA_BALLOONPOPPER",
-            "name": "Popper",
-            "description": "Burst 1000 balloons",
-            "icon": "1ce84afb8118aafc4e2aa5c007b97f8d7330bbf8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "GMA_REMOVER",
-            "name": "Destroyer",
-            "description": "Remove 5000 things",
-            "icon": "8fbefdee3a3f2ac51a51aa7cd2d5f7116165aad8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3
-          },
-          {
-            "apiName": "GMA_SPAWNMENUER",
-            "name": "Menu User",
-            "description": "Open the spawnmenu 100,000 times",
-            "icon": "5dd0d4a1bcd15561860a06ea76969dfce4ff6b76",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.1
-          },
-          {
-            "apiName": "GMA_BADCODER",
-            "name": "Bad Coder",
-            "description": "Experience 500 Lua programming errors",
-            "icon": "ab6158930869f33717e4aa55122973ffd8d3d364",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1505510477,
-            "globalPct": 48.6
-          },
-          {
-            "apiName": "GMA_NPCSPAWNER",
-            "name": "Procreator",
-            "description": "Spawn 1000 NPCs",
-            "icon": "e2e840130db8efd5e34f12087a0ccddb7b04f40e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1492868476,
-            "globalPct": 22.7
-          },
-          {
-            "apiName": "GMA_RAGDOLLSPAWNER",
-            "name": "Dollhouse",
-            "description": "Spawn 2000 ragdolls",
-            "icon": "de22904018d342008bb6d94087190a0c2493689f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.5
-          },
-          {
-            "apiName": "GMA_GOODIES",
-            "name": "Bad Friend",
-            "description": "Kill 1000 friendly NPCs",
-            "icon": "040ae0e4fef44e23609b2cd2b545d3f41c782dd0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.9
-          },
-          {
-            "apiName": "GMA_SMALLTHUMB",
-            "name": "10 Thumbs",
-            "description": "Your Workshop uploads got 10 thumbs",
-            "icon": "1c5bef9615a260ae3177c26ad8ac86f5dc192ead",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "GMA_MEDIUMTHUMB",
-            "name": "100 Thumbs",
-            "description": "Your workshop uploads got 100 thumbs",
-            "icon": "0afc0d332af9c5e779302bb7a70d29b15fdec263",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "GMA_HUGETHUMB",
-            "name": "1000 Thumbs",
-            "description": "Your Workshop uploads got 1000 thumbs",
-            "icon": "f0b8f66a9f445a80fcf7897d8b07c634ae26a469",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "GMA_MEGAUPLOAD",
-            "name": "Mega Upload",
-            "description": "Get 1000 thumbs on a single upload (then go to jail)",
-            "icon": "75b1b16c2b67b893d35d3b8c79de90dcb14dfd4b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          }
-        ]
-      }
-    },
-    {
-      "appId": 433850,
-      "name": "Z1 Battle Royale",
-      "playtimeHours": 162.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/433850/aee7491abfd812e2fbb4ec3326ad5f4b85c8137a.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/header.jpg?t=1579626820",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Free To Play",
-        "Massively Multiplayer"
-      ],
-      "playerModes": [
-        "Multi-player",
-        "Online PvP"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Feb 28, 2018",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": null
-    },
-    {
-      "appId": 371570,
-      "name": "Tap Heroes",
-      "playtimeHours": 161.1,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/371570/7452adb40bf8cf1bcc9df4188c5a29416251ef71.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/header.jpg?t=1775322391",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Jun 5, 2015",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_header.jpg",
-      "achievements": {
-        "total": 50,
-        "unlocked": 50,
-        "items": [
-          {
-            "apiName": "1e_01",
-            "name": "FIGHTER",
-            "description": "DEFEAT 100 ENEMIES",
-            "icon": "e41d44570e05c033c4b2fba5050b29988a704dae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067846,
-            "globalPct": 24.9
-          },
-          {
-            "apiName": "1e_02",
-            "name": "SOLDIER",
-            "description": "DEFEAT 1000 ENEMIES",
-            "icon": "849c7b86e16720d9e4c18fd4fac78b7f7f8b273f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508273615,
-            "globalPct": 18
-          },
-          {
-            "apiName": "1e_03",
-            "name": "WARRIOR",
-            "description": "DEFEAT 10000 ENEMIES",
-            "icon": "ab9cd81d1f6beb1b8ffea9f18090af3ea6cf3539",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509050733,
-            "globalPct": 11.7
-          },
-          {
-            "apiName": "1e_04",
-            "name": "KNIGHT",
-            "description": "DEFEAT 100000 ENEMIES",
-            "icon": "7b0d5a964d82d9bddea98eac4f1403fc84c6d882",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1578149473,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "1e_05",
-            "name": "TAP HERO",
-            "description": "DEFEAT 1000000 ENEMIES",
-            "icon": "8a1d6f49f82fd43e76b7f2d9eae63a81d02d6cc4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1583545748,
-            "globalPct": 7
-          },
-          {
-            "apiName": "2g_01",
-            "name": "LOADED",
-            "description": "COLLECT 1000 GOLD",
-            "icon": "14219d07a7390f92fcf5dd3d2231e660ddc3f684",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508068056,
-            "globalPct": 23.9
-          },
-          {
-            "apiName": "2g_02",
-            "name": "WEALTHY",
-            "description": "COLLECT 10000 GOLD",
-            "icon": "8800fa96f6e5fcdaab05eceab66d6cd8b18782a6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508071022,
-            "globalPct": 20.2
-          },
-          {
-            "apiName": "2g_03",
-            "name": "WORTH A MILLION",
-            "description": "COLLECT 1000000 GOLD",
-            "icon": "62231b9b66aab8850e33e37420c27b138e426933",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508665424,
-            "globalPct": 14.5
-          },
-          {
-            "apiName": "2g_04",
-            "name": "FILTHY RICH",
-            "description": "COLLECT 5000000 GOLD",
-            "icon": "d3dee6ec64d6000faa60311795fef06450bda0ca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508870023,
-            "globalPct": 12.5
-          },
-          {
-            "apiName": "2g_05",
-            "name": "ROLLING IN IT",
-            "description": "COLLECT 10000000 GOLD",
-            "icon": "e7b44785f69c8ea5865f1559914e4c06912d9a28",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509036460,
-            "globalPct": 11.4
-          },
-          {
-            "apiName": "3l_01",
-            "name": "STARTING OUT",
-            "description": "LEVEL UP 50 TIMES",
-            "icon": "93467d46044b55498262b3df58accd3d012716ef",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067919,
-            "globalPct": 23.8
-          },
-          {
-            "apiName": "3l_02",
-            "name": "APPRENTICE",
-            "description": "LEVEL UP 150 TIMES",
-            "icon": "7c37589875ee460f73d10c85d4b7f2bb58e8bb3d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508091700,
-            "globalPct": 20.8
-          },
-          {
-            "apiName": "3l_03",
-            "name": "JOURNEYMAN",
-            "description": "LEVEL UP 500 TIMES",
-            "icon": "3d07efa4cad1dcd62e5e3b6a99d90d77f1442d97",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508272445,
-            "globalPct": 17.9
-          },
-          {
-            "apiName": "3l_04",
-            "name": "SKILLED",
-            "description": "LEVEL UP 1000 TIMES",
-            "icon": "c3c4214571c1cc366b49d24714505d62b115b1ed",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508707291,
-            "globalPct": 16
-          },
-          {
-            "apiName": "3l_05",
-            "name": "MASTER",
-            "description": "LEVEL UP 5000 TIMES",
-            "icon": "dcf3e39cf3fb3136afb704bf2f013cf7e3150ee9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1533386542,
-            "globalPct": 8
-          },
-          {
-            "apiName": "4f_01",
-            "name": "TAP TAP TAP",
-            "description": "TAP 1000 TIMES",
-            "icon": "f9d12698714b3da11b5d9a8c0839ad71111df3e1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067985,
-            "globalPct": 23.4
-          },
-          {
-            "apiName": "4f_02",
-            "name": "TAPPER",
-            "description": "TAP 10000 TIMES",
-            "icon": "a284418dde808104550be088c0d0727e9d83fea5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508218245,
-            "globalPct": 15.4
-          },
-          {
-            "apiName": "4f_03",
-            "name": "SORE FINGER",
-            "description": "TAP 50000 TIMES",
-            "icon": "b58e4bc961298abf9468760749dc60ad118c7b94",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509194193,
-            "globalPct": 10
-          },
-          {
-            "apiName": "4f_04",
-            "name": "FINGER BLASTER",
-            "description": "TAP 100000 TIMES",
-            "icon": "c2a862a48f533aabbd3e6254bb52d115362cc19d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509208281,
-            "globalPct": 9
-          },
-          {
-            "apiName": "4f_05",
-            "name": "MASTER TAPPER",
-            "description": "TAP 250000 TIMES",
-            "icon": "c1b1b0f265cd2a6f520c072f2f4f8d04b7eb0779",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509239755,
-            "globalPct": 8.1
-          },
-          {
-            "apiName": "5t_01",
-            "name": "LUCKY CHARM",
-            "description": "FIND 5 CHESTS",
-            "icon": "6c66a5cfb55136c24d1f51c688c0dd95ce775b7b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067929,
-            "globalPct": 23.6
-          },
-          {
-            "apiName": "5t_02",
-            "name": "COLLECTOR",
-            "description": "FIND 25 CHESTS",
-            "icon": "ab95850a47b6ad79d71ba012c25e1117d340d333",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508098759,
-            "globalPct": 18.1
-          },
-          {
-            "apiName": "5t_03",
-            "name": "DIGGY HOLE",
-            "description": "FIND 75 CHESTS",
-            "icon": "59b8827e42b39339436239f108392d2643764ffc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508662756,
-            "globalPct": 15.2
-          },
-          {
-            "apiName": "5t_04",
-            "name": "I AM A PIRATE!",
-            "description": "FIND 150 CHESTS",
-            "icon": "cd770ecdba13cc28e462f43c4e0471496ad64ab3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509031285,
-            "globalPct": 12.4
-          },
-          {
-            "apiName": "5t_05",
-            "name": "TREASURE HUNTER",
-            "description": "FIND 300 CHESTS",
-            "icon": "2a98d638ccc1fb7907bb1cb1270edfcb12e3ad74",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1510069729,
-            "globalPct": 9
-          },
-          {
-            "apiName": "6p_01",
-            "name": "SPELLCASTER",
-            "description": "CAST 5 POWERS",
-            "icon": "314ee7f8ab4828244932b5208df4eb97d7a294e1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508132184,
-            "globalPct": 14.5
-          },
-          {
-            "apiName": "6p_02",
-            "name": "WARLOCK",
-            "description": "CAST 15 POWERS",
-            "icon": "d3ac9635d29f7717d757b42e03568b0945e8f1dd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508347121,
-            "globalPct": 12.6
-          },
-          {
-            "apiName": "6p_03",
-            "name": "SORCERER",
-            "description": "CAST 35 POWERS",
-            "icon": "32d6c1053744da568008ecb4b7901e9a8bca7ff3",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508520076,
-            "globalPct": 11.1
-          },
-          {
-            "apiName": "6p_04",
-            "name": "WIZARD",
-            "description": "CAST 75 POWERS",
-            "icon": "f8bbb1bfd9f8eb01dade91238ce0f548a4cb9884",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508664298,
-            "globalPct": 9.8
-          },
-          {
-            "apiName": "6p_05",
-            "name": "GOD",
-            "description": "CAST 150 POWERS",
-            "icon": "2e89dba33ab0c04918723fe2a576056216c6e738",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508866144,
-            "globalPct": 8.7
-          },
-          {
-            "apiName": "7g_01",
-            "name": "SHINY",
-            "description": "COLLECT 5 GEMS",
-            "icon": "7f25d24a7ddaaff50edd28b143ecd1bc760d3200",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508069383,
-            "globalPct": 21.8
-          },
-          {
-            "apiName": "7g_02",
-            "name": "SO SHINY",
-            "description": "COLLECT 10 GEMS",
-            "icon": "366c7af3bd083f2ec0e4a380930dfe5123b202c5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508098710,
-            "globalPct": 18.9
-          },
-          {
-            "apiName": "7g_03",
-            "name": "ONLY MINE",
-            "description": "COLLECT 25 GEMS",
-            "icon": "1dec9b16ba1ec9116f73f0156cab4026cc460af7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508430017,
-            "globalPct": 16.2
-          },
-          {
-            "apiName": "7g_04",
-            "name": "MINE MINE MINE",
-            "description": "COLLECT 50 GEMS",
-            "icon": "625aab10fab12c8236b207d952085192b6e420ae",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508706362,
-            "globalPct": 14.4
-          },
-          {
-            "apiName": "7g_05",
-            "name": "MY PRECIOUS",
-            "description": "COLLECT 100 GEMS",
-            "icon": "776d70d6dc4ae558066e265aa3aae83f15d2af7a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508995567,
-            "globalPct": 11.7
-          },
-          {
-            "apiName": "8z_01",
-            "name": "GOING PLACES",
-            "description": "REACH AREA LVL 25",
-            "icon": "763480867ff8187a4cc10f1733d933df65bf8a0d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508070994,
-            "globalPct": 19.9
-          },
-          {
-            "apiName": "8z_02",
-            "name": "GETTING AROUND",
-            "description": "REACH AREA LVL 50",
-            "icon": "6ba257da548f641d73d8a1b3ec36344e10aa63b0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508165966,
-            "globalPct": 17.3
-          },
-          {
-            "apiName": "8z_03",
-            "name": "TRAVELLER",
-            "description": "REACH AREA LVL 100",
-            "icon": "b14ecdbfc6a440cfdd9eef91582d5a6c5d059807",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508540989,
-            "globalPct": 15.6
-          },
-          {
-            "apiName": "8z_04",
-            "name": "SEE THE WORLD",
-            "description": "REACH AREA LVL 200",
-            "icon": "61126c6424dcf76b98294c4674404cfb3b3113b5",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508876807,
-            "globalPct": 12.9
-          },
-          {
-            "apiName": "8z_05",
-            "name": "GRASS IS GREENER",
-            "description": "REACH AREA LVL 300",
-            "icon": "12ba24344038f31985e03ed2e29594ebbfde3e1c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1509047804,
-            "globalPct": 11
-          },
-          {
-            "apiName": "9b_01",
-            "name": "WOODCUTTER",
-            "description": "DEFEAT TRUSKY",
-            "icon": "892d0de4b1edf74b99f7a09f657efea9c2c12d48",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508067711,
-            "globalPct": 24.8
-          },
-          {
-            "apiName": "9b_02",
-            "name": "SWORDS ARE SHARPER",
-            "description": "DEFEAT GOGAPIK",
-            "icon": "ea3cd1d9401adc1f0e769a4544a4fe84cfd51ccc",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508068054,
-            "globalPct": 23.3
-          },
-          {
-            "apiName": "9b_03",
-            "name": "KING SLAYER",
-            "description": "DEFEAT KINGURULLE",
-            "icon": "391b8757512ccd17b85426ca6e91dbdf19ede234",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508070100,
-            "globalPct": 20.8
-          },
-          {
-            "apiName": "9b_04",
-            "name": "JUNGLE FEVER",
-            "description": "DEFEAT BIGGASTOMP",
-            "icon": "5fe9ddce21bda01a0b47c1527024eb6e51dadc0c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508092906,
-            "globalPct": 18.9
-          },
-          {
-            "apiName": "9b_05",
-            "name": "WINGS AND CLAWS",
-            "description": "DEFEAT GARGLOT",
-            "icon": "4dd1bfcdc9b7bb8b35b810ba065caf0dc1a8cf8b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508102559,
-            "globalPct": 17.8
-          },
-          {
-            "apiName": "9b_06",
-            "name": "SMELLY",
-            "description": "DEFEAT BOBALOTS",
-            "icon": "dd1c7c9d77a243b90103b7b546eb667891de3d1c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508166113,
-            "globalPct": 17.1
-          },
-          {
-            "apiName": "9b_07",
-            "name": "DAWN  OF THE TAP",
-            "description": "DEFEAT SIMON",
-            "icon": "12788ff33a94a94773dbeee6d03aa51804f68257",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508260691,
-            "globalPct": 16.5
-          },
-          {
-            "apiName": "9b_08",
-            "name": "I PREFER CATS",
-            "description": "DEFEAT TOGRARO",
-            "icon": "72aa11e9f31f6ccecf6ef09d64845370cd690c64",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508347236,
-            "globalPct": 16.1
-          },
-          {
-            "apiName": "9b_09",
-            "name": "NO MILK DRINKERS",
-            "description": "DEFEAT DOOPA",
-            "icon": "2ef7dbfeb0ac2336d0e945fccab9c5c6c59cf516",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508429767,
-            "globalPct": 15.8
-          },
-          {
-            "apiName": "9b_010",
-            "name": "IT IS GETTING HOT",
-            "description": "DEFEAT DRAGONA",
-            "icon": "07e9a239be245f4ee43be3b3f57bb81208a0dd3f",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1508598107,
-            "globalPct": 15.3
-          }
-        ]
-      }
-    },
-    {
       "appId": 113200,
       "name": "The Binding of Isaac",
-      "playtimeHours": 159.2,
+      "playtimeHours": 164,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/113200/383cf045ca20625db18f68ef5e95169012118b9e.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/113200/header.jpg?t=1643480517",
       "genres": [
@@ -39214,6 +38341,879 @@
             "unlocked": true,
             "unlockTime": 1794960576,
             "globalPct": 1.6
+          }
+        ]
+      }
+    },
+    {
+      "appId": 4000,
+      "name": "Garry's Mod",
+      "playtimeHours": 162.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4000/4a6f25cfa2426445d0d9d6e233408de4d371ce8b.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1764757984",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "playerModes": [
+        "Single-player",
+        "Multi-player",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op",
+        "Cross-Platform Multiplayer"
+      ],
+      "hardwareSupport": [
+        "Remote Play on Tablet"
+      ],
+      "releaseDate": "Nov 29, 2006",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/library_header_2x.jpg",
+      "achievements": {
+        "total": 29,
+        "unlocked": 9,
+        "items": [
+          {
+            "apiName": "GMA_PLAY_SINGLEPLAYER",
+            "name": "Play Singleplayer",
+            "description": "Play singleplayer at least once",
+            "icon": "b8ce64f366e8a8a1c2aef231cca8ec82f3115d63",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1374348139,
+            "globalPct": 78.7
+          },
+          {
+            "apiName": "GMA_PLAY_MULTIPLAYER",
+            "name": "Play Multiplayer",
+            "description": "Play multiplayer at least once",
+            "icon": "d6b5b7ac882b0865415218642cb21bfb5a5fca77",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1374347813,
+            "globalPct": 84.7
+          },
+          {
+            "apiName": "GMA_X_STARTUPS",
+            "name": "Startup Millenium",
+            "description": "Start Garry's Mod 1000 times",
+            "icon": "f4bc0f96a846eeaa63a9ea92d11757b342376374",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.7
+          },
+          {
+            "apiName": "GMA_SAY_1",
+            "name": "Secret Phrase",
+            "description": "Say the secret phrase",
+            "icon": "f331d3e21b7fc96c8f117787fe3e2d5e26b9952e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1492868214,
+            "globalPct": 6.5
+          },
+          {
+            "apiName": "GMA_X_MINUTES",
+            "name": "Addict",
+            "description": "You have wasted a year of your life playing GMod!",
+            "icon": "9d99453c08ea180230b5ad24f904c0749e6ce139",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "GMA_X_MAPS",
+            "name": "Map Loader",
+            "description": "Play 20 different maps",
+            "icon": "7cb317f7a953204e79a3fc2923aad8eb77df74bd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1379090812,
+            "globalPct": 38.4
+          },
+          {
+            "apiName": "GMA_NOT_SANDBOX",
+            "name": "Play Around",
+            "description": "Play a gamemode that isn't sandbox",
+            "icon": "c1421b7d9609b03bca96bae9abde44da628d20a1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1374350883,
+            "globalPct": 74.8
+          },
+          {
+            "apiName": "GMA_BADDIES",
+            "name": "War Zone",
+            "description": "Killed 1000 Baddies",
+            "icon": "88f7f6f51232d0792f70683599a55974b14086d1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.2
+          },
+          {
+            "apiName": "GMA_FRIENDS",
+            "name": "Friendly",
+            "description": "Play with 10 friends",
+            "icon": "14f07b40867ab5ceb305fa99fc1b112fc96abb14",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3
+          },
+          {
+            "apiName": "GMA_PLAYWITH_GARRY",
+            "name": "Yes, I am the real garry!",
+            "description": "Play on the same server as garry",
+            "icon": "b018137e2177a4a1ac63460f8b20757d4e7ef2da",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "GMA_MARATHON",
+            "name": "Marathon",
+            "description": "Play on the same server & map for 8 hours",
+            "icon": "82ee06b6fb3a0aed698dfa33303526d58340f2c1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.9
+          },
+          {
+            "apiName": "GMA_HALFMARATHON",
+            "name": "Half Marathon",
+            "description": "Play on the same server & map for 4 hours",
+            "icon": "814409f41a371a1029d4dda336f3d6958c558548",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.6
+          },
+          {
+            "apiName": "GMA_DAY",
+            "name": "One Day",
+            "description": "24 hours of your life wasted",
+            "icon": "a200f9a8cc7327f9885218ff2e1a9317ce711459",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1394291774,
+            "globalPct": 29.9
+          },
+          {
+            "apiName": "GMA_WEEK",
+            "name": "One Week",
+            "description": "One whole week of your life wasted",
+            "icon": "9d608f3ad483370e261da7991aece5c135432098",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.6
+          },
+          {
+            "apiName": "GMA_MONTH",
+            "name": "One Month",
+            "description": "One whole month of your life wasted",
+            "icon": "812c6a24eb1997d7784e7bc6ab381899ae6b0753",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 4.4
+          },
+          {
+            "apiName": "GMA_BYSTANDER",
+            "name": "Innocent Bystander",
+            "description": "Kill 1000 innocent animals",
+            "icon": "33309ff1fc671bd3bf7f74dfd29df688429d2943",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.4
+          },
+          {
+            "apiName": "GMA_BALLEATER",
+            "name": "Ball Eater",
+            "description": "Eat 200 balls",
+            "icon": "0352bbe5511ea372e24108680a70929e559c3dcc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1394227345,
+            "globalPct": 12.8
+          },
+          {
+            "apiName": "GMA_PROPSPAWNER",
+            "name": "Creator",
+            "description": "Spawn 5000 props",
+            "icon": "c45ed5c18d9b92d68ea034d13fe0ee537110753f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 5.2
+          },
+          {
+            "apiName": "GMA_BALLOONPOPPER",
+            "name": "Popper",
+            "description": "Burst 1000 balloons",
+            "icon": "1ce84afb8118aafc4e2aa5c007b97f8d7330bbf8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "GMA_REMOVER",
+            "name": "Destroyer",
+            "description": "Remove 5000 things",
+            "icon": "8fbefdee3a3f2ac51a51aa7cd2d5f7116165aad8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3
+          },
+          {
+            "apiName": "GMA_SPAWNMENUER",
+            "name": "Menu User",
+            "description": "Open the spawnmenu 100,000 times",
+            "icon": "5dd0d4a1bcd15561860a06ea76969dfce4ff6b76",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.1
+          },
+          {
+            "apiName": "GMA_BADCODER",
+            "name": "Bad Coder",
+            "description": "Experience 500 Lua programming errors",
+            "icon": "ab6158930869f33717e4aa55122973ffd8d3d364",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1505510477,
+            "globalPct": 48.6
+          },
+          {
+            "apiName": "GMA_NPCSPAWNER",
+            "name": "Procreator",
+            "description": "Spawn 1000 NPCs",
+            "icon": "e2e840130db8efd5e34f12087a0ccddb7b04f40e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1492868476,
+            "globalPct": 22.7
+          },
+          {
+            "apiName": "GMA_RAGDOLLSPAWNER",
+            "name": "Dollhouse",
+            "description": "Spawn 2000 ragdolls",
+            "icon": "de22904018d342008bb6d94087190a0c2493689f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.5
+          },
+          {
+            "apiName": "GMA_GOODIES",
+            "name": "Bad Friend",
+            "description": "Kill 1000 friendly NPCs",
+            "icon": "040ae0e4fef44e23609b2cd2b545d3f41c782dd0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.9
+          },
+          {
+            "apiName": "GMA_SMALLTHUMB",
+            "name": "10 Thumbs",
+            "description": "Your Workshop uploads got 10 thumbs",
+            "icon": "1c5bef9615a260ae3177c26ad8ac86f5dc192ead",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "GMA_MEDIUMTHUMB",
+            "name": "100 Thumbs",
+            "description": "Your workshop uploads got 100 thumbs",
+            "icon": "0afc0d332af9c5e779302bb7a70d29b15fdec263",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "GMA_HUGETHUMB",
+            "name": "1000 Thumbs",
+            "description": "Your Workshop uploads got 1000 thumbs",
+            "icon": "f0b8f66a9f445a80fcf7897d8b07c634ae26a469",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "GMA_MEGAUPLOAD",
+            "name": "Mega Upload",
+            "description": "Get 1000 thumbs on a single upload (then go to jail)",
+            "icon": "75b1b16c2b67b893d35d3b8c79de90dcb14dfd4b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          }
+        ]
+      }
+    },
+    {
+      "appId": 433850,
+      "name": "Z1 Battle Royale",
+      "playtimeHours": 162.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/433850/aee7491abfd812e2fbb4ec3326ad5f4b85c8137a.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/header.jpg?t=1579626820",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Free To Play",
+        "Massively Multiplayer"
+      ],
+      "playerModes": [
+        "Multi-player",
+        "Online PvP"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Feb 28, 2018",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433850/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": null
+    },
+    {
+      "appId": 371570,
+      "name": "Tap Heroes",
+      "playtimeHours": 161.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/371570/7452adb40bf8cf1bcc9df4188c5a29416251ef71.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/header.jpg?t=1775322391",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "RPG"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jun 5, 2015",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371570/library_header.jpg",
+      "achievements": {
+        "total": 50,
+        "unlocked": 50,
+        "items": [
+          {
+            "apiName": "1e_01",
+            "name": "FIGHTER",
+            "description": "DEFEAT 100 ENEMIES",
+            "icon": "e41d44570e05c033c4b2fba5050b29988a704dae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067846,
+            "globalPct": 24.9
+          },
+          {
+            "apiName": "1e_02",
+            "name": "SOLDIER",
+            "description": "DEFEAT 1000 ENEMIES",
+            "icon": "849c7b86e16720d9e4c18fd4fac78b7f7f8b273f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508273615,
+            "globalPct": 18
+          },
+          {
+            "apiName": "1e_03",
+            "name": "WARRIOR",
+            "description": "DEFEAT 10000 ENEMIES",
+            "icon": "ab9cd81d1f6beb1b8ffea9f18090af3ea6cf3539",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509050733,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "1e_04",
+            "name": "KNIGHT",
+            "description": "DEFEAT 100000 ENEMIES",
+            "icon": "7b0d5a964d82d9bddea98eac4f1403fc84c6d882",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1578149473,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "1e_05",
+            "name": "TAP HERO",
+            "description": "DEFEAT 1000000 ENEMIES",
+            "icon": "8a1d6f49f82fd43e76b7f2d9eae63a81d02d6cc4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1583545748,
+            "globalPct": 7
+          },
+          {
+            "apiName": "2g_01",
+            "name": "LOADED",
+            "description": "COLLECT 1000 GOLD",
+            "icon": "14219d07a7390f92fcf5dd3d2231e660ddc3f684",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508068056,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "2g_02",
+            "name": "WEALTHY",
+            "description": "COLLECT 10000 GOLD",
+            "icon": "8800fa96f6e5fcdaab05eceab66d6cd8b18782a6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508071022,
+            "globalPct": 20.2
+          },
+          {
+            "apiName": "2g_03",
+            "name": "WORTH A MILLION",
+            "description": "COLLECT 1000000 GOLD",
+            "icon": "62231b9b66aab8850e33e37420c27b138e426933",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508665424,
+            "globalPct": 14.5
+          },
+          {
+            "apiName": "2g_04",
+            "name": "FILTHY RICH",
+            "description": "COLLECT 5000000 GOLD",
+            "icon": "d3dee6ec64d6000faa60311795fef06450bda0ca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508870023,
+            "globalPct": 12.5
+          },
+          {
+            "apiName": "2g_05",
+            "name": "ROLLING IN IT",
+            "description": "COLLECT 10000000 GOLD",
+            "icon": "e7b44785f69c8ea5865f1559914e4c06912d9a28",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509036460,
+            "globalPct": 11.4
+          },
+          {
+            "apiName": "3l_01",
+            "name": "STARTING OUT",
+            "description": "LEVEL UP 50 TIMES",
+            "icon": "93467d46044b55498262b3df58accd3d012716ef",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067919,
+            "globalPct": 23.8
+          },
+          {
+            "apiName": "3l_02",
+            "name": "APPRENTICE",
+            "description": "LEVEL UP 150 TIMES",
+            "icon": "7c37589875ee460f73d10c85d4b7f2bb58e8bb3d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508091700,
+            "globalPct": 20.8
+          },
+          {
+            "apiName": "3l_03",
+            "name": "JOURNEYMAN",
+            "description": "LEVEL UP 500 TIMES",
+            "icon": "3d07efa4cad1dcd62e5e3b6a99d90d77f1442d97",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508272445,
+            "globalPct": 17.9
+          },
+          {
+            "apiName": "3l_04",
+            "name": "SKILLED",
+            "description": "LEVEL UP 1000 TIMES",
+            "icon": "c3c4214571c1cc366b49d24714505d62b115b1ed",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508707291,
+            "globalPct": 16
+          },
+          {
+            "apiName": "3l_05",
+            "name": "MASTER",
+            "description": "LEVEL UP 5000 TIMES",
+            "icon": "dcf3e39cf3fb3136afb704bf2f013cf7e3150ee9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1533386542,
+            "globalPct": 8
+          },
+          {
+            "apiName": "4f_01",
+            "name": "TAP TAP TAP",
+            "description": "TAP 1000 TIMES",
+            "icon": "f9d12698714b3da11b5d9a8c0839ad71111df3e1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067985,
+            "globalPct": 23.4
+          },
+          {
+            "apiName": "4f_02",
+            "name": "TAPPER",
+            "description": "TAP 10000 TIMES",
+            "icon": "a284418dde808104550be088c0d0727e9d83fea5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508218245,
+            "globalPct": 15.4
+          },
+          {
+            "apiName": "4f_03",
+            "name": "SORE FINGER",
+            "description": "TAP 50000 TIMES",
+            "icon": "b58e4bc961298abf9468760749dc60ad118c7b94",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509194193,
+            "globalPct": 10
+          },
+          {
+            "apiName": "4f_04",
+            "name": "FINGER BLASTER",
+            "description": "TAP 100000 TIMES",
+            "icon": "c2a862a48f533aabbd3e6254bb52d115362cc19d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509208281,
+            "globalPct": 9
+          },
+          {
+            "apiName": "4f_05",
+            "name": "MASTER TAPPER",
+            "description": "TAP 250000 TIMES",
+            "icon": "c1b1b0f265cd2a6f520c072f2f4f8d04b7eb0779",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509239755,
+            "globalPct": 8.1
+          },
+          {
+            "apiName": "5t_01",
+            "name": "LUCKY CHARM",
+            "description": "FIND 5 CHESTS",
+            "icon": "6c66a5cfb55136c24d1f51c688c0dd95ce775b7b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067929,
+            "globalPct": 23.6
+          },
+          {
+            "apiName": "5t_02",
+            "name": "COLLECTOR",
+            "description": "FIND 25 CHESTS",
+            "icon": "ab95850a47b6ad79d71ba012c25e1117d340d333",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508098759,
+            "globalPct": 18.1
+          },
+          {
+            "apiName": "5t_03",
+            "name": "DIGGY HOLE",
+            "description": "FIND 75 CHESTS",
+            "icon": "59b8827e42b39339436239f108392d2643764ffc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508662756,
+            "globalPct": 15.2
+          },
+          {
+            "apiName": "5t_04",
+            "name": "I AM A PIRATE!",
+            "description": "FIND 150 CHESTS",
+            "icon": "cd770ecdba13cc28e462f43c4e0471496ad64ab3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509031285,
+            "globalPct": 12.4
+          },
+          {
+            "apiName": "5t_05",
+            "name": "TREASURE HUNTER",
+            "description": "FIND 300 CHESTS",
+            "icon": "2a98d638ccc1fb7907bb1cb1270edfcb12e3ad74",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1510069729,
+            "globalPct": 9
+          },
+          {
+            "apiName": "6p_01",
+            "name": "SPELLCASTER",
+            "description": "CAST 5 POWERS",
+            "icon": "314ee7f8ab4828244932b5208df4eb97d7a294e1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508132184,
+            "globalPct": 14.5
+          },
+          {
+            "apiName": "6p_02",
+            "name": "WARLOCK",
+            "description": "CAST 15 POWERS",
+            "icon": "d3ac9635d29f7717d757b42e03568b0945e8f1dd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508347121,
+            "globalPct": 12.6
+          },
+          {
+            "apiName": "6p_03",
+            "name": "SORCERER",
+            "description": "CAST 35 POWERS",
+            "icon": "32d6c1053744da568008ecb4b7901e9a8bca7ff3",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508520076,
+            "globalPct": 11.1
+          },
+          {
+            "apiName": "6p_04",
+            "name": "WIZARD",
+            "description": "CAST 75 POWERS",
+            "icon": "f8bbb1bfd9f8eb01dade91238ce0f548a4cb9884",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508664298,
+            "globalPct": 9.8
+          },
+          {
+            "apiName": "6p_05",
+            "name": "GOD",
+            "description": "CAST 150 POWERS",
+            "icon": "2e89dba33ab0c04918723fe2a576056216c6e738",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508866144,
+            "globalPct": 8.7
+          },
+          {
+            "apiName": "7g_01",
+            "name": "SHINY",
+            "description": "COLLECT 5 GEMS",
+            "icon": "7f25d24a7ddaaff50edd28b143ecd1bc760d3200",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508069383,
+            "globalPct": 21.8
+          },
+          {
+            "apiName": "7g_02",
+            "name": "SO SHINY",
+            "description": "COLLECT 10 GEMS",
+            "icon": "366c7af3bd083f2ec0e4a380930dfe5123b202c5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508098710,
+            "globalPct": 18.9
+          },
+          {
+            "apiName": "7g_03",
+            "name": "ONLY MINE",
+            "description": "COLLECT 25 GEMS",
+            "icon": "1dec9b16ba1ec9116f73f0156cab4026cc460af7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508430017,
+            "globalPct": 16.2
+          },
+          {
+            "apiName": "7g_04",
+            "name": "MINE MINE MINE",
+            "description": "COLLECT 50 GEMS",
+            "icon": "625aab10fab12c8236b207d952085192b6e420ae",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508706362,
+            "globalPct": 14.4
+          },
+          {
+            "apiName": "7g_05",
+            "name": "MY PRECIOUS",
+            "description": "COLLECT 100 GEMS",
+            "icon": "776d70d6dc4ae558066e265aa3aae83f15d2af7a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508995567,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "8z_01",
+            "name": "GOING PLACES",
+            "description": "REACH AREA LVL 25",
+            "icon": "763480867ff8187a4cc10f1733d933df65bf8a0d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508070994,
+            "globalPct": 19.9
+          },
+          {
+            "apiName": "8z_02",
+            "name": "GETTING AROUND",
+            "description": "REACH AREA LVL 50",
+            "icon": "6ba257da548f641d73d8a1b3ec36344e10aa63b0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508165966,
+            "globalPct": 17.3
+          },
+          {
+            "apiName": "8z_03",
+            "name": "TRAVELLER",
+            "description": "REACH AREA LVL 100",
+            "icon": "b14ecdbfc6a440cfdd9eef91582d5a6c5d059807",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508540989,
+            "globalPct": 15.6
+          },
+          {
+            "apiName": "8z_04",
+            "name": "SEE THE WORLD",
+            "description": "REACH AREA LVL 200",
+            "icon": "61126c6424dcf76b98294c4674404cfb3b3113b5",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508876807,
+            "globalPct": 12.9
+          },
+          {
+            "apiName": "8z_05",
+            "name": "GRASS IS GREENER",
+            "description": "REACH AREA LVL 300",
+            "icon": "12ba24344038f31985e03ed2e29594ebbfde3e1c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1509047804,
+            "globalPct": 11
+          },
+          {
+            "apiName": "9b_01",
+            "name": "WOODCUTTER",
+            "description": "DEFEAT TRUSKY",
+            "icon": "892d0de4b1edf74b99f7a09f657efea9c2c12d48",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508067711,
+            "globalPct": 24.8
+          },
+          {
+            "apiName": "9b_02",
+            "name": "SWORDS ARE SHARPER",
+            "description": "DEFEAT GOGAPIK",
+            "icon": "ea3cd1d9401adc1f0e769a4544a4fe84cfd51ccc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508068054,
+            "globalPct": 23.3
+          },
+          {
+            "apiName": "9b_03",
+            "name": "KING SLAYER",
+            "description": "DEFEAT KINGURULLE",
+            "icon": "391b8757512ccd17b85426ca6e91dbdf19ede234",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508070100,
+            "globalPct": 20.8
+          },
+          {
+            "apiName": "9b_04",
+            "name": "JUNGLE FEVER",
+            "description": "DEFEAT BIGGASTOMP",
+            "icon": "5fe9ddce21bda01a0b47c1527024eb6e51dadc0c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508092906,
+            "globalPct": 18.9
+          },
+          {
+            "apiName": "9b_05",
+            "name": "WINGS AND CLAWS",
+            "description": "DEFEAT GARGLOT",
+            "icon": "4dd1bfcdc9b7bb8b35b810ba065caf0dc1a8cf8b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508102559,
+            "globalPct": 17.8
+          },
+          {
+            "apiName": "9b_06",
+            "name": "SMELLY",
+            "description": "DEFEAT BOBALOTS",
+            "icon": "dd1c7c9d77a243b90103b7b546eb667891de3d1c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508166113,
+            "globalPct": 17.1
+          },
+          {
+            "apiName": "9b_07",
+            "name": "DAWN  OF THE TAP",
+            "description": "DEFEAT SIMON",
+            "icon": "12788ff33a94a94773dbeee6d03aa51804f68257",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508260691,
+            "globalPct": 16.5
+          },
+          {
+            "apiName": "9b_08",
+            "name": "I PREFER CATS",
+            "description": "DEFEAT TOGRARO",
+            "icon": "72aa11e9f31f6ccecf6ef09d64845370cd690c64",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508347236,
+            "globalPct": 16.1
+          },
+          {
+            "apiName": "9b_09",
+            "name": "NO MILK DRINKERS",
+            "description": "DEFEAT DOOPA",
+            "icon": "2ef7dbfeb0ac2336d0e945fccab9c5c6c59cf516",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508429767,
+            "globalPct": 15.8
+          },
+          {
+            "apiName": "9b_010",
+            "name": "IT IS GETTING HOT",
+            "description": "DEFEAT DRAGONA",
+            "icon": "07e9a239be245f4ee43be3b3f57bb81208a0dd3f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1508598107,
+            "globalPct": 15.3
           }
         ]
       }
@@ -251310,6 +251310,990 @@
       }
     },
     {
+      "appId": 3469750,
+      "name": "Military Incremental Complex",
+      "playtimeHours": 4.6,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3469750/0951623f90ecf2c994bbd1a97b34764be9b29f23.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469750/header.jpg?t=1785774066",
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Nov 21, 2025",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469750/31ca86966e1f5621ac712a4ce8e8b95faf8a9a99/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469750/cd27da7de49d30474135a0e9c8b0470c0aa587dd/library_header_2x.jpg",
+      "achievements": {
+        "total": 96,
+        "unlocked": 49,
+        "items": [
+          {
+            "apiName": "$1",
+            "name": "$1",
+            "description": "Make your first dollar",
+            "icon": "c3316a8d4bb232420de1c6846c6efbe1faf5508d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795040728,
+            "globalPct": 98.8
+          },
+          {
+            "apiName": "$100",
+            "name": "$100",
+            "description": "Intern",
+            "icon": "aa097bce62f6332fbeb81bc7afcad46235ed63ab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795040814,
+            "globalPct": 98.6
+          },
+          {
+            "apiName": "$1k",
+            "name": "$1K",
+            "description": "Sr. Intern",
+            "icon": "056eda4ce81fd122d98a5bbb6c81cde32f208177",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795041179,
+            "globalPct": 98
+          },
+          {
+            "apiName": "$1m",
+            "name": "$1M",
+            "description": "CEO @ War",
+            "icon": "e7b53116cb2c4e4b3d342dfa10ceb0b24a5f2544",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795044038,
+            "globalPct": 87.3
+          },
+          {
+            "apiName": "$1b",
+            "name": "$1B",
+            "description": "The Complex",
+            "icon": "279d2dbffd0fe85f2eff036cfc27e28921887a61",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795051022,
+            "globalPct": 62.3
+          },
+          {
+            "apiName": "ammo1",
+            "name": "Case",
+            "description": "Make 1 Ammo",
+            "icon": "1c6ad3fddab956202fbc94812a6aae559a862740",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795040716,
+            "globalPct": 99.3
+          },
+          {
+            "apiName": "ammo100",
+            "name": "Gunpowder",
+            "description": "Make 100 Ammo",
+            "icon": "3972e981a90629f6bbf5cea351f5c290e42b9464",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795040801,
+            "globalPct": 98.6
+          },
+          {
+            "apiName": "ammo1k",
+            "name": "Bullet",
+            "description": "Make 1,000 Ammo",
+            "icon": "b99afcea6591b666722bb455dac37d70f1d6bf42",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795041246,
+            "globalPct": 97.9
+          },
+          {
+            "apiName": "ammo1m",
+            "name": "BANG!",
+            "description": "Make 1,000,000 Ammo",
+            "icon": "31045989cc00a57a8441ed391bf911a58ccd2e11",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795052106,
+            "globalPct": 64.2
+          },
+          {
+            "apiName": "grenade1",
+            "name": "Casing",
+            "description": "Make 1 Grenade",
+            "icon": "da595c3c93fc9a084956e409ed8dcf7b2d4c0f2d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795041699,
+            "globalPct": 93.4
+          },
+          {
+            "apiName": "grenade100",
+            "name": "Explosive",
+            "description": "Make 100 Grenades",
+            "icon": "466f5fbf7abb17fc6e7da44b789f33cd3dc25ccc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795041885,
+            "globalPct": 91.4
+          },
+          {
+            "apiName": "grenade1k",
+            "name": "Fuze",
+            "description": "Make 1,000 Grenades",
+            "icon": "5e8d052c6a9190f03bd1c45a11af040b920d6c82",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795042414,
+            "globalPct": 89.3
+          },
+          {
+            "apiName": "grenade1m",
+            "name": "BOOM!",
+            "description": "Make 1,000,000 Grenades",
+            "icon": "7b5b24812f35f597456e375a1270ed68af785873",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795055500,
+            "globalPct": 46.4
+          },
+          {
+            "apiName": "gun1",
+            "name": "Receiver",
+            "description": "Make 1 Gun",
+            "icon": "cd065e77adf3c22d75b063dd43076f6f3397065d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795044348,
+            "globalPct": 83.7
+          },
+          {
+            "apiName": "gun100",
+            "name": "Barrel",
+            "description": "Make 100 Guns",
+            "icon": "2e7f21119ab0ff1d856c4f2ed299c414013abc01",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795044495,
+            "globalPct": 82.3
+          },
+          {
+            "apiName": "gun1k",
+            "name": "Furniture",
+            "description": "Make 1,000 Guns",
+            "icon": "326a558fcacb89fd9246d46c8cc2b6c6c3c85b77",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795045384,
+            "globalPct": 77.9
+          },
+          {
+            "apiName": "gun1m",
+            "name": "PEW!",
+            "description": "Make 1,000,000 Guns",
+            "icon": "3be767c5724cd49462cbbaa1e9f85b649ffeb2d8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 37.3
+          },
+          {
+            "apiName": "bomb1",
+            "name": "Body",
+            "description": "Make 1 Bomb",
+            "icon": "a012234288c0431328b2c81569eb08c09da5e87f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795045703,
+            "globalPct": 70.6
+          },
+          {
+            "apiName": "bomb100",
+            "name": "High Explosive",
+            "description": "Make 100 Bombs",
+            "icon": "5c36748cd22ad58056bd07657a2541148e0ec594",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795046116,
+            "globalPct": 68.7
+          },
+          {
+            "apiName": "bomb1k",
+            "name": "Fins",
+            "description": "Make 1,000",
+            "icon": "afb823404ace33bdbb98b6e383d2430b0c78d331",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795050002,
+            "globalPct": 64.6
+          },
+          {
+            "apiName": "bomb1m",
+            "name": "KABOOM!",
+            "description": "Make 1,000,000 Bombs",
+            "icon": "42685f63cc5b3d2b1b9a4c0a52777f0d6e4034c8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.5
+          },
+          {
+            "apiName": "jeep1",
+            "name": "Chassis",
+            "description": "Make 1 Jeep",
+            "icon": "2c2a0133c0a3bede5942c62fab8c3284cab7cc73",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795052428,
+            "globalPct": 55.8
+          },
+          {
+            "apiName": "jeep100",
+            "name": "Engine",
+            "description": "Make 100 Jeeps",
+            "icon": "8d0ed2cc769c0472b42b8a8dea6390829292dc8e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795052627,
+            "globalPct": 54.8
+          },
+          {
+            "apiName": "jeep1k",
+            "name": "Wheels",
+            "description": "Make 1,000",
+            "icon": "f15ed9ab80e5d3b4ff206ccf4ae4dd270d23d242",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795052837,
+            "globalPct": 53
+          },
+          {
+            "apiName": "jeep1m",
+            "name": "BEEP!",
+            "description": "Make 1,000,000 Jeeps",
+            "icon": "d289ac21caa44baecb2df2f30595c7ea204a12a1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 28.7
+          },
+          {
+            "apiName": "artillery1",
+            "name": "Base",
+            "description": "Make 1 Artillery",
+            "icon": "b311fea215c5d94691ae065c2946317e91a9e278",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795056031,
+            "globalPct": 47.6
+          },
+          {
+            "apiName": "artillery100",
+            "name": "Breech",
+            "description": "Make 100 Artillery",
+            "icon": "32ad3e6eebee23fd9c9404533a9c7e799fbf6474",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795056258,
+            "globalPct": 46.2
+          },
+          {
+            "apiName": "artillery1k",
+            "name": "Cannon",
+            "description": "Make 1,000 Artillery",
+            "icon": "b6c14d5d7666d47a049fe78da52d154bbecc9849",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795056393,
+            "globalPct": 45.2
+          },
+          {
+            "apiName": "artillery1m",
+            "name": "BOOOM!",
+            "description": "Make 1,000,000 Artillery",
+            "icon": "46a265c15a8ecac41cd51613782ed129d8d1070f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 26.3
+          },
+          {
+            "apiName": "missile1",
+            "name": "Tube",
+            "description": "Make 1 Missile",
+            "icon": "206de0fcb9e09ab0734927b6f146aad2b80fd29e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 41.1
+          },
+          {
+            "apiName": "missile100",
+            "name": "Rocket",
+            "description": "Make 100 Missiles",
+            "icon": "eade0a351c13a8144edd45024b0efee537568f2d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 39.3
+          },
+          {
+            "apiName": "missile1k",
+            "name": "Warhead",
+            "description": "Make 1,000 Missiles",
+            "icon": "c73fa6f93f9f8d04ec80e5d677b4b1e475ee6a63",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 38.6
+          },
+          {
+            "apiName": "missile1m",
+            "name": "WOOSH!",
+            "description": "Make 1,000,000 Missiles",
+            "icon": "a3c60cdbcf1a2b3035711e5170d9e72454d84788",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 22.9
+          },
+          {
+            "apiName": "tank1",
+            "name": "Frame",
+            "description": "Make 1 Tank",
+            "icon": "a49b3a94f2bddeb82d45a48d71e1489281a96657",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 35
+          },
+          {
+            "apiName": "tank100",
+            "name": "Armor",
+            "description": "Make 100 Tanks",
+            "icon": "a20a79930dad422d4e55d083a5b08697ee78d800",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 33.8
+          },
+          {
+            "apiName": "tank1k",
+            "name": "Tracks",
+            "description": "Make 1,000 Tanks",
+            "icon": "7439935a489f49b61ff36c7d4851cd6d38e75f40",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 33.5
+          },
+          {
+            "apiName": "tank1m",
+            "name": "VROOM!",
+            "description": "Make 1,000,000 Tanks",
+            "icon": "07200b6dbc5e0afb5c803d8ccd76591788ca0ff8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.7
+          },
+          {
+            "apiName": "jet1",
+            "name": "Wings",
+            "description": "Make 1 Jet",
+            "icon": "295517874b94baeca17bce8118be1226fa448543",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 30.5
+          },
+          {
+            "apiName": "jet100",
+            "name": "Turbine",
+            "description": "Make 100 Jets",
+            "icon": "2ac7a8f987d8642712616088c42f6d86b4c3511b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 29.6
+          },
+          {
+            "apiName": "jet1k",
+            "name": "Radar",
+            "description": "Make 1,000 Jets",
+            "icon": "7bb3266bc5189e9252304d99e421025e53207201",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 29.3
+          },
+          {
+            "apiName": "jet1m",
+            "name": "ZOOM!",
+            "description": "Make 1,000,000 Jets",
+            "icon": "9e6d40a281b6549d771994728a55e0e70dbb9c93",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.2
+          },
+          {
+            "apiName": "ship1",
+            "name": "Keel",
+            "description": "Make 1 Ship",
+            "icon": "038b865805699ddb6bf868c6b334f2f0afe64333",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 26.5
+          },
+          {
+            "apiName": "ship100",
+            "name": "Hull",
+            "description": "Make 100 Ships",
+            "icon": "ee03ef78b99e87f690b4023abd1689828ab0918a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.7
+          },
+          {
+            "apiName": "ship1k",
+            "name": "Turrets",
+            "description": "Make 1,000 Ships",
+            "icon": "37f9d95f1923264a7b187cb0f7d6b954c4977273",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "ship1m",
+            "name": "DOOTDOOT!",
+            "description": "Make 1,000,000 Ships",
+            "icon": "f494d2e50604975059f518d318befd6dc72a498f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "bankrupt",
+            "name": "Bankrupt!",
+            "description": "Run out of money with no way to make more weapons",
+            "icon": "1c226132cdbd1fe72b287d1e55d3738ee2fb970e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18
+          },
+          {
+            "apiName": "sign1",
+            "name": "Shake",
+            "description": "Make $1 with the Sale Sign",
+            "icon": "988e9c0db3e804df772d433cf4803ffd0113b7ca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043274,
+            "globalPct": 60.4
+          },
+          {
+            "apiName": "sign100",
+            "name": "Spin",
+            "description": "Make $100 with the Sale Sign",
+            "icon": "7f0bf3116fa1aa901432abc1c5fff8301b7bc3de",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043274,
+            "globalPct": 59.6
+          },
+          {
+            "apiName": "sign1k",
+            "name": "Twirl",
+            "description": "Make $1,000 with the Sale Sign",
+            "icon": "dcaca37f78586f252fbc5d99f2ddc7421454ccdf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043398,
+            "globalPct": 55.8
+          },
+          {
+            "apiName": "sign1m",
+            "name": "Flip",
+            "description": "Make $1,000,000 with the Sale Sign",
+            "icon": "d8036166f5532fd023136dd741aea22f5eb88bfc",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043556,
+            "globalPct": 50.7
+          },
+          {
+            "apiName": "auto...",
+            "name": "Auto... (wait for it)",
+            "description": "Automate production of a weapon",
+            "icon": "f994269a315a20fefadf433e69594d413bd32fab",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795041086,
+            "globalPct": 98
+          },
+          {
+            "apiName": "...mated",
+            "name": "...MATED!",
+            "description": "Automate production of ALL weapons",
+            "icon": "5d91fa94ae7b0d9d9aa34d0a2948fd316693634d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 20
+          },
+          {
+            "apiName": "nuke1",
+            "name": "Core",
+            "description": "Make 1 Nuke",
+            "icon": "aa68e7fa19f98b3df2e82e4504d8ed55466dd507",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.7
+          },
+          {
+            "apiName": "launch_nuke",
+            "name": "Now I am become Death",
+            "description": "",
+            "icon": "e676889ce4db15af353887d5b2d80c8849ca8b74",
+            "hidden": true,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.2
+          },
+          {
+            "apiName": "fear1",
+            "name": "Newspapers",
+            "description": "Spread 1 Fear",
+            "icon": "25b3bc8d103326c029e9ac4ab0fd59f9f827db25",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043260,
+            "globalPct": 81.1
+          },
+          {
+            "apiName": "fear100",
+            "name": "Radio",
+            "description": "Spread 100 Fear",
+            "icon": "82b0e71ce557d9f2f8700ff520bd32c56d3c63b8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043318,
+            "globalPct": 80.6
+          },
+          {
+            "apiName": "fear1k",
+            "name": "TV",
+            "description": "Spread 1,000 Fear",
+            "icon": "2e2287220e780ae04e4c24c2ba214b5662a867ff",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795045183,
+            "globalPct": 74.5
+          },
+          {
+            "apiName": "fear1m",
+            "name": "Internet",
+            "description": "Spread 1,000,000 Fear",
+            "icon": "f3d851a6b64ebb3852ec08345b03516990b27fa6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "golden1",
+            "name": "10 Karat",
+            "description": "Click on 1 Golden Weapon",
+            "icon": "d49ed3b4e0d8f214747fd4b35f948eb46ddfe49d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795040885,
+            "globalPct": 96.1
+          },
+          {
+            "apiName": "golden100",
+            "name": "18 Karat",
+            "description": "Click on 100 Golden Weapons",
+            "icon": "d89d975eb494d68a6c0c16e737f129f824402b48",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795047546,
+            "globalPct": 67.4
+          },
+          {
+            "apiName": "golden1k",
+            "name": "24 Karat",
+            "description": "Click on 1,000 Golden Weapons",
+            "icon": "b3eb415f2debd4fe8c5ab50e7a50e579765b6825",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795053252,
+            "globalPct": 41.1
+          },
+          {
+            "apiName": "golden100k",
+            "name": "AhaUser1's Golden Finger",
+            "description": "Congrats on clicking 100,000 golden weapons, but player AhaUser1 managed to do that in 0.1 seconds",
+            "icon": "d3d4a68aba8fdf8bb734837067ef08167b543401",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 4
+          },
+          {
+            "apiName": "25min_jeeps",
+            "name": "Oh the Humanity",
+            "description": "LivingHuman brought 4-Wheel destruction upon the world in less than 25 minutes",
+            "icon": "957d86de5072a63b01975ca5bae4e9a9ff254f38",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.4
+          },
+          {
+            "apiName": "extractor1",
+            "name": "16 tons, and what do ya get?",
+            "description": "Buy 1 Mine",
+            "icon": "726cf36f21385678a8acc626ecbf7d5fecffb606",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043014,
+            "globalPct": 91.1
+          },
+          {
+            "apiName": "stock1",
+            "name": "Penny Stocks",
+            "description": "Buy 1 Stock",
+            "icon": "53bb56a64c536b15d01410b68d73e3d92153b7c1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795045715,
+            "globalPct": 72.5
+          },
+          {
+            "apiName": "stock100",
+            "name": "Small-Cap",
+            "description": "Buy 100 Stocks",
+            "icon": "0c95f19ee1f36ccd854532d9e210a209575ceb0c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795046687,
+            "globalPct": 71.3
+          },
+          {
+            "apiName": "stock1k",
+            "name": "Blue Chip",
+            "description": "Buy 1,000 Stocks",
+            "icon": "079347025d7a81aa03d778927b55357ff765d1b1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795057023,
+            "globalPct": 49
+          },
+          {
+            "apiName": "lobbying1",
+            "name": "Local Influence",
+            "description": "Gain 1 Political Favor",
+            "icon": "f5d1bf7ea2cb59780908e89c73da6f65de1af3a7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 44.1
+          },
+          {
+            "apiName": "bribe1",
+            "name": "Briefcase Full of Cash",
+            "description": "Bribe a politician for a Political Favor",
+            "icon": "fc81d26ec780ec59dc98583e59d1ac677dbedb84",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 39.5
+          },
+          {
+            "apiName": "lobbying10",
+            "name": "State Influence",
+            "description": "Gain 10 Political Favors",
+            "icon": "422487fdf6c1a0502d5e8cde3a25e06095c67712",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 39.3
+          },
+          {
+            "apiName": "lobbying30",
+            "name": "National Influence",
+            "description": "Gain 30 Political Favors",
+            "icon": "c553765a4c63a44bf6e56bcafa3cd2fbaf85a747",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.1
+          },
+          {
+            "apiName": "prestige1",
+            "name": "Do it all over again",
+            "description": "Gain 1 Prestige Point",
+            "icon": "26c3597a3a4846124e411b6e412716393741a28e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795041230,
+            "globalPct": 97.8
+          },
+          {
+            "apiName": "prestige4",
+            "name": "Another One",
+            "description": "Gain 4 Prestige Points",
+            "icon": "a68197a54df40894e981b4396f555926b3bb8602",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795043045,
+            "globalPct": 86.2
+          },
+          {
+            "apiName": "prestige8",
+            "name": "One More Time",
+            "description": "Gain 8 Prestige Points",
+            "icon": "49d807d6f9303436c142fe1b9ef0bc4afce9723a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795047762,
+            "globalPct": 69.3
+          },
+          {
+            "apiName": "prestige12",
+            "name": "Groundhogs Day",
+            "description": "Gain 12 Prestige Points",
+            "icon": "0ada2e9fe5637247da6677460561fb0b918a6bc3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 44.2
+          },
+          {
+            "apiName": "prestige16",
+            "name": "Once More Into the Breach",
+            "description": "Gain 16 Prestige Points",
+            "icon": "815e5e9a6cc7534c808cf84e169c238de3bffefb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.5
+          },
+          {
+            "apiName": "orbital_potato",
+            "name": "\"I'm keen to be a Billionaire\"",
+            "description": "Make $1,459,579,772.66 and beat Orbital Potato's high score!",
+            "icon": "f3ca81832719cbde24f7076ab959770d4b369756",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795051378,
+            "globalPct": 61
+          },
+          {
+            "apiName": "RCE",
+            "name": "Boosh!",
+            "description": "Click Real Civil Engineer's Golden Hard Hat!",
+            "icon": "2c90ccb026d3a105cd74f5e58f73b1eda6c66f5c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795047548,
+            "globalPct": 27.3
+          },
+          {
+            "apiName": "imcade",
+            "name": "One More Big Ole Sell",
+            "description": "Make $42,990,532.27 and beat ImCade's high score!",
+            "icon": "2351ac01a40660703296351d3e5d1090e9aa1b78",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795046220,
+            "globalPct": 67.2
+          },
+          {
+            "apiName": "five_b_sign_flip",
+            "name": "Its a REALLY good sign",
+            "description": "Make over $5,000,000,000 from a single sign flip!",
+            "icon": "387567cf0073f67fe07b746e46c9a24dfb985f9a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.8
+          },
+          {
+            "apiName": "max_intern_mine",
+            "name": "Giggity",
+            "description": "Have 12 Intern mines active at once",
+            "icon": "deac5d4618e70010007d38f26d91ca82f7c10e7f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 37
+          },
+          {
+            "apiName": "max_scientist_mine",
+            "name": "Giggity-v2",
+            "description": "Have 4 Scientist mines active at once",
+            "icon": "4508756b2cfe62ca8bf3fcb532d6422594c817dd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.8
+          },
+          {
+            "apiName": "ammo_and_ships_run",
+            "name": "You really only need Ammo and Ships...",
+            "description": "Unlock Ships after giving up 6 other Weapons",
+            "icon": "00ca2ab574e1cd18b36c1ce4331a4c4e3e6a1342",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.8
+          },
+          {
+            "apiName": "late_game_man_made_at_once",
+            "name": "Mass (Manual) Production",
+            "description": "Make over 500 weapons from a single manual production",
+            "icon": "de36bece1350e1ab76cb128126f1d8132cd5c9f1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.3
+          },
+          {
+            "apiName": "production_streak_no_errors_ammo",
+            "name": "50xAmmo",
+            "description": "Make 50 Ammo without failing",
+            "icon": "1624e61068e66533244468188517fc0db41a6d6a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.4
+          },
+          {
+            "apiName": "production_streak_no_errors_grenades",
+            "name": "50xGrenades",
+            "description": "Make 50 Grenades without failing",
+            "icon": "ed9386c99101603cd913caa4cf31337faf83c855",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.6
+          },
+          {
+            "apiName": "production_streak_no_errors_guns",
+            "name": "50xGuns",
+            "description": "Make 50 Guns without failing",
+            "icon": "929722011c43241dd9d164d9a598ca4872df8965",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795055865,
+            "globalPct": 9.4
+          },
+          {
+            "apiName": "production_streak_no_errors_bombs",
+            "name": "50xBombs",
+            "description": "Make 50 Bombs without failing",
+            "icon": "9ca5521f1364ff69c4d3308ae95bf6d348771a3a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795055992,
+            "globalPct": 5.1
+          },
+          {
+            "apiName": "production_streak_no_errors_jeeps",
+            "name": "50xJeeps",
+            "description": "Make 50 Jeeps without failing",
+            "icon": "ba8805337916e9506665e1bb92adbb0d678f6fde",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795052603,
+            "globalPct": 6.7
+          },
+          {
+            "apiName": "production_streak_no_errors_artillery",
+            "name": "50xArtillery",
+            "description": "Make 50 Artillery without failing",
+            "icon": "0acd5b06f2f721a09d2218bd9b4be51658182a42",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "production_streak_no_errors_missiles",
+            "name": "50xMissiles",
+            "description": "Make 50 Missiles without failing",
+            "icon": "3997fc94ff7944d90303a31a337f526d56471ab0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.4
+          },
+          {
+            "apiName": "production_streak_no_errors_tanks",
+            "name": "50xTanks",
+            "description": "Make 50 Tanks without failing",
+            "icon": "35e16ebdb4d89599c4fee1cfa27cf4e31dba5219",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.8
+          },
+          {
+            "apiName": "production_streak_no_errors_jets",
+            "name": "50xJets",
+            "description": "Make 50 Jets without failing",
+            "icon": "ebc01313cc1cb6c920468bb0a125cd633f7db38d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.9
+          },
+          {
+            "apiName": "production_streak_no_errors_ships",
+            "name": "50xShips",
+            "description": "Make 50 Ships without failing",
+            "icon": "c5891001850ed12da80f28527cab5bc9964066c0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.4
+          },
+          {
+            "apiName": "late_game_auto_click",
+            "name": "100 clicks a second",
+            "description": "Lower auto-click speeds to under 0.01s",
+            "icon": "3a21fbe8fd7d2cad6f58724c421183034b2af03c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 4.2
+          },
+          {
+            "apiName": "late_game_x_make_y",
+            "name": "Where did all these come from?!?",
+            "description": "Produce 15 of a previous resource via the Black Market",
+            "icon": "125627bb18ca657afb9cd5c4569054dd2b0575c3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.9
+          }
+        ]
+      }
+    },
+    {
       "appId": 308040,
       "name": "Back to Bed",
       "playtimeHours": 4.6,
@@ -266293,6 +267277,20 @@
           }
         ]
       }
+    },
+    {
+      "appId": 3809900,
+      "name": "Habbo Hotel: Origins",
+      "playtimeHours": 3.3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809900/711460e96508785cefae53b05debeff63f4ad930.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809900/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/75bbbb3348f27099951079822249bd4bda81966d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/e04036cdb75e1da7a3c158b72edb029dffdd8644/library_header_2x.jpg",
+      "achievements": null
     },
     {
       "appId": 10,
@@ -303554,115 +304552,6 @@
       }
     },
     {
-      "appId": 3809900,
-      "name": "Habbo Hotel: Origins",
-      "playtimeHours": 0.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809900/711460e96508785cefae53b05debeff63f4ad930.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809900/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/75bbbb3348f27099951079822249bd4bda81966d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/e04036cdb75e1da7a3c158b72edb029dffdd8644/library_header_2x.jpg",
-      "achievements": {
-        "total": 9,
-        "unlocked": 2,
-        "items": [
-          {
-            "apiName": "KultakalaBronze",
-            "name": "Bronze Idol",
-            "description": "Reeled up a Bronze Kultakala from Infobus Park! Not the biggest catch, but it sure winks funny.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.2
-          },
-          {
-            "apiName": "KultakalaSilver",
-            "name": "Silver Scales",
-            "description": "Fished out a Silver Kultakala from Port Hana. Locals say it brings luck and the faint smell of seaweed.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1
-          },
-          {
-            "apiName": "KultakalaGold",
-            "name": "Golden Legend",
-            "description": "Landed the mythical Lost Kultakala Idol from Snouthill Pier! The water rippled… and someone swore it hummed.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.3
-          },
-          {
-            "apiName": "DailyMinigameWTC25",
-            "name": "Whack Master",
-            "description": "25 out of 25! Those crocs never stood a chance.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 4.7
-          },
-          {
-            "apiName": "DailyMinigameCleanPlates3",
-            "name": "Clean Plate Champion",
-            "description": "Found all 3 stamp plates! Dish duty's never been this rewarding.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.4
-          },
-          {
-            "apiName": "DailyMinigameRollDice",
-            "name": "Devil’s Dice",
-            "description": "Triple sixes! That's either pure luck... or black magic.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.2
-          },
-          {
-            "apiName": "DailyMinigameBarrels",
-            "name": "Barrel Whisperer",
-            "description": "You picked the right Barrel! Guesswork is a skill after all.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1778538679,
-            "globalPct": 4.2
-          },
-          {
-            "apiName": "GonFishing",
-            "name": "Gone Fishing",
-            "description": "Your first catch! Head down to Infobus Park and see what’s biting, rumor says there's golden fish out there.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1778538680,
-            "globalPct": 10.1
-          },
-          {
-            "apiName": "GreenBeginning",
-            "name": "Green Beginnings",
-            "description": "Your first sprout! Visit Ophelia in the Picnic Area, she’ll show you how green your thumb really is.",
-            "iconUrl": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/3809900/",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 4
-          }
-        ]
-      }
-    },
-    {
       "appId": 398680,
       "name": "Ace of Words",
       "playtimeHours": 0.8,
@@ -340381,7 +341270,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/9fb67f416cc0043ce46d7cd3a45bbfc16232bf91/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/678809da179ad4e4ea35c506cbf291068c597145/library_header_2x.jpg",
       "achievements": {
-        "total": 219,
+        "total": 226,
         "unlocked": 0
       }
     },
@@ -364299,6 +365188,7 @@
       "hardwareSupport": [],
       "releaseDate": null,
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/811240/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
       "achievements": {
         "total": 8,
         "unlocked": 0
@@ -385886,28 +386776,6 @@
       }
     },
     {
-      "appId": 3469750,
-      "name": "Military Incremental Complex",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3469750/0951623f90ecf2c994bbd1a97b34764be9b29f23.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469750/header.jpg?t=1785774066",
-      "genres": [
-        "Simulation",
-        "Strategy"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Nov 21, 2025",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469750/31ca86966e1f5621ac712a4ce8e8b95faf8a9a99/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469750/cd27da7de49d30474135a0e9c8b0470c0aa587dd/library_header_2x.jpg",
-      "achievements": {
-        "total": 96,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 3496000,
       "name": "Ship, Inc.",
       "playtimeHours": 0,
@@ -387796,7 +388664,7 @@
       "dateAdded": 1549145377,
       "priority": 350,
       "name": "Foundation",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1794579002",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1795024869",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/ce78d0949d018967dd80da34826f153cd7a084d7/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/8ffd32f3730aeaa49b6176717421ed4d226f628f/library_header_2x.jpg"
     },
@@ -387956,7 +388824,7 @@
       "dateAdded": 1601992285,
       "priority": 0,
       "name": "Overcrowd: A Commute 'Em Up",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/header.jpg?t=1772571372",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/library_600x900_2x.jpg"
     },
     {
@@ -387964,7 +388832,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -387973,7 +388841,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -387981,7 +388849,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -387989,7 +388857,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -387997,7 +388865,7 @@
       "dateAdded": 1524265466,
       "priority": 385,
       "name": "Squad 44",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/header.jpg?t=1790967343",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/736220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/fae382a414c681d84f743a85cef8bf33352e5eaf/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/d9ab5f721701f675483d8b93ed61831f54425088/library_header_2x.jpg"
     },
@@ -388006,14 +388874,14 @@
       "dateAdded": 1635094925,
       "priority": 0,
       "name": "Kingdom Workshop",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/741340/header.jpg?t=1634111960"
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/741340/header.jpg"
     },
     {
       "appId": 742300,
       "dateAdded": 1538501315,
       "priority": 392,
       "name": "Mega Man 11",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1787717265",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/library_600x900_2x.jpg"
     },
     {
@@ -388021,7 +388889,7 @@
       "dateAdded": 1560357191,
       "priority": 394,
       "name": "Duck Season PC",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/header.jpg?t=1667678098",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/746510/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746510/library_600x900_2x.jpg"
     },
     {
@@ -388132,7 +389000,7 @@
       "dateAdded": 1763869244,
       "priority": 0,
       "name": "Projekt Z: Beyond Order",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/763310/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/header.jpg?t=1788032969",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/763310/library_header.jpg"
     },
@@ -388247,7 +389115,7 @@
       "dateAdded": 1596309015,
       "priority": 0,
       "name": "Terraforming Mars",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/header.jpg?t=1769091240",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/800270/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/123587e1fcf3674e1a5f86f729ec964e33c9b2a4/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/800270/12325b0c5d7aa35b788b1a82e3d1d5ece9530e31/library_header_2x.jpg"
     },
@@ -388421,7 +389289,7 @@
       "dateAdded": 1548886736,
       "priority": 447,
       "name": "Subnautica: Below Zero",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/header.jpg?t=1777456254",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/848450/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/848450/library_600x900_2x.jpg"
     },
     {
@@ -388470,7 +389338,7 @@
       "dateAdded": 1551463061,
       "priority": 454,
       "name": "Dawn of Man",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858810/header.jpg?t=1762552523",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/858810/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858810/library_600x900_2x.jpg"
     },
     {
@@ -393961,7 +394829,7 @@
       "dateAdded": 1749485235,
       "priority": 0,
       "name": "The Last Caretaker",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1783560/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/header.jpg?t=1793692099",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/f09cecef778ea213c6ab144675f1ca69f9245c22/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1783560/684058b57eeffd521d8b5f94a026c9218ce74e58/library_header_2x.jpg"
     },
@@ -398649,8 +399517,8 @@
       "priority": 0,
       "name": "SCAD",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2854620/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854620/b95939e5280a00d9621d2b538e73afb74ecf48c2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854620/f3b666c031bb3afaa243c1923b4d77056dde0c7c/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854620/abf16d6e915ba85beb72d298c7225b76c0f27655/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2854620/db177a40c28d20dcdf32f192928846cc6900cdf1/library_header_2x.jpg"
     },
     {
       "appId": 2855590,
@@ -398713,7 +399581,7 @@
       "name": "Pool of Madness",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2873750/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/c773f65025724bddeed7116994391943b84eeb40/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/9cadd174a4171d398c61fdeffba97bde20d4b777/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/984eca16d8bf5a1ee32603dea511e74e31f7f073/library_header_2x.jpg"
     },
     {
       "appId": 2874130,
@@ -399017,7 +399885,7 @@
       "name": "Honcho",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2961860/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2961860/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2961860/ffad9c4e933dc63f1337615c152af373a346dbad/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2961860/03f821118cbcd2b4503ba8def684932d2792b729/library_header_2x.jpg"
     },
     {
       "appId": 2961880,
