@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T04:07:25.831Z",
+  "generatedAt": "2026-11-21T03:50:47.281Z",
   "events": [
     {
       "appId": 227300,
@@ -119,13 +119,6 @@
       "added": 13,
       "total": 370,
       "date": "2026-09-02"
-    },
-    {
-      "appId": 269210,
-      "name": "Hero Siege",
-      "added": 33,
-      "total": 145,
-      "date": "2026-08-22"
     }
   ]
 }
