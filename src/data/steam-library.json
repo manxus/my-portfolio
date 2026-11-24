@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-11-21T03:50:47.165Z",
+  "fetchedAt": "2026-11-24T06:47:29.433Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1795226066
+    "lastLogoff": 1795463406
   },
   "games": [
     {
       "appId": 730,
       "name": "Counter-Strike 2",
-      "playtimeHours": 3504.8,
+      "playtimeHours": 3506.2,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       "genres": [
@@ -50,7 +50,7 @@
     {
       "appId": 1454400,
       "name": "Cookie Clicker",
-      "playtimeHours": 3026.8,
+      "playtimeHours": 3026.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1454400/header.jpg?t=1775781221",
       "genres": [
@@ -34792,7 +34792,7 @@
     {
       "appId": 1267910,
       "name": "Melvor Idle",
-      "playtimeHours": 219.8,
+      "playtimeHours": 223.9,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1267910/88eca64c662c128de095b4e452881398ac71969c.jpg",
       "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1267910/header.jpg?t=1718290779",
       "genres": [
@@ -183649,6 +183649,20 @@
       }
     },
     {
+      "appId": 3809900,
+      "name": "Habbo Hotel: Origins",
+      "playtimeHours": 12.1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809900/711460e96508785cefae53b05debeff63f4ad930.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809900/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/75bbbb3348f27099951079822249bd4bda81966d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/e04036cdb75e1da7a3c158b72edb029dffdd8644/library_header_2x.jpg",
+      "achievements": null
+    },
+    {
       "appId": 2001120,
       "name": "Split Fiction",
       "playtimeHours": 12,
@@ -204400,20 +204414,6 @@
       }
     },
     {
-      "appId": 3809900,
-      "name": "Habbo Hotel: Origins",
-      "playtimeHours": 8.8,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3809900/711460e96508785cefae53b05debeff63f4ad930.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3809900/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/75bbbb3348f27099951079822249bd4bda81966d/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809900/e04036cdb75e1da7a3c158b72edb029dffdd8644/library_header_2x.jpg",
-      "achievements": null
-    },
-    {
       "appId": 317400,
       "name": "Portal Stories: Mel",
       "playtimeHours": 8.8,
@@ -221534,6 +221534,1025 @@
       }
     },
     {
+      "appId": 714010,
+      "name": "Aimlabs",
+      "playtimeHours": 6.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/714010/7f3b535e80a43dc0baadd4258d4b38c34c845f0c.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/714010/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/3ce174c2e5f2e3884c21c4a29da0fc7907dc05b4/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d553cafe3a77dae750eb0a2acd03975b83d59a59/library_header_2x.jpg",
+      "achievements": {
+        "total": 114,
+        "unlocked": 46,
+        "items": [
+          {
+            "apiName": "founder_achievement",
+            "name": "Founder",
+            "description": "Aim Lab Founder",
+            "icon": "8d753512e8a958e2725a69b5b823c00cad0fceef",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1629969998,
+            "globalPct": 92.7
+          },
+          {
+            "apiName": "ea_achievement",
+            "name": "Early Access User",
+            "description": "Aim Lab Early Access User",
+            "icon": "0ec4cea50cc6770963477d82c56449e75f92ed59",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1629969998,
+            "globalPct": 92.7
+          },
+          {
+            "apiName": "SPIDERSHOT_NOOB",
+            "name": "Spidershot Noob",
+            "description": "Played Spidershot 1 Time",
+            "icon": "db72557053d344775c8679a5b617ea77d5960b1d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1629970361,
+            "globalPct": 41
+          },
+          {
+            "apiName": "SPIDERSHOT_ROOKIE",
+            "name": "Spidershot Rookie",
+            "description": "Played Spidershot 5 Times",
+            "icon": "f6791fee6c78c387e898a1e77d6e42bb6322bc51",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630335766,
+            "globalPct": 16.2
+          },
+          {
+            "apiName": "SPIDERSHOT_COMPETENT",
+            "name": "Spidershot Competent",
+            "description": "Played Spidershot 15 Times",
+            "icon": "8e23097ced0d6be68744cf195cbfe09d0d4a50b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679840461,
+            "globalPct": 7.1
+          },
+          {
+            "apiName": "SPIDERSHOT_PRO",
+            "name": "Spidershot Pro",
+            "description": "Played Spidershot 30 Times",
+            "icon": "966cc31062242595f187c75ccdd7b955429676b8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "SPIDERSHOT_EXPERT",
+            "name": "Spidershot Expert",
+            "description": "Played Spidershot 50 Times",
+            "icon": "516778d7feee38249819e419e6648bf565324039",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "SPIDERSHOT_MASTER",
+            "name": "Spidershot Master",
+            "description": "Played Spidershot 75 Times",
+            "icon": "2a1d6f3aeb1ee481c8f2cc7f603605a212197364",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.7
+          },
+          {
+            "apiName": "SPIDERSHOT_LEGEND",
+            "name": "Spidershot Legend",
+            "description": "Played Spidershot 100 Times",
+            "icon": "c6a090d2803546e10a964a0a96152202ad5e6367",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.3
+          },
+          {
+            "apiName": "REFLEXSHOT_NOOB",
+            "name": "Reflexshot Noob",
+            "description": "Played Reflexshot 1 Time",
+            "icon": "823201f3cef165035a93b6531bc7dd3fdc50a7d6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630057389,
+            "globalPct": 14
+          },
+          {
+            "apiName": "REFLEXSHOT_ROOKIE",
+            "name": "Reflexshot Rookie",
+            "description": "Played Reflexshot 5 Times",
+            "icon": "2dab8c099ce612ffa4454b8016fdea6f4874a11e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630057796,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "REFLEXSHOT_COMPETENT",
+            "name": "Reflexshot Competent",
+            "description": "Played Reflexshot 15 Times",
+            "icon": "01fb3b214a2747769ac3e605ed74c7494b272367",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.6
+          },
+          {
+            "apiName": "REFLEXSHOT_PRO",
+            "name": "Reflexshot Pro",
+            "description": "Played Reflexshot 30 Times",
+            "icon": "d66850d48f591ce582c7cef0ad158e4b64283b43",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1
+          },
+          {
+            "apiName": "REFLEXSHOT_EXPERT",
+            "name": "Reflexshot Expert",
+            "description": "Played Reflexshot 50 Times",
+            "icon": "acfbe4ceacab2b2553538ba54f9feb42770c2c31",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.7
+          },
+          {
+            "apiName": "REFLEXSHOT_MASTER",
+            "name": "Reflexshot Master",
+            "description": "Played Reflexshot 75 Times",
+            "icon": "2d35c1e2afd3ae3450df9d2f3e8b1882a4442297",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "REFLEXSHOT_LEGEND",
+            "name": "Reflexshot Legend",
+            "description": "Played Reflexshot 100 Times",
+            "icon": "900253bb933d1d941a15c53abb5d458320a3fd4c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "STRAFESHOT_NOOB",
+            "name": "Strafeshot Noob",
+            "description": "Played Strafeshot 1 Time",
+            "icon": "2e19e113caa16ac1030b42fce9379579ed9ff043",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630058086,
+            "globalPct": 13.8
+          },
+          {
+            "apiName": "STRAFESHOT_ROOKIE",
+            "name": "Strafeshot Rookie",
+            "description": "Played Strafeshot 5 Times",
+            "icon": "9fe6956682039b3555a2049e46823545cd57efb1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630336724,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "STRAFESHOT_COMPETENT",
+            "name": "Strafeshot Competent",
+            "description": "Played Strafeshot 15 Times",
+            "icon": "bad615cfc2622e603ec9b8108dbd385f1f03d91d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.6
+          },
+          {
+            "apiName": "STRAFESHOT_PRO",
+            "name": "Strafeshot Pro",
+            "description": "Played Strafeshot 30 Times",
+            "icon": "0043e84013bd8305880cb96dc7e69c593b6141ca",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1
+          },
+          {
+            "apiName": "STRAFESHOT_EXPERT",
+            "name": "Strafeshot Expert",
+            "description": "Played Strafeshot 50 Times",
+            "icon": "d261d00ad20e61a7b0b4bb8cfdc748c8b2edb790",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.7
+          },
+          {
+            "apiName": "STRAFESHOT_MASTER",
+            "name": "Strafeshot Master",
+            "description": "Played Strafeshot 75 Times",
+            "icon": "2e9758daa24bdb5c0a20b8c1c15427a905cd49d6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "STRAFESHOT_LEGEND",
+            "name": "Strafeshot Legend",
+            "description": "Played Strafeshot 100 Times",
+            "icon": "882bd2dc3927cd0e8282c443464865d20588ad0a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "PENTAKILL_NOOB",
+            "name": "Pentakill Noob",
+            "description": "Played Pentakill 1 Time",
+            "icon": "4aed36ce731a7751aa98ec9efec99b5e7b3335f0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630060070,
+            "globalPct": 5.4
+          },
+          {
+            "apiName": "PENTAKILL_ROOKIE",
+            "name": "Pentakill Rookie",
+            "description": "Played Pentakill 5 Times",
+            "icon": "b45117720467b950a648b4ba3231cd2af9f226fd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630060664,
+            "globalPct": 1.4
+          },
+          {
+            "apiName": "PENTAKILL_COMPETENT",
+            "name": "Pentakill Competent",
+            "description": "Played Pentakill 15 TImes",
+            "icon": "1b7ccd1d8413295079a7c788645f6e93a3e35911",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630318774,
+            "globalPct": 0.8
+          },
+          {
+            "apiName": "PENTAKILL_PRO",
+            "name": "Pentakill Pro",
+            "description": "Played Pentakill 30 Times",
+            "icon": "6b97d634d52943d03057865c709300119844252e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1640828334,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "PENTAKILL_EXPERT",
+            "name": "Pentakill Expert",
+            "description": "Played Pentakill 50 Times",
+            "icon": "ff23cb1106f2006fe180593ae8c60df0d5de688e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "PENTAKILL_MASTER",
+            "name": "Pentakill Master",
+            "description": "Played Pentakill 75 Times",
+            "icon": "409611e97a7b3878f2ac705a22fe1f2ab278f809",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "PENTAKILL_LEGEND",
+            "name": "Pentakill Legend",
+            "description": "Played Pentakill 100 Times",
+            "icon": "0ff063caf6c37f05d2aa7fffa129a090a672569d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "STRAFETRACK_NOOB",
+            "name": "Strafetrack Noob",
+            "description": "Played Strafetrack 1 Time",
+            "icon": "2de9c9e258cd1c9b5c3c2bcab57b00690d5b2dca",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1629971000,
+            "globalPct": 36.2
+          },
+          {
+            "apiName": "STRAFETRACK_ROOKIE",
+            "name": "Strafetrack Rookie",
+            "description": "Played Strafetrack 5 Times",
+            "icon": "81dba386f9fab7b94190b356add970a9206477bb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630057191,
+            "globalPct": 12
+          },
+          {
+            "apiName": "STRAFETRACK_COMPETENT",
+            "name": "Strafetrack Competent",
+            "description": "Played Strafetrack 15 Times",
+            "icon": "51c26801e6c8f14c704eb87f912944772d912a49",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1752226403,
+            "globalPct": 5.8
+          },
+          {
+            "apiName": "STRAFETRACK_PRO",
+            "name": "Strafetrack Pro",
+            "description": "Played Strafetrack 30 Times",
+            "icon": "87ecf726cff8e509f270e6ecba564a51e2c18d38",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.5
+          },
+          {
+            "apiName": "STRAFETRACK_EXPERT",
+            "name": "Strafetrack Expert",
+            "description": "Played Strafetrack 50 Times",
+            "icon": "bd8c085d76ea95e16cdfb0d726d466a5e52e0436",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.3
+          },
+          {
+            "apiName": "STRAFETRACK_MASTER",
+            "name": "Strafetrack Master",
+            "description": "Played Strafetrack 75 Times",
+            "icon": "6d30554a465d2314fe57f1b5fee1c501986fccc8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.6
+          },
+          {
+            "apiName": "STRAFETRACK_LEGEND",
+            "name": "Strafetrack Legend",
+            "description": "Played Strafetrack 100 Times",
+            "icon": "5f54239e57af1980002a734a4708871672f3a052",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.3
+          },
+          {
+            "apiName": "CIRCLETRACK_NOOB",
+            "name": "Circletrack Noob",
+            "description": "Played Circletrack 1 Time",
+            "icon": "d8296837063e534fbe42b6948b8c159a73c762c9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630059932,
+            "globalPct": 10.5
+          },
+          {
+            "apiName": "CIRCLETRACK_ROOKIE",
+            "name": "Circletrack Rookie",
+            "description": "Played Circletrack 5 Times",
+            "icon": "f76dd43dfe2a23c93a5dbcac6f17f596defce1df",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679840847,
+            "globalPct": 2.7
+          },
+          {
+            "apiName": "CIRCLETRACK_COMPETENT",
+            "name": "Circletrack Competent",
+            "description": "Played Circletrack 15 Times",
+            "icon": "999e415a3eed1de6551c8289dea4196e7528342b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.2
+          },
+          {
+            "apiName": "CIRCLETRACK_PRO",
+            "name": "Circletrack Pro",
+            "description": "Played Circletrack 30 Times",
+            "icon": "dfe24d9060ef7a75c7ce9e28c462d56ae5d65332",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.8
+          },
+          {
+            "apiName": "CIRCLETRACK_EXPERT",
+            "name": "Circletrack Expert",
+            "description": "Played Circletrack 50 Times",
+            "icon": "70d8e59702d0018cb5dce2de258a123e691103d7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.7
+          },
+          {
+            "apiName": "CIRCLETRACK_MASTER",
+            "name": "Circletrack Master",
+            "description": "Played Circletrack 75 Times",
+            "icon": "a6ae15a1aac51e2b4f25ada56d010777b7ef0076",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "CIRCLETRACK_LEGEND",
+            "name": "Circletrack Legend",
+            "description": "Played Circletrack 100 Times",
+            "icon": "7514d1e93377515030581dc309515625af445151",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "BLINKSHOT_NOOB",
+            "name": "Blinkshot Noob",
+            "description": "Played Blinkshot 1 Time",
+            "icon": "67687507b62cac0151f144e7510d9ad00df069cd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630061246,
+            "globalPct": 4.8
+          },
+          {
+            "apiName": "BLINKSHOT_ROOKIE",
+            "name": "Blinkshot Rookie",
+            "description": "Played Blinkshot 5 Times",
+            "icon": "90ef61b597bfae18fcf6fe0c243bc037255cb4e9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1640465476,
+            "globalPct": 0.9
+          },
+          {
+            "apiName": "BLINKSHOT_COMPETENT",
+            "name": "Blinkshot Competent",
+            "description": "Played Blinkshot 15 Times",
+            "icon": "e83c7b4501041543e7730e0050b1970dfdf20948",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "BLINKSHOT_PRO",
+            "name": "Blinkshot Pro",
+            "description": "Played Blinkshot 30 TImes",
+            "icon": "25b716db9722f9a32fe340f11a0845dea9eb0be0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "BLINKSHOT_EXPERT",
+            "name": "Blinkshot Expert",
+            "description": "Played Blinkshot 50 Times",
+            "icon": "fab86d04e63791ba4aac10d4c1b9de36b1186df1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "BLINKSHOT_MASTER",
+            "name": "Blinkshot Master",
+            "description": "Played Blinkshot 75 Times",
+            "icon": "73c7339438ce054fbecf486cf03e41e082f539d7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "BLINKSHOT_LEGEND",
+            "name": "Blinkshot Legend",
+            "description": "Played Blinkshot 100 Times",
+            "icon": "1dcfd61483c6855b8d660bae400d79d57c7037f2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "NINJASHOT_NOOB",
+            "name": "Ninjashot Noob",
+            "description": "Played Ninjashot 1 Time",
+            "icon": "3d03bc69280aab1d2517cb6b1f1e6d1bde9f996b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630061127,
+            "globalPct": 6.3
+          },
+          {
+            "apiName": "NINJASHOT_ROOKIE",
+            "name": "Ninjashot Rookie",
+            "description": "Played Ninjashot 5 Times",
+            "icon": "e18e5464065261db97f70cd0a1b091f802c9d63d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679960020,
+            "globalPct": 1.1
+          },
+          {
+            "apiName": "NINJASHOT_COMPETENT",
+            "name": "Ninjashot Competent",
+            "description": "Played Ninjashot 15 Times",
+            "icon": "7e9e2d34e116d51cb5c8b9e5dd1b0db5da589291",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "NINJASHOT_PRO",
+            "name": "Ninjashot Pro",
+            "description": "Played Ninjashot 30 Times",
+            "icon": "757fe0a95931e6bfa422f5b381e6820ecb276d4e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "NINJASHOT_EXPERT",
+            "name": "Ninjashot Expert",
+            "description": "Played Ninjashot 50 Times",
+            "icon": "7c9a379a34b9077766ceb4ac4ea54f76d80448a1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "NINJASHOT_MASTER",
+            "name": "Ninjashot Master",
+            "description": "Played Ninjashot 75 Times",
+            "icon": "0303c47a20c06bf11a1e0162db21e62d9a654f05",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "NINJASHOT_LEGEND",
+            "name": "Ninjashot Legend",
+            "description": "Played Ninjashot 100 Times",
+            "icon": "4f87296d7857f19a3d868c9e67ba51e286b58aca",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "DETECTION_NOOB",
+            "name": "Detection Noob",
+            "description": "Played Detection 1 Time",
+            "icon": "1a60e34a94578adf75df4294dcc8c4346b2a34f0",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630059932,
+            "globalPct": 13.3
+          },
+          {
+            "apiName": "DETECTION_ROOKIE",
+            "name": "Detection Rookie",
+            "description": "Played Detection 5 Times",
+            "icon": "1775697a0d09bde54673bd3863b3d2f22b7fd753",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679840847,
+            "globalPct": 3
+          },
+          {
+            "apiName": "DETECTION_COMPETENT",
+            "name": "Detection Competent",
+            "description": "Played Detection 15 Times",
+            "icon": "de91d4143bc7ced14ffbfb612559ebd7e1f7b60a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.3
+          },
+          {
+            "apiName": "DETECTION_PRO",
+            "name": "Detection Pro",
+            "description": "Played Detection 30 Times",
+            "icon": "04a717b7c9b517314657aa1e37d6d508e59e7e88",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.8
+          },
+          {
+            "apiName": "DETECTION_EXPERT",
+            "name": "Detection Expert",
+            "description": "Played Detection 50 Times",
+            "icon": "ddb1fb7ad0ac140caa435ef7c72a404776ec9714",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.7
+          },
+          {
+            "apiName": "DETECTION_MASTER",
+            "name": "Detection Master",
+            "description": "Played Detection 75 Times",
+            "icon": "4eaaba7b40e96b26edc10993661dbe9885557fad",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "DETECTION_LEGEND",
+            "name": "Detection Legend",
+            "description": "Played Detection 100 Times",
+            "icon": "0500de3cc3b3ccd4a0c0d4d99801616fb9a5d34d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "MICROSHOT_NOOB",
+            "name": "Microshot Noob",
+            "description": "Played Microshot 1 Time",
+            "icon": "6e0fff090d86ee05122a1fff6df0a739a57feba8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1629970898,
+            "globalPct": 35.8
+          },
+          {
+            "apiName": "MICROSHOT_ROOKIE",
+            "name": "Microshot Rookie",
+            "description": "Played Microshot 5 Times",
+            "icon": "f2090ce65f7cdcfa4230d076683e33365151b53e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630336044,
+            "globalPct": 9.1
+          },
+          {
+            "apiName": "MICROSHOT_COMPETENT",
+            "name": "Microshot Competent",
+            "description": "Played Microshot 15 Time",
+            "icon": "b2a8c1c8f72d414a724247d9176b7ff0f4901dbf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1640484688,
+            "globalPct": 4.2
+          },
+          {
+            "apiName": "MICROSHOT_PRO",
+            "name": "Microshot Pro",
+            "description": "Played Microshot 30 Times",
+            "icon": "858692df5080c4fee768242699a91f80b4008354",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "MICROSHOT_EXPERT",
+            "name": "Microshot Expert",
+            "description": "Played Microshot 50 Times",
+            "icon": "d29c4a0f9dce3c412409c71124f7b3c83784331b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.6
+          },
+          {
+            "apiName": "MICROSHOT_MASTER",
+            "name": "Microshot Master",
+            "description": "Played Microshot 75 Times",
+            "icon": "0312cd7bcb35b67a8385c04ac484ca1173cbbd8b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.1
+          },
+          {
+            "apiName": "MICROSHOT_LEGEND",
+            "name": "Microshot Legend",
+            "description": "Played Microshot 100 Times",
+            "icon": "2c252e531c01175194c57ef1fb34f8cd9c7fbde0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.9
+          },
+          {
+            "apiName": "FREETRACK_NOOB",
+            "name": "Freetrack Noob",
+            "description": "Played Freetrack 1 Time",
+            "icon": "2cea4e6a7654acd4bd692de2b7a0dead486a128d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630059605,
+            "globalPct": 5.8
+          },
+          {
+            "apiName": "FREETRACK_ROOKIE",
+            "name": "Freetrack Rookie",
+            "description": "Played Freetrack 5 Times",
+            "icon": "17c0247327c5fb501359e7833ef20c6e89735207",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679960115,
+            "globalPct": 1.3
+          },
+          {
+            "apiName": "FREETRACK_COMPETENT",
+            "name": "Freetrack Competent",
+            "description": "Played Freetrack 15 Times",
+            "icon": "94f98ef52ad9555fb75edda1be3a7bf919863f8c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.7
+          },
+          {
+            "apiName": "FREETRACK_PRO",
+            "name": "Freetrack Pro",
+            "description": "Played Freetrack 30 Times",
+            "icon": "289c52764734b341e382a3488529cc7a391e2403",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "FREETRACK_EXPERT",
+            "name": "Freetrack Expert",
+            "description": "Played Freetrack 50 Times",
+            "icon": "c4c1c8e0816b0ec85b5484b6f291e4a526eee18c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "FREETRACK_MASTER",
+            "name": "Freetrack Master",
+            "description": "Played Freetrack 75 Times",
+            "icon": "a5e0eb2b0d266184095e3b6d2794281786ac64a6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "FREETRACK_LEGEND",
+            "name": "Freetrack Legend",
+            "description": "Played Freetrack 100 Times",
+            "icon": "b137ac1858c44020ad4aa305016d45c86d984d58",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "AUDIOSPATIAL_NOOB",
+            "name": "Audiospatial Noob",
+            "description": "Played Audiospatial 1 Time",
+            "icon": "882f690f675de002a6ae20dfaa400c272de6f785",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630061001,
+            "globalPct": 5.2
+          },
+          {
+            "apiName": "AUDIOSPATIAL_ROOKIE",
+            "name": "Audiospatial Rookie",
+            "description": "Played Audiospatial 5 Times",
+            "icon": "33c2bcf25f2e482bd87be8d690d637f08d4bf177",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679960362,
+            "globalPct": 1
+          },
+          {
+            "apiName": "AUDIOSPATIAL_COMPETENT",
+            "name": "Audiospatial Comptent",
+            "description": "Played Audiospatial 15 Times",
+            "icon": "93ee4c87bbd7bc941645b40cb390ea815becb198",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "AUDIOSPATIAL_PRO",
+            "name": "Audiospatial Pro",
+            "description": "Played Audiospatial 30 Times",
+            "icon": "9322f988b836d7a7e223af751e08575a71d2aac0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "AUDIOSPATIAL_EXPERT",
+            "name": "Audiospatial Expert",
+            "description": "Played Audiospatial 50 Times",
+            "icon": "e4209b6920ab643686e7eefb8cfd2d9110f1b848",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "AUDIOSPATIAL_MASTER",
+            "name": "Audiospatial Master",
+            "description": "Played Audiospatial 75 Times",
+            "icon": "4098cedc8da3306199c8a4bae5d9ca56a874d617",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "AUDIOSPATIAL_LEGEND",
+            "name": "Audiospatial Legend",
+            "description": "Played Audiospatial 100 Times",
+            "icon": "fdf29a626bcf0c09b2bbb1b24eb3b8bc62e65176",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "CAPACITY_NOOB",
+            "name": "Capacity Noob",
+            "description": "Played Capacity 1 Time",
+            "icon": "faec8f573aeb937c920ba496f9d794e3e186f8d6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630060826,
+            "globalPct": 3.7
+          },
+          {
+            "apiName": "CAPACITY_ROOKIE",
+            "name": "Capacity Rookie",
+            "description": "Played Capacity 5 Times",
+            "icon": "f80ad08ca4ff743fa992996d1e80eccf5b0584e1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1679594415,
+            "globalPct": 0.8
+          },
+          {
+            "apiName": "CAPACITY_COMPETENT",
+            "name": "Capacity Competent",
+            "description": "Played Capacity 15 Times",
+            "icon": "0b67f5487ff888b2a7c4236d5b8042415b60ae4c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "CAPACITY_PRO",
+            "name": "Capacity Pro",
+            "description": "Played Capacity 30 Times",
+            "icon": "3f734ed17d0abf0111f25876810c970ecde52a80",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "CAPACITY_EXPERT",
+            "name": "Capacity Expert",
+            "description": "Played Capacity 50 Times",
+            "icon": "53d9cbb82c551a1ca02aec54ba0fb79a0941678e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "CAPACITY_MASTER",
+            "name": "Capacity Master",
+            "description": "Played Capacity 75 Times",
+            "icon": "0a59882a43240055f1a8dc2872c10fd4d3a8e386",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "CAPACITY_LEGEND",
+            "name": "Capacity Legend",
+            "description": "Played Capacity 100 Times",
+            "icon": "0b4e997520eb7dc388be181e3764716591ed454f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.5
+          },
+          {
+            "apiName": "DECISIONSHOT_NOOB",
+            "name": "Decisionshot Noob",
+            "description": "Played Decisionshot 1 Time",
+            "icon": "f84eb2b0a7ce24d3009ad184ecbd57e28e9c53cf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1629971136,
+            "globalPct": 23.3
+          },
+          {
+            "apiName": "DECISIONSHOT_ROOKIE",
+            "name": "Decisionshot Rookie",
+            "description": "Played Decisionshot 5 Times",
+            "icon": "a7b4eb210aa094745a256a24e1002b01fab06586",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1630336416,
+            "globalPct": 3.3
+          },
+          {
+            "apiName": "DECISIONSHOT_COMPETENT",
+            "name": "Decisionshot Competent",
+            "description": "Played Decisionshot 15 Times",
+            "icon": "367a483c0484b748de16241f977a5e0c589d7750",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.4
+          },
+          {
+            "apiName": "DECISIONSHOT_PRO",
+            "name": "Decisionshot Pro",
+            "description": "Played Decisionshot 30 Times",
+            "icon": "d7c3c1e290f473f91ad9bcf07795b5e2474ecc79",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.9
+          },
+          {
+            "apiName": "DECISIONSHOT_EXPERT",
+            "name": "Decisionshot Expert",
+            "description": "Played Decisionshot 50 Times",
+            "icon": "b3bcb95cff5b11d6e8e167e24cdb5fd14f47b951",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.7
+          },
+          {
+            "apiName": "DECISIONSHOT_MASTER",
+            "name": "Decisionshot Master",
+            "description": "Played Decisionshot 75 Times",
+            "icon": "9462a441e5003b3d07c9c05e9e9bde2427f4ea80",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          },
+          {
+            "apiName": "DECISIONSHOT_LEGEND",
+            "name": "Decisionshot Legend",
+            "description": "Played Decisionshot 100 Times",
+            "icon": "61f9d389273f5f2cb71bd5472840edeba050426e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.6
+          }
+        ]
+      }
+    },
+    {
       "appId": 284460,
       "name": "DeadCore",
       "playtimeHours": 6.9,
@@ -224175,1025 +225194,6 @@
             "unlocked": false,
             "unlockTime": 0,
             "globalPct": 4.3
-          }
-        ]
-      }
-    },
-    {
-      "appId": 714010,
-      "name": "Aimlabs",
-      "playtimeHours": 6.6,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/714010/7f3b535e80a43dc0baadd4258d4b38c34c845f0c.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/714010/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/3ce174c2e5f2e3884c21c4a29da0fc7907dc05b4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d553cafe3a77dae750eb0a2acd03975b83d59a59/library_header_2x.jpg",
-      "achievements": {
-        "total": 114,
-        "unlocked": 35,
-        "items": [
-          {
-            "apiName": "founder_achievement",
-            "name": "Founder",
-            "description": "Aim Lab Founder",
-            "icon": "8d753512e8a958e2725a69b5b823c00cad0fceef",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1629969998,
-            "globalPct": 92.7
-          },
-          {
-            "apiName": "ea_achievement",
-            "name": "Early Access User",
-            "description": "Aim Lab Early Access User",
-            "icon": "0ec4cea50cc6770963477d82c56449e75f92ed59",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1629969998,
-            "globalPct": 92.7
-          },
-          {
-            "apiName": "SPIDERSHOT_NOOB",
-            "name": "Spidershot Noob",
-            "description": "Played Spidershot 1 Time",
-            "icon": "db72557053d344775c8679a5b617ea77d5960b1d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1629970361,
-            "globalPct": 41
-          },
-          {
-            "apiName": "SPIDERSHOT_ROOKIE",
-            "name": "Spidershot Rookie",
-            "description": "Played Spidershot 5 Times",
-            "icon": "f6791fee6c78c387e898a1e77d6e42bb6322bc51",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630335766,
-            "globalPct": 16.2
-          },
-          {
-            "apiName": "SPIDERSHOT_COMPETENT",
-            "name": "Spidershot Competent",
-            "description": "Played Spidershot 15 Times",
-            "icon": "8e23097ced0d6be68744cf195cbfe09d0d4a50b4",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679840461,
-            "globalPct": 7.1
-          },
-          {
-            "apiName": "SPIDERSHOT_PRO",
-            "name": "Spidershot Pro",
-            "description": "Played Spidershot 30 Times",
-            "icon": "966cc31062242595f187c75ccdd7b955429676b8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "SPIDERSHOT_EXPERT",
-            "name": "Spidershot Expert",
-            "description": "Played Spidershot 50 Times",
-            "icon": "516778d7feee38249819e419e6648bf565324039",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "SPIDERSHOT_MASTER",
-            "name": "Spidershot Master",
-            "description": "Played Spidershot 75 Times",
-            "icon": "2a1d6f3aeb1ee481c8f2cc7f603605a212197364",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.7
-          },
-          {
-            "apiName": "SPIDERSHOT_LEGEND",
-            "name": "Spidershot Legend",
-            "description": "Played Spidershot 100 Times",
-            "icon": "c6a090d2803546e10a964a0a96152202ad5e6367",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.3
-          },
-          {
-            "apiName": "REFLEXSHOT_NOOB",
-            "name": "Reflexshot Noob",
-            "description": "Played Reflexshot 1 Time",
-            "icon": "823201f3cef165035a93b6531bc7dd3fdc50a7d6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630057389,
-            "globalPct": 14
-          },
-          {
-            "apiName": "REFLEXSHOT_ROOKIE",
-            "name": "Reflexshot Rookie",
-            "description": "Played Reflexshot 5 Times",
-            "icon": "2dab8c099ce612ffa4454b8016fdea6f4874a11e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630057796,
-            "globalPct": 3.8
-          },
-          {
-            "apiName": "REFLEXSHOT_COMPETENT",
-            "name": "Reflexshot Competent",
-            "description": "Played Reflexshot 15 Times",
-            "icon": "01fb3b214a2747769ac3e605ed74c7494b272367",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.6
-          },
-          {
-            "apiName": "REFLEXSHOT_PRO",
-            "name": "Reflexshot Pro",
-            "description": "Played Reflexshot 30 Times",
-            "icon": "d66850d48f591ce582c7cef0ad158e4b64283b43",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1
-          },
-          {
-            "apiName": "REFLEXSHOT_EXPERT",
-            "name": "Reflexshot Expert",
-            "description": "Played Reflexshot 50 Times",
-            "icon": "acfbe4ceacab2b2553538ba54f9feb42770c2c31",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.7
-          },
-          {
-            "apiName": "REFLEXSHOT_MASTER",
-            "name": "Reflexshot Master",
-            "description": "Played Reflexshot 75 Times",
-            "icon": "2d35c1e2afd3ae3450df9d2f3e8b1882a4442297",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "REFLEXSHOT_LEGEND",
-            "name": "Reflexshot Legend",
-            "description": "Played Reflexshot 100 Times",
-            "icon": "900253bb933d1d941a15c53abb5d458320a3fd4c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "STRAFESHOT_NOOB",
-            "name": "Strafeshot Noob",
-            "description": "Played Strafeshot 1 Time",
-            "icon": "2e19e113caa16ac1030b42fce9379579ed9ff043",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630058086,
-            "globalPct": 13.8
-          },
-          {
-            "apiName": "STRAFESHOT_ROOKIE",
-            "name": "Strafeshot Rookie",
-            "description": "Played Strafeshot 5 Times",
-            "icon": "9fe6956682039b3555a2049e46823545cd57efb1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630336724,
-            "globalPct": 3.8
-          },
-          {
-            "apiName": "STRAFESHOT_COMPETENT",
-            "name": "Strafeshot Competent",
-            "description": "Played Strafeshot 15 Times",
-            "icon": "bad615cfc2622e603ec9b8108dbd385f1f03d91d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.6
-          },
-          {
-            "apiName": "STRAFESHOT_PRO",
-            "name": "Strafeshot Pro",
-            "description": "Played Strafeshot 30 Times",
-            "icon": "0043e84013bd8305880cb96dc7e69c593b6141ca",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1
-          },
-          {
-            "apiName": "STRAFESHOT_EXPERT",
-            "name": "Strafeshot Expert",
-            "description": "Played Strafeshot 50 Times",
-            "icon": "d261d00ad20e61a7b0b4bb8cfdc748c8b2edb790",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.7
-          },
-          {
-            "apiName": "STRAFESHOT_MASTER",
-            "name": "Strafeshot Master",
-            "description": "Played Strafeshot 75 Times",
-            "icon": "2e9758daa24bdb5c0a20b8c1c15427a905cd49d6",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "STRAFESHOT_LEGEND",
-            "name": "Strafeshot Legend",
-            "description": "Played Strafeshot 100 Times",
-            "icon": "882bd2dc3927cd0e8282c443464865d20588ad0a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "PENTAKILL_NOOB",
-            "name": "Pentakill Noob",
-            "description": "Played Pentakill 1 Time",
-            "icon": "4aed36ce731a7751aa98ec9efec99b5e7b3335f0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630060070,
-            "globalPct": 5.4
-          },
-          {
-            "apiName": "PENTAKILL_ROOKIE",
-            "name": "Pentakill Rookie",
-            "description": "Played Pentakill 5 Times",
-            "icon": "b45117720467b950a648b4ba3231cd2af9f226fd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630060664,
-            "globalPct": 1.4
-          },
-          {
-            "apiName": "PENTAKILL_COMPETENT",
-            "name": "Pentakill Competent",
-            "description": "Played Pentakill 15 TImes",
-            "icon": "1b7ccd1d8413295079a7c788645f6e93a3e35911",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630318774,
-            "globalPct": 0.8
-          },
-          {
-            "apiName": "PENTAKILL_PRO",
-            "name": "Pentakill Pro",
-            "description": "Played Pentakill 30 Times",
-            "icon": "6b97d634d52943d03057865c709300119844252e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1640828334,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "PENTAKILL_EXPERT",
-            "name": "Pentakill Expert",
-            "description": "Played Pentakill 50 Times",
-            "icon": "ff23cb1106f2006fe180593ae8c60df0d5de688e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "PENTAKILL_MASTER",
-            "name": "Pentakill Master",
-            "description": "Played Pentakill 75 Times",
-            "icon": "409611e97a7b3878f2ac705a22fe1f2ab278f809",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "PENTAKILL_LEGEND",
-            "name": "Pentakill Legend",
-            "description": "Played Pentakill 100 Times",
-            "icon": "0ff063caf6c37f05d2aa7fffa129a090a672569d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "STRAFETRACK_NOOB",
-            "name": "Strafetrack Noob",
-            "description": "Played Strafetrack 1 Time",
-            "icon": "2de9c9e258cd1c9b5c3c2bcab57b00690d5b2dca",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1629971000,
-            "globalPct": 36.2
-          },
-          {
-            "apiName": "STRAFETRACK_ROOKIE",
-            "name": "Strafetrack Rookie",
-            "description": "Played Strafetrack 5 Times",
-            "icon": "81dba386f9fab7b94190b356add970a9206477bb",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630057191,
-            "globalPct": 12
-          },
-          {
-            "apiName": "STRAFETRACK_COMPETENT",
-            "name": "Strafetrack Competent",
-            "description": "Played Strafetrack 15 Times",
-            "icon": "51c26801e6c8f14c704eb87f912944772d912a49",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1752226403,
-            "globalPct": 5.8
-          },
-          {
-            "apiName": "STRAFETRACK_PRO",
-            "name": "Strafetrack Pro",
-            "description": "Played Strafetrack 30 Times",
-            "icon": "87ecf726cff8e509f270e6ecba564a51e2c18d38",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.5
-          },
-          {
-            "apiName": "STRAFETRACK_EXPERT",
-            "name": "Strafetrack Expert",
-            "description": "Played Strafetrack 50 Times",
-            "icon": "bd8c085d76ea95e16cdfb0d726d466a5e52e0436",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.3
-          },
-          {
-            "apiName": "STRAFETRACK_MASTER",
-            "name": "Strafetrack Master",
-            "description": "Played Strafetrack 75 Times",
-            "icon": "6d30554a465d2314fe57f1b5fee1c501986fccc8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.6
-          },
-          {
-            "apiName": "STRAFETRACK_LEGEND",
-            "name": "Strafetrack Legend",
-            "description": "Played Strafetrack 100 Times",
-            "icon": "5f54239e57af1980002a734a4708871672f3a052",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.3
-          },
-          {
-            "apiName": "CIRCLETRACK_NOOB",
-            "name": "Circletrack Noob",
-            "description": "Played Circletrack 1 Time",
-            "icon": "d8296837063e534fbe42b6948b8c159a73c762c9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630059932,
-            "globalPct": 10.5
-          },
-          {
-            "apiName": "CIRCLETRACK_ROOKIE",
-            "name": "Circletrack Rookie",
-            "description": "Played Circletrack 5 Times",
-            "icon": "f76dd43dfe2a23c93a5dbcac6f17f596defce1df",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679840847,
-            "globalPct": 2.7
-          },
-          {
-            "apiName": "CIRCLETRACK_COMPETENT",
-            "name": "Circletrack Competent",
-            "description": "Played Circletrack 15 Times",
-            "icon": "999e415a3eed1de6551c8289dea4196e7528342b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.2
-          },
-          {
-            "apiName": "CIRCLETRACK_PRO",
-            "name": "Circletrack Pro",
-            "description": "Played Circletrack 30 Times",
-            "icon": "dfe24d9060ef7a75c7ce9e28c462d56ae5d65332",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.8
-          },
-          {
-            "apiName": "CIRCLETRACK_EXPERT",
-            "name": "Circletrack Expert",
-            "description": "Played Circletrack 50 Times",
-            "icon": "70d8e59702d0018cb5dce2de258a123e691103d7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.7
-          },
-          {
-            "apiName": "CIRCLETRACK_MASTER",
-            "name": "Circletrack Master",
-            "description": "Played Circletrack 75 Times",
-            "icon": "a6ae15a1aac51e2b4f25ada56d010777b7ef0076",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "CIRCLETRACK_LEGEND",
-            "name": "Circletrack Legend",
-            "description": "Played Circletrack 100 Times",
-            "icon": "7514d1e93377515030581dc309515625af445151",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "BLINKSHOT_NOOB",
-            "name": "Blinkshot Noob",
-            "description": "Played Blinkshot 1 Time",
-            "icon": "67687507b62cac0151f144e7510d9ad00df069cd",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630061246,
-            "globalPct": 4.8
-          },
-          {
-            "apiName": "BLINKSHOT_ROOKIE",
-            "name": "Blinkshot Rookie",
-            "description": "Played Blinkshot 5 Times",
-            "icon": "90ef61b597bfae18fcf6fe0c243bc037255cb4e9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1640465476,
-            "globalPct": 0.9
-          },
-          {
-            "apiName": "BLINKSHOT_COMPETENT",
-            "name": "Blinkshot Competent",
-            "description": "Played Blinkshot 15 Times",
-            "icon": "e83c7b4501041543e7730e0050b1970dfdf20948",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "BLINKSHOT_PRO",
-            "name": "Blinkshot Pro",
-            "description": "Played Blinkshot 30 TImes",
-            "icon": "25b716db9722f9a32fe340f11a0845dea9eb0be0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "BLINKSHOT_EXPERT",
-            "name": "Blinkshot Expert",
-            "description": "Played Blinkshot 50 Times",
-            "icon": "fab86d04e63791ba4aac10d4c1b9de36b1186df1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "BLINKSHOT_MASTER",
-            "name": "Blinkshot Master",
-            "description": "Played Blinkshot 75 Times",
-            "icon": "73c7339438ce054fbecf486cf03e41e082f539d7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "BLINKSHOT_LEGEND",
-            "name": "Blinkshot Legend",
-            "description": "Played Blinkshot 100 Times",
-            "icon": "1dcfd61483c6855b8d660bae400d79d57c7037f2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "NINJASHOT_NOOB",
-            "name": "Ninjashot Noob",
-            "description": "Played Ninjashot 1 Time",
-            "icon": "3d03bc69280aab1d2517cb6b1f1e6d1bde9f996b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630061127,
-            "globalPct": 6.3
-          },
-          {
-            "apiName": "NINJASHOT_ROOKIE",
-            "name": "Ninjashot Rookie",
-            "description": "Played Ninjashot 5 Times",
-            "icon": "e18e5464065261db97f70cd0a1b091f802c9d63d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679960020,
-            "globalPct": 1.1
-          },
-          {
-            "apiName": "NINJASHOT_COMPETENT",
-            "name": "Ninjashot Competent",
-            "description": "Played Ninjashot 15 Times",
-            "icon": "7e9e2d34e116d51cb5c8b9e5dd1b0db5da589291",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "NINJASHOT_PRO",
-            "name": "Ninjashot Pro",
-            "description": "Played Ninjashot 30 Times",
-            "icon": "757fe0a95931e6bfa422f5b381e6820ecb276d4e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "NINJASHOT_EXPERT",
-            "name": "Ninjashot Expert",
-            "description": "Played Ninjashot 50 Times",
-            "icon": "7c9a379a34b9077766ceb4ac4ea54f76d80448a1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "NINJASHOT_MASTER",
-            "name": "Ninjashot Master",
-            "description": "Played Ninjashot 75 Times",
-            "icon": "0303c47a20c06bf11a1e0162db21e62d9a654f05",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "NINJASHOT_LEGEND",
-            "name": "Ninjashot Legend",
-            "description": "Played Ninjashot 100 Times",
-            "icon": "4f87296d7857f19a3d868c9e67ba51e286b58aca",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "DETECTION_NOOB",
-            "name": "Detection Noob",
-            "description": "Played Detection 1 Time",
-            "icon": "1a60e34a94578adf75df4294dcc8c4346b2a34f0",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630059932,
-            "globalPct": 13.3
-          },
-          {
-            "apiName": "DETECTION_ROOKIE",
-            "name": "Detection Rookie",
-            "description": "Played Detection 5 Times",
-            "icon": "1775697a0d09bde54673bd3863b3d2f22b7fd753",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679840847,
-            "globalPct": 3
-          },
-          {
-            "apiName": "DETECTION_COMPETENT",
-            "name": "Detection Competent",
-            "description": "Played Detection 15 Times",
-            "icon": "de91d4143bc7ced14ffbfb612559ebd7e1f7b60a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.3
-          },
-          {
-            "apiName": "DETECTION_PRO",
-            "name": "Detection Pro",
-            "description": "Played Detection 30 Times",
-            "icon": "04a717b7c9b517314657aa1e37d6d508e59e7e88",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.8
-          },
-          {
-            "apiName": "DETECTION_EXPERT",
-            "name": "Detection Expert",
-            "description": "Played Detection 50 Times",
-            "icon": "ddb1fb7ad0ac140caa435ef7c72a404776ec9714",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.7
-          },
-          {
-            "apiName": "DETECTION_MASTER",
-            "name": "Detection Master",
-            "description": "Played Detection 75 Times",
-            "icon": "4eaaba7b40e96b26edc10993661dbe9885557fad",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "DETECTION_LEGEND",
-            "name": "Detection Legend",
-            "description": "Played Detection 100 Times",
-            "icon": "0500de3cc3b3ccd4a0c0d4d99801616fb9a5d34d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "MICROSHOT_NOOB",
-            "name": "Microshot Noob",
-            "description": "Played Microshot 1 Time",
-            "icon": "6e0fff090d86ee05122a1fff6df0a739a57feba8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1629970898,
-            "globalPct": 35.8
-          },
-          {
-            "apiName": "MICROSHOT_ROOKIE",
-            "name": "Microshot Rookie",
-            "description": "Played Microshot 5 Times",
-            "icon": "f2090ce65f7cdcfa4230d076683e33365151b53e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630336044,
-            "globalPct": 9.1
-          },
-          {
-            "apiName": "MICROSHOT_COMPETENT",
-            "name": "Microshot Competent",
-            "description": "Played Microshot 15 Time",
-            "icon": "b2a8c1c8f72d414a724247d9176b7ff0f4901dbf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1640484688,
-            "globalPct": 4.2
-          },
-          {
-            "apiName": "MICROSHOT_PRO",
-            "name": "Microshot Pro",
-            "description": "Played Microshot 30 Times",
-            "icon": "858692df5080c4fee768242699a91f80b4008354",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "MICROSHOT_EXPERT",
-            "name": "Microshot Expert",
-            "description": "Played Microshot 50 Times",
-            "icon": "d29c4a0f9dce3c412409c71124f7b3c83784331b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.6
-          },
-          {
-            "apiName": "MICROSHOT_MASTER",
-            "name": "Microshot Master",
-            "description": "Played Microshot 75 Times",
-            "icon": "0312cd7bcb35b67a8385c04ac484ca1173cbbd8b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.1
-          },
-          {
-            "apiName": "MICROSHOT_LEGEND",
-            "name": "Microshot Legend",
-            "description": "Played Microshot 100 Times",
-            "icon": "2c252e531c01175194c57ef1fb34f8cd9c7fbde0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.9
-          },
-          {
-            "apiName": "FREETRACK_NOOB",
-            "name": "Freetrack Noob",
-            "description": "Played Freetrack 1 Time",
-            "icon": "2cea4e6a7654acd4bd692de2b7a0dead486a128d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630059605,
-            "globalPct": 5.8
-          },
-          {
-            "apiName": "FREETRACK_ROOKIE",
-            "name": "Freetrack Rookie",
-            "description": "Played Freetrack 5 Times",
-            "icon": "17c0247327c5fb501359e7833ef20c6e89735207",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679960115,
-            "globalPct": 1.3
-          },
-          {
-            "apiName": "FREETRACK_COMPETENT",
-            "name": "Freetrack Competent",
-            "description": "Played Freetrack 15 Times",
-            "icon": "94f98ef52ad9555fb75edda1be3a7bf919863f8c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.7
-          },
-          {
-            "apiName": "FREETRACK_PRO",
-            "name": "Freetrack Pro",
-            "description": "Played Freetrack 30 Times",
-            "icon": "289c52764734b341e382a3488529cc7a391e2403",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "FREETRACK_EXPERT",
-            "name": "Freetrack Expert",
-            "description": "Played Freetrack 50 Times",
-            "icon": "c4c1c8e0816b0ec85b5484b6f291e4a526eee18c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "FREETRACK_MASTER",
-            "name": "Freetrack Master",
-            "description": "Played Freetrack 75 Times",
-            "icon": "a5e0eb2b0d266184095e3b6d2794281786ac64a6",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "FREETRACK_LEGEND",
-            "name": "Freetrack Legend",
-            "description": "Played Freetrack 100 Times",
-            "icon": "b137ac1858c44020ad4aa305016d45c86d984d58",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "AUDIOSPATIAL_NOOB",
-            "name": "Audiospatial Noob",
-            "description": "Played Audiospatial 1 Time",
-            "icon": "882f690f675de002a6ae20dfaa400c272de6f785",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630061001,
-            "globalPct": 5.2
-          },
-          {
-            "apiName": "AUDIOSPATIAL_ROOKIE",
-            "name": "Audiospatial Rookie",
-            "description": "Played Audiospatial 5 Times",
-            "icon": "33c2bcf25f2e482bd87be8d690d637f08d4bf177",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679960362,
-            "globalPct": 1
-          },
-          {
-            "apiName": "AUDIOSPATIAL_COMPETENT",
-            "name": "Audiospatial Comptent",
-            "description": "Played Audiospatial 15 Times",
-            "icon": "93ee4c87bbd7bc941645b40cb390ea815becb198",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "AUDIOSPATIAL_PRO",
-            "name": "Audiospatial Pro",
-            "description": "Played Audiospatial 30 Times",
-            "icon": "9322f988b836d7a7e223af751e08575a71d2aac0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "AUDIOSPATIAL_EXPERT",
-            "name": "Audiospatial Expert",
-            "description": "Played Audiospatial 50 Times",
-            "icon": "e4209b6920ab643686e7eefb8cfd2d9110f1b848",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "AUDIOSPATIAL_MASTER",
-            "name": "Audiospatial Master",
-            "description": "Played Audiospatial 75 Times",
-            "icon": "4098cedc8da3306199c8a4bae5d9ca56a874d617",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "AUDIOSPATIAL_LEGEND",
-            "name": "Audiospatial Legend",
-            "description": "Played Audiospatial 100 Times",
-            "icon": "fdf29a626bcf0c09b2bbb1b24eb3b8bc62e65176",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "CAPACITY_NOOB",
-            "name": "Capacity Noob",
-            "description": "Played Capacity 1 Time",
-            "icon": "faec8f573aeb937c920ba496f9d794e3e186f8d6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630060826,
-            "globalPct": 3.7
-          },
-          {
-            "apiName": "CAPACITY_ROOKIE",
-            "name": "Capacity Rookie",
-            "description": "Played Capacity 5 Times",
-            "icon": "f80ad08ca4ff743fa992996d1e80eccf5b0584e1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1679594415,
-            "globalPct": 0.8
-          },
-          {
-            "apiName": "CAPACITY_COMPETENT",
-            "name": "Capacity Competent",
-            "description": "Played Capacity 15 Times",
-            "icon": "0b67f5487ff888b2a7c4236d5b8042415b60ae4c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "CAPACITY_PRO",
-            "name": "Capacity Pro",
-            "description": "Played Capacity 30 Times",
-            "icon": "3f734ed17d0abf0111f25876810c970ecde52a80",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "CAPACITY_EXPERT",
-            "name": "Capacity Expert",
-            "description": "Played Capacity 50 Times",
-            "icon": "53d9cbb82c551a1ca02aec54ba0fb79a0941678e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "CAPACITY_MASTER",
-            "name": "Capacity Master",
-            "description": "Played Capacity 75 Times",
-            "icon": "0a59882a43240055f1a8dc2872c10fd4d3a8e386",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "CAPACITY_LEGEND",
-            "name": "Capacity Legend",
-            "description": "Played Capacity 100 Times",
-            "icon": "0b4e997520eb7dc388be181e3764716591ed454f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.5
-          },
-          {
-            "apiName": "DECISIONSHOT_NOOB",
-            "name": "Decisionshot Noob",
-            "description": "Played Decisionshot 1 Time",
-            "icon": "f84eb2b0a7ce24d3009ad184ecbd57e28e9c53cf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1629971136,
-            "globalPct": 23.3
-          },
-          {
-            "apiName": "DECISIONSHOT_ROOKIE",
-            "name": "Decisionshot Rookie",
-            "description": "Played Decisionshot 5 Times",
-            "icon": "a7b4eb210aa094745a256a24e1002b01fab06586",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1630336416,
-            "globalPct": 3.3
-          },
-          {
-            "apiName": "DECISIONSHOT_COMPETENT",
-            "name": "Decisionshot Competent",
-            "description": "Played Decisionshot 15 Times",
-            "icon": "367a483c0484b748de16241f977a5e0c589d7750",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.4
-          },
-          {
-            "apiName": "DECISIONSHOT_PRO",
-            "name": "Decisionshot Pro",
-            "description": "Played Decisionshot 30 Times",
-            "icon": "d7c3c1e290f473f91ad9bcf07795b5e2474ecc79",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.9
-          },
-          {
-            "apiName": "DECISIONSHOT_EXPERT",
-            "name": "Decisionshot Expert",
-            "description": "Played Decisionshot 50 Times",
-            "icon": "b3bcb95cff5b11d6e8e167e24cdb5fd14f47b951",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.7
-          },
-          {
-            "apiName": "DECISIONSHOT_MASTER",
-            "name": "Decisionshot Master",
-            "description": "Played Decisionshot 75 Times",
-            "icon": "9462a441e5003b3d07c9c05e9e9bde2427f4ea80",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
-          },
-          {
-            "apiName": "DECISIONSHOT_LEGEND",
-            "name": "Decisionshot Legend",
-            "description": "Played Decisionshot 100 Times",
-            "icon": "61f9d389273f5f2cb71bd5472840edeba050426e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.6
           }
         ]
       }
@@ -261109,6 +261109,250 @@
       "achievements": null
     },
     {
+      "appId": 3505770,
+      "name": "Kin and Quarry",
+      "playtimeHours": 3.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3505770/79acff94fc9879f956a67bafc8ad33ce251a2878.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3505770/5fa548c9e231409c4f18ba5ff83348ab2b217e80/header.jpg?t=1785816021",
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [],
+      "releaseDate": "Jan 16, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3505770/c2e58d6e7b047414271df58995face75aa254e06/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3505770/5fa548c9e231409c4f18ba5ff83348ab2b217e80/library_header_2x.jpg",
+      "achievements": {
+        "total": 22,
+        "unlocked": 22,
+        "items": [
+          {
+            "apiName": "ach_artifact_hunter1",
+            "name": "Artifact Hunter I",
+            "description": "Acquire 50 Artifacts.",
+            "icon": "35466258134a9bf1e7cc08d6efc13c4c1e73f612",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795299045,
+            "globalPct": 78.5
+          },
+          {
+            "apiName": "ach_artifact_hunter2",
+            "name": "Artifact Hunter II",
+            "description": "Acquire 100 Artifacts.",
+            "icon": "a21b21f78669afc750103e96ceb502b12c4cae4f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795304115,
+            "globalPct": 64.7
+          },
+          {
+            "apiName": "ach_artifact_hunter3",
+            "name": "Artifact Hunter III",
+            "description": "Acquire 150 Artifacts.",
+            "icon": "5572e838e25e0110980e7750707ba7a91900f83d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795307828,
+            "globalPct": 50
+          },
+          {
+            "apiName": "ach_artifact_hunter4",
+            "name": "Artifact Hunter IV",
+            "description": "Acquire all Artifacts.",
+            "icon": "f3bb14869ec51ae44eb146f638fd57a27bbb940d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795341230,
+            "globalPct": 34.1
+          },
+          {
+            "apiName": "ach_common_collector",
+            "name": "Common Collector",
+            "description": "Acquire all Common Artifacts.",
+            "icon": "43eeb8a65678c54dcfd083a83b7008ff97bf127b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795308231,
+            "globalPct": 45.4
+          },
+          {
+            "apiName": "ach_uncommon_collector",
+            "name": "Uncommon Collector",
+            "description": "Acquire all Uncommon Artifacts.",
+            "icon": "e9ffbf454954b3e1fb419ec57582c44c86cef79d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795308755,
+            "globalPct": 41.8
+          },
+          {
+            "apiName": "ach_rare_collector",
+            "name": "Rare Collector",
+            "description": "Acquire all Rare Artifacts.",
+            "icon": "5a724bd6486b73223a233eb0d05cc445a4845c6a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795308755,
+            "globalPct": 37.6
+          },
+          {
+            "apiName": "ach_extraordinary_collector",
+            "name": "Extraordinary Collector",
+            "description": "Acquire all Extraordinary Artifacts.",
+            "icon": "a9044b2e4cfb6d3d5c9f92a2dd5891d6c70ea553",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795341231,
+            "globalPct": 34.6
+          },
+          {
+            "apiName": "ach_excavator1",
+            "name": "Excavator I",
+            "description": "Clear all blocks in Layer 1.",
+            "icon": "c05bac75195448166e5c5834e620cb024e2b9514",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795297237,
+            "globalPct": 89.3
+          },
+          {
+            "apiName": "ach_excavator2",
+            "name": "Excavator II",
+            "description": "Clear all blocks in Layer 2.",
+            "icon": "f58d2a65a57d3a888a40a832a74f6150886c48b4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795298395,
+            "globalPct": 81.9
+          },
+          {
+            "apiName": "ach_excavator3",
+            "name": "Excavator III",
+            "description": "Clear all blocks in Layer 3.",
+            "icon": "02fcb16c0ec91f7efa5e873a9cd79ab48bdea9f6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795300740,
+            "globalPct": 75.5
+          },
+          {
+            "apiName": "ach_excavator4",
+            "name": "Excavator IV",
+            "description": "Clear all blocks in Layer 4.",
+            "icon": "35f39c08f5aceb1ebfd1e0262aa4f6217abb230f",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795301275,
+            "globalPct": 69.6
+          },
+          {
+            "apiName": "ach_excavator5",
+            "name": "Excavator V",
+            "description": "Clear all blocks in Layer 5.",
+            "icon": "0b70c1d2ba2250e3511cf1176ea30cec3aa747cd",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795301526,
+            "globalPct": 67.7
+          },
+          {
+            "apiName": "ach_excavator6",
+            "name": "Excavator VI",
+            "description": "Clear all blocks in Layer 6.",
+            "icon": "e033369975fcf95773c6b6b18967672a8c18db7a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795302588,
+            "globalPct": 65.5
+          },
+          {
+            "apiName": "ach_excavator7",
+            "name": "Excavator VII",
+            "description": "Clear all blocks in Layer 7.",
+            "icon": "dc9578aa6ddf938b9c7a8522da08d7b83ef4a4cb",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795303108,
+            "globalPct": 64.5
+          },
+          {
+            "apiName": "ach_excavator8",
+            "name": "Excavator VIII",
+            "description": "Clear all blocks in Layer 8.",
+            "icon": "5b5d13478985016f5532ef920a10a2db4a8214c4",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795305717,
+            "globalPct": 57.9
+          },
+          {
+            "apiName": "ach_excavator9",
+            "name": "Excavator IX",
+            "description": "Clear all blocks in Layer 9.",
+            "icon": "6af53bfd1a1b95a7c9f52376da50f78430131b85",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795305884,
+            "globalPct": 52.3
+          },
+          {
+            "apiName": "ach_excavator10",
+            "name": "Excavator X",
+            "description": "Clear all blocks in Layer 10.",
+            "icon": "5b8d8ae3b1b335c0bd921a445557d9084986da21",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795307412,
+            "globalPct": 49.2
+          },
+          {
+            "apiName": "ach_excavator11",
+            "name": "Excavator XI",
+            "description": "Clear all blocks in Layer 11.",
+            "icon": "a7dcb080478cf66bd10c6e6d90a60a4981375800",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795307600,
+            "globalPct": 48.7
+          },
+          {
+            "apiName": "ach_excavator12",
+            "name": "Excavator XII",
+            "description": "Clear all blocks in Layer 12.",
+            "icon": "76354a881e5ad77d69a06ee2f0675bc9cd2e7909",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795307784,
+            "globalPct": 47.8
+          },
+          {
+            "apiName": "ach_excavator13",
+            "name": "Excavator XIII",
+            "description": "Clear all blocks in Layer 13.",
+            "icon": "25da3532c3a0086526cf4760a752e354802d84bf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795308077,
+            "globalPct": 47.5
+          },
+          {
+            "apiName": "ach_excavator14",
+            "name": "Excavator XIV",
+            "description": "Clear all blocks in Layer 14.",
+            "icon": "c6fb577f6d5aece033b613773cdbf438c5c1fb1b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795308483,
+            "globalPct": 46.8
+          }
+        ]
+      }
+    },
+    {
       "appId": 469610,
       "name": "Rick and Morty: Virtual Rick-ality",
       "playtimeHours": 3.7,
@@ -266344,6 +266588,475 @@
             "unlocked": true,
             "unlockTime": 1735337819,
             "globalPct": 31.1
+          }
+        ]
+      }
+    },
+    {
+      "appId": 249130,
+      "name": "LEGO® MARVEL Super Heroes",
+      "playtimeHours": 3.4,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/249130/8462ed9e1004624c7109233eafd7098211da9f86.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 5,
+        "items": [
+          {
+            "apiName": "COMPLETE_STORYEVENT1",
+            "name": "Sand Central Station",
+            "description": "Complete Level 1 - Sand Central Station",
+            "icon": "0c296dd974a746858d90ec6e57777b70083c77a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795374779,
+            "globalPct": 78.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT2",
+            "name": "Times Square Off",
+            "description": "Complete Level 2 - Times Square Off",
+            "icon": "e5afea011cdb333cd8e1404168b34d23c3ed68f6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795379062,
+            "globalPct": 65.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT3",
+            "name": "Exploratory Laboratory",
+            "description": "Complete Level 3 - Exploratory Laboratory",
+            "icon": "e330372929590e65ee7f5df25273d89e8ad99a43",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795382287,
+            "globalPct": 57.6
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT4",
+            "name": "Rock up at the Lock up",
+            "description": "Complete Level 4 - Rock up at the Lock up",
+            "icon": "ab2ccde2cc89f9d503312dc25a054d5f66d8a9f1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 50.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT5",
+            "name": "Rebooted, Resuited",
+            "description": "Complete Level 5 - Rebooted, Resuited",
+            "icon": "7509bbb25061487cdfc203026e4887b88830501a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 47.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT6",
+            "name": "Red Head Detention",
+            "description": "Complete Level 6 - Red Head Detention",
+            "icon": "e2a4f0f50bc0a0514672f1b08dc1bb572f80d448",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 44.4
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT7",
+            "name": "Bifrosty Reception",
+            "description": "Complete Level 7 - Bifrosty Reception",
+            "icon": "a5f9a21354040da96d0eaee95056a96e79610102",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 42.5
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT8",
+            "name": "Juggernauts and Crosses",
+            "description": "Complete Level 8 - Juggernauts and Crosses",
+            "icon": "110a7f4b9b3435773d198e269243aca87551cdac",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 40.2
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT9",
+            "name": "Doctor in the House",
+            "description": "Complete Level 9 - Doctor in the House",
+            "icon": "a8f78f9d61ae45908f7cf1ff333f51e6b007fbd2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 38.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT10",
+            "name": "That Sinking Feeling",
+            "description": "Complete Level 10 - That Sinking Feeling",
+            "icon": "d179cb36f9f1dcb76e4296b9f77c8c336115092a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.6
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT11",
+            "name": "Taking Liberties",
+            "description": "Complete Level 11 - Taking Liberties",
+            "icon": "5f39f986f764cafd040936b8bcb9defb2cd2ca3b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 35.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT12",
+            "name": "Rapturous Rise",
+            "description": "Complete Level 12 - Rapturous Rise",
+            "icon": "e3abf4c873139e27563caeb7f198dfce198287fd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 33.9
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT13",
+            "name": "Magnetic Personality",
+            "description": "Complete Level 13 - Magnetic Personality",
+            "icon": "2406a2a33e6be55d675bf39ea257111bba7a9bd7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.9
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT14",
+            "name": "A Doom with a View",
+            "description": "Complete Level 14 - A Doom with a View",
+            "icon": "08ad607c7bf06ce820e7cd99fb14e409d7fe9dfe",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT15",
+            "name": "The Good, the Bad and the Hungry",
+            "description": "Complete Level 15 - The Good, the Bad and the Hungry",
+            "icon": "2005dbdcd500d32df5d4c342d33f3f4e39f1bb7e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.2
+          },
+          {
+            "apiName": "COMPLETE_HELICARRIER_SKYDIVE",
+            "name": "Falling... with Style",
+            "description": "Complete first Helicarrier skydive",
+            "icon": "c517bb09085d69d212ce3c2aa8d8d0076080c96b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795375140,
+            "globalPct": 74.6
+          },
+          {
+            "apiName": "TEAM_CAPAMERICA_WITH_TORCH",
+            "name": "Don't I Know You?",
+            "description": "Team up Captain America with Human Torch (Co-op)",
+            "icon": "4fe9e9c2f85d0fac051f71f8c08a03b187212bef",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.8
+          },
+          {
+            "apiName": "RESCUE_ALL_CITIZENS_IN_PERIL",
+            "name": "Stan-tastic",
+            "description": "Rescue Stan Lee from every peril (Single Player)",
+            "icon": "d3fc577ed40e0be30e8f3d0f7f82380e9592dd78",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.5
+          },
+          {
+            "apiName": "DESTROY_X_HUB_VEHICLES",
+            "name": "Road Rage",
+            "description": "Destroy 100 vehicles in the Manhattan hub",
+            "icon": "76bca5828c27fc3d1ff5acfcb8e6589fa559d5e0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.8
+          },
+          {
+            "apiName": "KILL_100_ENEMIES_AS_THING",
+            "name": "It's Clobberin' Time!",
+            "description": "Defeat 100 enemies as the Thing",
+            "icon": "b46839188ed4666bc217b8ff2dd863423508c554",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "HULK_UP_100_TIMES",
+            "name": "I'm Always Angry!",
+            "description": "Transform into the Hulk 50 times",
+            "icon": "691e0a25840b258a9a3b35971ac5a413aeedbd9d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.1
+          },
+          {
+            "apiName": "GET_BILLIONS",
+            "name": "Billionaire Philanthropist",
+            "description": "Collect 1,000,000,000 studs (Single Player)",
+            "icon": "a4b2ada17758ce520440aaed93a6597f0e6f2766",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.2
+          },
+          {
+            "apiName": "TURN_MRFANTASTIC_INTO_TEAPOT",
+            "name": "This Is fantastic!",
+            "description": "First time turning Mister Fantastic into a teapot",
+            "icon": "044a252a21611fd82fd03a4d7960ab981be1d291",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 61.2
+          },
+          {
+            "apiName": "GET_100_PERCENT",
+            "name": "You Win a No-Prize!",
+            "description": "Complete game 100% (Single Player)",
+            "icon": "b78ed96e4b36caaa1dd08016d3bcb275c7fdfb06",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.4
+          },
+          {
+            "apiName": "COLLECT_ALL_AVENGERS",
+            "name": "Avengers Assembled",
+            "description": "Collect all Avengers characters in the game (Single Player)",
+            "icon": "dafb4fabf89c7dace972a0d50731caa9f065d936",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.6
+          },
+          {
+            "apiName": "COLLECT_SINISTER_SIX",
+            "name": "Sinister Six",
+            "description": "Collect Doc Ock, Sandman, Mysterio, Kraven the Hunter, Electro and Vulture (Single Player)",
+            "icon": "9fe1b320ca4db8c345127f97096c267381fcb699",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.3
+          },
+          {
+            "apiName": "COLLECT_ALL_XMEN_GOODIES",
+            "name": "To Me, My X-Men",
+            "description": "Collect all traditionally heroic mutants (Single Player)",
+            "icon": "e55c1ecf03602f8ee1ea42ec2848e3140d2b492e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.5
+          },
+          {
+            "apiName": "COLLECT_ALL_XMEN_BADDIES",
+            "name": "Brotherhood",
+            "description": "Collect all traditionally evil mutants (Single Player)",
+            "icon": "85b58e2fccf2aaf75067ebc68e01cc0c3ff5a20e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.1
+          },
+          {
+            "apiName": "COLLECT_ALL_IRONMAN_ARMOURS",
+            "name": "I Am Iron Man",
+            "description": "Collect all Iron Man armors (Single Player)",
+            "icon": "1a10c07b8249296e42fded03c2ce9263884dbc56",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19
+          },
+          {
+            "apiName": "TURN_INTO_STAN_HULK",
+            "name": "Stan's Soapbox",
+            "description": "Turn into Stan Hulk",
+            "icon": "3333ef5d00de9ad670d6d2f7f7c6365efbe9f748",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "WATCH_CREDIT_BONUS_SCENE",
+            "name": "Post-Credit Party",
+            "description": "Complete House Party Protocol",
+            "icon": "afb6bc150bcd10060b90e374fccb71b88ce28f5d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.2
+          },
+          {
+            "apiName": "CREATE_TREVOR_CUSTOM_CHAR",
+            "name": "The Toast of Croydon",
+            "description": "Create a character called “Trevor” in the character customizer",
+            "icon": "0cb2cec4d93a8d1aea2948d322796fecb4a88070",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "PERFORM_HULK_SPECIALMOVE_ON_LOKI",
+            "name": "Puny God",
+            "description": "Perform Hulk's special move on Loki",
+            "icon": "be4280c042a983620b122ff88f1114822532fcfd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.3
+          },
+          {
+            "apiName": "PLAY_AS_AGENT_COULSON",
+            "name": "Welcome to Level 7",
+            "description": "Play as Agent Coulson",
+            "icon": "63d7d4c13cda43b8fc5d61020037f7341463eb9d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "READ_DEADPOOL_COMIC",
+            "name": "It's Me Time!",
+            "description": "Read a comic in Deadpool's room on the Helicarrier",
+            "icon": "c011bd836dd1c8563d35f8a41759e42036e5d35a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "UNLOCK_BLACK_CAT",
+            "name": "Bad Luck?",
+            "description": "Unlock Black Cat (Single Player)",
+            "icon": "7f1c4b9321ec0de22c9df9cf5e50ec6e7f08ed03",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.7
+          },
+          {
+            "apiName": "UNLOCK_ALL_ANIMAL_CHARS",
+            "name": "Zoo Believer",
+            "description": "Unlock all animal-themed characters (Single Player)",
+            "icon": "4f5147d790e0d3a46438298770bcf30eb0b88a80",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.5
+          },
+          {
+            "apiName": "UNLOCK_GUARDIANS_OF_GALAXY",
+            "name": "Guardians of the Galaxy",
+            "description": "Unlock all the Guardians of the Galaxy (Single Player)",
+            "icon": "9f9a86aebb35ba4892d722c704f1e41c0bf01369",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.5
+          },
+          {
+            "apiName": "PERFORM_COLOSSUS_THROW_ON_WOLVERINE",
+            "name": "Fastball Special",
+            "description": "Perform a special throwing move as Colossus on Wolverine",
+            "icon": "e8303d5f819757cdda3bf91757e7bcf0c65d0c8c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "DRIVE_TO_BAXTERBUILDING_IN_MAGNETOMOBILE",
+            "name": "Menace of Magneto",
+            "description": "Drive to the Baxter Building as Magneto in the Magneto Mobile",
+            "icon": "86d6150ab14ad0c7ec9a1fd6f230ba84215c3991",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.5
+          },
+          {
+            "apiName": "PERFORM_ALL_BIGFIG_TRANSFORMS",
+            "name": "Alter Ego",
+            "description": "Perform all big LEGO figure transformations",
+            "icon": "8ea8b3c6a69e3314c095c48b6de2b91e22014a85",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.3
+          },
+          {
+            "apiName": "REGENRATE_AS_WOLVERINE",
+            "name": "Can't Hurt Me Bub",
+            "description": "Regenerate as Wolverine",
+            "icon": "afa8c820f6a4d3de803c1a4361199e4cbce7a28d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795461655,
+            "globalPct": 49.4
+          },
+          {
+            "apiName": "CREATE_A_CUSTOM_CHARACTER",
+            "name": "Cosplay",
+            "description": "Create a custom character",
+            "icon": "028cfc6b6d261334abe285b8032ee51451362501",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.2
+          },
+          {
+            "apiName": "GET_TRUEHERO_ALL_LEVELS",
+            "name": "Ultimate True Believer",
+            "description": "Unlock all True Believers (Single Player)",
+            "icon": "48c33dbb4084deaefa256370e2bb65224cc6524a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.3
+          },
+          {
+            "apiName": "COLLECT_HOWARD_THE_DUCK",
+            "name": "Really?",
+            "description": "Collect Howard the Duck (Single Player)",
+            "icon": "0ca94b61c6c0593481f0fc0f3e2e7ad11baadbb4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24
           }
         ]
       }
@@ -335450,7 +336163,10 @@
       "releaseDate": null,
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/63910/b4ffa805d085968c78e5c7f2499a0a3def94cce5/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/63910/3bad0a971116bc033dda3ca4e15fcf40fe60a43a/library_header_2x.jpg",
-      "achievements": null
+      "achievements": {
+        "total": 0,
+        "unlocked": 0
+      }
     },
     {
       "appId": 65300,
@@ -338599,23 +339315,6 @@
       "libraryHeaderUrl": null,
       "achievements": {
         "total": 33,
-        "unlocked": 0
-      }
-    },
-    {
-      "appId": 249130,
-      "name": "LEGO® MARVEL Super Heroes",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/249130/8462ed9e1004624c7109233eafd7098211da9f86.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 45,
         "unlocked": 0
       }
     },
@@ -382126,7 +382825,10 @@
       "releaseDate": null,
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1910860/d7f9341fc838ff22d43038507dc84f66141b1e90/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1910860/6b8723bfa1d4183fa60b750c92bfe9cc18c9f946/library_header_2x.jpg",
-      "achievements": null
+      "achievements": {
+        "total": 30,
+        "unlocked": 0
+      }
     },
     {
       "appId": 1915380,
@@ -386805,28 +387507,6 @@
       "achievements": null
     },
     {
-      "appId": 3505770,
-      "name": "Kin and Quarry",
-      "playtimeHours": 0,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3505770/79acff94fc9879f956a67bafc8ad33ce251a2878.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3505770/5fa548c9e231409c4f18ba5ff83348ab2b217e80/header.jpg?t=1785816021",
-      "genres": [
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [],
-      "releaseDate": "Jan 16, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3505770/c2e58d6e7b047414271df58995face75aa254e06/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3505770/5fa548c9e231409c4f18ba5ff83348ab2b217e80/library_header_2x.jpg",
-      "achievements": {
-        "total": 22,
-        "unlocked": 0
-      }
-    },
-    {
       "appId": 3530680,
       "name": "How 2 Escape: Lost Submarine",
       "playtimeHours": 0,
@@ -387482,7 +388162,7 @@
       "dateAdded": 1683631048,
       "priority": 0,
       "name": "Amazing Frog?",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/822e30280a7320a70c6ed05cb7b0eb7e504b33c8/header_alt_assets_7.jpg?t=1795172625",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/822e30280a7320a70c6ed05cb7b0eb7e504b33c8/header_alt_assets_7.jpg?t=1795255697",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/121b870d05059835a0a47783a1fc9bc5ec798046/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332570/6d661c0b1c15e3f23c62b6926c5a6e08261f261d/library_header_2x.jpg"
     },
@@ -387854,7 +388534,7 @@
       "dateAdded": 1791627372,
       "priority": 0,
       "name": "Order of the Sinking Star",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1793039241",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg?t=1795478005",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/e061e66565700812fd6e4ac87fe32cc6a4683827/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/2aed61ae2883fa8112630c4bd86adf07a53c5094/library_header_2x.jpg"
     },
@@ -388832,7 +389512,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/e36deae4f5e2af9cd6fcedf0d26505e15832bbe7/header_alt_assets_18.jpg?t=1789984751",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/87c8f6901c5fc151b8b9bbb452cfcc21aee211c8/header.jpg?t=1795502033",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -388841,7 +389521,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -388849,7 +389529,7 @@
       "dateAdded": 1555281019,
       "priority": 381,
       "name": "Voxel Tycoon",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/header.jpg?t=1783208264",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/732050/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/732050/library_600x900_2x.jpg"
     },
     {
@@ -388857,7 +389537,7 @@
       "dateAdded": 1509560660,
       "priority": 383,
       "name": "EMERGENCY 20",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/header.jpg?t=1667223561",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/735280/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/735280/library_600x900_2x.jpg"
     },
     {
@@ -388865,7 +389545,7 @@
       "dateAdded": 1524265466,
       "priority": 385,
       "name": "Squad 44",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/header.jpg?t=1790967343",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/736220/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/fae382a414c681d84f743a85cef8bf33352e5eaf/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/736220/d9ab5f721701f675483d8b93ed61831f54425088/library_header_2x.jpg"
     },
@@ -388974,7 +389654,7 @@
       "dateAdded": 1605736966,
       "priority": 0,
       "name": "Occupy Mars: The Game",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758690/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/5e2f0eefa8e24969fe4d378ced4ecd819d259e0f/header.jpg?t=1795124508",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/47e3333e29936ffbe5f82b7fc13959a7cae34c90/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/library_header_2x.jpg"
     },
@@ -389043,7 +389723,7 @@
       "dateAdded": 1770916000,
       "priority": 0,
       "name": "Last Man Sitting",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774291/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1792068178",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/803bf1ec7353a49fbe7dc1cb3e82a942a913c202/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/5c05281696891c8cb3df8395efa376f39f9f8c09/library_header_2x.jpg"
     },
@@ -389060,7 +389740,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -389165,7 +389845,7 @@
       "dateAdded": 1654798340,
       "priority": 0,
       "name": "ANIMAL WELL",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/header.jpg?t=1788379439",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/813230/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813230/library_header.jpg"
     },
@@ -389305,7 +389985,7 @@
       "dateAdded": 1703379779,
       "priority": 0,
       "name": "Goat Simulator 3",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/05f2a55561043f07bdc5a4b0662970225a7bd299/header_alt_assets_9.jpg?t=1795097262",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/850190/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/d7d339a57cacfaef7632bdd3b5f9e999eb7fc22d/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/850190/8d86157e7fb48b963d95879e81b97ff9f7b619d5/library_header_2x.jpg"
     },
@@ -389338,7 +390018,7 @@
       "dateAdded": 1551463061,
       "priority": 454,
       "name": "Dawn of Man",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858810/header.jpg?t=1762552523",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/858810/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858810/library_600x900_2x.jpg"
     },
     {
@@ -391311,8 +391991,8 @@
       "priority": 0,
       "name": "Gunfire Reborn",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1217060/30c0c0ac915ee1409ab2904f1c7c0d3d98c2a8d4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1217060/dd6c1906d262c38c183ccd711f192db187b5103f/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1217060/d3e7859e1231d6a4118b1838d7581abdc99ee530/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1217060/6173f0b3efe28aeef44fac0cc3fe4285c7d7c760/library_header_2x.jpg"
     },
     {
       "appId": 1218780,
@@ -396330,7 +397010,7 @@
       "dateAdded": 1766058648,
       "priority": 0,
       "name": "NO LAW",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161710/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161710/6f386ecc7a0527b0c539b84eb5aa6f8f758e8c11/header.jpg?t=1787883186",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161710/8bab9704cf68cbd5a0a511a32a44f0bf4041a124/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161710/0cc54465e2eb2d9cec8606f4b9c090bc66e71e59/library_header_2x.jpg"
     },
@@ -396756,7 +397436,7 @@
       "dateAdded": 1760393569,
       "priority": 0,
       "name": "Everwind",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2253100/81c5fb1f7602d9fe92ae9971e9c2b587e6cbeb54/header.jpg?t=1788785596",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2253100/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2253100/6580d37f8525105c60a1dcf7f8a8774651802c5f/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2253100/6deabbed7536143510f6f3325d9e68de6c194f9d/library_header_2x.jpg"
     },
@@ -399581,7 +400261,7 @@
       "name": "Pool of Madness",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2873750/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/c773f65025724bddeed7116994391943b84eeb40/library_600x900_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/efb367077b1bfcf978a5feb46c57fdd82e4dead9/library_header_2x.jpg"
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2873750/5d7bf0f2ea9bb85989a6788bbb07e18a77787710/library_header_2x.jpg"
     },
     {
       "appId": 2874130,
@@ -403206,8 +403886,8 @@
       "priority": 0,
       "name": "Station 58",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3757660/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/dc3a4e561e884c4dcfb15b894a6d988ba362bd1c/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/ad7afe5f975b9ca7abb28e410533b7e184b20866/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/9f89608d0300b3b7873107d458aba8557349574d/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/a3358e213afd51a1c1be3874fdebfadac2a3d9bd/library_header_2x.jpg"
     },
     {
       "appId": 3760370,
@@ -405033,6 +405713,15 @@
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4222130/c124c2cf1e28e8da96b4b6509f7c3a40ce3234f6/library_header_2x.jpg"
     },
     {
+      "appId": 4224490,
+      "dateAdded": 1795431943,
+      "priority": 0,
+      "name": "App 4224490",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4224490/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224490/4e5f9c902f53a1f6667ce91e1a9eff223dc56906/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224490/eddf44416d47a639d8915d921d7f02433917acd5/library_header_2x.jpg"
+    },
+    {
       "appId": 4233350,
       "dateAdded": 1771873001,
       "priority": 0,
@@ -405317,8 +406006,8 @@
       "priority": 0,
       "name": "App 4312190",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4312190/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/41fe49c40fa4226ddd7fafdb4b15c15687756f68/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/9dfa7d4efdcc88aa5663a31f02633391eb5ef843/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/fa67be640357a6f8f909400f1b1dd7005d325d8f/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4312190/60cd3f801c5953654683e6a2d1eea616e5c20301/library_header_2x.jpg"
     },
     {
       "appId": 4312850,
@@ -406248,7 +406937,7 @@
       "dateAdded": 1781620262,
       "priority": 0,
       "name": "App 4656000",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4656000/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/feaeb8f6d4b829252a902f0acd2d8fd385271871/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/54d624f1d6ea0b30bafb736ef940bb6b78f4ba78/library_header_2x.jpg"
     },
@@ -406284,7 +406973,7 @@
       "dateAdded": 1787681359,
       "priority": 0,
       "name": "App 4665290",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665290/21eb5925869fb99fccbc24e682b0db22b9494543/header.jpg?t=1782805186",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4665290/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665290/13b5924fe541c90cd67039558f2d2674508f8b7c/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4665290/ba22f96220cfc8f5a2ecad1ccc9f56f67c3f0f8f/library_header_2x.jpg"
     },
@@ -406419,7 +407108,7 @@
       "dateAdded": 1791568725,
       "priority": 0,
       "name": "App 4739500",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/277e381de9e54a69696e3aa6c2d80035302777fc/header.jpg?t=1795121563",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4739500/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/905ae644ef9154be33f0103efe082cb9810c7ef0/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4739500/277e381de9e54a69696e3aa6c2d80035302777fc/library_header_2x.jpg"
     },
@@ -406870,6 +407559,24 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5362020/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/0c96d4e16f7d679933e9121ee5f83d088c0cec88/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5362020/fdafac6a97129e0bc04895c981b135022f167f90/library_header_2x.jpg"
+    },
+    {
+      "appId": 5501560,
+      "dateAdded": 1795344024,
+      "priority": 0,
+      "name": "App 5501560",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5501560/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5501560/ddd9e732909a3bc9465730cb6b3422e24f56983a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5501560/53d4b8a7d5ce9943d86d80cd4804a00c3f7d4b2d/library_header_2x.jpg"
+    },
+    {
+      "appId": 5514440,
+      "dateAdded": 1795460186,
+      "priority": 0,
+      "name": "App 5514440",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5514440/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5514440/181cab9a99c8cd684cf29e7514d61111e9e34b1a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5514440/973ac8974dfa9875c7b95049ebb59636794770bc/library_header_2x.jpg"
     },
     {
       "appId": 5534570,
