@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-11-24T06:47:29.433Z",
+  "fetchedAt": "2026-11-25T05:21:58.664Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1795463406
+    "lastLogoff": 1795559333
   },
   "games": [
     {
@@ -221534,6 +221534,475 @@
       }
     },
     {
+      "appId": 249130,
+      "name": "LEGO® MARVEL Super Heroes",
+      "playtimeHours": 6.9,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/249130/8462ed9e1004624c7109233eafd7098211da9f86.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 9,
+        "items": [
+          {
+            "apiName": "COMPLETE_STORYEVENT1",
+            "name": "Sand Central Station",
+            "description": "Complete Level 1 - Sand Central Station",
+            "icon": "0c296dd974a746858d90ec6e57777b70083c77a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795374779,
+            "globalPct": 78.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT2",
+            "name": "Times Square Off",
+            "description": "Complete Level 2 - Times Square Off",
+            "icon": "e5afea011cdb333cd8e1404168b34d23c3ed68f6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795379062,
+            "globalPct": 65.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT3",
+            "name": "Exploratory Laboratory",
+            "description": "Complete Level 3 - Exploratory Laboratory",
+            "icon": "e330372929590e65ee7f5df25273d89e8ad99a43",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795382287,
+            "globalPct": 57.6
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT4",
+            "name": "Rock up at the Lock up",
+            "description": "Complete Level 4 - Rock up at the Lock up",
+            "icon": "ab2ccde2cc89f9d503312dc25a054d5f66d8a9f1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795548823,
+            "globalPct": 50.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT5",
+            "name": "Rebooted, Resuited",
+            "description": "Complete Level 5 - Rebooted, Resuited",
+            "icon": "7509bbb25061487cdfc203026e4887b88830501a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795551765,
+            "globalPct": 47.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT6",
+            "name": "Red Head Detention",
+            "description": "Complete Level 6 - Red Head Detention",
+            "icon": "e2a4f0f50bc0a0514672f1b08dc1bb572f80d448",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795555899,
+            "globalPct": 44.4
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT7",
+            "name": "Bifrosty Reception",
+            "description": "Complete Level 7 - Bifrosty Reception",
+            "icon": "a5f9a21354040da96d0eaee95056a96e79610102",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795559141,
+            "globalPct": 42.5
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT8",
+            "name": "Juggernauts and Crosses",
+            "description": "Complete Level 8 - Juggernauts and Crosses",
+            "icon": "110a7f4b9b3435773d198e269243aca87551cdac",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 40.2
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT9",
+            "name": "Doctor in the House",
+            "description": "Complete Level 9 - Doctor in the House",
+            "icon": "a8f78f9d61ae45908f7cf1ff333f51e6b007fbd2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 38.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT10",
+            "name": "That Sinking Feeling",
+            "description": "Complete Level 10 - That Sinking Feeling",
+            "icon": "d179cb36f9f1dcb76e4296b9f77c8c336115092a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.6
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT11",
+            "name": "Taking Liberties",
+            "description": "Complete Level 11 - Taking Liberties",
+            "icon": "5f39f986f764cafd040936b8bcb9defb2cd2ca3b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 35.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT12",
+            "name": "Rapturous Rise",
+            "description": "Complete Level 12 - Rapturous Rise",
+            "icon": "e3abf4c873139e27563caeb7f198dfce198287fd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 33.9
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT13",
+            "name": "Magnetic Personality",
+            "description": "Complete Level 13 - Magnetic Personality",
+            "icon": "2406a2a33e6be55d675bf39ea257111bba7a9bd7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.9
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT14",
+            "name": "A Doom with a View",
+            "description": "Complete Level 14 - A Doom with a View",
+            "icon": "08ad607c7bf06ce820e7cd99fb14e409d7fe9dfe",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT15",
+            "name": "The Good, the Bad and the Hungry",
+            "description": "Complete Level 15 - The Good, the Bad and the Hungry",
+            "icon": "2005dbdcd500d32df5d4c342d33f3f4e39f1bb7e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.2
+          },
+          {
+            "apiName": "COMPLETE_HELICARRIER_SKYDIVE",
+            "name": "Falling... with Style",
+            "description": "Complete first Helicarrier skydive",
+            "icon": "c517bb09085d69d212ce3c2aa8d8d0076080c96b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795375140,
+            "globalPct": 74.6
+          },
+          {
+            "apiName": "TEAM_CAPAMERICA_WITH_TORCH",
+            "name": "Don't I Know You?",
+            "description": "Team up Captain America with Human Torch (Co-op)",
+            "icon": "4fe9e9c2f85d0fac051f71f8c08a03b187212bef",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.8
+          },
+          {
+            "apiName": "RESCUE_ALL_CITIZENS_IN_PERIL",
+            "name": "Stan-tastic",
+            "description": "Rescue Stan Lee from every peril (Single Player)",
+            "icon": "d3fc577ed40e0be30e8f3d0f7f82380e9592dd78",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.5
+          },
+          {
+            "apiName": "DESTROY_X_HUB_VEHICLES",
+            "name": "Road Rage",
+            "description": "Destroy 100 vehicles in the Manhattan hub",
+            "icon": "76bca5828c27fc3d1ff5acfcb8e6589fa559d5e0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.8
+          },
+          {
+            "apiName": "KILL_100_ENEMIES_AS_THING",
+            "name": "It's Clobberin' Time!",
+            "description": "Defeat 100 enemies as the Thing",
+            "icon": "b46839188ed4666bc217b8ff2dd863423508c554",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "HULK_UP_100_TIMES",
+            "name": "I'm Always Angry!",
+            "description": "Transform into the Hulk 50 times",
+            "icon": "691e0a25840b258a9a3b35971ac5a413aeedbd9d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.1
+          },
+          {
+            "apiName": "GET_BILLIONS",
+            "name": "Billionaire Philanthropist",
+            "description": "Collect 1,000,000,000 studs (Single Player)",
+            "icon": "a4b2ada17758ce520440aaed93a6597f0e6f2766",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.2
+          },
+          {
+            "apiName": "TURN_MRFANTASTIC_INTO_TEAPOT",
+            "name": "This Is fantastic!",
+            "description": "First time turning Mister Fantastic into a teapot",
+            "icon": "044a252a21611fd82fd03a4d7960ab981be1d291",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 61.2
+          },
+          {
+            "apiName": "GET_100_PERCENT",
+            "name": "You Win a No-Prize!",
+            "description": "Complete game 100% (Single Player)",
+            "icon": "b78ed96e4b36caaa1dd08016d3bcb275c7fdfb06",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.4
+          },
+          {
+            "apiName": "COLLECT_ALL_AVENGERS",
+            "name": "Avengers Assembled",
+            "description": "Collect all Avengers characters in the game (Single Player)",
+            "icon": "dafb4fabf89c7dace972a0d50731caa9f065d936",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.6
+          },
+          {
+            "apiName": "COLLECT_SINISTER_SIX",
+            "name": "Sinister Six",
+            "description": "Collect Doc Ock, Sandman, Mysterio, Kraven the Hunter, Electro and Vulture (Single Player)",
+            "icon": "9fe1b320ca4db8c345127f97096c267381fcb699",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.3
+          },
+          {
+            "apiName": "COLLECT_ALL_XMEN_GOODIES",
+            "name": "To Me, My X-Men",
+            "description": "Collect all traditionally heroic mutants (Single Player)",
+            "icon": "e55c1ecf03602f8ee1ea42ec2848e3140d2b492e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.5
+          },
+          {
+            "apiName": "COLLECT_ALL_XMEN_BADDIES",
+            "name": "Brotherhood",
+            "description": "Collect all traditionally evil mutants (Single Player)",
+            "icon": "85b58e2fccf2aaf75067ebc68e01cc0c3ff5a20e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.1
+          },
+          {
+            "apiName": "COLLECT_ALL_IRONMAN_ARMOURS",
+            "name": "I Am Iron Man",
+            "description": "Collect all Iron Man armors (Single Player)",
+            "icon": "1a10c07b8249296e42fded03c2ce9263884dbc56",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19
+          },
+          {
+            "apiName": "TURN_INTO_STAN_HULK",
+            "name": "Stan's Soapbox",
+            "description": "Turn into Stan Hulk",
+            "icon": "3333ef5d00de9ad670d6d2f7f7c6365efbe9f748",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "WATCH_CREDIT_BONUS_SCENE",
+            "name": "Post-Credit Party",
+            "description": "Complete House Party Protocol",
+            "icon": "afb6bc150bcd10060b90e374fccb71b88ce28f5d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.2
+          },
+          {
+            "apiName": "CREATE_TREVOR_CUSTOM_CHAR",
+            "name": "The Toast of Croydon",
+            "description": "Create a character called “Trevor” in the character customizer",
+            "icon": "0cb2cec4d93a8d1aea2948d322796fecb4a88070",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "PERFORM_HULK_SPECIALMOVE_ON_LOKI",
+            "name": "Puny God",
+            "description": "Perform Hulk's special move on Loki",
+            "icon": "be4280c042a983620b122ff88f1114822532fcfd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.3
+          },
+          {
+            "apiName": "PLAY_AS_AGENT_COULSON",
+            "name": "Welcome to Level 7",
+            "description": "Play as Agent Coulson",
+            "icon": "63d7d4c13cda43b8fc5d61020037f7341463eb9d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "READ_DEADPOOL_COMIC",
+            "name": "It's Me Time!",
+            "description": "Read a comic in Deadpool's room on the Helicarrier",
+            "icon": "c011bd836dd1c8563d35f8a41759e42036e5d35a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "UNLOCK_BLACK_CAT",
+            "name": "Bad Luck?",
+            "description": "Unlock Black Cat (Single Player)",
+            "icon": "7f1c4b9321ec0de22c9df9cf5e50ec6e7f08ed03",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.7
+          },
+          {
+            "apiName": "UNLOCK_ALL_ANIMAL_CHARS",
+            "name": "Zoo Believer",
+            "description": "Unlock all animal-themed characters (Single Player)",
+            "icon": "4f5147d790e0d3a46438298770bcf30eb0b88a80",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.5
+          },
+          {
+            "apiName": "UNLOCK_GUARDIANS_OF_GALAXY",
+            "name": "Guardians of the Galaxy",
+            "description": "Unlock all the Guardians of the Galaxy (Single Player)",
+            "icon": "9f9a86aebb35ba4892d722c704f1e41c0bf01369",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.5
+          },
+          {
+            "apiName": "PERFORM_COLOSSUS_THROW_ON_WOLVERINE",
+            "name": "Fastball Special",
+            "description": "Perform a special throwing move as Colossus on Wolverine",
+            "icon": "e8303d5f819757cdda3bf91757e7bcf0c65d0c8c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "DRIVE_TO_BAXTERBUILDING_IN_MAGNETOMOBILE",
+            "name": "Menace of Magneto",
+            "description": "Drive to the Baxter Building as Magneto in the Magneto Mobile",
+            "icon": "86d6150ab14ad0c7ec9a1fd6f230ba84215c3991",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.5
+          },
+          {
+            "apiName": "PERFORM_ALL_BIGFIG_TRANSFORMS",
+            "name": "Alter Ego",
+            "description": "Perform all big LEGO figure transformations",
+            "icon": "8ea8b3c6a69e3314c095c48b6de2b91e22014a85",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.3
+          },
+          {
+            "apiName": "REGENRATE_AS_WOLVERINE",
+            "name": "Can't Hurt Me Bub",
+            "description": "Regenerate as Wolverine",
+            "icon": "afa8c820f6a4d3de803c1a4361199e4cbce7a28d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795461655,
+            "globalPct": 49.4
+          },
+          {
+            "apiName": "CREATE_A_CUSTOM_CHARACTER",
+            "name": "Cosplay",
+            "description": "Create a custom character",
+            "icon": "028cfc6b6d261334abe285b8032ee51451362501",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.2
+          },
+          {
+            "apiName": "GET_TRUEHERO_ALL_LEVELS",
+            "name": "Ultimate True Believer",
+            "description": "Unlock all True Believers (Single Player)",
+            "icon": "48c33dbb4084deaefa256370e2bb65224cc6524a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.3
+          },
+          {
+            "apiName": "COLLECT_HOWARD_THE_DUCK",
+            "name": "Really?",
+            "description": "Collect Howard the Duck (Single Player)",
+            "icon": "0ca94b61c6c0593481f0fc0f3e2e7ad11baadbb4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24
+          }
+        ]
+      }
+    },
+    {
       "appId": 714010,
       "name": "Aimlabs",
       "playtimeHours": 6.9,
@@ -266588,475 +267057,6 @@
             "unlocked": true,
             "unlockTime": 1735337819,
             "globalPct": 31.1
-          }
-        ]
-      }
-    },
-    {
-      "appId": 249130,
-      "name": "LEGO® MARVEL Super Heroes",
-      "playtimeHours": 3.4,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/249130/8462ed9e1004624c7109233eafd7098211da9f86.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 5,
-        "items": [
-          {
-            "apiName": "COMPLETE_STORYEVENT1",
-            "name": "Sand Central Station",
-            "description": "Complete Level 1 - Sand Central Station",
-            "icon": "0c296dd974a746858d90ec6e57777b70083c77a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795374779,
-            "globalPct": 78.8
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT2",
-            "name": "Times Square Off",
-            "description": "Complete Level 2 - Times Square Off",
-            "icon": "e5afea011cdb333cd8e1404168b34d23c3ed68f6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795379062,
-            "globalPct": 65.1
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT3",
-            "name": "Exploratory Laboratory",
-            "description": "Complete Level 3 - Exploratory Laboratory",
-            "icon": "e330372929590e65ee7f5df25273d89e8ad99a43",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795382287,
-            "globalPct": 57.6
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT4",
-            "name": "Rock up at the Lock up",
-            "description": "Complete Level 4 - Rock up at the Lock up",
-            "icon": "ab2ccde2cc89f9d503312dc25a054d5f66d8a9f1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 50.8
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT5",
-            "name": "Rebooted, Resuited",
-            "description": "Complete Level 5 - Rebooted, Resuited",
-            "icon": "7509bbb25061487cdfc203026e4887b88830501a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 47.8
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT6",
-            "name": "Red Head Detention",
-            "description": "Complete Level 6 - Red Head Detention",
-            "icon": "e2a4f0f50bc0a0514672f1b08dc1bb572f80d448",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 44.4
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT7",
-            "name": "Bifrosty Reception",
-            "description": "Complete Level 7 - Bifrosty Reception",
-            "icon": "a5f9a21354040da96d0eaee95056a96e79610102",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 42.5
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT8",
-            "name": "Juggernauts and Crosses",
-            "description": "Complete Level 8 - Juggernauts and Crosses",
-            "icon": "110a7f4b9b3435773d198e269243aca87551cdac",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 40.2
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT9",
-            "name": "Doctor in the House",
-            "description": "Complete Level 9 - Doctor in the House",
-            "icon": "a8f78f9d61ae45908f7cf1ff333f51e6b007fbd2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 38.1
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT10",
-            "name": "That Sinking Feeling",
-            "description": "Complete Level 10 - That Sinking Feeling",
-            "icon": "d179cb36f9f1dcb76e4296b9f77c8c336115092a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.6
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT11",
-            "name": "Taking Liberties",
-            "description": "Complete Level 11 - Taking Liberties",
-            "icon": "5f39f986f764cafd040936b8bcb9defb2cd2ca3b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 35.1
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT12",
-            "name": "Rapturous Rise",
-            "description": "Complete Level 12 - Rapturous Rise",
-            "icon": "e3abf4c873139e27563caeb7f198dfce198287fd",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 33.9
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT13",
-            "name": "Magnetic Personality",
-            "description": "Complete Level 13 - Magnetic Personality",
-            "icon": "2406a2a33e6be55d675bf39ea257111bba7a9bd7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.9
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT14",
-            "name": "A Doom with a View",
-            "description": "Complete Level 14 - A Doom with a View",
-            "icon": "08ad607c7bf06ce820e7cd99fb14e409d7fe9dfe",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT15",
-            "name": "The Good, the Bad and the Hungry",
-            "description": "Complete Level 15 - The Good, the Bad and the Hungry",
-            "icon": "2005dbdcd500d32df5d4c342d33f3f4e39f1bb7e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 31.2
-          },
-          {
-            "apiName": "COMPLETE_HELICARRIER_SKYDIVE",
-            "name": "Falling... with Style",
-            "description": "Complete first Helicarrier skydive",
-            "icon": "c517bb09085d69d212ce3c2aa8d8d0076080c96b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795375140,
-            "globalPct": 74.6
-          },
-          {
-            "apiName": "TEAM_CAPAMERICA_WITH_TORCH",
-            "name": "Don't I Know You?",
-            "description": "Team up Captain America with Human Torch (Co-op)",
-            "icon": "4fe9e9c2f85d0fac051f71f8c08a03b187212bef",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17.8
-          },
-          {
-            "apiName": "RESCUE_ALL_CITIZENS_IN_PERIL",
-            "name": "Stan-tastic",
-            "description": "Rescue Stan Lee from every peril (Single Player)",
-            "icon": "d3fc577ed40e0be30e8f3d0f7f82380e9592dd78",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.5
-          },
-          {
-            "apiName": "DESTROY_X_HUB_VEHICLES",
-            "name": "Road Rage",
-            "description": "Destroy 100 vehicles in the Manhattan hub",
-            "icon": "76bca5828c27fc3d1ff5acfcb8e6589fa559d5e0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 19.8
-          },
-          {
-            "apiName": "KILL_100_ENEMIES_AS_THING",
-            "name": "It's Clobberin' Time!",
-            "description": "Defeat 100 enemies as the Thing",
-            "icon": "b46839188ed4666bc217b8ff2dd863423508c554",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 25.2
-          },
-          {
-            "apiName": "HULK_UP_100_TIMES",
-            "name": "I'm Always Angry!",
-            "description": "Transform into the Hulk 50 times",
-            "icon": "691e0a25840b258a9a3b35971ac5a413aeedbd9d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.1
-          },
-          {
-            "apiName": "GET_BILLIONS",
-            "name": "Billionaire Philanthropist",
-            "description": "Collect 1,000,000,000 studs (Single Player)",
-            "icon": "a4b2ada17758ce520440aaed93a6597f0e6f2766",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.2
-          },
-          {
-            "apiName": "TURN_MRFANTASTIC_INTO_TEAPOT",
-            "name": "This Is fantastic!",
-            "description": "First time turning Mister Fantastic into a teapot",
-            "icon": "044a252a21611fd82fd03a4d7960ab981be1d291",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 61.2
-          },
-          {
-            "apiName": "GET_100_PERCENT",
-            "name": "You Win a No-Prize!",
-            "description": "Complete game 100% (Single Player)",
-            "icon": "b78ed96e4b36caaa1dd08016d3bcb275c7fdfb06",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.4
-          },
-          {
-            "apiName": "COLLECT_ALL_AVENGERS",
-            "name": "Avengers Assembled",
-            "description": "Collect all Avengers characters in the game (Single Player)",
-            "icon": "dafb4fabf89c7dace972a0d50731caa9f065d936",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.6
-          },
-          {
-            "apiName": "COLLECT_SINISTER_SIX",
-            "name": "Sinister Six",
-            "description": "Collect Doc Ock, Sandman, Mysterio, Kraven the Hunter, Electro and Vulture (Single Player)",
-            "icon": "9fe1b320ca4db8c345127f97096c267381fcb699",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.3
-          },
-          {
-            "apiName": "COLLECT_ALL_XMEN_GOODIES",
-            "name": "To Me, My X-Men",
-            "description": "Collect all traditionally heroic mutants (Single Player)",
-            "icon": "e55c1ecf03602f8ee1ea42ec2848e3140d2b492e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.5
-          },
-          {
-            "apiName": "COLLECT_ALL_XMEN_BADDIES",
-            "name": "Brotherhood",
-            "description": "Collect all traditionally evil mutants (Single Player)",
-            "icon": "85b58e2fccf2aaf75067ebc68e01cc0c3ff5a20e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.1
-          },
-          {
-            "apiName": "COLLECT_ALL_IRONMAN_ARMOURS",
-            "name": "I Am Iron Man",
-            "description": "Collect all Iron Man armors (Single Player)",
-            "icon": "1a10c07b8249296e42fded03c2ce9263884dbc56",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 19
-          },
-          {
-            "apiName": "TURN_INTO_STAN_HULK",
-            "name": "Stan's Soapbox",
-            "description": "Turn into Stan Hulk",
-            "icon": "3333ef5d00de9ad670d6d2f7f7c6365efbe9f748",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.6
-          },
-          {
-            "apiName": "WATCH_CREDIT_BONUS_SCENE",
-            "name": "Post-Credit Party",
-            "description": "Complete House Party Protocol",
-            "icon": "afb6bc150bcd10060b90e374fccb71b88ce28f5d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.2
-          },
-          {
-            "apiName": "CREATE_TREVOR_CUSTOM_CHAR",
-            "name": "The Toast of Croydon",
-            "description": "Create a character called “Trevor” in the character customizer",
-            "icon": "0cb2cec4d93a8d1aea2948d322796fecb4a88070",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "PERFORM_HULK_SPECIALMOVE_ON_LOKI",
-            "name": "Puny God",
-            "description": "Perform Hulk's special move on Loki",
-            "icon": "be4280c042a983620b122ff88f1114822532fcfd",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.3
-          },
-          {
-            "apiName": "PLAY_AS_AGENT_COULSON",
-            "name": "Welcome to Level 7",
-            "description": "Play as Agent Coulson",
-            "icon": "63d7d4c13cda43b8fc5d61020037f7341463eb9d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.9
-          },
-          {
-            "apiName": "READ_DEADPOOL_COMIC",
-            "name": "It's Me Time!",
-            "description": "Read a comic in Deadpool's room on the Helicarrier",
-            "icon": "c011bd836dd1c8563d35f8a41759e42036e5d35a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.7
-          },
-          {
-            "apiName": "UNLOCK_BLACK_CAT",
-            "name": "Bad Luck?",
-            "description": "Unlock Black Cat (Single Player)",
-            "icon": "7f1c4b9321ec0de22c9df9cf5e50ec6e7f08ed03",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.7
-          },
-          {
-            "apiName": "UNLOCK_ALL_ANIMAL_CHARS",
-            "name": "Zoo Believer",
-            "description": "Unlock all animal-themed characters (Single Player)",
-            "icon": "4f5147d790e0d3a46438298770bcf30eb0b88a80",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.5
-          },
-          {
-            "apiName": "UNLOCK_GUARDIANS_OF_GALAXY",
-            "name": "Guardians of the Galaxy",
-            "description": "Unlock all the Guardians of the Galaxy (Single Player)",
-            "icon": "9f9a86aebb35ba4892d722c704f1e41c0bf01369",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.5
-          },
-          {
-            "apiName": "PERFORM_COLOSSUS_THROW_ON_WOLVERINE",
-            "name": "Fastball Special",
-            "description": "Perform a special throwing move as Colossus on Wolverine",
-            "icon": "e8303d5f819757cdda3bf91757e7bcf0c65d0c8c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.6
-          },
-          {
-            "apiName": "DRIVE_TO_BAXTERBUILDING_IN_MAGNETOMOBILE",
-            "name": "Menace of Magneto",
-            "description": "Drive to the Baxter Building as Magneto in the Magneto Mobile",
-            "icon": "86d6150ab14ad0c7ec9a1fd6f230ba84215c3991",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.5
-          },
-          {
-            "apiName": "PERFORM_ALL_BIGFIG_TRANSFORMS",
-            "name": "Alter Ego",
-            "description": "Perform all big LEGO figure transformations",
-            "icon": "8ea8b3c6a69e3314c095c48b6de2b91e22014a85",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.3
-          },
-          {
-            "apiName": "REGENRATE_AS_WOLVERINE",
-            "name": "Can't Hurt Me Bub",
-            "description": "Regenerate as Wolverine",
-            "icon": "afa8c820f6a4d3de803c1a4361199e4cbce7a28d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795461655,
-            "globalPct": 49.4
-          },
-          {
-            "apiName": "CREATE_A_CUSTOM_CHARACTER",
-            "name": "Cosplay",
-            "description": "Create a custom character",
-            "icon": "028cfc6b6d261334abe285b8032ee51451362501",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.2
-          },
-          {
-            "apiName": "GET_TRUEHERO_ALL_LEVELS",
-            "name": "Ultimate True Believer",
-            "description": "Unlock all True Believers (Single Player)",
-            "icon": "48c33dbb4084deaefa256370e2bb65224cc6524a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.3
-          },
-          {
-            "apiName": "COLLECT_HOWARD_THE_DUCK",
-            "name": "Really?",
-            "description": "Collect Howard the Duck (Single Player)",
-            "icon": "0ca94b61c6c0593481f0fc0f3e2e7ad11baadbb4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24
           }
         ]
       }
@@ -349150,7 +349150,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/b66315aa5525dd85951c029ce09dcab0a53c9270/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/66727e8249aae119400352d4b1d84928f924939c/library_header_2x.jpg",
       "achievements": {
-        "total": 311,
+        "total": 318,
         "unlocked": 0
       }
     },
@@ -352415,7 +352415,7 @@
     },
     {
       "appId": 429330,
-      "name": "Stikbold!",
+      "name": "Stikbold! A Dodgeball Adventure DELUXE",
       "playtimeHours": 0,
       "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/429330/cf4953278c13a71b6a14f8b38466af664d8ef4df.jpg",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/429330/header.jpg",
@@ -378897,7 +378897,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488200/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488200/library_header.jpg",
       "achievements": {
-        "total": 19,
+        "total": 37,
         "unlocked": 0
       }
     },
@@ -389512,7 +389512,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/87c8f6901c5fc151b8b9bbb452cfcc21aee211c8/header.jpg?t=1795502033",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/87c8f6901c5fc151b8b9bbb452cfcc21aee211c8/header.jpg?t=1795510915",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -389521,7 +389521,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -389561,7 +389561,7 @@
       "dateAdded": 1538501315,
       "priority": 392,
       "name": "Mega Man 11",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1787717265",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/library_600x900_2x.jpg"
     },
     {
@@ -389654,7 +389654,7 @@
       "dateAdded": 1605736966,
       "priority": 0,
       "name": "Occupy Mars: The Game",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/5e2f0eefa8e24969fe4d378ced4ecd819d259e0f/header.jpg?t=1795124508",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758690/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/47e3333e29936ffbe5f82b7fc13959a7cae34c90/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758690/cb3f48293ce1b1ba0f3ba1ce9f27413b833b6bf6/library_header_2x.jpg"
     },
@@ -389663,7 +389663,7 @@
       "dateAdded": 1541535283,
       "priority": 407,
       "name": "Kynseed",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/header.jpg?t=1784301962",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/2264f976adb24ef5ad0f6163cfd0288db8f7fd17/library_header_2x.jpg"
     },
@@ -389723,7 +389723,7 @@
       "dateAdded": 1770916000,
       "priority": 0,
       "name": "Last Man Sitting",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/f4b1c502ca199c254b21fc13b4f8cffeed8be28a/header.jpg?t=1792068178",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774291/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/803bf1ec7353a49fbe7dc1cb3e82a942a913c202/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774291/5c05281696891c8cb3df8395efa376f39f9f8c09/library_header_2x.jpg"
     },
@@ -389740,7 +389740,7 @@
       "dateAdded": 1628635493,
       "priority": 0,
       "name": "Surgeon Simulator 2",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/header.jpg?t=1773072257",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/774791/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774791/library_600x900_2x.jpg"
     },
     {
@@ -389756,7 +389756,7 @@
       "dateAdded": 1552579673,
       "priority": 418,
       "name": "Workers & Resources: Soviet Republic",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg?t=1795530249",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/library_header.jpg"
     },
@@ -391506,7 +391506,7 @@
       "dateAdded": 1594461422,
       "priority": 0,
       "name": "Horizon Zero Dawn™ Complete Edition",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg?t=1776465788",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/library_600x900_2x.jpg"
     },
     {
@@ -391522,7 +391522,7 @@
       "dateAdded": 1718473496,
       "priority": 0,
       "name": "JDM: Japanese Drift Master",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1153410/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/b6a27f79fd6d83e4644478946e9a9af92dc6e3b4/header_alt_assets_8.jpg?t=1795510428",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/46bf7ea0ae821de08933ad66e94458ac5bb7b1a2/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/016294c36d475a93fa656b8a99edf9a1e9ab8635/library_header_2x.jpg"
     },
@@ -391651,7 +391651,7 @@
       "dateAdded": 1661387873,
       "priority": 0,
       "name": "Necesse",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/4b2e7f5253b4595a523e5c8b27a8ea6214e14ac6/header_alt_assets_5.jpg?t=1795531087",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/f951103ede12401e1e1a1048d18113c68885bce6/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/9749f3d8e8f189a712bb784255f98327de72a283/library_header_2x.jpg"
     },
@@ -391669,7 +391669,7 @@
       "dateAdded": 1661368114,
       "priority": 0,
       "name": "Dune: Awakening",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172710/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/header.jpg?t=1793636917",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/a831468f7e9c5ff7cd83b154257947d1190a4138/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/library_header_2x.jpg"
     },
@@ -391854,7 +391854,7 @@
       "dateAdded": 1706037081,
       "priority": 0,
       "name": "Enshrouded",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/731368301f231d622bd0b1e34afd2afcd86a1dcf/header.jpg?t=1792078032",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/0f641453e3418029205a49c1960e5ae5cb1ce382/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/7463bf9e7ae568705788f0d8091a54bb9dfaa3fe/library_header_2x.jpg"
     },
@@ -391904,7 +391904,7 @@
       "dateAdded": 1771856174,
       "priority": 0,
       "name": "Blind Descent",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1209970/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/2a78b2ad9dbc443e4d8df15e49be792e64a01287/header.jpg?t=1795558080",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/8e4624dfb1dd6f870693bfb31ffac79852425e1d/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/d82d354f1bfee9c3dfbe4e379fe70cc160c21912/library_header_2x.jpg"
     },
@@ -395303,7 +395303,7 @@
       "dateAdded": 1675803342,
       "priority": 0,
       "name": "A Sister's Journey",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1730790/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/b34d8b71b0bb56b0856dbdf217de7ed6cc342445/header.jpg?t=1794037505",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/b34d8b71b0bb56b0856dbdf217de7ed6cc342445/library_header_2x.jpg"
     },
@@ -397010,7 +397010,7 @@
       "dateAdded": 1766058648,
       "priority": 0,
       "name": "NO LAW",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161710/6f386ecc7a0527b0c539b84eb5aa6f8f758e8c11/header.jpg?t=1787883186",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2161710/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161710/8bab9704cf68cbd5a0a511a32a44f0bf4041a124/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2161710/0cc54465e2eb2d9cec8606f4b9c090bc66e71e59/library_header_2x.jpg"
     },
@@ -400732,7 +400732,7 @@
       "dateAdded": 1772267812,
       "priority": 0,
       "name": "Planet of Lana II",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2997230/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/7712fdf6cd6531709c16920f8b20b6ee146ac9f8/header.jpg?t=1790232891",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/dddf44df737b40b79693b84a858a9c34535e2bc1/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/7712fdf6cd6531709c16920f8b20b6ee146ac9f8/library_header_2x.jpg"
     },
@@ -401423,7 +401423,7 @@
       "dateAdded": 1760570381,
       "priority": 0,
       "name": "Escape from Duckov 逃离鸭科夫",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3167020/header.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/header.jpg?t=1788419722",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/495690605e6e484c2200f8be245d070d88f2ecf3/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/dfc102ffaddb7a491fe8719f531f741fe5b53b57/library_header_2x.jpg"
     },
