@@ -522,12 +522,12 @@
     {
       "title": "South Park",
       "mediaType": "tv",
-      "status": "watched",
+      "status": "watching",
       "rating": "",
       "featured": true,
       "year": "1997",
       "seasons": 29,
-      "episodes": 336,
+      "episodes": 337,
       "episodesSeen": 336,
       "runtime": 22,
       "genres": [
@@ -569,7 +569,7 @@
         6,
         5,
         5,
-        5
+        6
       ],
       "watchedEpisodes": {
         "1": [
@@ -14732,7 +14732,7 @@
       "featured": false,
       "year": "2022",
       "seasons": 3,
-      "episodes": 22,
+      "episodes": 24,
       "episodesSeen": 0,
       "runtime": 74,
       "genres": [
@@ -14749,7 +14749,7 @@
       "seasonEpisodes": [
         8,
         8,
-        6
+        8
       ],
       "watchedEpisodes": {},
       "tmdbRating": 7.2,
