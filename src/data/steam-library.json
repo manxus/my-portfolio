@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-11-25T05:21:58.664Z",
+  "fetchedAt": "2026-11-27T04:51:07.173Z",
   "profile": {
     "steamId": "76561198063836659",
     "personaName": "Manxus",
     "avatarUrl": "https://avatars.steamstatic.com/f2ae06c1a578e40f3ebaa08c64d69c726a6026f0_full.jpg",
     "profileUrl": "https://steamcommunity.com/id/manxuss/",
-    "lastLogoff": 1795559333
+    "lastLogoff": 1795724078
   },
   "games": [
     {
@@ -202763,6 +202763,475 @@
       }
     },
     {
+      "appId": 249130,
+      "name": "LEGO® MARVEL Super Heroes",
+      "playtimeHours": 9.8,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/249130/8462ed9e1004624c7109233eafd7098211da9f86.jpg",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/header.jpg",
+      "genres": [],
+      "playerModes": [],
+      "hardwareSupport": [],
+      "releaseDate": null,
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/library_600x900_2x.jpg",
+      "libraryHeaderUrl": null,
+      "achievements": {
+        "total": 45,
+        "unlocked": 11,
+        "items": [
+          {
+            "apiName": "COMPLETE_STORYEVENT1",
+            "name": "Sand Central Station",
+            "description": "Complete Level 1 - Sand Central Station",
+            "icon": "0c296dd974a746858d90ec6e57777b70083c77a8",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795374779,
+            "globalPct": 78.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT2",
+            "name": "Times Square Off",
+            "description": "Complete Level 2 - Times Square Off",
+            "icon": "e5afea011cdb333cd8e1404168b34d23c3ed68f6",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795379062,
+            "globalPct": 65.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT3",
+            "name": "Exploratory Laboratory",
+            "description": "Complete Level 3 - Exploratory Laboratory",
+            "icon": "e330372929590e65ee7f5df25273d89e8ad99a43",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795382287,
+            "globalPct": 57.6
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT4",
+            "name": "Rock up at the Lock up",
+            "description": "Complete Level 4 - Rock up at the Lock up",
+            "icon": "ab2ccde2cc89f9d503312dc25a054d5f66d8a9f1",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795548823,
+            "globalPct": 50.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT5",
+            "name": "Rebooted, Resuited",
+            "description": "Complete Level 5 - Rebooted, Resuited",
+            "icon": "7509bbb25061487cdfc203026e4887b88830501a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795551765,
+            "globalPct": 47.8
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT6",
+            "name": "Red Head Detention",
+            "description": "Complete Level 6 - Red Head Detention",
+            "icon": "e2a4f0f50bc0a0514672f1b08dc1bb572f80d448",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795555899,
+            "globalPct": 44.4
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT7",
+            "name": "Bifrosty Reception",
+            "description": "Complete Level 7 - Bifrosty Reception",
+            "icon": "a5f9a21354040da96d0eaee95056a96e79610102",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795559141,
+            "globalPct": 42.5
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT8",
+            "name": "Juggernauts and Crosses",
+            "description": "Complete Level 8 - Juggernauts and Crosses",
+            "icon": "110a7f4b9b3435773d198e269243aca87551cdac",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795643064,
+            "globalPct": 40.2
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT9",
+            "name": "Doctor in the House",
+            "description": "Complete Level 9 - Doctor in the House",
+            "icon": "a8f78f9d61ae45908f7cf1ff333f51e6b007fbd2",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795723952,
+            "globalPct": 38.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT10",
+            "name": "That Sinking Feeling",
+            "description": "Complete Level 10 - That Sinking Feeling",
+            "icon": "d179cb36f9f1dcb76e4296b9f77c8c336115092a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.6
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT11",
+            "name": "Taking Liberties",
+            "description": "Complete Level 11 - Taking Liberties",
+            "icon": "5f39f986f764cafd040936b8bcb9defb2cd2ca3b",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 35.1
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT12",
+            "name": "Rapturous Rise",
+            "description": "Complete Level 12 - Rapturous Rise",
+            "icon": "e3abf4c873139e27563caeb7f198dfce198287fd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 33.9
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT13",
+            "name": "Magnetic Personality",
+            "description": "Complete Level 13 - Magnetic Personality",
+            "icon": "2406a2a33e6be55d675bf39ea257111bba7a9bd7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.9
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT14",
+            "name": "A Doom with a View",
+            "description": "Complete Level 14 - A Doom with a View",
+            "icon": "08ad607c7bf06ce820e7cd99fb14e409d7fe9dfe",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32
+          },
+          {
+            "apiName": "COMPLETE_STORYEVENT15",
+            "name": "The Good, the Bad and the Hungry",
+            "description": "Complete Level 15 - The Good, the Bad and the Hungry",
+            "icon": "2005dbdcd500d32df5d4c342d33f3f4e39f1bb7e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 31.2
+          },
+          {
+            "apiName": "COMPLETE_HELICARRIER_SKYDIVE",
+            "name": "Falling... with Style",
+            "description": "Complete first Helicarrier skydive",
+            "icon": "c517bb09085d69d212ce3c2aa8d8d0076080c96b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795375140,
+            "globalPct": 74.6
+          },
+          {
+            "apiName": "TEAM_CAPAMERICA_WITH_TORCH",
+            "name": "Don't I Know You?",
+            "description": "Team up Captain America with Human Torch (Co-op)",
+            "icon": "4fe9e9c2f85d0fac051f71f8c08a03b187212bef",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.8
+          },
+          {
+            "apiName": "RESCUE_ALL_CITIZENS_IN_PERIL",
+            "name": "Stan-tastic",
+            "description": "Rescue Stan Lee from every peril (Single Player)",
+            "icon": "d3fc577ed40e0be30e8f3d0f7f82380e9592dd78",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.5
+          },
+          {
+            "apiName": "DESTROY_X_HUB_VEHICLES",
+            "name": "Road Rage",
+            "description": "Destroy 100 vehicles in the Manhattan hub",
+            "icon": "76bca5828c27fc3d1ff5acfcb8e6589fa559d5e0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19.8
+          },
+          {
+            "apiName": "KILL_100_ENEMIES_AS_THING",
+            "name": "It's Clobberin' Time!",
+            "description": "Defeat 100 enemies as the Thing",
+            "icon": "b46839188ed4666bc217b8ff2dd863423508c554",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "HULK_UP_100_TIMES",
+            "name": "I'm Always Angry!",
+            "description": "Transform into the Hulk 50 times",
+            "icon": "691e0a25840b258a9a3b35971ac5a413aeedbd9d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.1
+          },
+          {
+            "apiName": "GET_BILLIONS",
+            "name": "Billionaire Philanthropist",
+            "description": "Collect 1,000,000,000 studs (Single Player)",
+            "icon": "a4b2ada17758ce520440aaed93a6597f0e6f2766",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.2
+          },
+          {
+            "apiName": "TURN_MRFANTASTIC_INTO_TEAPOT",
+            "name": "This Is fantastic!",
+            "description": "First time turning Mister Fantastic into a teapot",
+            "icon": "044a252a21611fd82fd03a4d7960ab981be1d291",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 61.2
+          },
+          {
+            "apiName": "GET_100_PERCENT",
+            "name": "You Win a No-Prize!",
+            "description": "Complete game 100% (Single Player)",
+            "icon": "b78ed96e4b36caaa1dd08016d3bcb275c7fdfb06",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.4
+          },
+          {
+            "apiName": "COLLECT_ALL_AVENGERS",
+            "name": "Avengers Assembled",
+            "description": "Collect all Avengers characters in the game (Single Player)",
+            "icon": "dafb4fabf89c7dace972a0d50731caa9f065d936",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.6
+          },
+          {
+            "apiName": "COLLECT_SINISTER_SIX",
+            "name": "Sinister Six",
+            "description": "Collect Doc Ock, Sandman, Mysterio, Kraven the Hunter, Electro and Vulture (Single Player)",
+            "icon": "9fe1b320ca4db8c345127f97096c267381fcb699",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.3
+          },
+          {
+            "apiName": "COLLECT_ALL_XMEN_GOODIES",
+            "name": "To Me, My X-Men",
+            "description": "Collect all traditionally heroic mutants (Single Player)",
+            "icon": "e55c1ecf03602f8ee1ea42ec2848e3140d2b492e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.5
+          },
+          {
+            "apiName": "COLLECT_ALL_XMEN_BADDIES",
+            "name": "Brotherhood",
+            "description": "Collect all traditionally evil mutants (Single Player)",
+            "icon": "85b58e2fccf2aaf75067ebc68e01cc0c3ff5a20e",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.1
+          },
+          {
+            "apiName": "COLLECT_ALL_IRONMAN_ARMOURS",
+            "name": "I Am Iron Man",
+            "description": "Collect all Iron Man armors (Single Player)",
+            "icon": "1a10c07b8249296e42fded03c2ce9263884dbc56",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 19
+          },
+          {
+            "apiName": "TURN_INTO_STAN_HULK",
+            "name": "Stan's Soapbox",
+            "description": "Turn into Stan Hulk",
+            "icon": "3333ef5d00de9ad670d6d2f7f7c6365efbe9f748",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "WATCH_CREDIT_BONUS_SCENE",
+            "name": "Post-Credit Party",
+            "description": "Complete House Party Protocol",
+            "icon": "afb6bc150bcd10060b90e374fccb71b88ce28f5d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.2
+          },
+          {
+            "apiName": "CREATE_TREVOR_CUSTOM_CHAR",
+            "name": "The Toast of Croydon",
+            "description": "Create a character called “Trevor” in the character customizer",
+            "icon": "0cb2cec4d93a8d1aea2948d322796fecb4a88070",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.5
+          },
+          {
+            "apiName": "PERFORM_HULK_SPECIALMOVE_ON_LOKI",
+            "name": "Puny God",
+            "description": "Perform Hulk's special move on Loki",
+            "icon": "be4280c042a983620b122ff88f1114822532fcfd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.3
+          },
+          {
+            "apiName": "PLAY_AS_AGENT_COULSON",
+            "name": "Welcome to Level 7",
+            "description": "Play as Agent Coulson",
+            "icon": "63d7d4c13cda43b8fc5d61020037f7341463eb9d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.9
+          },
+          {
+            "apiName": "READ_DEADPOOL_COMIC",
+            "name": "It's Me Time!",
+            "description": "Read a comic in Deadpool's room on the Helicarrier",
+            "icon": "c011bd836dd1c8563d35f8a41759e42036e5d35a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "UNLOCK_BLACK_CAT",
+            "name": "Bad Luck?",
+            "description": "Unlock Black Cat (Single Player)",
+            "icon": "7f1c4b9321ec0de22c9df9cf5e50ec6e7f08ed03",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 23.7
+          },
+          {
+            "apiName": "UNLOCK_ALL_ANIMAL_CHARS",
+            "name": "Zoo Believer",
+            "description": "Unlock all animal-themed characters (Single Player)",
+            "icon": "4f5147d790e0d3a46438298770bcf30eb0b88a80",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.5
+          },
+          {
+            "apiName": "UNLOCK_GUARDIANS_OF_GALAXY",
+            "name": "Guardians of the Galaxy",
+            "description": "Unlock all the Guardians of the Galaxy (Single Player)",
+            "icon": "9f9a86aebb35ba4892d722c704f1e41c0bf01369",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.5
+          },
+          {
+            "apiName": "PERFORM_COLOSSUS_THROW_ON_WOLVERINE",
+            "name": "Fastball Special",
+            "description": "Perform a special throwing move as Colossus on Wolverine",
+            "icon": "e8303d5f819757cdda3bf91757e7bcf0c65d0c8c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.6
+          },
+          {
+            "apiName": "DRIVE_TO_BAXTERBUILDING_IN_MAGNETOMOBILE",
+            "name": "Menace of Magneto",
+            "description": "Drive to the Baxter Building as Magneto in the Magneto Mobile",
+            "icon": "86d6150ab14ad0c7ec9a1fd6f230ba84215c3991",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.5
+          },
+          {
+            "apiName": "PERFORM_ALL_BIGFIG_TRANSFORMS",
+            "name": "Alter Ego",
+            "description": "Perform all big LEGO figure transformations",
+            "icon": "8ea8b3c6a69e3314c095c48b6de2b91e22014a85",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.3
+          },
+          {
+            "apiName": "REGENRATE_AS_WOLVERINE",
+            "name": "Can't Hurt Me Bub",
+            "description": "Regenerate as Wolverine",
+            "icon": "afa8c820f6a4d3de803c1a4361199e4cbce7a28d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795461655,
+            "globalPct": 49.4
+          },
+          {
+            "apiName": "CREATE_A_CUSTOM_CHARACTER",
+            "name": "Cosplay",
+            "description": "Create a custom character",
+            "icon": "028cfc6b6d261334abe285b8032ee51451362501",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.2
+          },
+          {
+            "apiName": "GET_TRUEHERO_ALL_LEVELS",
+            "name": "Ultimate True Believer",
+            "description": "Unlock all True Believers (Single Player)",
+            "icon": "48c33dbb4084deaefa256370e2bb65224cc6524a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.3
+          },
+          {
+            "apiName": "COLLECT_HOWARD_THE_DUCK",
+            "name": "Really?",
+            "description": "Collect Howard the Duck (Single Player)",
+            "icon": "0ca94b61c6c0593481f0fc0f3e2e7ad11baadbb4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24
+          }
+        ]
+      }
+    },
+    {
       "appId": 214420,
       "name": "Gear Up",
       "playtimeHours": 9.7,
@@ -221529,475 +221998,6 @@
             "unlocked": true,
             "unlockTime": 1499611101,
             "globalPct": 6.7
-          }
-        ]
-      }
-    },
-    {
-      "appId": 249130,
-      "name": "LEGO® MARVEL Super Heroes",
-      "playtimeHours": 6.9,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/249130/8462ed9e1004624c7109233eafd7098211da9f86.jpg",
-      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/249130/header.jpg",
-      "genres": [],
-      "playerModes": [],
-      "hardwareSupport": [],
-      "releaseDate": null,
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/249130/library_600x900_2x.jpg",
-      "libraryHeaderUrl": null,
-      "achievements": {
-        "total": 45,
-        "unlocked": 9,
-        "items": [
-          {
-            "apiName": "COMPLETE_STORYEVENT1",
-            "name": "Sand Central Station",
-            "description": "Complete Level 1 - Sand Central Station",
-            "icon": "0c296dd974a746858d90ec6e57777b70083c77a8",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795374779,
-            "globalPct": 78.8
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT2",
-            "name": "Times Square Off",
-            "description": "Complete Level 2 - Times Square Off",
-            "icon": "e5afea011cdb333cd8e1404168b34d23c3ed68f6",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795379062,
-            "globalPct": 65.1
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT3",
-            "name": "Exploratory Laboratory",
-            "description": "Complete Level 3 - Exploratory Laboratory",
-            "icon": "e330372929590e65ee7f5df25273d89e8ad99a43",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795382287,
-            "globalPct": 57.6
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT4",
-            "name": "Rock up at the Lock up",
-            "description": "Complete Level 4 - Rock up at the Lock up",
-            "icon": "ab2ccde2cc89f9d503312dc25a054d5f66d8a9f1",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795548823,
-            "globalPct": 50.8
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT5",
-            "name": "Rebooted, Resuited",
-            "description": "Complete Level 5 - Rebooted, Resuited",
-            "icon": "7509bbb25061487cdfc203026e4887b88830501a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795551765,
-            "globalPct": 47.8
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT6",
-            "name": "Red Head Detention",
-            "description": "Complete Level 6 - Red Head Detention",
-            "icon": "e2a4f0f50bc0a0514672f1b08dc1bb572f80d448",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795555899,
-            "globalPct": 44.4
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT7",
-            "name": "Bifrosty Reception",
-            "description": "Complete Level 7 - Bifrosty Reception",
-            "icon": "a5f9a21354040da96d0eaee95056a96e79610102",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795559141,
-            "globalPct": 42.5
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT8",
-            "name": "Juggernauts and Crosses",
-            "description": "Complete Level 8 - Juggernauts and Crosses",
-            "icon": "110a7f4b9b3435773d198e269243aca87551cdac",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 40.2
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT9",
-            "name": "Doctor in the House",
-            "description": "Complete Level 9 - Doctor in the House",
-            "icon": "a8f78f9d61ae45908f7cf1ff333f51e6b007fbd2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 38.1
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT10",
-            "name": "That Sinking Feeling",
-            "description": "Complete Level 10 - That Sinking Feeling",
-            "icon": "d179cb36f9f1dcb76e4296b9f77c8c336115092a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.6
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT11",
-            "name": "Taking Liberties",
-            "description": "Complete Level 11 - Taking Liberties",
-            "icon": "5f39f986f764cafd040936b8bcb9defb2cd2ca3b",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 35.1
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT12",
-            "name": "Rapturous Rise",
-            "description": "Complete Level 12 - Rapturous Rise",
-            "icon": "e3abf4c873139e27563caeb7f198dfce198287fd",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 33.9
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT13",
-            "name": "Magnetic Personality",
-            "description": "Complete Level 13 - Magnetic Personality",
-            "icon": "2406a2a33e6be55d675bf39ea257111bba7a9bd7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.9
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT14",
-            "name": "A Doom with a View",
-            "description": "Complete Level 14 - A Doom with a View",
-            "icon": "08ad607c7bf06ce820e7cd99fb14e409d7fe9dfe",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32
-          },
-          {
-            "apiName": "COMPLETE_STORYEVENT15",
-            "name": "The Good, the Bad and the Hungry",
-            "description": "Complete Level 15 - The Good, the Bad and the Hungry",
-            "icon": "2005dbdcd500d32df5d4c342d33f3f4e39f1bb7e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 31.2
-          },
-          {
-            "apiName": "COMPLETE_HELICARRIER_SKYDIVE",
-            "name": "Falling... with Style",
-            "description": "Complete first Helicarrier skydive",
-            "icon": "c517bb09085d69d212ce3c2aa8d8d0076080c96b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795375140,
-            "globalPct": 74.6
-          },
-          {
-            "apiName": "TEAM_CAPAMERICA_WITH_TORCH",
-            "name": "Don't I Know You?",
-            "description": "Team up Captain America with Human Torch (Co-op)",
-            "icon": "4fe9e9c2f85d0fac051f71f8c08a03b187212bef",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17.8
-          },
-          {
-            "apiName": "RESCUE_ALL_CITIZENS_IN_PERIL",
-            "name": "Stan-tastic",
-            "description": "Rescue Stan Lee from every peril (Single Player)",
-            "icon": "d3fc577ed40e0be30e8f3d0f7f82380e9592dd78",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.5
-          },
-          {
-            "apiName": "DESTROY_X_HUB_VEHICLES",
-            "name": "Road Rage",
-            "description": "Destroy 100 vehicles in the Manhattan hub",
-            "icon": "76bca5828c27fc3d1ff5acfcb8e6589fa559d5e0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 19.8
-          },
-          {
-            "apiName": "KILL_100_ENEMIES_AS_THING",
-            "name": "It's Clobberin' Time!",
-            "description": "Defeat 100 enemies as the Thing",
-            "icon": "b46839188ed4666bc217b8ff2dd863423508c554",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 25.2
-          },
-          {
-            "apiName": "HULK_UP_100_TIMES",
-            "name": "I'm Always Angry!",
-            "description": "Transform into the Hulk 50 times",
-            "icon": "691e0a25840b258a9a3b35971ac5a413aeedbd9d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.1
-          },
-          {
-            "apiName": "GET_BILLIONS",
-            "name": "Billionaire Philanthropist",
-            "description": "Collect 1,000,000,000 studs (Single Player)",
-            "icon": "a4b2ada17758ce520440aaed93a6597f0e6f2766",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.2
-          },
-          {
-            "apiName": "TURN_MRFANTASTIC_INTO_TEAPOT",
-            "name": "This Is fantastic!",
-            "description": "First time turning Mister Fantastic into a teapot",
-            "icon": "044a252a21611fd82fd03a4d7960ab981be1d291",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 61.2
-          },
-          {
-            "apiName": "GET_100_PERCENT",
-            "name": "You Win a No-Prize!",
-            "description": "Complete game 100% (Single Player)",
-            "icon": "b78ed96e4b36caaa1dd08016d3bcb275c7fdfb06",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.4
-          },
-          {
-            "apiName": "COLLECT_ALL_AVENGERS",
-            "name": "Avengers Assembled",
-            "description": "Collect all Avengers characters in the game (Single Player)",
-            "icon": "dafb4fabf89c7dace972a0d50731caa9f065d936",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.6
-          },
-          {
-            "apiName": "COLLECT_SINISTER_SIX",
-            "name": "Sinister Six",
-            "description": "Collect Doc Ock, Sandman, Mysterio, Kraven the Hunter, Electro and Vulture (Single Player)",
-            "icon": "9fe1b320ca4db8c345127f97096c267381fcb699",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.3
-          },
-          {
-            "apiName": "COLLECT_ALL_XMEN_GOODIES",
-            "name": "To Me, My X-Men",
-            "description": "Collect all traditionally heroic mutants (Single Player)",
-            "icon": "e55c1ecf03602f8ee1ea42ec2848e3140d2b492e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.5
-          },
-          {
-            "apiName": "COLLECT_ALL_XMEN_BADDIES",
-            "name": "Brotherhood",
-            "description": "Collect all traditionally evil mutants (Single Player)",
-            "icon": "85b58e2fccf2aaf75067ebc68e01cc0c3ff5a20e",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.1
-          },
-          {
-            "apiName": "COLLECT_ALL_IRONMAN_ARMOURS",
-            "name": "I Am Iron Man",
-            "description": "Collect all Iron Man armors (Single Player)",
-            "icon": "1a10c07b8249296e42fded03c2ce9263884dbc56",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 19
-          },
-          {
-            "apiName": "TURN_INTO_STAN_HULK",
-            "name": "Stan's Soapbox",
-            "description": "Turn into Stan Hulk",
-            "icon": "3333ef5d00de9ad670d6d2f7f7c6365efbe9f748",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.6
-          },
-          {
-            "apiName": "WATCH_CREDIT_BONUS_SCENE",
-            "name": "Post-Credit Party",
-            "description": "Complete House Party Protocol",
-            "icon": "afb6bc150bcd10060b90e374fccb71b88ce28f5d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.2
-          },
-          {
-            "apiName": "CREATE_TREVOR_CUSTOM_CHAR",
-            "name": "The Toast of Croydon",
-            "description": "Create a character called “Trevor” in the character customizer",
-            "icon": "0cb2cec4d93a8d1aea2948d322796fecb4a88070",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.5
-          },
-          {
-            "apiName": "PERFORM_HULK_SPECIALMOVE_ON_LOKI",
-            "name": "Puny God",
-            "description": "Perform Hulk's special move on Loki",
-            "icon": "be4280c042a983620b122ff88f1114822532fcfd",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.3
-          },
-          {
-            "apiName": "PLAY_AS_AGENT_COULSON",
-            "name": "Welcome to Level 7",
-            "description": "Play as Agent Coulson",
-            "icon": "63d7d4c13cda43b8fc5d61020037f7341463eb9d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.9
-          },
-          {
-            "apiName": "READ_DEADPOOL_COMIC",
-            "name": "It's Me Time!",
-            "description": "Read a comic in Deadpool's room on the Helicarrier",
-            "icon": "c011bd836dd1c8563d35f8a41759e42036e5d35a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.7
-          },
-          {
-            "apiName": "UNLOCK_BLACK_CAT",
-            "name": "Bad Luck?",
-            "description": "Unlock Black Cat (Single Player)",
-            "icon": "7f1c4b9321ec0de22c9df9cf5e50ec6e7f08ed03",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 23.7
-          },
-          {
-            "apiName": "UNLOCK_ALL_ANIMAL_CHARS",
-            "name": "Zoo Believer",
-            "description": "Unlock all animal-themed characters (Single Player)",
-            "icon": "4f5147d790e0d3a46438298770bcf30eb0b88a80",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.5
-          },
-          {
-            "apiName": "UNLOCK_GUARDIANS_OF_GALAXY",
-            "name": "Guardians of the Galaxy",
-            "description": "Unlock all the Guardians of the Galaxy (Single Player)",
-            "icon": "9f9a86aebb35ba4892d722c704f1e41c0bf01369",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.5
-          },
-          {
-            "apiName": "PERFORM_COLOSSUS_THROW_ON_WOLVERINE",
-            "name": "Fastball Special",
-            "description": "Perform a special throwing move as Colossus on Wolverine",
-            "icon": "e8303d5f819757cdda3bf91757e7bcf0c65d0c8c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.6
-          },
-          {
-            "apiName": "DRIVE_TO_BAXTERBUILDING_IN_MAGNETOMOBILE",
-            "name": "Menace of Magneto",
-            "description": "Drive to the Baxter Building as Magneto in the Magneto Mobile",
-            "icon": "86d6150ab14ad0c7ec9a1fd6f230ba84215c3991",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.5
-          },
-          {
-            "apiName": "PERFORM_ALL_BIGFIG_TRANSFORMS",
-            "name": "Alter Ego",
-            "description": "Perform all big LEGO figure transformations",
-            "icon": "8ea8b3c6a69e3314c095c48b6de2b91e22014a85",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.3
-          },
-          {
-            "apiName": "REGENRATE_AS_WOLVERINE",
-            "name": "Can't Hurt Me Bub",
-            "description": "Regenerate as Wolverine",
-            "icon": "afa8c820f6a4d3de803c1a4361199e4cbce7a28d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1795461655,
-            "globalPct": 49.4
-          },
-          {
-            "apiName": "CREATE_A_CUSTOM_CHARACTER",
-            "name": "Cosplay",
-            "description": "Create a custom character",
-            "icon": "028cfc6b6d261334abe285b8032ee51451362501",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.2
-          },
-          {
-            "apiName": "GET_TRUEHERO_ALL_LEVELS",
-            "name": "Ultimate True Believer",
-            "description": "Unlock all True Believers (Single Player)",
-            "icon": "48c33dbb4084deaefa256370e2bb65224cc6524a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.3
-          },
-          {
-            "apiName": "COLLECT_HOWARD_THE_DUCK",
-            "name": "Really?",
-            "description": "Collect Howard the Duck (Single Player)",
-            "icon": "0ca94b61c6c0593481f0fc0f3e2e7ad11baadbb4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24
           }
         ]
       }
@@ -268543,6 +268543,1023 @@
       }
     },
     {
+      "appId": 2766910,
+      "name": "PengPong",
+      "playtimeHours": 3.3,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2766910/10d6718b87ebc4212b195a4d63f1dee74ea0c9f0.jpg",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/8f95b9be5cb5fa43ca802c35045eab30057533d5/header.jpg?t=1794386513",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "playerModes": [
+        "Single-player"
+      ],
+      "hardwareSupport": [
+        "Full controller support"
+      ],
+      "releaseDate": "Aug 20, 2026",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/cae46f7fb28752c42102b47cd33fbced3b49d723/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/8f95b9be5cb5fa43ca802c35045eab30057533d5/library_header_2x.jpg",
+      "achievements": {
+        "total": 99,
+        "unlocked": 32,
+        "items": [
+          {
+            "apiName": "ACH_REROLL_7",
+            "name": "Next Item, Please",
+            "description": "You rerolled 7 or more times in a single run. Couldn't find anything you liked?",
+            "icon": "9eec92cc948d3ce643e98d270c1279405d4fba1a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794621822,
+            "globalPct": 51.9
+          },
+          {
+            "apiName": "ACH_SKIP_10",
+            "name": "Not My Taste",
+            "description": "You have skipped items 10 times in total.",
+            "icon": "ac337dc288000607dacc42a78a4afcde9ef5e515",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.7
+          },
+          {
+            "apiName": "ACH_DODGE_50",
+            "name": "Fifty-Fifty",
+            "description": "Your evasion chance has reached 50%.",
+            "icon": "b8ea1d86c7122d5a63f375448be92a98277c4e1d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795703270,
+            "globalPct": 41.8
+          },
+          {
+            "apiName": "ACH_MYSTERY_20",
+            "name": "Enter the Unknown",
+            "description": "You have entered the mystery room 20 times. Curiosity got the better of you!",
+            "icon": "272b0656e5f0e774fdcb51c0db730ca18bd75baf",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 46.8
+          },
+          {
+            "apiName": "ACH_DIAGONAL_HIT",
+            "name": "The Moment We Waited For",
+            "description": "Were you really waiting for that diagonal hit?",
+            "icon": "c3c2e8954cd7712ad11ee17ee9100f06c5cab99d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.9
+          },
+          {
+            "apiName": "ACH_JACKPOT",
+            "name": "Jackshot Roulette",
+            "description": "You hit the jackpot at the gambling room. Beginner's luck is truly something else.",
+            "icon": "d34ee80196e2e1c215eaa2b933f70fd758581814",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.6
+          },
+          {
+            "apiName": "ACH_ZERO_MAXHP_CLEAR",
+            "name": "Not Even Half-Life",
+            "description": "You've cleared a level with 0 maximum health. (Any stage/difficulty)",
+            "icon": "18de30d88d00f819b9450e6218e3d0724860284c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.9
+          },
+          {
+            "apiName": "ACH_DEVIL_SHOP",
+            "name": "Have a Nice Deal",
+            "description": "You purchased an item using HP at the devil's shop. Are you sure it was worth it?",
+            "icon": "5783f1cfdd82db0ceaffbe5798205ff80e3aa483",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794618885,
+            "globalPct": 65.7
+          },
+          {
+            "apiName": "ACH_CONQUEROR_1",
+            "name": "Conqueror I",
+            "description": "You've defeated 500 monsters. Congratulations.",
+            "icon": "1950629b17b1785c008877cf3ceab168552ef92d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794616600,
+            "globalPct": 91.6
+          },
+          {
+            "apiName": "ACH_CONQUEROR_2",
+            "name": "Conqueror II",
+            "description": "You've defeated 1,000 monsters. Congratulations.",
+            "icon": "8fa64ffa0874a2bb72c548b0ba71f1e6e6f0eed9",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794616899,
+            "globalPct": 88.5
+          },
+          {
+            "apiName": "ACH_CONQUEROR_3",
+            "name": "Conqueror III",
+            "description": "You've defeated 5,000 monsters. Congratulations.",
+            "icon": "4a055053102cc346c2d9134f948c11c5e3064bd7",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794621172,
+            "globalPct": 68.6
+          },
+          {
+            "apiName": "ACH_CONQUEROR_4",
+            "name": "Conqueror IV",
+            "description": "You've defeated 20,000 monsters. Congratulations.",
+            "icon": "bffdce27c36b297ed5c7645f5551c285861d0f66",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 35.8
+          },
+          {
+            "apiName": "ACH_CONQUEROR_5",
+            "name": "Conqueror V",
+            "description": "You've defeated 50,000 monsters. Congratulations.",
+            "icon": "5526ea4ede335c3a374624ea242d71e65d0ba8f3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.9
+          },
+          {
+            "apiName": "ACH_VETERAN_1",
+            "name": "Veteran I",
+            "description": "You've leveled up 10 times. Well done!",
+            "icon": "82e708708d6a018b376b0cf5df5fb6ae487ecc76",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794616600,
+            "globalPct": 96.8
+          },
+          {
+            "apiName": "ACH_VETERAN_2",
+            "name": "Veteran II",
+            "description": "You've leveled up 30 times. Well done!",
+            "icon": "f9cf196bac40f56ba85a2c4fa70fcaa00dc98547",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794618271,
+            "globalPct": 88.2
+          },
+          {
+            "apiName": "ACH_VETERAN_3",
+            "name": "Veteran III",
+            "description": "You've leveled up 100 times. Well done!",
+            "icon": "dcaa10cf5ceff9b7cfb6f7f04fe4965cc825b065",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794622148,
+            "globalPct": 65.5
+          },
+          {
+            "apiName": "ACH_VETERAN_4",
+            "name": "Veteran IV",
+            "description": "You've leveled up 300 times. Well done!",
+            "icon": "48e005b8a9c5434554a83f2453144be46709c3f5",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.4
+          },
+          {
+            "apiName": "ACH_VETERAN_5",
+            "name": "Veteran V",
+            "description": "You've leveled up 500 times. Well done!",
+            "icon": "c38c55fbcec5afbd81894a7394e70f4b8cf3ccfc",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.1
+          },
+          {
+            "apiName": "ACH_RUNNER_1",
+            "name": "Runner I",
+            "description": "You've completed 1 run. Great job!",
+            "icon": "556a9c90902eae73a5cd756a57bfbac9d40c832b",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794616899,
+            "globalPct": 95.1
+          },
+          {
+            "apiName": "ACH_RUNNER_2",
+            "name": "Runner II",
+            "description": "You've completed 5 runs. Great job!",
+            "icon": "0b4135c8c32cb3439ff5c0191ca1ee03b2eac45a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 54.1
+          },
+          {
+            "apiName": "ACH_RUNNER_3",
+            "name": "Runner III",
+            "description": "You've completed 10 runs. Great job!",
+            "icon": "5fdf12850eeb6f2a491f1d02520adfc31b5c4b85",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.9
+          },
+          {
+            "apiName": "ACH_RUNNER_4",
+            "name": "Runner IV",
+            "description": "You've completed 25 runs. Great job!",
+            "icon": "7d666cc20ea5b51c79e90bf6dd5272a38b8eac3f",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 3.8
+          },
+          {
+            "apiName": "ACH_RUNNER_5",
+            "name": "Runner V",
+            "description": "You've completed 50 runs. Great job!",
+            "icon": "57729c1ee4991799beed8ccb37d2a4c315bf0982",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.4
+          },
+          {
+            "apiName": "ACH_LOCKSMITH_1",
+            "name": "Locksmith I",
+            "description": "You've opened 10 chests. What was inside?",
+            "icon": "4210308f4aaa4c3d626a996d3595b2aeb5a1a966",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794618271,
+            "globalPct": 86.2
+          },
+          {
+            "apiName": "ACH_LOCKSMITH_2",
+            "name": "Locksmith II",
+            "description": "You've opened 30 chests. What was inside?",
+            "icon": "104b4034f87aee518dd87bdf68c0411da5629515",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794620793,
+            "globalPct": 70.3
+          },
+          {
+            "apiName": "ACH_LOCKSMITH_3",
+            "name": "Locksmith III",
+            "description": "You've opened 50 chests. What was inside?",
+            "icon": "fb2c0e82579c9d7d557e3e46e35d145f84097c42",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795700693,
+            "globalPct": 59.1
+          },
+          {
+            "apiName": "ACH_LOCKSMITH_4",
+            "name": "Locksmith IV",
+            "description": "You've opened 100 chests. What was inside?",
+            "icon": "48bc50e277ec27de31976a0217d798207e8b47d1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 39.7
+          },
+          {
+            "apiName": "ACH_LOCKSMITH_5",
+            "name": "Locksmith V",
+            "description": "You've opened 300 chests. What was inside?",
+            "icon": "1625423d37c3cdf3fb0b71d3401658696904a0d7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.3
+          },
+          {
+            "apiName": "ACH_SPECIALIST_1",
+            "name": "Specialist I",
+            "description": "You've successfully completed 5 contracts. Leave anything to me!",
+            "icon": "d6992b66a2bd8fc122dc1a99e8e189a091bf6daf",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794618271,
+            "globalPct": 77.1
+          },
+          {
+            "apiName": "ACH_SPECIALIST_2",
+            "name": "Specialist II",
+            "description": "You've successfully completed 10 contracts. Leave anything to me!",
+            "icon": "b2f425a95a41461003a66da213a81eb9575edc50",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794621172,
+            "globalPct": 61.4
+          },
+          {
+            "apiName": "ACH_SPECIALIST_3",
+            "name": "Specialist III",
+            "description": "You've successfully completed 25 contracts. Leave anything to me!",
+            "icon": "c3b921b3f65f6bd862adc867d61d4eb1ae82bf29",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.8
+          },
+          {
+            "apiName": "ACH_SPECIALIST_4",
+            "name": "Specialist IV",
+            "description": "You've successfully completed 50 contracts. Leave anything to me!",
+            "icon": "02a5b7d137ddf13cd272547744b674e7c7394519",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.7
+          },
+          {
+            "apiName": "ACH_SPECIALIST_5",
+            "name": "Specialist V",
+            "description": "You've successfully completed 100 contracts. Leave anything to me!",
+            "icon": "e66d73ffda79644c4fadce617c056f484e550910",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2
+          },
+          {
+            "apiName": "ACH_DEVIL_MAY_HEART_1",
+            "name": "Devil May Heart I",
+            "description": "You've offered more than 10 Hearts to the devil at the Devil's Shop.",
+            "icon": "02ad52f30799a562c66917c2dd22eb493ea480a4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 41.5
+          },
+          {
+            "apiName": "ACH_DEVIL_MAY_HEART_2",
+            "name": "Devil May Heart II",
+            "description": "You've offered more than 20 Hearts to the devil at the Devil's Shop.",
+            "icon": "fa93acfedbbc1e0ca50e2e560410d1a4897fadcb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 24.7
+          },
+          {
+            "apiName": "ACH_DEVIL_MAY_HEART_3",
+            "name": "Devil May Heart III",
+            "description": "You've offered more than 30 Hearts to the devil at the Devil's Shop.",
+            "icon": "9b2880f6c0453e871e4ccca5cbf73dabd91f4c07",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.8
+          },
+          {
+            "apiName": "ACH_DEVIL_MAY_HEART_4",
+            "name": "Devil May Heart IV",
+            "description": "You've offered more than 50 Hearts to the devil at the Devil's Shop.",
+            "icon": "ee79e171b5b5366a15424a3a3adf526f398c1e7d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.4
+          },
+          {
+            "apiName": "ACH_DEVIL_MAY_HEART_5",
+            "name": "Devil May Heart V",
+            "description": "You've offered more than 100 Hearts to the devil at the Devil's Shop.",
+            "icon": "358fe091d69180de81e123dac764c89583dd32e5",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 1.7
+          },
+          {
+            "apiName": "ACH_VAST_UNIVERSE_1",
+            "name": "Vast Universe Trainee Cleaner",
+            "description": "You've cleared Level 1 of the Vast Universe stage. Congratulations!",
+            "icon": "5f94812c6bf9e6b77b117b6224028147a2c8453c",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794615342,
+            "globalPct": 95.6
+          },
+          {
+            "apiName": "ACH_VAST_UNIVERSE_2",
+            "name": "Vast Universe Skilled Cleaner",
+            "description": "You've cleared Level 5 or higher of the Vast Universe stage. Perfect!",
+            "icon": "80561ce4107f9237525f91b1090c95e6ebc3e954",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 26.6
+          },
+          {
+            "apiName": "ACH_NIGHT_THRILL_PARK_1",
+            "name": "Night Thrill Park Trainee Cleaner",
+            "description": "You've cleared Level 1 of the Night Thrill Park stage. Congratulations!",
+            "icon": "5048f856c596360ecb26bde9f780ce31f10ab247",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794619742,
+            "globalPct": 74.9
+          },
+          {
+            "apiName": "ACH_NIGHT_THRILL_PARK_2",
+            "name": "Night Thrill Park Skilled Cleaner",
+            "description": "You've cleared Level 5 or higher of the Night Thrill Park stage. Perfect!",
+            "icon": "ec49dba6619aaea5cb2c7c8af7b57410299d4e87",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.1
+          },
+          {
+            "apiName": "ACH_MISCHIEVOUS_ATTIC_1",
+            "name": "Mischievous Attic Trainee Cleaner",
+            "description": "You've cleared Level 1 of the Mischievous Attic stage. Congratulations!",
+            "icon": "9eec0a9797e88e8b66958279a59427475ebbc6ad",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794622148,
+            "globalPct": 58.1
+          },
+          {
+            "apiName": "ACH_MISCHIEVOUS_ATTIC_2",
+            "name": "Mischievous Attic Skilled Cleaner",
+            "description": "You've cleared Level 5 or higher of the Mischievous Attic stage. Perfect!",
+            "icon": "5c5d93e158b6cb3722413720c5a75d08472fadc1",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.1
+          },
+          {
+            "apiName": "ACH_PENGUIN_JOURNEY_1",
+            "name": "The Penguin's Journey",
+            "description": "You've cleared a stage as Peng.",
+            "icon": "a0ea9a3fe3609949edb410374da664fe03d05fef",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794616899,
+            "globalPct": 92.3
+          },
+          {
+            "apiName": "ACH_PENGUIN_JOURNEY_2",
+            "name": "The Penguin's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Peng.",
+            "icon": "3d1ed51ba6784b54cceda66cd07625eb7cb36a0c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 12.9
+          },
+          {
+            "apiName": "ACH_CROCODILE_JOURNEY_1",
+            "name": "The Crocodile's Journey",
+            "description": "You've cleared a stage as Croco.",
+            "icon": "c34bd6837924762ce2d383ada6012da76e34ec9e",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794619742,
+            "globalPct": 60.9
+          },
+          {
+            "apiName": "ACH_CROCODILE_JOURNEY_2",
+            "name": "The Crocodile's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Croco.",
+            "icon": "bb8eba600735db5f4be29897adf4575176f0efe5",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13
+          },
+          {
+            "apiName": "ACH_WALRUS_JOURNEY_1",
+            "name": "The Walrus's Journey",
+            "description": "You've cleared a stage as Wal.",
+            "icon": "33e2e23917153885da44de0252f0e939ad5312b6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 18.8
+          },
+          {
+            "apiName": "ACH_WALRUS_JOURNEY_2",
+            "name": "The Walrus's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Wal.",
+            "icon": "9385a0e224b76da03e5d4f55ba8c6cfdc0f3cc88",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.2
+          },
+          {
+            "apiName": "ACH_POLAR_BEAR_JOURNEY_1",
+            "name": "The Polar Bear's Journey",
+            "description": "You've cleared a stage as Pola.",
+            "icon": "7de7cc1f482f4cccfe859071135143b15a9037e4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 30.6
+          },
+          {
+            "apiName": "ACH_POLAR_BEAR_JOURNEY_2",
+            "name": "The Polar Bear's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Pola.",
+            "icon": "01421b69165bdc977cb6d710486c83497b5ae6d7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.5
+          },
+          {
+            "apiName": "ACH_SEA_OTTER_JOURNEY_1",
+            "name": "The Sea Otter's Journey",
+            "description": "You've cleared a stage as Otter.",
+            "icon": "cd383fb1c1ef4e922206ae3e5172683ffec0702d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795702690,
+            "globalPct": 45.8
+          },
+          {
+            "apiName": "ACH_SEA_OTTER_JOURNEY_2",
+            "name": "The Sea Otter's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Otter.",
+            "icon": "b4a94b26a7bc92ef4a07f9ab946535682558ef16",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.2
+          },
+          {
+            "apiName": "ACH_MOOSE_JOURNEY_1",
+            "name": "The Moose's Journey",
+            "description": "You've cleared a stage as Mosi.",
+            "icon": "f98464ec26d8318c6b33ac6a5b65eb9a82785852",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 17.3
+          },
+          {
+            "apiName": "ACH_MOOSE_JOURNEY_2",
+            "name": "The Moose's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Mosi.",
+            "icon": "a6e217e22c24f9e347c4e07846bb651042a8529d",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.9
+          },
+          {
+            "apiName": "ACH_TURTLE_JOURNEY_1",
+            "name": "The Turtle's Journey",
+            "description": "You've cleared a stage as Tleto.",
+            "icon": "694a4bcff2bff6e0ee8a433a58ad218fdc202678",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 15.3
+          },
+          {
+            "apiName": "ACH_TURTLE_JOURNEY_2",
+            "name": "The Turtle's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Tleto.",
+            "icon": "90f9b3ad8f3ebd26b8709f9d7afd070b65fae737",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "ACH_PLATYPUS_JOURNEY_1",
+            "name": "The Platypus's Journey",
+            "description": "You've cleared a stage as Platy.",
+            "icon": "a640a726bfe345c54cc3224099ce6e9b23f89860",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 20.5
+          },
+          {
+            "apiName": "ACH_PLATYPUS_JOURNEY_2",
+            "name": "The Platypus's Great Journey",
+            "description": "You've cleared a stage at Level 5 or higher as Platy.",
+            "icon": "e809159d4a223a2f39b16267a5cd00920acac0dd",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.2
+          },
+          {
+            "apiName": "ACH_HOCKEY_PUCK_AMATEUR",
+            "name": "Hockey Puck Amateur",
+            "description": "You've cleared a stage using POWER PLAYER PUCK-12.",
+            "icon": "59358f42300e8412c0f14ef79c9a2f3e7b3d250a",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794619742,
+            "globalPct": 86
+          },
+          {
+            "apiName": "ACH_HOCKEY_PUCK_PRO",
+            "name": "Hockey Puck Pro",
+            "description": "You've cleared a stage at Level 5 or higher using POWER PLAYER PUCK-12.",
+            "icon": "39719fc1a63595a0e57ce8214867b773d2271dcc",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 13.6
+          },
+          {
+            "apiName": "ACH_REVOLVER_AMATEUR",
+            "name": "Revolver Amateur",
+            "description": "You've cleared a stage using RECOIL JONES.",
+            "icon": "84a865b41d5e2987fb3182ba4beff183fc32b6ba",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794622149,
+            "globalPct": 64.4
+          },
+          {
+            "apiName": "ACH_REVOLVER_PRO",
+            "name": "Revolver Pro",
+            "description": "You've cleared a stage at Level 5 or higher using RECOIL JONES.",
+            "icon": "43f2325b9e630d0aa56ca5d582b90347e88ea4f4",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 14.2
+          },
+          {
+            "apiName": "ACH_DAGGER_AMATEUR",
+            "name": "Dagger Amateur",
+            "description": "You've cleared a stage using SNAP-EDGE ALPHA.",
+            "icon": "993b7f5783daa1c347c05949af1f93f3e5ea0965",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.1
+          },
+          {
+            "apiName": "ACH_DAGGER_PRO",
+            "name": "Dagger Pro",
+            "description": "You've cleared a stage at Level 5 or higher using SNAP-EDGE ALPHA.",
+            "icon": "ba07785c79300308d7ea3c8a6107bf0096c22983",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.9
+          },
+          {
+            "apiName": "ACH_FUGU_CHEF_AMATEUR",
+            "name": "Amateur Fugu Chef",
+            "description": "You've cleared a stage using BLOW QUISH.",
+            "icon": "4898833fadea7ef1404216125cbd76ce71192e3d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794616899,
+            "globalPct": 59.9
+          },
+          {
+            "apiName": "ACH_FUGU_CHEF_PRO",
+            "name": "Pro Fugu Chef",
+            "description": "You've cleared a stage at Level 5 or higher using BLOW QUISH.",
+            "icon": "58629f1bdc2a070dada4320fbe536999b56bace2",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.8
+          },
+          {
+            "apiName": "ACH_SPELL_BOOK_AMATEUR",
+            "name": "Spellbook Amateur",
+            "description": "You've cleared a stage using Understanding Magic 101.",
+            "icon": "b65a39fda5dafdc24ba3a1c0fb3c5f87294efa98",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 41.9
+          },
+          {
+            "apiName": "ACH_SPELL_BOOK_PRO",
+            "name": "Spellbook Pro",
+            "description": "You've cleared a stage at Level 5 or higher using Understanding Magic 101.",
+            "icon": "bd79a17860830f221b8eab11016b22ba9ea2e71a",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 11.2
+          },
+          {
+            "apiName": "ACH_CHERRY_BOMB_AMATEUR",
+            "name": "Cherry Bomb Amateur",
+            "description": "You've cleared a stage using Cherry Boom Deluxe.",
+            "icon": "8d110b62a8ce770286bf9da862cb6c800b431406",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795702690,
+            "globalPct": 36.1
+          },
+          {
+            "apiName": "ACH_CHERRY_BOMB_PRO",
+            "name": "Cherry Bomb Pro",
+            "description": "You've cleared a stage at Level 5 or higher using Cherry Boom Deluxe.",
+            "icon": "9efd49685e8a308b157defeb2b30eba849230bfb",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.6
+          },
+          {
+            "apiName": "ACH_PAINT_BUCKET_AMATEUR",
+            "name": "Paint Bucket Amateur",
+            "description": "You've cleared a stage using ChromaTone-Matte.",
+            "icon": "4a40b1fb35b575e2dd0bffc912decd69d4bf8cf6",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 22.3
+          },
+          {
+            "apiName": "ACH_PAINT_BUCKET_PRO",
+            "name": "Paint Bucket Pro",
+            "description": "You've cleared a stage at Level 5 or higher using ChromaTone-Matte.",
+            "icon": "9e00724ae5b12adeeb6915b22b8fe5b281e03121",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 10.8
+          },
+          {
+            "apiName": "ACH_HEADSET_AMATEUR",
+            "name": "Headset Amateur",
+            "description": "You've cleared a stage using Howlin’ Hi-Fi-66.",
+            "icon": "c3ae0fceeea29d9d86691b1fa2298405abd60ca0",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 32.5
+          },
+          {
+            "apiName": "ACH_HEADSET_PRO",
+            "name": "Headset Pro",
+            "description": "You've cleared a stage at Level 5 or higher using Howlin’ Hi-Fi-66.",
+            "icon": "d3b85eb15341972fe981ae55006e980a613193b7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 8.9
+          },
+          {
+            "apiName": "ACH_HYPER_CAPACITY",
+            "name": "Hyper Capacity",
+            "description": "You've experienced Hyper Capacity for the first time.",
+            "icon": "5c2ed519a85dfd4cb745c65012775e57fcd46571",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794615798,
+            "globalPct": 97.8
+          },
+          {
+            "apiName": "ACH_FIRST_DECEASED",
+            "name": "The First Deceased",
+            "description": "You've died for the first time.",
+            "icon": "f19e7e23f2122d91eecd3f4317f108e6e950869d",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794618271,
+            "globalPct": 87.1
+          },
+          {
+            "apiName": "ACH_PENGTAGON",
+            "name": "The Pengtagon",
+            "description": "You've unlocked 5 characters.",
+            "icon": "97bf109c1a9edfa0eeed2fb75a4060da27f073a7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 42.4
+          },
+          {
+            "apiName": "ACH_WEAPONTAGON",
+            "name": "The Weapontagon",
+            "description": "You've unlocked 5 weapons.",
+            "icon": "0080124c86821f879e9364db59d83bd6da22bc62",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794621172,
+            "globalPct": 69.1
+          },
+          {
+            "apiName": "ACH_FINAL_FORM",
+            "name": "This Is My Final Form",
+            "description": "You've maxed out an upgrade.",
+            "icon": "7d1b610b2a2d920114a1c349e789e3301a4c87ba",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 52.2
+          },
+          {
+            "apiName": "ACH_PENGUIN_REPLACED",
+            "name": "The Penguin Was Replaced",
+            "description": "You remained stationary for 10 seconds during combat on Wave 10 or later. (Any stage/difficulty)",
+            "icon": "9d98191ec7e47b83e40599831aa2d310dbb168ae",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 36.4
+          },
+          {
+            "apiName": "ACH_ANIMAL_SPIRITS",
+            "name": "Animal Spirits",
+            "description": "You've survived 3 waves with 1 or less combined health.",
+            "icon": "8bb0dc4c4fb85c4f3fb877e97e4a4ba5d0a2d684",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 9.5
+          },
+          {
+            "apiName": "ACH_TEN_LIVES",
+            "name": "Ten Lives",
+            "description": "You've reached 10 maximum health.",
+            "icon": "c1d79e615f5a4901245f24016002b180f73127bf",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 40.2
+          },
+          {
+            "apiName": "ACH_CRITICAL_JUICE",
+            "name": "100% Critical Juice",
+            "description": "You've reached a 100% critical hit chance.",
+            "icon": "b043c2d28f637d50be9779d4dbbe6a4a8ccfbbff",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794619622,
+            "globalPct": 41.3
+          },
+          {
+            "apiName": "ACH_NEED_MORE_SPEED",
+            "name": "Need for More Speed",
+            "description": "You've reached 60% bonus movement speed.",
+            "icon": "f42dae70820196bd8a1b1c7712737e4612600ea8",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 53.5
+          },
+          {
+            "apiName": "ACH_ONE_SHOT",
+            "name": "OneShot",
+            "description": "You've reduced your maximum health to 1 without having any Glass Hearts.",
+            "icon": "4449d9e7087896572b1b6c25159296469f35d934",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 7.8
+          },
+          {
+            "apiName": "ACH_MAGICIAN",
+            "name": "Magician",
+            "description": "Both items from the Four-Dimensional Pocket were Legendary. What kind of magic did you use?",
+            "icon": "653f5e695967408284c5b15e19846d64866ee816",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 2.4
+          },
+          {
+            "apiName": "ACH_EXPEDITION_PENGUIN",
+            "name": "Expedition Penguin",
+            "description": "You've obtained the French Mime costume. Tomorrow Comes!",
+            "icon": "45fa8e7d8218335e60fcac1938c60d1b5caa5939",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 25.2
+          },
+          {
+            "apiName": "ACH_USUAL_SUSPECTS",
+            "name": "The Usual Suspects",
+            "description": "You've obtained 2 Suspicious Items in a single run.",
+            "icon": "ae6a2c64d43ed96f560bde9c11fe2eebc67fdf3c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.2
+          },
+          {
+            "apiName": "ACH_ELITE_HUNTER",
+            "name": "Elite Hunter",
+            "description": "You've encountered a total of 3 Elite Monsters in a single run. I never back down from a fight!",
+            "icon": "d8687be01aa73e3c3d6d788dd3aabf5fb7a88070",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794616600,
+            "globalPct": 40.9
+          },
+          {
+            "apiName": "ACH_MARATHON",
+            "name": "Marathon",
+            "description": "You've reached Wave 44 in Endless Mode. You can't go any further. Probably?",
+            "icon": "4486ae3cb8bb763b38e157859de8a8d895a31d15",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1795703308,
+            "globalPct": 46.8
+          },
+          {
+            "apiName": "ACH_BUYING_A_ROUND",
+            "name": "Buying a Round",
+            "description": "You've obtained every existing item at least once. The mole is finally free from his job.",
+            "icon": "eef8747e25c57fc6a8d35e3c3eec6576a8666969",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 0.4
+          },
+          {
+            "apiName": "ACH_PENNY_BLOOD",
+            "name": "Penny Blood",
+            "description": "During the blood donation event in an Unknown Room, your blood was valued at just 1 Chip. What a rip-off!",
+            "icon": "5d2a6196e557d90bb89e6790004e1c651f61fae7",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 39.1
+          },
+          {
+            "apiName": "ACH_WHERE_DID_MY_COINS_GO",
+            "name": "Where Did My Chips Go?",
+            "description": "You lost all your Chips at once on the roulette wheel in the Gambling Room. It always ends with you going broke.",
+            "icon": "7bbd2a688ef8be754bec3c092bfc7c8ce0b7bb18",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 22.9
+          },
+          {
+            "apiName": "ACH_BREAKING_FATE",
+            "name": "Breaking Fate",
+            "description": "You destroyed the roulette machine by striking it in the Gambling Room.",
+            "icon": "59f5d23724630830ba05d26eda885a34af05f15c",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 16.9
+          },
+          {
+            "apiName": "ACH_SLAY_THE_MOLE",
+            "name": "Slay the Mole",
+            "description": "You defeated the mole in the Devil's Shop. So who's the devil now?",
+            "icon": "3407b3a221dafb8405b236556a17a44ed8371415",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 4
+          },
+          {
+            "apiName": "ACH_TEN_SECONDS_TILL_BOSSLESS",
+            "name": "Ten Seconds Till Bossless",
+            "description": "You've defeated a boss monster within 10 seconds. (Any stage/difficulty)",
+            "icon": "2504846d3c760740d342767cb3d0944841b06436",
+            "hidden": false,
+            "unlocked": true,
+            "unlockTime": 1794619031,
+            "globalPct": 40.8
+          },
+          {
+            "apiName": "ACH_UNTOUCHABLE",
+            "name": "Untouchable",
+            "description": "You've cleared the game without taking any damage from monsters. (Any stage/difficulty)",
+            "icon": "8fce5e4b76e7f602cc49d17e2cc105d8347093a3",
+            "hidden": false,
+            "unlocked": false,
+            "unlockTime": 0,
+            "globalPct": 6.2
+          }
+        ]
+      }
+    },
+    {
       "appId": 1708520,
       "name": "F1® Manager 2022",
       "playtimeHours": 3.3,
@@ -281076,1023 +282093,6 @@
             "unlocked": true,
             "unlockTime": 1649269174,
             "globalPct": 65
-          }
-        ]
-      }
-    },
-    {
-      "appId": 2766910,
-      "name": "PengPong",
-      "playtimeHours": 2.3,
-      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2766910/10d6718b87ebc4212b195a4d63f1dee74ea0c9f0.jpg",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/8f95b9be5cb5fa43ca802c35045eab30057533d5/header.jpg?t=1794386513",
-      "genres": [
-        "Action",
-        "Casual",
-        "Indie"
-      ],
-      "playerModes": [
-        "Single-player"
-      ],
-      "hardwareSupport": [
-        "Full controller support"
-      ],
-      "releaseDate": "Aug 20, 2026",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/cae46f7fb28752c42102b47cd33fbced3b49d723/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2766910/8f95b9be5cb5fa43ca802c35045eab30057533d5/library_header_2x.jpg",
-      "achievements": {
-        "total": 99,
-        "unlocked": 27,
-        "items": [
-          {
-            "apiName": "ACH_REROLL_7",
-            "name": "Next Item, Please",
-            "description": "You rerolled 7 or more times in a single run. Couldn't find anything you liked?",
-            "icon": "9eec92cc948d3ce643e98d270c1279405d4fba1a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794621822,
-            "globalPct": 51.9
-          },
-          {
-            "apiName": "ACH_SKIP_10",
-            "name": "Not My Taste",
-            "description": "You have skipped items 10 times in total.",
-            "icon": "ac337dc288000607dacc42a78a4afcde9ef5e515",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.7
-          },
-          {
-            "apiName": "ACH_DODGE_50",
-            "name": "Fifty-Fifty",
-            "description": "Your evasion chance has reached 50%.",
-            "icon": "b8ea1d86c7122d5a63f375448be92a98277c4e1d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 41.8
-          },
-          {
-            "apiName": "ACH_MYSTERY_20",
-            "name": "Enter the Unknown",
-            "description": "You have entered the mystery room 20 times. Curiosity got the better of you!",
-            "icon": "272b0656e5f0e774fdcb51c0db730ca18bd75baf",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 46.8
-          },
-          {
-            "apiName": "ACH_DIAGONAL_HIT",
-            "name": "The Moment We Waited For",
-            "description": "Were you really waiting for that diagonal hit?",
-            "icon": "c3c2e8954cd7712ad11ee17ee9100f06c5cab99d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.9
-          },
-          {
-            "apiName": "ACH_JACKPOT",
-            "name": "Jackshot Roulette",
-            "description": "You hit the jackpot at the gambling room. Beginner's luck is truly something else.",
-            "icon": "d34ee80196e2e1c215eaa2b933f70fd758581814",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.6
-          },
-          {
-            "apiName": "ACH_ZERO_MAXHP_CLEAR",
-            "name": "Not Even Half-Life",
-            "description": "You've cleared a level with 0 maximum health. (Any stage/difficulty)",
-            "icon": "18de30d88d00f819b9450e6218e3d0724860284c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.9
-          },
-          {
-            "apiName": "ACH_DEVIL_SHOP",
-            "name": "Have a Nice Deal",
-            "description": "You purchased an item using HP at the devil's shop. Are you sure it was worth it?",
-            "icon": "5783f1cfdd82db0ceaffbe5798205ff80e3aa483",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794618885,
-            "globalPct": 65.7
-          },
-          {
-            "apiName": "ACH_CONQUEROR_1",
-            "name": "Conqueror I",
-            "description": "You've defeated 500 monsters. Congratulations.",
-            "icon": "1950629b17b1785c008877cf3ceab168552ef92d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794616600,
-            "globalPct": 91.6
-          },
-          {
-            "apiName": "ACH_CONQUEROR_2",
-            "name": "Conqueror II",
-            "description": "You've defeated 1,000 monsters. Congratulations.",
-            "icon": "8fa64ffa0874a2bb72c548b0ba71f1e6e6f0eed9",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794616899,
-            "globalPct": 88.5
-          },
-          {
-            "apiName": "ACH_CONQUEROR_3",
-            "name": "Conqueror III",
-            "description": "You've defeated 5,000 monsters. Congratulations.",
-            "icon": "4a055053102cc346c2d9134f948c11c5e3064bd7",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794621172,
-            "globalPct": 68.6
-          },
-          {
-            "apiName": "ACH_CONQUEROR_4",
-            "name": "Conqueror IV",
-            "description": "You've defeated 20,000 monsters. Congratulations.",
-            "icon": "bffdce27c36b297ed5c7645f5551c285861d0f66",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 35.8
-          },
-          {
-            "apiName": "ACH_CONQUEROR_5",
-            "name": "Conqueror V",
-            "description": "You've defeated 50,000 monsters. Congratulations.",
-            "icon": "5526ea4ede335c3a374624ea242d71e65d0ba8f3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.9
-          },
-          {
-            "apiName": "ACH_VETERAN_1",
-            "name": "Veteran I",
-            "description": "You've leveled up 10 times. Well done!",
-            "icon": "82e708708d6a018b376b0cf5df5fb6ae487ecc76",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794616600,
-            "globalPct": 96.8
-          },
-          {
-            "apiName": "ACH_VETERAN_2",
-            "name": "Veteran II",
-            "description": "You've leveled up 30 times. Well done!",
-            "icon": "f9cf196bac40f56ba85a2c4fa70fcaa00dc98547",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794618271,
-            "globalPct": 88.2
-          },
-          {
-            "apiName": "ACH_VETERAN_3",
-            "name": "Veteran III",
-            "description": "You've leveled up 100 times. Well done!",
-            "icon": "dcaa10cf5ceff9b7cfb6f7f04fe4965cc825b065",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794622148,
-            "globalPct": 65.5
-          },
-          {
-            "apiName": "ACH_VETERAN_4",
-            "name": "Veteran IV",
-            "description": "You've leveled up 300 times. Well done!",
-            "icon": "48e005b8a9c5434554a83f2453144be46709c3f5",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.4
-          },
-          {
-            "apiName": "ACH_VETERAN_5",
-            "name": "Veteran V",
-            "description": "You've leveled up 500 times. Well done!",
-            "icon": "c38c55fbcec5afbd81894a7394e70f4b8cf3ccfc",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 16.1
-          },
-          {
-            "apiName": "ACH_RUNNER_1",
-            "name": "Runner I",
-            "description": "You've completed 1 run. Great job!",
-            "icon": "556a9c90902eae73a5cd756a57bfbac9d40c832b",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794616899,
-            "globalPct": 95.1
-          },
-          {
-            "apiName": "ACH_RUNNER_2",
-            "name": "Runner II",
-            "description": "You've completed 5 runs. Great job!",
-            "icon": "0b4135c8c32cb3439ff5c0191ca1ee03b2eac45a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 54.1
-          },
-          {
-            "apiName": "ACH_RUNNER_3",
-            "name": "Runner III",
-            "description": "You've completed 10 runs. Great job!",
-            "icon": "5fdf12850eeb6f2a491f1d02520adfc31b5c4b85",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 25.9
-          },
-          {
-            "apiName": "ACH_RUNNER_4",
-            "name": "Runner IV",
-            "description": "You've completed 25 runs. Great job!",
-            "icon": "7d666cc20ea5b51c79e90bf6dd5272a38b8eac3f",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 3.8
-          },
-          {
-            "apiName": "ACH_RUNNER_5",
-            "name": "Runner V",
-            "description": "You've completed 50 runs. Great job!",
-            "icon": "57729c1ee4991799beed8ccb37d2a4c315bf0982",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.4
-          },
-          {
-            "apiName": "ACH_LOCKSMITH_1",
-            "name": "Locksmith I",
-            "description": "You've opened 10 chests. What was inside?",
-            "icon": "4210308f4aaa4c3d626a996d3595b2aeb5a1a966",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794618271,
-            "globalPct": 86.2
-          },
-          {
-            "apiName": "ACH_LOCKSMITH_2",
-            "name": "Locksmith II",
-            "description": "You've opened 30 chests. What was inside?",
-            "icon": "104b4034f87aee518dd87bdf68c0411da5629515",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794620793,
-            "globalPct": 70.3
-          },
-          {
-            "apiName": "ACH_LOCKSMITH_3",
-            "name": "Locksmith III",
-            "description": "You've opened 50 chests. What was inside?",
-            "icon": "fb2c0e82579c9d7d557e3e46e35d145f84097c42",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 59.1
-          },
-          {
-            "apiName": "ACH_LOCKSMITH_4",
-            "name": "Locksmith IV",
-            "description": "You've opened 100 chests. What was inside?",
-            "icon": "48bc50e277ec27de31976a0217d798207e8b47d1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 39.7
-          },
-          {
-            "apiName": "ACH_LOCKSMITH_5",
-            "name": "Locksmith V",
-            "description": "You've opened 300 chests. What was inside?",
-            "icon": "1625423d37c3cdf3fb0b71d3401658696904a0d7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.3
-          },
-          {
-            "apiName": "ACH_SPECIALIST_1",
-            "name": "Specialist I",
-            "description": "You've successfully completed 5 contracts. Leave anything to me!",
-            "icon": "d6992b66a2bd8fc122dc1a99e8e189a091bf6daf",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794618271,
-            "globalPct": 77.1
-          },
-          {
-            "apiName": "ACH_SPECIALIST_2",
-            "name": "Specialist II",
-            "description": "You've successfully completed 10 contracts. Leave anything to me!",
-            "icon": "b2f425a95a41461003a66da213a81eb9575edc50",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794621172,
-            "globalPct": 61.4
-          },
-          {
-            "apiName": "ACH_SPECIALIST_3",
-            "name": "Specialist III",
-            "description": "You've successfully completed 25 contracts. Leave anything to me!",
-            "icon": "c3b921b3f65f6bd862adc867d61d4eb1ae82bf29",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.8
-          },
-          {
-            "apiName": "ACH_SPECIALIST_4",
-            "name": "Specialist IV",
-            "description": "You've successfully completed 50 contracts. Leave anything to me!",
-            "icon": "02a5b7d137ddf13cd272547744b674e7c7394519",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.7
-          },
-          {
-            "apiName": "ACH_SPECIALIST_5",
-            "name": "Specialist V",
-            "description": "You've successfully completed 100 contracts. Leave anything to me!",
-            "icon": "e66d73ffda79644c4fadce617c056f484e550910",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2
-          },
-          {
-            "apiName": "ACH_DEVIL_MAY_HEART_1",
-            "name": "Devil May Heart I",
-            "description": "You've offered more than 10 Hearts to the devil at the Devil's Shop.",
-            "icon": "02ad52f30799a562c66917c2dd22eb493ea480a4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 41.5
-          },
-          {
-            "apiName": "ACH_DEVIL_MAY_HEART_2",
-            "name": "Devil May Heart II",
-            "description": "You've offered more than 20 Hearts to the devil at the Devil's Shop.",
-            "icon": "fa93acfedbbc1e0ca50e2e560410d1a4897fadcb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 24.7
-          },
-          {
-            "apiName": "ACH_DEVIL_MAY_HEART_3",
-            "name": "Devil May Heart III",
-            "description": "You've offered more than 30 Hearts to the devil at the Devil's Shop.",
-            "icon": "9b2880f6c0453e871e4ccca5cbf73dabd91f4c07",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.8
-          },
-          {
-            "apiName": "ACH_DEVIL_MAY_HEART_4",
-            "name": "Devil May Heart IV",
-            "description": "You've offered more than 50 Hearts to the devil at the Devil's Shop.",
-            "icon": "ee79e171b5b5366a15424a3a3adf526f398c1e7d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.4
-          },
-          {
-            "apiName": "ACH_DEVIL_MAY_HEART_5",
-            "name": "Devil May Heart V",
-            "description": "You've offered more than 100 Hearts to the devil at the Devil's Shop.",
-            "icon": "358fe091d69180de81e123dac764c89583dd32e5",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 1.7
-          },
-          {
-            "apiName": "ACH_VAST_UNIVERSE_1",
-            "name": "Vast Universe Trainee Cleaner",
-            "description": "You've cleared Level 1 of the Vast Universe stage. Congratulations!",
-            "icon": "5f94812c6bf9e6b77b117b6224028147a2c8453c",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794615342,
-            "globalPct": 95.6
-          },
-          {
-            "apiName": "ACH_VAST_UNIVERSE_2",
-            "name": "Vast Universe Skilled Cleaner",
-            "description": "You've cleared Level 5 or higher of the Vast Universe stage. Perfect!",
-            "icon": "80561ce4107f9237525f91b1090c95e6ebc3e954",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 26.6
-          },
-          {
-            "apiName": "ACH_NIGHT_THRILL_PARK_1",
-            "name": "Night Thrill Park Trainee Cleaner",
-            "description": "You've cleared Level 1 of the Night Thrill Park stage. Congratulations!",
-            "icon": "5048f856c596360ecb26bde9f780ce31f10ab247",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794619742,
-            "globalPct": 74.9
-          },
-          {
-            "apiName": "ACH_NIGHT_THRILL_PARK_2",
-            "name": "Night Thrill Park Skilled Cleaner",
-            "description": "You've cleared Level 5 or higher of the Night Thrill Park stage. Perfect!",
-            "icon": "ec49dba6619aaea5cb2c7c8af7b57410299d4e87",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.1
-          },
-          {
-            "apiName": "ACH_MISCHIEVOUS_ATTIC_1",
-            "name": "Mischievous Attic Trainee Cleaner",
-            "description": "You've cleared Level 1 of the Mischievous Attic stage. Congratulations!",
-            "icon": "9eec0a9797e88e8b66958279a59427475ebbc6ad",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794622148,
-            "globalPct": 58.1
-          },
-          {
-            "apiName": "ACH_MISCHIEVOUS_ATTIC_2",
-            "name": "Mischievous Attic Skilled Cleaner",
-            "description": "You've cleared Level 5 or higher of the Mischievous Attic stage. Perfect!",
-            "icon": "5c5d93e158b6cb3722413720c5a75d08472fadc1",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.1
-          },
-          {
-            "apiName": "ACH_PENGUIN_JOURNEY_1",
-            "name": "The Penguin's Journey",
-            "description": "You've cleared a stage as Peng.",
-            "icon": "a0ea9a3fe3609949edb410374da664fe03d05fef",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794616899,
-            "globalPct": 92.3
-          },
-          {
-            "apiName": "ACH_PENGUIN_JOURNEY_2",
-            "name": "The Penguin's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Peng.",
-            "icon": "3d1ed51ba6784b54cceda66cd07625eb7cb36a0c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 12.9
-          },
-          {
-            "apiName": "ACH_CROCODILE_JOURNEY_1",
-            "name": "The Crocodile's Journey",
-            "description": "You've cleared a stage as Croco.",
-            "icon": "c34bd6837924762ce2d383ada6012da76e34ec9e",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794619742,
-            "globalPct": 60.9
-          },
-          {
-            "apiName": "ACH_CROCODILE_JOURNEY_2",
-            "name": "The Crocodile's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Croco.",
-            "icon": "bb8eba600735db5f4be29897adf4575176f0efe5",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13
-          },
-          {
-            "apiName": "ACH_WALRUS_JOURNEY_1",
-            "name": "The Walrus's Journey",
-            "description": "You've cleared a stage as Wal.",
-            "icon": "33e2e23917153885da44de0252f0e939ad5312b6",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 18.8
-          },
-          {
-            "apiName": "ACH_WALRUS_JOURNEY_2",
-            "name": "The Walrus's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Wal.",
-            "icon": "9385a0e224b76da03e5d4f55ba8c6cfdc0f3cc88",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.2
-          },
-          {
-            "apiName": "ACH_POLAR_BEAR_JOURNEY_1",
-            "name": "The Polar Bear's Journey",
-            "description": "You've cleared a stage as Pola.",
-            "icon": "7de7cc1f482f4cccfe859071135143b15a9037e4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 30.6
-          },
-          {
-            "apiName": "ACH_POLAR_BEAR_JOURNEY_2",
-            "name": "The Polar Bear's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Pola.",
-            "icon": "01421b69165bdc977cb6d710486c83497b5ae6d7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.5
-          },
-          {
-            "apiName": "ACH_SEA_OTTER_JOURNEY_1",
-            "name": "The Sea Otter's Journey",
-            "description": "You've cleared a stage as Otter.",
-            "icon": "cd383fb1c1ef4e922206ae3e5172683ffec0702d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 45.8
-          },
-          {
-            "apiName": "ACH_SEA_OTTER_JOURNEY_2",
-            "name": "The Sea Otter's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Otter.",
-            "icon": "b4a94b26a7bc92ef4a07f9ab946535682558ef16",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.2
-          },
-          {
-            "apiName": "ACH_MOOSE_JOURNEY_1",
-            "name": "The Moose's Journey",
-            "description": "You've cleared a stage as Mosi.",
-            "icon": "f98464ec26d8318c6b33ac6a5b65eb9a82785852",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 17.3
-          },
-          {
-            "apiName": "ACH_MOOSE_JOURNEY_2",
-            "name": "The Moose's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Mosi.",
-            "icon": "a6e217e22c24f9e347c4e07846bb651042a8529d",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.9
-          },
-          {
-            "apiName": "ACH_TURTLE_JOURNEY_1",
-            "name": "The Turtle's Journey",
-            "description": "You've cleared a stage as Tleto.",
-            "icon": "694a4bcff2bff6e0ee8a433a58ad218fdc202678",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 15.3
-          },
-          {
-            "apiName": "ACH_TURTLE_JOURNEY_2",
-            "name": "The Turtle's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Tleto.",
-            "icon": "90f9b3ad8f3ebd26b8709f9d7afd070b65fae737",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "ACH_PLATYPUS_JOURNEY_1",
-            "name": "The Platypus's Journey",
-            "description": "You've cleared a stage as Platy.",
-            "icon": "a640a726bfe345c54cc3224099ce6e9b23f89860",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 20.5
-          },
-          {
-            "apiName": "ACH_PLATYPUS_JOURNEY_2",
-            "name": "The Platypus's Great Journey",
-            "description": "You've cleared a stage at Level 5 or higher as Platy.",
-            "icon": "e809159d4a223a2f39b16267a5cd00920acac0dd",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.2
-          },
-          {
-            "apiName": "ACH_HOCKEY_PUCK_AMATEUR",
-            "name": "Hockey Puck Amateur",
-            "description": "You've cleared a stage using POWER PLAYER PUCK-12.",
-            "icon": "59358f42300e8412c0f14ef79c9a2f3e7b3d250a",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794619742,
-            "globalPct": 86
-          },
-          {
-            "apiName": "ACH_HOCKEY_PUCK_PRO",
-            "name": "Hockey Puck Pro",
-            "description": "You've cleared a stage at Level 5 or higher using POWER PLAYER PUCK-12.",
-            "icon": "39719fc1a63595a0e57ce8214867b773d2271dcc",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 13.6
-          },
-          {
-            "apiName": "ACH_REVOLVER_AMATEUR",
-            "name": "Revolver Amateur",
-            "description": "You've cleared a stage using RECOIL JONES.",
-            "icon": "84a865b41d5e2987fb3182ba4beff183fc32b6ba",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794622149,
-            "globalPct": 64.4
-          },
-          {
-            "apiName": "ACH_REVOLVER_PRO",
-            "name": "Revolver Pro",
-            "description": "You've cleared a stage at Level 5 or higher using RECOIL JONES.",
-            "icon": "43f2325b9e630d0aa56ca5d582b90347e88ea4f4",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 14.2
-          },
-          {
-            "apiName": "ACH_DAGGER_AMATEUR",
-            "name": "Dagger Amateur",
-            "description": "You've cleared a stage using SNAP-EDGE ALPHA.",
-            "icon": "993b7f5783daa1c347c05949af1f93f3e5ea0965",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.1
-          },
-          {
-            "apiName": "ACH_DAGGER_PRO",
-            "name": "Dagger Pro",
-            "description": "You've cleared a stage at Level 5 or higher using SNAP-EDGE ALPHA.",
-            "icon": "ba07785c79300308d7ea3c8a6107bf0096c22983",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.9
-          },
-          {
-            "apiName": "ACH_FUGU_CHEF_AMATEUR",
-            "name": "Amateur Fugu Chef",
-            "description": "You've cleared a stage using BLOW QUISH.",
-            "icon": "4898833fadea7ef1404216125cbd76ce71192e3d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794616899,
-            "globalPct": 59.9
-          },
-          {
-            "apiName": "ACH_FUGU_CHEF_PRO",
-            "name": "Pro Fugu Chef",
-            "description": "You've cleared a stage at Level 5 or higher using BLOW QUISH.",
-            "icon": "58629f1bdc2a070dada4320fbe536999b56bace2",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.8
-          },
-          {
-            "apiName": "ACH_SPELL_BOOK_AMATEUR",
-            "name": "Spellbook Amateur",
-            "description": "You've cleared a stage using Understanding Magic 101.",
-            "icon": "b65a39fda5dafdc24ba3a1c0fb3c5f87294efa98",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 41.9
-          },
-          {
-            "apiName": "ACH_SPELL_BOOK_PRO",
-            "name": "Spellbook Pro",
-            "description": "You've cleared a stage at Level 5 or higher using Understanding Magic 101.",
-            "icon": "bd79a17860830f221b8eab11016b22ba9ea2e71a",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 11.2
-          },
-          {
-            "apiName": "ACH_CHERRY_BOMB_AMATEUR",
-            "name": "Cherry Bomb Amateur",
-            "description": "You've cleared a stage using Cherry Boom Deluxe.",
-            "icon": "8d110b62a8ce770286bf9da862cb6c800b431406",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.1
-          },
-          {
-            "apiName": "ACH_CHERRY_BOMB_PRO",
-            "name": "Cherry Bomb Pro",
-            "description": "You've cleared a stage at Level 5 or higher using Cherry Boom Deluxe.",
-            "icon": "9efd49685e8a308b157defeb2b30eba849230bfb",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.6
-          },
-          {
-            "apiName": "ACH_PAINT_BUCKET_AMATEUR",
-            "name": "Paint Bucket Amateur",
-            "description": "You've cleared a stage using ChromaTone-Matte.",
-            "icon": "4a40b1fb35b575e2dd0bffc912decd69d4bf8cf6",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 22.3
-          },
-          {
-            "apiName": "ACH_PAINT_BUCKET_PRO",
-            "name": "Paint Bucket Pro",
-            "description": "You've cleared a stage at Level 5 or higher using ChromaTone-Matte.",
-            "icon": "9e00724ae5b12adeeb6915b22b8fe5b281e03121",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 10.8
-          },
-          {
-            "apiName": "ACH_HEADSET_AMATEUR",
-            "name": "Headset Amateur",
-            "description": "You've cleared a stage using Howlin’ Hi-Fi-66.",
-            "icon": "c3ae0fceeea29d9d86691b1fa2298405abd60ca0",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 32.5
-          },
-          {
-            "apiName": "ACH_HEADSET_PRO",
-            "name": "Headset Pro",
-            "description": "You've cleared a stage at Level 5 or higher using Howlin’ Hi-Fi-66.",
-            "icon": "d3b85eb15341972fe981ae55006e980a613193b7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 8.9
-          },
-          {
-            "apiName": "ACH_HYPER_CAPACITY",
-            "name": "Hyper Capacity",
-            "description": "You've experienced Hyper Capacity for the first time.",
-            "icon": "5c2ed519a85dfd4cb745c65012775e57fcd46571",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794615798,
-            "globalPct": 97.8
-          },
-          {
-            "apiName": "ACH_FIRST_DECEASED",
-            "name": "The First Deceased",
-            "description": "You've died for the first time.",
-            "icon": "f19e7e23f2122d91eecd3f4317f108e6e950869d",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794618271,
-            "globalPct": 87.1
-          },
-          {
-            "apiName": "ACH_PENGTAGON",
-            "name": "The Pengtagon",
-            "description": "You've unlocked 5 characters.",
-            "icon": "97bf109c1a9edfa0eeed2fb75a4060da27f073a7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 42.4
-          },
-          {
-            "apiName": "ACH_WEAPONTAGON",
-            "name": "The Weapontagon",
-            "description": "You've unlocked 5 weapons.",
-            "icon": "0080124c86821f879e9364db59d83bd6da22bc62",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794621172,
-            "globalPct": 69.1
-          },
-          {
-            "apiName": "ACH_FINAL_FORM",
-            "name": "This Is My Final Form",
-            "description": "You've maxed out an upgrade.",
-            "icon": "7d1b610b2a2d920114a1c349e789e3301a4c87ba",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 52.2
-          },
-          {
-            "apiName": "ACH_PENGUIN_REPLACED",
-            "name": "The Penguin Was Replaced",
-            "description": "You remained stationary for 10 seconds during combat on Wave 10 or later. (Any stage/difficulty)",
-            "icon": "9d98191ec7e47b83e40599831aa2d310dbb168ae",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 36.4
-          },
-          {
-            "apiName": "ACH_ANIMAL_SPIRITS",
-            "name": "Animal Spirits",
-            "description": "You've survived 3 waves with 1 or less combined health.",
-            "icon": "8bb0dc4c4fb85c4f3fb877e97e4a4ba5d0a2d684",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 9.5
-          },
-          {
-            "apiName": "ACH_TEN_LIVES",
-            "name": "Ten Lives",
-            "description": "You've reached 10 maximum health.",
-            "icon": "c1d79e615f5a4901245f24016002b180f73127bf",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 40.2
-          },
-          {
-            "apiName": "ACH_CRITICAL_JUICE",
-            "name": "100% Critical Juice",
-            "description": "You've reached a 100% critical hit chance.",
-            "icon": "b043c2d28f637d50be9779d4dbbe6a4a8ccfbbff",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794619622,
-            "globalPct": 41.3
-          },
-          {
-            "apiName": "ACH_NEED_MORE_SPEED",
-            "name": "Need for More Speed",
-            "description": "You've reached 60% bonus movement speed.",
-            "icon": "f42dae70820196bd8a1b1c7712737e4612600ea8",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 53.5
-          },
-          {
-            "apiName": "ACH_ONE_SHOT",
-            "name": "OneShot",
-            "description": "You've reduced your maximum health to 1 without having any Glass Hearts.",
-            "icon": "4449d9e7087896572b1b6c25159296469f35d934",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 7.8
-          },
-          {
-            "apiName": "ACH_MAGICIAN",
-            "name": "Magician",
-            "description": "Both items from the Four-Dimensional Pocket were Legendary. What kind of magic did you use?",
-            "icon": "653f5e695967408284c5b15e19846d64866ee816",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 2.4
-          },
-          {
-            "apiName": "ACH_EXPEDITION_PENGUIN",
-            "name": "Expedition Penguin",
-            "description": "You've obtained the French Mime costume. Tomorrow Comes!",
-            "icon": "45fa8e7d8218335e60fcac1938c60d1b5caa5939",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 25.2
-          },
-          {
-            "apiName": "ACH_USUAL_SUSPECTS",
-            "name": "The Usual Suspects",
-            "description": "You've obtained 2 Suspicious Items in a single run.",
-            "icon": "ae6a2c64d43ed96f560bde9c11fe2eebc67fdf3c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.2
-          },
-          {
-            "apiName": "ACH_ELITE_HUNTER",
-            "name": "Elite Hunter",
-            "description": "You've encountered a total of 3 Elite Monsters in a single run. I never back down from a fight!",
-            "icon": "d8687be01aa73e3c3d6d788dd3aabf5fb7a88070",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794616600,
-            "globalPct": 40.9
-          },
-          {
-            "apiName": "ACH_MARATHON",
-            "name": "Marathon",
-            "description": "You've reached Wave 44 in Endless Mode. You can't go any further. Probably?",
-            "icon": "4486ae3cb8bb763b38e157859de8a8d895a31d15",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 46.8
-          },
-          {
-            "apiName": "ACH_BUYING_A_ROUND",
-            "name": "Buying a Round",
-            "description": "You've obtained every existing item at least once. The mole is finally free from his job.",
-            "icon": "eef8747e25c57fc6a8d35e3c3eec6576a8666969",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 0.4
-          },
-          {
-            "apiName": "ACH_PENNY_BLOOD",
-            "name": "Penny Blood",
-            "description": "During the blood donation event in an Unknown Room, your blood was valued at just 1 Chip. What a rip-off!",
-            "icon": "5d2a6196e557d90bb89e6790004e1c651f61fae7",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 39.1
-          },
-          {
-            "apiName": "ACH_WHERE_DID_MY_COINS_GO",
-            "name": "Where Did My Chips Go?",
-            "description": "You lost all your Chips at once on the roulette wheel in the Gambling Room. It always ends with you going broke.",
-            "icon": "7bbd2a688ef8be754bec3c092bfc7c8ce0b7bb18",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 22.9
-          },
-          {
-            "apiName": "ACH_BREAKING_FATE",
-            "name": "Breaking Fate",
-            "description": "You destroyed the roulette machine by striking it in the Gambling Room.",
-            "icon": "59f5d23724630830ba05d26eda885a34af05f15c",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 16.9
-          },
-          {
-            "apiName": "ACH_SLAY_THE_MOLE",
-            "name": "Slay the Mole",
-            "description": "You defeated the mole in the Devil's Shop. So who's the devil now?",
-            "icon": "3407b3a221dafb8405b236556a17a44ed8371415",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 4
-          },
-          {
-            "apiName": "ACH_TEN_SECONDS_TILL_BOSSLESS",
-            "name": "Ten Seconds Till Bossless",
-            "description": "You've defeated a boss monster within 10 seconds. (Any stage/difficulty)",
-            "icon": "2504846d3c760740d342767cb3d0944841b06436",
-            "hidden": false,
-            "unlocked": true,
-            "unlockTime": 1794619031,
-            "globalPct": 40.8
-          },
-          {
-            "apiName": "ACH_UNTOUCHABLE",
-            "name": "Untouchable",
-            "description": "You've cleared the game without taking any damage from monsters. (Any stage/difficulty)",
-            "icon": "8fce5e4b76e7f602cc49d17e2cc105d8347093a3",
-            "hidden": false,
-            "unlocked": false,
-            "unlockTime": 0,
-            "globalPct": 6.2
           }
         ]
       }
@@ -370791,7 +370791,7 @@
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058200/4f22fbeebd25ff8b5d7b04a5d211a9a094a31078/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1058200/b7b2af0e3e6070ec589589dc04691c970de5e038/library_header_2x.jpg",
       "achievements": {
-        "total": 1010,
+        "total": 1036,
         "unlocked": 0
       }
     },
@@ -388708,7 +388708,7 @@
       "dateAdded": 1560418467,
       "priority": 224,
       "name": "Dying Light 2 Stay Human: Reloaded Edition",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1793884576",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1795608834",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/5b75126ece6e937bda12bf5f802647c30d7a2801/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/361f974102857da0d3ad6e6d5a85b7b52be59b6e/library_header_2x.jpg"
     },
@@ -388933,7 +388933,7 @@
       "dateAdded": 1617377627,
       "priority": 0,
       "name": "Lost Words: Beyond the Page",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599610/header.jpg?t=1770316953",
+      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599610/header.jpg?t=1795697982",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599610/library_600x900_2x.jpg"
     },
     {
@@ -389487,7 +389487,7 @@
       "dateAdded": 1513676746,
       "priority": 374,
       "name": "Rumu",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/header.jpg?t=1719898076",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/723270/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/723270/library_header.jpg"
     },
@@ -389496,7 +389496,7 @@
       "dateAdded": 1542817871,
       "priority": 375,
       "name": "Protocol",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/header.jpg?t=1772625495",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/724490/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724490/library_600x900_2x.jpg"
     },
     {
@@ -389504,7 +389504,7 @@
       "dateAdded": 1601992285,
       "priority": 0,
       "name": "Overcrowd: A Commute 'Em Up",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/header.jpg?t=1772571372",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726110/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726110/library_600x900_2x.jpg"
     },
     {
@@ -389512,7 +389512,7 @@
       "dateAdded": 1630055890,
       "priority": 0,
       "name": "City Game Studio: Your Game Dev Adventure Begins",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/87c8f6901c5fc151b8b9bbb452cfcc21aee211c8/header.jpg?t=1795510915",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/726840/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/967c9748ab92537731b85e06302b3586a4e0a0e4/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/726840/f0bc98220b4dbb35d505112bf2a15b99ecd9c9cd/library_header_2x.jpg"
     },
@@ -389521,7 +389521,7 @@
       "dateAdded": 1628456341,
       "priority": 0,
       "name": "App 727930",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/header.jpg?t=1751545238",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/727930/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/727930/library_600x900_2x.jpg"
     },
     {
@@ -389561,7 +389561,7 @@
       "dateAdded": 1538501315,
       "priority": 392,
       "name": "Mega Man 11",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1787717265",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/library_600x900_2x.jpg"
     },
     {
@@ -389663,7 +389663,7 @@
       "dateAdded": 1541535283,
       "priority": 407,
       "name": "Kynseed",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/header.jpg?t=1784301962",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/758870/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/2264f976adb24ef5ad0f6163cfd0288db8f7fd17/library_header_2x.jpg"
     },
@@ -389756,7 +389756,7 @@
       "dateAdded": 1552579673,
       "priority": 418,
       "name": "Workers & Resources: Soviet Republic",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg?t=1795530249",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/784150/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/library_header.jpg"
     },
@@ -391506,7 +391506,7 @@
       "dateAdded": 1594461422,
       "priority": 0,
       "name": "Horizon Zero Dawn™ Complete Edition",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg?t=1776465788",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1151640/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/library_600x900_2x.jpg"
     },
     {
@@ -391522,7 +391522,7 @@
       "dateAdded": 1718473496,
       "priority": 0,
       "name": "JDM: Japanese Drift Master",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/b6a27f79fd6d83e4644478946e9a9af92dc6e3b4/header_alt_assets_8.jpg?t=1795510428",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1153410/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/46bf7ea0ae821de08933ad66e94458ac5bb7b1a2/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1153410/016294c36d475a93fa656b8a99edf9a1e9ab8635/library_header_2x.jpg"
     },
@@ -391651,7 +391651,7 @@
       "dateAdded": 1661387873,
       "priority": 0,
       "name": "Necesse",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/4b2e7f5253b4595a523e5c8b27a8ea6214e14ac6/header_alt_assets_5.jpg?t=1795531087",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1169040/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/f951103ede12401e1e1a1048d18113c68885bce6/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1169040/9749f3d8e8f189a712bb784255f98327de72a283/library_header_2x.jpg"
     },
@@ -391669,7 +391669,7 @@
       "dateAdded": 1661368114,
       "priority": 0,
       "name": "Dune: Awakening",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/header.jpg?t=1793636917",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172710/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/a831468f7e9c5ff7cd83b154257947d1190a4138/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/library_header_2x.jpg"
     },
@@ -391854,7 +391854,7 @@
       "dateAdded": 1706037081,
       "priority": 0,
       "name": "Enshrouded",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/731368301f231d622bd0b1e34afd2afcd86a1dcf/header.jpg?t=1792078032",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/0f641453e3418029205a49c1960e5ae5cb1ce382/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/7463bf9e7ae568705788f0d8091a54bb9dfaa3fe/library_header_2x.jpg"
     },
@@ -391904,7 +391904,7 @@
       "dateAdded": 1771856174,
       "priority": 0,
       "name": "Blind Descent",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/2a78b2ad9dbc443e4d8df15e49be792e64a01287/header.jpg?t=1795558080",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1209970/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/8e4624dfb1dd6f870693bfb31ffac79852425e1d/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1209970/d82d354f1bfee9c3dfbe4e379fe70cc160c21912/library_header_2x.jpg"
     },
@@ -395303,7 +395303,7 @@
       "dateAdded": 1675803342,
       "priority": 0,
       "name": "A Sister's Journey",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/b34d8b71b0bb56b0856dbdf217de7ed6cc342445/header.jpg?t=1794037505",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1730790/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1730790/b34d8b71b0bb56b0856dbdf217de7ed6cc342445/library_header_2x.jpg"
     },
@@ -395926,8 +395926,8 @@
       "priority": 0,
       "name": "Shredders",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1874170/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874170/daa61adf84a11bf5f36fd5678b5e73163bf574a4/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874170/b9b0505f30148bdbefa43fdcf05f865cef5861ec/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874170/5b238f136938f95e88281e3acc1ed3a7b0456f41/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1874170/36c2a583f647fb650bc2212b6df7728a7ad99195/library_header_2x.jpg"
     },
     {
       "appId": 1876590,
@@ -400384,8 +400384,8 @@
       "priority": 0,
       "name": "The Spell Brigade",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2904000/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904000/cf2b8ee73db800966acdf05c2a7e0a9bac41f66a/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904000/ef8f6a434fbdfaa2937ff83adf90b8ffde102ccf/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904000/8512057b4cbd245737d74bf0bbcc478ff10c6cef/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904000/c0d486d416483141406331bd9831794693860115/library_header_2x.jpg"
     },
     {
       "appId": 2917940,
@@ -400732,7 +400732,7 @@
       "dateAdded": 1772267812,
       "priority": 0,
       "name": "Planet of Lana II",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/7712fdf6cd6531709c16920f8b20b6ee146ac9f8/header.jpg?t=1790232891",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/2997230/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/dddf44df737b40b79693b84a858a9c34535e2bc1/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2997230/7712fdf6cd6531709c16920f8b20b6ee146ac9f8/library_header_2x.jpg"
     },
@@ -401423,7 +401423,7 @@
       "dateAdded": 1760570381,
       "priority": 0,
       "name": "Escape from Duckov 逃离鸭科夫",
-      "headerUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/header.jpg?t=1788419722",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3167020/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/495690605e6e484c2200f8be245d070d88f2ecf3/library_600x900_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3167020/dfc102ffaddb7a491fe8719f531f741fe5b53b57/library_header_2x.jpg"
     },
@@ -401989,8 +401989,8 @@
       "priority": 0,
       "name": "App 3280240",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3280240/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280240/3d6844a232e65f22c95040c606c94c582e551b27/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280240/b5a2cc4f8d3f9244b31c32906697d7c28f3d8174/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280240/6f5e8b20f76fb530b0ec3ecbfcba8e819cd59ffd/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280240/5986646f2705f04d0b88ff19d37c6c0704b8c58b/library_header_2x.jpg"
     },
     {
       "appId": 3280350,
@@ -402124,8 +402124,8 @@
       "priority": 0,
       "name": "Trash Day",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3314580/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/2b8d05de5ac9c4e7b5093d72ff892f9a9005dcb2/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/6d7cb32debcbdba122624fae234c659cdff2b4bf/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/8568fac5db0976e24e98b9d2abb5d152ed379537/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314580/1374e7fb0574d7bb74f35ebbb965a9ca5e0fa19a/library_header_2x.jpg"
     },
     {
       "appId": 3321460,
@@ -403024,8 +403024,8 @@
       "priority": 0,
       "name": "Goobies 2",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3565090/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565090/0080bad13e18a119ea2bea8e68c597a94a1b21bc/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565090/d0ce5e87d9ca09950ff7bcb81c61669f2afdfbeb/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565090/d4fe88d260a1550d8a5483e12ef1c82ea8c5f1ab/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3565090/e7cfe249bcd49cda85b59103b2a84a6260535c8b/library_header_2x.jpg"
     },
     {
       "appId": 3566720,
@@ -404300,7 +404300,7 @@
       "priority": 0,
       "name": "Cursed Words: The Word Game That Isn't",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/3856460/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856460/4a9a7c91043a4d99df9c4a403f73c679e496fe58/library_capsule_2x.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856460/fea18825585a1f961465812e2f78f5b27928262f/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856460/4d2116d1e131266b682444c8bb6966c96794788b/library_header_2x.jpg"
     },
     {
@@ -404804,8 +404804,8 @@
       "priority": 0,
       "name": "Iron Blight",
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4001350/header.jpg",
-      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001350/01f11ae556272f25bada1c36673486ef49587ec3/library_capsule_2x.jpg",
-      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001350/ccd8528176b5197e093108a9ffa154c9e659a7e1/library_header_2x.jpg"
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001350/d31112f9945c2277defc19f2250bfa152d4e529a/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4001350/26db13c0a6e3222a3e4a45bb3e255ed7e6804b0d/library_header_2x.jpg"
     },
     {
       "appId": 4001890,
@@ -407586,6 +407586,86 @@
       "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5534570/header.jpg",
       "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534570/b734632f5449c5e14ccd7cbec4850e16ac628d04/library_capsule_2x.jpg",
       "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534570/f37eaed5e2e4c64d723d6448a7f9f5b1a0afeac0/library_header_2x.jpg"
+    },
+    {
+      "appId": 1162860,
+      "dateAdded": 1795616163,
+      "priority": 0,
+      "name": "Keepsake County",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1162860/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1162860/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1162860/5074576ede9740b502dc67f615e91712173ba95b/library_header_2x.jpg"
+    },
+    {
+      "appId": 1969370,
+      "dateAdded": 1795635905,
+      "priority": 0,
+      "name": "LEGO® Party!",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1969370/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969370/c63c47363a0624867ba5ffcea865b449911b5cad/library_600x900_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969370/bdd135d96ca368b1e1cb4f221052adcd0cfbff61/library_header_2x.jpg"
+    },
+    {
+      "appId": 1731460,
+      "dateAdded": 1795635920,
+      "priority": 0,
+      "name": "LEGO® Brawls",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1731460/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1731460/library_600x900_2x.jpg"
+    },
+    {
+      "appId": 4167640,
+      "dateAdded": 1795645969,
+      "priority": 0,
+      "name": "Horde of Distraction",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4167640/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4167640/a0615e61717e0db76a3082b02c2e79b4bfa125e9/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4167640/d329b583564c12dbcaa974d05a9c2e2f21022349/library_header_2x.jpg"
+    },
+    {
+      "appId": 4921760,
+      "dateAdded": 1795679767,
+      "priority": 0,
+      "name": "App 4921760",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4921760/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4921760/b2e1ea51b208661858d58e45fee3444935a88721/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4921760/54b7d427668c3d073853251d990ec3d6c195171d/library_header_2x.jpg"
+    },
+    {
+      "appId": 4691990,
+      "dateAdded": 1795680009,
+      "priority": 0,
+      "name": "App 4691990",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4691990/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4691990/9fe97a9d95646c93ba3c02ee551c82d61cb2acf0/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4691990/a10d5b4bf38851f840b82b4ecf6ce87a15d42b28/library_header_2x.jpg"
+    },
+    {
+      "appId": 5061200,
+      "dateAdded": 1795680395,
+      "priority": 0,
+      "name": "App 5061200",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5061200/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061200/961430113242b6572bfcd4a420b7190d08f3b927/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061200/b6bf35011461b5519f090fd5df65ddfb1b0591cc/library_header_2x.jpg"
+    },
+    {
+      "appId": 5348660,
+      "dateAdded": 1795725119,
+      "priority": 0,
+      "name": "App 5348660",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/5348660/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5348660/aec0193ea055bb38b7fe894a43c1128befff3a72/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5348660/2249fe49173b782703692c025998085abd298d38/library_header_2x.jpg"
+    },
+    {
+      "appId": 4370210,
+      "dateAdded": 1795734898,
+      "priority": 0,
+      "name": "App 4370210",
+      "headerUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/4370210/header.jpg",
+      "libraryCapsuleUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4370210/b24af8e4f62f3c8c20b7102952eafff4df1e645c/library_capsule_2x.jpg",
+      "libraryHeaderUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4370210/e50aa4e8bbe598a9f5b8d9c8890dbf4ddbb5e078/library_header_2x.jpg"
     }
   ]
 }
